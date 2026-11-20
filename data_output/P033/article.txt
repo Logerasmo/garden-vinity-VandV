@@ -1,0 +1,772 @@
+--- Страница 1 ---
+      nanomaterials
+
+
+
+Article
+Preparation of Nickel Oxide Nanoﬂakes for Carrier Extraction
+and Transport in Perovskite Solar Cells
+
+Chih-Yu Chang 1, You-Wei Wu 1, Sheng-Hsiung Yang 1,*  and Ibrahim Abdulhalim 2
+
+
+                                            1   Institute of Lighting and Energy Photonics, College of Photonics, National Yang Ming Chiao Tung University,
+                                 No. 301, Section 2, Gaofa 3rd Road, Guiren District, Tainan 71150, Taiwan
+                                            2  Department of Electro-Optics and Photonics Engineering and the Ilse Katz Institute for Nanoscale Science and
+                                      Technology, School of Electrical and Computer Engineering, Ben-Gurion University of the Negev,
+                                     Beer-Sheva 8410501, Israel
+                                     *   Correspondence: yangsh@nycu.edu.tw
+
+
+                                Abstract: Hole transport layers (HTLs) with high conductivity, charge extraction ability, and carrier
+                                 transport capability are highly important for fabricating perovskite solar cells (PSCs) with high power
+                              conversion efﬁciency and device stability. Low interfacial recombination between the HTL and
+                               perovskite absorber is also crucial to the device performance of PSCs. In this work, we developed a
+                                  three-stage method to prepare NiOx nanoﬂakes as the HTL in the inverted PSCs. Due to the addition
+                                 of the nanoﬂake layer, the deposited perovskite ﬁlms with larger grain sizes and fewer boundaries
+                           were obtained, implying higher photogenerated current and ﬁll factors in our PSCs. Meanwhile, the
+                             downshifted valence band of the NiOx HTL improved hole extraction from the perovskite absorber
+                         and open-circuit voltages of PSCs. The optimized device based on the NiOx nanoﬂakes showed
+                               the highest efﬁciency of 14.21% and a small hysteresis, which outperformed the NiOx thin ﬁlm as
+                               the HTL. Furthermore, the device maintained 83% of its initial efﬁciency after 60 days of storage.
+                        Our results suggest that NiOx nanoﬂakes provide great potential for constructing PSCs with high
+                               efﬁciency and long-term stability.
+Citation: Chang, C.-Y.; Wu, Y.-W.;
+Yang, S.-H.; Abdulhalim, I.          Keywords: nickel oxide; hole transport layer; nanoﬂakes; carrier extraction; inverted perovskite
+Preparation of Nickel Oxide           solar cells
+Nanoﬂakes for Carrier Extraction and
+
+Transport in Perovskite Solar Cells.
+
+Nanomaterials 2022, 12, 3336. https://
+doi.org/10.3390/nano12193336         1. Introduction
+
+Academic Editor: Efrat Lifshitz           Organometallic halide perovskites have drawn a lot of attention owing to their high
+                          molar extinction coefﬁcient, broad light absorption range, long diffusion length, and tunable
+Received: 28 August 2022
+                       bandgap [1–5]. Furthermore, the cost-effective solution processability makes perovskite
+Accepted: 22 September 2022
+                              solar cells (PSCs) a good candidate for next-generation solar cells [6,7]. Developments inPublished: 25 September 2022
+                            perovskite absorbers and carrier transport materials, as well as the progress in fabrication
+Publisher’s Note: MDPI stays neutral   techniques, gradually boost the performance of PSCs. Recently PSCs have been recognized
+with regard to jurisdictional claims in   worldwide for their record power conversion efﬁciency (PCE) of over 25% [8].
+published maps and institutional afﬁl-      The device architecture of PSCs is usually categorized into two types, i.e., traditional
+iations.
+                            planar (n-i-p) and inverted (p-i-n) structures [9,10]. So far, most of the record-breaking PSCs
+                         have been constructed with the traditional n-i-p structure using compact and mesoporous
+                          TiO2 layers as the electron transport layer (ETL), which provide good electron extraction
+                       and transport capabilities [11–13]. The existence of the mesoporous layer is consideredCopyright: © 2022 by the authors.
+Licensee MDPI, Basel,  Switzerland.   to enlarge the interfacial electron/hole separation zone, thereby improving the device’s
+This article is an open access article   efﬁciency. However, the severe current density–voltage (J–V) hysteresis usually occurs for
+distributed  under  the  terms  and   PSCs with the n-i-p structure, which limits the power output of the device [14,15]. On the
+conditions of the Creative Commons   contrary, PSCs with the p-i-n structure are found to possess little or even negligible hystere-
+Attribution (CC BY) license (https://   sis due to the enhanced hole extraction and transport in this kind of device structure [16].
+creativecommons.org/licenses/by/    Furthermore, it is reported that holes in perovskites have a shorter diffusion length than
+4.0/).                           electrons, which can be compensated in the p-i-n device structure [17,18]. Besides, the
+
+
+
+
+
+Nanomaterials 2022, 12, 3336. https://doi.org/10.3390/nano12193336                           https://www.mdpi.com/journal/nanomaterials
+--- Страница 2 ---
+Nanomaterials 2022, 12, 3336                                                                                                     2 of 15
+
+
+
+                             inverted structure offers the advantage of low-temperature processability, thereby reducing
+                         manufacturing cost and particularly bringing compatibility with ﬂexible substrates to
+                        expand the diversity of photovoltaic cells. Adopting a suitable hole transport layer (HTL) is
+                           extremely important for p-i-n PSCs, which can decrease the loss of photogenerated currents
+                       and prevent charge recombination at the HTL/perovskite interface.
+                               Conventional organic polymers such as poly(3,4-ethylenedioxythiophene): polystyre-
+                           nesulfonate (PEDOT:PSS) [19–21], poly [bis (4-phenyl) (2,4,6-trimethylphenyl) amine]
+                       (PTAA)  [22], and poly [(9,9-dioctylﬂuorenyl-2,7-diyl)-co-(4,4′-(N-(4-sec-butylphenyl)
+                           diphenylamine)] (TFB) [23], have been utilized as the HTL for manufacturing inverted PSCs.
+                            Despite the high photovoltaic performance of PSCs, the relatively high price and instability
+                             of organic polymers under continuous solar irradiation hinder the commercialization of
+                       PSCs using organic HTLs. In contrast, inorganic HTLs, including NiOx [24–26], CuOx [27],
+                       and CuSCN [28], are promising alternatives to construct PSCs with high efﬁciency and
+                           environmental stability. Among them, naturally abundant NiOx has been largely utilized as
+                             the HTL in inverted PSCs. The replacement of organic HTLs with inorganic ones can bring
+                              better stability and minimize charge loss. To further facilitate the development of NiOx-
+                          based devices, superior hole mobility, as well as carrier extraction ability, is crucial for NiOx
+                         HTLs. Based on a literature survey, we realize that most of the recent works have focused on
+                           metal ion-doped NiOx with improved conductivity for better device performance [29–31];
+                          however, ionic doping of the NiOx HTLs is considered to cause lattice disorder and defects
+                               that may result in decreased carrier mobility and parasite recombination [32]. Therefore, it
+                                     is of great scientiﬁc interest to develop high-quality NiOx HTLs for the fabrication of PSCs
+                          without ionic doping. Different NiOx nanostructures have been proposed and utilized as
+                            the HTL in inverted PSCs. Yin et al. demonstrated NiOx nanoparticles by a solvothermal
+                       method [33], which was spin-cast into thin ﬁlm from a colloid precursor solution and
+                          annealed at 300 ◦C to serve as an efﬁcient HTL. Hysteresis-less PSCs based on the NiOx
+                   HTL showed a high PCE of 16.68% and a steady-state efﬁciency of 16.49%. Song, Xiong,
+                        and their co-workers proposed the NiO nanotube nanoforest as an efﬁcient hole extraction
+                              layer [34]. The mesoporous architecture supplies highly conductive pathways for effective
+                           hole extraction and inhibits charge recombination at the interface. The optimized device
+                             exhibited a high efﬁciency of 18.77% and retained 79% of its initial PCE after a three-step ag-
+                            ing period of 600 h. In 2020, they reported a NiO nanowall ﬁlm via a one-step hydrothermal
+                       method and thermal annealing at 350 ◦C [35]. The prepared NiO nanowall ﬁlm exhibited
+                          a dense and mesoporous structure which ameliorated the contact at the perovskite/NiO
+                              interface and passivated interfacial defects. An optimal PCE of 17.8% was obtained, and
+                                          it was further augmented to 19.16% by introducing a diethanolamine interlayer on the
+                    NiO nanowall ﬁlm. Our group reported the nanoporous NiOx layer via the chemical
+                          bath deposition in 2021 [36]. The sponge-like nanostructure helps to grow high-quality
+                            perovskite ﬁlms and improves carrier extraction from the perovskite absorber. The device
+                      showed a moderate PCE of 13.43% and maintained 80% of its initial PCE after 50 days of
+                               storage. In addition to the above literature, Hong and his co-workers also reported inverted
+                        PSCs based on compact or nanoporous NiOx with a PCE of 15.35–19.1% [37,38]. It is worth
+                          developing NiOx HTL with different mesoporous nanostructures for applications in PSCs
+                              to pursue high efﬁciency and environmental stability.
+                                 In this work, we demonstrate NiOx nanoﬂakes by the three-stage method using ZnO
+                          nanorods as a sacriﬁcial template. We have a lot of research experience in synthesizing ZnO
+                         nanorods for the construction of photovoltaic and light-emitting devices. It is well known
+                              that ZnO can be etched by strong bases such as sodium hydroxide (NaOH) or potassium
+                            hydroxide. We presume that mesoporous NiOx can be formed on top of ZnO nanorods; by
+                           chemical etching with a strong base, the uncovered ZnO could be removed, and new NiOx
+                            nanostructures might be obtained. Therefore, we performed the experiment and obtained
+                       NiOx nanoﬂakes with different dimensions successfully, which was conﬁrmed through SEM
+                        and AFM observations. The schematic illustration of the preparation of NiOx nanoﬂakes is
+                           depicted in Figure 1. In the step (1), ZnO nanorods were grown on the FTO substrate by
+--- Страница 3 ---
+Nanomaterials 2022, 12, 3336                                                                                                     3 of 15
+
+
+
+                             the hydrothermal method. In the step (2), a mesoporous NiOx layer was established on top
+                             of ZnO nanorods by the chemical bath deposition. In the step (3), ZnO was removed by
+                          chemical etching and consequently NiOx nanoﬂakes were formed. The NiOx nanoﬂakes
+                         were utilized as the efﬁcient HTL for fabricating inverted PSCs. The enhanced hole mobility
+                       and electrical conductivity of the obtained NiOx nanoﬂakes facilitate interfacial charge
+                               transfer and reduce carrier recombination compared with the NiOx thin ﬁlm. The sponge-
+                                like structure is favorable for hole extraction and charge dissociation. In addition, an
+                               ultrathin PTAA ﬁlm was inserted between NiOx nanoﬂakes HTL and the perovskite ﬁlm to
+                               effectively passivate interfacial defects and increase device performance. The optimized
+                             inverted PSC based on the NiOx nanoﬂakes HTL exhibited superior long-term stability and
+                           possessed 83% of its initial efﬁciency over 60 days of storage.
+
+
+
+
+
+                              Figure 1. Schematic illustration of the preparation of NiOx nanoﬂakes.
+
+                                   2. Experimental Section
+                                   2.1. Materials
+                             The patterned fluorine-doped tin oxide (FTO, 7 Ω/square)-coated substrates were provided
+                         by LiveStrong Optoelectronics Technology Co., Ltd. (Kaohsiung, Taiwan). Zinc acetate dihydrate
+                          (Zn(OAc)2•2H2O, purity 98–101%), nickel acetate tetrahydrate (Ni(OAc)2•4H2O, purity 98+%),
+                        and nickel chloride (NiCl2, purity 99%) were bought from Alfa Aesar (Ward Hill, MA, USA).
+                           Zinc sulfate heptahydrate (ZnSO4•7H2O, purity 99.5%) and potassium persulfate (K2S2O8,
+                            purity 98%) were purchased from Showa (Tokyo, Japan). Perovskite precursors, including
+                           lead bromide (PbBr2, purity 98+%) and cesium iodide (CsI, purity 99.9%), were brought
+                         from Alfa Aesar. Lead iodide (PbI2, purity 99.9985%), ethanolamine (purity 99%), and tetra-
+                       butylammonium tetraﬂuoroborate (TBABF4, purity 98%) were purchased from Acros (Geel,
+                           Belgium). Methylammonium bromide (MABr, purity 99.5%) and formamidinium iodide
+                             (FAI, purity 98%) were brought from STAREK Scientiﬁc Co., Ltd. (Kaohsiung, Taiwan)
+                       and Lumtec (Hsinchu, Taiwan), respectively. Poly [bis (4-phenyl) (2,4,6- trimethylphenyl)
+                          amine] (PTAA, molecular weight 6000–15,000 g/mol), polyethyleneimine (PEI, molecular
+                         weight 25,000 g/mol), and [6,6]-phenyl-C61-butyric acid methyl ester (PC61BM, purity
+                        99%) were bought from Xi’an Polymer Light Technology Corp. (Shaanxi, China), Sigma-
+                          Aldrich (St. Louis, MO, USA), and Solenne B. V. (Groningen, The Netherlands), respec-
+                                  tively. Other organic solvents were received from Acros or Alfa Aesar and used without
+                             further puriﬁcation.
+
+                                   2.2. Preparation of NiOx Thin Films and Nanoﬂakes
+                             To prepare NiOx thin films, a precursor solution consisting of Ni(OAc)2•4H2O (0.124 mg)
+                       and ethanolamine (30 µL) in 5 mL of isopropyl alcohol (IPA) was heated at 70 ◦C with
+                                stirring in a sealed glass vial overnight. The precursor solution was then spin-coated on
+                            the FTO substrate, followed by calcination at 450 ◦C to obtain the NiOx thin ﬁlm.
+--- Страница 4 ---
+Nanomaterials 2022, 12, 3336                                                                                                     4 of 15
+
+
+
+                           The growth of ZnO nanorods on the FTO substrate was referred to in our previous
+                             report [39]. Afterward, mesoporous NiOx was formed on ZnO nanorods via the chemical
+                          bath deposition and chemical etching. The detailed preparation process of mesoporous
+                       NiOx is described as follows. The substrate was immersed in an aqueous solution contain-
+                           ing NiCl2 (777.4 mg), K2S2O8 (162.2 mg), and deionized (DI) water (150 mL), followed by
+                             transferring the solution into an oven and heating at 65 ◦C for 20 min for NiOx growth.
+                       The NiOx-covered substrate was then taken out and immersed in a 0.5 M NaOH aqueous
+                             solution for 30 min to remove ZnO nanorods. Finally, the substrate was rinsed with DI
+                             water, dried with nitrogen ﬂow, and calcined at 350 ◦C in a high-temperature oven for 1 h
+                              to obtain NiOx nanoﬂakes.
+
+                                   2.3. Device Fabrication
+
+                       FTO substrates were sequentially cleaned in detergent, DI water, acetone, and IPA
+                         under ultra-sonication for 15 min each, followed by UV-ozone treatment for 25 min before
+                             the growth of ZnO nanorods or the deposition of the NiOx thin ﬁlm. A thin PTAA layer was
+                           deposited on top of the NiOx thin ﬁlm or NiOx nanoﬂakes by spin-coating at 5000 rpm for
+                           60 s from its solution (0.5 mg/mL in toluene) and dried at 100 ◦C for 10 min. The perovskite
+                             layer was then deposited on top of the NiOx thin ﬁlm/PTAA or NiOx nanoﬂakes/PTAA,
+                           followed by the deposition of the PCBM+TBABF4 layer. The details for the preparation and
+                            deposition of the perovskite and PCBM+TBABF4 layers can be referred to in our previous
+                             report [36]. Afterward, 0.1 wt% of PEI in IPA was spin-coated on the PCBM+TBABF4 layer
+                                at 5000 rpm for 30 s. Finally, Ag electrodes (100 nm) were thermally evaporated at a high
+                      vacuum pressure of 6 × 10−6 torr. The effective area of each device is 4.5 mm2.
+
+                                   2.4. Characterization Methods
+
+                           The cross-sectional and top-view scanning electron microscopy (SEM) images of the
+                       NiOx thin ﬁlm and nanoﬂakes were obtained on an ultrahigh-resolution ZEISS AURIGA
+                        Crossbeam scanning electron microscope (Oberkochen, Germany). The energy disper-
+                             sive X-ray spectroscopy (EDS, Bruker Quantax, Billerica, MA, USA) spectra of samples
+                        were obtained on the same SEM instrument. The morphology and surface roughness of
+                            the NiOx thin ﬁlm and nanoﬂakes were measured with the tapping mode on a Bruker
+                         Innova atomic force microscope (AFM, Billerica, MA, USA). The transmission and ab-
+                            sorption spectra of the two NiOx samples were obtained from a Princeton Instruments
+                        Acton 2150 spectrophotometer (Acton, MA, USA). A xenon lamp (ABET Technologies LS
+                             150, Milford, CT, USA) was used as the excitation source. The ultraviolet photoelectron
+                           spectroscopy (UPS) experiments for the NiOx thin ﬁlm and nanoﬂakes were obtained
+                        from a Thermo VG-Scientiﬁc/Sigma Probe instrument (Waltham, MA, USA), using a
+                    He I discharge lamp (Berlin, Germany) as the excitation source (hν = 21.22 eV). X-ray
+                               diffraction (XRD) patterns and crystallinity of NiOx and perovskites were acquired on a
+                         Rigaku D/MAX2500 X-ray diffractometer (Tokyo, Japan). Elemental composition analysis
+                              of samples was performed on a Thermo K-Alpha X-ray photoelectron spectrometer (XPS,
+                         Waltham, MA, USA). The photoluminescence (PL) emission spectra of the perovskites on
+                             the FTO, PTAA, or different NiOx/PTAA layers were examined by a Princeton Instruments
+                         Acton 2150 spectrophotometer. A KIMMON KOHA He-Cd laser (Tokyo, Japan) with dou-
+                              ble excitation wavelengths (325/442 nm) was chosen as the light source. The time-resolved
+                     PL (TR-PL) signals were acquired on a time-correlated single-photon counting module
+                          (PicoQuant MultiHarp 150 4N, Berlin, Germany), combined with a photomultiplier tube
+                         through an Andor Kymera 328i spectrometer (Belfast, Northern Ireland, United Kindom.
+                        The excitation source for the TR-PL decay experiment is a pulsed laser (Omicron, Rodgau,
+                        Germany) at 473 nm. The J–V curves of the fabricated PSCs were acquired using a Keithley
+                          2400 source measuring unit (Beaverton, Oregon, USA) with a scan rate of 30 mV/s under
+               AM 1.5 G simulated sunlight exposure (Yamashita Denso YSS-150A, Tokyo, Japan, using a
+                           1000 W xenon short arc lamp). The devices were measured at 100 mW/cm2 intensity under
+                         ambient air. The external quantum efﬁciency (EQE), as well as integrated current density,
+--- Страница 5 ---
+Nanomaterials 2022, 12, 3336                                                                                                     5 of 15
+
+
+
+                      was obtained on an assembled system comprising a Keithley 2400 source measuring unit,
+                          a xenon lamp (ABET Technologies LS 150), and a monochromator (Prince Instruments
+                        Acton 2150).
+
+                                   3. Results and Discussion
+                                   3.1. Characterization of NiOx Thin Film and Nanoﬂakes
+                                 In this study, NiOx nanoﬂakes were prepared by the three-stage method, as revealed
+                             in Figure 1. In the ﬁrst stage, ZnO nanorods were grown on the FTO substrate by the
+                          hydrothermal method. In the second stage, the substrate was immersed in the Ni precursor
+                             solution to form a mesoporous NiOx layer on top of ZnO nanorods. In the third stage, the
+                       NiOx layer-covered substrate was immersed in a NaOH aqueous solution to remove ZnO
+                        by chemical etching, followed by high-temperature calcination to obtain NiOx nanoﬂakes.
+                        The morphological changes at different stages were investigated by SEM experiments, and
+                           corresponding SEM images are provided in Figure S1 in the Supporting Information. Short
+                        and compact ZnO nanorods were formed on the FTO surface via the hydrothermal method.
+                        Mesoporous NiOx was then formed on top of ZnO nanorods. After ZnO etching, a different
+                       NiOx nanostructure with less dense porosity was obtained.
+                               Figure 2 shows the top-view and cross-sectional SEM micrographs of the NiOx thin
+                      ﬁlm and nanoﬂakes. The NiOx thin ﬁlm was prepared according to the previous report for
+                         comparison [40]. A thin and dense NiOx layer was deposited on the surface of FTO, and
+                           low-lying FTO grains are clearly seen, as shown in Figure 2a. The thickness of the NiOx
+                             layer is estimated to be 30 nm in Figure 2c. As for the NiOx nanoﬂakes, the sponge-like
+                           nanostructure is observed, and the height of interconnecting networks is about 58 nm, as
+                           revealed in Figure 2b,d, respectively. We expect that NiOx nanoﬂakes with large surface
+                            areas are proﬁtable for the formation of high-quality perovskite layers. To verify the
+                             existence of Zn, we conducted an EDS analysis of the prepared NiOx nanoﬂakes, and the
+                           corresponding EDS spectrum is provided in Figure S2. It is seen that a small amount of Zn
+                          element exists in the NiOx nanoﬂakes. Figure S3 presents the topographic AFM images
+                             of the NiOx thin ﬁlm and nanoﬂakes, revealing similar morphologies to the top-view
+                   SEM images. The average surface roughness (Ra) of the NiOx thin ﬁlm and nanoﬂakes is
+                           estimated to be 16.2 and 27.5 nm, respectively.
+
+
+
+
+
+                              Figure 2. Top-view and cross-sectional SEM micrographs of the NiOx (a,c) thin film and (b,d) nanoflakes
+                              deposited on FTO substrates.
+--- Страница 6 ---
+Nanomaterials 2022, 12, 3336                                                                                                     6 of 15
+
+
+
+                                 Figure 3 shows the transmission and absorption spectra of the NiOx ﬁlm and nanoﬂakes
+                        from 300 to 750 nm. In Figure 3a, the prepared NiOx ﬁlm has a moderate transmittance
+                             of 60–80% from 350 to 460 nm and a higher transmittance of 80–90% from 460 to 750 nm.
+                           Moreover, the NiOx nanoﬂakes layer reveals a similar spectral line but lower transmittance
+                           than the NiOx ﬁlm. The lower transmittance of the NiOx nanoﬂakes can be ascribed to the
+                             thicker thickness of the nanoﬂakes layer that has been conﬁrmed by SEM. Nevertheless,
+                          our NiOx nanoﬂakes with moderate transmittance in the visible range can still be utilized
+                            as the HTL for incident light to enter devices and be absorbed by the perovskite layer. In
+                            Figure 3b, both the NiOx ﬁlm and nanoﬂakes possess similar absorption spectra, while the
+                                  latter has slightly higher absorbance due to the thicker layer. The optical bandgaps (Eg) of
+                            the NiOx thin ﬁlm and nanoﬂakes are approximated by their absorption edges at around
+                          350 nm to be 3.61 and 3.57 eV, respectively, which are in accordance with our previous
+                             reports [36,40].
+
+
+
+
+
+                              Figure 3. (a) Transmission and (b) absorption spectra of the NiOx thin ﬁlm and nanoﬂakes.
+
+                            The UPS spectra of the NiOx thin ﬁlm and nanoﬂakes displayed in Figure 4 to examine
+                         whether the energy levels of NiOx were altered due to different nanostructures. The high
+                           binding energy cutoff of the NiOx thin ﬁlm and nanoﬂakes in Figure 4a was determined at
+                             16.25 and 16.07 eV, respectively. The Fermi levels (EF) of the NiOx thin ﬁlm and nanoﬂakes
+                         were then calculated to be −4.97 and −5.15 eV, respectively, by subtracting the high binding
+                         energy cutoff from the He I photon energy (21.22 eV) [41]. In Figure 4b, the low binding
+                         energy cutoffs were found at 0.21 and 0.12 eV for the NiOx thin ﬁlm and nanoﬂakes,
+                               respectively. The valence band (VB) levels of the NiOx thin ﬁlm and nanoﬂakes were then
+                             calculated to be −5.18 and −5.27 eV, respectively, since the low binding energy cutoff
+                             indicates the energy difference between the EF and the VB. Therefore, the nanoﬂakes
+                              structure resulted in a favorable downward shift of the VB level, which is beneﬁcial to hole
+                              extraction from the perovskite layer to the NiOx HTL owing to better band alignment [40].
+                        The conduction band (CB) levels of the NiOx thin ﬁlm and nanoﬂakes were determined to
+                         be −1.57 and −1.7 eV, respectively, from their Eg values.
+                               Figure 5 shows the XRD patterns of the NiOx thin ﬁlm and nanoﬂakes on the FTO
+                               substrates. It is noted that seven labelled (*) peaks are originated from FTO. The NiOx thin
+                      ﬁlm has three diffraction peaks at 2θ = 38.9, 43.3, and 62.8◦, which correspond to the (111),
+                                (200), and (220) planes, respectively. After analyzing the XRD patterns, the formed NiOx
+                             thin ﬁlm is assigned to the cubic phase [42]. Moreover, the NiOx nanoﬂakes also possess
+                              three diffraction peaks at similar positions of 2θ = 38.9, 43.1, and 62.9◦, indicating that both
+                       NiOx thin ﬁlm and nanoﬂakes have the same crystalline structure. To further investigate
+                           Ni3+ and Ni2+ species in the NiOx thin ﬁlm and nanoﬂakes, XPS experiments were carried
+                              out, and the Ni 2p3/2 and O 1s signals are revealed in Figure 6. According to the previous
+                                literature [40,43], the multicomponent band of the Ni element was deconvoluted into
+                           four different states at 854.1 (Ni2+), 855.8 (Ni3+), 860.8 (Ni2+ satellite), and 863.7 eV (Ni3+
+                                    satellite). The Ni3+/Ni2+ ratios were then determined to be 1.19 and 1.49 for the NiOx thin
+--- Страница 7 ---
+Nanomaterials 2022, 12, 3336                                                                                                     7 of 15
+
+
+
+                      ﬁlm and nanoﬂakes from Figure 6a,b, respectively. The signiﬁcantly increased Ni3+/Ni2+
+                               ratio explains the fact that the NiOx nanoﬂakes layer has a higher hole transport ability
+                          than the NiOx thin ﬁlm. It is certain that higher Ni3+/Ni2+ ratio means a higher number
+                              of holes in the NiOx nanoﬂakes than in thin ﬁlm. The reason for the higher hole transport
+                                ability in the NiOx nanoﬂakes is described as follows. The higher Ni3+ concentration in
+                            the NiOx nanoﬂakes implies the existence of interstitial oxygen and Ni vacancies in the
+                               crystalline structure. Compared with the Ni2+, the higher valence Ni3+ means a lack of
+                         one electron that produces a hole carrier. These hole carriers can move through the crystal
+                       by hopping from the Ni3+ site to another one or by moving in a narrow polaron band,
+                              indicative of enhanced hole transport ability [40]. Figure 6c,d demonstrate the O 1s spectra
+                              of the NiOx thin ﬁlm and nanoﬂakes, respectively, which are deconvoluted into two states
+                                at 529.3 (from lattice oxygen) and 531.3 eV (from surface O–H groups) [43].
+
+
+
+
+
+                              Figure 4. UPS spectra of the NiOx thin ﬁlm and nanoﬂakes in the (a) high and (b) low binding
+                             energy region.
+
+
+
+
+
+                              Figure 5. XRD patterns of the NiOx thin ﬁlm and nanoﬂakes on the FTO substrates.
+--- Страница 8 ---
+Nanomaterials 2022, 12, 3336                                                                                                     8 of 15
+
+
+
+
+
+                              Figure 6. XPS spectra of Ni 2p3/2 and O 1s elements in the (a,c) NiOx thin ﬁlm and (b,d) nanoﬂakes.
+
+                                   3.2. Characterization of Perovskite Layers on NiOx
+                               Figure 7a,b show the cross-sectional SEM micrographs of the whole devices using
+                            the NiOx thin ﬁlm and nanoﬂakes as the HTL, respectively. The perovskite layer has a
+                            thickness of 550 nm on both NiOx. Moreover, the perovskite nanocrystals with larger
+                            grain sizes and fewer grain boundaries were obtained on the NiOx nanoﬂakes, meaning
+                              that fewer defects were produced as compared with the NiOx thin ﬁlm. Figure 7c,d
+                              reveal the top-view SEM micrographs of the perovskite on the NiOx ﬁlm/PTAA and NiOx
+                       nanoﬂakes/PTAA, respectively. It is noted that a thin PTAA layer was inserted between
+                      NiOx and the perovskite layer for the two samples. The grain size of the perovskite
+                          deposited on the NiOx thin ﬁlm/PTAA is observed to be 200–300 nm; besides, a larger
+                             grain size of 400–500 nm is obtained when deposited on the NiOx nanoﬂakes/PTAA. Apart
+                        from SEM observation, the AFM technique was also applied to investigate topologies
+                             of the perovskite on the NiOx ﬁlm/PTAA and NiOx nanoﬂakes/PTAA, as revealed in
+                           Figure S4. It is seen that the grains of the perovskite on the NiOx nanoﬂakes/PTAA look
+                               larger and more uniform than those on the NiOx thin ﬁlm/PTAA, which is consistent with
+                   SEM observation. As mentioned in the previous part, NiOx nanoﬂakes with a porous
+                           nanostructure are expected to serve as a template for high-quality perovskite deposition,
+                       which is conﬁrmed by SEM observation. Perovskite ﬁlms with larger grain sizes and
+                          fewer boundaries are useful for decreasing charge recombination and promoting carrier
+                              extraction from the perovskite absorber to charge transport layers. Figure 8 shows the XRD
+                            patterns of the perovskite Cs0.05FA0.81MA0.14Pb(Br0.15I0.85)3 on the NiOx thin ﬁlm/PTAA
+                        and NiOx nanoﬂakes/PTAA. Several diffraction peaks are located at 2θ = 14.02, 19.89, 24.43,
+                               28.29, 31.74, 34.90, 40.56, and 43.15◦, corresponding to the (001), (011), (111), (002), (012),
+                                 (112), (022), and (003) planes. The positions of these diffraction signals are in line with the
+                           previous literature [36,44]. We conclude that the formation of perovskite crystals was not
+                              affected by different low-lying NiOx nanostructures.
+--- Страница 9 ---
+Nanomaterials 2022, 12, 3336                                                                                                     9 of 15
+
+
+
+
+
+                              Figure 7. Cross-sectional SEM micrographs of PSCs based on the NiOx (a) thin ﬁlm and (b) nanoﬂakes
+                                as the HTL; top-view SEM micrographs of the perovskite deposited on the (c) NiOx thin ﬁlm/PTAA
+                          and (d) NiOx nanoﬂakes/PTAA.
+
+
+
+
+
+                              Figure 8. XRD patterns of the perovskite ﬁlms on the NiOx thin ﬁlm/PTAA and nanoﬂakes/PTAA.
+
+                           The absorption spectra of the perovskite on PTAA, NiOx thin ﬁlm/PTAA, and NiOx
+                       nanoﬂakes/PTAA are depicted in Figure S5, which look similar from 550 to 800 nm. The per-
+                             ovskite deposited on the NiOx nanoﬂakes/PTAA has the strongest absorbance among the
+                              three samples, which is favorable for improving JSC and the performance of PSCs. Figure 9a
+                       shows the PL emission spectra of the perovskite on the FTO, PTAA, NiOx ﬁlm/PTAA,
+                       and NiOx nanoﬂakes/PTAA. The PL emission of the four perovskite ﬁlms on different
+                             substrates is centered at 770 nm, which is in accordance with the previous report [45]. It
+                                    is seen that the perovskite exhibits the highest PL intensity on the FTO substrate. With
+                            the insertion of PTAA, the PL intensity of the perovskite is slightly lowered. Signiﬁcant
+--- Страница 10 ---
+Nanomaterials 2022, 12, 3336                                                                                                    10 of 15
+
+
+
+                     PL quenching is observed when depositing the perovskite on the NiOx ﬁlm/PTAA, in-
+                             dicative of carrier extraction at the perovskite and NiOx/PTAA interface. Moreover, the
+                            perovskite on the NiOx nanoﬂakes/PTAA shows even stronger PL quenching and the
+                           lowest PL intensity, implying more efﬁcient carrier extraction and reduced recombination
+                              that is helpful to improve the JSC of PSCs. To examine charge transfer at the interface
+                        between the perovskite and NiOx/PTAA, the TR-PL measurement was conducted, and
+                           corresponding TR-PL decay curves of the perovskite on the FTO, PTAA, NiOx ﬁlms/PTAA,
+                       and NiOx nanoﬂakes/PTAA are depicted in Figure 9b. It is seen that the perovskite on the
+                       NiOx nanoﬂakes/PTAA has the fastest PL decay among the four samples, revealing low
+                           recombination and efﬁcient charge separation [46,47]. The TR-PL decay curves agree well
+                         with a biexponential decay ﬁtting and correspond-ing fast-decay τ1, slow-decay τ2, and
+                          average lifetime (τavg) are listed in Table S1. The perovskite on the FTO, PTAA, NiOx thin
+                      ﬁlm/PTAA, and NiOx nanoﬂakes/PTAA has an average lifetime (τavg) of 139.5, 91, 72.3,
+                        and 53.3 ns, respectively. The TR-PL results are consistent with PL observation, indicating a
+                                faster charge transfer and more efﬁcient carrier extraction from the perovskite active layer
+                        by the NiOx nanoﬂakes/PTAA compared with the NiOx thin ﬁlm/PTAA.
+
+
+
+
+
+                              Figure 9. (a) PL emission spectra and (b) TR-PL decay curves of the perovskite on the FTO glass
+                                  substrate, PTAA, NiOx thin ﬁlm/PTAA, and NiOx nanoﬂakes/PTAA.
+
+                                   3.3. Device Evaluation of PSCs
+
+                            The p-i-n devices with the structure of FTO/NiOx thin ﬁlm or nanoﬂakes/PTAA/Cs0.05
+                          (MA0.85FA0.15)0.95Pb(Br0.15I0.85)3/PCBM+TBABF4/PEI/Ag were constructed and evalu-
+                              ated. The active area of each device is 4.5 mm2. In our previous reports, the incorporation
+                             of TBABF4 in PCBM could improve electron transport ability at the perovskite/PCBM
+                               interface [40,48]. In addition, PEI was employed as an interfacial layer to improve electron
+                             extraction between PCBM and metal electrodes [49]. Figure 10a shows the energy level
+                         diagram of the whole PSC. The VB and CB levels of the NiOx thin ﬁlm and nanoﬂakes are
+                            estimated and listed in the Section 3.1, while the energy levels of the remaining layers are re-
+                              ferred to in the previous reports [48–50]. In our designed device, electrons can be migrated
+                         smoothly from the perovskite absorber to the Ag electrode through PCBM+TBABF4/PEI.
+                       At the same time, dissociated holes are transported from the perovskite absorbing layer
+                             to the FTO electrode through NiOx stepwise. Furthermore, a downshifted VB level of
+                            the NiOx nanoﬂakes HTL will lead to higher VOC values. The J–V curves of PSCs in the
+                         forward and reverse directions under AM 1.5 G illumination are displayed in Figure 10b,
+                       and the several photovoltaic parameters including VOC, JSC, FF, PCE, series resistance
+                                (RS), and shunt resistance (RSh) are listed in Table 1. The champion PSC using the NiOx
+                         nanoﬂakes HTL has a VOC of 0.99 V in the reverse scan, a JSC of 20.5 mA/cm2, a FF of 70%,
+                       and a PCE of 14.21%, which is signiﬁcantly better than the device based on the NiOx thin
+                      ﬁlm (JSC = 19.1 mA/cm2, VOC = 0.94 V, FF = 66%, and PCE = 11.88%). The performance
+                        enhancement is mainly attributed to the augmented JSC and VOC. For comparison, the
+                           device using bare PTAA as the HTL was also fabricated and evaluated. The correspond-
+--- Страница 11 ---
+Nanomaterials 2022, 12, 3336                                                                                                    11 of 15
+
+
+
+                           ing J–V curves in both scanning directions are provided in Figure S6a, revealing a JSC of
+                             16.14 mA/cm2, a VOC of 0.95 V, a FF of 60%, and a PCE of 9.1% in the reverse scan. The PCE
+                              of the device based on bare PTAA is even lower in the forward scan (8.6%). We conclude
+                              that the incorporation of NiOx HTLs is effective in enhancing the device performance of
+                          PSCs. In the early stage of this study, we utilized a sole NiOx thin ﬁlm or nanoﬂakes
+                            as the HTL for fabricating PSCs and received lower device performance (PCE = 10.41%
+                              for NiOx thin ﬁlm and 12.44% for NiOx nanoﬂakes). The J–V characteristics of devices
+                          without PTAA are provided in Figure S6b,c. According to the previous literature [51], we
+                              realized that a thin layer of PTAA can be inserted between NiOx and the perovskite layer
+                             to improve carrier transport ability and photovoltaic properties. Therefore, PTAA was
+                           incorporated into all devices, and higher device performance was received. Moreover,
+                       PSCs using the NiOx nanoﬂakes HTL exhibited smaller hysteresis than those based on the
+                       NiOx thin ﬁlm. It is reported that the hysteresis effect originates from charge accumulation
+                                at the interface, high defect density, and/or unbalanced charge transport in PSCs [52]. The
+                               hysteresis index (HI) is proposed as HI = (PCEreverse—PCEforward)/PCEreverse [53], which is
+                            estimated to be 0.077 and 0.017 for PSCs based on the NiOx thin ﬁlm and NiOx nanoﬂakes,
+                               respectively. The hysteresis phenomenon is eliminated by reducing surface defects of
+                              perovskites, which has been discussed in the previous section. Apart from reduced defects,
+                       more balanced charge transport in the NiOx nanoﬂakes-based device is also responsible for
+                          a smaller hysteresis effect. To investigate charge transport behaviors, additional devices,
+                      FTO/NiOx thin ﬁlm or nanoﬂakes/Ag and FTO/PCBM+TBABF4/PEI/Ag, were fabricated
+                       and compared. The corresponding current-voltage characteristics are depicted in Figure
+                             S7a.  It is seen that the hole-only device FTO/ NiOx nanoﬂakes/Ag shows very close
+                            conductivity to the electron-only device FTO/PCBM+TBABF4/PEI/Ag, indicative of bal-
+                         anced charge transport for reducing hysteresis. The hole mobility (µh) is derived from the
+                           equation J = (9/8)εε0µh (V2/L3) [54], and the plot ln(JL3/V2) versus electric ﬁeld (V/L)0.5
+                                    is displayed in Figure S7b. The calculated µh of the NiOx thin ﬁlm and nanoﬂakes are
+                              2.58 × 10−3 and 3.42 × 10−3 cm2/Vs, respectively, implying that the PSC using the NiOx
+                        nanoﬂakes HTL may have a higher JSC value. The reduced charge recombination is also
+                             responsible for the augmented JSC, as described in the PL emission and TR-PL decay parts.
+                              Besides, the VOC of the device using the NiOx nanoﬂakes HTL is larger than that using the
+                       NiOx thin ﬁlm as the HTL, which is conﬁrmed by the downshifted VB level. To verify the
+                              reproducibility of our PSCs, the statistical distribution of the four device parameters from
+                          20 individual PSCs is depicted in Figure S8. All devices possessed good reproducibility,
+                       and those PSCs based on the NiOx nanoﬂakes exhibited relatively higher photovoltaic
+                          performance. Figure 10c reveals the EQE spectra of devices using the NiOx thin ﬁlm or
+                        nanoﬂakes as the HTL and their integrated current density as a function of wavelength.
+                       The results show that the NiOx nanoﬂakes-based device has higher photon-to-electron
+                           conversion efﬁciency from 300 to 800 nm than the NiOx thin ﬁlm. The integrated current
+                            density of devices based on the NiOx thin ﬁlm and nanoﬂakes was calculated to be 19.1
+                        and 20.7 mA/cm2, respectively, which are close to their JSC in Table 1. As mentioned in the
+                            Section 3.1, the transmittance of the NiOx nanoﬂakes is somewhat lower than that of the
+                       NiOx thin ﬁlm. However, device performance is determined by many factors, not only the
+                            transmittance of charge transport layers. The SEM results conﬁrm that perovskite layers
+                         with larger grains and fewer grain boundaries can be obtained on the NiOx nanoﬂakes,
+                          reducing charge recombination in the boundaries. Therefore, the Jsc and EQE of devices
+                         based on the NiOx nanoﬂakes are higher compared with the thin ﬁlm. Although the best
+                     PCE of our device is moderate (~14%) compared with conventional silicon-based solar cells,
+                         our PSCs have several advantages, such as simple solution process, low manufacturing
+                                 cost, and feasibility of large-area panels. Besides, less environmental pollution is produced
+                         during the manufacturing process of PSCs. In addition to the device efﬁciency, device
+                                  stability of PSCs should also be considered as another important factor for real application.
+                       The unencapsulated PSCs were stored in a nitrogen glove box at 25 ◦C and measured
+                             in ambient air. After 60 days, the PSC using the NiOx nanoﬂakes maintained 83% of its
+--- Страница 12 ---
+Nanomaterials 2022, 12, 3336                                                                                                    12 of 15
+
+
+
+                              original efﬁciency, while the one based on the NiOx thin ﬁlm retained 75% of its initial
+                    PCE value, as shown in Figure 10d. The potential mechanism for the improved stability
+                             of the NiOx nanoﬂakes devices can be explained as follows. The SEM result conﬁrms
+                              that perovskite ﬁlms with larger grains and fewer grain boundaries can be produced on
+                            the NiOx nanoﬂakes. High-quality perovskite absorbers guarantee device performance
+                       and prevent short-term degradation of devices during storage. In 2020, Di Girolamo et al.
+                            reported the comparison of NiO nanoﬂakes by anodic electrodeposition and NiO ﬁlms by
+                               sol-gel process [55]. They claimed that the morphology of the perovskite grown on top
+                             of electrodeposited NiO and sol-gel NiO was very similar. In this study, we proposed a
+                               different method to obtain NiOx nanoﬂakes. We found that upper perovskites with larger
+                             grains and fewer boundaries were formed compared with the NiOx thin ﬁlm. Additionally,
+                           device stability tests were carried out, and the PSC based on the NiOx nanoﬂakes showed
+                               better stability during storage. We conclude that the NiOx nanoﬂakes can serve as a better
+                   HTL for PSCs with improved performance and stability.
+
+
+
+
+
+                              Figure 10. (a) Energy level diagram, (b) J–V characteristics, (c) EQE spectra and integrated current
+                                  density, and (d) normalized PCE evolution of devices based on the NiOx thin ﬁlm and nanoﬂakes.
+
+
+                             Table 1. Device performance of inverted PSCs based on different NiOx HTLs.
+
+                Scan         JSC a              a              a        Best PCE a   Avg PCE b     RS a        RSh a NiOx HTL                      VOC  (V)    FF  (%)                Direction    (mA/cm2)                                (%)          (%)       (Ω·cm2)     (kΩ·cm2)
+
+                                                                                              10.4
+              Forward        18.4           0.93          64           10.96                         7.42           0.67                                                                                      (σ = 0.3)
+   thin ﬁlm
+                                                                                              11.4
+                Reverse         19.1           0.94          66           11.88                         7.24           0.78                                                                                     (σ = 0.33)
+
+                                                                                              13.7
+              Forward        20.5           0.99          68           13.96                         5.85           1.36                                                                                     (σ = 0.15)
+  nanoﬂakes
+                                                                                              13.9
+                Reverse         20.8           0.99          69           14.21                         5.67           1.53                                                                                     (σ = 0.17)
+
+                                            a The values were acquired from the champion device based on different HTLs. b Data were obtained from
+                                 20 devices. σ: standard deviation.
+--- Страница 13 ---
+Nanomaterials 2022, 12, 3336                                                                                                    13 of 15
+
+
+
+                                   4. Conclusions
+
+                      We developed a three-stage method to prepare NiOx nanoﬂakes as the efﬁcient HTL
+                               for inverted PSCs. The nanostructured NiOx exhibited high transmittance, good electrical
+                             conductivity, and matched energy level alignment, which led to effective hole extraction
+                        and transport. The perovskite ﬁlm deposited on NiOx nanoﬂakes had larger grain sizes and
+                          fewer boundaries, implying higher photogenerated current and fewer defects. Moreover,
+                         reduced PL intensity and shortened carrier lifetime reveal lower charge recombination,
+                        which is beneﬁcial for photovoltaic application. The inverted device using NiOx nanoﬂakes
+                    HTL showed a hysteresis-less behavior and a promising efﬁciency of 14.21%. After 60 days
+                              of storage, the PSC based on NiOx nanoﬂakes HTL maintained 83% of its initial PCE value.
+                      Our results demonstrate the great potential of the NiOx nanoﬂakes for the development of
+                              efﬁcient and stable inverted PSCs.
+
+
+                           Supplementary Materials: The following are available online at https://www.mdpi.com/article/10
+                              .3390/nano12193336/s1, Figure S1: Cross-sectional and top-view SEM images of (a,d) ZnO nanorods,
+                                     (b,e) mesoporous NiOx before ZnO etching, and (c,f) NiOx nanoﬂakes after ZnO etching, Figure S2:
+                      EDS spectrum of the NiOx nanoﬂakes, Figure S3: AFM topographic images of the NiOx (a) thin
+                        ﬁlm and (b) nanoﬂakes, Figure S4: AFM topographic images of the perovskite on the (a) NiOx thin
+                       ﬁlm/PTAA and (b) NiOx nanoﬂakes/PTAA, Figure S5: Absorption spectra of the perovskite on PTAA,
+                          NiOx thin ﬁlm/PTAA, and NiOx nanoﬂakes/PTAA, Figure S6: J–V characteristics of the device using
+                      PTAA as the HTL, Figure S7: (a) Current-voltage characteristics of hole-only devices FTO/NiOx thin
+                        ﬁlm or nanoﬂakes/Ag and electron-only device FTO/PCBM+TBABF4/PEI/Ag; (b) hole mobility
+                                 of the NiOx thin ﬁlm or nanoﬂakes versus electric ﬁeld (V/L)0.5, Figure S8: Performance variation
+                              represented as a standard box plot in (a) PCE, (b) JSC, (c) FF, and (d) VOC from 20 devices based on
+                               the NiOx thin ﬁlm and nanoﬂakes in the forward and reverse scans. Table S1. Lifetime parameters
+                                 of TR-PL curves of the perovskite on the FTO substrate, PTAA, NiOx thin ﬁlm/PTAA, and NiOx
+                          nanoﬂakes/PTAA.
+
+                           Author Contributions: Conceptualization, Y.-W.W. and S.-H.Y.; methodology, C.-Y.C. and Y.-W.W.;
+                                  validation, S.-H.Y.; formal analysis, C.-Y.C. and Y.-W.W.; investigation, C.-Y.C.; resources, S.-H.Y. and
+                                      I.A.; writing—original draft preparation, C.-Y.C.; writing—review & editing, S.-H.Y.; supervision,
+                                    S.-H.Y.; project administration, S.-H.Y. All authors have read and agreed to the published version of
+                                the manuscript.
+
+                            Funding: This research was ﬁnancially supported by the Ministry of Science and Technology (MOST),
+                            Taiwan (Grant No. MOST 108-2923-E-009-007-MY2) and the Israel Ministry of Science and Technology
+                                (grant number 3-16540).
+
+                                 Institutional Review Board Statement: Not applicable.
+
+                           Informed Consent Statement: Not applicable.
+
+                           Data Availability Statement: Not applicable.
+
+                             Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+References
+
+1.    Li, S.; Wan, L.; Chen, L.; Deng, C.; Tao, L.; Lu, Z.; Zhang, W.; Fang, J.; Song, W. Self-Doping a Hole-Transporting Layer Based
+    on a Conjugated Polyelectrolyte Enables Efﬁcient and Stable Inverted Perovskite Solar Cells. ACS Appl. Energy Mater. 2020, 3,
+     11724–11731. [CrossRef]
+2.   Yu, Z.; Sun, L. Recent Progress on Hole-Transporting Materials for Emerging Organometal Halide Perovskite Solar Cells. Adv.
+     Energy Mater. 2015, 5, 1500213. [CrossRef]
+3.   Chiang, C.-H.; Wu, C.-G. Bulk heterojunction perovskite–PCBM solar cells with high ﬁll factor. Nat. Photonics 2016, 10, 196–200.
+     [CrossRef]
+4.   Zhang, F.; Zhu, K. Additive Engineering for Efﬁcient and Stable Perovskite Solar Cells. Adv. Energy Mater. 2020, 10, 1902579.
+     [CrossRef]
+5.   Ng, C.H.; Ripolles, T.S.; Hamada, K.; Teo, S.H.; Lim, H.N.; Bisquert, J.; Hayase, S. Tunable Open Circuit Voltage by Engineering
+     Inorganic Cesium Lead Bromide/Iodide Perovskite Solar Cells. Sci. Rep. 2018, 8, 2482. [CrossRef] [PubMed]
+6.    Sajid, S.; Elseman, A.M.; Huang, H.; Ji, J.; Dou, S.; Jiang, H.; Liu, X.; Wei, D.; Cui, P.; Li, M. Breakthroughs in NiOx-HTMs towards
+      stable, low-cost and efﬁcient perovskite solar cells. Nano Energy 2018, 51, 408–424. [CrossRef]
+--- Страница 14 ---
+Nanomaterials 2022, 12, 3336                                                                                                    14 of 15
+
+
+
+
+7.   Wang, T.; Ding, D.; Zheng, H.; Wang, X.; Wang, J.; Liu, H.; Shen, W. Efﬁcient Inverted Planar Perovskite Solar Cells Using
+     Ultraviolet/Ozone-Treated NiOx as the Hole Transport Layer. Sol. RRL 2019, 3, 1900045. [CrossRef]
+8.   National Renewable Energy Laboratory (NREL). Efﬁciency Chart. Available online: https://www.nrel.gov/pv/cell-efﬁciency.
+     html (accessed on 30 May 2022).
+9.    Liu, M.; Johnston, M.B.; Snaith, H.J. Efﬁcient planar heterojunction perovskite solar cells by vapour deposition. Nature 2013, 501,
+     395–398. [CrossRef]
+10.  Ok, S.A.; Jo, B.; Somasundaram, S.; Woo, H.J.; Lee, D.W.; Li, Z.; Kim, B.-G.; Kim, J.H.; Song, Y.J.; Ahn, T.K.; et al. Management of
+      transition dipoles in organic hole-transporting materials under solar irradiation for perovskite solar cells. Nat. Commun. 2018, 9,
+     4537. [CrossRef]
+11.   Tavakoli, M.M.; Yadav, P.; Tavakoli, R.; Kong, J. Surface Engineering of TiO2 ETL for Highly Efﬁcient and Hysteresis-Less Planar
+     Perovskite Solar Cell (21.4%) with Enhanced Open-Circuit Voltage and Stability. Adv. Energy Mater. 2018, 8, 1800794. [CrossRef]
+12.  Xu, Y.; Gao, C.; Tang, S.; Zhang, J.; Chen, Y.; Zhu, Y.; Hu, Z. Comprehensive understanding of TiCl4 treatment on the compact
+     TiO2 layer in planar perovskite solar cells with efﬁciencies over 20%. J. Alloys Compd. 2019, 787, 1082–1088. [CrossRef]
+13.  Zhao, D.-W.; Yu, M.-Y.; Zheng, L.-L.; Li, M.; Dai, S.-J.; Chen, D.-C.; Lee, T.-C.; Yun, D.-Q. Enhanced Efﬁciency and Stability of
+     Planar Perovskite Solar Cells Using a Dual Electron Transport Layer of Gold Nanoparticles Embedded in Anatase TiO2 Films.
+    ACS Appl. Energy Mater. 2020, 3, 9568–9575. [CrossRef] [PubMed]
+14.  Kim, H.-S.; Jang, I.-H.; Ahn, N.; Choi, M.; Guerrero, A.; Bisquert, J.; Park, N.-G. Control of I−V Hysteresis in CH3NH3PbI3
+     Perovskite Solar Cell. J. Phys. Chem. Lett. 2015, 6, 4633–4639. [CrossRef]
+15.  Weber, S.A.L.; Hermes, I.M.; Turren-Cruz, S.-H.; Gort, C.; Bergmann, V.W.; Gilson, L.; Hagfeldt, A.; Graetzel, M.; Tress, W.; Berger,
+     R. How the formation of interfacial charge causes hysteresis in perovskite solar cells. Energy Environ. Sci. 2018, 11, 2404–2413.
+     [CrossRef]
+16.   Bai, Y.; Chen, H.; Xiao, S.; Xue, Q.; Zhang, T.; Zhu, Z.; Li, Q.; Hu, C.; Yang, Y.; Hu, Z.; et al. Effects of a Molecular Monolayer
+     Modiﬁcation of NiO Nanocrystal Layer Surfaces on Perovskite Crystallization and Interface Contact toward Faster Hole Extraction
+    and Higher Photovoltaic Performance. Adv. Funct. Mater. 2016, 26, 2950–2958. [CrossRef]
+17.   Li, Z.; Jo, B.H.; Hwang, S.J.; Kim, T.H.; Somasundaram, S.; Kamaraj, E.; Bang, J.; Ahn, T.K.; Park, S.; Park, H.J. Bifacial Passivation
+      of Organic Hole Transport Interlayer for NiOx-Based p-i-n Perovskite Solar Cells. Adv. Sci. 2019, 6, 1802163. [CrossRef] [PubMed]
+18.  Wang, Q.; Chueh, C.-C.; Zhao, T.; Cheng, J.; Eslamian, M.; Choy, W.C.H.; Jen, A.K.-Y. Effects of Self-Assembled Monolayer
+     Modiﬁcation of Nickel Oxide Nanoparticles Layer on the Performance and Application of Inverted Perovskite Solar Cells.
+    ChemSusChem 2017, 10, 3794–3803. [CrossRef]
+19.  Yu, J.C.; Hong, J.A.; Jung, E.D.; Kim, D.B.; Baek, S.-M.; Lee, S.; Cho, S.; Park, S.S.; Choi, K.J.; Song, M.H. Highly efﬁcient and stable
+     inverted perovskite solar cell employing PEDOT:GO composite layer as a hole transport layer. Sci. Rep. 2018, 8, 1070. [CrossRef]
+20.  Wang, M.; Li, W.; Wang, H.; Yang, K.; Hu, X.; Sun, K.; Lu, S.; Zang, Z. Small Molecule Modulator at the Interface for Efﬁcient
+     Perovskite Solar Cells with High Short-Circuit Current Density and Hysteresis Free. Adv. Electron. Mater. 2020, 6, 2000604.
+     [CrossRef]
+21.   Li, W.; Wang, H.; Hu,  X.;  Cai, W.; Zhang,  C.; Wang, M.; Zang, Z. Sodium Benzenesulfonate Modiﬁed Poly (3,4-
+     Ethylenedioxythiophene):Polystyrene Sulfonate with Improved Wettability and Work Function for Efﬁcient and Stable
+     Perovskite Solar Cells. Sol. RRL 2021, 5, 2000573. [CrossRef]
+22.  Yang, D.; Sano, T.; Yaguchi, Y.; Sun, H.; Sasabe, H.; Kido, J. Achieving 20% Efﬁciency for Low-Temperature-Processed Inverted
+     Perovskite Solar Cells. Adv. Funct. Mater. 2019, 29, 1807556. [CrossRef]
+23.  Bagheri, Z.; Matteocci, F.; Lamanna, E.; Di Girolamo, D.; Marrani, A.G.; Zanoni, R.; Di Carlo, A.; Moshaii, A. Light-induced
+    improvement of dopant-free PTAA on performance of inverted perovskite solar cells. Sol. Energy Mater. Sol. Cells 2020, 215,
+     110606. [CrossRef]
+24.  Yan, X.; Zheng, J.; Zheng, L.; Lin, G.; Lin, H.; Chen, G.; Du, B.; Zhang, F. Optimization of sputtering NiOx ﬁlms for perovskite
+      solar cell applications. Mater. Res. Bull. 2018, 103, 150–157. [CrossRef]
+25.  Yuan, X.; Li, H.; Fan, J.; Zhang, L.; Ran, F.; Feng, M.; Li, P.; Kong, W.; Chen, S.; Zang, Z.; et al. Enhanced p Type Conductivity
+     of NiOx Films with Divalent Cd Ion Doping for Efﬁcient Inverted Perovskite Solar Cells. ACS Appl. Mater. Interfaces 2022, 14,
+     17434–17443. [CrossRef] [PubMed]
+26.  Yang, B.; Peng, S.; Choy, W.C.H. Inorganic top electron transport layer for high performance inverted perovskite solar cells.
+    EcoMat 2021, 3, 12127. [CrossRef]
+27.  Ma, Y.; Zhang, Y.; Zhang, H.; Lv, H.; Hu, R.; Liu, W.; Wang, S.; Jiang, M.; Chu, L.; Zhang, J.; et al. Effective carrier transport tuning
+      of CuOx quantum dots hole interfacial layer for high-performance inverted perovskite solar cell. Appl. Surf. Sci. 2021, 547, 149117.
+     [CrossRef]
+28.   Ye, S.; Sun, W.; Li, Y.; Yan, W.; Peng, H.; Bian, Z.; Liu, Z.; Huang, C. CuSCN-Based Inverted Planar Perovskite Solar Cell with an
+     Average PCE of 15.6%. Nano Lett. 2015, 15, 3723–3728. [CrossRef]
+29.  Chandrasekhar, P.S.; Seo, Y.-H.; Noh, Y.-J.; Na, S.-I. Room temperature solution-processed Fe doped NiOx as a novel hole transport
+     layer for high efﬁcient perovskite solar cells. Appl. Surf. Sci. 2019, 481, 588–596. [CrossRef]
+30.  Zhang, J.; Mao, W.; Hou, X.; Duan, J.; Zhou, J.; Huang, S.; Ou-Yang, W.; Zhang, X.; Sun, Z.; Chen, X. Solution-processed Sr-doped
+    NiOx as hole transport layer for efﬁcient and stable perovskite solar cells. Sol. Energy 2018, 174, 1133–1141. [CrossRef]
+--- Страница 15 ---
+Nanomaterials 2022, 12, 3336                                                                                                    15 of 15
+
+
+
+31.  Chen, W.; Liu, F.-Z.; Feng, X.-Y.; Djuriši´c, A.B.; Chan, W.K.; He, Z.-B. Cesium Doped NiOx as an Efﬁcient Hole Extraction Layer
+      for Inverted Planar Perovskite Solar Cells. Adv. Energy Mater. 2017, 7, 1700722. [CrossRef]
+32.  Xu, L.; Chen, X.; Jin, J.; Liu, W.; Dong, B.; Bai, X.; Song, H.; Reiss, P. Inverted perovskite solar cells employing doped NiO hole
+     transport layers: A review. Nano Energy 2019, 63, 103860. [CrossRef]
+33.   Yin, X.; Liu, J.; Ma, J.; Zhang, C.; Chen, P.; Que, M.; Yang, Y.; Que, W.; Niu, C.; Shao, J. Solvothermal derived crystalline NiOx
+     nanoparticles for high performance perovskite solar cells. J. Power Sources 2016, 329, 398–405. [CrossRef]
+34.   Yin, X.; Zhai, J.; Song, L.; Du, P.; Li, N.; Yang, Y.; Xiong, J.; Ko, F. Novel NiO Nanoforest Architecture for Efﬁcient Inverted
+    Mesoporous Perovskite Solar Cells. ACS Appl. Mater. Interfaces 2019, 11, 44308–44314. [CrossRef] [PubMed]
+35.   Yin, X.; Zhai, J.; Du, P.; Li, N.; Song, L.; Xiong, J.; Ko, F. 3D NiO Nanowall Hole-Transporting Layer for the Passivation of
+      Interfacial Contact in Inverted Perovskite Solar Cells. ChemSusChem 2020, 13, 1006–1012. [CrossRef]
+36.  Huang, Z.-W.; Yang, S.-H.; Wu, Z.-Y.; Hsu, H.-C. Performance Comparison between the Nanoporous NiOx Layer and NiOx Thin
+     Film for Inverted Perovskite Solar Cells with Long-Term Stability. ACS Omega 2021, 6, 15855–15866. [CrossRef] [PubMed]
+37.  Mali, S.S.; Kim, H.; Shim, S.E.; Hong, C.K. A solution processed nanostructured p-type NiO electrode for efﬁcient inverted
+     perovskite solar cells. Nanoscale 2016, 8, 19189–19194. [CrossRef]
+38.   Mali, S.S.; Kim, H.; Kim, H.H.; Shim, S.E.; Hong, C.K. Nanoporous p-type NiOx electrode for p-i-n inverted perovskite solar cell
+     toward air stability. Mater. Today 2017, 5, 483–500. [CrossRef]
+39.  Chen, W.-C.; Chen, P.-Y.; Yang, S.-H. Solution-processed hybrid light emitting and photovoltaic devices comprising zinc oxide
+    nanorod arrays and tungsten trioxide layers. AIMS Mater. Sci. 2017, 4, 551–560. [CrossRef]
+40.  Chen, P.-C.; Yang, S.-H. Potassium-Doped Nickel Oxide as the Hole Transport Layer for Efﬁcient and Stable Inverted Perovskite
+     Solar Cells. ACS Appl. Energy Mater. 2019, 2, 6705–6713. [CrossRef]
+41.   Kartikay, P.; Sadhukhan, D.; Yella, A.; Mallick, S. Enhanced charge transport in low temperature carbon-based n-i-p perovskite
+      solar cells with NiOx-CNT hole transport material. Sol. Energy Mater. Sol. Cells 2021, 230, 111241. [CrossRef]
+42.   Saki, Z.; Sveinbjörnsson, K.; Boschloo, G.; Taghavinia, N. The Effect of Lithium Doping in Solution-Processed Nickel Oxide Films
+      for Perovskite Solar Cells. ChemPhysChem 2019, 20, 3322–3327. [CrossRef] [PubMed]
+43.   Seo, S.; Park, I.J.; Kim, M.; Lee, S.; Bae, C.; Jung, H.S.; Park, N.-G.; Kim, J.Y.; Shin, H. An ultra-thin, un-doped NiO hole
+     transporting layer of highly efﬁcient (16.4%) organic-inorganic hybrid perovskite solar cells. Nanoscale 2016, 8, 11403–11412.
+     [CrossRef] [PubMed]
+44.  Zheng, G.; Zhu, C.; Ma, J.; Zhang, X.; Tang, G.; Li, R.; Chen, Y.; Li, L.; Hu, J.; Hong, J.; et al. Manipulation of facet orientation in
+     hybrid perovskite polycrystalline ﬁlms by cation cascade. Nat. Commun. 2018, 9, 2793. [CrossRef] [PubMed]
+45.  Matsui, T.; Seo, J.-Y.; Saliba, M.; Zakeeruddin, S.M.; Grätzel, M. Room-Temperature Formation of Highly Crystalline Multication
+     Perovskites for Efﬁcient, Low-Cost Solar Cells. Adv. Mater. 2017, 29, 1606258. [CrossRef]
+46.  Du, Q.; Shen, Z.; Chen, C.; Li, F.; Jin, M.; Li, H.; Dong, C.; Zheng, J.; Ji, M.; Wang, M. Spiro-OMeTAD:Sb2S3 Hole Transport
+     Layer with Triple Functions of Overcoming Lithium Salt Aggregation, Long-Term High Conductivity, and Defect Passivation for
+     Perovskite Solar Cells. Sol. RRL 2021, 5, 2100622. [CrossRef]
+47.  Cho, S.; Pandey, P.; Park, J.; Lee, T.-W.; Kang, D.-W. Mixed Solvent Engineering for Morphology Optimization of the Electron
+     Transport Layer in Perovskite Photovoltaics. ACS Appl. Energy Mater. 2022, 5, 387–396. [CrossRef]
+48.  Yan, P.-R.; Huang, W.-J.; Yang, S.-H. Incorporation of quaternary ammonium salts containing different counterions to improve the
+     performance of inverted perovskite solar cells. Chem. Phys. Lett. 2017, 669, 143–149. [CrossRef]
+49.  Lim, K.-G.; Ahn, S.; Lee, T.-W. Energy level alignment of dipolar interface layer in organic and hybrid perovskite solar cells.
+        J. Mater. Chem. C 2018, 6, 2915–2924. [CrossRef]
+50.  Wang, M.; Wang, H.; Li, W.; Hu, X.; Sun, K.; Zang, Z. Defect passivation using ultrathin PTAA layers for efﬁcient and stable
+     perovskite solar cells with a high ﬁll factor and eliminated hysteresis. J. Mater. Chem. A 2019, 7, 26421–26428. [CrossRef]
+51.  Du, Y.; Xin, C.; Huang, W.; Shi, B.; Ding, Y.; Wei, C.; Zhao, Y.; Li, Y.; Zhang, X. Polymeric Surface Modiﬁcation of NiOx-Based
+     Inverted Planar Perovskite Solar Cells with Enhanced Performance. ACS Sustain. Chem. Eng. 2018, 6, 16806–16812. [CrossRef]
+52.  Wang, C.; Yang, H.; Xia, X.; Wang, X.;  Li, F. Suppressing interfacial defect formation derived from in-situ-generated
+     polyethylenimine-based 2D perovskites to boost the efﬁciency and stability NiOx-based inverted planar perovskite solar cells.
+     Appl. Surf. Sci. 2021, 548, 149276. [CrossRef]
+53.   Habisreutinger, S.N.; Noel, N.K.; Snaith, H.J. Hysteresis Index: A Figure without Merit for Quantifying Hysteresis in Perovskite
+     Solar Cells. ACS Energy Lett. 2018, 3, 2472–2476. [CrossRef]
+54.  Wang, A.; Cao, Z.; Wang, J.; Wang, S.; Li, C.; Li, N.; Xie, L.; Xiang, Y.; Li, T.; Niu, X.; et al. Vacancy defect modulation in hot-casted
+    NiOx ﬁlm for efﬁcient inverted planar perovskite solar cells. J. Energy Chem. 2020, 48, 426–434. [CrossRef]
+55.  Di Girolamo, D.; Matteocci, F.; Piccinni, M.; Di Carlo, A.; Dini, D. Anodically electrodeposited NiO nanoﬂakes as hole selective
+     contact in efﬁcient air processed p-i-n perovskite solar cells. Sol. Energy Mater. Sol. Cells 2020, 205, 110288. [CrossRef]

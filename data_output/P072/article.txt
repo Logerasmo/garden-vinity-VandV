@@ -1,0 +1,557 @@
+--- Страница 1 ---
+     applied
+     sciences
+
+
+Article
+CZTSe-Based Solar Cell Performance Improvement Using the
+CSLO Technique
+
+Serveh Rahimi 1 and Mostafa Shooshtari 2,*
+
+
+                                            1  Department of Electrical Engineering, K N Toosi University of Technology, Tehran 1631714191, Iran;
+                                        s.rahimi1@email.kntu.ac.ir
+                                            2   Laboratory of Electronic Components, Department of Microelectronics, Technology and Materials (ECTM),
+                                         Delft University of Technology, 2628 CD Delft, The Netherlands
+                                     *   Correspondence: mostafashooshtari@gmail.com
+
+
+                                Abstract: Here we investigated a novel layer-based optimization technique to improve the perfor-
+                          mance of a CZTSe solar cell. By using this technique, the optical behavior and electrical properties of
+                                the proposed solar cell improved signiﬁcantly as a result of the changes in the layer speciﬁcations and
+                                the layer materials. The structure of the cell consisted of an absorber laid on a conducting layer and
+                              covered by Indium Tin Oxide (ITO), with ZnO on its top surface. Due to the employment of the CSLO
+                               technique, a p+pn junction was formed between the absorber and window layers, which provided
+                             a lower recombination rate by transmitting more electrons and holes to the contacts. In addition,
+                                the main important parameters affecting the solar cell’s performance such as layer thickness, carrier
+                                    lifetime, and total effect density were investigated. According to the results, the proposed CZTSe
+                                  solar cell achieved a 32.6% and 79.5% efﬁciency and ﬁll factor, respectively—which in comparison to
+                             a conventional solar cell is remarkable. Moreover, hybrid structures made by utilizing CZTS-based,
+                            Ge-based Cu2ZnGeSe4, and Si-based Cu2ZnSiSe4 with the proposed CZTSe-based solar cell were
+                           implemented and better results were achieved, yielding an efﬁciency of about 42, 50, and 34% and a
+                                     ﬁll factor of 66, 55, and 42%, respectively, due to the materials’ properties.
+Citation: Rahimi, S.; Shooshtari, M.
+
+CZTSe-Based Solar Cell Performance
+                           Keywords: solar cell; CZTS; CZGeSe; CZSiSe; CZTSe; ITO; ZnO; efﬁciency; performance
+Improvement Using the CSLO
+
+Technique. Appl. Sci. 2022, 12, 4119.
+
+https://doi.org/10.3390/
+
+app12094119
+                                   1. Introduction
+Academic Editors: Beatriz Romero        Cu2−II−IV−VI4 quaternary compounds have been of great interest for many years
+Herrero and Laura Ciammaruchi
+                              in sustainable photovoltaics due to their suitable bandgaps, their abundance on Earth
+Received: 8 March 2022          and because they only require cheap fabrication techniques [1]. Among these multi-layer
+Accepted: 18 April 2022            conﬁgurations, Copper Zinc Tin Sulﬁde (CZTS) is an emerging solar cell absorber that, in
+Published: 19 April 2022           terms of lattice structure, it is similar to chalcopyrite semiconductors such as CuGaSe2,
+                           CuInSe2, and Cu (Ga,In)Se2, but contains only earth-abundant, nontoxic elements and hasPublisher’s Note: MDPI stays neutral
+                          a near-optimal direct bandgap energy of Eg~1.5 eV, theoretically determined with highwith regard to jurisdictional claims in
+                               optical absorption coefﬁcients over 104 cm−1 [2]. Therefore, CZTSSe-based solar cells suchpublished maps and institutional afﬁl-
+iations.                       as Cu2ZnSnS4 (CZTS), Cu2ZnSnSe4 (CZTSe), and Cu2ZnSn(S,Se)4 (CZTSSe) have many
+                          advantages due to their special properties, which include being eco-friendly, cost-effective,
+                       and highly efﬁcient [3,4]. In addition, CZTSSe-based solar cells have received attention as
+                               excellent absorber layers of photovoltaic cells, since they have nontoxic materials, a simple
+Copyright: © 2022 by the authors.   fabrication process, and reasonable optoelectronic properties for thin-ﬁlm solar cells [5].
+Licensee MDPI, Basel,  Switzerland.   For instance, their direct bandgap and high absorption coefﬁcient in the visible region are
+This article is an open access article   important factors towards choosing them for the absorber layer in solar cells [6–8]. In fact,
+distributed  under  the  terms  and   solar cells are considered an important alternative source of green and clean energy [9].
+conditions of the Creative Commons   Hence, numerous techniques and solutions have been reported for the optimization of solar
+Attribution (CC BY) license (https://   cells and overcoming problem related to this. Improving the performance of solar cells is
+creativecommons.org/licenses/by/    generally based on layer-optimizing techniques [10], material selection [11], light-trapping
+4.0/).
+
+
+
+
+
+Appl. Sci. 2022, 12, 4119. https://doi.org/10.3390/app12094119                                      https://www.mdpi.com/journal/applsci
+--- Страница 2 ---
+Appl. Sci. 2022, 12, 4119                                                                                                         2 of 11
+
+
+
+                        methods [12], the use of solar concentrators [13], and the solar cell structure design [14,15].
+                          Regarding this, more works are introduced as follows.
+                             Attaﬁet al. [10] suggested the use of a silicon Schottky solar cell with a passivation
+                             layer to improve the performance of the solar cell. In another study, Boukortt et al. [11]
+                        used a Cu (In1-xGax) Se2 solar cell to enhance cell efﬁciency. According to the reported
+                                 results, the carrier transport mechanism and conduction band alignment at the CdS/CIGS
+                                interface have led to an increase in efﬁciency from 12% to 14%. Furthermore, light trapping
+                        methods are used to absorb a signiﬁcant fraction of the incident sunlight to minimization
+                            reﬂection [12]. In addition, many types of research show that CuSbS2 absorber-based
+                              solar heterostructure cells show enhanced electrical properties [14]. Moreover, a device
+                              architecture with three terminals has been proposed by Antolín et al. [15]. The proposed
+                              solar cell is heterojunction bipolar transistor-based with a simple structure in comparison
+                              to multi-junction designs.
+                   A model of a GaInP material-based p+/n+ single junction solar cell was simulated
+                       by Verma et al. [16] with two passivation layers to increase the efﬁciency up to 22%. In
+                                this direction, the multiple roles of conjugated polymers in enhancing the environmental
+                                 stability and performance of perovskite solar cells were introduced in [17,18]. The most
+                     common hybrid perovskite materials used as absorber layers in perovskite solar cells (PSC)
+                             are methylammonium lead iodide (CH3NH3PbI3 or MAPbI3) and methylammonium lead
+                         bromide (CH3NH3PbBr3 or MAPbBr3), which enhance the efﬁciency of cells [19].
+                              Moreover, research works [20,21] have investigated the role of i-aSi:H layers in
+                           aSi:H/cSi heterojunction solar cells, with the implementation of non- or lightly-doped
+                          hydrogenated amorphous silicon layer by Hayashi et al. [20] and the use of overlapped p/i
+                       and n/i a-Si:H layers by Noge et al. [21], which improved cell performance. Furthermore,
+                            another important factor in the design of solar cells is the surface layer shaping [22]. In this
+                             regard, many research projects with various techniques have been reported. For instance,
+                         changing the height of the pillars results in an efﬁciency increase in devices consisting
+                             of nanopillars of CdTe coated with a very thin layer of CdS. [23]. In fact, these methods
+                         can be used to maximize light absorption and performance optimization. Additionally,
+                         Ergen et al. [24] utilized screen-engineered ﬁeld effect Cu2O-based solar cells to enable
+                            low-cost and high-efﬁciency cells. In addition, an optimization of InGaP/GaAs single-
+                            /multi-junction solar cell performance was presented by Kuan et Yuning in [25] to boost
+                             the photovoltaic conversion efﬁciency, in which when the tunnel junction and back surface
+                          ﬁeld design was optimized, the cell’s photovoltaic performance was increased.
+                         Höhn et al. [26] proposed four-junction solar cells based on germanium wafer bonding.
+                       The presented structure provided high efﬁciency, due to employing germanium which
+                           required an optimized Ge cell with rear-side passivation and a mirror. On the other
+                          hand, germanium is an indirect semiconductor that impacts light absorption. In another
+                           study [27], the proposed solar cell employed a combination of the Liquid Phase Crystallized
+                              Silicon and Perovskite techniques to produce a low-cost and high-performance device.
+                          Moreover, different bandgap energies in multi-junction solar cells will change under real
+                            conditions due to temperature variations; this phenomenon causes higher sensitivity to
+                              spectral changes because of the sun’s movement in the sky and atmospheric conditions.
+                           Paswan et al. [28] demonstrated the usage of the CdS as a buffer layer in CZTSSe-based
+                              solar cells, which signiﬁcantly improved the device’s overall performance. Additionally,
+                             the solar cell proposed by Latrous et al. [29] had optimized absorbent layer doping and an
+                            appropriately chosen metal contact, thereby considerably reducing the recombination rate.
+                            In another paper, Madan et al. [30] used CZTSSe-based SnS thin ﬁlms for improving the
+                           conversion efﬁciency of solar cells.
+                         As mentioned previously, the main advantages of CZTSSe-based solar cells are their
+                            non-toxic properties—in contrast to Copper Indium Gallium Selenide (CIGS) solar cells—
+                               that they use earth-abundant, low-cost materials, and their structural simplicity [2,5]. These
+                          advantages make CZTSSe a desirable material for photovoltaic applications. Although the
+--- Страница 3 ---
+Appl. Sci. 2022, 12, 4119                                                                                                         3 of 11
+
+
+
+                        improved performance of CZTSSe-based solar cells has been extensively studied, varying
+                            the layer speciﬁcations has been investigated by researchers less often.
+                                 In this paper, the proposed CZTSe-based solar cell employs the CSLO technique
+                          (CZTSe- based Solar cell Layer Optimization) to achieve high efﬁciency with a noncomplex
+                              structure by varying the layer speciﬁcations, such as selecting the optimum layer thickness
+                       and doping concentration of the layers. The CSLO technique in SILVACO provides the
+                      optimum thickness and doping concentration of layers by varying the layer speciﬁcations.
+                            In this technique, the absorber layer is divided into two layers with different doping
+                            concentrations and materials. In addition, the absorber layer is divided into two layers
+                         with different doping concentrations, as shown in Figure 1. In fact, by implementing a
+                       p+pn junction, the number of holes and electrons will be increased on two sides of the
+                              junction, resulting in an increase in the generated current, a decline in the recombination
+                                  rate, and an improvement in the efﬁciency of the solar cell in comparison to conventional
+                            ones. Similarly, the p+ layer and the nearby backside contact made a junction with a
+                       more linear response than a p-type layer (with a lower doping concentration), which led
+                              to performance enhancement. In this technique, the p+ layer provided an extra ﬁeld,
+                           causing lower carrier recombination by transmitting more electrons to the absorber layer
+                        and collecting more carriers at the contacts simultaneously. Furthermore, the Silvaco TCAD
+                    ATLAS tool was used to measure the performance parameters. The rest of this paper is
+                          organized as follows: Section 2, explains the proposed CZTSe-based solar cell structure
+                       and material selection. Section 3 includes the simulation results and discussion, which
+                                    is followed by the conclusions and references. Our study can provide some important
+                         guidance for solar cell device design, fabrication, and optimization based on theoretical
+                             considerations.
+
+
+
+
+
+                              Figure 1. Schematic of the proposed CZTSe-based solar cell structure.
+
+                                   2. Modeling and Simulation for Material Selection
+
+                   A regular structure was modeled for the CZTSe solar cell to analyze and investigate
+                                     its performance. Figure 1 shows the schematic structure of the proposed solar cell. As
+                                 illustrated in Figure 1, the CZTSSe-based solar cell structure consisted of different layers, in
+                        which CZTSe was used as the absorber layer. Based on the properties of CZTSe, it had an
+                          energy bandgap and absorption coefﬁcient of over 1 eV and 104 cm−1, respectively [2]. In
+                             addition, the n-type window layer (such as ZnO) and the p-type absorber layer (CZTSe)
+                        formed a p-n junction. Likewise, the n-type cadmium sulphide (Cds) layer worked as
+                          a buffer layer. The front and back layers of the solar cell were indium tin oxide (ITO)
+--- Страница 4 ---
+Appl. Sci. 2022, 12, 4119                                                                                                         4 of 11
+
+
+
+                             transparent conducting layers and MO materials were employed as contacts in the proposed
+                               solar cell design. According to the properties of different materials, higher energy-band gap
+                             (Eg) materials such as window layers (the band gap of ZnO is over 3 eV) help more photons
+                              to easily reach the underlying layers. Thus, bandgap management is very important for
+                           obtaining better performance via the choosing of the best materials. The main idea of
+                            the buffer layer is to provide more routes for photons to be transmitted without being
+                            absorbed, to reduce defects in the absorber layer, and to align the energy bandgap between
+                             the absorber layer and window layer. Moreover, a molybdenum layer was used to increase
+                                 light trapping and to reﬂect more photons back into the CZTSe layer. For the ﬁrst step, using
+                  TCAD Silvaco software, an ATLAS code was prepared in order to build this structure—
+                      shown in Figure 1. Based on ref [2,5,31], materials were chosen and are detailed in Table 1.
+
+
+                             Table 1. Standard material parameters used in the solar cell design shown in Figure 1.
+
+       Parameters        Cu2ZnSiSe4   Cu2ZnGeSe4     CZTS       CZTSe      CdS     ZnO      ITO
+
+     Band gap (eV)             3               2.1               1.5             1.04            2.4           3.3           3.6
+
+   Electron afﬁnity (eV)           2.4               3.4               4.1             4.15            4.5           4.6           4.2
+
+   Dielectric permittivity          7.5               6.8             7             10           10          9          10
+
+     Electron mobility
+                               60             60             60            100          100        100        100
+        (cm2/Vs)
+ Hole mobility (cm2/Vs)        20             20             20             25           10         10         10
+
+   Effective conductance
+                                                                               2.2 × 1018
+   band density (cm/s)
+
+   Effective valence band
+                                                                               1.8 × 1019
+      density (cm/s)
+   Defect density (cm−3)      1 × 1013       1 × 1013       1 × 1013       1 × 1013      6 × 1016           -                -
+
+
+                                   3. Results and Discussion
+
+                                 In this section, to perform the numerical simulations of the device characteristics, a
+                             Silvaco simulator was used to extract the electrical characteristics and optical behaviour
+                             of the proposed solar cell. Moreover, the impact of the carrier lifetime and thickness
+                       on the performance of the solar cell was studied. As shown in Table 2, different cases
+                         with different thicknesses and concentrations of ITO and absorber layers were analyzed.
+                         According to the efﬁciency results (shown in the tenth row of Table 1), by increasing the
+                         doping concentration of the absorber layer, the efﬁciency was signiﬁcantly improved. Thus,
+                               in comparison to cases 1 and 2, where all parameters except the concentration were constant,
+                             increasing doping from 1 × 1015 to 1 × 1018 resulted in improved efﬁciency from 18.86%
+                              to 32%. Indeed, by increasing the doping concentration of the absorber layer (case 2), the
+                         width of the depletion region declined. Therefore, the short circuit current (Jsc) decreased
+                                  slightly, since fewer carriers were collected at the contacts as a result of a reduction in
+                                carrier transmission. At the same time, the open circuit voltage (Voc) increased because of
+                             the lower recombination rate of the electron and holes than the rate in case 1, resulting in an
+                           ampliﬁcation of the efﬁciency. More holes and fewer electrons in the absorber layer caused
+                          a change in the recombination rate. It is important to choose the doping concentration of
+                            the absorber precisely when the dopant concentration is so high, as more photons will be
+                          absorbed in the buffer layer instead of the absorber layer, and efﬁciency will be decreased.
+                          Higher doping concentrations lead to lower carrier mobility, higher leakage, and increased
+                                scattering. As such, the optimum doping concentration values were compared for different
+                             cases in Table 2.
+--- Страница 5 ---
+Appl. Sci. 2022, 12, 4119                                                                                                         5 of 11
+
+
+
+
+                             Table 2. Thickness (T) micro meter and doping concentration (C)-change results.
+
+
+                            Case 1               Case 2           Case 3-CSLO        Case 4-CSLO        Case 5-CSLO        Case 6-CSLO
+
+        Material          T       C       T      C       T      C       T      C       T      C       T      C
+        ITO               0.03      1 × 1019      0.03     1 × 1019      0.02     1 × 1019      0.02     1 × 1019      0.02     1 × 1019      0.02     1 × 1019
+       ZnO               0.08      1 × 1018      0.08     1 × 1018      0.08     1 × 1018      0.08     1 × 1018      0.08     1 × 1018      0.08     1 × 1018
+       CdS               0.03      1 × 1017      0.03     1 × 1017      0.03     1 × 1017      0.03     1 × 1017      0.03     1 × 1017      0.03     1 × 1017
+       CZTSe                                                                   0.5      1 × 1016                           2       1 × 1015       2      1 × 1018                                          -               -               -               -               -               -
+     (Cu2ZnSnSe4)                                                               1.5      1 × 1019
+                                                                                                             0.5      1 × 1016
+     Cu2ZnSnS4                 -                -               -               -               -               -                                              -               -               -               -                                                                                                             1.5      1 × 1019
+                                                                                                                                      0.5      1 × 1016
+      Cu2ZnSiSe4                 -                -               -               -               -               -               -               -                                              -               -                                                                                                                                      1.5      1 × 1019
+                                                                                                                                                               0.5      1 × 1016
+     Cu2ZnGeSe4                -                -               -               -               -               -               -               -               -               -                                                                                                                                                               1.5      1 × 1019
+    Efﬁciency (η%)               18.86                   32                    32.66                  68                    62.31                  70.64
+       Voc (v)                   0.378                    0.548                  0.537                   0.99                      1.2                     1.31
+       Jsc (A/cm2)                 0.074                    0.073                  0.076                  0.078                  0.074                  0.075
+       Fill Factor (%)                66.79                    79.44                  79.55                  86.03                  69.73                  71.67
+     Pmax (W)                  0.018                    0.032                 0.0326                  0.068                  0.062                   0.07
+
+
+                                  In addition, by decreasing the thickness of the ITO layer and using the CSLO technique
+                               to make p+pn junction (case 3), the efﬁciency was again increased. Accordingly, it is believed
+                               that the efﬁciency of solar cells depends on the alignment band of the hetero-interface, and
+                              that the layer-thickness selection caused more light absorbance and less recombination
+                             of electrons and holes, as demonstrated in Table 2. Furthermore, the performance of the
+                         CZTS-based, Ge-based Cu2ZnGeSe4, and Si-based Cu2ZnSiSe4 Kesterite solar cells made
+                          with the proposed CSLO technique was analyzed. As illustrated in Table 2, the Ge-based
+                       Cu2ZnGeSe4 solar cell achieved the best optical and electrical results because of the Ge’s
+                              properties, such as having the best direct energy bandgap among the CZTS-based and
+                            Si-based Cu2ZnSiSe4 solar cells, providing an over 70 percent efﬁciency and ﬁll factor,
+                        which represent the ratio of the maximum power to the minimum power (Pmin) and
+                            the ratio of the theoretical power to the maximum power (Pmax), respectively. Indeed,
+                                    all of the mentioned parameters are essential for measuring the quality of solar cells. In
+                           Figure 2, the External Quantum Efﬁciency (the ratio of the anode current to the source
+                         photo current) and the Internal Quantum Efﬁciency (the ratio of the anode current to the
+                             available photo current) results versus wavelength (nm) for case 1 (without the CSLO
+                            technique) and case 3 (with the CSLO technique) are represented. Figure 2 shows that in
+                            case 3, by utilizing the proposed technique, the EQE was higher than conventional solar
+                                   cells made without the CSLO technique. Firstly, it was obvious that the EQE and IQE were
+                        low at short wavelengths (λ); as the wavelength increased, they increased dramatically to
+                            reach their maximum values. Then, the IQE remained constant at mid-range wavelengths,
+                               in contrast to the EQE. The quantum efﬁciency variation versus different wavelengths was
+                               directly related to the number of input photons and their energy levels in comparison to
+                            the bandgap energy of the solar cell [32].
+                                Figure 3 illustrates the spectral response of the proposed solar cell (case 3) against the
+                           wavelength. It is obvious that the available photo current and the cathode current differed
+                         from each other at lower wavelengths due to the lower numbers of photons, but at higher
+                           wavelengths, the trends looked like each other, and the cathode current was signiﬁcantly
+                              increased. Furthermore, not only was the optical behavior considerably improved, but the
+                                 electrical parameters were also increased by the CSLO technique.
+                              Moreover, Table 3 illustrates a comparison of the hybrid structures, with those with
+                              that were combined with CZTSe-based solar cells having a higher efﬁciency than those
+                          without them. The hybrid structure with the Cu2ZnGeSe4 gained the maximum value of
+                             efﬁciency of 50.112% while the Si-based Cu2ZnSiSe4 obtained an efﬁciency of 33.61%, which
+                      was the lowest value. Similarly, Table 4 presents the comparison results of the proposed
+                        CZTSe-based solar cell made with the CSLO technique and other published papers with
+                         CZTSSe-based solar cells. By using the CSLO technique, the performance in comparison to
+                           conventional CZTSSe-based solar cells was signiﬁcantly improved, yielding an efﬁciency
+                              of 32.6% and a ﬁll factor of 79.55%.
+--- Страница 6 ---
+Appl. Sci. 2022, 12, 4119                                                                                                         6 of 11
+
+
+
+
+
+                              Figure 2. EQE and IQE vs. optical wavelength for case 1 and case 3.
+
+
+
+
+
+                              Figure 3. Available photo current and cathode current versus optical wavelength for case 3.
+--- Страница 7 ---
+Appl. Sci. 2022, 12, 4119                                                                                                         7 of 11
+
+
+
+
+                             Table 3. Comparation results of hybrid solar cells.
+
+                                                Solar Cell                            Fill Factor (%)          Efﬁciency (%)
+
+                                   hybrid structure (CZTSe and CZTS)                66                      41.54
+                                hybrid structure (CZTSe and Cu2ZnSiSe4)             42                      33.61
+                               hybrid structure (CZTSe and Cu2ZnGeSe4)            54.82                   50.112
+
+
+                             Table 4. Comparation results of the proposed solar cell with previously published solar cells.
+
+                                            Reference                           Fill Factor (%)            Efﬁciency (%)
+
+                               Conventional CZTSe solar cell (Case 1)              66.79                      18.86
+                                           Case 3                             79.55                       32.6
+                                                        [33]                                38.2                        4.35
+                                                        [34]                               76.46                      17.04
+                                                        [35]                             50.8 ± 4.1                   5.5 ± 0.6
+
+
+                                 In addition, the results of the efﬁciency variation versus carrier lifetime are depicted
+                              in Figure 4. As shown in Figure 4, the efﬁciency was increased as a result of an increase in
+                               carrier lifetime. The value of the carrier lifetime was chosen to be similar across different
+                              layers of the proposed solar cell (100 ns) over the entire simulation. Therefore, the carrier
+                               lifetime is an important parameter in solar cell design that affects the improvement of
+                          performance as well [36–40].
+
+
+
+
+
+                              Figure 4. Efﬁciency variation versus carrier lifetime.
+
+                                Subsequently, the impact of the absorber thickness on the electrical properties of the
+                         proposed solar cell for case 3 by increasing the p+ layer thickness when the width of the p
+                            region remained unchanged and the conventional case 1 were compared together as shown
+                              in Figure 5a. As demonstrated in Figure 5a, the Jsc varied constantly when changing the
+                           absorber layer from 1 µm to 4 µm (increased slightly), although the VOC was increased.
+--- Страница 8 ---
+Appl. Sci. 2022, 12, 4119                                                                                                         8 of 11
+
+
+
+
+
+                              Figure 5. (a) Electrical properties versus absorber thickness. (b) EQE versus absorber thickness for
+                            Case 1.
+
+                               Moreover, by decreasing the absorber layer, the optical properties were decreased. As
+                                illustrated in Figure 5b, the EQE of the solar cell was decreased in lower wavelengths for
+                             case 1. Likewise, the electrical properties of case 1 declined by decreasing the width of the
+                            absorber layer, as demonstrated in Figure 5b. Thus, by selecting the optimum width of the
+                            absorber layer, more advantages will be obtained. In this regard, over the entire simulation,
+                            the optimum value of 2 microns was chosen for the absorber layer for the different cases.
+                               Furthermore, another important parameter is the total effect density of the solar cell.
+                              Therefore, the effect densities of the p+pn junction and the ZnO/ITO layers must be selected
+                               precisely. Due to this, the effect density of the p+pn junction was chosen, as depicted in
+--- Страница 9 ---
+Appl. Sci. 2022, 12, 4119                                                                                                         9 of 11
+
+
+
+                           Table 1, to be consistent over the entire simulation, because the main of the purpose of
+                                this article was to study the effects of the proposed CSLO technique in carrier-generating
+                                layers. Furthermore, the impact of ZnO/ITO defect density was investigated. As shown in
+                            Figure 6, by changing the effect density from 1 × 1016 cm−3 to 1 × 1019 cm−3 for case 1, the
+                             efﬁciency and ﬁll factor (%) decreased. Regarding this, the speciﬁcations of the layers must
+                         be considered in the simulation.
+
+
+
+
+
+                              Figure 6. Efﬁciency and FF versus effect density for case 1.
+
+                            Modeling CZTSe solar cells in a simulated environment as presented here is critical
+                                for data analysis and real fabrication behavior projection. This optimization is beneﬁcial for
+                             the commercial use of CZTSe solar cell technology. Various electrochemical and fabrication
+                               strategies are currently being researched in order to achieve layer speciﬁcations similar to
+                            those in Table 2. There are current results that suggest that the Pulsed laser deposition [41],
+                         Spray pyrolysis [42], Vacuum deposition method [43,44], Magnetron sputtering [45], and
+                                sol-gel [46,47] methods could be of use for achieving two divided absorber layers like those
+                           simulated by the CSLO technique.
+
+                                   4. Conclusions
+
+                                 In this work, the CSLO technique was introduced to improve the performance of
+                         CZTSe-based solar cells. Due to utilizing this technique, the efﬁciency and ﬁll factor were
+                            increased by 12.76% and 13.74%, respectively; the electrical properties were improved as
+                               well. In addition, important parameters that affect the performance of the solar cell, such as
+                             the total effect density, carrier lifetime, and layer thickness, were investigated and simulated.
+                          Moreover, CZTS-based, Ge-based Cu2ZnGeSe4, and Si-based Cu2ZnSiSe4 Kesterite solar
+                                 cells made with the proposed CSLO technique were simulated. According to the results,
+                            the efﬁciency was increased in each solar cell by employing the proposed technique.
+                          Furthermore, hybrid structures were compared. As represented here, by employing an
+                         CZTSe-based absorber layer with a CZTS, Cu2ZnGeSe4, and Si-based Cu2ZnSiSe4 one, the
+                               optical behavior and electrical property were remarkably improved. The optical behavior
+                        improvement was due to tuneable band gaps covering almost the entire solar spectrum
+                       and the high absorption coefﬁcient.
+--- Страница 10 ---
+Appl. Sci. 2022, 12, 4119                                                                                                        10 of 11
+
+
+
+
+                           Author Contributions: Conceptualization, S.R. and M.S.; methodology, S.R. and M.S.; software, S.R.;
+                                  validation, S.R. and M.S.; formal analysis, S.R. and M.S.; investigation, S.R. and M.S.; resources, S.R.
+                          and M.S.; data curation, S.R.; writing—original draft preparation, S.R.; writing—review and editing,
+                                  M.S.; visualization, S.R. and M.S.; supervision, M.S.; project administration, S.R. and M.S. All authors
+                           have read and agreed to the published version of the manuscript.
+
+                            Funding: This research received no external funding.
+
+                                 Institutional Review Board Statement: Not applicable.
+
+                           Informed Consent Statement: Not applicable.
+
+                           Data Availability Statement: The data presented in this study are available from the corresponding
+                              authors upon reasonable request.
+
+                             Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+References
+
+1.   Hong, F.; Lin, W.; Meng, W.; Yan, Y. Trigonal Cu2-II-Sn-VI4 (II = Ba, Sr and VI = S, Se) quaternary compounds for earth-abundant
+     photovoltaics. Phys. Chem. Chem. Phys. 2016, 18, 4828–4834. [CrossRef] [PubMed]
+2.   Adachi, S. Earth-Abundant Materials for Solar Cells: Cu2-II-IV-VI4 Semiconductors; John Wiley & Sons: Hoboken, NJ, USA, 2015.
+3.   Altamura, G. Development of CZTSSe Thin Films based Solar Cells. Ph.D. Thesis, Université Joseph-Fourier—Grenoble I:
+     Material Chemistry, Grenoble, France, 2014.
+4.   Haque, K.; Baten, M.Z. On the prospect of CZTSSe-based thin ﬁlm solar cells for indoor photovoltaic applications: A simulation
+     study. AIP Adv. 2019, 9, 55326. [CrossRef]
+5.   Mebelson, T.J.; Elampari, K. A study of electrical and optical characteristics of CZTSe solar cell using Silvaco Atlas. Mater. Today
+      Proc. 2021, 46, 2540–2543. [CrossRef]
+6.    Jiang, M.; Yan, X. Cu2ZnSnS4 thin ﬁlm solar cells: Present status and future prospects. In Solar Cells—Research and Application
+      Perspectives; Morales-Acevedo, A., Ed.; Intech: Rijeka, Croatia, 2013.
+7.    Ratz, T.; Brammertz, G.; Caballero, R.; Leon, M.; Canulescu, S.; Schou, J.; Gütay, L.; Pareek, D.; Taskesen, T.; Kim, D.-H.; et al.
+     Physical routes for the synthesis of kesterite. J. Phys. Energy 2019, 1, 42003. [CrossRef]
+8.   Tumbul, A.; Aslan, F.; Gökta¸s, A.; Mutlu, I. All solution processed superstrate type Cu2ZnSnS4 (CZTS) thin ﬁlm solar cell: Effect
+      of absorber layer thickness. J. Alloys Compd. 2019, 781, 280–288. [CrossRef]
+9.   Guerra, N.; Guevara, M.; Palacios, C.; Crupi, F. Operation and physics of photovoltaic solar cells: An overview. I + D Tecnológico
+     2018, 14, 84–95. [CrossRef]
+10.   Attaﬁ, D.; Boumaraf, R.; Meftah, A.; Sengouga, N. Effect of a Back-Surface Field and Passivation Layer on a Silicon Schottky Solar
+      Cell. Trans. Electr. Electron. Mater. 2021, 22, 357–362. [CrossRef]
+11.  Boukortt, N.E.I.; AlAmri, A.M.; Bouhjar, F.; Bouhadiba, K. Investigation and optimization of ultrathin Cu (In, Ga) Se2 solar cells
+    by using silvaco-TCAD tools. J. Mater. Sci. Mater. Electron. 2021, 32, 21525–21538. [CrossRef]
+12.  Luque, A.; Hegedus, S. Handbook of Photovoltaic Science and Engineering; John Wiley & Sons: Hoboken, NJ, USA, 2011.
+13.   Jabbar, H.; Jeong, T. Ambient Light Energy Harvesting and Numerical Modeling of Non-Linear Phenomena. Appl. Sci. 2022,
+      12, 2068. [CrossRef]
+14.  Dwivedi, D.K. Modeling of Photovoltaic Solar Cell Based on CuSbS2 Absorber for the Enhancement of Performance. IEEE Trans.
+      Electron Devices 2021, 68, 1121–1128. [CrossRef]
+15.   Antolin, E.; Zehender, M.H.; Garcia-Linares, P.; Svatek, S.A.; Marti, A. Considerations for the Design of a Heterojunction Bipolar
+     Transistor Solar Cell. IEEE J. Photovolt. 2019, 10, 2–7. [CrossRef]
+16.  Verma, M.; Routray, S.R.; Mishra, G. Analysis and optimization of BSF layer for highly efﬁcient GaInP single junction solar cell.
+     Mater. Today Proc. 2021, 43, 3420–3423. [CrossRef]
+17.  De Rossi, F.; Taheri, B.; Bonomo, M.; Gupta, V.; Renno, G.; Nia, N.Y.; Rech, P.; Frost, C.; Cazzaniga, C.; Quagliotto, P.; et al. Neutron
+      irradiated perovskite ﬁlms and solar cells on PET substrates. Nano Energy 2021, 93, 106879. [CrossRef]
+18.   Girish, K.; Vishnumurthy, K.; Roopa, T. Role of conducting polymers in enhancing the stability and performance of perovskite
+      solar cells: A brief review. Mater. Today Sustain. 2022, 17, 100090. [CrossRef]
+19.  Basumatary, P.; Agarwal, P. A short review on progress in perovskite solar cells. Mater. Res. Bull. 2021, 149, 111700. [CrossRef]
+20.  Hayashi, Y.; Li, D.; Ogura, A.; Ohshita, Y. Role of i-aSi: H layers in aSi: H/cSi heterojunction solar cells. IEEE J. Photovolt. 2013, 3,
+     1149–1155. [CrossRef]
+21.  Noge, H.; Saito, K.; Sato, A.; Kaneko, T.; Kondo, M. Two-dimensional simulation of interdigitated back contact silicon heterojunc-
+      tion solar cells having overlapped p/i and n/i a-Si: H layers. Jpn. J. Appl. Phys. 2015, 54, 8KD17. [CrossRef]
+22.  Moulé, A.J.; Meerholz, K. Morphology Control in Solution-Processed Bulk-Heterojunction Solar Cell Mixtures. Adv. Funct. Mater.
+     2009, 19, 3028–3036. [CrossRef]
+23.  Kumar, D.; Krishnan, N.S.; Ilango, M.S.; Ramasesha, S.K. Device simulations of a novel nanostructured CdS/CdTe solar cell with
+     back contacts. J. Comput. Electron. 2021, 20, 324–329. [CrossRef]
+--- Страница 11 ---
+Appl. Sci. 2022, 12, 4119                                                                                                        11 of 11
+
+
+
+24.  Ergen, O.; Celik, E.; Unal, A.H.; Erdolu, M.Y. Screen Engineered Field Effect Cu2O Based Solar Cells. IEEE Electron Device Lett.
+     2020, 41, 1138–1140. [CrossRef]
+25.  Chee, K.W.; Hu, Y. Design and optimization of ARC less InGaP/GaAs single-/multi-junction solar cells with tunnel junction and
+     back surface ﬁeld layers. Superlattices Microstruct. 2018, 119, 25–39. [CrossRef]
+26.  Hoehn, O.; Niemeyer, M.; Weiss, C.; Lackner, D.; Predan, F.; Franke, A.; Beutel, P.; Schachtner, M.; Müller, R.; Siefer, G.; et al.
+    Development of Germanium-based wafer-bonded four-junction solar cells. IEEE J. Photovolt. 2019, 9, 1625–1630. [CrossRef]
+27.  Trahms, M.; Jost, M.; Trinh, C.T.; Preissler, N.; Albrecht, S.; Schlatmann, R.; Rech, B.; Amkreutz, D. All-Thin-Film Tandem Cells
+     Based on Liquid Phase Crystallized Silicon and Perovskites. IEEE J. Photovolt. 2019, 9, 621–628. [CrossRef]
+28.  Paswan, S.K.; Chandra, D.; Bhatt, U.M.; Kumar, B. Performance Enhancement of CZTS and CZTSSe Solar Cells using CdS as
+     Buffer Layer. In Proceedings of the 2020 International Conference on Electrical and Electronics Engineering (ICE3), Gorakhpur,
+      India, 14–15 February 2020.
+29.  Latrous, A.R.; Mahamdi, R.; Touafek, N.; Pasquinelli, M. Performance Enhancement in CZTS Solar Cells by SCAPS-1D. Int. J.
+     Thin Film. Sci. Technol. 2021, 10, 1.
+30.  Madan, J.; Pandey, R.; Sharma, R. Designing of CZTSSe Based SnS thin ﬁlm solar cell for improved conversion efﬁciency: A
+     simulation study with SCAPS. In Proceedings of the 2019 IEEE 46th Photovoltaic Specialists Conference (PVSC), Chicago, IL,
+    USA, 16–21 June 2019.
+31.  Bao, W.; Qiu, F.Y.; Bai, S.; Li, Y.; Chen, D.M. Study of band offset at ZnS/Cu2ZnIVS4 (IV = Si, Ge, Sn) heterointerfaces. Optoelectron.
+     Adv. Mater. Rapid Commun. 2018, 12, 327–331.
+32.   Braly, I.L.; de Quilettes, D.W.; Pazos-Outón, L.W.; Burke, S.; Ziffer, M.E.; Ginger, D.S.; Hillhouse, H.W. Hybrid perovskite ﬁlms
+     approaching the radiative limit with over 90% photoluminescence quantum efﬁciency. Nat. Photonics 2018, 12, 355–361. [CrossRef]
+33.   Tripathi, S.; Maurya, S.; Kumar, B.; Dwivedi, D.K. Comparative analysis of CZTS/CZTSe/CZTSSe absorber layer for solar cell
+      applications. In Proceedings of the 2020 International Conference on Electrical and Electronics Engineering (ICE3), Gorakhpur,
+      India, 14–15 February 2020.
+34.  Gohri, S.; Sharma, S.; Pandey, R.; Madan, J.; Sharma, R. Inﬂuence of SnS and Sn2S3 based BSF layers on the performance of
+    CZTSSe solar cell. In Proceedings of the 2020 47th IEEE Photovoltaic Specialists Conference (PVSC), Calgary, AB, Canada, 15
+     June–21 August 2020.
+35.  Vermang, B.; Ren, Y.; Donzel-Gargand, O.; Frisk, C.; Joel, J.; Salomé, P.; Borme, J.; Sadewasser, S.; Platzer-Björkman, C.; Edoff, M.
+     Rear Surface Optimization of CZTS Solar Cells by Use of a Passivation Layer With Nanosized Point Openings. IEEE J. Photovolt.
+     2015, 6, 332–336. [CrossRef]
+36.  Courel, M.; Andrade-Arvizu, J.A.; Vigil-Galán, O. The role of buffer/kesterite interface recombination and minority carrier
+      lifetime on kesterite thin ﬁlm solar cells. Mater. Res. Express 2016, 3, 95501. [CrossRef]
+37.  Pandey, R.; Shimpi, T.; Munshi, A.; Sites, J.R. Impact of Carrier Concentration and Carrier Lifetime on MgZnO/CdSeTe/CdTe
+     Solar Cells. IEEE J. Photovolt. 2020, 10, 1918–1925. [CrossRef]
+38.  Shah, D.K.; Kc, D.; Muddassir, M.; Akhtar, M.S.; Kim, C.Y.; Yang, O.-B. A simulation approach for investigating the performances
+     of cadmium telluride solar cells using doping concentrations, carrier lifetimes, thickness of layers, and band gaps. Sol. Energy
+     2021, 216, 259–265. [CrossRef]
+39.   Shin, D.; Saparov, B.; Mitzi, D.B. Defect Engineering in Multinary Earth-Abundant Chalcogenide Photovoltaic Materials. Adv.
+     Energy Mater. 2017, 7, 1602366. [CrossRef]
+40.  Tampo, H.; Kim, K.M.; Kim, S.; Shibata, H.; Niki, S. Improvement of minority carrier lifetime and conversion efﬁciency by Na
+     incorporation in Cu2ZnSnSe4 solar cells. J. Appl. Phys. 2017, 122, 023106. [CrossRef]
+41.  Sun, R.; Zhuang, D.; Zhao, M.; Gong, Q.; Scarpulla, M.; Wei, Y.; Ren, G.; Wu, Y. Beyond 11% efﬁcient Cu2ZnSn (Se, S)4 thin ﬁlm
+      solar cells by cadmium alloying. Sol. Energy Mater. Sol. Cells 2018, 174, 494–498. [CrossRef]
+42.   Katagiri, H.; Jimbo, K.; Yamada, S.; Kamimura, T.; Maw, W.S.; Fukano, T.; Ito, T.; Motohiro, T. Enhanced Conversion Efﬁciencies of
+     Cu2ZnSnS4-Based Thin Film Solar Cells by Using Preferential Etching Technique. Appl. Phys. Express 2008, 1, 041201. [CrossRef]
+43.   Shooshtari, M.; Salehi, A. An electronic nose based on carbon nanotube -titanium dioxide hybrid nanostructures for detection
+    and discrimination of volatile organic compounds. Sens. Actuators B Chem. 2022, 357, 131418. [CrossRef]
+44.  Ge, J.; Yan, Y. Controllable Multinary Alloy Electrodeposition for Thin-Film Solar Cell Fabrication: A Case Study of Kesterite
+     Cu2ZnSnS4. iScience 2018, 1, 55–71. [CrossRef]
+45.   Tiwari, K.J.; Chetty, R.; Mallik, R.C.; Malar, P. Solid state synthesis and e-beam evaporation growth of Cu2ZnSnSe4 for solar
+     energy absorber applications. Sol. Energy 2017, 153, 173–180. [CrossRef]
+46.  Cazzaniga, A.; Crovetto, A.; Yan, C.; Sun, K.; Hao, X.; Estelrich, J.R.; Canulescu, S.; Stamate, E.; Pryds, N.; Hansen, O.; et al.
+      Ultra-thin Cu2ZnSnS4 solar cell by pulsed laser deposition. Sol. Energy Mater. Sol. Cells 2017, 166, 91–99. [CrossRef]
+47.  Agawane, G.L.; Vanalakar, S.A.; Kamble, A.S.; Moholkar, A.V.; Kim, J.H. Fabrication of Cu2 (ZnxMg1-x) SnS4 thin ﬁlms by pulsed
+      laser deposition technique for solar cell applications. Mater. Sci. Semicond. Process. 2018, 76, 50–54. [CrossRef]

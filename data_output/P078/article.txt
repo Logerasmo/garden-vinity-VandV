@@ -1,0 +1,586 @@
+--- Страница 1 ---
+                                                                Materials & Design 209 (2021) 109972
+
+
+                                            Contents lists available at ScienceDirect
+
+                            Materials & Design
+
+
+                             journal homepage: www.elsevier.com/locate/matdes
+
+
+
+Composite electrode based on single-atom Ni doped graphene for planar
+carbon-based perovskite solar cells
+
+Min Guo a, Chenyang Wei a, Congcong Liu a, Kun Zhang a, Haijun Su a,⇑, Keyu Xie a, Peng Zhai b,⇑, Jun Zhang a,
+Lin Liu a
+
+a State Key Laboratory of Solidiﬁcation Processing, Northwestern Polytechnical University, Xi’an 710072, China
+b Key Laboratory of Applied Surface and Colloid Chemistry, Ministry of Education, Shaanxi Key Laboratory for Advanced Energy Devices, Shaanxi Engineering Lab for Advanced
+Energy Technology, School of Materials Science and Engineering, Shaanxi Normal University, Xi’an, 710119, China
+
+
+
+h i g h l i g h t s               g r a p h i c a l a b s t r a c t
+
+
+ Single-atom Ni doped graphene is
+ successfully synthesized by
+ impregnation method using Ni(NO3)2
+ solution.
+ A novel composite electrode
+ composed of single-atom Ni doped
+ graphene (Ni-NG) in the area of
+ planar carbon-based perovskite solar
+  cells is developed for the ﬁrst time.
+ Optimized PSCs with Ni-NG
+ composite electrode achieved a
+ champion PCE of 12.39%, which
+ presents an improvement of 12.74%
+ over than that of the PSCs with CE
+ composite electrode.
+ Efﬁcient hole extraction at the
+ perovskite/carbon electrode interface
+ can be realized by using abundant
+ single-atom Ni active sites, large
+ speciﬁc surface area and low work
+ function of Ni-NG.
+
+
+a r t i c l e    i n f o              a b s t r a c t
+
+
+Article history:                                    In order to improve the inherently inefﬁcient hole extraction from perovskite to carbon electrode in pla-
+Received 25 February 2021                      nar carbon-based perovskite solar cells (PSCs), herein, a novel composite electrode composed of single-
+Revised 4 July 2021                        atom Ni doped graphene (Ni-NG) for PSCs is proposed for the ﬁrst time. Ni-NG with low work function
+Accepted 6 July 2021
+                                             provides a great driving force to improve the hole extraction at the interface. Meanwhile, Ni-NG with
+Available online 8 July 2021
+                                         abundant single-atom Ni active sites and large speciﬁc surface area can accelerate charge transport
+                                       and strengthen interface contact. Optimized PSCs with composite electrode based on Ni-NG achieved a
+Keywords:
+                                       champion power conversion efﬁciency (PCE) of 12.39%, higher than PSCs with pristine carbon electrode
+Perovskite solar cells
+                                       and composite electrode based on NG. Our work exploits the application of single-atom Ni doped gra-
+Single-atom doped graphene
+Carbon electrode                           phene as carbon electrode and provides new insights into the structure design of carbon electrode to
+Hole extraction                                 obtain efﬁcient planar carbon-based PSCs.
+Charge transport                            2021 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license
+                                                                                                   (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+
+
+
+ ⇑Corresponding authors.
+    E-mail addresses: shjnpu@nwpu.edu.cn (H. Su), zhaipeng@nwpu.edu.cn (P. Zhai).
+
+
+https://doi.org/10.1016/j.matdes.2021.109972
+0264-1275/  2021 The Authors. Published by Elsevier Ltd.
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+--- Страница 2 ---
+M. Guo, C. Wei, C. Liu et al.                                                                                                             Materials & Design 209 (2021) 109972
+
+1. Introduction                                                         architecture, Ni-NG with a large speciﬁc surface area can realize
+                                                               a ﬁrm contact with the perovskite to facilitate the hole extraction.
+   Perovskite solar cells (PSCs) as promising candidate for com-    Meanwhile, the presence of single Ni atom results in an efﬁcient
+mercial photovoltaic applications have attracted intense attention    reduction in work function by changing the electronic structure
+due to their strong light absorption, high carrier mobility, and long     of graphene, which is conﬁrmed to enhance the hole extraction
+carrier diffusion length [1–3]. Recently, the certiﬁed power conver-    from the perovskite and thus suppress the electron-hole recombi-
+sion efﬁciency (PCE) of PSCs has been increased over 25% by devel-     nation. As a result, by optimizing Ni doping concentration (4   10-4
+oping new functional materials, improving device preparation and    mol/g) and dispersion concentration of Ni-NG (1 mg/mL), PSCs
+optimizing compositional/interfacial engineering [4–9]. However,    with composite Ni-NG based electrode achieve a champion PCE
+the commonly used hole transport material (HTM) (e.g., Spiro-     of 12.39%, higher than their counterpart with pristine carbon/com-
+OMeTAD) and counter electrode (e.g., Au) of PSCs are expensive,     posite electrode based NG. In this paper, it’s ﬁrst time using single-
+and the migration of lithium ions in the Spiro-OMeTAD also limits    atom Ni doped graphene as carbon electrode of PSCs, which shows
+the long-term stability of the devices. All these disadvantages     great potential to develop effective and stable carbon electrode for
+greatly hinder the commercial development of PSCs in the future     practical application. Our work also provides new insights into the
+[10–13]. It is urgent to develop a superior HTM with low cost    design of carbon electrode architecture for HTM-free carbon-based
+and long stability. The carbon materials are thought to be the most     PSCs.
+promising candidate as counter electrode materials owing to their
+low cost, rich content, excellent electronic property and stable per-
+                                                                              2. Experimental section
+formance, which are beneﬁcial to the preparation of devices with
+high stability and commercial application [14,15]. Therefore, a
+                                                                                    2.1. Synthesis of Ni-NG
+HTM-free carbon based PSCs were developed, which demonstrates
+a good hole-transporting ability and stable performance [16,17].
+                                                           Ni-NG was prepared by liquid-phase impregnation [38]. First,
+   In theory, when the light shines on the perovskite absorber, the
+                                                             graphene oxide (GO) was synthesized by Hummer method. 2 g gra-
+photo-generated holes are directly extracted from perovskite to
+                                                                     phite powder and 12 g potassium permanganate was carefully
+carbon electrode in HTM-free carbon based and the surface defects
+                                                          added into the mixture of 120 mL concentrated sulfuric acid and
+of perovskite can induce serious recombination, resulting in the
+                                                                  13.3 mL phosphoric acid. After the mixture slowly stirring for
+reduction of hole extraction efﬁciency and degradation of photo-
+                                                        12 h, hydrogen peroxide solution was added into the mixture until
+voltaic performance[18]. To solve this problem, great efforts have
+                                                                    there was no precipitation at the bottom of the beaker, then the
+been made to enhance the hole extraction capability for carbon
+                                                                ﬁnal solution was centrifuged repeatedly and freeze-dried to
+materials [18–24]. Some novel carbon materials such as carbon
+                                                                   obtain graphene oxide powder. After that, 200 mg graphene (GO)
+nanotubes (CNTs) and graphene have been widely used as carbon
+                                                      was dispersed in 400 mL deionized water. Subsequently the GO
+electrodes [25–29]. CNT-based PSCs fabricated by polymethyl
+                                                                      solution was stirred for 1 h and ultrasonically dispersed for 6 h
+methacrylate (PMMA) over-coating have obtained a decent power
+                                                                           until obtaining a homogeneous dispersion without precipitation.
+conversion efﬁciency of 11.8% [30]. In addition, chemically doping
+                                                                 Then, additional Ni species was introduced in graphene through
+heteroatoms into the carbon structure is regarded as an effective
+                                                                        incipient impregnation of Ni(NO3)2 solution. Different volumes of
+way to enhance the electrical conductivity of carbon materials,
+                                                                Ni(NO3)2 (12.5 mM) solution was slowly added to GO dispersion
+reinforce the interface contact and improve energy level matching
+                                                            under sonication to form the precursor solution with different Ni
+between carbon electrode and perovskite [31,32]. For example,
+                                                              doping concentration. The precursor solution was lyophilized to
+Zheng applied boron-doped carbon nanotubes (B-MWCNTs) as
+                                                                     give a GO foam containing Ni ions. Finally, the GO foam was
+the carbon electrode, which improved the PCE of devices from                                                                     1                                                               annealed at 900 C for 2 h at a heating rate of 4.0 C min  under
+10.70% to 14.60% [33]. Zhu prepared PSCs with conﬁguration of
+                                                              Ar (100 sccm) and NH3 (100 sccm) to obtain the Ni-NG material.
+FTO/bl-TiO2/mp-TiO2/MAPbI3/nitrogen-doped  graphene  (N-GF),                                                          The reductive annealing procedure can simultaneously achieve
+obtaining a high PCE of 10.32%. The incorporation of N into gra-
+                                                                  the atomically dispersed Ni doping, avoiding large aggregated Ni
+phene  lattice reduced  the work  function  of graphene from
+                                                                           particles due to abundant nitrogen dopants serving as binding sites
+5.22 eV to 4.92 eV, which effectively increased the energy level dif-
+                                                                           [39,40]. For comparison, the Ni-free N-doped graphene, denoted as
+ference with perovskite and resulted in a large excess energy for
+                                                           NG, was prepared by the reductive annealing without adding Ni
+the charge transfer [34]. Besides, metal atom doping can greatly
+                                                                 (NO3)2 solution.
+improve the electrical conductivity of carbon electrode. Wei intro-
+duced Na-embedded carbon nanotubes (Na@C) into carbon elec-
+trode, which possess high conductivity and large speciﬁc surface      2.2. Preparation of composite electrode
+area, reaching a PCE of 8.89% [35].
+   Recently, some researchers have developed a new kind of      Ni-NG and NG were ﬁrst dispersed in 2 mL chlorobenzene, fol-
+                                                          lowed by stirring vigorously and sonication to form a uniform dis-single-metal-atom doped carbon material by designing coordina-
+tion sites on the surface of the carbon material, which can maxi-     persion. Then 40 lL dispersion was spin coated onto the substrate.
+                                                                               Finally, a commercial carbon paste was doctor bladed on the top ofmize the utilization efﬁciency of metal atom, possess ultra-high
+density of active sites and improve the charge transport efﬁciency    the Ni-NG and NG layer to construct the composite carbon elec-
+                                                                   trode (Ni-NG/CE and NG/CE). After that, dried at 100 C for 1 h.[36,37]. Metal-nitrogen-doped carbon material have exhibited
+remarkable catalytic performances in the ﬁeld of electrocatalysis,     Pristine carbon electrode (CE) was prepared by the doctor blade
+                                                       method without the graphene layer as reference.which provided us another promising idea for the application of
+this carbon material in PSCs. Herein, a novel composite electrode
+by coupling commercial carbon electrode with Ni-N-doped gra-      2.3. Fabrication of perovskite solar cells
+phene (Ni-NG) is constructed, in which Ni single atom is uniformly
+distributed as active site. N atoms replace partial carbon atoms in      FTO substrate was ultrasonically cleaned with detergent, deion-
+graphene lattice due to their similar size, and Ni atoms are incor-     ized water and ethanol for 15 min, respectively. After ultraviolet
+porated by forming the coordination bonds with N atoms. In this    (UV)/O3 treatment for 15 min, the substrate was spin coated with
+
+
+
+                                                                    2
+--- Страница 3 ---
+M. Guo, C. Wei, C. Liu et al.                                                                                                             Materials & Design 209 (2021) 109972
+
+a thin SnO2 layer at 3000 rpm for 30 s, followed by drying at 120 C    atomic agglomeration. EDS mapping of Ni-NG in Fig. 1c clearly
+for 15 min. Then a SnO2 layer was spin coated once again and    demonstrates that Ni and N elements are homogeneously dis-
+annealed in ambient air at 180 C for 30 min. After that, 1.5 M     tributed on graphene. In order to obtain more information about
+PbI2 solution (N,N-Dimethylformamide (DMF) : Dimethyl sulfoxide    the distribution of Ni atoms, HAADF-STEM of Ni-NG is recorded
+(DMSO) = 9:1) was stirred at 70 C for 2 h, and 70 mg mL 1 per-     in Fig. 1d. Isolated bright spots can be associated to Ni atoms, con-
+ovskite precursor solution was prepared by dissolving the mixture    ﬁrming that single-atom Ni sites exist on graphene without obvi-
+(Methylammonium iodide (MAI) : Formamidinium iodide (FAI) :    ous agglomeration [42].
+Methylammonium bromide (MABr) = 7:2:1) in 2-propanol. A PbI2      To further investigate the elemental composition and state of
+ﬁlm was spin coated onto the SnO2 at 5000 rpm for 25 s, immedi-    Ni-NG, X-ray photoelectron spectroscopy (XPS) is performed for
+ately the perovskite precursor solution was spin coated onto the   NG and Ni-NG with different Ni doping concentration. As seen in
+PbI2 at 4000 rpm for 25 s, and then annealed at 100 C for 1 h.      Fig. 2a, all Ni-NGs appear a peak signal of Ni 2p, which demon-
+Finally, carbon electrode was deposited on the perovskite ﬁlm by     strates the successful doping of Ni atoms in graphene. The element
+doctor blade to obtain the HTM-free carbon-based PSCs devices.    contents of the above products are summarized in Table 1. With
+All above steps were performed in ambient air (RH ~ 30%).           the increase in nickel nitrate introduction during preparation, the
+                                                               Ni content of Ni-NG can be obtained from 0.09% to 0.50%, indicat-
+                                                                    ing that by incorporating different amount of nickel nitrate as
+2.4. Measurements and characterization
+                                                                       nickel source can effectively regulate the Ni doping concentration.
+                                                          The high-resolution N 1s spectrum is displayed in Fig. 2b. After Ni
+   The morphology of samples was characterized by a ﬁeld-
+                                                                   doping, the peak shape of N 1s is changed from a broad single peak
+emission scanning electron microscopy (SEM, FEI Verios G4) and
+                                                                      to double peaks, which implies that the Ni atoms changes the
+a transmission electron microscopy (TEM, FEI Talos F200X). The
+                                                                chemical state of N. In addition, With the Ni doping concentration
+distribution of doped Ni atom on graphene was investigated by a
+                                                                         increasing, N 1s peak is shifted to the higher binding energy and
+high-angle annular dark-ﬁeld imaging-scanning transmission elec-
+                                                                  the Ni 2p peak is shifted to the lower binding energy (Fig. S1),
+tron microscopy (HAADF-STEM, JEOL ARM-200F). The Raman spec-
+                                                          which suggests that electrons transfer from N atoms to Ni atoms
+trum of doped graphene was recorded using a confocal microscope
+                                                                        via Ni-N coordination. Fitted high-resolution N 1s spectrum of
+Raman spectrometer (Alpha 300R) with a TEM00 laser at 532 nm.
+                                             NG in Fig. 2c reveals the presence of four types of N species with
+The elemental composition and elemental chemical state of sam-
+                                                                        pyridinic N  (398.5  eV),  pyrrolic N  (401.2  eV),  graphitic N
+ples was measured by an X-ray photoelectron spectroscopy (XPS,
+                                                                   (403.5 eV) and N-O (405.6 eV) [43,44]. It reported that the domina-Axis Supra) equipped with a monochromatic Al Ka X-ray source,
+                                                                       tion of pyridinic N could improve the chemical activity of NG and
+and the binding energy scale was adjusted assigning the signal of
+                                                                                  facilitate the anchoring of Ni atoms on NG via chemical bonds to
+C 1s to 284.8 eV. The work function of samples was obtained by
+                                                                   obtain more Ni active sites. Fitted high-resolution N 1s spectrum
+an Ultraviolet photoelectron spectroscopy (UPS) system integrated
+                                                                         of Ni-NG synthesized by 2   10-4 mol/g nickel nitrate introduction
+into XPS with an excitation photon energy of 21.22 eV. The steady-
+                                                                         in Fig. 2d evidences the presence of Ni-coordinated Ni-N moieties
+state photoluminescence (PL, excitation at 510 nm) spectrum was
+                                                                     located at the typical position around 399.8 eV [42].
+acquired using a ﬂuorescence spectrometer (PicoQuant Fluo Time-
+                                                             The Ni-NG is introduced at the perovskite layer/carbon elec-
+300). The current–voltage (J-V) characteristics of the PSCs were
+                                                                   trode interface by spin-coating method to construct composite
+measured using a Keithley 2420 source meter under the air mass
+                                   2                                       electrodes.  Fig.  3a-b  present  the  top-view SEM  images  of1.5 illumination at 100 mW cm  (Newport 91,160 solar-light sim-
+                                                                   perovskite/Ni-NG, it can be clearly seen that the Ni-NG completely
+ulator). All J-V tests were performed under ambient conditions at
+                                                                   covers the perovskite ﬁlm, which is beneﬁcial to the charge trans-
+room temperature. Electrochemical impedance spectruscopy (EIS)
+                                                                    port because of good interface contact. When the Ni-NG dispersion
+was recorded by electrochemical workstations (CHI 760E) with
+                                                                   concentration increase from 1 mg/mL to 5 mg/mL, more large-
+applied bias from 0.75 V to 0.95 V and a frequency range of
+                                                                      sized Ni-NG agglomerates appear on the surface of perovskite ﬁlm
+10 MHz to 0.1 Hz under dark condition.
+                                                                               (Fig. S2), which is due to that Ni-NG layers are easily stacked
+                                                                   together in high concentration dispersion. The presence of agglom-
+3. Results and discussion                                             erates not only decreases the contact area between Ni-NG and per-
+                                                                           ovskite, but also reduces the exposure of Ni active sites. The typical
+  Ni-NG shown in Fig. 1a is transparent and wrinkled on the sur-     cross-sectional SEM image of the PSCs based composite electrodes
+face, which still exhibits a thin two-dimensional structure of gra-      is recorded in Fig. 3c. The PSCs device is a well-deﬁned layer-by-
+phene carrier, with the advantages of large speciﬁc surface area     layer structure without hole transport layer, mainly composed of
+and excellent electrical conductivity [15,38]. The Raman spectrum    a composite  electrode (30 lm), a  MA0.8FA0.2PbI2.9Br0.1  layer
+presented in Fig. 1b is the NG and Ni-NG with different Ni doping    (470 nm), a SnO2 layer (60 nm), and a FTO glass. Particularly, a
+concentration, which is prepared by adding different amounts of     large  amount  of  carbon  black  particles  with  diameters
+nickel nitrate solution as nickel source through the impregnation     of ~ 10 nm tightly adhere to the surface of the Ni-NG and the com-
+method. All samples have two typical Raman peaks of few-layer     posite electrode is stably attached to the perovskite layer. The
+graphene, a D band at around 1350 cm 1 and a G band at around    schematic illustration of the hole extraction from perovskite by
+1590 cm  1, suggesting that the doping of Ni does not affect the    Ni-NG is shown in Fig. 3d. Ni-NG with a high density of single-
+intrinsic structure of graphene [41]. In addition, the ratio of D    atom Ni active sites can act as a fast channel for hole transport
+and G band can be used to characterize the defect degree of gra-    and thus effectively improve charge transport.
+phene. When the Ni doping concentration increases from 1   10-       As noted, the energy level alignment of the perovskite/carbon
+4 to 4   10-4 mol/g, the ratio of D and G band are 1.02, 1.04 and     electrode greatly affects the ability of hole extraction and trans-
+1.06, respectively. Consequently, the incorporation of Ni into gra-     portation at the interface, thereby affecting the photovoltaic per-
+phene lattice increases the dislocation and vacancy of Ni-NG. How-    formance  of carbon-based PSCs. To reveal the impact  of Ni
+ever, the ratio of D and G band drops to 1.02 when Ni doping    doping on the work function of graphene, UPS measurement of
+concentration further increases to 8   10-4 mol/g, which indicates     G, NG and Ni-NG is performed and depicted in Fig. 4a. The work
+that excessive Ni atoms can decrease defects in the structure of Ni-     function of G, NG, and Ni-NG are 5.29 eV, 5.21 eV, and 5.02 eV,
+NG due to the reduction of single atomic sites on graphene by     respectively, which implies that the incorporation of single Ni
+
+                                                                    3
+--- Страница 4 ---
+M. Guo, C. Wei, C. Liu et al.                                                                                                             Materials & Design 209 (2021) 109972
+
+
+
+
+
+             Fig. 1. (a) TEM images of Ni-NG. (b) Raman spectra of NG and Ni-NG. (c) Element mapping images of Ni-NG. (d) HAADF-STEM image of Ni   NG.
+
+
+
+
+
+               Fig. 2. (a) XPS spectra and (b) high-resolution N 1s spectrum of NG and Ni-NG. Fitted high-resolution N 1s spectrum of (c) NG and (d) Ni-NG.
+
+                                                                    4
+--- Страница 5 ---
+M. Guo, C. Wei, C. Liu et al.                                                                                                             Materials & Design 209 (2021) 109972
+
+
+Table 1
+Simulation parameters used in this study.
+
+   Materials                             C (at %)                  N (at %)                   O (at %)                          Ni (at %)
+
+  NG                                       91.24                             5.58                              3.18                          0
+  1   10-4 mol/g Ni                          90.05                             7.64                              2.22                               0.09
+  2   10-4 mol/g Ni                          89.94                             7.39                              2.46                               0.20
+  4   10-4 mol/g Ni                          87.32                             9.40                               3.03                               0.25
+  8   10-4 mol/g Ni                          89.70                             7.74                               2.05                               0.50
+
+
+
+
+
+Fig. 3. (a,b) Top-view SEM images of Ni-NG on the surface of perovskite ﬁlm. (c) Cross-sectional SEM images of PSCs based on composite electrode. (d) Schematic diagram of
+hole extraction from perovskite to composite electrode.
+
+
+
+
+
+Fig. 4. (a) UPS spectra of graphene, NG and Ni-NG. (b) UPS spectra of perovskite thin ﬁlm. (c) The energy band diagram for components used in PSCs based on composite
+electrode. (d) Steady-state PL spectra.
+
+                                                                    5
+--- Страница 6 ---
+M. Guo, C. Wei, C. Liu et al.                                                                                                             Materials & Design 209 (2021) 109972
+
+atom can distinctly downshift the work function of graphene.       Jsc density of PSCs based on Ni-NG/CE is slightly enhanced from
+Fig. 4b present the UPS spectra of perovskite thin ﬁlm. The conduc-    21.06 mA cm 2 to 21.29 mA cm 2 when scan rate is increased from
+tion band and valence band position of perovskite are estimated as    50 mV/s to 200 mV/s. However, the Jsc density of PSCs based on CE
+  4.62 and  6.17 eV (Fig. S3), characterized by the same method as      is signiﬁcantly improved from 17.86 mA cm 2 to 19.09 mA cm 2
+Refs. [45]. The energy band diagram for components used in the    under the same varied scan rate. The dependence on the scan rate
+device is presented in Fig. 4c. The decrease in graphene work func-     indicates a low charge collection efﬁciency in the PSCs based on CE
+tion causes a larger energy difference between the carbon elec-     at slow scan rate, which indicates that Ni-NG is beneﬁcial to charge
+trode and perovskite, providing a greater driving force for hole     extraction and transport. The results are also in good agreement
+extraction and a deeper potential barrier which can inhibit the    with steady-state PL spectra in Fig. 4d. Moreover, Ni doping con-
+recombination of electron-hole pairs [34,46].                         centration plays a key role in the photovoltaic performance of PSCs
+   The steady-state PL experiments are conducted to verify the    based on Ni-NG/CE. It can be found that the maximum of PCE is
+enhancement of hole extraction ability. Fig. 4d shows the PL spec-    obtained in PSCs based on 4-Ni-NG/CE, which reach an average
+tra of pristine perovskite ﬁlm and different graphene/perovskite    PCE of 10.90% and a champion PCE of 11.74%, exhibiting a Voc of
+ﬁlms deposited on glass. Compared with pristine perovskite ﬁlm,    0.89 V, a Jsc of 20.79 mA cm 2 and a FF of 59.18%. When the Ni dop-
+the perovskite ﬁlm with NG and Ni-NG layer not only quenches     ing concentration is changed from 1   10-4 to 4   10-4 mol/g, the
+PL by 67% and 90% respectively at approximately 769 nm, but also    average PCE of devices is enhanced from 9.55% to 10.90%. The
+shows a slight blue-shift induced by the decrease of charge trap    improvement is mainly due to the optimal hole extraction ability.
+sites [29,47]. The stronger PL quenching with a blue-shift indicates     In addition, the nitrogen and oxygen content in Ni-NG (4   10-4
+that the Ni-NG can improve hole extraction from perovskite to car-    mol/g) is slightly high, which could enhance interfacial chemical
+bon electrode efﬁciently due to the reduction of trap-induced     interaction  between  perovskite and  composite  electrode  to
+charge recombination.                                         improve the hole extraction at the interface [48,49]. The average
+   To evaluate the photovoltaic performance of composite elec-    PCE drop to 10.35% when the Ni doping concentration further
+trode based on Ni-NG (Ni-NG/CE), pristine carbon electrode (CE)    comes to 8   10-4 mol/g, which may be related to the agglomera-
+and composite electrode based on NG (NG/CE) are fabricated under     tion of Ni atoms. The excessive Ni atoms easily form the clusters of
+identical conditions as references. The current density–voltage (J-    Ni metal, which hinders the uniform dispersion of Ni single-atom
+V) curves of the PSCs under illumination of AM 1.5 (100 mW     active sites and reduces the hole mobility. To conﬁrm the device
+cm 2) are presented in Fig. 5a, and the corresponding parameters    performance from J-V measurement, the steady-state photocurrent
+are summarized in Table 2. The CE-based PSCs obtain an average    and PCE output of PSCs based on Ni-NG/CE is shown in Fig. 5b. A
+PCE of 8.71%, with a Voc of 0.87 V, a Jsc of 18.99 mA cm 2 and a     stabilized PCE of 10.3% with a corresponding photocurrent density
+FF of 52.81%. For NG/CE-based PSCs, an enhanced PCE of 9.32% is     of 17.2 mA cm 2 is obtained, which aligns with the value from J-V
+achieved. Furthermore, when Ni-NG is introduced into composite     data. The fast photocurrent response speed and stabilized output
+electrode, the PSCs show a large improvement on the photovoltaic    performance indicate the device is stable under continuous light
+performance. Obviously, Ni-NG/CE can bring about a comprehen-     conditions. The statistical photovoltaic parameters of PSCs based
+sive promotion in the performance mainly due to the increased    on CE, NG-CE and Ni-NG/CE are presented in Fig. 5c. Obviously,
+Jsc and FF. It appears that Ni doping provides abundant chemical    PCE for devices based on Ni-NG/CE is higher than that of reference
+active sites in graphene, which improves the conductivity of gra-     devices due to the enhanced Jsc and FF. Additionally, it’s noted that
+phene and enhances the hole extraction efﬁciency at the interface    the Ni-NG dispersion concentration in the spin-coating process
+between perovskite and composite electrode. As Fig. S4 shows, the     also greatly affect the photovoltaic performance of PSCs based on
+
+
+
+
+
+Fig. 5. (a) J-V curves of PSCs based on pristine CE, NG/CE and Ni-NG/CE. (b) The steady-state photocurrent and PCE output at 600 mV for PSCs based on Ni-NG/CE. (c)
+Comparison of the key photovoltaic parameters of PSCs based on pristine CE, NG/CE and Ni-NG/CE.
+
+                                                                    6
+--- Страница 7 ---
+M. Guo, C. Wei, C. Liu et al.                                                                                                             Materials & Design 209 (2021) 109972
+
+
+Table 2
+Photovoltaic parameters of PSCs based on pristine CE, NG/CE and Ni-NG/CE.
+
+  Type of PSCs                   Voc(V)                       Jsc(mA cm 2)                  FF(%)                        PCE(%)                      PCEmax(%)
+
+  CE                           0.87 ± 0.04                 18.99 ± 1.04                 52.81 ± 4.79                  8.71 ± 1.24                  10.36
+  NG/CE                        0.89 ± 0.02                 19.73 ± 0.92                 52.71 ± 3.48                  9.32 ± 0.68                  10.36
+  1-Ni-NG/CE                   0.92 ± 0.04                 18.98 ± 1.53                 54.78 ± 2.39                  9.55 ± 0.88                  10.63
+  2-Ni-NG/CE                   0.91 ± 0.03                 20.13 ± 0.17                  56.20 ± 0.47                 10.33 ± 0.27                 10.64
+  4-Ni-NG/CE                   0.89 ± 0.03                 20.79 ± 1.04                 59.18 ± 2.98                 10.90 ± 0.63                 11.74
+  8-Ni-NG/CE                   0.92 ± 0.04                 20.60 ± 0.48                 54.62 ± 3.51                 10.35 ± 0.79                 11.00
+
+
+
+
+
+Fig. 6. (a,b) Nyquist plots of PSCs based on pristine CE, NG/CE and Ni-NG/CE, with the equivalent circuit depicted in the inset of (a). (c) Rs and (d) Rrec of PSCs based on pristine
+CE, NG/CE and Ni-NG/CE at different applied biases.
+
+
+
+
+Ni-NG/CE. Standard PSCs with unmodiﬁed carbon paste electrodes    enlarged high-frequency region is presented in Fig. 6b. Only a sin-
+were prepared as the reference. Because the quality of the per-     gle distinct semicircle is observed, which may be attributed to the
+ovskite layer is susceptible to environmental temperature, humid-     nearly zero interface contact capacitance [50]. The traditional
+ity and other factors during the preparation process, the efﬁciency    equivalent circuit model composed of resistance, chare transfer
+of standard PSCs in each experiment is slightly different. As shown     resistance and charge recombination resistance gives the worse
+in Fig. S5 and Table S1, with Ni-NG dispersion concentration     ﬁtting degree to experimental data, so the equivalent circuit sim-
+increasing from 1 mg/mL to 5 mg/mL, the average PCE of devices    pliﬁed to ﬁt the test results is depicted in the inset of Fig. 5a. The
+drop from 11.15% to 8.87%. This result demonstrates that the Ni-     series resistance (Rs) is usually related to the charge transport
+NG agglomerates formed in high concentration dispersion are     resistance in the device, and recombination resistance (Rrec) can
+harmful for improving the photovoltaic performance of PSCs. Gra-     reﬂect charge recombination ability [51]. EIS measurements at
+phene layer stacking can affect the contact between perovskite and    applied bias from 0.75 V to 0.95 V provide more information
+Ni-NG/CE, thus reducing the hole extraction efﬁciency and causing    about Rs and Rrec of PSCs by ﬁtting corresponding Nyquist plots.
+the accumulation of charges at the interface. Apparently, based on    As shown in Fig. 6c and d, the PSCs based on composite electrode
+the optimal Ni doping concentration of 4   10-4 mol/g, the PSCs are     exhibit a relatively lower Rs and a higher Rrec than reference elec-
+further optimized by adjusting the Ni-NG dispersion concentra-     trode, which indicates Ni doping can improve charge transport
+tion, reaching a champion PCE of 12.39%. As shown in Table S2,    and reduce charge recombination, thereby realizing an enhance-
+the devices based on Ni-NG/CE show a ﬁne performanc  in    ment in  Jsc and FF. Notably, when the Ni doping concentration
+carbon-based PSCs [52].                                              increases from 1   10-4 to 8   10-4 mol/g, Rs of PSCs continuously
+   EIS measurements are used to investigate interfacial charge     decrease. However, PSCs based on composite electrode with Ni
+transport properties and recombination behaviors of PSCs based    doping concentration of 4    10-4 mol/g reach the highest Rrec,
+on reference electrode and composite electrode. Fig. 6a shows    which suggests the presence of Ni single-atom active sites can
+the Nyquist plots in the frequency range of 10 MHz to 0.1 Hz    suppress the charge recombination due to improvement in the
+at an applied bias of 0.95 V under dark condition, and the    hole extraction.
+
+
+                                                                    7
+--- Страница 8 ---
+M. Guo, C. Wei, C. Liu et al.                                                                                                             Materials & Design 209 (2021) 109972
+
+
+4. Conclusion                                                                     [12] K. Domanski, J.P. Correa-Baena, N. Mine, M.K. Nazeeruddin, A. Abate, M. Saliba,
+                                                                    W. Tress, A. Hagfeldt, M. Gratzel, Not all that glitters is gold: metal-migration-
+                                                                                  induced degradation in perovskite solar cells, ACS Nano. 10 (2016) 6306–6314.
+   In summary, we successfully synthesize single-atom Ni doped      [13] M. Haider, C. Zhen, T. Wu, G. Liu, H. Cheng, Boosting efﬁciency and stability of
+graphene by the impregnation method using Ni(NO3)2 solution           perovskite  solar  cells  with  nickelphthalocyanine  as  a  low-cost  hole
+and applied it to construct composite electrode for efﬁcient planar           transporting layer material, J. Mater. Sci. Technol. 34 (2018) 1474–1480.
+                                                                                       [14] H. Chen, S. Yang, Carbon-based perovskite solar cells without hole transport
+carbon-based PSCs. Ni doping can decrease the work function of           materials: the front runner to the market, Adv. Mater. 29 (2017) 1603994.
+graphene from 5.29 to 5.02 eV, which enhances the hole extraction      [15] T. Mahmoudi, Y. Wang, Y.-B. Hahn, Graphene and its derivatives for solar cells
+from the perovskite to composite electrode. Compared with the           application, Nano Energy. 47 (2018) 51–65.
+                                                                                       [16] L. Etgar, P. Gao, Z. Xue, Q. Peng, A.K. Chandiran, B. Liu, M.K. Nazeeruddin, M.
+controlled PSCs, the average PCE of PSCs base on Ni-NG/CE was            Gratzel, Mesoscopic CH3NH3PbI3/TiO2 heterojunction solar cells, J. Am. Chem.
+optimized from 8.71% to 10.90% and a champion PCE of 12.39%           Soc. 134 (2012) 17396–17399.
+was obtained. To the best of our knowledge, it is ﬁrst reported that      [17] Z. Ku, Y. Rong, M. Xu, T. Liu, H. Han, Full printable processed mesoscopic
+                                                                                  CH3NH3PbI3/TiO2 heterojunction solar cells with carbon counter electrode, Sci.
+single-atom doped carbon material is applied to improve the per-          Rep. 3 (2013) 3132.
+formance of PSCs. We believe this carbon material has wide appli-      [18] F. Giordano,  A. Abate,  J.P.C. Baena, M.  Saliba,  T. Matsui,  S.H. Im, S.M.
+cation for PSCs through further optimization.                                  Zakeeruddin,  M.K.  Nazeeruddin,  A.  Hagfeldt,  M.  Graetzel,  Enhanced
+                                                                                                electronic properties  in mesoporous TiO2  via lithium doping  for high-
+                                                                                         efﬁciency perovskitesolar cells, Nat. Commun. 7 (2016) 10379.
+Declaration of Competing Interest                                           [19] A. Mei, X. Li, L. Liu, Z. Ku, T. Liu, Y. Rong, M. Xu, M. Hu, J. Chen, Y. Yang, M.
+                                                                                                  Gratzel, H. Han, A hole-conductor-free, fully printable mesoscopic perovskite
+                                                                                                 solar cell with high stability, Science. 345 (2014) 295–298.
+   The authors declare that they have no known competing ﬁnan-      [20] Z. Wei, H. Chen, K. Yan,  S. Yang,  Inkjet printing and instant chemical
+cial interests or personal relationships that could have appeared          transformation  of a CH3NH3PbI3/nanocarbon electrode and  interface  for
+to inﬂuence the work reported in this paper.                                    planar perovskite solar cells, Angew. Chem. 53 (2014) 13239–13243.
+                                                                                       [21] S. Lin, B. Yang, X. Qiu, J. Yan, J. Shi, Y. Yuan, W. Tan, X. Liu, H. Hang, Y. Gao, C.
+                                                                                     Zhou, Efﬁcient and stable planar hole-transport-material-free perovskite solar
+Acknowledgements                                                                             cells using low temperature processed SnO2 as electron transport material,
+                                                                                           Org. Electron. 53 (2018) 235–241.
+                                                                                       [22] H. Wei, J. Xiao, Y. Yang, S. Lv, J. Shi, X. Xu, J. Dong, Y. Luo, D. Li, Q. Meng, Free-
+   This work was the ﬁnancial support by the National Natural          standing ﬂexible carbon electrode for highly efﬁcient hole-conductor-free
+Science Foundation of China (51971174, 51822405, 51702263),           perovskite solar cells, Carbon. 93 (2015) 861–868.
+                                                                                       [23] Q.Q. Chu, B. Ding, Y. Li, L.L. Gao, Q. Qiu, C.X. Li, C.J. Li, G.J. Yang, B. Fang, Fast
+Natural Science Basic Research Plan in Shaanxi Province of China          drying boosted performance improvement  of low-temperature paintable
+(2020JM-121), Joint Research Funds of the Department of Science          carbon-based perovskite solar cell, ACS Sustain. Chem. Eng. 5 (2017) 9758–
+& Technology of Shaanxi Province and NPU (2020GXLH-Z-024).          9765.
+                                                                                       [24] Y. Yang, J. Xiao, H. Wei, L. Zhu, D. Li, Y. Luo, H. Wu, Q. Meng, An all-carbon
+Key R&D Program of Shaan Xi Province (2018ZDCXL-GY-09-04) is                                                                                      counter  electrode  for  highly  efﬁcient  hole-conductor-free organo-metal
+also thankful. In addition, we would like to appreciate the Analyt-           perovskite solar cells, RSC Adv. 4 (2014) 52825–52830.
+ical & Testing Center of Northwestern Polytechnical University.         [25] Z. Wei, H. Chen, K. Yan, X. Zheng, S. Yang, Hysteresis-free multi-walled carbon
+                                                                                  nanotube-based perovskite solar cells with a high ﬁll factor, J. Mater. Chem. A.
+                                                                           3 (2015) 24226–24231.
+Appendix A. Supplementary data                                            [26] K. Yan, Z. Wei, J. Li, H. Chen, Y. Yi, X. Zheng, X. Long, Z. Wang, J. Wang, J. Xu, S.
+                                                                                       Yang, High-performance graphene-based hole conductor-free perovskite solar
+                                                                                                            cells: schottky junction enhanced hole extraction and electron blocking, Small.
+   Supplementary data to this article can be found online at         11 (2015) 2269–2274.
+https://doi.org/10.1016/j.matdes.2021.109972.                              [27]  I. Jeon, A. Shawky, H. Lin, S. Seo, H. Okada, J. Lee, A. Pal, S. Tan, A. Anisimov, E.I.
+                                                                                   Kauppinen, Y. Yang, S. Manzhos, S. Maruyama, Y. Matsuo, Controlled redox of
+                                                                                          lithium-ion endohedral fullerene for efﬁcient and stable metal electrode-free
+References                                                                             perovskite solar cells, J. Am. Chem. Soc. 141 (2019) 16553–16558.
+                                                                                       [28] Y. Qian, S. Seo, I. Jeon, H. Lin, S. Okawa, Y. Zheng, A. Shawky, A. Anisimov, E.I.
+                                                                                   Kauppinen,  J. Kong, MoS2-carbon nanotube heterostructure as efﬁcient hole [1] M.A. Green, H.B. Anita, H.J. Snaith, The emergence of perovskite solar cells, Nat.
+                                                                                            transporters and conductors in perovskite solar cells, Appl. Phys. Express. 13
+     Photonics. 8 (2014) 508–514.
+                                                                                      (2020) 075009.
+ [2] D. Wang, M. Wright, N.K. Elumalai, A. Uddin, Stability of perovskite solar cells,
+                                                                                       [29]  I. Jeon, A. Shawky, S. Seo, Y. Qian, A. Anisimov, E.I. Kauppinen, Y. Matsuo, S.
+      Sol. Energy Mater. Sol. Cells. 147 (2016) 255–275.
+                                                                           Maruyama, Carbon nanotubes to outperform metal electrodes in perovskite
+ [3] J.P. Correa-Baena, A. Abate, M. Saliba, W. Tress, T. Jacobsson, M. Gratzel, A.
+                                                                                                 solar cells via dopant engineering and hole-selectivity enhancement, J. Mater.
+     Hagfeldt, The rapid evolution of highly efﬁcient solar cells, Energy Environ. Sci.
+                                                                           Chem. 8 (2020) 11141–11147.
+    10 (2017) 710–727.
+                                                                                       [30] T. Sakaguchi, T. Chiba, A. Shawky, R. Xiang, S. Chiashi, E.I. Kauppinen, N. Park,
+ [4] https://www.nrel.gov/pv/cell-efﬁciency.html.
+                                                                                                      Y. Matsuo,  S. Maruyama, Non-doped and unsorted single-walled carbon
+ [5] H.S. Kim, C.R. Lee, J.H. Im, K.B. Lee, T. Moehl, A. Marchioro,  S.J. Moon, R.
+                                                                                 nanotubes as  carrier-selective, transparent, and conductive electrode for
+    Humphry-Baker,  J.H. Yum,  J.E. Moser, M. Gratzel, N.G. Park, Lead iodide
+                                                                                          perovskite solar cells, MRS Communications. 8 (2018) 1–6.
+     perovskite sensitized all-solid-state submicron thin ﬁlm mesoscopic solar cell
+                                                                                       [31] M. Chen, R.H. Zha, Z.Y. Yuan, Q.S. Jing, Z.Y. Huang, X.K. Yang, S.M. Yang, X.H.
+    with efﬁciency exceeding 9%, Sci. Rep. 2 (2012) 6022–6025.
+                                                                                        Zhao, D.L. Xu, G.D. Zou, Boron and phosphorus co-doped carbon counter
+ [6] C. Liu, H. Su, C. Wei, K. Xie, H. Wang, P. Zhai, M. Guo, J. Zhang, L. Liu, Tunable
+                                                                                           electrode for efﬁcient hole-conductor-free perovskite solar cell, Chem. Eng. J.
+     electronic   properties   of  TiO2  nanocrystals  by   in   situ  dopamine
+                                                                           313 (2017) 791–800.
+     functionalization for planar perovskite solar cells, Electrochimi. Acta. 354
+                                                                                       [32] Y.A. Kim, K. Fujisawa, H. Muramatsu, T. Hayashi, M. Endo, T. Fujimori, K.
+    (2020) 136720.
+                                                                                    Kaneko, M. Terrones, J. Behrends, A. Eckmann, C. Casiraghi, K.S. Novoselov, R.
+ [7] K. Jung, D.H. Kim, J. Kim, S. Ko, J.W. Choi, K.C. Kim, S. Lee, M. Lee, Inﬂuence of a
+                                                                                                        Saito, M.S. Dresselhaus, Raman spectroscopy of boron-doped single-layer
+    UV-ozone treatment on amorphous SnO2 electron selective layers for highly
+                                                                                      graphene, ACS Nano. 6 (2012) 6293–6300.
+     efﬁcient planar MAPbI3 perovskite solar cells, J. Mater. Sci. Technol. 59 (2020)
+                                                                                       [33] X. Zheng, H. Chen, Q. Li, Y. Yang, Z. Wei, Y. Bai, Y. Qiu, D. Zhou, K.S. Wong, S.
+    195–202.
+                                                                                       Yang, Boron doping of multiwalled carbon nanotubes signiﬁcantly enhances
+ [8] A.H. Ghahremani, B. Martin, A. Gupta,  J. Bahadur, K. Ankireddy, T. Druffel,
+                                                                                       hole extraction in carbon-based perovskite solar cells, Nano Lett. 17 (2017)
+    Rapid  fabrication  of  perovskite  solar  cells through  intense  pulse  light
+                                                                               2496–2505.
+     annealing of SnO2 and triple cation perovskite thin ﬁlms, Mater. Des. 185
+                                                                                       [34] Y. Zhu, S. Jia, J. Zheng, Y. Lin, Y. Wu, J. Wang, Facile synthesis of nitrogen-doped
+    (2020) 108237.
+                                                                                 graphene frameworks for enhanced performance of hole transport material-
+ [9] W. Pu, W. Xiao, J. Wang, X. Li, L. Wang, Screening of perovskite materials for
+                                                                                                  free perovskite solar cells, J. Mater. Chem. C. 6 (2018) 3097–3103.
+     solar cell applications by ﬁrst-principles calculations, Mater. Des. 198 (2021)
+                                                                                       [35] W. Wei, Y.H. Hu, Highly conductive Na-embedded carbon nanowalls for hole-
+    109387.
+                                                                                             transport-material-free perovskite solar cells without metal electrodes,  J.
+[10] T. Leijtens, G.E. Eperon, S. Pathak, A. Abate, M.M. Lee, H.J. Snaith, Overcoming
+                                                                                       Mater. Chem. A. 5 (2017) 24126–24130.
+     ultraviolet light  instability of sensitized TiO2 with meso-superstructured
+                                                                                       [36] A. Zitolo, V. Goellner, V. Armel, M.T. Sougrati, T. Mineva, L. Stievano, E. Fonda, F.
+    organometal tri-halide perovskite solar cells, Nat. Commun. 4 (2013) 2885.
+                                                                                           Jaouen, Identiﬁcation of catalytic sites for oxygen reduction in iron- and
+[11] Y.S. Kwon, J. Lim, H.J. Yun, Y.H. Kim, T. Park, A diketopyrrolopyrrole-containing
+                                                                                     nitrogen-doped graphene materials, Nat. Mater. 14 (2015) 937–942.
+     hole transporting conjugated polymer for use in efﬁcient stable organic-
+                                                                                       [37] Q.L. Zhu, W. Xia, L.R. Zheng, T. Zou, Z. Liu, Q. Xu, Atomically dispersed Fe/N-
+     inorganic hybrid solar cells based on a perovskite, Energy Environ. Sci. 7
+                                                                            doped  hierarchical  carbon  architectures  derived from  a  metal-organic
+     (2014) 1454.
+
+                                                                    8
+--- Страница 9 ---
+M. Guo, C. Wei, C. Liu et al.                                                                                                             Materials & Design 209 (2021) 109972
+
+
+    framework composite for extremely efﬁcient electrocatalysis, ACS Energy Lett.           planar-structure HC(NH2)2PbI3-based perovskite solar cells, Nature Energy. 2
+    2 (2017) 504–511.                                                                (2016) 16177.
+[38] K. Zhang, Z. Chen, R. Ning, S. Xi, W. Tang, Y. Du, C. Liu, Z. Ren, X. Chi, M. Bai, C.      [46] A.J. Ward, A. Ruseckas, M.M. Kareem, B. Ebenhoch, L.A. Serrano, M. Al-Eid, B.
+     Shen, X. Li, X. Wang, X. Zhao, K. Leng, S.J. Pennycook, H. Li, H. Xu, K.P. Loh, K.            Fitzpatrick, V.M. Rotello, G. Cooke, D.W. Samuel, The impact of driving force on
+      Xie, Single-atom coated separator for robust lithium-sullfur batteries, ACS           electron transfer rates in photovoltaic donor-acceptor blends, Adv. Mater. 27
+     Appl. Mater. Interfaces. 11 (2019) 25147–25154.                                    (2015) 2496–2500.
+[39] C.H. Zhang, S. Yang, J. Wu, M.J. Liu, S. Yazdi, M. Ren, J. Sha, J. Zhong, K. Nie, A.S.      [47] H.S. Lin,  S. Okawa, Y. Ma,  S. Yotsumoto, C. Lee,  S. Tan,  S. Manzhos, M.
+      Jalilov, Z. Li, H. Li, B.I. Yakobson, Q. Wu, E. Ringe, H. Xu, P.M. Ajayan, J.M. Tour,          Yoshizawa, S. Chiashi, H.M. Lee, T. Tanaka, H. Kataura, I. Jeon, Y. Matsuo, S.
+     Electrochemical CO2 Reduction with Atomic Iron-Dispersed on Nitrogen-         Maruyama,  Polyaromatic  nano-tweezers  on  semiconducting  carbon
+    Doped Graphene, Advanced Energy Materials. 8 (2018) 1703487.                    nanotubes for the growth and interfacing of lead-halide perovskite crystal
+[40] M.K. Debe, Electrocatalyst approaches and challenges for automotive fuel cells,           grains in solar cells, Chem. Mater. 32 (2020) 5125–5133.
+     Nature. 486 (2012) 43–51.                                                        [48] C. Tian, A. Mei, S. Zhang, H. Tian, S. Liu, F. Qin, Y. Xiong, Y. Rong, Y. Hu, Y. Zhou,
+[41] A. Das, S. Pisana, B. Chakraborty, S. Piscanec, S. K. Saha, U. V. Waghmare, K. S.             S. Xie, H. Han, Oxygen management in carbon electrode for high-performance
+     Novoselov, H.  R. Krishnamurthy,  A.  K. Geim,  A.  C.  Ferrari,  A.  K. Sood,           printable perovskite solar cells, Nano Energy. 53 (2018) 160–167.
+     Monitoring dopants by raman scattering in an electrochemically top-gated      [49]  J. Wang,  J. Zhang,  Y. Zhou, H.  Liu, Q. Xue, X.  Li,  C.C. Chueh,  Y.L. Yip,
+    graphene transistor, Nature Nanotechnology. 3(4), 210-215.                                 Z. Zhu, A.K. Jen, Highly efﬁcient all-inorganic perovskite solar cells with
+[42] X. Li, W. Bi, M. Chen, Y. Sun, H. Ju, W. Yan, J. Zhu, X. Wu, W. Chu, C. Wu, Xie,          suppressed non-radiative recombination by a Lewis base, Nat. Commun. 11
+     Exclusive Ni-N4 sites realize near-unity CO selectivity for electrochemical CO2          (2020) 177.
+     reduction, J. Am. Chem. Soc. 139 (2017) 14889–14892.                            [50] R.  Zhang,  C.   Fei,  B.   Li,  H.  Fu,    J.  Tian,  G.  Zao,  Continuous  size
+[43] L. Lin, Q. Zhu, A.W. Xu, Noble-metal-free Fe-N/C catalyst for highly efﬁcient          tuning  of monodispersed ZnO nanoparticles and  its  size  effect on the
+    oxygen reductiOon reaction under both alkaline and acidic conditions, J. Am.          performance of perovskite solar cells, ACS Appl. Mater. Interfaces. 9 (2017)
+    Chem. Soc. 136 (2014) 11027–11033.                                           9785–9794.
+[44] W. Ju, A. Bagger, G.P. Hao, A.S. Varela, I. Sinev, V. Bon, B.R. Cuenya, S. Kaskel, J.      [51] Y. Zhang, X. Zhuang, K. Zhou, C. Cai, Z. Hu, J. Zhang, Y. Zhu, Vibration treated
+     Rossmeisl,  P.  Strasser, Understanding  activity and  selectivity  of metal-          carbon electrode for highly efﬁcient hole-conductor-free perovskite solar cells,
+     nitrogen-doped carbon catalysts for electrochemical reduction of CO2, Nat.          Organic Electronics 52 (2018) 159–164.
+    Commun. 8 (2017) 944.                                                          [52]  I. Jeon, R. Xiang, A. Shawky, Y. Matsuo, S. Maruyama, Single-Walled Carbon
+[45] Q. Jiang, L.Q. Zhang, H.L. Wang, X.L. Yang, J.H. Meng, H. Liu, Z.G. Yin, J.L. Wu, X.         Nanotubes in Emerging Solar Cells: Synthesis and Electrode Applications, Adv.
+     Zhang, J.B. You, Enhanced electron extraction using SnO2 for high-efﬁciency          Energy Mater. 9 (2018) 1801312.
+
+
+
+
+
+                                                                    9

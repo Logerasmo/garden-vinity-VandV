@@ -1,0 +1,589 @@
+--- Страница 1 ---
+                                                 Nano Energy 101 (2022) 107604
+
+                                                 Contents lists available at ScienceDirect
+                           Nano Energy
+
+
+                                          journal homepage: www.elsevier.com/locate/nanoen
+
+
+Hydrogen bonding drives the self-assembling of carbazole-based
+hole-transport material for enhanced efficiency and stability of perovskite
+solar cells
+Cheng Wang a,1, Maning Liu b,*,1, Sunardi Rahman b, Hannu Pekka Pasanen b, Jingshu Tian a,
+Jianhui Li a, Zhifeng Deng c, Haichang Zhang a,*, Paola Vivo b,*
+a Key Laboratory of Rubber-Plastics of Ministry of Education/Shandong Province (QUST), School of Polymer Science and Engineering, Qingdao University of Science and
+Technology, 53-Zhengzhou Road, Qingdao 266042, PR China
+b Hybrid Solar Cells, Faculty of Engineering and Natural Sciences, Tampere University, P.O. Box 541, Tampere FI-33014, Finland
+c National and Local Joint Engineering Laboratory for Slag Comprehensive Utilization and Environmental Technology, School of Materials Science and Engineering,
+Shaanxi University of Technology (SNUT), Hanzhong 723001, PR China
+
+
+A R T I C L E  I N F O                  A B S T R A C T
+
+Keywords:                                       Designing a hole-transport material (HTM) that guarantees effective hole transport while self-assembling at the
+Self-assembly                                  perovskite|HTM interface with the formation of an ordered interlayer, has recently emerged as a promising
+Hydrogen bonding                                   strategy for high-performance and stable perovskite solar cells (PSCs). Hydrogen bonding (HB) is a versatile
+Hole-transport materials                                                   multi-functional tool for the design of small molecular HTMs. However, to date, its employment is mostly limitedInterfaces                                                    to p-i-n inverted PSCs. This study demonstrates the advantages of a novel HTM design that can self-assemble intoPerovskite solar cells
+Stability                                       a long-range ordered interlayer on the perovskite surface via HB association. A hydro-functional HTM (O1) is
+                                          compared to a reference HTM (O2) that cannot form HB due to the replacement of the amide group of O1 with a
+                                                   plain butyl alkyl chain in O2. As a result, O1-based n-i-p PSCs display enhanced hole extraction reaction, sup­
+                                                 pressed interfacial charge recombination, reduced hysteresis effect, and an increase in Voc (by 60 mV), FF (>11%
+                                                      increase), and overall power conversion efficiency, PCE (32% increase) compared to the case of HB-free O2-
+                                              based devices. Remarkable stability is observed for unencapsulated O1 cells, with a T80 lifetime of 35.5 h under
+                                               continuous maximum power point tracking in air. This work emphasizes the role of HB-directed self-assembling
+                                                     in simultaneously enhancing both the PCE and stability of popular n-i-p PSCs. This study paves the way for the
+                                            development of new hydro-functional charge-transport material designs for efficient and stable PSCs.
+
+
+1. Introduction                                                         perovskite  and  the  charge   selective   layers   (i.e.,   hole-  or
+                                                                            electron-transport material, HTM or ETM), extracted by the corre­
+   At the forefront of next-generation photovoltaic technology, metal    sponding ETM or HTM, and finally collected at the respective electrode.
+halide perovskite solar cells (PSCs), with a remarkably high certified       It is known that the performance of PSCs is dominated by a swift hole
+power conversion efficiency (PCE) of 25.7% [1], have attracted exten­     transfer (hole extraction rate of ~1 ns) rather than a relatively slow
+sive attention over the last years. What makes perovskite-based semi­     electron transfer (electron extraction rate of ~11 ns) [7], suggesting that
+conductors so intriguing is their outstanding and tunable optoelectronic     the interfacial charge transfer dynamics between the perovskite layer
+properties, such as high absorption coefficient, long charge carrier    and HTM play a crucial role in achieving high-performance devices [8,
+diffusion length (>1 µm), and high defect tolerance, together with the     9].
+ease of low-cost solution processing [2–6]. Upon light harvesting by the      A powerful method to tailor the perovskite|HTM interface is the
+perovskite layer in a PSC, the photogenerated electrons and holes need     integration of a functional group in the molecular structure of the HTM
+to be  efficiently  transported towards  the  interfaces between  the     to enable its interaction with the perovskite’s surface and/or passivation
+
+
+ * Corresponding authors.
+    E-mail addresses: maning.liu@tuni.fi (M. Liu), haichangzhang@qust.edu.cn (H. Zhang), paola.vivo@tuni.fi (P. Vivo).
+  1 These authors contributed equally to this work.
+https://doi.org/10.1016/j.nanoen.2022.107604
+Received 20 May 2022; Received in revised form 26 June 2022; Accepted 14 July 2022
+Available online 16 July 2022
+2211-2855/© 2022 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+--- Страница 2 ---
+C. Wang et al.                                                                                                            Nano Energy 101 (2022) 107604
+
+of the defects therein [10–13]. Combining the hole transport capability     demonstrates a high maximum power point tracking (MPPT) stability by
+of the HTM with the realization of such a functional interlayer within the     retaining 92% of the initial PCE after 1000 h ageing of the encapsulated
+same molecule is undoubtedly beneficial for the interfacial transfer     devices [21]. In our recent work, a lactam-based small molecule forming
+dynamics as well as for the protection of the perovskite layer against the     intramolecular HB upon thermal annealing contributed to the fabrica­
+degradation factors, such as the atmospheric moisture and hygroscopic     tion of high-performance inverted PSCs (PCE of champion device:
+dopants migration from the HTM’s side. To realize a well-defined    21.62%), which can retain 87% of its initial performance (as encapsu­
+interfacial   functionalization,  self-assembly  via  noncovalent   in­     lated devices) after 500 h MPPT test in N2 atmosphere. However, such a
+teractions has been recognized as one promising strategy for establish­     reliance on thermal annealing makes this approach unsuitable for n-i-p
+ing a long-range order of the small molecules at the interface [14–16].    PSCs [20]. To the best of our knowledge, there are only two reported
+Canil et al. constructed an interfacial self-assembled monolayer (SAM)     designs of hydrogen-bonded HTMs for n-i-p PSCs, both employing an
+with small dipolar molecules to achieve a controlled tuning of the    amide group [22,23]. Nevertheless, in these examples the HB lies in the
+perovskite work function [17]. Cai et al. reported a phenoxazine-based     core of the amide units, hence impeding the realization of a long-range
+HTM, namely N01, functionalized with bromo-hexyl for the tuning of its     ordered interlayer above the perovskite surface. Therefore, designing a
+self-assembling properties. The as-synthesized N01 self-assembles into     suitable hydrogen-bonded HTM that can self-assemble at the perovskite
+an ordered lamellar  structure via weak dipole-dipole  interactions     interface and boost the performance and ambient stability of n-i-p PSCs
+involving C–H⋅⋅⋅O, C–H⋅⋅⋅Br, and π–π interactions, which benefits the     without encapsulation is highly desirable yet challenging.
+hole mobility, surface properties, and perovskite growth, eventually        Herein, we designed a butanamide substituted carbazole (CA)-based
+contributing to the achievement of high PCE (21.85%) for stable     material capped at both ends with electron-rich units of triphenylamine
+inverted PSCs [18]. Very recently, hydrogen bonding-associated self-­     (TPA), namely O1 (Fig. 1a). O1 molecule exhibits good hole selectivity,
+assembly has been introduced in the design of new functionalized HTMs     energy levels alignment, and stability, while self-assembling into an
+forming superstructures at the interface with perovskite [19].             ordered interfacial modifier for the perovskite surface via HB associa­
+   Hydrogen bonding (HB) is a non-covalent electrostatically-driven      tion, i.e., N–H⋅⋅⋅O––C. We compare the results with O2 (Fig. 1b), a ma­
+interaction between a hydrogen atom and an electronegative atom      terial with a similar structure except for the replacement of butanamide
+bearing a lone pair of electrons, which can realize well-organized    by a plain butyl alkyl chain, i.e., not capable of HB formation. We
+intermolecular or intramolecular nanostructures [20]. To date, the     demonstrate that the hole mobility of O1 increases by a factor of 3
+employment of hydrogen-bonded HTMs has been mainly limited to the    compared to that of O2 due to the formation of HB-associated supra­
+fabrication of p-i-n inverted PSCs. Janssen’s group prepared inverted     molecular structures within the O1 HTM. The HB-directed self-assem­
+PSCs with hydrogen-bonded HTM based on azapolyheteroaromatic     bled interlayer at the interface of perovskite and O1 HTM significantly
+small molecules through a complex thermal evaporation technique due    improves the hole extraction while effectively hindering the non­
+to the poor solubility of the HTM. The corresponding devices achieved     radiative recombination. The employment of O1 HTM in n-i-p standard
+the maximum PCE of 15.9% with a moderate device stability measured    PSCs (highest PCE of 15.1%) leads to a distinct performance enhance­
+in a time scale of a few hundreds of seconds [19]. Instead of the small    ment of 32% compared to the case of HB-free O2 HTM. Our MPPT test
+molecules,  Hagfeldt’s group formed hydrogen-bonded NiOx nano­     for unencapsulated devices under continuous 1 sun illumination (100
+particles as the inorganic HTM through ionic liquid-assisted synthesis, to   mW cm−2) in air, confirms the notably enhanced stability of O1 HTM-
+construct p-i-n devices with a very high PCE of > 22%, which also    based devices with a T80 lifetime of 35.5 h, which is nearly one order
+
+
+
+
+
+       Fig. 1. Chemical structures and respective hypothesized arrangements on the perovskite surface (in a case of PbX2 terminal) for (a) O1 and (b) O2.
+
+                                                                        2
+--- Страница 3 ---
+C. Wang et al.                                                                                                            Nano Energy 101 (2022) 107604
+
+of magnitude higher than that (T80 = 3.7 h) of O2 HTM-based solar cells.    by the reaction at 100 ◦C for 24 h. After cooling to room temperature,
+We attribute these results to the HB-directed self-assembled interlayer     the solution was extracted twice with dichloromethane and deionized
+between perovskite and O1 HTM.                                     water and then dried with anhydrous MgSO4. The crude product was
+                                                                             purified by column chromatography (silica gel, MC) to give the com­
+2. Materials and methods                                      pound O3 (300 mg, yield: 71.4%) as a white solid. 1H NMR (500 MHz,
+                                                     DMSO) δ ppm: 8.50–8.51 (s,2 H), 7.72–7.75 (d, 2 H), 7.63–7.67 (q,4 H),
+2.1. Materials                                                          7.05–7.08(d,8 H),  6.91–6.69(q,12 H),  4.49  (t, 2 H),  3.76(s,12 H),
+                                                                    2.57–2.60 (t, 2 H), 2.12–2.15 (m, 2 H). 13C NMR (126 MHz, DMSO) δ
+   For the synthesis of O1 and O2 HTMs, all reagents were purchased     155.52, 147.03, 140.30, 139.41, 133.09, 131.28, 127.27, 126.30,
+from commercial sources and used directly without further purification     124.40, 123.03, 120.33, 117.99, 114.89, 109.42, 55.20, 54.85, 39.98,
+unless noted. 4-Bromoaniline, potassium hydroxide (KOH),  tri-tert-     39.82, 39.65, 39.48, 39.32, 39.15, 38.98, 24.61, 14.02.
+butylphosphine tetrafluoroborate, cuprous iodide (CuI), 1,10-phenan­
+throline,  4-(methylthio)aniline,  sodium  tertbutoxide,  Pd(PPh3)4,     2.2.3. Synthesis of O1
+Pd2(dba)3, 1-bromo-4-iodobenzene, K2CO3, potassium acetate (KOAc),       The compounds O3 (0.15 g, 0.18 mmol) and H2O2 (0.1 g 3 mmol)
+3,6-dibromocarbazole,  bromobutane,  diphenylphosphinoferrocene,    were added to DMSO (20 mL) in a 100 mL round-bottom flask. The
+bromobutyronitrile, H2O2, NaOH, [1′1-bis(diphenylphosphino) ferro­     mixture was degassed with nitrogen and reacted at 60 ◦C for 3 h. After
+cene] dichloro palladium M(II), bis(pinacolato) diboron, and the sol­     cooling to room temperature, the solution was extracted twice with
+vents were purchased from Energy Chemical.                           dichloromethane and deionized water and then dried with anhydrous
+   For the fabrication of hole-only devices and CsFAMA-based PSCs,    MgSO4. The compound O1 (146.9 mg, yield: 95%) was obtained as a
+ITO substrates (15 ohm/sq, 1.1 mm) were purchased from Kintec     white  solid. 1H NMR (500 MHz, DMSO) δ 8.46(s,2 H), 7.60–7.63
+Company. FTO substrates (TEC15, 2.2 mm), 30NRD TiO2 nanoparticle    (m,8 H),  7.02–7.04(d,8 H),  6.88–6.92(t,12 H),  4.40(s,2 H),  3.73
+paste, formamidinium iodide (FAI), and methylammonium bromide     (s,12 H), 2.12(m,2 H), 2.01(m,2 H).13C NMR (126 MHz, DMSO) δ
+(MABr) were acquired from Greatcell Solar Materials. Titanium diiso­     155.51, 146.99, 140.32, 139.53, 133.21, 127.25, 126.28, 122.88,
+propoxide bis(acetylacetonate) (TDBA) 75 wt% in isopropanol, bis(tri­     120.36, 114.88, 55.20, 54.85, 39.99, 39.82, 39.66, 39.49, 39.32, 39.15,
+fluoromethane)sulfonimide    lithium    salt    (Li-TFSI,   99.95%),     38.99.
+molybdenum trioxide (MoO3, 99.97%), dimethyl sulfoxide (DMSO,
+extra     dry,    99.7%),     poly(3,4-ethylenedioxythiophene)-poly
+(styrenesulfonate) (PEDOT:PSS, 1.3 wt% dispersion in H2O, conduc­     2.3. Synthesis of O2 HTM
+tive grade), N,N-dimethylformamide (DMF, extra dry, 99.8%), chloro­
+benzene  (extra  dry,  99.8%),  acetonitrile  (99.9%),  and  4-tert-       The detailed synthetic route to achieve O2 is shown in Scheme S2 in
+butyilpyridine  (4-tBP) were  purchased  from  Sigma-Aldrich.  PbI2     the SD file.
+(99.999%) and PbBr2 (99.999%) were obtained from TCI Europe. Ce­
+sium iodide (99.999%) and 2,2′,7,7′-Tetrakis[N,N-di(4-methoxyphenyl)     2.3.1. Synthesis of 3,6-dibromo-9-butyl-9 H-carbazole (CZ-C4)
+amino]−  9,9′-spirobifluorene (Spiro-OMeTAD, 99%) were purchased        3,6-dibromocarbazole  (0.5 g,  1.5 mmol),  potassium  carbonate
+from abcr GmbH and Lumtec, respectively. Tris[2-(1 H-pyrazol-1-yl)−      (0.64 g, 4.5 mmol), and bromobutane (0.53 g, 4 mmol) were added to
+4-tert-butylpyridine]cobalt(III)tri[bis-(trifluoromethane)  sulfonimide]     the freshly distilled DMF (50 mL) in a 100 mL round-bottom flask. The
+(FK209 Co(III), > 98%) was purchased from Dyenamo. All chemicals     mixture was reacted at 120 ◦C for 24 h under the N2 protection. The
+were used without further purification.                                 mixture was then extracted twice with dichloromethane and deionized
+                                                                   water and dried with anhydrous MgSO4. The crude product was purified
+2.2. Synthesis of O1 HTM                                             with column chromatography (neutral alumina, DCM:petroleum ether
+                                                                       (PE) = 3:1, v:v) to give the compound CZ-C4 (0.4858 g, yield: 85%) as a
+   The detailed synthetic route to obtain O1 is presented in Scheme S1     white  solid. 1H NMR (500 MHz, CDCl3) δ 8.12(s,2 H), 7.55–7.57
+in the Supplementary Data (SD) file. First, the synthesis of TPA-Bo was     (dd,2 H),   7.25–7.26(d,2 H),   4.20–4.23(t,2 H),  1.79–1.84(m,2 H),
+implemented according to a previously reported method [20].            1.35 −1.36(m,2 H), 0.95–0.98(t,3 H). 13C NMR (126 MHz, CDCl3) δ
+                                                                      139.29, 128.99, 123.41, 123.23, 111.92, 110.39, 77.30, 77.05, 76.79,
+2.2.1. Synthesis of 4-(3,6-dibromo-9 H-carbazol-9-yl)butanenitrile (CZ-       43.09, 30.98, 20.49, 13.84.
+CN)
+   4-Bromobutyronitrile  (0.888 g,  6 mmol)  and  NaOH   (0.3 g,     2.3.2. Synthesis of O2
+7.5 mmol) were added to a 250 mL round flask containing 3,6-dibromo­       The compound CZ-C4  (0.18 g,  0.5 mmol), compound TPA-Bo
+carbazole (1.62 g, 5 mmol) in DMSO (100 mL). The mixture was stirred     (0.61 g, 1.5 mmol), and aqueous potassium carbonate (2 M/L 5 mL)
+at 90 ◦C for 3 h, then the solution was poured into 100 mL water and    were added to a 100 mL round-bottom flask containing freshly distilled
+stirred overnight. The precipitated crude product was filtrated and pu­     toluene (15 mL). The mixture was degassed with nitrogen and then
+rified by column chromatography (silica gel, dichloromethane (DCM))     tetras (triphenylphosphine)palladium (27 mg, 0.025 mmol) was added.
+to give the compound CZ-CN as a white solid with a yield of 78%    The degassed mixture was purged three times with nitrogen following
+(1.64 g). 1H NMR (500 MHz, CDCl3) δ ppm: 8.18–8.19 (m,2 H),    by the reaction at 100 ◦C for 24 h. After cooling to room temperature,
+7.61–7.63 (d, 2 H), 7.35–7.36 (d, 2 H), 4.47–4.50 (t, 2 H), 2.29–2.34 (m,     the solution was extracted twice with dichloromethane and deionized
+2 H), 2.24–2.29 (m, 2 H). 13C NMR (125 MHz, CDCl3) δ ppm: 139.03,    water and then dried with anhydrous MgSO4. The crude product was
+129.49,132.68,123.52,118.78,112.69,110.07,99.99,41.28,24.83,14.93.     purified by column chromatography (silica gel, DCM:PE = 3:1 v:v) to
+                                                                         give the compound O2 (332 mg, yield: 80%) as a white solid.1H NMR
+2.2.2. Synthesis of O3                                               (500 MHz, DMSO) δ, 8.45–8.46(s,2 H), 7.66–7.68(d,2 H), 7.59–7.61
+   The compound CZ-CN (0.2 g, 0.5 mmol), compound TPA-Bo (0.66 g,     (d,6 H),   7.02–7.04(m,8 H),   6.87–6.91(t,12 H),   4.37–4.39(t,2 H),
+1.5 mmol), and aqueous potassium carbonate solution (2 M/L 5 mL)     3.72–3.73(d,12 H),1.73–1.78(m,2 H),  1.29–1.32(m,2 H),  0.85–0.91
+were added to a 100 mL round-bottom flask containing freshly distilled    (m,3 H). 13C NMR (126 MHz, DMSO) δ 146.03, 144.96, 140.14, 135.94,
+toluene (15 mL). The mixture was degassed with nitrogen and then     132.14, 131.51, 128.42, 128.13, 125.10, 124.87, 124.14, 123.59,
+tetras (triphenylphosphine) palladium (29 mg, 0.025 mmol) was added.     120.66, 118.84, 110.03, 41.80, 40.51, 40.34, 40.18, 40.01, 39.84,
+The degassed mixture was purged three times with nitrogen following     39.68, 39.51, 25.12, 16.00, 14.53.
+
+                                                                        3
+--- Страница 4 ---
+C. Wang et al.                                                                                                            Nano Energy 101 (2022) 107604
+
+2.4. Fabrication of O1 and O2 HTMs-based CsFAMA PSCs                   solutions were purged with a nitrogen stream for 10 min before mea­
+                                                                     surement. The procedure was performed at room temperature and a
+   CsFAMA-based PSCs were  fabricated with a reported one-step     nitrogen atmosphere was maintained over the solution during the
+method [24]. In a typical fabrication process, FTO glass substrates    measurements. Fourier-transform infrared (FTIR) spectra were obtained
+(2 cm × 2 cm) were wet chemically etched with 2 M HCl aqueous so­    by using BRUKER TENSOR II FTIR spectrometer for the casting film on a
+lution and zinc powder. The etched FTO substrates were then sonicated      silver paper from the molecule solution.
+using an aqueous Mucasol solution (2% in water), acetone, and 2-prop­       The unencapsulated PSCs were characterized in air. The active area
+anol for 15 min in each step, successively. After swiftly drying with     of each cell was determined by the size of the aperture (20 mm2) and
+compressed dry air, the substrates were treated with UV-ozone for     precisely assessed by an optical Dino-Lite AM4113ZTL microscope. The
+15 min to remove organic residuals and increase hydrophilicity. A     current density (J)−voltage (V) characteristics were determined with a
+~30 nm thick (determined by a surface profiler, Dektak 150 stylus     Keithley 2450 source-monitor unit (SMU), under air mass (AM) 1.5
+profilometer) compact TiO2  layer  (c-TiO2) was deposited on the     simulated sunlight (100 mW cm−2). The 1 sun illumination was gener­
+as-prepared FTO substrate by spray pyrolysis of 0.38 M TDBA solution in     ated through an AAA- solar simulator (Sciencetech Inc), which was
+2-propanol at 450 ◦C. The films were then sintered at 450 ◦C for 1 h in     calibrated with a silicon reference cell. The bias scan rate was 50 mV/s
+air. A  mesoporous  TiO2  (m-TiO2)  scaffold  layer was made by    and a preconditioning time of 5 s was applied. External quantum effi­
+spin-coating an ethanolic suspension of 30NRD TiO2 nanoparticle paste     ciency (EQE) and internal quantum efficiency (IQE) spectra with and
+(150 mg TiO2 paste in 1 mL ethanol) at 4000 rpm for 10 s. The films     without the  application  of an  external  bias were simultaneously
+were quickly dried at 100 ◦C for 10 min prior to calcination at 450 ◦C for     collected by a quantum efficiency measurement system (QuantX-300,
+30 min under a continuous air flow. The films were then cooled down to     Newport). MPPT test was conducted on the unencapsulated cells with
+150 ◦C and directly transferred into a nitrogen-filled glovebox. To make     the same Keithley 2450 SMU in air, under a continuous illuminated LED
+a ~500 nm thick CsFAMA perovskite film, the perovskite precursor     white light (100 mW cm−2) for 96 h.
+comprised FAI (0.95 M), PbI2 (1.1 M), MABr (0.19 M), PbBr2 (0.2 M),        Steady-state photoluminescence (PL) spectra were measured with an
+and CsI (0.06 M) in a mixed solvent of DMF:DMSO (4:1, v-v). 50 µl so­    FLS1000 spectrofluorometer (Edinburgh Instruments, UK). The time-
+lution was spin-coated onto the as-prepared FTO/c-TiO2/m-TiO2 sub­     resolved PL (TRPL) decays were recorded by using a time-correlated
+strate at 1000 rpm for 10 s, followed by 6000 rpm for 20 s 100 µl     single-photon counting (TCSPC) apparatus equipped with a Picoharp
+chlorobenzene was swiftly dropped as the anti-solvent treatment 5 s    300 controller and a PDL 800-B driver for excitation and a Hamamatsu
+prior to the programming end. The perovskite layer was then annealed    R3809U-50 microchannel plate photomultiplier for detection in 90◦
+at 110 ◦C for 1 h. The resulting perovskite composition has a stoichi­     configuration. Cross-sectional and morphological SEM images were
+ometry  of  Cs0.05(FA0.83MA0.17)0.95Pb(I0.83Br0.17)3, namely CsFAMA     taken by field emission scanning electron microscope (FE-SEM, Carl
+perovskite. After annealing, the doped O1- or O2-based HTM was     Zeiss Ultra 55), operated at 5 kV. Water contact angle (CA) measure­
+dynamically spin-coated at 1800 rpm for 40 s on top of the as-formed    ments were implemented by using Attension Theta Lite optical goni­
+perovskite layer. Four concentrations (5, 10, 20, 25 mg/mL, in chloro­    ometer (Biolin Scientific AB, Sweden).
+benzene) of O1-based HTM solutions were prepared to tune the HTM
+film thickness. The doped O1 or O2 solution (e.g., 20 mg/mL) was ob­     3. Results and discussion
+tained by first adding 20 mg O1 or O2 and 8 µl 4-tBP to 1 mL chloro­
+benzene, which was stirred at 60 ℃ for 3 min. Then 4.8 µl Li-TFSI     3.1. Synthesis of O1 and O2 HTMs
+(520 mg/mL) and 8.1 µl FK209 (300 mg/mL) pre-dissolved in acetoni­
+trile were added to the O1 or O2 solution, respectively. Finally, a 100 nm      O1 and O2 were synthesized through facile synthetic methods in very
+thick gold electrode was thermally evaporated in a high vacuum (5 ×    good yields (>95%). Details are provided in Materials and Methods and
+10−4 mbar) on top of the HTM layer.                                        in the SD file (Schemes S1 and S2). As a highlight in the synthetic route
+                                                                              of O1, the cyano units in the intermediate product O3 transfer to amide
+2.5. Characterization                                                 groups for the formation of molecule O1 just upon a simple hydrolysis
+                                                                              reaction, a process that has been rarely utilized to synthesize organic
+   Nuclear magnetic resonance (NMR) spectra were collected using a    HTMs. The molecular structures of as-synthesized O1 (C56H50N4O5) and
+Mercury 500 spectrometer. Elemental analysis was conducted on a Carlo   O2 (C56H51N3O4) were confirmed via 1H and 13C NMR spectroscopy
+Erba 1106 Elemental Analyzer. Differential scanning calorimetry (DSC)      (Figs. S1-S5 in the SD file). The synthetic cost of O1 is low and estimated
+was performed under nitrogen atmosphere (20 mL/min) using a Netzsch     to be $24.2/gram (see the detailed cost analysis in Tables S1-S5 in the SD
+DSC (204F1) (heating rate: 10 ◦C/min). Thermalgravimetric analysis       file), which is much cheaper than the commercially available HTMs such
+(TGA) were performed under nitrogen atmosphere (20 mL/min) using a     as spiro-OMeTAD (raw material cost is $91.7/gram)[13]. Fig. 1 depicts
+Netzsch TGA (209F1) (heating rate: 10 ℃/min). X-ray photoelectron     the chemical structures of molecules O1 and O2 and their corresponding
+spectroscopy (XPS) measurements were performed for films on ITO     hypothesized arrangement on the perovskite surface. The presence of
+using a Thermo Fisher ESCALAB 250 Xi. Curve fitting was conducted    amide groups in the side chain of the O1 molecule allows the formation
+using the Thermo Avantage Software, which was corrected based on the     of the hydrogen bonding  in an ordered  long-range,  acting  as a
+C1s peak at 284.8 eV. Density functional theory (DFT) calculations were     self-assembled interlayer on the perovskite. In contrast, the butyl chain
+conducted to determine the highest occupied molecular orbital (HOMO)     in O2 is unable to realize this intermolecular reaction. Thus, O2 does not
+and lowest unoccupied molecular orbital (LUMO) energy levels of the    form a specific interlayer between the perovskite and HTM. Accordingly,
+O1 and O2 molecules at the B3LYP/6–31 G* level. UV–vis absorption   O2 can work as a reference to probe the effects of O1′s self-assembled HB
+spectra were obtained using a dual-beam grating Agilent Cary 5000     interlayer on the perovskite surface.
+absorption spectrometer. The thin-film UV/Vis absorption spectra of O1     We further investigated the thermal stabilities of O1 and O2 by DSC
+and O2 were recorded from spin-coated thin films (5 mg/mL molecules     (see the results in Fig. S6a in the SD file). The reference O2 molecule
+in chloroform spin-coated on a quartz substrate and annealed at 160 ◦C    shows an endotherm peak at around 40 ◦C during the healing process
+for 5 min). Cyclic voltammetry (CV) measurements were performed    and an exotherm peak at 60 ◦C, possibly attributed to the vibration of
+with a BAS 100 W Bioanalytical Systems, using a glass carbon disk     the alkyl chain attached to the carbazole. In the O1 molecule, both peaks
+(Φ = 3 mm) as the working electrode, a platinum wire as the auxiliary     are located at higher temperatures, i.e., 70 and 110 ◦C for the endotherm
+electrode with a porous ceramic wick, and Ag/Ag+ as the reference    and exotherm peaks, respectively. This indicates that the HB-associated
+electrode, standardized for the redox couple ferrocenium/ferrocene. All     linear-shape-like polymer within the O1 molecules (see the proposed
+
+                                                                        4
+--- Страница 5 ---
+C. Wang et al.                                                                                                            Nano Energy 101 (2022) 107604
+supramolecular structure in Fig. S7) indeed enhances the material’s     of Pb2+ ions with O1 HTM, as evident by the observed shift of binding
+thermal stability. To study the degradation temperature of the HTMs,     energy for both Pb 4 f 5/2 and Pb 4 f 7/2 peaks [18]. This implies that the
+the thermogravimetric analysis (TGA) curves were obtained for O1 and     HB-associated self-assembly layer in the O1 HTM indeed interacts with
+O2, as shown in Fig. S6b-c. Both molecules exhibit good thermal sta­     the Pb2+ ions on the perovskite surface, favoring the defect passivation
+bility and no weight loss was observed before 270 ◦C, while a 5% weight    and interfacial hole extraction process. We then characterized the
+loss occurred at 360 ◦C and 320 ◦C for O1 and O2, respectively. O1     electrochemical properties of the two molecules by CV study (see the
+molecule shows enhanced thermal stability compared to O2, likely    voltammograms in Fig. 3d). From the onsets of anodic oxidation, the
+attributed to the HB association that forms a crosslinking-like material   HOMO energy levels of the molecules were calculated as −5.10 eV and
+within O1. To investigate the electron densities of both molecules, the    −5.07 eV for O1 and O2, respectively. The slightly deeper (~30 meV)
+frontier molecular orbital feature and the HOMO/LUMO energy levels of   HOMO level of O1 could promote a more efficient hole extraction than
+O1 and O2 were computationally simulated via DFT calculations   O2 from the CsFAMA perovskite employed in this work. This originates
+(Fig. 2). The electronic cloud distributions at the HOMO and LUMO    from the well-aligned HOMO of O1 with the valence band (VB, −5.65 eV
+levels for both molecules are quite similar. The HOMO electrons are      vs. vacuum)[28] of CsFAMA. The experimentally extracted HOMO level
+delocalized at the oligomer backbone, while the LUMO electrons are    (−5.10 eV) of O1 is lower than the simulated value (−4.41 eV) based on
+mainly localized at the carbazole groups. This suggests that, once the     the previously discussed DFT calculations. This might be ascribed to the
+molecules are excited, an electron transfer from the backbone to the     fact that the computational results were obtained based on a single
+carbazole groups could take place. It is also noted that both molecules     molecule, while the electrochemical results were collected from the thin
+could feature a good intramolecular charge transfer (ICT) effect. The     films, in which intermolecular interactions, such as aggregation and π-π
+calculated HOMO/LUMO levels of O1 and O2 are accordingly similar,     stacking, could be relevant. The LUMO energy levels of the two mole­
+around −  4.42–4.41 eV (HOMO) and −0.66–0.64 eV (LUMO), respec­     cules were further estimated from the HOMO levels and the corre­
+tively, resulting in relatively large band gaps of 3.76–3.77 eV.            sponding optical band gaps (−1.88 eV and −1.85 eV for O1 and O2,
+                                                                                respectively). Both LUMOs are sufficiently high to block the electron
+3.2.  Optical, electrochemical and hole-transport properties                    extraction from the conduction band (−4.05 eV vs. vacuum) of the
+                                                                            perovskite. All optical and electrochemical properties of O1 and O2 are
+    Fig. 3a depicts the absorption spectra of O1 and O2 molecules in the    summarized in Table 1.
+film phase, with the first exciton peaks at 335 nm (O1) and 329 nm (O2).       To further clarify the influence of HB association on the hole trans­
+Compared to O2, the observed red-shift of the first exciton peak for O1     porting properties within the HTMs, the hole mobilities of the two
+could indicate that O1 thin film has an ordered packing, stronger ag­     molecules were evaluated by conducting space-charge-limited current
+gregation, and closer distance, which could be ascribed to the formation    (SCLC) measurements[18] (see the experimental details in the SD file).
+of HB association only within the supramolecular structure of O1     Fig. 3e shows the comparison of dark J–V2 curves of the hole-only de­
+(Fig. S7). This consideration is supported by our previous structural     vices with structure ‘ITO|PEDOT:PSS|HTM|MoO3|Au’, and their hole
+analysis of HB-associated small molecules [25,26]. Generally, strong     mobilities (see Table 1) were calculated from Equation S1 in the SD file.
+                                                                              × 10−4 cm2aggregation with close molecular distance can promote strong inter­    The doped O1 HTM exhibits enhanced hole mobility (3.5
+                                                                              × 10−4 cm2molecular charge transport as well as to the extension of the effective    V−1 s−1) by a factor of more than 3 compared with that (1.0
+conjugation system. This can, in turn, contribute to narrowing the mo­    V−1 s−1) of doped O2 HTM, both in the same order of magnitude of the
+                                                                              × 10−4 cm2lecular band gap, as evidenced by a bathochromic shift [27]. The     mobility of conventional doped spiro-OMeTAD HTM (7.2
+identical optical band gaps of 3.22 eV for O1 and O2 were estimated    V−1 s−1) [24]. Yet, the higher mobility of O1 vs. O2 evidences that the
+based on their absorption onsets, which are summarized in Table 1. To     as-formed supramolecular structure via intermolecular hydrogen bonds
+certify the HB association, the FTIR analysis of the two molecules was     within O1 promotes the hole-transport ability, suggesting its suitability
+conducted, as shown in Fig. 3b. A broad transmission peak between     as HTM in PSCs.
+3500 and 3780 cm−1 is observed only for O1 film, which corresponds to
+the hydrogen-bonded N-H stretching vibration [20]. Moreover, an extra     3.3. Influence of HB-associated self-assembled interlayer on interfacial
+peak located at 1697 cm−1 was detected only in the FTIR spectrum of O1     charge transfer dynamics
+(see the inset in Fig. 3b), indicating the existence of a C––O group in O1
+HTM. To further probe the existence of HB-associated self-assembly       To gain insights on the influence of the HB-associated self-assembled
+interlayer, we conducted XPS experiments for the reference perovskite     interlayer of O1 HTM on the interfacial hole extraction process, we first
+film with and without O1 and O2 HTMs atop and monitored the Pb     extracted the PL quenching efficiency, i.e., hole extraction efficiency, by
+element, as shown in Fig. 3c. Interestingly, while the XPS spectra of    comparing the PL spectra of glass|CsFAMA|HTMs with the spectrum of a
+reference perovskite film with and without O2 HTM are nearly identical,     ‘glass|CsFAMA’ reference, see Fig. 4a. A more effective PL quenching is
+the XPS spectrum of perovskite|O1 sample proves the strong interaction     clearly observed when depositing O1 HTM atop the perovskite layer,
+                                                                showing a much higher quenching efficiency of 91.2% for O1 with
+                                                                           respect to O2 (64.3%), as summarized in Table 2. This suggests that the
+                                                                       HB-associated ordered interlayer at the interface between perovskite
+                                                              and O1 can effectively enhance the hole extraction process. It is note­
+                                                                worthy that the PL peaks of glass|CsFAMA|HTMs exhibit blue shifts of
+                                                            5 nm and 7 nm for O1 and O2, respectively, compared to that of glass|
+                                                     CsFAMA reference, likely indicating a defect passivation effect on the
+                                                                          perovskite  surface,  which  has  been  observed  for  conventional
+                                                             CH3NH3PbI3 (MAPbI3) perovskite [29]. We further investigated the
+                                                                                  interfacial charge transfer dynamics by measuring the TRPL decays for
+                                                                          these samples, as presented in Fig. 4b. A clear decay acceleration is
+                                                                    observed for glass|CsFAMA|O1 compared to glass|CsFAMA|O2, clari­
+                                                                           fying that holes can be more swiftly extracted at the perovskite|O1
+Fig. 2. Computational calculations of the O1 and O2 molecular orbital surfaces     interface with the help of the HB-associated self-assembled interlayer.
+of HOMO and LUMO energy levels and band gaps (Eg) obtained at the       To quantitatively describe the interfacial charge transfer dynamics, a
+B3LYP/6–31 G* level.                                                          kinetic model, namely one-dimension charge diffusion model [7,30],
+
+                                                                        5
+--- Страница 6 ---
+C. Wang et al.                                                                                                            Nano Energy 101 (2022) 107604
+
+
+
+
+
+Fig. 3. (a) UV–vis absorption spectra and (b) FTIR spectra of O1 and O2 molecules in thin film. Inset in (b) shows an enlargement of the area in the green rectangle.
+(c) XPS spectra of reference perovskite film capped with and without O1 and O2 HTMs for Pb element. (d) Cyclic voltammetry spectra of O1 and O2 solution (0.1 M
+in dichloromethane) with a scan rate of 100 mV/s. (e) Dark current density (J)–voltage (V2) curves of hole-only devices with structure ‘ITO|PEDOT:PSS|HTM|MoO3|
+Au’ for O1 and O2 HTMs. Dotted lines present the fitting results with a linear function.
+
+                                                                       samples, revealing that the hole extraction process does not effectively
+Table 1                                                                           affect  the non-geminate charge  carrier recombination within  theOptical, electrochemical, and hole transporting properties of O1 and O2 HTMs.                                                                          perovskite layer, as has also been observed for other types of HTMs [24].
+ HTM     λabs,exc      HOMOa      LUMOb          Eoptg  c        µh (cm2 V−1       To further quantify the hole trap density of perovskite surface [31],
+         (nm)          (eV)           (eV)           (eV)         s−1)              another type of hole-only devices with structure ‘ITO|PEDOT:PSS|
+ O1     335           -5.10           -1.88          3.22        3.5 × 10−4        CsFAMA|HTM|MoO3|Au’ was prepared. The dark J–V curves of O1- and
+ O2     329           -5.07           -1.85          3.22        1.0 × 10−4         O2-based devices are presented in Fig. 4c. The applied voltage at the
+dHole mobility of the HTMs doped with tBP, LiTFSI and FK209.                 kink point represents the trap-filled limit voltage (VTFL) [32], which
+  a HOMO level is obtained by CV measurement: –EHOMO = Eonset(ox) + 4.8 eV,     allows to estimate the trap density (ntrap) through:
+where Eonset(ox) is the onset potential for the oxidation vs. ferrocene;
+  b LUMO level is obtained from the equation of ELUMO = EHOMO+ Egopt;                ntrap = 2εε0VTFL                                                      (1)
+  c Optical band gap Egopt is determined at the absorption onset of the material in              eL2
+solution phase (Egopt = 1240/λabs,onset eV);                                                              where e is the elementary charge, L is the thickness of perovskite layer, ε
+                                                                                                is the relative dielectric constant of perovskite, and ε0 is the vacuum
+was employed to analyse the PL decay data (see the details of the     permittivity. The hole trap density of perovskite decreases by more than
+analysis method in the SD file). A rate law equation (see Equation S2 in     half when switching from perovskite|O1 (5.5 × 1015 cm−3) to perov­
+the SD file) was utilized to quantify the PL decay profiles, comprising     skite|O2 (1.2 × 1016 cm−3) sample, revealing that the HB-associated
+first-order recombination via carrier trap states, second-order non-­     long-range ordered interlayer indeed promotes the reduction of the
+geminate charge carrier (electron and hole) recombination, and inter­     trap density on the perovskite surface and hinders the interfacial non­
+facial charge transfer process, i.e., hole extraction process. The fitting     radiative recombination, which is also consistent with the decrease in
+results, obtained by solving Equations S3 and S5, are summarized in     the fitted k1 from PL decay data.
+Table 2. For the PL decays of glass|CsFAMA|HTMs, since the interfacial     We then assessed the lifetimes of different PL decays by defining an
+hole extraction process in turn dominates to fit the decay data, it results     effective lifetime [33], τ1/e, expressed as Equation S6 in the SD file. The
+in a hole extraction rate constant for O1 HTM (kHE = 6.9 × 107 s−1)     estimated effective lifetime (τ1/e(perov)) of the excited state decay (glass|
+nearly four times higher than that of O2 HTM (1.8 × 107 s−1). Accord­    CsFAMA) is 145.6 ns, in agreement with what has been previously re­
+ingly, the extracted first-order rate constant (k1 = 4.2 × 107 s−1) of O1     ported for this type of triple-cation perovskite [34]. Upon the extracted
+HTM  is significantly reduced to less than half compared with that     effective lifetimes of the PL decays for O1 (τ1/e(O1) = 13.1 ns) and O2
+(8.7 s × 107 s−1) of O2 HTM. This clearly indicates that the HB-directed                                                                                       (τ1/e(O2) = 39.4 ns), their hole extraction rates (τHE) can be determined
+self-assembled interlayer at the interface of perovskite and O1 not only     as 14.4 ns and 54.0 ns for O1 and O2, respectively, according to Equa­
+promotes the hole extraction but also suppresses the single-carrier     tion S8. As such, the HB-associated self-assembled interlayer at the
+trapping recombination by effectively passivating the traps on the     perovskite|O1 interface dramatically accelerates the interfacial hole
+perovskite surface. Moreover, the second-order (k2) rate constants are     extraction process compared to the case of HB-free O2 HTM. Conse­
+quite similar for O1 (3.5 × 10−10 s−1 cm3) and O2 (3.1 × 10−10 s−1 cm3)     quently, the hole extraction efficiencies were calculated as 90.1% and
+
+                                                                        6
+--- Страница 7 ---
+C. Wang et al.                                                                                                            Nano Energy 101 (2022) 107604
+
+                                                                                                                     Fig. 4. (a) Steady-state PL spectra (excited at
+                                                                                           600 nm) and  (b) TRPL  decays  (excited  at
+                                                                                           483 nm and monitored at 760 nm) of glass|
+                                                                                                                perovskite  and  glass|perovskite|HTM,  with
+                                                                                            ‘HTM’ being O1 or O2. Corresponding PL peak
+                                                                                               (nm) in each case is highlighted with a number
+                                                                                                                      in (a). Solid cyan lines in (b) show the fitting
+                                                                                                                             results with a rate law function. Dark J–V2
+                                                                                                             curves of hole-only devices in a structure of
+                                                                                                 ITO|PEDOT:PSS|perovskite|HTM|MoO3|Au
+                                                                                                       with VTFL kink point behavior in perovskite
+                                                                                                                      films coated with (c) O1 and (d) O2 HTMs.
+                                                                                                                   Solid lines in (c) and (d) highlight the kink
+                                                                                                                        points.
+
+
+
+
+
+Table 2
+Charge transfer properties of perovskite|HTM interface.
+ HTM              k1 (s−1)                k2 (s−1 cm3)             kHE (s−1)                 τ1/ea (ns)             τHE b (ns)               Φextc (%)                 ntrap d (cm−3)
+ O1                4.2 × 107              3.5 × 10−10               6.9 × 107             13.1                  14.4                 90.1                  5.5 × 1015
+ O2                8.7 × 107              3.1 × 10−10               1.8 × 107             39.4                  54.0                 62.9                  1.2 × 1016
+  a Effective lifetime;
+  b Hole extraction time;
+  c Hole extraction efficiency;
+  d Hole trap density.
+
+62.9% for O1 and O2, respectively, by utilizing Equation S9 in the SD    (20 mg/mL) was then utilized also for O2 HTM-based PSCs prepared
+file. These results are in good agreement with previous quenching effi­    with an identical procedure. Fig. 5c shows the J–V curves (forward/
+ciencies estimated from the PL data, indicating that the employed ki­     reverse scans) of the champion cells with O1 and O2 HTMs, recorded
+netic model well interprets the TRPL decay data. All parameters for    under 1 sun illumination (100 mW cm−2). Table 3 summarizes the
+interfacial charge transfer properties of perovskite|HTM are summa­     average solar  cell performance (15 pixels for each case) and the
+rized in Table 2.                                                         photovoltaic parameters of the champion devices (see the statistical
+                                                                             analysis of the photovoltaic parameters in Figs. 5d-g). When comparing
+3.4. Performance and stability of O1 and O2 HTMs-based n-i-p PSCs        O1- and O2-based devices, a significantly improved Voc (1030 mV) by
+                                                            60 mV, an enhanced FF (64.7%) by nearly 11%, and a 32% higher PCE
+   Since the previously presented CV data and DFT calculations have    (15.1%) are obtained for O1 HTM-based PSCs. It is noteworthy that the
+identified the compatibility of the HOMO levels of both O1 and O2     big increase in the average Jsc from 17.9 (O2) to 20.1 mA cm−2 (O1) is
+molecules for a well-defined energy cascade with the VB of CsFAMA     ascribed to the more efficient hole extraction process at the perovskite|
+perovskite, we fabricated n-i-p standard PSCs employing O1 and O2 as   O1 interface upon the HB-directed self-assembled interlayer. On the
+the HTMs to clarify the effect of HB-associated ordered structured     other hand, the evident enhancement in both Voc and FF for O1-based
+interlayer on the device performance. Fig. 5a depicts the energy level     devices  is mainly  attributed  to the suppressed  interfacial charge
+diagram of a complete PSC with the structure ‘FTO|TiO2|CsFAMA|HTM|     recombination, benefiting from the reduced hole trap density on the
+Au’ (see the details for device fabrication in Materials and Methods),     perovskite surface, for which the HB-associated long-range ordered
+which is also shown in the cross-sectional SEM image of Fig. 5b. The     interfacial modifier  at the perovskite|O1  interface  is  responsible.
+effect of O1 thickness on the device performance was evaluated by     Furthermore, a reduced hysteresis in the J–V curves of O1 HTM-based
+changing the concentration of O1 (from 5 to 25 mg/mL in chloroben­    PSCs (H-index = 1.20) is clearly noted compared with the case of O2-
+zene) in the spin-coating solution. The best PCE was achieved with a    based devices (H-index = 1.41), due to the decrease in the built-in
+~95 nm thick O1 layer (determined in Fig. 5b) obtained from a con­      electric field at the interface upon the swift hole transfer departing
+centration of 20 mg/mL (see the performance comparison in Table S8 in    from the perovskite|O1 interface after the hole extraction [35].
+the SD file). To guarantee a proper comparison, the same concentration       The external quantum efficiency (EQE) spectra (Fig. 6a) confirm that
+
+                                                                        7
+--- Страница 8 ---
+C. Wang et al.                                                                                                            Nano Energy 101 (2022) 107604
+
+
+
+
+
+Fig. 5. (a) Energy level diagram for O1 and O2 HTMs, and other layers of the n-i-p CsFAMA-based solar cells. (b) Cross-sectional SEM image of a typical O1-based
+PSC with structure FTO|TiO2|CsFAMA|O1|Au, showing a thickness of ~95 nm for the O1 layer. (c) J–V curves of the champion O1- and O2-based PSCs under 1 sun
+illumination (forward and reverse scans with a scan rate of 50 mV/s). Photovoltaic parameters, including (d) PCE, (e) FF, (f) Jsc, and (g) Voc, box charts from 15 pixels
+(i.e., individual solar cell) for O1 and O2, respectively.
+
+Table 3
+Performance of perovskite solar cells with O1 and O2 HTMs for the best pixels and the average (avg.) of 15 pixels in each case, respectively. All data for photovoltaic
+parameters are obtained from the reverse scan.
+ HTM         PCE (%)                               Jsc (mA cm−2)                    Voc (mV)                      FF (%)                         H-indexa
+                   Best            Avg.            Best            Avg.              Best            Avg.             Best            Avg.            Best            Avg.
+ O1             15.1           12.1            22.6           20.1           1030          1025           64.7           58.7            1.20           1.25
+ O2             11.4             8.7            21.8           17.9            970           961           53.8           51.0            1.41           1.44
+  a H-index is calculated as PCErev/PCEfor, where PCErev and PCEfor present PCEs measured under reverse and forward scans, respectively.
+
+the photocurrent generation efficiency is dominated by the interfacial     35.5 h, which is much higher than the generally reported values (T80
+charge separation, which is in line with the enhanced hole extraction    <20 h) of PSCs measured upon identical or similar conditions [37,38].
+efficiency for O1-based PSCs, resulting in an increase in the EQE close to     This leads to an extension of the device lifespan by nearly one order of
+80% with respect to O2 devices. In both cases, the integrated  Jsc    magnitude compared to the lifetime (T80 = 3.7 h) of the O2-based cell
+extracted from the EQE spectra shows less than a 5% mismatch with the    under the same environment. As the morphology of O1 or O2 film on the
+Jsc value from the J–V curves, in turn confirming the reliability of both     perovskite film is nearly the same (see the SEM images in Fig. S8 in the
+experiments. More interestingly, we conducted bias-dependent internal    SD file), the device or perovskite degradation seems not affected by the
+quantum  efficiency (IQE) measurements[36] by applying 0 V and     coverage of the HTM atop. Moreover, the almost identical water contact
+110 mV bias on the O1- and O2-based PSCs (see the comparison of IQE     angles (see Figs. 6e and 6f and Table S9) of perovskite|HTM films
+spectra in Figs. 6b and 6c). A clear decrease is observed in the IQE     confirm the similar hydrophobicity of both O1 and O2, in turn sug­
+spectra of O2-based PSCs upon the application of 110 mV bias, however     gesting that the HB-associated self-assembled ordered interlayer indeed
+a nearly negligible effect is appreciated on the IQE spectra of O1-based     plays a key role in protecting the underneath perovskite layer against the
+devices before and after the application of an identical bias (110 mV).     degradation factors, such as the atmospheric moisture and hygroscopic
+This suggests that the HB-associated self-assembled interlayer indeed     dopants (e.g., tBP and LiTFSI) migration[39] towards the perovskite|
+hinders the  interfacial charge recombination at the perovskite|O1   HTM interface. We evaluated the long-term shelf stability by comparing
+interface. In fact, the application of an external electric field would in     the J–V curves of fresh and aged devices, as shown in Fig. S9. While the
+principle accelerate the charge diffusion speed and the interfacial charge    O1-based device can still retain 82% of its initial PCE after 132 days
+recombination, as observed in the case of O2-based devices.                storage in air (darkness, RH~50%), the PCE of the O2-based device is
+   The advantages of utilizing a hydro-functional HTM (O1) in PSCs are     decreased to less than 40% of its initial value during the same time span.
+evident not only from the device performance point of view but also     This clearly hints that the HB-associated self-assembled ordered inter­
+when considering the cells’ stability under working conditions. The     layer at the perovskite|O1 interface can effectively prevent the pene­
+unencapsulated champion O1- and O2-based cells were tested in air     tration of moisture into the perovskite layer.
+under continuous MPPT at 1 sun illumination and the normalized PCE
+tracks vs. time are presented in Fig. 6d. The O1-based cell without     4. Conclusions
+encapsulation  continuously  measured  under  ambient  conditions
+(RH~40%), exhibits high long-term stability with a T80 lifetime of        In summary, we have designed and developed a hydro-functional
+
+
+                                                                        8
+--- Страница 9 ---
+C. Wang et al.                                                                                                            Nano Energy 101 (2022) 107604
+
+
+
+
+
+Fig. 6. (a) External quantum efficiency (EQE) spectra and integrated Jsc values, and (d, c) Bias-dependent internal quantum efficiency (IQE) spectra of the champion
+O1- and O2-based PSCs. (d) Normalized PCE of best O1- and O2-based n-i-p devices without encapsulation under ambient conditions (25 ℃ and RH~40%) for
+~100 h of continuous MPPT under 1 sun illumination (100 mW cm−2). Water contact angles (CAs) for (e) O1 and (f) O2 atop the perovskite films.
+
+material (O1) that, while acting as HTM in PSCs, can self-assemble via    CRediT authorship contribution statement
+hydrogen bonding into an interlayer at the perovskite|HTM interface.
+We also studied a reference material (O2), similar to O1 in the molecular      Cheng Wang: Methodology, Formal analysis, Investigation, Data
+structure except for the replacement of the HB-forming unit (butana­     curation, Writing – review & editing. Maning Liu: Conceptualization,
+mide) in O1 with a plain butyl chain. Our experimental and theoretical    Methodology, Validation. Formal analysis, Investigation, Writing –
+results suggest that O1 has higher hole mobility than O2 and induces a     original draft. Sunardi Rahman: Formal analysis, Investigation, Data
+better energy level alignment with the VB of perovskite, due to the     curation. Hannu Pekka Pasanen: Formal  analysis,  Investigation.
+formation of a supramolecular structure via intermolecular hydrogen    Jingshu Tian: Data curation, Investigation. Jianhui Li: Data curation,
+bonds within the O1 HTM. More importantly, the presence of a HB-    Formal analysis. Zhifeng Deng: Data curation, Software, Formal anal­
+directed  long-range ordered  interlayer  leads  to an  efficient hole      ysis. Haichang Zhang: Conceptualization, Methodology, Formal anal­
+extraction process and suppression of interfacial charge recombination      ysis,  Resources,  Writing  –  original  draft,  Supervision,  Project
+because of the effectively reduced hole trap density on the perovskite     administration, Funding acquisition. Paola Vivo: Methodology, Formal
+surface. This is evident by the 60 mV Voc enhancement, the > 11% FF     analysis, Resources, Writing – review & editing, Visualization, Super­
+increase, as well as the reduced hysteresis in the J–V curves of O1-based     vision, Project administration, Funding acquisition.
+devices vs. the O2-based counterparts. The O1-based n-i-p type PSCs with
+no encapsulation demonstrate high air stability after ~100 h under
+continuous MPPT with an extracted T80 of 35.5 h, which is nearly one    Declaration of Competing Interest
+order of magnitude longer than that (3.7 h) obtained for O2-based de­
+vices. By proposing a material (O1) that combines the hole transport       The authors declare that they have no known competing financial
+function with the capability of modifying the perovskite interface by     interests or personal relationships that could have appeared to influence
+self-assembling into an ordered interlayer, we believe our work will     the work reported in this paper.
+pave the way for further HTM design modifications for efficient and
+stable n-i-p PSCs.                                                Data availability
+
+                                                                     Data will be made available on request.
+
+                                                                        9
+--- Страница 10 ---
+C. Wang et al.                                                                                                            Nano Energy 101 (2022) 107604
+
+Acknowledgements                                                                   phenoxazine-based hole-transporting materials for efficient and stable inverted
+                                                                                                  perovskite solar cells, Angew. Chem. Int. Ed. 60 (2021) 20437–20442.
+                                                                                      [19] M. M´as-Montoya, P. G´omez, D. Curiel, I. Silva, J. Wang, R.A.J. Janssen, A self-
+   P.V. acknowledges the financial support of Jane and Aatos Erkko           assembled small-molecule-based hole-transporting material for inverted perovskite
+foundation, Finland (SOL-TECH project). M.L. acknowledges the Finnish             solar cells, Chem. – A Eur. J. 26 (2020) 10276–10282.
+Cultural Foundation, Finland (No. 00220107) for funding. H.Z. thanks      [20] R. Li, C. Li, M. Liu, P. Vivo, M. Zheng, Z. Dai, J. Zhan, B. He, H. Li, W. Yang,                                                                                                         Z. Zhou, H. Zhang, Hydrogen-bonded dopant-free hole transport material enables
+the support from Young Taishan Scholars, PR China under Grant No.             efficient and stable inverted perovskite solar cells, CCS Chem. (2021) 3309–3319.
+201909120. This work is part of the Academy of Finland Flagship Pro­      [21]  S. Wang, Y. Li, J. Yang, T. Wang, B. Yang, Q. Cao, X. Pu, L. Etgar, J. Han, J. Zhao,
+gramme, Photonics Research and Innovation (PREIN), Decision No.            X. Li, A. Hagfeldt, Critical role of removing impurities in nickel oxide on high-                                                                                                         efficiency and long-term stability of inverted perovskite solar cells, Angew. Chem.
+320165.                                                                                                          Int. Ed. 18 (2022), e202116534.
+                                                                                      [22] R. Kaneko, T.H. Chowdhury, K. Sugawa, J.J. Lee, J. Otsuki, A. Islam, Electro-active
+Appendix A. Supporting information                                                nanofibers of a tetrathiafulvalene derivative with amide hydrogen bonds as a                                                                                                 dopant-free hole transport material for perovskite solar cells, Sol. Energy 194
+                                                                                         (2019) 248–253.
+   Supplementary data associated with this article can be found in the      [23] A. Sharma, R. Singh, G.P. Kini, J. Hyeon Kim, M. Parashar, M. Kim, M. Kumar, J.
+online version at doi:10.1016/j.nanoen.2022.107604.                                     S. Kim, J.J. Lee, Side-chain engineering of diketopyrrolopyrrole-based hole-
+                                                                                                    transport materials to realize high-efficiency perovskite solar cells, ACS Appl.
+                                                                                             Mater. Interfaces 13 (2021) 7405–7415.
+References                                                                        [24] R. Li, M. Liu, S.K. Matta, A. Hiltunen, Z. Deng, C. Wang, Z. Dai, S.P. Russo, P. Vivo,
+                                                                                        H. Zhang, Sulfonated dopant-free hole-transport material promotes interfacial
+ [1] Best Research-Cell Efficiency Chart, NREL (2022), accessed May 2022, 〈https://             charge transfer dynamics for highly stable perovskite solar cells, Adv. Sustain. Syst.
+      www.nrel.gov/pv/cell-efficiency.html〉.                                            5 (2021) 2100244.
+ [2] S.D. Stranks, G.E. Eperon, G. Grancini, C. Menelaou, M.J.P. Alcocer, T. Leijtens, L.      [25] H. Zhang, K. Liu, K.Y. Wu, Y.M. Chen, R. Deng, X. Li, H. Jin, S. Li, S.S.C. Chuang, C.
+    M. Herz, A. Petrozza, H.J. Snaith, Electron-hole diffusion lengths exceeding 1                   L. Wang, Y. Zhu, Hydrogen-bonding-mediated solid-state self-assembled
+     micrometer in an organometal trihalide perovskite absorber, Science 342 (2013)             isoepindolidiones (isoepi) crystal for organic field-effect transistor, J. Phys. Chem.
+     341–344.                                                                                    C. 122 (2018) 5888–5895.
+ [3] M.A. Green, A. Ho-Baillie, Perovskite solar cells: the birth of a new era in             [26] H. Zhang, R. Deng, J. Wang, X. Li, Y.M. Chen, K. Liu, C.J. Taubert, S.Z.D. Cheng,
+      photovoltaics, ACS Energy Lett. 2 (2017) 822–830.                                           Y. Zhu, Crystalline organic pigment-based field-effect transistors, ACS Appl. Mater.
+ [4] A.K. Jena, A. Kulkarni, T. Miyasaka, Halide perovskite photovoltaics: background,             Interfaces 9 (2017) 21891–21899.
+      status, and future prospects, Chem. Rev. 119 (2019) 3036–3103.                      [27] K. Yang, X. Li, Y.F. Huang, R.S. Bhatta, J. Liu, M. Tsige, C.L. Wang, S.Z.D. Cheng,
+ [5]  J.S. Manser, J.A. Christians, P.V. Kamat, Intriguing optoelectronic properties of               Y. Zhu, Investigation of hydrogen-bonding mediated molecular packing of
+     metal halide perovskites, Chem. Rev. 116 (2016) 12956–13008.                             diketopyrrolopyrrole based donor-acceptor oligomers in the solid state, Polymer
+ [6]  J.P. Correa-Baena, A. Abate, M. Saliba, W. Tress, T. Jesper Jacobsson, M. Gr¨atzel,          160 (2019) 238–245.
+     A. Hagfeldt, The rapid evolution of highly efficient perovskite solar cells, Energy       [28] H. Zhang, M. Liu, W. Yang, L. Judin, T.I. Hukka, A. Priimagi, Z. Deng, P. Vivo,
+     Environ. Sci. 10 (2017) 710–727.                                                        Thionation enhances the performance of polymeric dopant-free hole-transporting
+ [7]  S. Makuta, M. Liu, M. Endo, H. Nishimura, A. Wakamiya, Y. Tachibana, Photo-               materials for perovskite solar cells, Adv. Mater. Interfaces (2019) 1901036.
+      excitation intensity dependent electron and hole injections from lead iodide           [29] Y. Shao, Z. Xiao, C. Bi, Y. Yuan, J. Huang, Origin and elimination of photocurrent
+      perovskite to nanocrystalline TiO2 and spiro-OMeTAD, Chem. Commun. 52 (2016)             hysteresis by fullerene passivation in CH3NH3PbI3 planar heterojunction solar
+     673–676.                                                                                                      cells, Nat. Commun. 5 (2014) 1–7.
+ [8] A. Marchioro, J. Teuscher, D. Friedrich, M. Kunst, R. Van De Krol, T. Moehl,           [30] M. Liu, M. Endo, A. Shimazaki, A. Wakamiya, Y. Tachibana, Identifying an
+    M. Gr¨atzel, J.E. Moser, Unravelling the mechanism of photoinduced charge transfer          optimum perovskite solar cell structure by kinetic analysis: planar, mesoporous
+      processes in lead iodide perovskite solar cells, Nat. Photonics 8 (2014) 250–255.             based, or extremely thin absorber structure, ACS Appl. Energy Mater. 1 (2018)
+ [9] P. Yadav, M.H. Alotaibi, N. Arora, M.I. Dar, S.M. Zakeeruddin, M. Gr¨atzel,                 3722–3732.
+      Influence of the nature of A cation on dynamics of charge transfer processes in         [31] Y. Chen, N. Li, L. Wang, L. Li, Z. Xu, H. Jiao, P. Liu, C. Zhu, H. Zai, M. Sun, W. Zou,
+      perovskite solar cells, Adv. Funct. Mater. 28 (2018) 1706073.                                    S. Zhang, G. Xing, X. Liu, J. Wang, D. Li, B. Huang, Q. Chen, H. Zhou, Impacts of
+[10] M. Lira-Cantú, Perovskite solar cells: stability lies at interfaces, Nat. Energy 2                 alkaline on the defects property and crystallization kinetics in perovskite solar
+     (2017) 1–3.                                                                                                   cells, Nat. Commun. 10 (2019) 1–10.
+[11] C.M. Wolff, P. Caprioglio, M. Stolterfoht, D. Neher, Nonradiative recombination in      [32] C. Zhang, S. Wu, L. Tao, G.M. Arumugam, C. Liu, Z. Wang, S. Zhu, Y. Yang, J. Lin,
+      perovskite solar cells: the role of interfaces, Adv. Mater. 31 (2019) 1902762.                 X. Liu, R.E.I. Schropp, Y. Mai, Fabrication strategy for efficient 2D/3D perovskite
+[12] L.K. Ono, Y. Qi, Surface and interface aspects of organometal halide perovskite                solar cells enabled by diffusion passivation and strain compensation, Adv. Energy
+      materials and solar cells, J. Phys. Chem. Lett. 7 (2016) 4764–4794.                         Mater. 10 (2020) 2002004.
+[13]  L. Canil, J. Salunke, Q. Wang, M. Liu, H. K¨obler, M. Flatken, L. Gregori,               [33] Y. Yamada, T. Nakamura, M. Endo, A. Wakamiya, Y. Kanemitsu, Photocarrier
+     D. Meggiolaro, D. Ricciarelli, F. De Angelis, M. Stolterfoht, D. Neher, A. Priimagi,            recombination dynamics in perovskite CH3NH3PbI3 for solar cell applications,
+      P. Vivo, A. Abate, Halogen-bonded hole-transport material suppresses charge                    J. Am. Chem. Soc. 136 (2014) 11610–11613.
+     recombination and enhances stability of perovskite solar cells, Adv. Energy Mater.      [34] X. Hu, H. Wang, M. Wang, Z. Zang, Interfacial defects passivation using fullerene-
+     11 (2021) 2101553.                                                               polymer mixing layer for planar-structure perovskite solar cells with negligible
+[14]  F. Yang, S. Cheng, X. Zhang, X. Ren, R. Li, H. Dong, W. Hu, 2D organic materials for              hysteresis, Sol. Energy 206 (2020) 816–825.
+      optoelectronic applications, Adv. Mater. 30 (2018) 1702415.                         [35] S.N. Habisreutinger, N.K. Noel, H.J. Snaith, Hysteresis index: a figure without
+[15] E. Li, C. Liu, H. Lin, X. Xu, S. Liu, S. Zhang, M. Yu, X. Cao, Y. Wu, W. Zhu, Bonding            merit for quantifying hysteresis in perovskite solar cells, ACS Energy Lett. 3 (2018)
+      strength regulates anchoring-based self-assembly monolayers for efficient and              2472–2476.
+      stable perovskite solar cells, Adv. Funct. Mater. 31 (2021) 2103847.                  [36] A. Sharenko, C.M. Proctor, T.S. van der Poll, Z.B. Henson, T.-Q. Nguyen, G.
+[16] C. Chang, H. Huang, H. Tsai, S. Lin, P. Liu, W. Chen, F. Hsu, W. Nie, Y. Chen,                C. Bazan, A. High-Performing, Solution-processed small molecule:perylene diimide
+      L. Wang, Facile fabrication of self-assembly functionalized polythiophene hole               bulk heterojunction solar cell, Adv. Mater. 25 (2013) 4403–4406.
+      transporting layer for high performance perovskite solar cells, Adv. Sci. 8 (2021)       [37] N. Li, X. Niu, Q. Chen, H. Zhou, Towards commercialization: the operational
+     2002718.                                                                                                stability of perovskite solar cells, Chem. Soc. Rev. 49 (2020) 8235–8286.
+[17]  L. Canil, T. Cramer, B. Fraboni, D. Ricciarelli, D. Meggiolaro, A. Singh, M. Liu,         [38]  S. Zhang, Z. Liu, W. Zhang, Z. Jiang, W. Chen, R. Chen, Y. Huang, Z. Yang,
+    M. Rusu, C.M. Wolff, N. Phung, Q. Wang, D. Neher, T. Unold, P. Vivo, A. Gagliardi,             Y. Zhang, L. Han, W. Chen, Barrier designs in perovskite solar cells for long-term
+      F. De Angelis, A. Abate, Tuning halide perovskite energy levels, Energy Environ.                stability, Adv. Energy Mater. 10 (2020) 2001610.
+       Sci. 14 (2021) 1429–1438.                                                        [39]  J. Xia, R. Zhang, J. Luo, H. Yang, H. Shu, H.A. Malik, Z. Wan, Y. Shi, K. Han,
+[18] N. Cai, F. Li, Y. Chen, R. Luo, T. Hu, F. Lin, S. Yiu, D. Liu, D. Lei, Z. Zhu, A.K.               R. Wang, X. Yao, C. Jia, Dipole evoked hole-transporting material p-doping by
+      -Y. Jen, Synergistical dipole–dipole interaction induced self-assembly of                         utilizing organic salt for perovskite solar cells, Nano Energy 85 (2021), 106018.
+
+
+
+
+
+                                                                        10

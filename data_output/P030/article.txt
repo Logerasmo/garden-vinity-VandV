@@ -1,0 +1,875 @@
+--- Страница 1 ---
+                                                                                                                      ll
+                                                                    OPEN ACCESS
+
+Article
+Photonic nanostructures mimicking ﬂoral
+epidermis for perovskite solar cells
+
+
+
+
+                                                                            Maria Vasilopoulou, Wilson Jose
+
+                                                                   da Silva, Anastasia Soultati, ...,
+
+                                                        Mohammad Khaja Nazeeruddin,
+
+                                                                    Yong-Young Noh, Abd. Rashid
+
+                                                                                 bin Mohd Yusoff
+
+
+                                                                                                    m.vasilopoulou@inn.demokritos.gr
+                                                                                                                (M.V.)
+                                                                                              mdkhaja.nazeeruddin@epﬂ.ch (M.K.N.)
+                                                                                                 yynoh@postech.ac.kr (Y.-Y.N.)
+                                                                                                   abdrashid@postech.ac.kr (A.R.b.M.Y.)
+
+                                                                                        Highlights
+                                                                                           Petal-inspired photonic
+                                                                                     nanostructures are replicated in
+                                                                                      light-polymerized coatings
+
+
+                                                                                      Antireﬂection and
+                                                                              superhydrophobic function of
+                                                                                          conical structures
+
+
+                                                                                       Perovskite solar cell (PSC)
+                                                                                      efﬁciency of 24.2% with coatings
+
+
+                                                              UV light and environmental
+                                                                                                        stability in PSCs were achieved
+
+
+
+Here, Vasilopoulou et al. report petal-inspired light-polymerized nanocoatings
+with light trapping, water repellence, and UV light and environmental moisture
+protection properties in perovskite solar cells (PSCs). The coatings increase power
+conversion efﬁciency to 24.61% and enable stable operation under AM 1.5G and
+UV light continuous illumination.
+
+
+
+
+
+                                                                                                                    Vasilopoulou et al., Cell Reports Physical
+
+                                                                                                                   Science 3, 101019
+
+                                                                                                      September 21, 2022 ª 2022 The Author(s).
+
+                                                                                                                            https://doi.org/10.1016/j.xcrp.2022.101019
+--- Страница 2 ---
+                                                                                                                      ll
+                                                                    OPEN ACCESS
+
+
+Article
+Photonic nanostructures mimicking
+ﬂoral epidermis for perovskite solar cells
+
+Maria Vasilopoulou,1,10,* Wilson Jose da Silva,2 Anastasia Soultati,1 Hyeong Pil Kim,3 Byung Soon Kim,3
+Youjin Reo,4 Anderson Emanuel Ximim Gavim,2 Julio Conforto,2 Fabio Kurt Schneider,2
+Marciele Felippi,5 Leonidas C. Palilis,6 Dimitris Davazoglou,1 Panagiotis Argitis,1
+Thomas Stergiopoulos,1 Azhar Fakharuddin,7 Jin Jang,3 Nicola Gasparini,8
+Mohammad Khaja Nazeeruddin,9,* Yong-Young Noh,4,* and Abd. Rashid bin Mohd Yusoff4,*
+
+
+
+SUMMARY
+Here, we report photonic nanostructures replicated from the
+adaxial epidermis of ﬂower petals onto light-polymerized coatings
+using low-cost nanoimprint lithography at ambient temperature.
+These multifunctional nanocoatings are applied to confer enhanced
+light trapping, water repellence, and UV light and environmental
+moisture protection features in perovskite solar cells. The former
+feature helps attain a maximum power conversion efﬁciency of
+24.61% (21.01% for the reference cell) without any additional de-
+vice optimization. Added to these merits, the nanocoatings also      1Institute of Nanoscience and Nanotechnology
+enable stable operation under AM 1.5G and UV light continuous      (INN), National Center for Scientiﬁc Research
+illumination or in real-world conditions. Our engineering approach     (NCSR) ‘‘Demokritos’’, Agia Paraskevi, 15341
+                                                                                                                      Attica, Greece
+provides a simple way to produce multifunctional nanocoatings
+                                                                                                     2Universidade Tecnolo´ gica Federal do Parana´,
+optimized by nature’s wisdom.                                              GPGEI – Av. Sete de Setembro, 3165 – CEP,
+                                                                                                 80230-901 Curitiba, Parana, Brazil
+INTRODUCTION                                                                      3Advanced Display Research Center, Department
+                                                                                                             of Information Display, Kyung Hee University,
+As our world witnesses severe climate change, a long overdue transition to alterna-     Dongdaemoon-gu, Seoul 130-701, South Korea
+tive energy sources is imperative. Solar cells experience unprecedented growth;     4Department of Chemical Engineering, Pohang
+however, a major bottleneck to achieve power conversion efﬁciencies (PCEs) close      University of Science and Technology
+                                                                                          (POSTECH), Pohang, Gyeongbuk 37673, Repub-
+to the Shockley-Queisser limit is the reﬂection losses at the transparent glass/air        lic of Korea
+interface.1 For example, in solar panels, nearly one-third of the incident solar irradi-     5Universidade Tecnolo´ gica Federal do Parana´
+ation is reﬂected, thus limiting the light-to-current conversion.2 Several light man-     (UTFPR), Departamento de Biologia, Campus
+                                                                                                 Dois Vizinhos, Estrada Para Boa Esperanc¸a, Dois
+agement schemes, which include textured surfaces and antireﬂection coatings      Vizinhos, 85660-000 Parana´, Brazil
+(ARs) placed on the transparent side of the solar cell, have been developed.3,4     6Department of Physics, University of Patras, Rio,
+They aim to (1) redirect the light rays or trap them by total internal reﬂection, thus     26504 Patras, Greece
+improving light incoupling at the front surface,5 (2) enhance light absorption of semi-     7Department of Physics, University of Konstanz,
+                                                                                             78464 Konstanz, Germanyconductors in weakly absorbing wavelength regions,6 and (3) improve light manage-
+                                                                                            8Department of Chemistry and Centre forment in solar cells, which includes photonic crystals,7 diffraction gratings,8 plasmonic
+                                                                                                    Processable Electronics, Imperial College
+nanostructures,9 nanowires,10 metamaterials,11 randomly textured scattering sur-     London, London W120BZ, UK
+faces,12 and surface textures like honeycomb structures13 or inverted pyramids.14      9Institute of Chemical Sciences and Engineering,
+                                                                                                                                                                   E´ cole Polytechnique Fe´ de´ rale de LausanneThese light management schemes have been developed for thick inorganic semicon-
+                                                                                                                (EPFL), Rue de l’Industrie 17, 1951 Sion,
+ductor solar cells and usually rely on vacuum deposition methods and complex nano-      Switzerland
+patterning schemes. Despite their success, they need to be modiﬁed (i.e., become     10Lead contact
+simpler, lighter, and cost effective) in order to become compatible with low-cost,     *Correspondence:
+thin-ﬁlm, solution-based photovoltaics such as organic and perovskite solar cells.        m.vasilopoulou@inn.demokritos.gr (M.V.),
+                                                                                              mdkhaja.nazeeruddin@epﬂ.ch (M.K.N.),
+                                                                                                   yynoh@postech.ac.kr (Y.-Y.N.),
+In the search for low-cost alternatives, researchers have also focused on biomimetic     abdrashid@postech.ac.kr (A.R.b.M.Y.)
+light-harvesting structures inspired by animals or plants. The former have attracted      https://doi.org/10.1016/j.xcrp.2022.101019
+
+
+
+                                                                    Cell Reports Physical Science 3, 101019, September 21, 2022 ª 2022 The Author(s).    1
+                                  This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+--- Страница 3 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+increasing attention, and prominent examples are antireﬂective surfaces mimicking
+the corneas of moth eyes and the transparent wings of cicada, blue Morpho butter-
+ﬂy, and hawk moths.3,15,16 Natural moth-eye structures consist of ordered conical
+protrusions 250 nm in height with spaces of 200–250 nm. Analogs of the moth-
+eye structure have been widely reproduced by lithographic techniques and used
+as ARs on solar cells and glass windows.17–19 Notably, they also possess self-clean-
+ing properties, as their nanoscopic surfaces minimize droplets’ adhesion to the sub-
+strate (static water contact angle values over 150 ).20,21 Still, their water repellence
+remains  inferior compared  with the superhydrophobic  archetypal  of  natural
+Nelumbo nucifera (lotus) leaves (water contact angle higher than 170 ).22
+
+
+However, relatively little research has been conducted on light-harvesting structures
+mimicking plant leaves and ﬂowers for solar cells, although evolution has found remark-
+able ways to optimize their light management features for their survival. For example,
+the petal adaxial epidermis (the epidermis orientated toward potential pollinators) of
+many angiospermae consists of conical cells similar to those of the corneal of moth
+eye. These effectively trap light, intensify their color, and warm the nectar, thus
+increasing their attractiveness to pollinators.23,24 Flower petal epidermis also possesses
+superhydrophobic properties originating from nanostructuring.25,26 Based on these
+promises, some recent papers report photonic structures replicated by ﬂowers for
+thin-ﬁlm solar cells.27–31 These reports demonstrate enhanced light management in
+the case of replicas with a high aspect ratio approaching or even exceeding 1.0.27,29
+
+
+Here, we replicate a series of nanocoatings from ﬂoral petal epidermal cells of
+various species, in particular, Ranunculus repens, Anchusa ofﬁcinalis, Aubrieta del-
+toidea, Geranium endressii, and Antirrhinum majus. We verify the proposed correla-
+tion between the AR function and the aspect ratio of photonic structures.27 We also
+demonstrate a link between AR, water repellence, and nanomorphology. We apply
+these nanocoatings in perovskite solar cells (PSCs), which attain a maximum PCE
+of 24.61% (21.01% for the reference cell) without any additional device optimiza-
+tion.32–36 They also present excellent stability under continuous illumination with
+AM 1.5G or UV light (254 nm) and in real-world conditions, an indication that nano-
+structures inspired by nature can beneﬁt many technological areas including
+emerging solar cell technologies, such as PSCs.
+
+
+RESULTS AND DISCUSSION
+
+Replication and properties of photonic structures
+We selected ﬂowers with colors spanning from pale yellow (R. repens) to intense bur-
+gundy (Antirrhinum majus), as color is related to ﬂoral antireﬂection function (Fig-
+ure S1).37 We replicated their petal epidermal cells by using soft UV nanoimprint
+lithography (soft UV-NIL) and commercially available materials such as polydimethyl-
+siloxane (PDMS) and UV photocurable adhesives (resins). The details for the prepa-
+ration of the replicas are given in the experimental procedures. In brief, the negative
+structure of the petal cells was ﬁrst patterned in a PDMS master, which was used as a
+mold for the replication of ﬂoral cells on a liquid UV light polymerized acrylate
+urethane adhesive (Dymax, DYM 6–621). Afterward, the resin was poured onto the
+PDMS slab, irradiated with a mercury lab for 5 min, and then removed from the
+slab. No primer was applied before dropping the resin onto the PDMS, and the pro-
+cess was accomplished in ambient conditions.
+
+
+The replicated photonic structures present profound differences as shown in scan-
+ning electron microscopy (SEM) images presented in Figures 1 and S2. The replica
+
+
+
+
+2      Cell Reports Physical Science 3, 101019, September 21, 2022
+--- Страница 4 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+
+
+
+Figure 1. Replication of Antirrhinum majus petal adaxial epidermal cells
+Top view (top) and tilted (bottom) SEM images of the replicas of the petal’s adaxial epidermal layer
+cells of wild A. majus in UV-curing adhesive (DYM 6–621) (scale bar represents 1 and 2 mm).
+
+
+
+of R. repens consists of dense conical nanoprotrusions 60 nm in height and 300 nm in
+their basis diameter (aspect ratio: 0.2). Films replicated from A. ofﬁcinalis appear
+quite compact and are composed of densely packed papillate nanoprotrusions
+with a ﬂat top surface similar to those of A. deltoidea and G. endressii; however,
+the nanoprotrusions in G. endressii replica are well separated between them. More-
+over, the Antirrhinum majus replica consists of well-separated hierarchical conical
+nanostructures (around 360 nm in height and 450 nm in basis diameter, aspect ratio:
+0.8), which feature structured peripheries with dimensions much smaller than the
+wavelengths of visible  light  (i.e., sub-wavelength). Notably, the petal adaxial
+epidermis of A. majus presents great similarity with both moth-eye conical nano-
+structures and lotus leaf conical hierarchical structures.22,27
+
+
+The reﬂectivity of nanocoatings replicated from the adaxial petal epidemics of the
+selected ﬂoral species against the calculated aspect ratio of the petal nanostructures
+is shown in Figure S3A (angle of incidence [AOI] = 80 ). The reﬂectivity of the un-
+coated glass is about 40% (also shown in this ﬁgure), and a monotonic decrease
+upon coating with photonic structures of increasing aspect ratio is observed, in
+agreement with previous reports.27 The nanocoatings consisting of well-separated,
+individual protrusions with high aspect ratio and especially the conically shaped
+structures replicated by A. majus present the lower reﬂectivity and higher transmit-
+tance (Figure S3). This can be explained by taking into account the Fresnel equation,
+
+                 R = (n1   n2/n1 + n2)2,                          (Equation 1)
+
+
+which describes that the specular reﬂection at an interface between two media
+(where n1 and n2 are the refractive indices of the media)38 should be changed with
+textured or rough interfaces. This is because the textured interface behaves as an
+effective medium with a gradually varying refractive index.39 Given this continuous
+
+
+
+                                                                                           Cell Reports Physical Science 3, 101019, September 21, 2022    3
+--- Страница 5 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+
+
+
+Figure 2. Antireﬂection function and superhydrophobicity of AR coatings replicated from wild A. majus
+(A) Reﬂection spectra of ﬂat DYM 6–621 resin and A. majus-replicated coating on the front glass side at AOI = 20 and 80  .
+(B and C) Angle-resolved reﬂectance of ﬂat resin and A. majus-replicated AR coating, illustrating specular reﬂectance measured as a function of AOI at a
+wavelength of 514 nm for both s- and p-polarized light.
+(D) Water droplet on A. majus-replicated AR coating on a glass surface showing a static contact angle value of 179.8  .
+(E) SWT values of the ﬂat resin and the ﬂower-replica-coated glass as a function of self-cleaning property. The SWT was evaluated by normalizing the
+transmittance spectra with the solar spectral photon ﬂux AM 1.5G spectrum photonic ﬂux integrated over a wavelength range of 350–800 nm.
+(F) The simulated absorption spectra of control and ﬂower cells using ﬂat resin and ﬂower-replicated AR coating, respectively, along with the absorption
+difference.
+
+
+refractive index gradient, the incident light experiences no abrupt change in the
+refractive index, resulting in lower specular reﬂectance.40 In particular, the Fresnel
+equation can be approximated as
+
+                R = (neff   ng/neff + ng)2,                         (Equation 2)
+
+
+where the effective refractive index can be calculated as
+
+                       neff = [f na2/3 + (1     f) nb 2/3]3∕2,                      (Equation 3)
+
+
+where f is the ﬁlling factor dependent on the geometry and aspect ratio of the
+textured structures. Tuning the geometry of the structures alters the effective refrac-
+tive index, hence suppressing the specular reﬂectance on a textured or rough sur-
+face. Additionally, in photonic structures with sub-wavelength dimensions, light
+rays are scattered and tend to bend progressively, therefore changing their path
+and being trapped inside the semiconductor41  (as  illustrated  in Figure  S4).
+A. majus replica consists of conically shaped features decorated with small nanofea-
+tures at their periphery, and it is thus expected that (1) suppression of the specular
+reﬂection at the conically textured interface and (2) enhanced Rayleigh scattering at
+the nanofeatures will synergistically contribute to the low reﬂectance and enhanced
+transmittance of this ﬂower replica.
+
+
+Indeed, the photonic structure exhibits extremely low reﬂectivity for the wide range
+of UV and visible light wavelengths (300–800 nm; Figure 2A) and for a varying AOI
+(Figure 2B). Compared with the reference sample, which is coated with a plain resist,
+the specular reﬂectance at the ﬂower structure/air interface is reduced from 4% to
+
+
+
+4      Cell Reports Physical Science 3, 101019, September 21, 2022
+--- Страница 6 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+0.1% for close to normal incidence; the difference further increases for higher AOI.
+Besides the low specular reﬂection, an effective light management scheme should
+also present negligible reﬂection to s- and p-polarized light having the electric ﬁeld
+perpendicular and parallel to the incidence plane, respectively.42,43 A. majus replica
+exhibits very low reﬂectivity for both s and p polarizations over a broad spectral and
+AOI range, with the reﬂectance being below 0.1% for the entire visible spectrum at
+low AOI values (Figure 2C). The broadband and omnidirectional AR properties of our
+ﬂoral replica along with ease of fabrication and integration to any substrate are key
+factors demonstrating its suitability for solar cells. With their transmittance to be
+around 97% in the visible wavelength range, these nanocoatings are suited for
+application in the front transparent device cover. Notably, due to their adequate ab-
+sorption in the UV part of the spectrum, they could act as protective buffers for the
+absorber (i.e., perovskite) layer, preventing degradation photoreactions.44–48
+
+
+A critical factor for any AR coating applied to the front side of solar cells is their self-
+cleaning properties originating from water repellency.49 Optical microscopy images
+of water droplets on plain glass, glass covered with ﬂat resin, and ﬂower replicas
+(Figures 2D and S5) present distinct differences. Floral-replicated nanocoatings
+exhibit ultra large contact angle values over 170 compared with 114  for ﬂat resin
+and 32.03  for glass. A. majus hierarchical nanocoating features a static contact
+angle of 179.8 , larger than that of the natural lotus leaf (i.e., around 170  ). The ul-
+tra-hydrophobic properties of this replica can be explained by taking into account
+the model proposed by Cassie-Baxter50 for chemically heterogeneous (composite)
+surfaces (i.e., air within a porous or textured homogeneous surface). It is based on
+the consideration that a liquid droplet placed on a textured or rough feature rests
+on a heterogeneous composite air-solid surface. The apparent contact angle for a
+composite surface is given by
+
+                cos qcomp. = f1 cosq1 + f2 cosq2,                      (Equation 4)
+
+where f1, q1, and f2, q2, are the fractional area and contact angle of the two materials,
+respectively (with f1 + f2 = 1). This model considers that the liquid droplet only
+touches the tip of the peaks of textured or rough solids, and, consequently, air
+pockets are formed between the droplet and the substrate (Figure S6). Considering
+that between the textured solid surface and the liquid droplet only air exists, the
+cosine of the angle q2 becomes  1, and the above equation can be written as
+
+                 cos qcomp. = f1 (cosq1 +1)   1.                       (Equation 5)
+
+
+In that case, as the fraction of air increases, and, consequently, f1 approaches zero, a
+contact angle approaching 180  is predicted for the composite. In addition, this
+model also predicts that the water drop can easily roll down from the surface and
+that the contact angle hysteresis is very small. A contact angle hysteresis of 1  is
+obtained for A. majus replica, indicating the ultra-hydrophobic properties of this
+structure. This endows the surface with self-cleaning properties as shown in Figure S7
+and Videos S1 and S2, where ﬂat resin (Video S1) and ﬂower-replicated (Video S2)
+coatings on glass are tested for their self-cleaning function. Both were covered
+with yellow powder-like dust. Notably, the powder particles were clearly removed
+after dropping the water droplets at the surface without any residue. On the other
+hand, sufﬁcient dust remains on the ﬂat resin-coated glass.
+
+
+A. majus replica on glass exhibits a solar-weighted transmittance (SWT) of  95.6%
+signiﬁcantly higher than that of the ﬂat resin (  90.3%). This value was recovered after
+
+
+
+
+                                                                                           Cell Reports Physical Science 3, 101019, September 21, 2022    5
+--- Страница 7 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+
+
+
+Figure 3. Application to PSCs
+(A) The dark J-V curves of the ﬂower cell and the control one.
+(B and C) J-V characteristic curves are taken at a scan rate of 5 mV s  1 (B) and EQE spectra of the
+ﬂower-replicated AR coating-based cell (red circles) and control cell (black diamonds) (C). The
+integration of the product of the AM 1.5G photon ﬂux with the IPCE spectrum is also shown in (C).
+(D) Angular dependence of JSC values for ﬂower cell and control cell with plain resin as AR coating,
+and the JSC enhancement ratio in the ﬂower cell compared with the control one.
+
+
+
+the cleaning procedure (Figure 2E). SWT expresses the ratio of the photons trans-
+mitted to the total photons;48 its high value in the case of ﬂower replica indicates
+potentially improved light harvesting from the absorber layer. This is veriﬁed by
+the enhancement in simulated absorption spectra of PSCs based on triple cation
+halide perovskite emitter (CsPbI3)0.05[FAPbI3)0.83(MAPbBr3)0.17]0.95 (Figure 2F).
+
+
+Application to PSCs
+We fabricated and tested two sets of PSC devices: those without the AR coating on
+the front glass side (termed hereafter as control devices) and those with the AR. The
+devices include a mesoporous titanium dioxide (TiO2) electron-transport layer and a
+Spiro-MeOTAD hole-transport layer (Figure S8). Between the perovskite absorber
+and both charge transport layers, two-dimensional atomic-thick graphene nano-
+sheets are inserted to passivate the interfaces and endow the device with high
+mobility.51 The device using ﬂat resin is referenced as a control cell, whereas that
+with the ﬂower replica is termed a ﬂower cell. Besides the AR nanocoating (either
+ﬂat resin or A. majus replica), these cells are completely identical, indicating that
+any absorption difference is due to a mere antireﬂective effect.
+
+
+The devices exhibit identical diode characteristics when measured in the dark (Fig-
+ure 3A), as expected. Figures 3B and 3C present their current density-voltage (J-V)
+characteristics under AM 1.5G-simulated light illumination and external quantum ef-
+ﬁciency (EQE) spectra, respectively. The effect of light trapping in the ﬂower-replica-
+coated cell is manifested as a 6% increase in short-circuit current density (JSC) from
+23.29 for the control cell to 24.62 mA cm 2 for the ﬂower-based device (Table S1).
+This results in an increase in PCE from 21.01% to 22.20% (22.18% at maximum power
+
+
+
+6      Cell Reports Physical Science 3, 101019, September 21, 2022
+--- Страница 8 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+
+
+
+Figure 4. Charge generation rates
+(A and B) Proﬁle of the generation rate (G) in the PSCs (A) without and (B) with ﬂower-replicated AR nanocoating. The maximum values of the color bars
+are both 4.5 3 1028 photons/m3/s, with red indicating a high generation rate, and blue showing a low generation rate.
+
+
+point [MPP] tracking; Figure S9). Notably, the optimized device also presented
+negligible hysteresis (Figure S9). The high efﬁciency of the ﬂower cells was also
+reproducible (Figure S10). The photocurrent enhancement is reﬂected in the EQE
+curves (Figure 3C); a clear increase at wavelengths below 500 nm and over
+700 nm, in agreement with the calculated absorption enhancement (Figure 2F),
+can be obtained by subtracting the EQE spectra of ﬂower and control cells. This
+improvement is in agreement with the enhanced photocurrent in a wide range of
+light incident angles (Figure 3D) and the increased charge-carrier generation rate
+by nearly one order of magnitude in the ﬂower compared with the control device
+(Figure 4).
+
+
+However, this improvement cannot be explained only by the suppression in specular
+reﬂection at normal incidence through applying the photonic structure on the glass
+front side (a decrease in the specular reﬂectance of about 4% was manifested). Even
+if we assume perfect light in-coupling properties, the maximum enhancement of 4%
+in specular reﬂectance is lower than the 6% enhancement in PCE. Consequently, an
+additional optical effect that also enhances light harvesting should be sought. To un-
+ravel a potential second optical effect of ﬂower replica, we performed additional
+transmission measurements by illuminating the ﬂower replica/glass sample from
+the back side (Figure S11). By comparing the transmittance measured by illumi-
+nating the front (Figure S3B) and back (Figure S11) sides, we can conclude that
+the ﬂower structure also presents retro-reﬂection properties (that is, back reﬂection
+at the glass/ﬂower interface; Figure S12).52 As a result, some light rays that are
+transmitted through the ﬂower replica/glass interface toward the PSC but they are
+reﬂected at the planar interface of glass with the solar cell will be retro-reﬂected
+(back reﬂected) at the glass/ﬂower interface toward the solar cell again.
+
+
+The ﬂower replica also enabled excellent stability upon continuous illumination in
+nitrogen (Figure 5A. It is observed that the cell embedding the replica was very sta-
+ble upon AM 1.5 G illumination for 1,000 h in nitrogen without any encapsulation.
+However, the control cell bearing the plain resin coating was also quite stable, indi-
+cating that the high device stability originates from the resin itself (probably from its
+high absorption in the UV part of the spectrum). Besides the study in nitrogen, the
+device’s self-cleaning properties were also investigated (Figures 5B and 5C). After
+being covered with a sufﬁcient amount of dust, control and ﬂower cells were rinsed
+with actual rain drops. Flower-based PSC nearly recovered its initial photocurrent
+
+
+
+                                                                                           Cell Reports Physical Science 3, 101019, September 21, 2022    7
+--- Страница 9 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+
+
+
+Figure 5. Device stability tests
+(A) Stability study shown as in situ-measured PCEs of unencapsulated PSC devices over 1,000 h under a nitrogen atmosphere.
+(B and C) Variation of PCE (B) and variation of JSC (C) values of the ﬂower replica or resin-coated solar cells to show the self-cleaning effect of the
+coatings. The devices were fully covered by yellow powder-like dust. Then, the cleaning procedure was done by spraying with plenty of water.
+(D) Results of the aging test in real-world conditions (tested under short-circuit conditions). The devices were left on the terrace of the
+Department of Information Display building in Seoul (South Korea) for 14 days, thus experiencing real outdoor operating conditions. PCE was
+measured once a day.
+
+
+(24.37 from 24.62 mA cm  2, which corresponds to a 1% reduction), while the control
+device exhibited a 3% drop in JSC (22.56 from 23.29 mA cm  2). As a result, the con-
+trol cell undergoes sufﬁcient reduction (20.40% from 21.01%), whereas the ﬂower
+cell maintains its high efﬁciency (21.91% from 22.20%) owing to the excellent self-
+cleaning property of the nanostructured coating compared with the plain ﬁlm con-
+sisting of the same resin (Figure S13). Given also the ultra hydrophobic effect of
+the textured ﬂower coating, we further applied it as an encapsulate buffer on both
+sides of the cells and performed an aging study to verify the stability of PSCs under
+real-world conditions. The devices were placed on the terrace of the Department of
+Information Display building (37.60 N, 127 E) in Seoul (Figure S14) and subjected to
+temperature variations, pollution, and precipitation phenomena in a highly humid
+tropical climate zone. The ﬂower-coated PSCs exhibited good stability (Figure 5D),
+retaining more than 95% of their initial PCE efﬁciency after this aging test by keeping
+the front electrode clean and acting as a moisture and UV light barrier, thus protect-
+ing the perovskite absorber from degradation.52,53 Notably, the ﬂower photonic
+structure was found to be very robust when exposed to real-world conditions for
+6 months (Figure S15).
+
+
+Despite the success of A. majus replica as AR nanocoating, these PSCs still have
+relatively moderate efﬁciencies compared with the recently achieved 25.8% in sin-
+gle-junction devices using pseudo-halide anion engineering.54,55 We investigated
+the effect of the refractive index (RI) value of the UV-curing adhesive used for the
+fabrication of coatings. DYM 6–621 (from DYMAX) is an acrylate urethane with an
+RI between 1.575 and 1.615.56 This value is expected to be increased by 1%–4%
+
+
+
+8      Cell Reports Physical Science 3, 101019, September 21, 2022
+--- Страница 10 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+
+
+
+Figure 6. Photovoltaic characterization of the best-performing devices
+(A) J-V for a highly efﬁcient PSC with an A. majus replica made from optical adhesive NOA68.
+(B) Variation of PCE versus time with the device biased at the MPP tracking. A stabilized PCE of
+24.13% is obtained.
+(C) EQE curves and integrated photocurrents of the same PSCs.
+(D) UV degradation study. Variation of PCE versus continuous 254 nm UV irradiation with an
+intensity of 30 mW cm  2 at room temperature in a nitrogen-ﬁlled glovebox of PSCs based on ﬂower
+and ﬂat coatings and of a reference cell without any coating.
+
+when the oligomer is UV cured (Figure S16A). We tested a different UV-curing adhe-
+sive, namely NOA68, from Norland Products. According to the supplier, this mate-
+rial exhibits a low RI of 1.54 (very close to that of common glass) when it becomes a
+UV-cured polymer. This was also veriﬁed by our measurements. When we replicated
+A. majus on NOA68 and used it on the front glass side as an AR coating, the PCE of
+the device was increased to 24.61% (24.13% stabilized) (Figures 6A and 6B). The de-
+vice also presented negligible hysteresis (Table S2; Figure S17). The high increase in
+PCE resulted from an additional  6% enhancement in JSC (from 24.62 to 26.11 mA
+cm  2). The EQE curve shows high values approaching 100% in most of the wave-
+lengths of the visible spectrum (Figure 6C). The integration between the AM 1.5G
+photon ﬂux with the incident PCE (IPCE) spectrum delivers a calculated photocurrent
+of 26.25 mA cm 2 (which is close to that measured experimentally, JSC = 26.11 mA
+cm  2). This additional enhancement in photocurrent, besides the suppression of
+specular reﬂectance at the conical structures and effective Rayleigh scattering
+caused by the sub-wavelength nanofeatures, also stems from the close matching
+of the RI between NOA68 and glass substrate, which eliminates the back reﬂectance
+of rays reaching the respective interface and ensures transition of light rays into the
+glass substrate (Figure S16B). In addition to the JSC enhancement, a small improve-
+ment in VOC value (from 1.13 to 1.16 V) is obtained, which can be explained by the
+photodiode equation:
+
+               VOC = (kT/q) ln[(JSC/J0) + 1],                        (Equation 6)
+
+
+where k is the Boltzmann constant, T is the absolute temperature, q is the elementary
+charge, and J0 is the device reverse current.57 In addition, we observe an improvement
+
+
+
+
+                                                                                           Cell Reports Physical Science 3, 101019, September 21, 2022    9
+--- Страница 11 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+in the FF value in the champion cell, which is also related to the enhanced VOC through
+the empirical formula proposed by M.A. Green:58
+
+            FF = yOC – (ln yOC + 0.72) / (yOC + 1),                   (Equation 7)
+
+where yOC = (q/kT) VOC, is deﬁned as ‘‘normalized VOC.’’
+
+
+Because NOA68 (but also DIM6-621) strongly absorbs UV light with wavelengths
+below 350–380 nm (as indicated by the increase in their extinction coefﬁcients in Fig-
+ure S16B), we performed a UV degradation study of PSCs using plain resins and ﬂower
+replicas formed by both DIM6-621 and NOA68. We compared these devices with
+PSCs embedding no coating. The devices were illuminated with 254 nm light inside
+a nitrogen-ﬁlled glove box for 1,000 h. From Figure 6D, it becomes evident that all
+the devices using plain or ﬂower coatings exhibit sufﬁcient resistance to UV degrada-
+tion. On the contrary, the reference cell without any coating presented a moderate
+decline in efﬁciency; an indication that the coatings also acted as UV-protected buffers
+for the PSCs due to their high absorption at the wavelength range of interest. Howev-
+er, their UV or visible light protection property is not strictly related to nanotexturing.
+
+
+In conclusion, we present a facile approach to fabricate multifunctional textured coatings
+by mimicking the adaxial epidermis of ﬂoral petals. We show that coatings consisting of
+hierarchical conical structures decorated with small nanofeatures at their peripheries
+combine omnidirectional antireﬂection, excellent water repellence, and moisture/UV
+light barrier functionality. Applying these coatings to PSCs enables enhanced efﬁ-
+ciencies of over 24% through improved light trapping and an increase in photocurrent.
+They also endow the device with resistance to degradation caused by continuous illumi-
+nation, environmental moisture, and UV light. Our work identiﬁes that mimicking the
+functions of adaxial epidermal cells of ﬂower petals and combining them with appro-
+priate artiﬁcial materials to engineer novel nanocoatings could become a synergy with
+great potential.
+
+
+EXPERIMENTAL PROCEDURES
+
+Resource availability
+Lead contact
+Further information and requests should be directed to and will be fulﬁlled by the
+lead contact, Maria Vasilopoulou (m.vasilopoulou@inn.demokritos.gr).
+
+
+Materials availability
+All materials generated in this study are available from the lead contact without
+restriction.
+
+Data and code availability
+
+The published article and its supplemental information include all data generated or
+analyzed during this study.
+
+
+Materials
+The organic cations for the preparation of perovskite precursor solutions were purchased
+from Dyesol, the lead compounds from TCI, and CsI from abcr GmbH. Monolayer gra-
+phene was purchased from Graphene Supermarket. (2,20,7,70-Tetrakis[N,N-di(4-methox-
+yphenyl)amino]-9,90-spirobiﬂuorene) (Spiro-OMeTAD) was purchased from Merck;
+bis(triﬂuoromethylsulfonyl)imide lithium  salt  (Li-TFSI) and 4-tert-butylpyridine (TBP)
+were purchased from Sigma-Aldrich; tris(2-(1H-pyrazol-1-yl)-4-tert-butylpyridine)-cobal-
+t(III)tris(bis(triﬂuoromethylsulfonyl)imide)(FK209)wasobtainedfromDynamo.UV-curing
+
+
+
+10    Cell Reports Physical Science 3, 101019, September 21, 2022
+--- Страница 12 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+adhesive DYM 6–621 was purchased from Dymax. UV-curing adhesive Norland Optical
+Adhesive NOA68 was obtained from Norland Products.
+
+
+Replication of ﬂower petal adaxial epidermal cells
+Fresh petals were collected from Jardim Botanico Curitiba, Brazil. In particular, petals
+of wild-type (not mutations, where any) R. repens, A. ofﬁcinalis, A. deltoidea,
+G. endressii, and A. majus were selected for an initial assessment. Healthy petals
+were carefully chosen, rinsed with water to remove adhering particles, and cut into
+3 3 3 cm samples for replication. A poly(dimethyl siloxane) (PDMS) curing kit (Sylgard
+184 silicone kit, Essex Group) dissolved in hexane was used to form a 0.05 g/mL PDMS
+solution. Ten mL PDMS solution was poured over the petal and quickly spread by
+capillary forces. Afterwards, solvent evaporation took place by curing the samples
+at 60 C for 4 h. To easily detach the PDMS slab from the petal, we sprayed it with
+chloroform, which caused swelling. The removed PDMS was allowed to dry at
+room temperature for 2 h to return to its normal state. A negative ﬂower replica
+was thus obtained. The chosen petal nanostructure was next replicated by dropping
+100 mL of a commercially available photoresin (either Dymax UV-light curing adhe-
+sive, DYM 6–621 or NOA68, Norland Products) onto the substrate. The photo-
+curable photoresists were in a liquid phase and required no primer when poured
+onto the PDMS slab. They were subjected to a broadband exposure with a mercury
+(Hg) lamp (approximate dose >1 J cm  2) while also being pressed on the PDMS
+slab from the center outward to remove access to oxygen and prevent oxygen inhi-
+bition during the 5 min of the curing process. Finally, the PDMS slab was slowly
+detached from the cured resin. The best results were accomplished at temperatures
+of 20 C–25 C and relative humidity of 40%–46%.
+
+
+Device fabrication and characterization
+Details for the device fabrication and measurements are given in the supplemental
+experimental procedures.
+
+
+Thin-ﬁlm measurements
+SEM was performed on a ZEISS Merlin for Materials. The wettability of the petals was
+measured using static contact angle (CA) measurements (Dataphysics SCA 2.02, Fil-
+derstadt, Germany) taken by dropping 5 mL of de-mineralized water on the samples.
+The CAs were evaluated automatically using the Laplace-Young ﬁtting algorithm.
+The specular reﬂectivity for varying angles of incidence was measured in a double-
+rotation stage (Huber), in which the sample was mounted in the inner stage and a
+power meter (Thorlabs, PM300) on the outer stage. An argon-krypton laser source
+and a ColorPol VIS500 linear polarizer (10 mW on the sample) were used at
+514 nm wavelength. The beam spot size on the sample was 1 mm in diameter.
+
+
+FDTD simulation
+The ﬁnite-difference time-domain (FDTD) simulation was conducted with the Lumer-
+ical FDTD software package using plane waves with 300–800 nm wavelengths. The
+power absorption was calculated through the equation
+
+                                Pabs =    0:5ujEj2imagðεÞ:                (Equation 8)
+
+Pabs refers to the absorbed power per unit volume, u to the angular frequency, E to
+the electrical ﬁeld, and imag(ε) is the imaginary part of the dielectric permittivity.
+
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental information can be found online at https://doi.org/10.1016/j.xcrp.
+2022.101019.
+
+
+
+                                                                                           Cell Reports Physical Science 3, 101019, September 21, 2022   11
+--- Страница 13 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+ACKNOWLEDGMENTS
+
+M.V. acknowledges the support of this work by the project ‘‘Development of Materials
+and Devices for Industrial, Health, Environmental and Cultural Applications’’ (MIS
+5002567), which is implemented under the ‘‘Action for the Strategic Development on
+the Research and Technological Sector,’’ funded by the Operational Programme
+"Competitiveness, Entrepreneurship and Innovation" (NSRF 2014-2020), and co-
+ﬁnanced by Greece and the European Union (European Regional Development
+Fund). A.R.B.M.Y., Y.R., and Y.-Y.N. would like to thank the support from the Ministry
+of Science and ICT through the National Research Foundation grant, funded by the
+Korean government (2020R1A4A1019455). T.S. acknowledges ﬁnancial support from
+the European Research Council (ERC) through Consolidator Grant (818615 MIX2FIX)
+and the Hellenic Foundation for Research and Innovation (H.F.R.I.) under the ‘‘1st Call
+for H.F.R.I. Research Projects to support Faculty members and Researchers and the pro-
+curement of high-cost research equipment’’ (project number: 1027). A.R.B.M.Y. would
+like to thank the support from Basic Science Research Program through the National
+Research Foundation of Korea (NRF) funded by the Ministry of Education (grant number
+NRF-2022R1I1A1A01061848).
+
+
+AUTHOR CONTRIBUTIONS
+
+M.V., W.J.d.S., A.S., H.P.K., B.S.K., Y.R., A.E.X.G., J.C., F.K.S., L.C.P., D.D., P.A.,
+T.S., and A.F. performed the device experiments. M.F. selected and provided ﬂower
+petals and relevant experiments. M.V., W.J.d.S., J.J., N.G., M.K.N., Y.-Y.N., and
+A.R.b.M.Y. conceived the idea and supervised the experiments. M.V., N.G., A.F.,
+and A.R.b.M.Y. wrote the paper with contributions from all authors.
+
+
+DECLARATION OF INTERESTS
+
+The authors declare no competing interests.
+
+
+Received: December 16, 2021
+Revised: June 17, 2022
+Accepted: August 1, 2022
+Published: August 26, 2022
+
+
+REFERENCES
+
+ 1. Xi, J.-Q., Schubert, M.F., Kim, J.K., Schubert,       6. Campbell, P., and Green, M.A. (1987). Light   11. Khan, M.R., Wang, X., Bermel, P., and Alam,
+     E.F., Chen, M., Lin, S.-Y., Liu, W., and Smart,         trapping properties of pyramidally              M.A. (2014). Enhanced light trapping in solar
+    J.A. (2007). Optical thin-ﬁlm materials with low       textured surfaces. J. Appl. Phys. 62,                 cells with a meta-mirror following generalized
+    refractive index for broadband elimination of        243–249.                                                 Snell’s law. Opt Express 22, A973–A985.
+    Fresnel reﬂection. Nat. Photonics 1, 176–179.
+                                                              7. Zhou, D., and Biswas, R. (2008). Photonic crystal   12. Battaglia, C., So¨ derstro¨ m, K., Escarre´ , J., Haug,
+ 2. Raut, H.K., Ganesh, V.A., Nair, A.S., and           enhanced light-trapping in thin ﬁlm solar cells.         F.J., Domine´ , D., Cuony, P., Boccard, M.,
+    Ramakrishna, S. (2011). Anti-reﬂective coatings:         J. Appl. Phys. 103, 093102.                      Bugnon, G., Denizot, C., Despeisse, M., et al.
+   a critical, in-depth review. Energy Environ. Sci.                                                                  (2010). Efﬁcient light management scheme for
+     4, 3779–3804.                                           8. Ram, S.K., Desta, D., Rizzoli, R., Falca˜ o, B.P.,        thin ﬁlm silicon solar cells via transparent
+                                                          Eriksen, E.H., Bellettato, M., Jeppesen, B.R.,      random nanostructures fabricated by
+ 3. Huang, Y.-F., Chattopadhyay, S., Jen, Y.-J.,
+                                                    Jensen, P.B., Summonte, C., Pereira, R.N.,         nanoimprinting. Appl. Phys. Lett. 96, 213504.
+   Peng, C.-Y., Liu, T.-A., Hsu, Y.-K., Pan, C.-L., Lo,
+                                                         et al. (2017). Efﬁcient light trapping with
+    H.-C., Hsu, C.-H., Chang, Y.-H., et al. (2007).
+                                                       quasi-periodic uniaxial nanowrinkles for thin    13. Zhao, J., Wang, A., Green, M.A., and Ferrazza, F.
+   Improved broadband and quasi-
+                                               ﬁlm silicon solar cells. Nano Energy 35,              (1998). 19.8% Efﬁcient ‘‘honeycomb’’ textured
+    omnidirectional anti-reﬂection properties with
+                                                   341–349.                                                 multicrystalline and 24.4% monocrystalline
+    biomimetic silicon nanostructures. Nat.
+                                                                                                                   siliconsolarcells.Appl.Phys.Lett. 73,1991–1993.
+    Nanotechnol. 2, 770–774.
+                                                              9. Stuart, H.R., and Hall, D.G. (1996).
+ 4. Vardeny, Z.V., Nahata, A., and Agrawal, A.          Absorption enhancement in silicon on-        14. Campbell, P., and Green, M.A. (2001). High
+    (2013). Optics of photonic quasicrystals. Nat.         insulator waveguides using metal               performance light trapping textures for
+    Photonics 7, 177–187.                               island ﬁlms. Appl. Phys. Lett. 69, 2327–          monocrystalline silicon solar cells. Sol. Energy
+                                                    2329.                                            Mater. Sol. Cells 65, 369–375.
+ 5. Minot, M.J. (1976). Single-layer, gradient
+    refractive index antireﬂection ﬁlms effective      10. Garnett, E., and Yang, P. (2010). Light trapping   15. Lee, L.P., and Szema, R. (2005). Inspirations
+   from 035 to 25 M. J. Opt. Soc. Am. 66,               in silicon nanowire solar cells. Nano Lett. 10,        from biological optics for advanced photonic
+    515–519.                                        1082–1087.                                        systems. Science 310, 1148–1150.
+
+
+
+12    Cell Reports Physical Science 3, 101019, September 21, 2022
+--- Страница 14 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+
+16. Siddique, R.H., Gomard, G., and Ho¨lscher, H.       management coating using the hierarchical           (2019). Controlling competing photochemical
+    (2015). The role of random nanostructures for the       ordered-disordered nanostructures with ultra-        reactions stabilizes perovskite solar cells. Nat.
+    omnidirectional anti-reﬂection properties of the      mechanochemical resistance. ACS Appl.            Photonics 13, 532–539.
+    glasswing butterﬂy. Nat. Commun. 6, 6909.           Mater. Interfaces 11, 12978–12985.
+                                                                                                              46. Huang, Y.-F., Jen, Y.-J., Chen, L.-C., Chen,
+17. Parker, A.R., and Townley, H.E. (2007).            31. Huang, Z., Cai, C., Kuai, L., Li, T., Huttula, M.,         K.-H., and Chattopadhyay, S. (2015). Design for
+    Biomimetics of photonic nanostructures. Nat.       and Cao, W. (2018). Leaf-structure patterning       approaching cicada-wing reﬂectance in low-
+   Nanotechnol. 2, 347–353.                               for antireﬂective and self-cleaning surfaces on      and high-index biomimetic nanostructures.
+                                                     Si-based solar cells. Sol. Energy 159, 733–741.     ACS Nano 9, 301–311.
+18. Tsui, K.-H., Lin, Q., Chou, H., Zhang, Q., Fu, H.,
+    Qi, P., and Fan, Z. (2014). Low-cost, ﬂexible, and   32. Kojima, A., Teshima, K., Shirai, Y., and Miyasaka,   47. Wang, J., Zhang, H., Wang, L., Yang, K., Cang,
+    self-cleaning 3D Nanocone anti-reﬂection ﬁlms        T. (2009). Organometal halide perovskites as              L., Liu, X., and Huang, W. (2020). Highly stable
+    for high-efﬁciency photovoltaics. Adv. Mater.          visible-light sensitizers for photovoltaic cells.        and efﬁcient mesoporous and hollow silica
+    26, 2805–2811.                                               J. Am. Chem. Soc. 131, 6050–6051.                    antireﬂection coatings for perovskite solar
+                                                                                                                                       cells. ACS Appl. Energy Mater. 3, 4484–4491.
+19. Chung, K., Yu, S., Heo, C.-J., Shim, J.W., Yang,   33. Stranks, S.D., and Snaith, H.J. (2015). Metal-halide
+    S.-M., Han, M.G., Lee, H.-S., Jin, Y., Lee, S.Y.,         perovskites for photovoltaic and light-emitting      48. Han, G., Nguyen, T.-B., Park, S., Jung, Y., Lee,
+    Park, N., and Shin, J.H. (2012). Flexible, angle-        devices. Nat. Nanotechnol. 10, 391–402.                     J., and Lim, H. (2020). Moth-eye mimicking
+   independent, structural color reﬂectors                                                                                                                     solid slippery glass surface with icephobicity,
+    inspired by morpho butterﬂy wings. Adv.         34. Grancini, G., and Nazeeruddin, M.K. (2019).                                                                                                            transparency, and self-healing. ACS Nano 14,
+    Mater. 24, 2375–2379.                            Dimensional tailoring of hybrid perovskites for                                                                                                   10198–10209.                                                         photovoltaics. Nat. Rev. Mater. 4, 4–22.
+20. Leem, J.W., Kim, S., Lee, S.H., Rogers, J.A.,
+    Kim, E., and Yu, J.S. (2014). Efﬁciency             35. McMeekin, D.P., Sadoughi, G., Rehman, W.,      49. Dudem, B., Heo, J.H., Leem, J.W., Yu, J.S., and
+   enhancement of organic solar cells using           Eperon, G.E., Saliba, M., Ho¨rantner, M.T.,            Im, S.H. (2016). CH3NH3PbI3 planar perovskite
+   hydrophobic antireﬂective inverted moth-eye        Haghighirad, A., Sakai, N., Korte, L., Rech, B.,         solar cells with antireﬂection and self-cleaning
+   nanopatterned PDMS ﬁlms. Adv. Energy             et al. (2016). A mixed-cation lead mixed-halide       function layers. J. Mater. Chem. 4, 7573–7579.
+    Mater. 4, 1301315.                                  perovskite absorber for tandem solar cells.
+                                                                                                              50. Parvate, S., Dixit, P., and Chattopadhyay, S.                                                    Science 351, 151–155.
+21. Sheng, C., Liu, H., Wang, Y., Zhu, S.N., and                                                                      (2020). Superhydrophobic surfaces: insights
+   Genov, D.A. (2013). Trapping light by             36. Saliba, M., Matsui, T., Domanski, K., Seo, J.-Y.,         from theory and experiment. Phys. Chem. B
+   mimicking gravitational lensing. Nat. Photonics      Ummadisingu, A., Zakeeruddin, S.M., Correa-          124, 1323–1360.
+    7, 902–906.                                       Baena, J.-P., Tress, W.R., Abate, A., Hagfeldt, A.,
+                                               and Gra¨tzel, M. (2016). Incorporation of rubidium    51. Su, H., Wu, T., Cui, D., Lin, X., Luo, X., Wang, Y.,
+22. Koch, K., Bhushan, B., Jung, Y.C., and Barthlott,        cations into perovskite solar cells improves           and Han, L. (2020). The application of graphene
+   W. (2009). Fabrication of artiﬁcial Lotus leaves        photovoltaic performance. Science 354, 206–209.        derivatives in perovskite solar cells. Small
+   and signiﬁcance of hierarchical structure for                                                  Methods 4, 2000507.
+    superhydrophobicity and low adhesion. Soft      37. Glover, B.J., and Martin, C. (1998). The role of
+    Matter 5, 1386–1393.                                petal cell shape and pigmentation in             52. Boyd, C.C., Cheacharoen, R., Leijtens, T., and
+                                                            pollination success in Antirrhinum majus.          McGehee, M.D. (2019). Understanding
+23. Dyer, A.G., Whitney, H.M., Arnold, S.E.J., Glover,       Heredity 80, 778–784.                            degradation mechanisms and improving
+     B.J., and Chittka, L. (2006). Bees associate                                                                              stability of perovskite photovoltaics. Chem.
+   warmth with ﬂoral colour. Nature 442, 525.         38. Wilson, S., and Hutley, M. (1982). The optical        Rev. 119, 3418–3451.
+                                                        properties of ‘moth eye’ antirefection surfaces.
+24. Seymour, R.S., White, C.R., and Gibernau, M.       Opt. Acta 29, 993–1009.                          53. Grancini,G.,Rolda´n-Carmona,C.,Zimmermann,
+    (2003). Heat reward for insect pollinators.                                                                                                                    I., Mosconi, E., Lee, X., Martineau, D., Narbey, S.,
+   Nature 426, 243–244.                             39. Tang, Z., Tress, W., and Ingana¨s, O. (2014).         Oswald, F., De Angelis, F., Graetzel, M., and
+                                                         Light trapping in thin ﬁlm organic solar cells.        Nazeeruddin, M.K. (2017). One-year stable
+25. Bhushan, B., and Her, E.K. (2010). Fabrication of       Mater. Today 17, 389–396.                           perovskite solar cells by 2D/3D interface
+   superhydrophobic surfaces with high and low                                                            engineering. Nat. Commun. 8, 15684.
+   adhesion inspired from rose petal. Langmuir     40. Ji, S., Song, K., Nguyen, T.B., Kim, N., and Lim,
+    26, 8207–8217.                                   H. (2013). Optimal moth eye nanostructure       54. Jeong, J., Kim, M., Seo, J., Lu, H., Ahlawat, P.,
+                                                           array on transparent glass towards broadband       Mishra, A., Yang, Y., Hope, M.A., Eickemeyer,
+26. Spinelli, P., Verschuuren, M.A., and Polman, A.        antirefection. ACS Appl. Mater. Interfaces 5,           F.T., Kim, M., et al. (2021). Pseudo-halide anion
+    (2012). Broadband omnidirectional                 10731–10737.                                     engineering for a-FAPbI3 perovskite solar cells.
+    antireﬂection coating based on subwavelength
+                                                                                                Nature 592, 381–385.
+    surface Mie resonators. Nat. Commun. 3, 692.    41. Yu, S., Qiu, C.W., Chong, Y., Torquato, S., and
+                                                           Park, N. (2021). Engineered disorder in                                                                                                              55. Min, H., Lee, D.Y., Kim, J., Kim, G., Lee, K.S.,
+27. Schmager, R., Fritz, B., Hu¨nig, R., Ding, K.,           photonics. Nat. Rev. Mater. 6, 226–243.                                                                                                    Kim, J., Paik, M.J., Kim, Y.K., Kim, K.S., Kim,   Lemmer, U., Richards, B.S., Gomard, G., and
+    Paetzold, U.W. (2017). Texture of the viola        42. Spottiswoode, W. (1874). Polarisation of light.       M.G., et al. (2021). Perovskite solar cells with
+   ﬂower for light harvesting in photovoltaics.         Nature 9, 323–326.                                  atomically coherent interlayers on SnO2 elec-
+                                                                                                               trodes. Nature 598, 444–450.   ACS Photonics 4, 2687–2692.
+                                                       43. Nicholls, L.H., Rodrı´guez-Fortun˜ o, F.J., Nasir,
+28. Li, K., Zhang, Y., Zhen, H., Wang, H., Liu, S., Yan, F.,       M.E., Co´ rdova-Castro, R.M., Olivier, N., and      56. Jang, J.Y., and Do, J.Y. (2014). Synthesis and
+   and Zheng, Z. (2017). Versatile biomimetic haze         Zayats, A.V. (2017). Ultrafast synthesis and            evaluation of thermoplastic polyurethanes as
+    ﬁlms for efﬁciency enhancement of photovoltaic        switching of light polarization in nonlinear           thermo-optic waveguide materials. Polym. J.
+    devices. J. Mater. Chem. 5, 969–974.                   anisotropic metamaterials. Nat. Photonics 11,        46, 349–354.
+                                                     628–633.
+29. Hu¨nig, R., Mertens, A., Stephan, M., Schulz, A.,                                                          57. Bella, F., Grifﬁni, G., Correa-Baena, J.-P., Saracco,
+    Richter, B., Hetterich, M., Powalla, M., Lemmer,   44. Jiang, Q., Zhao, Y., Zhang, X., Yang, X., Chen,        G., Gra¨tzel, M., Hagfeldt, A., Turri, S., and
+    U., Colsmann, A., and Gomard, G. (2016).               Y., Chu, Z., Ye, Q., Li, X., Yin, Z., and You, J.          Gerbaldi, C. (2016). Improving efﬁciency and
+    Flower power: exploiting plants’ epidermal           (2019). Surface passivation of perovskite ﬁlm for       stabilityofperovskitesolarcellswithphotocurable
+    structures for enhanced light harvesting in thin-       efﬁcient solar cells. Nat. Photonics 13, 460–466.       ﬂuoropolymers. Science 354, 203–206.
+   ﬁlm solar cells. Adv. Opt. Mater. 4, 1487–1493.
+                                                       45. Motti, S.G., Meggiolaro, D., Barker, A.J.,         58. Green, M.A. (1981). Solar cell ﬁll factors:
+30. Zhai, S., Zhao, Y., and Zhao, H. (2019). High-         Mosconi, E., Perini, C.A.R., Ball, A.M., Gandini,       general graph and empirical expressions. Solid
+    efﬁciency omnidirectional broadband light-          M., Kim, M., De Angelis, F., and Petrozza, A.         State Electron. 24, 788–789.
+
+
+
+
+
+                                                                                           Cell Reports Physical Science 3, 101019, September 21, 2022   13

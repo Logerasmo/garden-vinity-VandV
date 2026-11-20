@@ -1,0 +1,411 @@
+--- Страница 1 ---
+                                                                                                           This article is licensed under CC-BY 4.0
+
+www.acsami.org                                                                                                       Research Article
+
+Selective Isolation of Surface Grain Boundaries by Oxide Dielectrics
+Improves Cd(Se,Te) Device Performance
+B. Edward Sartor,* Ryan Muzzio, Chun-Sheng Jiang, Chungho Lee, Craig L. Perkins, André D. Taylor,
+and Matthew O. Reese
+
+
+       Cite This: ACS Appl. Mater. Interfaces 2025, 17, 7641−7647             Read Online
+
+
+
+                                                                                                                                                                      sı  Supporting InformationACCESS                Metrics & More                       Article Recommendations    *
+
+ABSTRACT: Cd(Se,Te) photovoltaics (PV) are the most widelydeployed  thin-film  solar  technology  globally,  yet  continued                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Downloaded
+efficiency improvements are stymied by challenges at the device                                                                                                                                                                                       from
+hole contacts. The inclusion of solution-processed oxide layers such
+as AlGaOx in the contact stack has yielded improved device open-
+circuit voltages (VOC) and fill factors (FF). However, contradictory
+mechanisms by which these layers improve the device properties
+have been proposed by the research community. We demonstrate
+in this work that an underappreciated property of such spin-coated
+layers is the preferential deposition at grain boundaries, a process
+that isolates the grain boundaries during contact metallization. The
+effects  of grain-boundary  isolation  are probed by  varying the
+coverage of solution-processed AlGaOx “barrier” layers on the Cd(Se,Te) surface, quantified by scanning Auger microscopy.
+Examining coverage-dependent VOC and FF, it was observed that isolating the grain boundaries during metallization is sufficient to
+prevent damage to the absorber that occurs in devices lacking a barrier layer, while additional coverage contributes to the increased
+series resistance. Such an effect is agnostic to the material used as a barrier layer, as long as the material does not itself damage the
+absorber. Spin-coated SiOx was used in place of AlGaOx for an equally beneficial effect. This grain-boundary isolation phenomenon
+is also observed during Mo deposition and in absorbers that have been contacted with a nitrogen-doped ZnTe layer. The
+mechanisms by which metallization may degrade the absorber are discussed, as are contact design strategies leveraging barrier layers,which may lead to improved device efficiencies.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          pubs.​acs.​org/​aamick/​article-pdf/​17/​5/​7641/​40477644/​am4c16902.​pdf
+KEYWORDS: photovoltaics, CdTe, oxides, contacts, solution-processing                                                                                        by
+                                                                                                                                                                                                                                                                                                                                                                                                                                                           guest
+                                                                                                                                                                                 on
+                                                                      surface limit the hole quasi-Fermi level at the rear of the         19■INTRODUCTION                                               device, limiting the voltage that may be extracted from a deviceCd(Se,Te) photovoltaics (PV) are the most widely deployed                                                           under operation. Current efforts to address the back contact                                     Novemberthin-film solar technology globally and are particularly critical
+                                                                     are focused on passivating the surface to remove defects,9,10to the continued health of the U.S. PV market, making up                                                                                                                                                                                                  2026
+                                                                introducing  additional  band-aligned  layers  to  encourage∼40% of utility-scale deployments within the U.S.1 Recently,                                                                    electron  reflection,11,12  or  circumventing  the problem by
+several  record  devices  have been  fabricated  following  a
+                                                         making devices thick to minimize the number of electrons that
+reconfiguration  of  the dopant  chemistry  to accommodate
+                                                                          diffuse to the rear surface.
+group-V As and P dopants, with the most recent record
+                                                                       High-efficiency hole contacts often include a doped ZnTereaching 23.1% photoconversion efficiency (PCE).2−4 How-
+                                                                         layer followed by a metallization step, typically completed by
+ever, the continued growth of the Cd(Se,Te) device PCE may                                                                   evaporative or sputter deposition.13,14 Metallization is typically
+be  stymied by poor  hole  contacts  in  the  near  future,
+                                                           completed using high-work function metals such as molybde-
+particularly when  attempting  to make  thinner  devices  to                                              num  (4.6 eV) or gold  (5.1 eV),15 but  there  are  severalenable bifaciality or alleviate concerns around Te availability.5
+                                                                       potential concerns relating to the creation of defects during the
+The high ionization energy of Cd(Se,Te) devices leads to the
+formation of detrimental Schottky barriers, which cause an
+accumulation of electrons at the rear contact, particularly in      Received:  October 1, 2024
+highly doped As-containing Cd(Se,Te) devices where trans-      Revised:   December 31, 2024
+port occurs in larger quasi-neutral regions where electrons      Accepted:  January 15, 2025
+diffuse more readily. The rear surface of Cd(Se,Te) is highly      Published: January 24, 2025
+defective, increasing nonradiative recombination at the back
+contact.6−8 Combined, Schottky barriers and a highly defective
+
+                                © 2025 The Authors. Published by
+                                                  American Chemical Society                                                                  https://doi.org/10.1021/acsami.4c16902
+                                                             7641                                      ACS Appl. Mater. Interfaces 2025, 17, 7641−7647
+--- Страница 2 ---
+ACS Applied Materials & Interfaces                           www.acsami.org                                Research Article
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+                                                                                                                                                                                                                                                                                                                                                                  from
+
+
+
+
+
+Figure 1. (a) Schematic of AlGaOx-contacted polycrystalline Cd(Se,Te) devices. Optional ZnTe:N buffer layer is demarcated by dashed lines. (b)
+Scanning Auger microscopy (SAM) map of AlGaOx (blue) and bare Cd(Se,Te) (red) for the literature-reported method on 120 nm rms roughness
+Cd(Se,Te).19 (c) Representative JV data for a device without an AlGaOx barrier layer and devices with AlGaOx at varied coverages. (d) SAM maps
+of Cd(Se,Te) surfaces with varied AlGaOx coverages from modified precursor solutions.
+
+process. Diffusion of metal interstitials has been reported to       nitrate salt precursors used to form the AlGaOx barrier layer
+compensate  for dopant  chemistry. Klein  et  al. describe a      lowered the final surface coverage, and mixing more nonpolar
+process where  metal  tellurides form  during  deposition,      solvents into the dimethylformamide (DMF) solvent modified
+releasing  free cadmium or  zinc  interstitials, which  act  as      the wetting behavior of the precursor solution during spin
+double donors upon  diffusion  into  the  nominally  p-type      coating, resulting in higher coverage. The ability to control the
+absorber, creating downward band bending and an increased      surface coverage of the AlGaOx film yielded a tool to probe the
+back contact barrier.16 In the case of copper metal, the CdTe       effect of inhomogeneous barrier layers during the metallizationdecomposition reaction to form Cu2Te and Cd0 was directly      of Cd(Se,Te).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      pubs.​acs.​org/​aamick/​article-pdf/​17/​5/​7641/​40477644/​am4c16902.​pdf
+observed by Teeter using thermal desorption mass spectrom-        In this work, we demonstrate that solution-processed barrier         by
+etry.17 There are often additional layers included in the back       layers can  preferentially  deposit  at  grain  boundaries and                       guest
+contact  architecture  of  high-efficiency  devices,  such  as      prevent detrimental interactions with the Cd(Se,Te) absorber         on
+elemental  tellurium,18  native  oxides,  or  other  materials,      during  metallization.  Isolation  of  grain boundaries  during         19
+which may mediate the interaction of metallization with the      metallization  is  crucial  to  prevent  degradation  of  theCd(Se,Te)  surface.8 However, the role of these additional     Cd(Se,Te)  absorber,  but  the  effect  of  additional  surface                                     November
+layers has not been adequately understood, even though their      coverage by AlGaOx barrier layers is minimal. By substituting                                                                                                                                                                                                                                                                                                                                                                  2026inclusion in device fabrication has led to improved device      chemically  inert SiOx  for AlGaOx, the  latter  of which  is
+                                                          produced via chemical decomposition of nitrate  salts,21 weefficiencies.
+                                                             demonstrate that the grain-boundary isolation effect  is not  One such layer, AlGaOx, has been reported to passivate a
+                                                            unique to the identity of the material used to cover the graindefective CdTe surface in undoped devices.19 Recently, spin-
+                                                                  boundaries. The presence of this effect is demonstrated withcoated AlGaOx was used as a “barrier” layer in a  bifacial
+                                                  ZnTe:N transport layers as well as during metallization withcontact, which improved the open-circuit voltage (VOC) of a
+                                                                 other  metals beyond  gold. The  possible mechanisms  ofgold metallized device from 735 to 826 mV, despite a lack of
+                                                                absorber degradation are discussed.evidence for passivating behavior from the AlGaOx layer itself
+as measured by time-resolved photoluminescence.20 Instead, a
+                                              AND DISCUSSIONreduced back contact barrier height as measured by temper-ature-dependent  current  density−voltage  measurements   ■RESULTSSAM was used to examine Cd(Se,Te) absorbers, which had
+(JV(T)) was observed compared to a bare surface metallized     been treated with AlGaOx (Figure 1b). CdTe regions are
+by gold. By examination of the contact area with scanning     shown as red in the maps and are overlaid with oxygen map
+auger  microscopy (SAM)  prior  to  metallization,   it was      data shown in blue, with oxygen being a good proxy for
+observed that the coverage of AlGaOx on the surface was     AlGaOx.  (Figure  S1). Using  0.8 mM AlGaOx  in DMF
+highly inhomogeneous (Figure 1b). Discontinuous patches of      precursor solution during spin coating, approximately 60% of
+bare Cd(Se,Te) were observed in a continuous AlGaOx film      the surface  is covered with the AlGaOx barrier layer  after
+(Figure  1a).  Furthermore,  reducing  the  concentration  of      annealing, leaving isolated bare Cd(Se,Te) regions exposed. By
+
+                                                             7642                                                       https://doi.org/10.1021/acsami.4c16902
+                                                                                                                        ACS Appl. Mater. Interfaces 2025, 17, 7641−7647
+--- Страница 3 ---
+ACS Applied Materials & Interfaces                           www.acsami.org                                Research Article
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+Figure 2. Box plots of the (a) VOC and (b) fill factor (FF) for devices with AlGaOx coverage varied between 0% and near 100%. Scanning-spreading                                                                                                                                                                                                                                                                                                                                                                  fromresistance microscopy (SSRM) imaging of Cd(Se,Te) devices prior to metallization (c) without a barrier layer and (d) with 60% coverage by
+AlGaOx. The resistance of the grain boundaries relative to the grain interiors is inverted by the inclusion of a barrier layer. (e) Arrhenius plots
+constructed from JV(T) measurements of devices with AlGaOx coverage varied between 0 and 80%. The inset table tracks barrier heights extracted
+from the slope.
+
+reducing the concentration to 0.6 and 0.4 mM, the surface      increased barriers in the regions that are coated. The maximum
+coverage of AlGaOx was modified to 50 and 40%, respectively.      benefit  of the AlGaOx  barrier  layer  is observed  at lower
+Changing the wetting behavior of the precursor solution by      coverages.
+introducing  less polar solvents also resulted in a modified        Scanning-spreading  resistance microscopy (SSRM)  is an
+surface coverage, with 10% IPA:DMF and 10% Acetone:DMF      atomic force microscopy-based scanning-probe technique for
+increasing  surface  coverage  to 70 and 80%. The  facile     mapping local nm-scale electronic resistivity by applying a bias
+modification of surface coverage (Figure 1d) by changing the      voltage between a conductive probe and the front contact
+concentration or solvent makeup yields a convenient system   TCO and  measuring  the  current  flowing  through  the
+for probing the effects of inhomogeneous barrier layers. Even       probe.24,25 The measured  total resistance  is dominated by
+at high coverages, pinholes were observed, preventing 100%      the sample’s resistance in a hemisphere of <50 nm beneath the
+coverage of the surface by the oxide layer. Distinctive “grain-      probe. The probe/sample contact  resistance  is minimized
+like” features appear in the AES image of the 0.4 mM sample,    much smaller than sample’s spreading resistance by applying a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            pubs.​acs.​org/​aamick/​article-pdf/​17/​5/​7641/​40477644/​am4c16902.​pdf
+where  the AlGaOx  layer  appears  to  colocate  with  grain       large forward probe/sample bias voltage (>5 V) and a large         by
+boundaries. Because SEM and AES images are only indirect      contact force in ∼mN. SSRM was conducted on both pristine
+                                                                                                                                                                                                                                                                                                                                                                                                                                                           guestindicators of grain boundaries, in Figure 3, we utilize electron-     and AlGaOx-coated absorbers at forward bias, showing that the
+backscatter diffraction (EBSD) to confirm that our oxide buffer       rear surface of a pristine Cd(Se,Te) absorber has grain interiors         on                                                                                                                                                                                 19
+layers indeed preferentially deposit on grain boundaries.           with a  higher hole  resistance compared  to  that  of  grain
+  Analysis of the current density−voltage (JV) measurements      boundaries (Figure 2c). When the samples were coated with(Figure 1c) shows a remarkably  similar response between     AlGaOx, the relationship between grain interior and grain-                                     November
+AGO-coated samples of different coverages, each of which     boundary resistance was inverted, suggesting that the most                  2026
+outperforms samples  in which bare Cd(Se,Te)  is  directly      favorable pathway  for  hole  transport  shifted from  grain
+metallized.  Examination  of  parameters  extracted from JV      boundaries to grain interiors (Figure 2d). Because of its high
+measurements across sample sets shows that VOC does not      bandgap, generally low conductivity, and decreasing FF with
+trend with surface coverage after the lowest surface coverage      increasing coverage, it is suspected that AlGaOx is acting as an
+tested (40% coverage by AlGaOx), with the treated samples       insulator rather than contributing to any modification of p-type
+yielding voltages between 840 and 850 mV (Figure 2a). Gold-       carrier density at the grain boundary, explaining the increased
+only samples (0% coverage) have a depressed VOC of only 750       local resistance.
+mV. Fill factor (FF), however, seems to trend toward lower       JV(T) measurements do  not  yield  a  consistent  trend
+values for higher coverages by AlGaOx (Figure 2b). A “roll-     between  different  coverages by AlGaOx.  Contact  barrier
+over” effect can be clearly seen at forward bias in samples      heights (ΦB)  as  extracted from the Arrhenius  relation  of
+treated with AlGaOx, indicating an electronic barrier at the     back contact saturation current J0,b and temperature show that
+back contact.22 This effect induces a reduction in FF due to the       barrier heights for AlGaOx-coated samples are between 320
+voltage-dependent resistance. Short-circuit current (JSC) was     and 370 mV. In comparison, gold-only devices have a higher
+consistently 29−30 mA/cm2. In the case of inhomogeneous      contact  barrier  of 410 mV,  consistent  with  previous
+contact barrier heights at the rear surface, current will transport       investigations. In the case of inhomogeneous Schottky barriers,
+more easily across regions with lower contact barriers.23 The      extraction of an average ΦB from JV(T) measurements  is
+trend  of  decreasing FF with  increasing  surface  coverages     known to preferentially sample regions of lower contact barrier
+suggests that more AlGaOx leads to higher series resistance or       heights.
+
+                                                             7643                                                       https://doi.org/10.1021/acsami.4c16902
+                                                                                                                        ACS Appl. Mater. Interfaces 2025, 17, 7641−7647
+--- Страница 4 ---
+ACS Applied Materials & Interfaces                           www.acsami.org                                Research Article
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+                                                                                                                                                                                                                                                                                                                                                                  from
+
+
+
+
+
+Figure 3. (a) Electron backscatter diffraction image of a polished Cd(Se,Te) surface coated with SiOx showing grain orientations and the (b) SAM
+image of the same region depicting the presence of SiOx in the grain boundaries. (c) SAM images of the as-deposited Cd(Se,Te) surfaces with
+varied coverage of SiOx show increased grain-boundary selectivity and similarly tunable surface coverage to AlGaOx. Box plots of the (d) VOC and
+(e) FF for devices with SiOx coverage varied between 0 and 100%. “A” corresponds to a sample that has been annealed in air at 220 °C but not
+coated with a barrier layer.
+
+  Examining SSRM and JV(T) measurements, it is apparent      grain-boundary deposition selectivity  is likely the same andthat  the  largest impact  of AlGaOx  deposition on  device      driven by the topography of the sample. All other samples                                                                                                                                                                                                                                                                                                                                                     pubs.​acs.​org/​aamick/​article-pdf/​17/​5/​7641/​40477644/​am4c16902.​pdf
+performance occurs at grain boundaries. At the lowest tested      investigated were unpolished. AES images show a  similar         by
+coverage of AlGaOx, 40%, it is expected that the coverage is       tunability of surface coverage for SiOx on unpolished samples                       guest
+mostly occurring at the grain boundaries, which isolates them      as was observed  for AlGaOx, with  a  very  distinct  grain-         on
+from the metallization process. However, this leaves the role of     boundary isolation effect observable at 15% surface coverage.          19
+AlGaOx uncertain. While previously thought of as a means of       JV parameter analysis yields a very tight distribution for VOC
+controlling band  alignment  at  the  rear  interface,19,20  the      in all SiOx-treated devices, from 20% surface coverage to 100%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     November
+insensitivity of JV(T) to surface coverage and high resistance at      surface coverage, with the VOC for all samples between 836 and
+                                                                                                                                                                                                                                                                                                                                                                  2026AlGaOx-coated  grain  boundaries  as measured by SSRM     842 mV. FF is consistently above 70% for all surface coverages
+suggest that AlGaOx does not improve contact barrier heights.      except 40%, even slightly increasing at 100% surface coverage.
+Rather than acting as a low-barrier contact, AlGaOx is most     The additional thickness of SiOx achieved by increasing the
+beneficial for its grain-boundary isolation effect. Such an effect      concentration increases series resistance and leads to a reduced
+should be agnostic to the material used, and thus, a generic      FF. A control sample was annealed in air at 220 °C following
+oxide such as SiOx would also be expected to perform in the      the same annealing conditions as AlGaOx and SiOx-coated
+same  capacity. An  unreactive  oxide grown  at  ambient       films, and the annealing process improves the VOC somewhat,
+temperature may be  preferred  if  there  is  potential  for  a      but not to the extent that  it is improved by adding SiOx or
+detrimental interaction between the oxide film metals and the     AlGaOx. However, the FF  is  slightly higher  for uncoated
+Cd(Se,Te) absorber or thermal degradation of the film stack.      samples.
+  SiOx  was  deposited on  Cd(Se,Te)  absorbers  from       Both spin-coated SiOx and AlGaOx effectively isolate grain
+commercially  available  sol−gel  precursors  in DMF and      boundaries  prior  to  metallization,  even  at  low  surface
+annealed under the same conditions as AlGaOx, providing a      coverages.  Grain-boundary  isolation  dramatically  improves
+one-to-one comparison. In one polished Cd(Se,Te) sample,      device VOC and maintains a good FF when surface coverage
+colocated EBSD (Figure 3a) and AES (Figure 3b) show that        is concentrated at the grain boundaries. This effect is observed
+SiOx  preferentially  deposits  at  grain  boundaries.  In both     when metallizing with gold but  is also observed in devices
+polished and unpolished Cd(Se,Te) samples, grain boundaries      metallized with evaporated or sputtered molybdenum (Figure
+produce valleys in the surface, such that the mechanism of      4a). This effect foreseeably occurs with most evaporated or
+
+                                                             7644                                                       https://doi.org/10.1021/acsami.4c16902
+                                                                                                                        ACS Appl. Mater. Interfaces 2025, 17, 7641−7647
+--- Страница 5 ---
+ACS Applied Materials & Interfaces                           www.acsami.org                                Research Article
+
+
+
+
+
+Figure 4. (a) VOC comparisons of 8 devices for gold and molybdenum metallization. Molybdenum was deposited by evaporation and sputtering,
+with little difference observed between the deposition methods. (b) Device structures for incorporating SiOx barrier layers before and/or after the
+ZnTe:N layer. SiOx is applied to have either 20 or 100% surface coverage, resulting in the coverage of grain boundaries (“G.B.’s”: devices 2, 4, 6) or
+the entire surface (devices 3, 5, 7). The interfaces in the Cd(Se,Te)/ZnTe:N/Au structure are selectively SiOx treated at the Cd(Se,Te)/ZnTe:Ninterface (2,3); the ZnTe:N/Au interface (4, 5); or both interfaces (6, 7). (c) Device parameters extracted from JV measurements, numbers along                                              Downloaded
+the x-axis correspond to structures illustrated in (b).
+                                                                                                                                                                                                                                                                                                                                                                  from
+sputtered  metals  that  have  a  propensity  to form  stable      boundaries,26 as can free cadmium interstitials generated by
+tellurides.                                                        the formation of metal tellurides AuTe or MoTe at the rear
+  Grain-boundary  isolation  also  imparts  a  benefit when       surface.27,28 Impeding the access of these species to grain
+metalizing  together  with  a ZnTe:N  buffer  layer. While      boundaries may  limit  their  ingress into the  device. Grain
+ZnTe:N has been shown to improve CdTe hole contacts,      boundaries are also typically more reactive than crystalline
+device performances are lower due to a poorly tuned ZnTe:N      surfaces due to a higher concentration of extended defects and
+deposition and could be reasonably expected to improve with      dangling bonds. Reactive grain boundaries may be more likely
+optimization. A series of devices were fabricated to test the      to produce  free cadmium  than  crystalline  surfaces;  thus,
+impact  of  SiOx  barrier  layer  incorporation  coupled  with      covering the grain boundaries during metallization reduces the
+ZnTe:N  deposition, where  the SiOx was  applied  to  the      concentration  of  free cadmium  in  devices.  Unintentional
+Cd(Se,Te)/ZnTe interface, the ZnTe/Au interface, or both.       selective  area  deposition on  grain  boundaries by  other
+The effect of SiOx was evaluated at two different coverages:      solution-coated materials could contribute to grain-boundary
+20% coverage SiOx, which isolated grain boundaries but left      isolation and  improve  device  performance. The  exact
+exposed  semiconductor, and 100%  coverage  SiOx, which     mechanism by which  our  spin-coating  process  achieves
+blankets  the  entire  surface. The  control  devices  with  a       selective area deposition on grain boundaries on the backsputtered ZnTe:N/Au contact had a low VOC of only 460      surface of CdTe is not understood at this point but is the focus                                                                                                                                                                                                                                                                                                                                                    pubs.​acs.​org/​aamick/​article-pdf/​17/​5/​7641/​40477644/​am4c16902.​pdf
+                                                                                                                                                                                 bymV.  Applying  SiOx  at  the Cd(Se,Te)/ZnTe:N  interface      of an ongoing  investigation.  Possible mechanisms  for the
+                                                                         localization of our oxide buffer layers include capillary actionyielded a slight improvement in VOC to 520 mV but imparted                                                                                                                                                                                                                                                   guest
+                                                        and hydrophilic interactions between grain-boundary species         ona reduction in device FF. Notably, the FF reduction was
+                                                        and the precursors.                                                                19greater in the device with 100% surface coverage, while the
+VOC improvement was  similar. The most dramatic VOCimprovement was observed in devices with a SiOx barrier                                                                                                                                                                                                                                                                                                                                                                                                     Novemberlayer applied at the ZnTe:N/Au interface, with grain-boundary   ■CONCLUSIONS                                                                Solution-processed AlGaOx and  SiOx  barrier  layers  can                  2026
+isolation outperforming 100% surface coverage. Applying SiOx      preferentially  deposit  at  grain  boundaries and  prevent
+at  both  the Cd(Se,Te)/ZnTe:N and  the ZnTe:N/Au      detrimental interactions of  reactive metal species with the
+interfaces resulted in a slight improvement in VOC, particularly     Cd(Se,Te) absorber during metallization. The identity of the
+for the sample with entirely coated surfaces, but introduces      spin-coated oxide does not impact the benefit imparted by the
+additional series resistance, which decreases FF. The results      grain-boundary isolation behavior, but some oxides may have
+with ZnTe:N demonstrate that grain-boundary  isolation  is      other beneficial or detrimental interactions with the absorber
+more critical for the grain boundaries that are being directly      or interface. Grain-boundary isolation during metallization is
+metallized but that there may still be some damage occurring       crucial to preventing degradation of the Cd(Se,Te) absorber,
+at  the Cd(Se,Te)/ZnTe:N during  the ZnTe:N  sputtering      but the effect of additional surface coverage by oxide barrier
+process.                                                                layers  is  minimal.  Higher  surface  coverages  can  impart
+  There are  several mechanisms by which grain-boundary      increased  series  resistances,  which  diminish  device  FF.
+protection during metallization may yield improved device       Isolation of grain boundaries during application and metal-
+performance. Grain boundaries provide pathways for compen-       lization of ZnTe:N contacts is demonstrated to improve device
+sating cations to rapidly diffuse into the bulk of the absorber,     VOC. Absorber degradation during metallization with Mo  is
+even to the front of the device, where they may impact the       also observed and is expected to occur in the presence of other
+fields  of  the main  junction  or  induce  high  rates  of      evaporated or sputtered metals. However,  if the degradation
+recombination in the bulk. Compensating metals such as Au     mechanism is due to the liberation of free cadmium due to the
+and Mo may also rapidly diffuse through devices via the grain      formation  of metal  tellurides during  metallization, contact
+
+                                                             7645                                                       https://doi.org/10.1021/acsami.4c16902
+                                                                                                                        ACS Appl. Mater. Interfaces 2025, 17, 7641−7647
+--- Страница 6 ---
+ACS Applied Materials & Interfaces                           www.acsami.org                                Research Article
+
+materials that do not form metal tellurides may be beneficial to        Craig L. Perkins −National Renewable Energy Lab, Golden,
+avoid this effect entirely. Such contacts could include elemental          Colorado 80401, United States;   orcid.org/0000-0002-
+Te, TeO2,  carbon,  or  Van-der-Waal  materials  such  as         9036-8698
+MXenes.18,19,29 The  identification  of  a  refractory  material       André D. Taylor −New York University, Brooklyn, New York
+that forms a passivated ohmic hole contact with the interior of          11201, United States;   orcid.org/0000-0003-3241-8543
+Cd(Se,Te)  grains  still  remains  a pathway  to  continued       Matthew O. Reese −National Renewable Energy Lab,
+improvements  in PCE and  tellurium  intensity  per  Watt.           Golden, Colorado 80401, United States;   orcid.org/0000-
+Identification of the species and mechanism responsible for the         0001-9927-5984
+degradation of absorbers during grain-boundary metallization                                                        Complete contact information is available at:
+would be very helpful in aiding future back contact design.                                                                https://pubs.acs.org/10.1021/acsami.4c16902
+
+                SECTION                            Author Contributions■EXPERIMENTALSample Preparation. Partially completed Arsenic-doped Cd(Se)      This manuscript was  written through  contributions  of  all
+Te devices were provided by First Solar. Al(NO3)3·9H2O (CAS:      authors. All authors have given approval to the final version of
+7784-27-2), Ga(NO3)3·xH2O,  N,N-dimethylformamide (DMF),                                                                 the manuscript.
+isopropanol, and acetone were purchased from Millipore Sigma.
+SiOx  precursor NDG-7000R was purchased from  Desert  Glass.     Funding
+AlGaOx precursor solutions were formulated by reaching the specified      This work was authored in part by the National Renewable
+molarity of a 5:3 Al:Ga precursor using Al(NO3)3·9H2O and of     Energy  Laboratory,  operated by  Alliance  for  SustainableGa(NO3)3·xH2O in DMF. SiOx solutions were formulated by adding                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded                                                                Energy, LLC,  for the U.S. Department of Energy (DOE)
+a % v/v of NDG-7000R to DMF, from 1 to 5%.                                                                                                                                                                                                                                                from                                                           under  Contract No. DE-AC36-08GO28308. Funding was   First Solar absorbers were washed with DI water prior to oxide
+                                                              provided by the U.S. Department of Energy Office of Energydeposition. AlGaOx or SiOx was deposited via spin coating at 1000
+rpm for 10 s and 2500 rpm for 50 s, followed by a 220 °C hot plate      Efficiency and Renewable Energy Solar Energy Technologies
+anneal for 20 min in ambient air. The devices were then loaded into      Office under Agreement number 38257.
+an Angstrom thermal evaporation system, where 100 nm of 7N gold                                                       Notes
+was thermally evaporated onto the surface. 50 nm of ZnTe:N was
+deposited via reactive sputtering in the relevant samples.             The authors declare no competing financial interest.
+  Analysis Techniques.  JV and JV(T)  were measured on
+instruments designed and built at NREL. SAM, SEM, and EBSD
+were performed using a Physical Electronics 710 Scanning Auger                                    ■ACKNOWLEDGMENTS
+Nanoprobe with a 10 keV and 10 nA electron beam,  all at room     The views expressed in the article do not necessarily represent
+temperature. SSRM is based on the contact mode of atomic force      the views of the DOE or the U.S. Government. The U.S.
+microscopy using a Bruker Dimension Icon with a Nanoscope V     Government retains, and the publisher, by accepting the article
+controller. A logarithmic amplifier with a wide resistance range of       for  publication,  acknowledges  that  the  U.S. Government
+103−1014 W was used, enabled by a Bruker SSRM module. The probe                                                                         retains a nonexclusive, paid-up, irrevocable, worldwide license
+is a highly doped diamond-coated Si tip with a stiff cantilever spring
+                                                                   to publish or reproduce the published form of this work orconstant of 80 N/m (Bruker DDESP-V2) to enhance the probe/
+                                                                  allow others to do so for the U.S. Government purposes.sample contact force.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            pubs.​acs.​org/​aamick/​article-pdf/​17/​5/​7641/​40477644/​am4c16902.​pdf
+            CONTENT                                                                                                                                        by                                       ■REFERENCES■ASSOCIATED                                                                     (1) Wikoff, H. M.; Reese, S. B.; Reese, M. O. Embodied energy and                       guest*sı  Supporting Information
+                                                                   carbon from  the manufacture  of cadmium  telluride and  silicon         on
+The Supporting Information  is  available  free of charge  at                                                                                                 19                                                                             photovoltaics. Joule 2022, 6, 1710−1725.
+https://pubs.acs.org/doi/10.1021/acsami.4c16902.                                                                     (2) Mallick, R.; Li, X.; Reich, C.; et al. Arsenic-Doped CdSeTe Solar      Scanning Auger emission correlations between Si/Al and       Cells Achieve World Record 22.3% Efficiency. IEEE  J. Photovolt.                                     November
+                                                                   2023, 13, 510−515.     O; surface profilometry data, JV data for ZnTe:N devices                                                                     (3) Best Research-Cell Efficiency Chart, 2024. https://www.nrel.                  2026
+     (PDF)
+                                                                              gov/pv/cell-efficiency.html.
+                                                                     (4) Fischer, A. First Solar Opens US Research Facility; PV Magazine,
+          INFORMATION                                    2024.
+                                                                     (5) Scarpulla, M. A.; McCandless, B.; Phillips, A. B.; et al. CdTe-■AUTHORCorresponding Author                                            based thin film photovoltaics: Recent advances, current challenges
+  B. Edward Sartor −National Renewable Energy Lab, Golden,      and  future  prospects.  Sol.  Energy  Mater.  Sol.  Cells  2023,  255,
+    Colorado 80401, United States;   orcid.org/0000-0001-       No. 112289.
+    6661-8645; Email: ed.sartor@nrel.gov                           (6) Ponpon,  J. P. A review of ohmic and rectifying contacts on
+                                                          cadmium telluride. Solid-State Electron. 1985, 28, 689−706.
+Authors                                                             (7) Hall, R. S.; Lamb, D.; Irvine, S. J. C. Back contacts materials used
+                                                                               in thin film CdTe solar cells  A review. Energy Sci. Eng. 2021, 9,  Ryan Muzzio −National Renewable Energy Lab, Golden,
+                                                               606−632.
+    Colorado 80401, United States;   orcid.org/0000-0002-                                                                     (8) Kuciauskas, D.; Perkins, C. L.; Nardone, M.; et al. Band Bending
+    4669-9633                                                                                    at CdTe Solar Cell Contacts: Correlating Electro-Optical and X-Ray
+  Chun-Sheng Jiang −National Renewable Energy Lab, Golden,      Photoelectron Spectroscopy Analyses of Thin Film Solar Cells. Solar
+    Colorado 80401, United States;   orcid.org/0000-0003-      RRL 2023, 7, No. 2300073.
+    0230-7500                                                      (9) Alfadhili, F. K.; Phillips, A. B.; Subedi, K. K.; et al. Back-Surface
+  Chungho Lee −First Solar, Santa Clara, California 95050,        Passivation of CdTe Solar Cells Using Solution-Processed Oxidized
+    United States                                              Aluminum. ACS Appl. Mater. Interfaces 2020, 12, 51337−51343.
+
+                                                             7646                                                       https://doi.org/10.1021/acsami.4c16902
+                                                                                                                        ACS Appl. Mater. Interfaces 2025, 17, 7641−7647
+--- Страница 7 ---
+ACS Applied Materials & Interfaces                           www.acsami.org                                Research Article
+
+ (10) McGott, D. L.; Muzzillo, C. P.; Perkins, C. L.; et al. 3D/2D
+passivation as a secret to success for polycrystalline thin-film solar
+cells. Joule 2021, 5, 1057−1073.
+ (11) Liyanage, G. K.; Phillips, A. B.; Alfadhili, F. K.; Ellingson, R. J.;
+Heben, M. J. The Role of Back Buffer Layers and Absorber Properties
+for > 25% Efficient CdTe Solar Cells. ACS Appl. Energy Mater. 2019,
+2, 5419−5426.
+ (12) Swanson, D. E.; Abbas, A.; Munshi, A. H.; et al. Incorporation
+of Cd1-xMgx Te as an Electron Reflector for Cadmium Telluride
+Photovoltaic Cells. MRS Online Proc. Libr. 2015, 1771, 133−138.
+ (13) Oklobia, O.; Kartopu, G.; J C Irvine, S. Properties of Arsenic−
+Doped ZnTe Thin Films as a Back Contact for CdTe Solar Cells.
+Materials 2019, 12, 3706.
+ (14) Uličná, S.; Isherwood, P.; Kaminski, P.; et al. Development of
+ZnTe as a back contact material for thin film cadmium telluride solar
+cells. Vacuum 2017, 139, 159−163.
+ (15) Michaelson, H.  B.  Relation Between an Atomic  Electro-
+negativity Scale and the Work Function. IBM J. Res. Dev. 1978, 22,
+72−80.
+ (16) Klein, A.; Säuberlich, F.; Späth, B.; Schulmeyer, T.; Kraft, D.
+Non-stoichiometry and electronic properties of interfaces.  J. Mater.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      DownloadedSci. 2007, 42, 1890−1900.
+ (17) Teeter, G. The reaction kinetics of Cu with the CdTe(111)-B                                                                                                                                                                                                  from
+surface: formation of metastable Cu(x)Te (x approximately 2).  J.
+Chem. Phys. 2005, 123, No. 184713.
+ (18) Song, T.; Sites, J. R. In Role of Tellurium Buffer Layer on CdTe
+Solar Cells’ Absorber/Back-Contact Interface, 2017 IEEE 44th Photo-
+voltaic Specialist Conference (PVSC); IEEE, 2017; pp 1308−1311.
+ (19) Akkuly, Z.; Patel, A. P.; Khanal Subedi, K. et al. In Optimization
+of the Solution-Based Aluminium Gallium Oxide Buffer Layer for CdTe
+Solar  Cells, 2021 IEEE 48th Photovoltaic  Specialists Conference
+(PVSC);IEEE, 2021; pp 2132−2135.
+ (20) Sartor, B. E.; Zhang, T.; Muzzillo, C. P.; et  al. Hierarchical
+Transparent Back Contacts for Bifacial CdTe PV. ACS Energy Lett.
+2024, 9, 1617−1623.
+ (21) Cochran, E. A.; Woods, K. N.; Johnson, D. W.; Page, C.  J.;
+Boettcher, S. W. Unique chemistries of metal-nitrate precursors to
+form metal-oxide thin films from solution: materials for electronic and
+energy applications. J. Mater. Chem. A 2019, 7, 24124−24149.
+ (22) Demtsu, S. H.; Sites, J. R. Effect of back-contact barrier on thin-
+film CdTe solar cells. Thin Solid Films 2006, 510, 320−324.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            pubs.​acs.​org/​aamick/​article-pdf/​17/​5/​7641/​40477644/​am4c16902.​pdf
+ (23) Tung, R. T. The physics and chemistry of the Schottky barrier                                                                                                 by
+height. Appl. Phys. Rev. 2014, 1, No. 011304.
+ (24) Eyben, P.; Xu, M.; Duhayon, N.; et  al. Scanning spreading                                                                                                                                                                                                                                                   guest
+resistance microscopy and spectroscopy for routine and quantitative                                                                                                 on
+two-dimensional carrier profiling. J. Vac. Sci. Technol., B:Microelectron.                                                                                                 19
+Nanometer Struct.–Process., Meas., Phenom. 2002, 20, 471−478.
+ (25) Li, H.; Jiang, C.-S.; Metzger, W.; Shih, C.-K.; Al-Jassim, M. In                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     November
+Nanometer-Scale Study of Resistance on CdTe Solar Cell Devices, 2014
+IEEE 40th Photovoltaic Specialist Conference (PVSC); IEEE, 2014;                                                                                                                                                                                                  2026
+pp 0090−0094.
+ (26) Dzhafarov, T. D.; Caliskan, M. Influence of Au diffusion on
+structural, electrical and optical characteristics of CdTe thin films. J.
+Phys. D: Appl. Phys. 2007, 40, 4003.
+ (27) Yang, J.-H.; Park,  J.-S.; Kang,  J.; Wei, S.-H. First-principles
+multiple-barrier  diffusion  theory: The  case  study  of  interstitial
+diffusion in CdTe. Phys. Rev. B 2015, 91, No. 075202.
+ (28) Roehl,  J.  L.; Khare,  S. V.  Diffusion  of Cd vacancy and
+interstitials of Cd, Cu, Ag, Au and Mo in CdTe: A first principles
+investigation. Sol. Energy 2014, 101, 245−253.
+ (29) Kasik, C.; Pandey, R.; Shah, A.; Sites, J. In Tellurium Oxide as a
+Back-Contact  Buffer  layer  for CdTe  Solar  Cells; 2022 IEEE 49th
+Photovoltaics Specialists Conference (PVSC); IEEE, 2022; pp 0264−
+0266.
+
+
+
+
+
+                                                             7647                                                       https://doi.org/10.1021/acsami.4c16902
+                                                                                                                        ACS Appl. Mater. Interfaces 2025, 17, 7641−7647

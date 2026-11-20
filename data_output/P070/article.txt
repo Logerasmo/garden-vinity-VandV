@@ -1,0 +1,482 @@
+--- Страница 1 ---
+    materials
+
+
+
+Article
+The Role of the Graphene Oxide (GO) and Reduced Graphene
+Oxide (RGO) Intermediate Layer in CZTSSe Thin-Film
+Solar Cells
+
+Woo-Lim Jeong, Sang-Hyuk Park     , Young-Dahl Jho, Soo-Kyung Joo * and Dong-Seon Lee *
+
+
+
+                                  School of Electrical Engineering and Computer Science, Gwangju Institute of Science and Technology,
+                                 123 Cheomdangwagi-ro, Gwangju 61005, Korea; wljeong@gm.gist.ac.kr (W.-L.J.); psh1118@gist.ac.kr (S.-H.P.);
+                                      jho@gist.ac.kr (Y.-D.J.)
+                                     * Correspondence: sukyungju@gist.ac.kr (S.-K.J.); dslee66@gist.ac.kr (D.-S.L.); Tel.: +82-62-715-2248 (D.-S.L.)
+
+
+                                Abstract: Cu2ZnSn(S,Se)4 (CZTSSe) solar cells with low cost and eco-friendly characteristics are
+                                   attractive as future sources of electricity generation, but low conversion efﬁciency remains an issue.
+                           To improve conversion efﬁciency, a method of inserting intermediate layers between the CZTSSe
+                               absorber ﬁlm and the Mo back contact is used to suppress the formation of MoSe2 and decomposition
+                                  of CZTSSe. Among the candidates for the intermediate layer, graphene oxide (GO) and reduced GO
+                            have excellent properties, including high-charge mobility and low processing cost. Depending on the
+                             type of GO, the solar cell parameters, such as ﬁll factor (FF), were enhanced. Thus, the conversion
+                                efﬁciency of 6.3% was achieved using the chemically reduced GO intermediate layer with signiﬁcantly
+                           improved FF.
+
+
+                           Keywords: Cu2ZnSn(S,Se)4; thin-ﬁlm solar cells; graphene oxide; intermediate layer; back contact
+
+
+
+Citation: Jeong, W.-L.; Park, S.-H.;
+
+Jho, Y.-D.; Joo, S.-K.; Lee, D.-S.
+                                   1. IntroductionThe Role of the Graphene Oxide (GO)
+and Reduced Graphene Oxide (RGO)        Kesterite Cu2ZnSn(S,Se)4 (CZTSSe) has been continuously studied in recent years to
+Intermediate Layer in CZTSSe       overcome the limitations of Cu(In,Ga)Se2 (CIGS), which consumes rare elements. CZTSSe
+Thin-Film Solar Cells. Materials 2022,   has the advantages of optimal bandgap (1.0–1.5 eV), high absorption coefﬁcient (>104 cm−1),
+15, 3419. https://doi.org/10.3390/    and non-toxicity [1–9]. However, the power conversion efﬁciency (PCE) of the CZTSSe solar
+ma15103419                         cells is still lower (13%) than those of competitors such as CIGS (23.35%) [10,11]. This is due
+Academic Editor: Marek Lipi´nski      to the resistive MoSe2 layer formed between the CZTSSe layer and the Mo back contact,
+                             the decrease in carrier collection, and the increase in defect states due to the decomposition
+Received: 18 April 2022             of CZTSSe. These defect states lead to more Shockley–Read–Hall recombination and
+Accepted: 9 May 2022            degrade device performance. To improve the interface properties of the CZTSSe solar
+Published: 10 May 2022                cells, several studies reported intercalating an intermediate layer between the CZTSSe and
+Publisher’s Note: MDPI stays neutral  Mo layers [12–21]. For example, patterned Al2O3 [18], carbon [19], Al-doped ZnO [20],
+with regard to jurisdictional claims in  CuAlO2 [21], etc. have been proposed as intermediate layer materials. Among these, when
+published maps and institutional afﬁl-   the Al-doped ZnO layer was inserted into the interface, the decomposition reaction of
+iations.                       the Cu2ZnSnS4 (CZTS), and the formation of the MoS2 layer were prevented. However,
+                             the excessive thickness of the Al-doped ZnO layer led to the formation of the ZnS secondary
+                            phase, resulting in poor performance.
+                                  In addition, graphene oxide (GO) is attractive as an intermediate layer material and is
+Copyright: © 2022 by the authors.   particularly favorable for use as an intermediate layer in solar cells due to characteristics
+Licensee MDPI, Basel,  Switzerland.   such as high-charge mobility (2 × 105 cm2 V−1 S−1), chemical stability, low processing
+This article is an open access article
+                                cost, and high transmittance [22–26]. Due to its outstanding properties, it is also used
+distributed  under  the  terms  and
+                              in optoelectronic devices, such as light-emitting diodes, as well as in solar cells [27–29].
+conditions of the Creative Commons
+                            In the case of the CZTSSe solar cells, for example, Kim et al. conducted measurements to
+Attribution (CC BY) license (https://
+                           analyze the effect of the GO intermediate layer on the CZTSSe solar cells and reported that
+creativecommons.org/licenses/by/
+                                           it reduces the series resistance and photon loss by preventing MoSe2 formation [26].4.0/).
+
+
+
+
+
+Materials 2022, 15, 3419. https://doi.org/10.3390/ma15103419                                     https://www.mdpi.com/journal/materials
+--- Страница 2 ---
+Materials 2022, 15, 3419                                                                                                         2 of 10
+
+
+
+                                  In this study, we used not only GO but also reduced GO intermediate layers, and ana-
+                           lyzed their effects on the CZTSSe solar cells. The reduced GO is more similar to graphene in
+                            physical and chemical properties, and is promising as the intermediate layer. The CZTSSe
+                              solar cells fabricated using the GO intermediate layers showed better device performance
+                         with the thinner MoSe2 layer, depending on the GO deposition conditions. We also ana-
+                           lyzed the structural disorder according to the reduction of the GOs.
+
+                                   2. Materials and Methods
+                                   2.1. Graphene Oxide Intermediate Layer
+                    Mo back contact layers of 1-µm thickness were deposited on soda-lime glass (SLG,
+                       Taewon Scientiﬁc Co, Seoul, Korea) substrate using the DC magnetron sputtering system
+                            (RSP-5000, SNTEK, Suwon, Korea). Three types of GO samples were obtained by coating
+                 GO on the Mo/SLG substrate under different conditions. GO ﬂakes were obtained through
+                            the modiﬁed Hummers’ method using KMnO4, H2O2, and H2SO4 [30]. Next, the GO
+                             solution was prepared by mixing 30 mg of GO ﬂakes with 10 mL deionized (DI) water.
+                         Using a micropipette and spin coater, the 0.5 mL GO solutions were spun once at 3000 rpm
+                              for 20 s on the Mo/SLG substrate and dried in air (GO sample). A chemically reduced
+                 GO (CrGO) solution was prepared via the chemical reduction of the GO solution [31].
+                       The process involved adding 5 g of p-Toluenesulfonyl Hydrazide (97%, Sigma-Aldrich,
+                                    St. Louis, MO, USA) to 30 mL of the GO solution and stirring for 24 h at 60 ◦C. The obtained
+                              solution was then ﬁltered and washed with DI water and N,N-Dimethylformamide (99.8%,
+                            Sigma-Aldrich, St. Louis, MO, USA). Subsequently, the ﬁltered wet powder was dispersed
+                              in isopropyl alcohol. This CrGO solution was coated on the Mo/SLG substrate ﬁve times
+                        under the same condition as the GO (CrGO sample). Finally, a thermally reduced GO
+                         (TrGO) sample was prepared by subjecting the GO sample to rapid thermal annealing
+                         (RTA) at 600 ◦C for 300 s in an N2 atmosphere (TrGO sample).
+
+                                   2.2. Fabrication of the CZTSSe Solar Cells
+
+                              Zn, Sn, and Cu metallic precursors were sequentially deposited on the Mo/SLG sub-
+                                 strate with various GO intermediate layers via DC (for Zn and Cu layers) and RF magnetron
+                                 (for Sn layer) sputtering at 1.1 W/cm2 of power. The purity values of the sputtering targets
+                              for Mo, Zn, Sn, and Cu were 99.5%, 99.95%, 99.95%, and 99.95%, respectively (Taewon
+                              Scientiﬁc Co, Seoul, Korea). An Ar atmospheric pressure was maintained at 0.4 Pa during
+                            the precursor sputtering. The individual sputtering time were determined as the Zn-rich
+                       and Cu-poor compositional ratios of the CZTSSe absorber ﬁlms. The precursors were
+                           heated in a graphite box with 0.5 g Se and 0.02 g SeS2 powders using RTA system. The RTA
+                        chamber with the graphite box was maintained under vacuum for 15 min and then ﬁlled
+                         with Ar gas to atmospheric pressure. After that, the samples were heated from room
+                           temperature to 300 ◦C in 1000 s, maintained at 300 ◦C for 1500 s, heated from 300 to 550 ◦C
+                              in 1000 s, and then maintained at 550 ◦C for 1100 s. Next, to remove unwanted secondary
+                            phases, the CZTSSe absorber ﬁlms were immersed in a 0.05 M KCN aqueous solution for
+                          5 min and cleaned with DI water. A 70-nm CdS buffer layer was deposited by chemical
+                           bath deposition at 80 ◦C, followed by 50-nm intrinsic ZnO and 350-nm aluminum-doped
+                   ZnO layers via RF magnetron sputtering at room temperature and 150 ◦C, respectively.
+                       50-nm Ni, 500-nm Al electrodes were deposited through a shadow mask with an electron
+                     beam evaporator. Finally, a 105-nm-thick MgF2 layer was deposited as an anti-reﬂection
+                            coating using electron beam evaporator.
+
+                                   2.3. Characterization
+
+                              Scanning electron microscopy (SEM, S-4700, Hitachi, Tokyo, Japan) and atomic force
+                         microscopy (AFM, XE-100, Park Systems, Suwon, Korea) were conducted for the surface
+                              analysis of the GO coated Mo back contacts and the cross-sectional analysis of the CZTSSe
+                              solar cells. Raman scattering measurements (InVia, Renishaw, Gloucestershire, UK) were
+                         performed at a 514-nm laser excitation wavelength. The electrical property of the GO coated
+--- Страница 3 ---
+Materials 2022, 15, 3419                                                                                                         3 of 10
+
+
+
+                 Mo back contacts was measured using a 4-point-probe (FPP-RS8, Dasol Eng., Cheongju,
+                         South Korea). Energy-dispersive X-ray spectroscopy (EDX, S-4700, Hitachi, Tokyo, Japan)
+                       was performed for compositional analysis of the CZTSSe absorber ﬁlms. External quantum
+                            efﬁciency (EQE, QEX7, PV Measurements, Boulder, CO, USA) measurements were per-
+                        formed to estimate the bandgap energies of the CZTSSe solar cells. The device parameters
+                              of the CZTSSe solar cells were measured with a class AAA solar simulator (WXS-155S-L2,
+                      Wacom, Tokyo, Japan) under conditions of AM 1.5 G, 100 mW/cm2, and 25 ◦C.
+
+                                   3. Results
+
+                               Figure 1 shows the surface scanning electron microscopy images of the Mo back
+                             contacts with different intermediate layers using a GO. If there is no GO, the Mo back
+                            contact shows gaps between the hills (Figure 1a). On the other hand, the sample with
+                 GO on the Mo back contact had partially ﬁlled gaps, as shown in Figure 1b. It occurred
+                           because the gap was covered by GO, and the covering ratio would be controlled depending
+                       on the concentration of GO solution and the number of deposition cycles. The CrGO
+                         sample did not show the covering, which seems to be due to the low concentration of the
+                    CrGO solution. The TrGO sample obtained by annealing of GO at 600 ◦C showed a similar
+                           covering ratio, because the same concentration of GO solution was used.
+
+
+
+
+
+                              Figure 1. Surface scanning electron microscopy (SEM) images of the Mo back contacts with different
+                               intermediate layers: (a) no graphene oxide (GO), (b) GO, (c) chemically reduced GO (CrGO), and (d)
+                              thermally reduced GO (TrGO).
+
+                           The results of AFM measurement of the Mo back contacts with various GO interme-
+                             diate layers are shown in Figure 2. In the absence of the GO, a root-mean-square (RMS)
+                          roughness of 7.46 nm was obtained from the Mo layer. On the other hand, the RMS rough-
+                           ness was decreased to 5.88 nm and 5.14 nm when GO and TrGO covered the Mo layer,
+                                respectively. As conﬁrmed by the SEM analysis, it is expected that the CrGO was not thick
+                        enough to cover the Mo gap due to the low concentration of the CrGO solution. Therefore,
+                            the RMS roughness was similar to that of the No GO sample (5.14 nm).
+--- Страница 4 ---
+Materials 2022, 15, 3419                                                                                                         4 of 10
+
+
+
+
+
+                              Figure 2. Atomic force microscopy (AFM) images and root-mean-square (RMS) roughness of the Mo
+                            back contacts with different intermediate layer: (a) no graphene oxide (GO), (b) GO, (c) chemically
+                            reduced GO (CrGO), and (d) thermally reduced GO (TrGO).
+
+                        Raman spectroscopy is an effective method for analyzing the structure of carbon
+                            nanomaterials. Therefore, a Raman analysis was performed on the GO intermediate layers
+                       and the results with the D-band intensity (ID)/ G-band intensity (IG) ratio are shown in
+                           Figure 3a. Except for the No GO sample, all three GO samples showed D and G band at
+                          1351 cm−1 and 1600 cm−1. The G band is related to the in-plane vibrations of the sp2 bond
+                             of carbon atoms, and the D band is related to the out of plane vibrations associated with
+                              structural defects [32,33]. The GO sample, which does not include the reduction process,
+                      showed an ID/IG ratio of 1.18, while those of CrGO and TrGO samples showed 1.07 and
+                              0.92 decreases, respectively. Thus, it is expected that the structural disorder of the reduced
+                 GO samples (CrGO and TrGO) decreased compared to the GO sample. It was conﬁrmed
+                              that the GO layer also exists on the Mo back contacts [30,33]. In addition, the result of
+                            4-point-probe measurement for the GO coated Mo back contacts is shown in the Figure 3b.
+                            Since GO layer is very thin and partially covered, the sheet resistance would have been
+                            contributed by the Mo layer. Note that the TrGO sample shows the highest sheet resistance
+                               (0.547 Ω/sq.). Mo has the characteristic that it is easily oxidized, and it is expected that the
+                    RTA process at 600 ◦C deteriorates the Mo layer.
+                           The CZTSSe absorber ﬁlms were fabricated using various substrates with GO inter-
+                          mediate layers, and their Raman analyses and EDX analyses results are shown in Figure 4
+                       and Table 1. The CZTSSe absorber ﬁlms mainly showed Cu2ZnSnSe4 (CZTSe)-like peaks
+                               at 175 and 194 cm−1 and CZTS-like peaks at 324 and 338 cm−1 [34]. The intensities of
+                            the CZTSe-like peaks were higher than those of the CZTS-like peaks, which is consis-
+                              tent with the results of EDX analysis that the Se content is higher than the S content.
+                        However, the CuSe peak was larger than CZTSSe-related peaks in the TrGO sample, which
+                                    is assumed to be because the degraded Mo layer prohibits the formation of the CZTSSe.
+                       The secondary phase, for instance CuSe, is a conductive shunting path, and the electrical
+                             potential difference between the positive and negative electrodes disappears due to the
+                          shunting path. Therefore, even if the charge carriers are excited inside the absorber ﬁlm,
+                             the carriers cannot be collected. Furthermore, the GO and CrGO samples showed peak shift
+                        compared to the No GO samples, which may be due to incorporation of carbon atoms [35].
+--- Страница 5 ---
+Materials 2022, 15, 3419                                                                                                         5 of 10
+
+
+
+                       The incorporation will change the bonding between the atoms in CZTSSe, resulting in the
+                         peak shift.
+
+
+
+
+
+                              Figure 3. (a) Raman spectra and (b) sheet resistances of the various graphene oxide intermediate
+                                 layers on the Mo back contact.
+
+
+
+
+
+                              Figure 4. Raman spectra of the CZTSSe absorber ﬁlms fabricated with the various graphene oxide
+                               intermediate layers.
+
+
+                             Table 1. Elemental composition and compositional ratios of the CZTSSe absorber ﬁlms fabricated
+                             with the various graphene oxide intermediate layers.
+
+
+                           Elemental Composition (at %)                            Compositional Ratios
+  CZTSSe                                                                      Cu/                   (Se + S)/
+            Cu       Zn        Sn        S         Se       Zn/Sn                  Se/S
+  Sample                                                                     (Zn + Sn)               Metal
+
+  No GO       20.53        16.79         11.2         10.28        41.21         1.50         0.73         4.01         1.06
+   GO         21.12        16.25        11.26         7.09         44.28         1.44         0.77         6.25         1.06
+  CrGO        20.35        16         11.32        10.93         41.4         1.41         0.74         3.79         1.10
+   TrGO        20.92        15.83        10.67        11.57        41          1.48         0.79         3.54         1.11
+
+
+                                Figure 5 shows the results of cross-sectional SEM analysis on the completed CZTSSe
+                               solar cells. All samples showed about 1-µm thickness of the CZTSSe absorber ﬁlm because
+                               their process condition was the same. On the other hand, the thicknesses of MoSe2 layer
+--- Страница 6 ---
+Materials 2022, 15, 3419                                                                                                         6 of 10
+
+
+
+                       showed different values due to the various GO intermediate layers, and were obtained as
+                             1124, 337, 941, and 693 nm, respectively. Interestingly, GO samples inhibited the formation
+                              of the MoSe2 layer more than other samples. As conﬁrmed by the surface SEM analysis in
+                            Figure 1, this seems to be due to the high covering ratio of the GO sample. In the case of the
+                      CrGO, the effect of the inhibiting the formation of MoSe2 layer was insigniﬁcant because
+                            the concentration of the CrGO solution was lower than that of the GO, and the Mo back
+                             contact was hardly covered.
+
+
+
+
+
+                              Figure 5. (a–d) Cross-sectional SEM images and (e) schematic of the CZTSSe solar cells fabricated
+                             with different graphene oxide intermediate layers.
+
+                            To estimate the bandgap energy, EQE measurements were performed on the CZTSS
+                              solar cells using the various GO intermediate layers, as show in Figure 6. Both GO and
+                    CrGO samples showed more improved EQE than the No GO sample in the 600–1100-nm
+                         wavelength range. It seems that the MoSe2 layer suppressed by the GO intermediate layer
+                         improved carrier collection. In addition, some studies have shown that light absorption and
+                            short circuit current (JSC) are improved due to the mitigation of the interference between
+                             incident and reﬂected light through the intermediate layer [26,36]. The TrGO sample
+                       showed little carrier collection, and it seems that the conductive secondary phase acted as
+                           shunting paths and prevented carrier collection. The bandgap energies of the No GO, GO,
+                       and CrGO samples were 1.12, 1.08, and 1.09 eV, respectively.
+
+
+
+
+
+                              Figure 6. (a) External quantum efﬁciency (EQE) curves of the CZTSSe solar cells and (b) the bandgap
+                                energies (Eg) of the CZTSSe absorber layers obtained from the EQE data.
+
+                                 Figure 7 shows statistical box charts for solar cell parameters obtained from the CZTSSe
+                               solar cells fabricated with various GO samples. The GO and CrGO samples showed average
+--- Страница 7 ---
+Materials 2022, 15, 3419                                                                                                         7 of 10
+
+
+
+                      PCEs of 4.65% and 5.12%, respectively, which is higher than the No GO sample of 4.55%.
+                      From Figure 7b–d, the PCE improvement of the GO sample was mainly contributed by
+                            the VOC and JSC, while that of the CrGO sample was more signiﬁcantly contributed by FF.
+                            This difference was probably caused by the degree of covering of the GO intermediate layer.
+                    When the passivation of the intermediate layer is excessive, the JSC and VOC can increase,
+                          but the FF can decrease [37]. It is supposed that the FF decreases of the GO sample were
+                       due to the high concentration of the GO solution and the relatively high sheet resistance
+                             of the GO [38]. The high concentration of the GO solution strongly suppressed MoSe2
+                             formation, but the GO layer acted as the electrical resistance. On the other hand, the CrGO
+                         sample exhibited a relatively low concentration of GO solution and improved FF, resulting
+                             in better performance (Table 2). Both samples using the GO intermediate layer showed
+                        improvement in JSC and VOC, it is assumed that the JSC improvement is due to the reduced
+                             interference between the incident light and the reﬂected light, as mentioned in Figure 6.
+                           Moreover, the GO intermediate layer may restrain the decomposition of the CZTSSe, reduce
+                            the defect state, and lead to the increase in the VOC.
+
+
+
+
+
+                              Figure 7. Statistical box charts of (a) the power conversion efﬁciency (PCE), (b) open-circuit voltage
+                               (VOC), (c) short-circuit current density (JSC), and (d) ﬁll factor (FF) of the CZTSSe solar cells fabricated
+                             with the various graphene oxide intermediate layers (n = 6).
+
+                             Table 2. Solar cell parameters obtained from J-V curves and external quantum efﬁciency data of the
+                         CZTSSe solar cells with different intermediate layers 1.
+
+    Sample      PCE (%)     VOC (V)         JSC, J-V (mA/cm2)       FF (%)         JSC, EQE (mA/cm2)       Eg (eV)
+
+    No GO             4.8           0.322                32.2                 46.3                 31.2                 1.12
+    GO               5.6           0.360                33.6                 46.0                 33.3                 1.08
+    CrGO             6.3           0.366                32.8                 52.6                 32.3                 1.09
+     TrGO            0            0.018                0                  21.0                  0.7                 –
+
+                                            1 The active area of each cell was 0.3 cm2.  PCE, power conversion efﬁciency; JSC, short-circuit current;
+                               VOC, open-circuit voltage; FF, ﬁll factor; EQE, external quantum efﬁciency; Eg, bandgap energy.
+--- Страница 8 ---
+Materials 2022, 15, 3419                                                                                                         8 of 10
+
+
+
+                                   4. Conclusions
+
+                      We demonstrated the effect of the GO and reduced GO intermediate layers on the
+                      CZTSSe solar cells. The GO sample was produced using the modiﬁed Hummers’ method,
+                       and the CrGO and TrGO samples were prepared through the chemical and thermal re-
+                           duction of the GO. Prior to the analysis of solar cells, surface analyses were performed on
+                            the Mo back contacts coated with various GO intermediate layers, and differences in the
+                            covering ratios of the samples were veriﬁed via SEM and AFM measurements. In addition,
+                     Raman spectroscopy conﬁrmed that the ID/IG ratio of GO, CrGO, and TrGO decreased from
+                              1.18 to 0.92 in, depending on the reduction condition. The CZTSSe solar cells fabricated us-
+                            ing those GO samples showed relatively thin MoSe2 layers and improved carrier collection
+                              in the EQE measurements. In particular, the GO sample made with high concentrations of
+                 GO solutions showed signiﬁcant improvements in VOC and JSC. However, the FF of the GO
+                        sample decreased due to the high electrical resistance of the GO. On the other hand, the
+                    CrGO sample showed signiﬁcant enhancement in FF, owing to the moderate passivation.
+                      As a result, the CZTSSe solar cell fabricated using the CrGO intermediate layer showed PCE
+                              of 6.3%, VOC of 0.366 V, and JSC of 32.8 mA/cm2. To the best of our knowledge, this is the
+                              ﬁrst time that the effect of various GO intermediate layers on CZTSSe solar cells have been
+                            analyzed. Thus, we believe that this study on the GO intermediate layers made through a
+                                  facile solution process may accelerate research into applying GO intermediate layers to the
+                      CZTSSe solar cell.
+
+
+                           Author Contributions: Conceptualization, W.-L.J. and S.-K.J.; validation, S.-H.P. and Y.-D.J.; resources,
+                                   S.-H.P. and Y.-D.J.; writing—original draft preparation, W.-L.J.; writing—review and editing, S.-K.J.
+                         and D.-S.L.; visualization, W.-L.J.; supervision, S.-K.J. and D.-S.L.; funding acquisition, W.-L.J.
+                                All authors have read and agreed to the published version of the manuscript.
+
+                            Funding: This work supported by the GIST Young Scientist Research Project grant funded by the
+                          GIST in 2022.
+
+                                 Institutional Review Board Statement: Not applicable.
+
+                           Informed Consent Statement: Not applicable.
+
+                           Data Availability Statement: Data are contained within the article.
+
+                             Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+References
+
+1.   He, M.; Yan, C.; Li, J.; Suryawanshi, M.P.; Kim, J.; Green, M.A.; Hao, X. Kesterite Solar Cells: Insights into Current Strategies and
+     Challenges. Adv. Sci. 2021, 8, 2004313. [CrossRef] [PubMed]
+2.    Cui, H.; Liu, X.; Sun, L.; Liu, F.; Yan, C.; Hao, X. Fabrication of Efﬁcient Cu2ZnSnS4 Solar Cells by Sputtering Single Stoichiometric
+      Target. Coatings 2017, 7, 19. [CrossRef]
+3.   Yao, L.; Ao, J.; Jeng, M.J.; Bi, J.; Gao, S.; Sun, G.; He, Q.; Zhou, Z.; Sun, Y.; Chang, L.B. Effect of Sn Content in a CuSnZn Metal
+     Precursor on Formation of MoSe2 Film during Selenization in Se+SnSe Vapor. Materials 2016, 9, 241. [CrossRef] [PubMed]
+4.   Xu, X.; Guo, L.; Zhou, J.; Duan, B.; Li, D.; Shi, J.; Wu, H.; Luo, Y.; Meng, Q. Efﬁcient and Composition-Tolerant Kesterite Cu2ZnSn(S,
+     Se)4 Solar Cells Derived From an In Situ Formed Multifunctional Carbon Framework. Adv. Energy Mater. 2021, 11, 2102298.
+     [CrossRef]
+5.   He, M.; Zhang, X.; Huang, J.; Li, J.; Yan, C.; Kim, J.; Chen, Y.S.; Yang, L.; Cairney, J.M.; Zhang, Y.; et al. High Efﬁciency
+     Cu2ZnSn(S,Se)4 Solar Cells with Shallow Li Zn Acceptor Defects Enabled by Solution-Based Li Post-Deposition Treatment. Adv.
+     Energy Mater. 2021, 11, 2003783. [CrossRef]
+6.   Wang, D.; Guo, H.; Wu, X.; Deng, X.; Li, F.; Li, Z.; Lin, F.; Zhu, Z.; Zhang, Y.; Xu, B.; et al. Interfacial Engineering of Wide-Bandgap
+     Perovskites for Efﬁcient Perovskite/CZTSSe Tandem Solar Cells. Adv. Funct. Mater. 2021, 32, 2107359. [CrossRef]
+7.    Yeh, M.Y.; Lei, P.H.; Lin, S.H.; Yang, C.D. Copper-Zinc-Tin-Sulfur Thin Film Using Spin-Coating Technology. Materials 2016, 9, 526.
+     [CrossRef]
+8.   Sava, F.; Diagne, O.; Galca, A.C.; Simandan, I.D.; Matei, E.; Burdusel, M.; Becherescu, N.; Becherescu, V.; Mihai, C.; Velea, A.
+     Secondary Crystalline Phases Inﬂuence on Optical Properties in Off-Stoichiometric Cu2S-ZnS-SnS2 Thin Films.  Materials
+     2020, 13, 4624. [CrossRef]
+9.    Lai, F.I.; Yang, J.F.; Hsu, Y.C.; Kuo, S.Y. Location-Optoelectronic Property Correlation in ZnO:Al Thin Film by RF Magnetron
+     Sputtering and Its Photovoltaic Application. Materials 2021, 14, 6313. [CrossRef]
+--- Страница 9 ---
+Materials 2022, 15, 3419                                                                                                         9 of 10
+
+
+
+
+10.  NREL. Best Research-Cell Efﬁciency Chart. 2021. Available online: https://www.nrel.gov/pv/cell-efﬁciency.html (accessed on
+     15 April 2022).
+11.  Nakamura, M.; Yamaguchi, K.; Kimoto, Y.; Yasaki, Y.; Kato, T.; Sugimoto, H. Cd-Free Cu(In,Ga)(Se,S)2 Thin-Film Solar Cell With
+     Record Efﬁciency of 23.35%. IEEE J. Photovolt. 2019, 9, 1863–1867. [CrossRef]
+12.   Jeong, W.L.; Min, J.H.; Kim, I.Y.; Kim, H.S.; Kim, J.H.; Lee, D.S. Effects of graphene oxide barrier on Cu2ZnSnSxSe4–x thin film solar cells.
+     In Proceedings of the 2017 IEEE 44th Photovoltaic Specialist Conference (PVSC), Washington, DC, USA, 25–30 June 2017.
+13.  Chen, W.; Taskesen, T.; Nowak, D.; Mikolajczak, U.; Sayed, M.H.; Pareek, D.; Ohland,  J.; Schnabel, T.; Ahlswede, E.;
+     Hauschild, D.; et al. Modiﬁcations of the CZTSe/Mo back-contact interface by plasma treatments. RSC Adv. 2019, 9, 26850–26855.
+     [CrossRef] [PubMed]
+14.  Prabhu, S.; Pandey, S.K.; Chakrabarti, S. Theoretical investigations of band alignments and SnSe BSF layer for low-cost, non-toxic,
+     high-efﬁciency CZTSSe solar cell. Sol. Energy 2021, 226, 288–296. [CrossRef]
+15.  Yang, X.; Yao, B.; Ding, Z.; Deng, R.; Zhao, M.; Li, Y. Role of zinc tin oxide passivation layer at back electrode interface in
+     improving efﬁciency of Cu2ZnSn(S,Se)4 solar cells. Superlattices Microstruct. 2021, in press. [CrossRef]
+16.  Tong, Z.; Zhang, K.; Sun, K.; Yan, C.; Liu, F.; Jiang, L.; Lai, Y.; Hao, X.; Li, J. Modiﬁcation of absorber quality and Mo-back contact
+    by a thin Bi intermediate layer for kesterite Cu2ZnSnS4 solar cells. Sol. Energy Mater. Sol. Cells 2016, 144, 537–543. [CrossRef]
+17.   Park, J.; Huang, J.; Sun, K.; Ouyang, Z.; Liu, F.; Yan, C.; Sun, H.; Pu, A.; Green, M.; Hao, X. The effect of thermal evaporated MoO3
+     intermediate layer as primary back contact for kesterite Cu2ZnSnS4 solar cells. Thin Solid Films 2018, 648, 39–45. [CrossRef]
+18.  Hong, S.; Kim, S.Y.; Son, D.H.; Kim, S.H.; Kim, Y.I.; Yang, K.J.; Heo, Y.W.; Kang, J.K.; Kim, D.H. Self-Alignment of Bottom CZTSSe
+    by Patterning of an Al2O3 Intermediate Layer. Nanomaterials 2019, 10, 43. [CrossRef]
+19.  Zeng, F.; Sun, K.; Gong, L.; Jiang, L.; Liu, F.; Lai, Y.; Li, J. Back contact-absorber interface modiﬁcation by inserting carbon
+     intermediate layer and conversion efﬁciency improvement in Cu2ZnSn(S,Se)4 solar cell. Phys. Status Solidi–Rapid Res. Lett.
+     2015, 9, 687–691. [CrossRef]
+20.  Lu, X.; Xu, B.; Qin, X.; Chen, Y.; Yang, P.; Chu, J.; Sun, L. Modiﬁcation of Back Contact in Cu2ZnSnS4 Solar Cell by Inserting
+    Al-Doped ZnO Intermediate Layer. ACS Appl. Mater. Interfaces 2020, 12, 58060–58071. [CrossRef]
+21.  Gour, K.S.; Karade, V.; Jang, J.S.; Jo, E.; Babar, P.; Korade, S.; Yoo, H.; Kim, S.; Kim, D.; Park, J.; et al. Nanoscale Rear-Interface
+     Passivation in Cu2ZnSn(S,Se)4 Solar Cells through the CuAlO2 Intermediate Layer. ACS Appl. Energy Mater. 2021, 4, 5222–5229.
+     [CrossRef]
+22.  Batmunkh, M.; Shearer, C.J.; Biggs, M.J.; Shapter, J.G. Nanocarbons for mesoscopic perovskite solar cells.  J. Mater. Chem. A
+     2015, 3, 9020–9031. [CrossRef]
+23.   Acik, M.; Darling, S.B. Graphene in perovskite solar cells: Device design, characterization and implementation. J. Mater. Chem. A
+     2016, 4, 6185–6235. [CrossRef]
+24.  Mahmoudi, T.; Wang, Y.; Hahn, Y.B. Graphene and its derivatives for solar cells application. Nano Energy 2018, 47, 51–65.
+     [CrossRef]
+25.  Lim, E.L.; Yap, C.C.; Jumali, M.H.H.; Teridi, M.A.M.; Teh, C.H. A Mini Review: Can Graphene Be a Novel Material for Perovskite
+     Solar Cell Applications? Nano-Micro Lett. 2018, 10, 27. [CrossRef] [PubMed]
+26.  Kim, J.; Jang, J.; Suryawanshi, M.P.; He, M.; Heo, J.; Lee, D.S.; Jung, H.R.; Jo, E.; Gang, M.G.; Kim, J.H.; et al. Effect of a graphene
+     oxide intermediate layer in Cu2ZnSn(S,Se)4 solar cells. J. Mater. Chem. A 2020, 8, 4920–4930. [CrossRef]
+27.  Mai, R.; Wu, X.; Jiang, Y.; Meng, Y.; Liu, B.; Hu, X.; Roncali, J.; Zhou, G.; Liu, J.M.; Kempa, K.; et al. An efﬁcient multi-functional
+     material based on polyether-substituted indolocarbazole for perovskite solar cells and solution-processed non-doped OLEDs.
+        J. Mater. Chem. A 2019, 7, 1539–1547. [CrossRef]
+28.  Wang, D.Y.; Wang, I.S.; Huang, I.S.; Yeh, Y.C.; Li, S.S.; Tu, K.H.; Chen, C.C.; Chen, C.W. Quantum Dot Light-Emitting Diode Using
+     Solution-Processable Graphene Oxide as the Anode Interfacial Layer. J. Phys. Chem. C 2012, 116, 10181–10185. [CrossRef]
+29.   Xiao, P.; Huang, J.; Yan, D.; Luo, D.; Yuan, J.; Liu, B.; Liang, D. Emergence of Nanoplatelet Light-Emitting Diodes. Materials
+     2018, 11, 1376. [CrossRef]
+30.   Perumbilavil, S.; Sankar, P.; Priya Rose, T.; Philip, R. White light Z-scan measurements of ultrafast optical nonlinearity in reduced
+     graphene oxide nanosheets in the 400–700 nm region. Appl. Phys. Lett. 2015, 107, 051104. [CrossRef]
+31.  Palma, A.L.; Cinà, L.; Pescetelli, S.; Agresti, A.; Raggio, M.; Paolesse, R.; Bonaccorso, F.; Carlo, A.D. Reduced graphene oxide as
+     efﬁcient and stable hole transporting material in mesoscopic perovskite solar cells. Nano Energy 2016, 22, 349–360. [CrossRef]
+32.   Eigler, S.; Hirsch, A. Chemistry with graphene and graphene oxide-challenges for synthetic chemists. Angew. Chem. Int. Ed.
+     2014, 53, 7720–7738. [CrossRef]
+33.   Scardaci, V.; Compagnini, G. Raman Spectroscopy Investigation of Graphene Oxide Reduction by Laser Scribing. Carbon 2021, 7, 48.
+     [CrossRef]
+34.  Min, J.H.; Jeong, W.L.; Kim, K.; Lee, J.S.; Kim, K.P.; Kim, J.; Gang, M.G.; Hong, C.W.; Kim, J.H.; Lee, D.S. Flexible High-Efﬁciency
+    CZTSSe Solar Cells on Diverse Flexible Substrates via an Adhesive-Bonding Transfer Method. ACS Appl. Mater. Interfaces
+     2020, 12, 8189–8197. [CrossRef] [PubMed]
+35.  Gour, K.S.; Singh, O.P.; Yadav, A.K.; Parmar, R.; Singh, V.N. Effect of NaF evaporation on morphological and structural properties
+     of Cu2ZnSnSe4 (CZTSe) thin ﬁlm deposited by sputtering from a single compound target. J. Alloys Compd. 2017, 718, 231–235.
+     [CrossRef]
+--- Страница 10 ---
+Materials 2022, 15, 3419                                                                                                        10 of 10
+
+
+
+
+36.  Tan, Z.; Li, L.; Wang, F.; Xu, Q.; Li, S.; Sun, G.; Tu, X.; Hou, X.; Hou, J.; Li, Y. Solution-Processed Rhenium Oxide: A Versatile
+    Anode Buffer Layer for High Performance Polymer Solar Cells with Enhanced Light Harvest. Adv. Energy Mater. 2014, 4, 1300884.
+     [CrossRef]
+37.  Kim, J.; Park, S.; Ryu, S.; Oh, J.; Shin, B. Improving the open-circuit voltage of Cu2ZnSnSe4 thin ﬁlm solar cells via interface
+     passivation. Prog. Photovol. Res. Appl. 2017, 25, 308–317. [CrossRef]
+38.  Lima, A.H.; Mendonça, J.P.; Duarte, M.; Stavale, F.; Legnani, C.; Carvalho, G.S.G.D.; Maciel, I.O.; Sato, F.; Fragneaud, B.;
+     Quirino, W.G. Reduced graphene oxide prepared at low temperature thermal treatment as transparent conductors for organic
+      electronic applications. Org. Electron. 2017, 49, 165–173. [CrossRef]

@@ -187,7 +187,8 @@ def parse_all(pdf_dir):
             article_text, _ = parse_article(path)
             file = Path("data_output") / path.stem / "article.txt"
             file.write_text(article_text, encoding="utf-8")
+        print(f"{path.name} done")
 
 
 if __name__ == "__main__":
-    parse_article("dev_articles/D021.pdf")
+    parse_all("test")

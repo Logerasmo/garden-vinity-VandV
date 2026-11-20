@@ -1,0 +1,413 @@
+--- Страница 1 ---
+                                                  Applied Surface Science Advances 6 (2021) 100144
+
+                                                 Contents lists available at ScienceDirect
+                       Applied Surface Science Advances
+
+
+                          journal homepage: www.sciencedirect.com/journal/applied-surface-science-advances
+
+
+Inkjet printed CuIn(1-X)GaXSe2 thin film by controlled selenium distribution
+for improved power conversion efficiency in chalcopyrite solar cells
+Brijesh Singh Yadav a,b, Suhash Ranjan Dey b, Sanjay R. Dhage a,*
+a Centre for Solar Energy Materials, International Advanced Research Center for Powder Metallurgy and New Materials (ARCI), PO Balapur, Hyderabad 50005, India
+b Materials Science and Metallurgical Engineering Department, Indian Institute of Technology Hyderabad, Kandi, Sangareddy 502285, India
+
+
+A R T I C L E  I N F O                  A B S T R A C T
+
+Keywords:                                     Selenium (Se) vapor pressure is a key factor during the selenization of CuIn1-XGaX (CIG) film to obtain a high-
+CIGS                                               quality CuIn1-XGaXSe2 (CIGS) absorber layer. To investigate the effect of Se vapor distribution on the grain
+Inkjet printing                                 growth of inkjet printed precursor film, two geometries of graphite box (square and circular) are used. The results
+Se vapor                                                 revealed that selenization in the round graphite box give rise to uniform surface coverage and suppressed fine-Graphite box geometry                                                grained layer due to adequate and uniform distribution of Se vapor. In contrast, film selenized in a squareFine-grained layer
+                                                  graphite box exhibits high strain and low crystallinity with a thick fine-grained layer. Probable Se vapor dis­
+                                                     tribution inside the graphite box based on internal geometrical constraint and its impact on crystal phase and
+                                                 microstructure is discussed. Finally, CIGS devices fabricated using films selenized in a round graphite box
+                                               demonstrates higher power-conversion efficiency of 5.2%, owing to high light absorption and efficient carrier
+                                                    separation. Based on J-V and EQE results, probable losses and recombination in the devices are examined and
+                                                    discussed.
+
+
+1. Introduction                                                            simplicity and non-toxic advantage, the CIGS film selenized in the
+                                                                      presence of Se vapor, the grain growth is not adequate and leads to the
+   Chalcopyrite Cu(In, Ga)Se2(CIGS) absorber material emerged as a     bi-layered structure, upper big-grained layer (CIGS-L) and small-grained
+leading candidate among thin film technologies with a record solar cell    bottom layer (CIGS-F) [11–13]. This phenomenon is more frequently to
+efficiency of 23.35% on lab scale and 17% on module scale [1,2].     arise in CIGS prepared by the sequential deposition of the precursor
+Non-vacuum processing of CIGS thin film solar cells turns out to be a     layer and post-selenization caused by the in-homogenous distribution of
+potential alternative to vacuum-based techniques because of its benefits     precursor elements and the lack of Se vapor [14,15]. One of the common
+such as low fabrication cost, rapid deposition and scalability. The best    methods is doping alkali elements such as Na into CIGS films [15,16] to
+device fabricated by the non-vacuum method showed a champion effi­    improve the absorber film’s crystallinity. The role of dopants involves
+ciency of 17.3%, employing a hydrazine solvent, which is toxic and     the formation of fluxing agents, which helps  facilitate CIGS grain
+explosive  [3,4].  In  the  search  for  a  benign  approach,  various     growth.  Inappropriately, doping methods  increase  the  fabrication
+non-hydrazine-based routes have been developed and explored. In 2016,     process’s complexity, and it is hard to eliminate the existence of CIGS-F.
+Xin et al. reported an 11.3% efficient CIGSSe device by inkjet printing        Additionally, multiple annealing steps in a different atmosphere (Se/
+using isopropyl alcohol (IPA) as solvent [5]. Park et al. deposited pre­    N2/Se) for a longer selenization time can promote the inter-diffusion of
+cursor film by spin coating using methanol as solvent, and the fabricated     elements and improve the grain growth of CIGS [16]. The long duration
+device demonstrated 14.4% efficiency [6]. However, the additional     of the selenization process will induce substantial MoSe2 formation,
+requirement of multiple selenization steps using toxic gases (H2S/H2Se)    which degrades the final device performance significantly. Excess Se
+as a selenium source makes these routes risky, slow, and unfavorable for     content in the graphite box was also used earlier to obtain single-layered
+large area deposition.                                            CIGS film [17,18]. Nevertheless, the inevitable formation of rod-like
+   In this regard, Se vapor (i.e., vaporization of Se pellets) have been    morphology on the film surface because of excess Se vapor condensa­
+used as a Se source for selenization of precursor film [7–10]. Despite the     tion degrades cell performance. Moreover, the removal of deposited Se
+
+
+ * Corresponding author.
+    E-mail address: dhage@arci.res.in (S.R. Dhage).
+https://doi.org/10.1016/j.apsadv.2021.100144
+Received 16 March 2021; Received in revised form 28 June 2021; Accepted 12 August 2021
+Available online 24 August 2021
+2666-5239/©  2021  The   Author(s).      Published  by   Elsevier  B.V.  This   is  an  open   access   article  under  the  CC  BY-NC-ND   license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/).
+--- Страница 2 ---
+B.S. Yadav et al.                                                                                                                     Applied Surface Science Advances 6 (2021) 100144
+
+
+
+
+
+               Fig. 1. Schematic of selenization setup with two different types of graphite box geometry, square and circular, used in the process.
+
+on  the  selenization  chamber’s  wall  is  highly  challenging  and     sputtering (VISTARIS 600, Singulus Technology AG) on SLG substrate
+time-consuming. Therefore, it is of great interest to obtain large-grained    used as a bottom electrode; the process parameters were elaborated in
+CIGS with the appropriate composition using a simple and low-cost    our earlier work [24,25]. The CIG precursor ink was formulated by
+method. Different research groups have utilized the various graphite     dissolving the individual Cu, In, and Ga nitrate hydrate precursors in a
+box to improve the Se vapor distribution to enhance CIGS grain growth     polyethene glycol (PEG) solution and deionized water. To achieve
+and reduce the CIGS-F layer [19]. Han et al. study the influence of    copper poor stoichiometry in final CIGS, the Cu/Ga+In (CGI) and
+partial pressure of Se vapor (PSe) generated inside the closed graphite    Ga/Ga+In (GGI) ratios in ink were taken as 0.99 and 0.27, respectively,
+box for solution-processed CIGS solar cells [20]. They revealed that PSe     for all the experiments presented in this work. The inkjet printing
+is mainly controlled by the graphite box chamber’s background pressure     (L-Series Inkjet printer, Ceradorp, France) and pre-annealing of the
+and affects the Cu–Se liquid formation at the initial stages of film growth     precursor layer were repeated five times to achieve the desired film
+responsible for the morphological difference. Ulicna et al. implied the     thickness. The ink formulation and printing strategy were adapted from
+closed graphite box with a partial opening in the lid that resulted in a Se    our earlier published work [26,27]. Inkjet printed films were selenized
+compositional gradient along with the CIGS depth and decrease device     in the RTP furnace (QualiflowTherm, France) using a square graphite
+performance [21]. Later, Zhao et al. employed the graphite box with a    box (hereafter referred to as SB) and circular graphite box (hereafter
+pinhole-free  lid  to  increase  Se  vapor  intensity  and  obtained     referred to as CB) as presented schematically in Fig. 1. The internal
+large-grained CIGS film without CIGS-F layer and demonstrated device    volume of the SB and CB is calculated as 44.8 cm3 and 35.16 cm3,
+efficiency of 11.8% [22].  It  is evident that a closed graphite box     respectively. Se pellets (four Se pellets each of about 50 mg) were used
+significantly influences the Se vapor distribution, eventually, the CIGS     as a selenium source, and the selenization process was performed under
+film’s quality.                                                      a continuous flow of N2 gas.
+   To the best of our knowledge, no reports are there on the effect of        In this study, two-step selenization profiles are used; 250◦C with a
+graphite box geometry on grain growth of the CIGS absorber layer. Apart     holding time of 10 min and 550◦C with 14 min. Based on earlier reported
+from that, the graphite box’s geometry in terms of clearance volume (a      literature, it is anticipated that the two-step selenization process would
+gap between the substrate surface and the lid) and shape can have a     generate adequate PSe, promote proper mixing of precursors and trans­
+notable impact on the intensity and distribution of Se vapor according to    form CIG into CIGS. It is well reported that the selenization of the CIG
+the model developed by J.J.Scragg et al. for CZTS thin film solar cell     precursor begins at about 480◦C to form a CIGS phase. Yet, a higher
+[23]. In this respect, we have examined and compared the impact of Se     temperature of about 550◦C is required to moderate secondary phases
+vapor distribution using two different graphite boxes (square & circular)    and achieve grain growth in CIGS [28,29]. The CIGS phase formation
+on the structural, morphological, and electrical properties of the inkjet     during the selenization of the CIG precursor was intensively investigated
+printed precursor film, consequent impact on the performance of CIGS     in the past [30]. Given this and based on earlier reports, a selenization
+solar cells. Improved graphite box geometry resulted in high crystal­     temperature of 550◦C was selected. The selenization time of 14 min has
+linity, uniform grain growth, and the suppression of the CIGS-F layer,     already been optimized to obtain a highly crystalline chalcopyrite phase
+which eventually resulted in improved power-conversion efficiency of     of the CIGS absorber from the inkjet printed CIG precursor film was
+5.2%.                                                                taken from our previous paper [31]. Subsequently, 60 nm CdS film was
+                                                                       deposited on  top  of  the prepared CIGS  absorber  layer  using a
+2. Material and methods                                             well-proven chemical bath deposition to form a p-n junction [32]. The
+                                                         window layers consisting of i-ZnO (50 nm)/Al: ZnO (900 nm) was
+   The precursor film (i.e., CIG) was deposited on sputtered Mo coated     sputtered  (VISTARIS  600,  Singulus  Technology  AG)  on  the
+soda-lime glass substrate by inkjet printing. Bi-layered Mo thin film    CdS/CIGS/Mo/Glass stacks; deposition parameters are discussed in our
+(seed + bulk) of about 800 nm was prepared by DC magnetron     earlier publication [33]. The silver paste point contact was used on the
+
+                                                                        2
+--- Страница 3 ---
+B.S. Yadav et al.                                                                                                                     Applied Surface Science Advances 6 (2021) 100144
+
+Table 1
+XRF elemental composition data of CIGS absorber films selenized using two different approaches; SB and CB.
+  Sample ID          Thickness(nm)       Cu%               In%             Ga%             Se%                CIG         GIG          SCIG
+  SB1                1.28 ± 0.18            22.60 ± 0.22          14.44 ± 0.53          5.20 ± 0.79          57.96 ± 2.38          1.15          0.26          1.37
+  SB2                1.31 ± 0.09            21.23 ± 0.93          15.56 ± 0.77          5.05 ±0.85          58.16 ± 1.14          1.03          0.25          1.39
+  SB3                1.29 ± 0.12            20.01 ± 0.71          14.63 ± 1.19          4.79 ± 0.97          60.57 ± 1.23          1.03          0.24          1.54
+  SB4                1.30 ± 0.07            21.72 ± 0.69          15.82 ± 0.95          5.48 ± 0.59          53.50 ± 2.69          1.01          0.25          1.24
+  CB1                1.34 ± 0.04            21.84 ± 0.33          16.35 ± 0.56          4.83 ± 0.48          56.98 ± 0.89          1.02          0.23          1.32
+  CB2                1.32 ±0.03             21.22 ± 0.40          16.01 ± 0.86          4.80 ± 0.36          57.96 ± 0.43          1.02          0.24          1.37
+  CB3                1.34 ± 0.01            21.15 ± 0.19          16.76 ± 0.25          4.19 ± 0.53          57.90 ± 0.37          1.01          0.25          1.37
+  CB4                1.35 ± 0.06            22.14 ± 0.02          16.50 ± 0.28          5.21 ± 0.56          56.15 ± 0.25          1.02          0.24          1.28
+
+
+
+
+
+Fig. 2. XRD pattern of CIGS absorber films prepared using two different graphite boxes SB and CB. The corresponding plots of β cosθ versus 4 * sinθ are attached in
+the inset of respective XRD pattern.
+
+top of the isolated active cell area of 0.18 cm2 scribed by mechanical
+scribing for current-voltage (J-V) measurements. All the devices pre­     Table 2                                                        A summary of crystallite size and strain determined using W-H equation andsented in this work are without any anti-reflective coating.                                                                                 Scherrer formula derived from XRD patterns of CB and SB processed sample   Structural analysis of the CIGS films is determined by XRD (CuKα                                                                              segments.
+radiation, D8 Advance, Bruker, Germany). The film compositions are
+measured  by  XRF  (Model:  XDV-SDD,  Make:  Helmut  Fischer,       Sample   FWHM         Crystallite size     Williamson – Hall analysis                                                                                    ID          (degree)      (nm) from
+Switzerland) technique. The surface and cross-sectional morphologies of                   (112) peak    Debye Scherer
+the CIGS films are examined by FESEM (ZEISS, Gemini-500). The                                formula
+topography of CIGS film is studied using a stylus profilometer (Dek­                                                             Crystallite     Types      Strain
+takXT, Bruker) on a 10 mm × 10 mm scanning area with a 50 nm stylus                                                             size (nm)       of strain    (x                                                                                                                                                          10−3)radius. The device performance of the CIGS solar cells is evaluated by
+Newport Oriel solar simulator equipped with a Xenon lamp and Keithley       SB1       0.2260        37.76             37.47          Tensile     3.17
+source meter under the standard AM1.5G condition. The external       SB2       0.2079        41.05             41.51          Tensile     3.55                                                                             SB3       0.1949        43.79             44.01          Tensile     3.27
+quantum efficiency (EQE) was measured by a Bentham PVE 300 system       SB4       0.1968        43.37             43.06          Tensile     2.78
+in the wavelength range of 300 nm to 1200 nm.                           CB1       0.1852        46.09             46.21          Tensile     2.19
+                                                                        CB2       0.170         50.21             51.35          Tensile     1.95
+3. Results and discussion                                              CB3       0.1680        50.80             50.05          Tensile     2.12                                                                        CB4       0.1676        50.93             50.60          Tensile     2.22
+   SB and CB graphite boxes were used to selenize the inkjet printed CIG
+precursor film, as shown in Fig. 1. The elemental composition at    phenomenon  of  non-uniform  selenization can be  related  to  the
+different segments of selenized CIGS film denoted as SB1, SB2, SB3, SB4,    non-uniform Se vapor distribution during selenization.
+CB1, CB2, CB3 and CB4 (refer Fig. 3) is determined by XRF and sum­       The X-ray diffraction (XRD) pattern of CIGS film selenized in SB and
+marized in Table 1. It is evident that all the selenized films are slightly    CB graphite box is shown in Fig. 2. The three major peaks corresponding
+copper-rich (Cu/Ga+In >1) owing to the evaporation of individual     to (112), (220) and (312) (JCPDS: 35-1102), confirming the chalcopy­
+metal selenide during selenization, in good agreement with the earlier      rite CIGS structure is present in all the segments, in agreement with the
+literature [34]. Also, minor variation in Cu/Ga+In (CGI) and Ga/Ga+In     reported result [35]. Additional peaks corresponding to MoSe2 (JCPDS:
+(GIG) ratios is observed in the case of SB sample segments, whereas no    29-0914) and Mo (JCPDS: 42-1102) also can be seen in the pattern.
+significant change is detected in CB sample segments. The Se/(Cu­    However, no peaks corresponding to the undesired secondary phases are
++In+Ga) (SCIG) ratio, which accounts for the stoichiometric formation     observed. The preferred orientation peak intensity corresponding to the
+of CIGS films, is more than 1 in both cases implying the absorption of Se     (112) plane becomes sharper in the CB sample than the SB sample,
+in the Mo film to form MoSe2. The noticeable disparity in SCIG ratio was     indicating an improvement in crystallinity.
+found in SB segments (From SB1 to SB4), presumably due to the       The degree of enhancement of crystallinity of the film was studied by
+off-stoichiometry reaction of precursor film with the Se vapor. This     the full-width half maximum (FWHM) and the average crystallite size by
+
+                                                                        3
+--- Страница 4 ---
+B.S. Yadav et al.                                                                                                                     Applied Surface Science Advances 6 (2021) 100144
+
+
+
+
+
+Fig. 3. Pictorial, surface FE-SEM and cross-sectional FESEM images of CIGS film selenized in SB (a, b, c) and CB (d, e, f), respectively. The insets in (b) and (e) show
+the corresponding FE-SEM image with higher magnification.
+
+the Debye-Scherrer equation. The determined values of FWHM and     adhesion and improves the Ohmic contact between CIGS and Mo [35].
+average crystallite size for all SB and CB segments are listed in Table 2.         Fig. 3 shows the pictorial image of CIGS films selenized in SB and CB
+The average crystallite size for all the four parts corresponding to SB    and  their corresponding surface and  cross-sectional morphological
+exhibited lower values than its counterpart could be due to the non-    FESEM images. From Fig. 3 (a) and (b), it is apparent that slight colour
+homogeneous selenization resulting in improper selenization in the     gradients are present from the center to the edge, suggesting non-
+case of SB. Due to the rapid selenization in the RTP furnace, the strain    homogeneous selenization and off-stichometry of the film. It is evident
+may develop in both the films, which is determined by Williamsons-Hall    from Fig. 3 (b) that the film has multiple cracks marked in yellow color
+(W-H) equation [36]:                                                     ascribed to high strain, whereas the magnified part exhibited varying
+                                                                          grain size with voids as shown in the inset of Fig. 3 (b). It is anticipated                    λ
+β cosθ = η sinθ +                                                  (1)     that a considerable accumulation of Se vapor towards the SB corners due
+             B                                                       to the sharp edges may lead to the high SCIG ratio causing dark contrast
+Where β is the FWHM of XRD peaks, θ is the Bragg diffraction angle, λ is     in these regions compared to the center.
+the X-ray wavelength, B is the average crystallite size, and η is the strain.       The cross-sectional morphology of CIGS film corresponding to the SB
+The strain in the film is determined from the plot between β cosθ versus    sample consists of a bi-layered structure, a CIGS-F layer of ~ 850 nm
+4 * sinθ for all the samples presented in the inset of the respective XRD    underneath a large crystalline grain of CIGS-L layer ~ 770 nm, as shown
+spectrum.                                                                    in Fig. 3 (c).
+   The average crystallite size calculated from the W-H plot matches the           It is well reported that the bi-layered CIGS structure with a thin CIGS-
+Debye-Scherrer formula, as evident from Table 2. The strain calculated    L layer and thick CIGS-F layer increases the charge carrier recombina­
+from the inset graph’s slope reveals the tensile nature of the films, higher      tion, which eventually leads to poor device performance [5]. Insufficient
+in the samples selenized in SB than CB. The lesser clearance volume of    Se vapour supply at the bottom of the film promotes this kind of
+CB than SB gave rise to high Se vapor pressure resulting in lower strain    morphology and similar phenomena reported previously [17,37]. To
+and enhanced crystallite size; this logic is supported by the previously     realize large grains of the CIGS-L layer while minimizing the CIGS-F
+reported study [20].                                                           layer, CB was used instead of SB, maintaining other selenization con­
+   In the XRD pattern of SB and CB processed CIGS films, a noticeable     ditions identical. This change immediately led to visibly better surface
+peak corresponding to the MoSe2 phase can be seen, corresponding to     coverage with bigger grains, eliminating color gradients and cracks in
+the reaction of selenium vapor with the Mo film as selenium vapor in­     the CIGS film, as shown in Fig. 3 (d) and (e). Circular and smooth corners
+filtrates through the precursor film and reaches the Mo surface during     of CB prevented the accumulation of Se vapor resulting in a non-gradient
+the process. The selenization approach impacts quantitative MoSe2    SCIG ratio and similar color contrast.
+formation as it is directly related to the Se vapor distribution and pres­       Moreover, it enhanced the grain size in a lateral direction, particu­
+sure inside the graphite box. Earlier reports support the MoSe2 forma­      larly of the CIGS-L layer minimizing the CIGS-F layer, as shown in Fig. 3
+tion at the Mo-CIGS interface; a thin layer of MoSe2 enhances the       (f). This can be ascribed to maintaining uniform and adequate Se vapor
+                                                                         pressure during the selenization process. It has been reiterated that the
+
+
+
+
+
+                                             Fig. 4. Surface topography of selenized CIGS thin film in (a) SB, (b) CB.
+
+                                                                        4
+--- Страница 5 ---
+B.S. Yadav et al.                                                                                                                     Applied Surface Science Advances 6 (2021) 100144
+
+
+
+
+
+Fig. 5. (a) J-V characteristics and (b) EQE spectrum of CIGS solar cells prepared using absorber selenized in SB and CB (the inset is a plot of [hʋ * ln (1-EQE)]2
+against Energy (eV)).
+
+Table 3
+Photovoltaic parameters of best performed CIGS devices using SB and CB
+measured under AM1.5G illumination.
+  Sample        Jsc (mA/       Voc       FF       η       Rs (Ω.       Rsh (Ω.
+  ID          cm2)        (mV)      (%)     (%)     cm2)       cm2)
+  SB          25.9         311       44.0     3.5     42.6        180.4
+  CB          32.0         320       49.0     5.2     28.1       478
+
+round shape graphite box can potentially prevent the diffusion of Se
+vapor compare to the rectangular one, also supported by an earlier study
+discussed above. In contrast, large clearance volume and sharp corners
+in SB failed in providing constant Se vapor pressure over the area
+leading to rough and porous morphology.
+   The typical surface topography of the CIGS films selenized in CB and
+SB is studied by a 3D profilometer. A film area of 10 mm x 10 mm from
+the center was scanned, and corresponding surface characteristics are
+shown in Fig. 4. The CIGS film selenized in SB exhibits high irregularities
+compared to CB processed film. The surface is expected to provide an
+unfavorable condition  for conformal coating or non-uniformity in
+thickness of the CdS layer, which subsequently defines the junction      Fig. 6. Box plots of the J-V parameters of CIGS solar cells correspond to CB
+quality and solar cell device performance [38–40]. Whereas CB pro­     and SB.
+cessed CIGS showed a smoother surface and well suited for conformal
+growth of CdS deposition.                                        The EQE response for SB was 70%, corresponding to the trap states in the
+   Solar cells are fabricated using CIGS absorbers selenized in SB and     bulk of the CIGS film. It is to be noted that the observed increase in EQE
+CB. The current-voltage (J-V) characteristics under AM1.5G illumina­     in the visible region in the case of CB processed CIGS film can be
+tion is presented in Fig 5(a). As expected, the CIGS film prepared using     attributed to the significant increase in the collection of minority charge
+the CB approach exhibited a higher power conversion efficiency of 5.2%      carriers.
+on an active area of 0.18 cm2 than that of the SB device. The photo­       The bandgap of absorber films determined by extrapolating the plots
+voltaic parameters of the best cell out of six such as; open-circuit voltage    between [hʋ * ln(1-EQE)] vs Energy (eV) that is estimated to be 1.13 eV
+(Voc), short current density (Jsc), fill factor (FF), and power-conversion    and 1.14 eV for SB and CB processed CIGS films, respectively. The plots
+efficiency (ƞ) obtained after the measurements are briefed in Table 3.     are shown in the inset of Fig. 5 (b). Typically, the VOC of solar cell in­
+Noticeable improvement in cell efficiency from 3.5% (SB) to 5.2% (CB)     creases with an increasing bandgap of absorber film. In our case, the
+can be correlated to improved CIGS film quality in terms of grain size,    bandgap of CIGS films processed with CB and SB had not differed much,
+smoothness, phase purity, and crystallinity of the absorber film. The cell     further confirmed from the Voc of fabricated solar cells. The gradual
+processed in CB showed better Voc, Jsc, and FF than the SB due to the    decay in the EQE response was observed after 620 nm in both cases. This
+suppression of the CIGS-F layer and reduced grain boundaries.            behavior corresponds to the rear side recombination arising due to the
+   However, the complete elimination of this layer  is required to     presence of CIGS-F and thick MoSe2. A slight decay below 560 nm is
+improve the cell performance further as it provides high trap density     observed in all the cells, mainly due to the absorption in the n-type CdS
+states for the photo-generated charge carriers [5,22]. Moreover, the low     layer.
+                                                                                  × 15Voc and FF of the film can be attributed to the formation of thick MoSe2       The uniformity of selenization over the full printed area (15 mm
+at the CIGS- Mo interface, which builds the potential barrier for effective   mm) is further checked by the average device performance of the printed
+charge carrier collection.                                                       film. Six isolated cells on the total area are measured of each device
+   The  external quantum  efficiency (EQE) measurements  of  cells     corresponding to SB and CB. The resulting J-V parameters are repre­
+fabricated using the two graphite boxes are shown in Fig. 5 (b). The cell     sented as boxplots in Fig. 6. Each device is isolated by mechanical
+selenized in CB exhibited nearly 80% response in the wavelength region     scribing, as shown in the inset of Fig. 5 (a). It is evident from the results
+of 560 nm to 620 nm owing to better charge extraction and collection.     that the average efficiency of six cells corresponding to CB is higher than
+
+                                                                        5
+--- Страница 6 ---
+B.S. Yadav et al.                                                                                                                     Applied Surface Science Advances 6 (2021) 100144
+
+Table 4
+Summary of performance characteristics and other relevant parameters for CIGS thin film solar cells prepared by inkjet printing and non-vacuum based method.
+  Absorber    Precursor/        PCE(%)          VOC(mV)    Jsc(mA/    FF     Rs(Ω.     Rsh(Ω.     Pre-             Selenization             Post-            Ref.
+             Technique                                     cm2)       (%)    cm2)     cm2)      treatment                                selenization
+  CIGS       Metal acetate,      5.04             386        29.8       44     5.28     95.9     300 ⁰C for     500 ⁰C/20 min        None        Wang et.
+              IPA,             (A=0.04 cm2)                                                    few minutes    (Se powder/ H2/ N2)                          al. 2006
+              Inkjet printing                                                                                                     in a quartz tube                        [42]
+                                                                                                                            furnace)
+  CIGSSe     Metal nitrates,     11.3             541        31.1       67    NA     NA       250 ⁰C for     400 ⁰C/22 min/560    Use of          Lin et al.
+              IPA, Inkjet       (A= 0.5 cm2)                                                     few minutes    ⁰C/ 22 min/580 ⁰C/    (NH4)2S       2015 [5]
+              printing                                                                                   10 min               and KCN
+                                                                                                            (Se+Ar/
+                                                                                                     Ar+Se+H2S)
+  CIGSSe      Cu2S,In2Se3,Ga,    17.3             660        35.7       73     0.8      735      340 ⁰C for 5    500-600 ⁰C           None          Zang et.
+                Se,S, N2H4        (A = 0.45 cm2)                                                min           (Ga grading)                                    al. 2016
+             Spin coating                                                                                                                                       [4]
+  CIGS       Metal nitrates,      5.2              320       33        49    28      478      150 ⁰C for 1    250 ⁰C/10 min/550    None           This work
+             DI water,        (A= 0.16 cm2)                                                min            ⁰C/ 14 min
+              Inkjet printing                                                                                               (Se pellets +N2)
+
+
+its counterpart.                                                      Declaration of Competing Interest
+   Moreover, other photovoltaic parameters such as Jsc, Voc, and FF are
+higher than the sample selenized in SB. However, the Voc of both the       The authors declare that they have no known competing financial
+CIGS devices is relatively lower than the state-of-the-art device [41] due     interests or personal relationships that could have appeared to influence
+to the untraceable conducting defects such as Cu2-XSeX in the absorber     the work reported in this paper.
+layer, ineffective absorption to CIGS-F layer and recombination assisted
+by the thick MoSe2 layer.                                       Acknowledgements
+   To put our findings in context, the comparative photovoltaic per­
+formance of best reported precursor-based CIGS thin film solar cells by        This work is supported by ARCI-Technology Research Center (TRC)
+non-vacuum route, solar cells by inkjet printing along with the findings     {Ref. No. Al/1/65/ARCI/2014(c)} through Department of Science and
+from the present work summarized in Table 4.                          Technology (DST), India. The authors are thankful to Director ARCI for
+   Compare to state of the art, non-vacuum-based CIGS device, which     permitting us to publish this work. We thank Dr K. Suresh (CMCT, ARCI)
+shows Jsc > 33 mA/cm2, the current density measured from our device is    and Dr Sreekanth Mandati (CSEM, ARCI) to support the characterization
+close to this value and more than the other inkjet printed reports,     of CIGS thin films. We also would like to thank Ms Ramya Krishna
+correspond to efficient collection of ~ 80% of the photons above or     Battula (CSEM, ARCI) for performing the EQE measurements of CIGS
+equal to the bandgap by a printed CIGS absorber film. Hence, the current     solar cells.
+density of our printed device is promising. However, our fabricated CIGS
+device suffered from significant Voc and FF limitations compared to    References
+other mentioned reports in Table 4. Nevertheless, uniform and optimum
+selenium vapor pressure are required to minimize the fine-grained layer       [1] M. Nakamura, K. Yamaguchi, Y. Kimoto, Y. Yasaki, T. Kato, H. Sugimoto, Cd-free                                                                                                 Cu(In,Ga)(Se,S) 2 thin-film solar cell with record efficiency of 23.35%, IEEE J.
+and MoSe2 layer, which can be achieved by various means such as a            Photovoltaics. 9 (2019) 1863–1867, https://doi.org/10.1109/
+depositing thin barrier layer on top of Mo film, and multiple selenization          JPHOTOV.2019.2937218.
+steps, etc. There has a great potential to improve our CIGS device per­       [2] A. Chiril˘a, S. Buecheler, F. Pianezzi, P. Bloesch, C. Gretener, A.R. Uhl, C. Fella,
+formance by optimizing the process parameter more precisely. We have             L.G. Kranz,Bilger, J.A.N.Perrenoud,Tiwari, HighlyS. Seyrling,efficientR. Verma,Cu(In,Ga)Se2S. Nishiwaki,solar cellsY.E.grownRomanyuk,on flexible
+demonstrated a reasonable PCE of 5.2% on the active area of 0.16 cm2          polymer films, Nat. Mater. 10 (2011) 857–861, https://doi.org/10.1038/
+employing a circular graphite box.                                                nmat3122.
+                                                                                           [3] T.K. Todorov, O. Gunawan, T. Gokmen, D.B. Mitzi, Solution-processed Cu(In,Ga)(S,
+                                                                                                 Se) 2 absorber yielding a 15.2% efficient solar cell, Prog. Photovoltaics Res. Appl.
+4. Conclusions                                                               21 (2013) 82–87, https://doi.org/10.1002/pip.1253.
+                                                                                           [4] T. Zhang, Y. Yang, D. Liu, S.C. Tse, W. Cao, Z. Feng, S. Chen, L. Qian, High
+  A comparative investigation on the effect of Se vapor distribution             efficiency solution-processed thin-film Cu(In,Ga)(Se,S) 2 solar cells, Energy                                                                                               Environ. Sci. 9 (2016) 3674–3681, https://doi.org/10.1039/C6EE02352E.
+using two different geometries of boxes is presented. The inkjet printed       [5] X Lin, R Klenk, L Wang, T K¨ohler, J Albert, S Fiechter, A Ennaoui, M.C Lux-Steiner,
+CIG film selenized in SB exhibited off-stoichiometry, non-uniform          11.3% efficiency Cu(In,Ga)(S,Se) 2 thin film solar cells via drop-on-demand inkjet
+grains, color gradient and cracks on the surface attributed to inadequate             printing, Energy Environ. Sci. 9 (2016) 2037–2043, https://doi.org/10.1039/                                                                                   C6EE00587J.
+and non-constant Se vapor distribution originated by the geometrical       [6] G.S. Park, V.Ben Chu, B.W. Kim, D.-W. Kim, H.-S. Oh, Y.J. Hwang, B.K. Min,
+constraint of the box. The redesigned features of CB, such as smooth side           Achieving 14.4% alcohol-based solution-processed Cu(In,Ga)(S,Se) 2 thin film
+corners and lower clearance volume, helped in maintaining the Se vapor             solar cell through interface engineering, ACS Appl. Mater. Interfaces 10 (2018)                                                                                     9894–9899, https://doi.org/10.1021/acsami.8b00526.
+distribution uniformly and adequately throughout the selenization. This       [7] U. Berner, M. Widenmeyer, Solution-based processing of Cu(In,Ga)Se 2 absorber
+leads to high-quality CIGS formation with high crystallinity, a very thin            layers for 11% efficiency solar cells via a metallic intermediate, Prog. Photovoltaics
+CIGS-F layer and larger grains on the surface and along the cross-section.            Res. Appl. 23 (2015) 1260–1266, https://doi.org/10.1002/pip.2546.
+The device fabricated using CB demonstrated 5.2% efficiency, which is       [8]  S.bandgapWu, J. CuIn(S,Jiang, S.Se)2Yu, Y.solarGong,cellsW.withYan,theH. absorberXin, W. Huang,processedOverfrom12%aqueousefficientmetallow-
+higher than that of the using SB. However, incomplete elimination of           complexes solution in air, Nano Energy 62 (2019) 818–822, https://doi.org/
+CIGS-F layer and thick MoSe2 at CIGS- Mo interface induces gradual           10.1016/j.nanoen.2019.06.010.
+decay of the EQE curve after 620 nm suggesting that the selenization       [9] A.R. Uhl, J.K. Katahara, H.W. Hillhouse, Molecular-ink route to 13.0% efficient                                                                                      low-bandgap CuIn(S,Se) 2 and 14.7% efficient Cu(In,Ga)(S,Se) 2 solar cells, Energy
+process  could be  further  fine-tuned  to  reduce  the  back-contact           Environ. Sci. 9 (2016) 130–134, https://doi.org/10.1039/C5EE02870A.
+recombination.                                                                     [10] S.R. Dhage, B.S. Yadav, G.K. Jha, A.C. Badgujar, 12.95% Efficient Cu(In,Ga)Se 2
+                                                                                                         solar cells by single-step atmospheric selenization, scaled to monolithically
+
+
+                                                                        6
+--- Страница 7 ---
+B.S. Yadav et al.                                                                                                                     Applied Surface Science Advances 6 (2021) 100144
+
+      integrated modules, ACS Appl. Energy Mater. 4 (2021) 286–294, https://doi.org/      [27] B.S. Yadav, S.Ranjan Day, S.R. Dhage, Chalcopyrite CIGS absorber layer by inkjet
+     10.1021/acsaem.0c02254.                                                                    printing for photovoltaic application, Mater. Today Proc. 4 (2017) 12480–12483,
+[11] D. Lee, K. Yong, Non-vacuum deposition of CIGS absorber films for low-cost thin             https://doi.org/10.1016/j.matpr.2017.10.047.
+      film solar cells, Korean J. Chem. Eng. 30 (2013) 1347–1358, https://doi.org/          [28] V Haug, Cu(In,Ga)Se2 thin-film solar cells based on a simple sputtered alloy
+     10.1007/s11814-013-0101-0.                                                              precursor and a low-cost selenization step, J. Photonics Energy. 1 (2011), 018002,
+[12] M. Park, S. Ahn, J.H. Yun, J. Gwak, A. Cho, S. Ahn, K. Shin, D. Nam, H. Cheong,            https://doi.org/10.1117/1.3659500.
+      K. Yoon, Characteristics of Cu(In,Ga)Se2 (CIGS) thin films deposited by a direct        [29]  S. Zweigart, S. Sun, G. Bilger, H. Schock, CuInSe 2 film growth using precursors
+      solution coating process, J. Alloys Compd. 513 (2012) 68–74, https://doi.org/               deposited at low temperature, Sol. Energy Mater. Sol. Cells (1996) 219–229,
+     10.1016/j.jallcom.2011.09.080.                                                         https://doi.org/10.1016/0927-0248(95)00101-8, 41–42.
+[13]  S.J. Park, E. Lee, H.S. Jeon, S.J. Ahn, M.-K. Oh, B.K. Min, A comparative study of      [30] V. Gremenok, E. Zaretskaya, V. Zalesski, K. Bente, W. Schmitz, R. Martin,
+      solution based CIGS thin film growth on different glass substrates, Appl. Surf. Sci.           H. Moller, Preparation of Cu(In,Ga)Se2 thin film solar cells by two-stage
+     258 (2011) 120–125, https://doi.org/10.1016/j.apsusc.2011.08.016.                          selenization processes using N2 gas, Sol. Energy Mater. Sol. Cells 89 (2005)
+[14]  S. Ahn, C. Kim, J.H. Yun, J. Gwak, S. Jeong, B.-H. Ryu, K. Yoon, CuInSe 2 (CIS) thin           129–137, https://doi.org/10.1016/j.solmat.2004.11.014.
+      film solar cells by direct coating and selenization of solution precursors, J. Phys.       [31] B.S. Yadav, S. Koppoju, S.R. Dey, S.R. Dhage, Microstructural investigation of
+     Chem. C 114 (2010) 8108–8113, https://doi.org/10.1021/jp1007363.                          inkjet printed Cu(In,Ga)Se<inf>2</inf>thin film solar cell with improved
+[15] O. Lundberg, M. Edoff, L. Stolt, The effect of Ga-grading in CIGS thin film solar                efficiency, J. Alloys Compd. 827 (2020), https://doi.org/10.1016/j.
+       cells, Thin Solid Films (2005) 520–525, https://doi.org/10.1016/j.                         jallcom.2020.154295.
+      tsf.2004.11.080, 480–481.                                                        [32] P. Uday Bhaskarand, S.R. Dhage, CdSBuffer layer by CBD on 300 mm × 300 mm
+[16]  J. Bi, J. Ao, M.-J. Jeng, L. Yao, S. Gao, G. Sun, Q. He, Z. Zhou, Y. Sun, Y.-L. Xiao, L.-            Glass for CIGS Solar Cell Application, Mater. Today Proc. 4 (2017) 12525–12528,
+      B. Chang, Three-step vapor Se/N2/vapor Se reaction of electrodeposited Cu/In/Ga            https://doi.org/10.1016/j.matpr.2017.10.055.
+      precursor for preparing CuInGaSe2 thin films, Sol. Energy Mater. Sol. Cells 159        [33] S.R. Dhage, A.C. Badgujar, Transparent conducting Al:ZnO thin films on large area
+     (2017) 352–361, https://doi.org/10.1016/j.solmat.2016.09.026.                         by efficient cylindrical rotating DC magnetron sputtering, J. Alloys Compd. 763
+[17]  L. Zhang, D. Zhuang, M. Zhao, Q. Gong, L. Guo, L. Ouyang, R. Sun, Y. Wei, S. Zhan,           (2018) 504–511, https://doi.org/10.1016/j.jallcom.2018.05.234.
+     The effects of selenium content on Cu(InGa)Se2 thin film solar cells by sputtering      [34] G. Li, W. Liu, Y. Liu, S. Lin, Y. Zhang, Z. Zhou, Q. He, Y. Sun, The influence of
+     from quaternary target with Se-free post annealing, Vacuum 137 (2017) 205–208,            cracked selenium flux on CIGS thin film growth and device performance prepared
+     https://doi.org/10.1016/j.vacuum.2016.12.041.                                      by two-step selenization processes, Sol. Energy Mater. Sol. Cells 139 (2015)
+[18] Chia-Hao Hsu, Wei-Hao Ho, Chih-Huang Lai, Effects of Se flux on the properties of           108–114, https://doi.org/10.1016/j.solmat.2015.03.021.
+      the quaternary-sputtered CIGS thin film solar cells. in: 2015 IEEE 42nd Photovolt.      [35] T. Wada, N. Kohara, T. Negami, M. Nishitani, Chemical and structural
+      Spec. Conf., IEEE, 2015, pp. 1–4, https://doi.org/10.1109/PVSC.2015.7356094.              characterization of $\bf Cu(In,Ga)Se_{2}/Mo$ interface in $\bf Cu(In,Ga)Se_{2}$
+[19] A.E. Zaghi, M. Buffi`ere, G. Brammertz, N. Lenaers, M. Meuris, J. Poortmans,                   solar cells, Jpn. J. Appl. Phys. 35 (1996) L1253–L1256, https://doi.org/10.1143/
+       J. Vleugels, Selenization of printed Cu–In–Se alloy nanopowder layers for                   JJAP.35.L1253.
+      fabrication of CuInSe 2 thin film solar cells, Thin Solid Films 582 (2015) 18–22,       [36] A.B. Rohom, P.U. Londhe, N.B. Chaure, Rapid thermal processed CuInSe 2 layers
+      https://doi.org/10.1016/j.tsf.2014.10.038.                                               prepared by electrochemical route for photovoltaic applications, J. Electrochem.
+[20] J.H. Han, S. Rehan, D.G. Moon, A. Cho, J. Gwak, K.H. Yoon, S.K. Ahn, J.H. Yun, Y.             Soc. 165 (2018) H3051–H3060, https://doi.org/10.1149/2.0081804jes.
+       J. Eo, S. Ahn, Actual partial pressure of Se vapor in a closed selenization system:       [37] H. Young Park, D. Gwon Moon, J. Ho Yun, S.K. Ahn, K.H. Yoon, S. Ahn, Efficiency
+      quantitative estimation and impact on solution-processed chalcogenide thin-film              limiting factors in Cu(In,Ga)Se 2 thin film solar cells prepared by Se-free rapid
+      solar cells, J. Mater. Chem. A 4 (2016) 6319–6331, https://doi.org/10.1039/               thermal annealing of sputter-deposited Cu-In-Ga-Se precursors, Appl. Phys. Lett.
+     C6TA00145A.                                                                103 (2013), 263903, https://doi.org/10.1063/1.4852597.
+[21] Soˇna Uliˇcn´a, Solution-Processing of Cu(In,Ga)(S,Se)2 Solar Cells From Metal           [38] V. Garg, B.S. Sengar, P. Sharma, A. Kumar, S.Kumar Aaryashree, S. Mukherjee,
+     Chalcogenides – Aspects of Absorber Crystallization and Interface Formation,                 Sputter-instigated plasmon-enhanced optical backscattering layer in ultrathin solar
+     Loughborough University, 2019.                                                                           cells: Application of GZO in CIGSe material system, Sol. Energy 174 (2018) 35–44,
+[22] D. Zhao, Q. Fan, Q. Tian, Z. Zhou, Y. Meng, D. Kou, W. Zhou, S. Wu, Eliminating            https://doi.org/10.1016/j.solener.2018.08.074.
+      fine-grained layers in Cu(In,Ga)(S,Se) 2 thin films for solution-processed high          [39] V. Garg, B.S. Sengar, A. Kumar, G. Siddharth, S. Kumar, S. Mukherjee,
+      efficiency solar cells, J. Mater. Chem. A 4 (2016) 13476–13481, https://doi.org/              Investigation of valence plasmon excitations in GMZO thin film and their
+     10.1039/C6TA05728D.                                                                               suitability for plasmon-enhanced buffer-less solar cells, Sol. Energy 178 (2019)
+[23] Jonathan James Scragg, Studies of Cu2ZnSnS4 Films Prepared by Sulfurization of           114–124, https://doi.org/10.1016/j.solener.2018.12.017.
+      Electrodeposited Precursors, University of Bath, 2010.                               [40] Z. Jehl, M. Bouttemy, D. Lincot, J.F. Guillemoles, I. Gerard, A. Etcheberry,
+[24] A.C. Badgujar, S.R. Dhage, S.V. Joshi, Process parameter impact on properties of            G. Voorwinden, M. Powalla, N. Naghavi, Insights on the influence of surface
+      sputtered large-area Mo bilayers for CIGS thin film solar cell applications, Thin              roughness on photovoltaic properties of state of the art copper indium gallium
+      Solid Films 589 (2015) 79–84, https://doi.org/10.1016/j.tsf.2015.04.046.                    diselenide thin films solar cells, J. Appl. Phys. 111 (2012), 114509, https://doi.
+[25] B.S. Yadav, A.C. Badgujar, S.R. Dhage, Effect of various surface treatments on              org/10.1063/1.4721648.
+     adhesion strength of magnetron sputtered bi-layer Molybdenum thin films on soda      [41] P. Jackson, D. Hariskos, R. Wuerz, O. Kiowski, A. Bauer, T.M. Friedlmeier,
+     lime glass substrate, Sol. Energy 157 (2017) 507–513, https://doi.org/10.1016/j.          M. Powalla, Properties of Cu(In,Ga)Se 2 solar cells with new record efficiencies up
+      solener.2017.08.068.                                                                          to 21.7%, Phys, Status Solidi - Rapid Res. Lett 9 (2015) 28–31, https://doi.org/
+[26] B.S. Yadav, S.R. Dey, S.R. Dhage, Effective ink-jet printing of aqueous ink for Cu            10.1002/pssr.201409520.
+       (In, Ga) Se2 thin film absorber for solar cell application, Sol. Energy 179 (2019)       [42] W. Wang, Y.-W. Su, C. Chang, Inkjet printed chalcopyrite CuInxGa1−xSe2 thin film
+     363–370, https://doi.org/10.1016/j.solener.2019.01.003.                                       solar cells, Sol. Energy Mater. Sol. Cells 95 (2011) 2616–2620, https://doi.org/
+                                                                                              10.1016/j.solmat.2011.05.011.
+
+
+
+
+
+                                                                        7

@@ -1,0 +1,471 @@
+--- Страница 1 ---
+Journal of Applied Electrochemistry (2021) 51:209–218
+https://doi.org/10.1007/s10800-020-01494-1
+
+ RESEARCH ARTICLE
+
+
+CZTS thin film solar cells on flexible Molybdenum foil
+by electrodeposition‑annealing route
+
+M. I. Khalil1 · R. Bernasconi1     · A. Lucotti2 · A. Le Donne3 · R. A. Mereu3 · S. Binetti3 · J. L. Hart4 · M. L. Taheri5 ·
+L. Nobili1 · L. Magagnin1
+
+
+Received: 12 May 2020 / Accepted: 10 October 2020 / Published online: 2 November 2020
+© The Author(s) 2020
+
+Abstract 
+Earth-abundant and non-toxic Kesterite-based ­Cu2ZnSnS4 (CZTS) thin film solar cells are successfully fabricated on flexible
+Molybdenum (Mo) foil substrates by an electrodeposition-annealing route. A well-adherent, densely packed, homogeneous,
+compact, and mirror-like CZT precursor is initially produced through electrodeposition by using a rotating working electrode.
+Subsequently, the co-electrodeposited CuZnSn (CZT) precursor is sulfurized in quartz tube furnace at 550 °C for 2 h in ­N2
+atmosphere with the presence of elemental sulfur in order to form CZTS. Different characterization techniques like XRD,
+SEM, HR-TEM, Raman, and Photoluminescence demonstrate that almost phase-pure CZTS formed after sulfurization. A
+flexible Al/Al-ZnO/i-ZnO/CdS/CZTS/Mo foil solar cell is produced, where CdS is deposited by chemical bath deposition
+and transparent conducting oxide (TCO) is deposited by DC sputtering. The CZTS solar device shows a 0.55% power con-
+version efficiency on flexible Mo foil substrate and it constitutes the first prototype of this kind of solar cell produced by
+electrodeposition-annealing route without any surface modification of the Mo substrate.
+Graphic abstract
+
+
+
+
+
+Keywords  CZTS · Flexible · Molybdenum · Electrodeposition · Sulfurization · Rotating electrode
+
+
+Electronic supplementary material  The online version of this
+article (https​://doi.org/10.1007/s1080​0-020-01494​-1) contains
+supplementary material, which is available to authorized users.
+
+Extended author information available on the last page of the article
+
+                                                                                                                                      Vol.:(0123456789)1 3
+--- Страница 2 ---
+210                                                                                        Journal of Applied Electrochemistry (2021) 51:209–218
+
+1  Introduction                                 more efficient, contrary to the case of CIGS cells where
+                                                   vacuum-based techniques deliver higher conversion effi-
+In order to make a real impact on worldwide energy    ciencies [8]. Several non-vacuum techniques like sol–gel,
+demand (at the TW level), solar materials should be cheap,    electrodeposition, solution-based method etc. have been
+non-toxic, and earth-abundant, and they should provide    widely studied to fabricate Kesterites thin films [13–15].
+high functional lifetime with high power conversion effi-     Most of the Kesterites-based thin films solar cells have
+ciency (PCE). Over the last few decades, thin film tech-    been fabricated till now on typical Mo-coated soda lime
+nologies based on direct band gap metal chalcogenides    glass (SLG). There are only few reports on fabrication of
+have shown the potential to produce photovoltaic (PV)    Kesterites-based solar cells on the flexible substrate like
+cells with low cost along with easy fabrication routes.    metallic foils or polyimides, irrespective to the fabrication
+Kesterites-based chalcogenides like CZTS ­(Cu2ZnSnS4),    processes [16–24]. Fabrication of Kesterites-based thin film
+CZTSe ­(Cu2ZnSnSe4), and mixed sulfo-selenide CZTSSe    solar cells on the flexible substrate has huge potential in
+­(Cu2ZnSn(S, Se)4) are attracting much attention nowadays    order to minimize production cost due to roll-to-roll manu-
+from researchers as promising alternatives to existing    facturing on the flexible substrate which enables the use of
+commercialized CIGS (Cu(In, Ga)Se2) and CdTe absorber   compact size deposition equipment with high throughput
+layers. This is due to the low cost of their mass produc-    [25]. It is, however, important to point out that, in the case
+tion, as constituent elements in Kesterites are non-toxic    of flexible solar cells, efficiency depends on bending radius.
+and abundant in the earth’s crust compared to CIGS and    Normally, an increase in efficiency for concave bending and
+CdTe. Moreover, they have suitable direct band gap near    a decrease in the case of convex bending is observed [26,
+to 1.45 eV (CZTS), around 1 eV (CZTSe), and 1.0–1.5 eV    27]. Flexible metal foil substrates like molybdenum (Mo),
+(CZTSSe, depending on the S/(S + Se) ratio) together with     stainless steel, aluminum (Al), titanium (Ti) etc. are potential
+high absorption coefficient (> 1 × 104 cm−1), which make    candidates of back contact as they are cheap, durable, light-
+them ideal among all the second generation thin film solar    weight, and sustainable at high-temperature sulfurization or
+cells [1–4]. Furthermore, theoretical conversion efficien-    selenization processes. In addition to this, a metallic back
+cies of Kesterites-based solar cells are around 32% like    contact layer is not required when metal substrate is used.
+chalcopyrite according to Shockley-Queisser photon bal-   On the other hand, the maximum operating temperature of
+ance calculations [5]. Due to the rapid progress of the    polyimide is typically below 500 °C which makes it unsuit-
+kesterite material development, the conversion efficiency    able for those fabrication processes where high-temperature
+of the Kesterites-based thin films solar cells have already    annealing is involved in the presence of sulfur or selenium.
+advanced to 9.4% (CZTS) [6], 11.6% (CZTSe) [7], and  Mo foil can be a better choice among all the flexible metallic
+12.6% (CZTSSe) [8]. They are still far behind the theo-     foil substrates considering its capability to withstand very
+retical conversion efficiency, despite these remarkable    high temperature along with high conductivity and compat-
+developments.                                                  ible coefficient of thermal expansion (5.2·10–6 K−1) [19].
+  A suitable fabrication method is important to achieve    Moreover, unlike stainless steel, it does not need any diffu-
+high-quality Kesterites without having any defects, which    sion barrier layer to prevent migration of substrate atom dur-
+ultimately govern the conversion efficiency. The volatile    ing sulfurization or selenization. Till now, maximum power
+nature of some of their elemental constituents and related    conversion efficiency of CZTS on flexible Mo foil substrate
+binary chalcogenides make the synthesis of stoichiomet-     is 3.82% [19], whereas maximum conversion efficiency of
+ric Kesterites difficult [9, 10]. In addition, it is difficult   CZTS on Mo-coated SLG is 9.4% [6]. On the other hand,
+to fabricate single-phase Kesterites as they exist within a   maximum power conversion efficiency of CZTS solar cell
+narrow composition field which is normally known as a   on flexible stainless steel was reported to be 4.2% through
+Cu-poor (Cu/(Zn + Sn) ≈ 0.7—0.9) and Zn-rich (Zn/Sn ≈    sputtering-H2S reactive annealing process with the incorpo-
+1.1—1.4) range, according to the phase diagram [9–12].    ration of alkali doping [18]. CZTS thin film solar cells on
+Besides inappropriate chemical composition of the metal-  Mo foil achieving the efficiency of 3.82% have been fabri-
+lic precursors, binary/ternary chalcogenide phases could    cated through electrodeposition-annealing route. Point to be
+also be created due to decomposition of Kesterites at high    noted, before deposition of CZTS on Mo foil, 800 nm Mo
+temperature during sulfurization or selenization [13].Till    back contact was deposited on Mo foil using DC sputtering
+now, different vacuum and non-vacuum deposition tech-    in their work. Meanwhile, power conversion efficiencies of
+niques have been deployed to fabricate Kesterites (CZTS,   CZTS and CZTSe on Mo-coated SLG have already reached
+CZTSe and CZTSSe). Both vacuum and non-vacuum tech-   8.1% [28] and 8.2% [29], respectively, through electrodepo-
+niques are very much in competition on conversion effi-    sition-annealing route. It has been demonstrated that alkali
+ciency, and in some cases, non-vacuum processes are even    doping at the interface of CZTS and Mo has significant
+                                                                    effects on the conversion efficiency of the solar cells which
+
+1 3
+--- Страница 3 ---
+Journal of Applied Electrochemistry (2021) 51:209–218                                                                           211
+
+has already been observed in CIGS thin film solar cells [30].   working electrode (at a rotation speed of 25–35 rpm). Its
+On the other hand, formation of ­MoS2 at the interface of    characteristics are detailed in the supporting materials (fig-
+CZTS has also substantial effects on conversion efficiency as    ure S1). Flexible Mo foil substrates (200 µm thick, Good-
+it is an indirect bandgap semiconductor with a gap of 1.3 eV    fellow) with an exposed area of 1.6 × 2.0 ­cm2 and titanium
+which creates a back contact blocking (Schottky) barrier that   mesh were used as a working electrode and counter inert
+restricts hole transport across the CZTS/Mo interface [31].    electrode, respectively. Mo substrates were cleaned in
+Compared to a variety of vacuum-based techniques and wet    acetone, immersed in 32% wt. HCl for 10 min to remove
+chemical methods, the material utilization rate in electro-    oxide, washed in distilled water, and finally dried under
+deposition is better than 90%, partly due to the selectivity     ­N2 atmosphere. Mo foil was then mounted on the rotating
+and partly because there is extensive know-how on the reuse    electrode and the Mo surface was immersed horizontally in
+and recycle of electroplating bath [32].                        the electrolyte. A 30 rpm rotation speed was employed dur-
+   In this work, we fabricated 0.55% efficient CZTS thin    ing electrodeposition. Electrodeposition experiments were
+film solar cells on flexible Mo foil substrate through elec-    accomplished by using an AMEL Model-549 Potentiostat.
+trodeposition-annealing route. Initially, a Cu–Zn-Sn (CZT)    Electrodeposition runs have been performed by using 4.5
+precursor is deposited on flexible Mo foil through co-elec-   – 5.5 mA/cm2 current density for 7–8 min, while keeping
+trodeposition, without sputtering a preliminary Mo layer.    the pH of the solution at 11. The electrolyte was dummied
+Other works reporting precursors deposition on unmodified     for 30 min at 5 mA/cm2 using the same anode/cathode con-
+Mo substrates are available in the literature [33, 34]. The    figuration in order to eliminate impurities.
+present work, however, presents important elements of inno-
+vation and uniqueness. The most important is the approach    2.2  CZT sulfurization process
+followed for the deposition step, in which a single alkaline
+electrolyte is employed to directly deposit CZT. Kalinauskas    After electroplating CZT precursor, the sample was sulfur-
+et al. [33] and Stanchik et al. [34], on the contrary, report    ized at 550 °C for 2 h in a quartz tube furnace with the pres-
+CZTS fabrication starting from multilayer precursors of    ence of 25 mg of elemental sulfur powder (Sigma Aldrich;
+the kind CuSn/Zn or Cu/Zn/Sn, all deposited from acidic    reagent grade, 100 mesh particle size). During sulfurization,
+electrolytes. Moreover, Stanchik et al. report CZTSe rather    a heating rate of 20 °C/minute was used and a very small
+than CZTS fabrication. Finally, both Kalinauskas et al. and    flow of ­N2 was maintained throughout the process [12, 35].
+Stanchik et al. limit the investigation to material fabrication,   At the end of the process, CZTS was allowed to naturally
+without producing complete solar cells. Following electro-    cooldown.
+deposition, the CZT layer is sulfurized at high temperature
+to get CZTS. Good quality of CZTS depends on the quality    2.3  CZTS solar cell construction
+of the CZT precursor, and for this reason, high-quality CZT
+precursor is prepared using rotating working electrode dur-    In order to form the p–n junction, n-type semiconductor CdS
+ing co-electrodeposition. No sputtering steps are employed   (≈70 nm) was deposited by chemical bath deposition on
+on Mo foil before co-electrodeposition of CZT unlike other    top of CZTS. An 80 nm intrinsic i-ZnO buffer layer, which
+works in the literature [19]. Following this approach, fabri-    acts to prevent any shunts, was then deposited by RF sput-
+cation process can be considerably simplified and optimized    tering. Later, a TCO layer consisting of 350 nm Al-doped
+in terms of cost and time.                         ZnO (AZO) was grown by DC-pulsed (2 kHz) sputtering.
+                                                                    Finally, cells were completed by evaporating an Al grid con-
+                                                                     tact on top of it. In this way, Al/Al-ZnO/i-ZnO/CdS/CZTS/
+2  Experimental section                   Mo foil device has been prepared. 6 single cells, each char-
+                                                               acterized by a 0.15 ­cm2 area, were fabricated on each CZTS
+2.1  Electrodeposition of the CZT precursor on Mo       coated Mo foil. No anti-reflection coating was used during
+     foil                                                     the measurement of the cells.
+
+Co-electrodeposition of Cu–Zn-Sn (CZT) was carried out    2.4  Characterization techniques
+under galvanostatic control in a conventional electrochemi-
+cal cell assembly at room temperature. Formulation of    Composition, morphology, crystalline phases, and rough-
+electrolyte bath has already been described in the existing    ness of the CZT precursors and sulfurized CZTS films were
+literature [35]. Briefly, such electrolyte contained 2.5 g/l    investigated by SEM, Laser Profilometry, XRD, SEM, TEM,
+­CuSO4 ­5H2O, 15 g/l ­ZnSO4 ­7H2O, 10.5 g/l ­Na2SnO3 ­3H2O,   and Raman spectroscopy. Material band gap was investi-
+200 g/l ­K4P2O7, and 0.4 g/l ­CH3(CH2)11OSO3Na. A rotating    gated by Photoluminescence (PL) spectroscopy. The forma-
+working electrode was used in place of the simple vertical    tion of impurity and ­MoS2 at the interface of CZTS and
+
+                                                                1 3
+--- Страница 4 ---
+212                                                                                        Journal of Applied Electrochemistry (2021) 51:209–218
+
+Mo was evaluated through HR-TEM and electron energy    constant mass flux to the cathode surface using rotating
+loss spectroscopy (EELS). The crystallographic phase of    working electrode which is very important to get homoge-
+sulfurized films was analyzed by X-ray diffraction (XRD),    neous and smooth films. Moreover, it is believed that com-
+using a Philips X-pert MPD instrument with ­CuKα1 radia-    position of various elements in the deposited film remains
+tion (1.5406 Å).The morphology and chemical composi-    independent of the deposition times when the rotating work-
+tions of the samples were studied by Scanning Electron    ing electrode is employed during co-electrodeposition [37].
+Microscopy (Model Zeiss EVO 50) together with Energy         It is well known that Cu-poor, Zn-rich precursor com-
+Dispersive X-ray Spectroscopy (EDS) (Oxford instrument,    position is necessary to obtain good kesterite CZTS film
+Model 7060). UBM laser profilometer was used for assess-    due to the narrow composition range for CZTS formation.
+ing the roughness parameters. Raman measurements were    This happens due to the volatile nature of S, SnS, and Zn
+carried out in the air at room temperature with a micro-    during sulfurization which can vary the relative percentage
+Raman spectrometer (Horiba Jobin–Yvon Labram HR800)    of the elements to a great extent [9, 10, 12] and may result
+in the backscattering configuration. The 785 nm excitation    in poor kesterite films, characterized by the extensive for-
+wavelength has been used during the Raman characterization    mation of secondary phases. For this reason, in this study,
+of the samples. To avoid the laser heating of the sample, the   Cu-poor and Zn-rich precursor (Cu 43.5 at. %, Zn 33 at.
+laser power density was kept as low as possible. The laser  % and Sn 23.5 at. %; Cu/(Zn + Sn) = 0.77 and Zn/Sn = 1.4)
+power was reduced from 100 to 1 mW at the sample passing    has been employed for the fabrication of CZTS. Such CZT
+through a suitable filtering system with spot size about 1 µm    composition resulted in quasi-stoichiometric CZTS after
+diameter. Here, the beam was focused on the sample using    annealing [12]. Figure 1 shows the surface morphology and
+an objective lens with 50 × magnification. Photolumines-    cross-sectional view of the as-deposited CZT film observed
+cence (PL) spectra of the films have been acquired at 15 K   by SEM. It is evident that the electrodeposited CZT film is
+temperature with above bandgap excitation (λexc = 805 nm).    quite homogenous, dense, and continuous, without visible
+All PL measurements were performed with a spectral
+resolution of 6.6 nm using a standard lock-in technique in
+conjunction with a single grating monochromator and an
+InGaAs detector. Selected Area Electron Diffraction (SAED)
+and TEM observation were performed with a JEOL 2100F
+(Schottky) microscope equipped with a high-resolution
+pole piece, operated at 200 keV. EELS was acquired with a
+GIF Quantum and direct-detection sensor with a collection
+angle of 30 mrad [36]. Solar cell J-V characteristics were
+taken under Air Mass 1.5 conditions (simulating terrestrial
+applications) with a Abet Lot-Oriel Solar simulator with the
+constant incident power density of 1 Sun (100 mW/cm2) and
+with Keithley 2440 source meter. Representative data from
+each characterization technique are reported in the results
+section.
+
+3  Results and discussion
+
+3.1  CZT deposition on Mo flexible foil
+
+Due to the large reduction potential window among Cu,
+Zn, and Sn metal ions, it is very difficult to co-electrode-
+posit CZT from single electrolyte. In our previous work,
+we were able to electrodeposit them together from single
+electrolyte where pyrophosphate was used as an only single
+complexing agent [35]. In order to obtain better precursors
+in terms of homogeneous distribution of elements and mini-
+mum roughness of the film with respect to previous works,
+here improved bath with rotating working electrode was      Fig. 1   SEM surface morphology a and the cross-sectional view b of
+employed during electrodeposition. It is possible to provide     as-deposited CZT layer
+
+1 3
+--- Страница 5 ---
+Journal of Applied Electrochemistry (2021) 51:209–218                                                                           213
+
+porosity in the cross-section, unlike other results reported   The sharpness of the diffraction peaks indicates the high
+in the literature [38]. Moreover, CZT adhesion to the Mo     crystallinity of the film. Diffraction peaks of CZTS can also
+substrate was found to be excellent. Average roughness of    be attributed to the ternary phase ­Cu2SnS3, since they have
+the CZT film was around 94 nm, while substrate roughness    similar lattice parameters, or to ZnS [42]. As a result, com-
+was around 100 nm, which is quite commendable for the    plementary Raman spectroscopy (Fig. 2b) was employed
+co-electrodeposition of CZT.                                   to further characterize the sample. In order to have the bet-
+                                                                        ter understanding of the formation of CZTS along the film
+3.2  Characterization of sulfurized CZTS on flexible      thickness, the 785 nm excitation wavelength has been used.
+   Mo foil                                          According to previous studies [43], the penetration depth
+                                                            of the 785 nm laser beam in CZTS film is approximately
+Figure 2a shows the XRD diffractogram of sulfurized kes-   400 nm and this allows to explore deeper the sample with
+terite CZTS film. Here, the CZT precursor was sulfurized    respect to the 514 nm excitation line with a penetration depth
+at 550 °C for 2 h with a heating rate of 20 °C/minute. All    of only 150 nm.
+the XRD peaks of sulfurized sample correspond to the      Figure 2b displays the Raman spectrum of the sulfurized
+typical polycrystalline kesterite structure of CZTS (JCPDS   CZTS thin film measured at room temperature using the
+card 26–0575) with intense (112) peak at 28.53° which is   785 nm excitation wavelength. All the main Raman peaks
+in agreement with findings of other studies [19, 35, 39–41].    associated with CZTS were observed at 266 cm−1, 287 cm−1,
+                                                   338 cm−1, 366 cm−1, and 376 cm−1 Raman shift including
+                                                  main intense peak at 338 cm−1 which is commonly men-
+                                                             tioned in the literature [41, 43–45] and has been associated
+                                                                  to the vibration of sulfur atoms [46]. The appearance of two
+                                                                  distinct peaks around 367 cm−1 and 375 cm−1 is typical
+                                                            of Raman spectra of CZTS acquired with excitation laser
+                                                       wavelength of 785 nm [39, 43]. At lower excitation wave-
+                                                               lengths, only a broad peak at 367 cm−1 is evident. In the
+                                            Raman spectrum, some additional weaker peaks are also
+                                                         observed at 303 cm−1 (cubic ­Cu2SnS3) and 314 cm−1 ­(SnS2)
+                                                             as reported by other authors [43, 44]. Despite the presence
+                                                             of some secondary phases in film, crystalline CZTS is the
+                                                                  largely dominant constituent of the film as the peak intensity
+                                                             of the secondary phases is very weak.
+                                                             Further insight into the structural properties of the sul-
+                                                           furized CZTS film was gained through high-resolution
+                                    TEM (HR-TEM) and EELS analysis of a focused ion beam
+                                                        (FIB) prepared using the cross-sectional sample. Figure 3
+                                                              depicts the HR-TEM of the regions adjacent to the CZTS/
+                                     Mo interface. TEM imaging and SAED show that the sam-
+                                                              ple is primarily composed of CTZS grains several hundred
+                                        nm in diameter, in agreement with XRD and Raman results
+                                                                   (Fig. 3a and S2). Many twin boundaries and dislocations are
+                                                                  visible inside the grains of the CZTS phase, as observed in
+                                                             other studies (Fig. S3 and S4) [47].
+                                                   The interface between Mo and CZTS was analyzed thor-
+                                                      oughly by using HR-TEM and electron energy loss spec-
+                                                          troscopy (EELS). In addition to the CZTS, TEM revealed
+                                                              the presence of two secondary phases. As shown in Fig. 3,
+                                    TEM imaging found a continuous and uniform layer sepa-
+                                                                rating the Mo substrate and CZTS film. EELS analysis of
+                                                                     this layer shows only Mo and S (Fig. 4b, c), and HR-TEM
+                                                     shows a measured lattice spacing of 6.2 Angstroms (Fig. 3b).
+                                                    Given that the lattice constant of ­MoS2 is 6.11 Angstroms,
+Fig. 2   XRD pattern a and Raman spectrum b of CZTS film obtained    the EELS and HR-TEM data indicate a layer of ­MoS2 formedfrom sulfurization                                                    between the Mo substrate and CZTS film. A third phase
+
+                                                                1 3
+--- Страница 6 ---
+214                                                                                        Journal of Applied Electrochemistry (2021) 51:209–218
+
+
+
+
+
+Fig. 3   Low-magnification a and high-resolution b TEM structural analysis of the interface of CZTS/Mo
+
+
+
+
+
+Fig. 4   Electron energy loss spectroscopy (EELS) elemental mapping at the CZTS/Mo interface
+
+is observed in TEM, consisting of nanograin clusters. This    and O (Fig. S6). We note that it is difficult to independently
+phase has a relatively low concentration throughout the    extract the O and Sn EELS signals since the O K edge over-
+CZTS film (Fig. S5 and S6), but the concentration increases    laps the Sn M edge. However, Fig. 4d shows a map of the
+considerably near the Mo substrate (Fig. 3a). SAED of this   EELS signal from 470–590 eV, which includes both the O
+phase is consistent with ­SnO2 (Fig. S5). Agreeing with this  K and Sn M edges. Clearly, there is a large increase in the
+measurement, EELS shows that this phase only contains Sn   combined concentration and O + Sn within this third phase,
+
+1 3
+--- Страница 7 ---
+Journal of Applied Electrochemistry (2021) 51:209–218                                                                           215
+
+and Mo, Cu, and S are all absent. By comparing EELS spec-    an asymmetric broad band at 1.21 eV. Similar asymmet-
+tra extracted from the CZTS phase and the ­SnO2 phase, it     ric emissions were observed in CZTS fabricated through
+is clear that both phases contain Sn, but O is only present    various methods by different groups [45, 51–53]. Accord-
+within the ­SnO2 phase (Fig. S6). The spectra taken from    ing to the literature [51, 52], this band is associated to a
+the ­SnO2 region closely match those found in the literature    quasi-donor–acceptor pair (QDAP) transition, which
+[48]. HR-TEM of this phase shows a lattice spacing of 3.2    involves potential fluctuations, as commonly observed in
+Angstroms, consistent with the expected value of 3.18 Ang-    highly defective and compensated semiconductors. It was
+stroms for ­SnO2.                                             also demonstrated that the presence of a QDAP emission
+  The presence of ­MoS2 and ­SnO2 were not detected by    with saturated peak energy position towards 1.18 eV in the
+XRD or Raman analysis. However, it is possible that these   PL spectrum of CZTS layers indicates them as efficient PV
+phases were not detected with XRD because of their nano-    absorbers [54].
+metric size and very low amount. It is also possible that       In order to test the efficiency of the grown layers as PV
+they were located too deep in the CZTS layer to contribute    absorbers, CZTS thin films solar cells were fabricated on
+to the Raman signal, provided that their content was above  Mo foil with classical configuration (Al/Al-ZnO/i-ZnO/CdS/
+the detection limit of Raman spectroscopy. The source of   CZTS/Mo foil). Figure 6a shows the current–voltage (J-V)
+the ­SnO2 clusters is presently unclear; it might be guessed    characteristics of CZTS solar cells measured under AM 1.5
+that their formation was caused by the oxidizing impuri-    illumination. As fabricated Al/Al-ZnO/i-ZnO/CdS/CZTS/
+ties of the nitrogen gas used in the sulfurization step. ­SnO2  Mo foil device shows 0.55% power conversion efficiency
+is a large bandgap oxide and a VB offset of approximately
+1.5 eV is predicted to exist at the boundary between CZTS
+and ­SnO2; hence this interface might act as a barrier to hole
+transport [49, 50].
+
+3.3  Complete CZTS solar cell characterization
+
+After the morphological investigation of the formed CZTS
+layer, complete cells were fabricated. Figure 5 shows the
+SEM cross-sectional image of the CZTS solar cell, which
+demonstrates that CZTS possesses bimodal grain distribu-
+tion where smaller grains are located near the interface with
+Mo and larger grains at the top of the CZTS.
+   In order to make sure that fabricated CZTS absorber
+layers are applicable to photonic devices (i.e., solar cells),
+samples were further characterized by Photoluminescence
+Spectroscopy (PL). A typical photoluminescence spectrum
+of CZTS films at 15 K is reported in Fig. S7, which shows
+
+
+
+
+
+                                                                                           Fig. 6   J-V characteristics of fabricated CZTS solar cell under AM 1.5
+                                                                          illumination (a) and External quantum efficiency (EQE) curve of theFig. 5   SEM cross-sectional image of fabricated CZTS solar cell                                                 CZTS solar cell (b)
+
+                                                                1 3
+--- Страница 8 ---
+216                                                                                        Journal of Applied Electrochemistry (2021) 51:209–218
+
+(PCE) with ­Jsc = 7.60 mA/cm2, ­Voc = 203.98 mV and    the maximum value of 38.5% (at 510 nm) indicating a high
+FF = 35.68%. The low fill factor can come from high series    recombination rate, in agreement with ­Voc value obtained by
+resistance due to back contact electrical characteristics. In    J-V characterization. The reduction of EQE spectrum in the
+addition to this, non-adherence between various layers and    short wavelength portion is ascribed to the absorption losses
+morphological problems because of elemental losses during    in the window and buffer layers (Al-ZnO, i-ZnO, CdS) [41].
+sulfurization can also contribute to lowering both ­Jsc and FF   On the other hand, recombination processes contribute to
+[55]. On the other hand, the small value of ­Voc is most prob-    lower the EQE values in the long wavelength region.
+ably related to the presence of recombination paths may be
+associated with grain boundaries or other defects. Formation
+of interfacial ­MoS2 during sulfurization process may affect    4  Conclusions
+the ­VOC and alter the band alignment between the CZTS
+film and ­MoS2/Mo. Hence, it may reduce the conversion  A CZTS thin film solar cell was successfully synthesized
+efficiency of the solar cells since it is in inverse propor-   on flexible Mo foil substrate by the electrodeposition-
+tion to the solar cell characteristics after the certain limit. It    annealing method with 0.55% power conversion efficiency.
+was reported that the formation of ­MoS2 interfacial layer at  A high-quality CZT precursor without any void or crevice
+the CZTS/Mo interface enhances the quasi-ohmic electrical   was fabricated by the co-electrodeposition route using rotat-
+contact when it forms with appreciable thickness [56]. On    ing working electrode. Formation of ­MoS2 at the interface,
+the other hand, a thick ­MoS2 layer at the CZTS/Mo inter-    together with ­SnO2 formation near to ­MoS2, can explain
+face can influence the total series resistance of the device    the low performances of the final device. Moreover, the
+[41]. However, Zhang et al. recently demonstrated 7.2%    absence of alkali metal doping at the substrate can be also
+efficient CZTS solar cells without having any ­MoS2 layer    associated with such low efficiency of the cell. Nevertheless,
+[57]. By the way, HR-TEM suggest around 50 nm of ­MoS2     first power conversion device based on CZTS thin film solar
+has been formed in our solar cells (Fig. 3). Moreover, the     cell on flexible Mo foil substrate, which has been produced
+effect of alkali metals (Na, K) on the conversion efficiency   by electrodeposition-annealing route without any surface
+of chalcogenide thin film solar cells cannot be ignored, as it    modification, was demonstrated. In perspective, the good
+has already been reported that alkali incorporation to CIGS    adhesion obtained between the CZTS layer and the Mo sub-
+increases its open circuit voltage and fill factor [58]. Though     strate constitutes a suitable starting point to perform tests
+the alkali effect on the conversion efficiency was not exten-     at controlled bending angle and defined number of bending
+sively investigated for CZTS/CZTSe, results similar to those    cycles, since it will reasonably prevent active layer delami-
+reported for CIGS have been found in case of CZTS also    nation. The CZTS cells obtained following the methodology
+[59, 60]. Alkali incorporation in CZTS can affect the grain    described in the present work constitute, thus, a promising
+size of the final film, the (112) texturing, the free carrier    starting point for further process optimization and for addi-
+concentration, the hole density and mobility of the film [58].    tional testing under bending conditions.
+Yang et al. demonstrated that there is a directly proportional
+relationship between CZTS thin film solar cells efficiency    Acknowledgements  MLT and JLH acknowledge funding in part from
+                                                                          the Engineers As Global Leaders for Energy Sustainability EU-Atlantisand Na content in Mo layer. This is probably one of the                                                            Program supported by the US Department of Education, and in part
+main reasons why the efficiency of CZTS solar cells on the    from the National Science Foundation’s Major Research Instrumenta-
+flexible substrate is far behind that of CZTS solar cells on     tion Program with award #1429661.
+Mo-coated SLG substrate. Recently Lopez-Marino et al.
+reported that an improvement in the conversion efficiency    Funding  Open access funding provided by Politecnico di Milano
+                                                                      within the CRUI-CARE Agreement.of CZTSe solar cells from 2.2% to 4.3% is possible using
+Mo-Na (Na doped Mo) layer sandwiched between regular    Open Access  This article is licensed under a Creative Commons Attri-
+Mo layers. After further optimizing the Cr diffusion barrier     bution 4.0 International License, which permits use, sharing, adapta-
+layer, they reported a record efficiency of 6.1% for a CZTSe     tion, distribution and reproduction in any medium or format, as long
+solar cell on flexible stainless steel substrate prepared by     as you give appropriate credit to the original author(s) and the source,
+                                                                      provide a link to the Creative Commons licence, and indicate if changesthe sputtering-annealing process [17]. Point to be noted, the                                                              were made. The images or other third party material in this article are
+device described in the present work is the first prototype     included in the article’s Creative Commons licence, unless indicated
+of CZTS solar cells on flexible Mo substrate that is realized     otherwise in a credit line to the material. If material is not included in
+through electrodeposition-annealing route without any sur-     the article’s Creative Commons licence and your intended use is not
+                                                                       permitted by statutory regulation or exceeds the permitted use, you willface modification, to the best of our knowledge.                                                                need to obtain permission directly from the copyright holder. To view a
+   Figure 6b shows the external quantum efficiency (EQE)    copy of this licence, visit http://creat​iveco​mmons​.org/licen​ses/by/4.0/.
+spectrum of our CZTS solar cell between 350 and 1000 nm.
+The EQE demonstrates a low overall spectrum response with
+
+1 3
+--- Страница 9 ---
+Journal of Applied Electrochemistry (2021) 51:209–218                                                                           217
+
+References                                                       21.  Tian Q, Xu X, Han L et al (2012) Hydrophilic Cu 2 ZnSnS 4
+                                                                           nanocrystals for printing flexible, low-cost and environmentally
+                                                                                friendly solar cells. CrystEngComm 14:3847–3850 1.  Ito K, Nakazawa T (1988) Electrical and optical properties of                                                                       22. Zhou Z, Wang Y, Xu D, Zhang Y (2010) Fabrication of Cu2Zn-     stannite-type quaternary semiconductor thin films. Jpn J Appl                                                            SnS4 screen printed layers for solar cells. Sol Energy Mater Sol    Phys 27:2094                                                                             Cells 94:2042–2045 2.  Nakayama N, Ito K (1996) Sprayed films of stannite Cu2ZnSnS4.                                                                       23.  Khalil MI, Bernasconi R, Pedrazzetti L et al (2017) Co-electro-    Appl Surf Sci 92:171–175                                                                          deposition of metallic precursors for the fabrication of CZTSe 3.  Khalate SA, Kate RS, Deokate RJ (2018) A review on energy                                                                              thin films solar cells on flexible Mo foil. J Electrochem Soc    economics and the recent research and development in energy and                                                             164:D302–D306     the Cu2ZnSnS4 (CZTS) solar cells: A focus towards efficiency.                                                                       24. Sun K, Liu F, Huang J et al (2018) Flexible kesterite Cu2ZnSnS4    Sol Energy 169:616–633                                                                               solar cells with sodium-doped molybdenum back contacts on 4.  Pal K, Singh P, Bhaduri A, Thapa KB (2019) Current challenges                                                                                    stainless steel substrates. Sol Energy Mater Sol Cells 182:14–20    and future prospects for a highly efficient (> 20%) kesterite CZTS                                                                       25.  Reinhard P, Chirilă A, Blösch P, et al (2012) Review of progress     solar cell: A review. Sol Energy Mater Sol Cells 196:138–156                                                                       toward 20% efficiency flexible CIGS solar cells and manufacturing 5.  Shockley W, Queisser HJ (1961) Detailed balance limit of effi-                                                                                 issues of solar modules. In: 2012 IEEE 38th Photovoltaic Special-     ciency of p-n junction solar cells. J Appl Phys 32:510–519                                                                                               ists Conference (PVSC) PART 2. IEEE, pp 1–9 6.  Tajima S, Umehara M, Hasegawa M et al (2017) Cu2ZnSnS4                                                                       26. Moaven S, Naji L, Taromi FA, Sharif F (2015) Effect of bending     photovoltaic cell with improved efficiency fabricated by high-                                                                         deformation on photovoltaic performance of flexible graphene/Ag    temperature annealing after CdS buffer-layer deposition. Prog                                                                            electrode-based polymer solar cells. RSC Adv 5:30889–30901     Photovoltaics Res Appl 25:14–22                                                                       27.  Pei L, Yu H, Zhang Q et al (2020) Concave and Convex Bending 7.  Lee YS, Gershon T, Gunawan O et al (2015) Cu2ZnSnSe4 thin-                                                                             Influenced Mechanical Stability in Flexible Perovskite Solar Cells.     film solar cells by thermal co-evaporation with 11.6% efficiency                                                                                      J Phys Chem C 124(4):2340–2345    and improved minority carrier diffusion length. Adv Energy Mater                                                                       28.  Jiang F, Ikeda S, Tang Z et al (2015) Impact of alloying duration    5(7):1401372                                                                            of an electrodeposited Cu/Sn/Zn metallic stack on properties of 8. Wang W, Winkler MT, Gunawan O et al (2014) Device character-                                                           Cu2ZnSnS4 absorbers for thin-film solar cells. Prog Photovoltaics      istics of CZTSSe thin-film solar cells with 12.6% efficiency. Adv                                                                Res Appl 23:1884–1895    Energy Mater 4:1301465                                                                       29. Vauche L, Risch L, Sánchez Y et al (2016) 8.2% pure selenide 9.  Scragg JJ, Ericson T, Kubart T et al (2011) Chemical insights into                                                                                  kesterite thin-film solar cells from large-area electrodeposited     the instability of Cu2ZnSnS4 films during annealing. Chem Mater                                                                               precursors. Prog Photovoltaics Res Appl 24:38–51    23:4625–4633                                                                       30. Yang K, Sim J, Jeon B et al (2015) Effects of Na and MoS2 on10.  Redinger A, Berg DM, Dale PJ, Siebentritt S (2011) The conse-                                                         Cu2ZnSnS4 thin-film solar cell. Prog Photovoltaics Res Appl    quences of kesterite equilibria for efficient solar cells. J Am Chem                                                                  23:862–873    Soc 133:3320–3323                                                                       31.  Shin B, Zhu Y, Bojarczuk NA et al (2012) Control of an interfacial11.  Olekseyuk ID, Dudchak IV, Piskach LV (2004) Phase equilibria                                                      MoSe2 layer in Cu2ZnSnSe4 thin film solar cells: 8.9% power     in the Cu2S–ZnS–SnS2 system. J Alloys Compd 368:135–143                                                                          conversion efficiency with a TiN diffusion barrier. Appl Phys Lett12.  Khalil MI, Bernasconi R, Ieffa S et al (2015) Effect of co-elec-                                                                   101:53903     trodeposited Cu-Zn-Sn precursor compositions on sulfurized                                                                       32.  Deligianni H, Ahmed S, Romankiw LT (2011) The next frontier:   CZTS thin films for solar cell. ECS Trans 64:33–41                                                                                electrodeposition for solar cell fabrication. Electrochem Soc Inter-13.  Delbos S (2012) Kësterite thin films for photovoltaics: a review.                                                                             face 20:47    EPJ Photovoltaics 3:35004                                                                       33.  Kalinauskas P, Norkus E, Mockus Z et al (2020) The Influence of14.  Toura H, Khattak YH, Baig F et al (2019) Effect of complexing                                                               Removal of Secondary Phases and Dissolution By-Product from     agent on the morphology and annealing temperature of CZTS                                                                            the Surface of Cu2ZnSnS4 Film on the Photoelectrochemical     kesterite thin films by electrochemical deposition. Curr Appl Phys                                                                  Response of This Film. J Electrochem Soc 167:26513    19:606–613                                                                       34.  Stanchik AV, Gremenok VF, Bashkirov SA et al (2018) Micro-15.  Khattak YH, Baig F, Toura H et al (2019) Single step electro-                                                                                    structure and Raman scattering of Cu 2 ZnSnSe 4 thin films depos-    chemical deposition for the fabrication of CZTS kesterite thin                                                                                     ited onto flexible metal substrates. Semiconductors 52:215–220     films for solar cells. Appl Surf Sci 497:143794                                                                       35.  Khalil MI, Bernasconi R, Magagnin L (2014) CZTS layers for16.  López-Marino S, Neuschitzer M, Sánchez Y et al (2014) Earth-                                                                                 solar cells by an electrodeposition-annealing route. Electrochim    abundant absorber based solar cells onto low weight stainless steel                                                                   Acta 145:154–158     substrate. Sol energy Mater Sol cells 130:347–353                                                                       36.  Hart JL, Lang AC, Leff AC et al (2017) Direct detection electron17.  López-Marino S, Sánchez Y, Espíndola-Rodríguez M et al (2016)                                                                            energy-loss spectroscopy: a method to push the limits of resolu-     Alkali doping strategies for flexible and light-weight Cu 2 ZnSnSe                                                                                  tion and sensitivity. Sci Rep 7:1–14    4 solar cells. J Mater Chem A 4:1895–1907                                                                       37.  Colombara D, Crossay A, Vauche L et al (2015) Electrodeposition18.  Bras P, Sterner J, Platzer-Björkman C (2015) Influence of hydro-                                                                            of kesterite thin films for photovoltaic applications: Quo vadis?    gen sulfide annealing on copper–zinc–tin–sulfide solar cells                                                                  Phys status solidi 212:88–102     sputtered from a quaternary compound target. Thin Solid Films                                                                       38.  Kondrotas R, Juškėnas R, Naujokaitis A et al (2015) Characteri-    582:233–238                                                                             zation of Cu2ZnSnSe4 solar cells prepared from electrochemi-19. Zhang Y, Ye Q, Liu J et al (2014) Earth-abundant and low-                                                                                 cally co-deposited Cu–Zn–Sn alloy. Sol energy Mater Sol cells     cost CZTS solar cell on flexible molybdenum foil. Rsc Adv                                                                   132:21–28    4:23666–23669                                                                       39.  Khalil MI, Atici O, Lucotti A et al (2016) CZTS absorber layer20. Peng C-Y, Dhakal TP, Garner S et al (2014) Fabrication of Cu2Z-                                                                                  for thin film solar cells from electrodeposited metallic stacked    nSnS4 solar cell on a flexible glass substrate. Thin Solid Films                                                                            precursors (Zn/Cu-Sn). Appl Surf Sci 379:91–97    562:574–577                                                                       40.  Marchionna S, Garattini P, Le Donne A et al (2013) Cu2ZnSnS4
+                                                                                  solar cells grown by sulphurisation of sputtered metal precursors.
+                                                                   Thin Solid Films 542:114–118
+
+                                                                1 3
+--- Страница 10 ---
+218                                                                                        Journal of Applied Electrochemistry (2021) 51:209–218
+
+41. Ahmed S, Reuter KB, Gunawan O et al (2012) A high efficiency     52.  Leitão JP, Santos NM, Fernandes PA et al (2011) Study of optical
+     electrodeposited Cu2ZnSnS4 solar cell. Adv Energy Mater        and structural properties of Cu2ZnSnS4 thin films. Thin Solid
+    2:253–259                                                        Films 519:7390–7393
+42. Walsh A, Chen S, Wei S, Gong X (2012) Kesterite thin-film solar     53. Tanaka K, Miyamoto Y, Uchiki H et al (2006) Donor-acceptor
+      cells: Advances in materials modelling of Cu2ZnSnS4. Adv          pair recombination luminescence from Cu2ZnSnS4 bulk single
+    Energy Mater 2:400–409                                                     crystals. Phys status solidi 203:2891–2896
+43.  Fernandes PA, Salomé PMP, Da Cunha AF (2011) Study of     54.  Gershon T, Shin B, Gokmen T et al (2013) Relationship between
+     polycrystalline Cu2ZnSnS4 films by Raman scattering. J Alloys       Cu2ZnSnS4 quasi donor-acceptor pair density and solar cell effi-
+    Compd 509:7600–7606                                                   ciency. Appl Phys Lett 103:193903
+44.  Lin X, Kavalakkatt J, Kornhuber K et al (2013) Structural and     55. Vauche L, Dubois J, Laparre A et al (2015) Rapid thermal pro-
+     optical properties of Cu2ZnSnS4 thin film absorbers from         cessing annealing challenges for large scale Cu2ZnSnS4 thin
+    ZnS and Cu3SnS4 nanoparticle precursors. Thin Solid Films           films. Phys Status Solidi 212:103–108
+    535:10–13                                                        56. Habas SE, Platt HAS, Van Hest MFAM, Ginley DS (2010) Low-
+45.  Altosaar M, Raudoja J, Timmo K et al (2008) Cu2Zn1–x Cdx Sn          cost inorganic solar cells: from ink to printed device. Chem Rev
+    (Se1–y Sy) 4 solid solutions as absorber materials for solar cells.        110:6571–6594
+    Phys status solidi 205:167–170                                     57. Zhang Z, Yao L, Zhang Y et al (2018) Modified back contact
+46. Himmrich M, Haeuseler H (1991) Far infrared studies on stannite          interface of CZTSe thin film solar cells: elimination of double
+    and wurtzstannite type compounds. Spectrochim Acta Part A Mol          layer distribution in absorber layer. Adv Sci 5:1700645
+     Spectrosc 47:933–942                                             58. Salomé PMP, Rodriguez-Alvarez H, Sadewasser S (2015) Incor-
+47.  Kattan N, Hou B, Fermín DJ, Cherns D (2015) Crystal structure          poration of alkali metals in chalcogenide solar cells. Sol Energy
+    and defects visualization of Cu2ZnSnS4 nanoparticles employing        Mater Sol Cells 143:9–20
+     transmission electron microscopy and electron diffraction. Appl     59. Oo WMH, Johnson JL, Bhatia A et al (2011) Grain size and
+    Mater Today 1:52–59                                                     texture of Cu 2 ZnSnS 4 thin films synthesized by cosputtering
+48.  Lorenz H, Zhao Q, Turner S et al (2010) Preparation and struc-         binary sulfides and annealing: effects of processing conditions and
+      tural characterization of SnO2 and GeO2 methanol steam reform-         sodium. J Electron Mater 40:2214
+     ing thin film model catalysts by (HR) TEM. Mater Chem Phys     60.  Prabhakar T, Jampana N (2011) Effect of sodium diffusion on the
+    122:623–629                                                                structural and electrical properties of Cu2ZnSnS4 thin films. Sol
+49. Ge J, Yu Y, Ke W et al (2016) Improved Performance of Electro-        Energy Mater Sol Cells 95:1001–1004
+     plated CZTS Thin-Film Solar Cells with Bifacial Configuration.
+    Chemsuschem 9:2149–2158                                          Publisher’s Note  Springer Nature remains  neutral with regard  to
+50. Kim JH, Choi S, Choi M et al (2016) Atomic-scale observation     jurisdictional claims in published maps and institutional affiliations.
+     of oxygen substitution and its correlation with hole-transport
+     barriers in Cu2ZnSnSe4 thin-film solar cells. Adv Energy Mater
+    6:1501902
+51. Le Donne A, Marchionna S, Garattini P, et al (2015) Effects of
+    CdS buffer layers on photoluminescence properties of Cu2ZnSnS4
+     solar cells. Int J Photoenergy 2015:
+
+Affiliations
+
+M. I. Khalil1 · R. Bernasconi1     · A. Lucotti2 · A. Le Donne3 · R. A. Mereu3 · S. Binetti3 · J. L. Hart4 · M. L. Taheri5 ·
+L. Nobili1 · L. Magagnin1
+
+* L. Magagnin                                                                  3   Department of Materials Science and Solar Energy Research
+    luca.magagnin@polimi.it                                             Centre (MIB‑SOLAR), University of Milano - Bicocca, Via
+                                                                    Cozzi 55, 20125 Milano, Italy
+1   Department of Chemistry, Materials and Chemical                       4                                                                   Department of Materials Science and Engineering, Drexel    Engineering “Giulio Natta”, Politecnico Di Milano, Via                                                                                University, Philadelphia, PA, USA    Mancinelli 7, 20131 Milano, Italy
+                                                                                      5   Department of Materials Science and Engineering, Johns2    Department of Chemistry, Materials and Chemical                                                                  Hopkins University, Baltimore, MD 21218, USA    Engineering “Giulio Natta”, Politecnico Di Milano, Piazza
+    Leonardo da Vinci 32, 20133 Milano, Italy
+
+
+
+
+
+1 3

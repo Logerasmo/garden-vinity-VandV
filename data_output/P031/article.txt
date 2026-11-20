@@ -1,0 +1,493 @@
+--- Страница 1 ---
+                                                    Solar Energy Materials & Solar Cells 267 (2024) 112717
+
+                                                 Contents lists available at ScienceDirect
+                      Solar Energy Materials and Solar Cells
+
+
+                                           journal homepage: www.elsevier.com/locate/solmat
+
+
+The effect of remnant CdSe layers on the performance of CdSeTe/CdTe
+photovoltaic devices
+Xiaolei Liu a,*, Ali Abbas a, Mustafa Togay a, Vlad Kornienko a, Rachael Greenhalgh a,
+Kieran Curson a, Jake Bowers a, Kurt Barth a, Michael Walls a, Ebin Bastola b,
+Griffin Barros-King b, Adam B. Phillips b, Michael J. Heben b
+a Centre for Renewable Energy Systems Technology (CREST), Wolfson School of Mechanical, Electrical and Manufacturing Engineering, Loughborough University,
+Loughborough, Leicestershire, LE11 3TU, United Kingdom
+b Wright Center for Photovoltaics Innovation and Commercialization, University of Toledo, Toledo, OH, 43606, United States
+
+
+A R T I C L E  I N F O                  A B S T R A C T
+
+Keywords:                                     Thin film CdTe-based photovoltaic devices have achieved high efficiency above 22 %. The recent improvement in
+CdSeTe/CdTe solar cell                                efficiency is due to Se alloying in the CdTe absorbers to form a CdSeTe/CdTe structure. The subsequent band gap
+CdSe remnant                                    grading increases the short circuit current density. The Se can be introduced by depositing a precursor thin film
+Grain boundary                                                     of either CdSe or a CdSeTe alloy and then diffusing the Se into the CdTe during the high temperature cadmiumParasitic absorption                                                   chloride activation process. Using CdSe is preferred because it is easier to control the Se concentration. However,
+                                               during fabrication of the CdSeTe/CdTe devices, the CdSe thickness needs to be precisely controlled to prevent the
+                                                   retention of a CdSe remnant layer after the activation treatment. Retention of a remnant CdSe layer causes a
+                                               dramatic reduction in device efficiency. In this work, we show that the reduction in efficiency is caused by a
+                                        number of factors. The remnant CdSe layer is n-type which moves the position of the p-n junction. Also, it is
+                                              widely thought that the CdSe remnants are photo-inactive. In this work, we clarify that the individual CdSe
+                                                   grains are actually highly photo-active. However, the grain sizes in the CdSe remnant and the adjacent CdSeTe
+                                                    layer are very small resulting in a high grain boundary area. Although the grain boundaries are passivated with
+                                                     chlorine, cathodoluminescence imaging and electrical measurements show that this is only partially effective.
+                                                    Also, EQE measurements show that the remnant CdSe causes parasitic absorption. Overall, the remnant CdSe
+                                                    layer causes a reduction in short circuit current density and device efficiency. The thickness of the CdSe precursor
+                                                    layer and the cadmium chloride activation process conditions must be precisely optimised to ensure that all the
+                                          CdSe is consumed and inter-diffused to form the CdSeTe alloy for highest efficiency devices.
+
+
+1. Introduction                                               magnesium doped zinc oxide [3] or intrinsic tin oxide [4]. It was also
+                                                                         increased by adding selenium to form a CdSe1-xTex (CdSeTe) alloy at the
+   As the most successful thin-film photovoltaic (PV) technology, CdTe-     front of the absorber. This is followed by a thicker unalloyed CdTe layer.
+based solar modules account for the vast majority of thin film PV    The CdSeTe has a lower band gap than CdTe. The decreased band gap
+manufacturing [1]. The cost of solar electricity generated from thin film     creates a band grading towards the front interface and facilitates the
+CdTe PV technology is already as low as 3 US cents per kW.hr in large     photogenerated minority carrier collection. Due to the decreased band
+scale utilities. Further increases in module efficiency will lower the cost     gap, the CdSeTe layer increases the absorption of long wavelength
+of solar electricity to consumers still further and accelerate the transition    photons in the solar spectrum, leading to improved Jsc. Although the
+of power generation away from fossil fuels to renewable energy. The    bandgap of CdTe decreases, it is surprising that the open circuit voltage
+champion efficiency for a CdTe-based solar cell is above 22 % [2]. This     (Voc) can be maintained at over 870 mV [3]. Recent investigations have
+was achieved by increasing the short circuit current (Jsc) above 30    shown that Se alloying passivates defects in the bulk CdTe grain interiors
+mA/cm2. The short circuit current was improved by replacing the    and increases minority carrier lifetime [5], which explains the main­
+traditional CdS buffer layer with a wider band gap material such as     tained Voc. Passivation of grain boundaries is also caused by the presence
+
+ * Corresponding author.
+    E-mail address: x.liu2@lboro.ac.uk (X. Liu).
+https://doi.org/10.1016/j.solmat.2024.112717
+Received 2 August 2023; Received in revised form 5 December 2023; Accepted 14 January 2024
+Available online 29 January 2024
+0927-0248/© 2024 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+--- Страница 2 ---
+X. Liu et al.                                                                                                                      Solar Energy Materials and Solar Cells 267 (2024) 112717
+
+                                                                        Table 1
+                                                                      Measured device performance parameters.
+                                                                              CdSe precursor thickness      Voc           Jsc (mA/      FF        Efficiency
+                                                                                (nm)                     (mV)      cm2)          (%)      (%)
+                                                                             120                      806        28.1           70.7     16.0
+                                                                             400                      748        9.8            69.8      5.1
+
+                                                                              of Se [6].
+                                                                The Se can be introduced into the CdTe at the front of the device in
+                                                             two ways. It can be deposited as a CdSe thin film [7] or as a CdSeTe alloy
+                                                                                [8]. In both cases, the Se grading is achieved by diffusion during the
+                                                         cadmium chloride (CdCl2) activation process. The use of a thin film CdSe
+                                                                            layer is preferred in manufacturing because the thin film composition is
+                                                                             fixed and easily reproducible. However, although CdSe alloying signif­
+                                                                              icantly enhances the device efficiency, its thickness needs to be precisely
+                                                                           controlled to ensure the formation of the CdSeTe and avoid any
+                                                                   remaining intact CdSe layer after the CdCl2 activation treatment.
+                                                                          Previous studies using CdSe as an n-type window layer have shown
+                                                                             that it can significantly reduce the short circuit current due to parasitic         Fig. 1. Light J-V for devices with various CdSe thicknesses.                                                                        absorption of short wavelength photons as shown in external quantum
+                                                                               efficiency (EQE) measurements [9–11]. Poplawsky et al. [9] used elec­
+                                                                         tron beam-induced current (EBIC) to show the CdSe window layer is
+                                                                          photo-inactive in a device structure of SnO2/CdSe/CdTe. Baines et al.
+                                                                    [11] also suggested that the CdSe wurtzite phase  is photo-inactive
+                                                                 whereas the CdTe1-xSex zinc blende structure is photo-active. Baines
+                                                                                 et al. [11] also investigated the CdSe residual layer in a device structure
+                                                                              of FTO/CdS/CdSe/CdTe. In this device configuration, the CdS layer is
+                                                                        the n-type emitter if the CdSe layer is completely alloyed in the CdTe.
+                                                             The device structure used here is FTO/intrinsic SnO2/CdSe/CdTe. The
+                                                                                   intrinsic SnO2 layer is the n-type emitter once the CdSe precursor is
+                                                                     completely alloyed with the CdTe. It is often assumed that the intrinsic
+                                                            SnO2 layer is highly resistive. This is a misconception because it actually
+                                                                    has a carrier concentration in the order of 1018~1019 cm−3 [12,13].
+                                                                               In a device with an intrinsic SnO2 emitter, it is widely thought that
+                                                               any remnant CdSe  is  photo-inactive. Here we show  using  cath­
+                                                                   odoluminescence on device cross-sections in transmission electron mi­
+                                                                         croscopy, that the thin film CdSe is highly photo-active. The problem
+                                                                    with the remnant CdSe is connected to its n-type electrical behaviour
+                                                              and the small-grained nature of its hexagonal structure. With this in­
+                                                                         formation, we are now able to more accurately model the device
+                                                                           operation.
+
+                                                                           2. Material and methods
+
+                                                                  Device fabrication: the CdSe/CdTe devices were deposited by
+                                                                            sequentially evaporating CdSe and CdTe bilayers onto glass/FTO/SnO2
+                                                                             superstrates (TEC 12D™, NSG Pilkington). The intrinsic SnO2 acts as the
+                                                         window or emitter layer. The fabrication of the CdSe/CdTe stack enables
+                                                                            precise control of the Se concentration, which is more compatible with
+                                                                               large-scale industrial production. The interdiffusion between CdSe and
+                                                           CdTe was achieved by a CdCl2 activation process at 400 ◦C for 30 min in
+                                                                  a dry air environment. After the activation process, these devices were
+                                                        Cu doped using 0.1 mM CuCl2 solution in DI water. The Cu activation
+                                                            was carried out at 200 ◦C for 20 min in a hot oven in ambient envi­
+                                                                   ronment. The device fabrication and processing details have been re­
+                                                                      ported in more detail in a previous publication [7].
+                                                                       Electron backscatter diffraction (EBSD) was conducted using a
+                                                                         Helios G4 Xe-plasma focused ion beam (PFIB). The large cross-sectional
+                                                                        region was milled at 60 nA to be scanned with a CMOS EBSD detector.
+                                                                            Prior to milling, a 3 μm layer of Pt was deposited at 16 kV and 30 nA to
+                                                                           protect the CdTe cross-section edge. A 36◦pre-tilt holder was used to tilt
+Fig. 2. Measured CdSeTe/CdTe device performance. (a) light J-V under AM     the cross-section edge at 54◦during ion milling and 70◦for EBSD. EBSD
+1.5G illumination. (b) EQE.                                              scanning was carried out at 10 kV and 6.4 nA with a step size of 20 nm.
+                                                                  During EBSD scanning, the detector was set to examine for the presence
+                                                                              of both hexagonal and cubic components. This enables us to evaluate
+
+                                                                        2
+--- Страница 3 ---
+X. Liu et al.                                                                                                                      Solar Energy Materials and Solar Cells 267 (2024) 112717
+
+
+
+
+
+Fig. 3. EBSD map of the CdSe/CdTe stack with a CdSe precursor thickness of 120 nm before the CdCl2 activation treatment. (a) band contract. (b) phase map. (c)
+coloured IPF map.
+
+both the phase and crystallite orientation in the as-synthesized mate­     spectra were acquired with chopped light using a Bentham PVE300
+rials, as well as the changes produced by the cadmium chloride activa­     system. The measurements were performed at 0 V bias with a spectral
+tion process.                                                               resolution of 5 nm. The light current density–voltage (J–V) character­
+   Cathodoluminescence (CL) in STEM: Hyperspectral mapping was      istics were measured using a Newport solar simulator under 1000 W/m2
+carried out, which involves collecting a full CL spectrum at each image     with AM1.5G filter, calibrated using a reference Si photodiode. The
+pixel. High resolution CL measurements were performed with a mono­     short-circuit current (Jsc) obtained in light J-V is consistent with EQE-
+chromated and CS-corrected ChromaTEM modified Hermes200 STEM    based Jsc, which is calculated by integrating the EQE with the AM
+instrument from NION. CL data was collected using a M¨onch system    1.5G spectrum.
+from Attolight, fitted with a diffraction grating giving a wavelength
+resolution of 0.34 nm. Experiments were performed at 60 kV for all CL     3. Results and discussion
+analyses.
+   Scanning Transmission Electron Microscope Bright Field (STEM-BF)     3.1.  Light current density-voltage (J-V) and external quantum efficiency
+images and corresponding elemental maps were collected using a Philips    (EQE) measurements
+TECNAI F20 equipped with an Oxford 80 mm2 SDD EDX detector
+operating at 200 kV.                                               The choice of CdSe precursor thickness dramatically affects FTO/
+   The same TEM sample was used in both STEM systems, allowing for    SnO2/CdSeTe/CdTe device performance. The CdSe film thickness con­
+corresponding EDS and CL measurements. The sample was thinned      trols the Se concentration and gradient in the CdSeTe/CdTe absorber. It
+using a Xe ion beam to limit ion damage during the formation of the TEM      is important that the CdSe is completely consumed to form CdSeTe at the
+lamella. The use of Xe has been shown to significantly increase the CL     front of the device. The light J-V curves in Fig. 1 show an optimal CdSe
+signal compared to the conventional Ga focused ion beam [6].             precursor thickness between 100 nm and 120 nm for a 3.5 μm CdTe layer
+   Capacitance  measurements:  the  capacitance  measurements     in the CdSe/CdTe stack [7]. The selenium gradient depends on the CdCl2
+including capacitance-voltage (CV), drive-level capacitance profiling     activation conditions used. When the CdSe thickness increases into the
+(DLCP) and admittance spectroscopy (AS) were performed in the dark     range of 200–400 nm, there is a probability that a pure CdSe layer will
+with a Keysight E4990 impedance analyser. AS measurements were    remain after the CdCl2 treatment. This remnant CdSe layer significantly
+carried out in an evacuated closed-cycle helium cryostat for tempera­     reduces Jsc. In this work, two CdSe precursor layers, with thicknesses of
+tures between 315 K and 115 K with 20 K steps.                      120 nm and 400 nm, were chosen in the same device batch for detailed
+   Device characterisation: the external quantum efficiency (EQE)     analysis. Light J-V and EQE measurements were obtained from these
+
+                                                                        3
+--- Страница 4 ---
+X. Liu et al.                                                                                                                      Solar Energy Materials and Solar Cells 267 (2024) 112717
+
+                                                                                 3.2. Electron backscatter diffraction (EBSD)
+
+                                                                                      Fig. 3 shows an EBSD image of a cross-section of the CdSe/CdTe stack
+                                                                    with a CdSe precursor thickness of 120 nm before the CdCl2 activation
+                                                                         treatment. The CdTe grains show a columnar structure with a small
+                                                                          grain size of ~500 nm in the lateral direction (Fig. 3a). The grain ori­
+                                                                           entations of both the CdTe and the CdSe are poorly indexed in EBSD due
+                                                                            to the presence of a high density of stacking faults in both layers. Fig. 3b
+                                                               shows a phase map for the sample in which the cubic and hexagonal
+                                                               components are coloured blue and yellow, respectively. Interestingly,
+                                                                   hexagonal and cubic components are identified in both the as-deposited
+                                                           CdTe and CdSe films. Additionally, the CdSe layer consists of remark­
+                                                                       ably small grains (<100 nm).
+                                                                               After the activation treatment, the EBSD analysis in Fig. 4a shows
+                                                                             that the CdSe/CdTe stack formed with the 120 nm thick CdSe precursor
+                                                                    has been completely converted to the cubic phase. The CdSe layer had,
+                                                                          apparently, been completely consumed during the activation treatment
+                                                              and alloyed with CdTe to form a CdSeTe alloy. The hexagonal compo­
+                                                                     nent in the untreated device is no longer present due to the complete
+                                                                 removal of stacking faults throughout the absorber [14]. In addition, the
+                                                              CdSeTe and CdTe grains have recrystallised and grown larger during the
+                                                                             activation process. The grain orientation randomises as revealed in the
+                                                                      coloured IPF map shown in Fig. 4a.
+                                                                               In contrast, the 400 nm thick CdSe layer was not fully consumed
+                                                                     during activation and an approximately 300 nm thick CdSe layer
+                                                                 remained intact. The CdSe residue has a purely wurtzite (hexagonal)
+                                                                                 crystal structure as depicted in yellow in the phase map shown in Fig. 4b
+                                                              and c. This is because the stacking faults have been removed during
+                                                                             activation and the cubic component has been removed. The remaining
+                                                             CdSe grains are small (average grain size of ~270 nm) in comparison to
+                                                                        the alloyed CdTe grains in the samples, but substantially larger than the
+                                                                          as-deposited grains in the size range of < 100 nm.
+                                                              To investigate the microstructure of the remaining CdSe layer,
+                                                                   Scanning Transmission Electron Microscopy (STEM) and EDS measure­
+                                                            ment were conducted (Fig. 5). The Cl signal in the EDS elemental maps
+                                                                               clearly delineates the grain boundaries because CdCl2 diffuses along the
+                                                                          grain boundaries during the activation treatment. Chlorine also deco­
+Fig. 4. EBSD phase and coloured IPF maps of the CdSe/CdTe films after CdCl2     rates the junction with the tin oxide window layer along the surface of
+activation treatment with a CdSe precursor thickness of (a) 120 nm and (b) 400     the TEC 12D substrate. Interestingly, the adjacent CdSeTe bottom layer
+nm. (c) Magnified EBSD phase map of the CdSe/CdTe stack with a CdSe pre­     covering the CdSe remnants contains even smaller grains. This CdSeTe
+cursor thickness of 400 nm after the CdCl2 activation treatment.               bottom layer did not completely recrystallise during the CdCl2 activa­
+                                                                             tion treatment. The Se signal shows that Se diffuses into the CdTe
+two devices (Fig. 2). When the CdSe was fully alloyed with the CdTe, the      initially along grain boundaries and later into grain interiors to form
+device provides a high conversion efficiency of 16.0 %. However, when    CdSeTe.
+a thin film of CdSe remains unalloyed, the device efficiency reduces from
+16.0 % to 5.1 %, due mostly to a decrease in the short circuit current, Jsc
+(Fig. 2a). The decreased Jsc corresponds mainly to the reduced EQE     3.3. Cathodoluminescence (CL) in STEM
+response in the short wavelength region (Fig. 2b). The measured device
+performance parameters are listed in Table 1. This observation indicates        High-resolution CL in a STEM was used to correlate optoelectronic
+a deterioration in the carrier collection at the front p-n junction because     properties with  chemical  composition and  microstructure  of  the
+the short wavelength photons are mostly absorbed in the residual CdSe    CdSeTe/CdTe devices. Fig. 6a shows the TEM image of the device cross-
+region but the photogenerated carriers are not effectively collected.        section fabricated using a 400 nm thick CdSe precursor layer after the
+
+
+
+
+
+                             Fig. 5. STEM image and EDS elemental maps for the CdSeTe/CdTe devcie with the remnant CdSe layer.
+
+                                                                        4
+--- Страница 5 ---
+X. Liu et al.                                                                                                                      Solar Energy Materials and Solar Cells 267 (2024) 112717
+
+
+
+
+
+Fig. 6. CdSeTe/CdTe device with a remnant CdSe layer. (a) cross-sectional
+TEM image. (b) integrated-intensity CL image. The red arrow indicates the
+direction of CL and EDS scans.
+
+CdCl2 activation process. An intermediate CdSeTe layer with very small
+grains can be seen formed between the CdSe remnants and the CdSeTe/      Fig. 7. CdSeTe/CdTe devcie with a remaining CdSe layer. (a) CL intensity; (b)
+CdTe absorber with large grains at the back of the device (Fig. 6a).    EDS elemental profile; (c) CL intensity and Se content determined by the line
+Fig. 6b shows the corresponding CL image of the cross-sectional CdTe     scan in Fig. 6b.
+device after the CdCl2 process. Surprisingly, the remaining CdSe region
+shows an intense CL intensity. The CL signal is about 5 times higher than     dramatic increase in photoactivity, the grain boundaries are clearly still
+CL intensity from the CdTe region. The CdSe grain boundaries are dark     recombination centres. The individual CdSe and intermediate CdSeTe
+in contrast to the brightness of the grain interiors. This indicates     grains show higher CL intensity than the bottom grains of the CdSeTe/
+recombination centres  exist on the CdSe grain boundaries. Hence    CdTe absorber. However, their grain size is much smaller. This small
+although the presence of chlorine in the grain boundaries causes a     grained nature causes a large number of grain boundaries in the
+
+                                                                        5
+--- Страница 6 ---
+X. Liu et al.                                                                                                                      Solar Energy Materials and Solar Cells 267 (2024) 112717
+
+
+
+
+
+                       Fig. 8. TEM image with corresponding EDS elemental maps for the CdSeTe/CdTe devcie with a remnant CdSe layer.
+
+
+
+
+
+Fig. 9. Electrical characterisation of the CdSeTe/CdTe devices with and without a CdSe remnant layer. (a) Arrhenius plot of inflection points in admittance
+spectroscopy measurement. (b) CV depth profile. (c) DLCP depth profile.
+
+
+                                                                        6
+--- Страница 7 ---
+X. Liu et al.                                                                                                                      Solar Energy Materials and Solar Cells 267 (2024) 112717
+
+                                                                       occurs during the high-temperature CdCl2 activation treatment, which
+                                                                           leads to the formation of CdSeTe. The Se alloying in the inter-diffused
+                                                              CdSeTe region passivates defects in the bulk CdSeTe/CdTe absorber
+                                                                                [5]. Te also diffuses into the CdSe and reduces its band gap energy [15].
+                                                             The measured CdSe band gap of 1.64 eV is close to the calculated and
+                                                                      experimental values [16]. Fig. 7c correlates the CL intensity with the Se
+                                                                        concentration  across  the  CdSe, CdSeTe and CdTe  grains. With
+                                                                        decreasing Se, the CL intensity decreases. This observation is consistent
+                                                                    with previous reports [17,18]. Fig. 8 shows the EDS mapping in the same
+                                                                            region. The grain boundaries are decorated with chlorine following
+                                                                              diffusion during the CdCl2 activation process. It is observed that the Se
+                                                              and Te interdiffusion is not uniform. The Se concentration is 28 at% in
+                                                                        the intermediate CdSeTe grain 1 but is 18.8 at% in the adjoining CdSeTe
+                                                                          grain 2.
+
+                                                                                 3.4. Capacitance measurements
+
+                                                                         Capacitance measurements have been used to examine the electri­
+                                                                                cally active defects, their energy levels and carrier concentration of the
+                                                                          absorber. The defect activation energy EA was determined from the slope
+                                                                              of the Arrhenius plot (Fig. 9a) of inflection points, which were extracted
+                                                                from the capacitance spectra. Typically, a N1 type defect has a small
+                                                                             activation energy less than 200 meV, which is associated with interface
+                                                              and grain boundaries [19]. A N2 type defect has a large activation en­
+                                                                            ergy, greater than 200 meV [20], which is related to the bulk defects.
+                                                                  Based on the measured activation energies, the CdTe device with the
+                                                                   remaining CdSe layer showed EA = 147 meV, corresponding to a N1 type
+                                                                                defect. We tentatively ascribe this defect to the grain boundaries be­
+                                                               tween the intermediate CdSeTe and the CdSe layers. In contrast, the
+                                                                       device without the CdSe remnant layer demonstrates a N2 type defect
+                                                                    with EA = 333 meV. This N2 type defect may be attributed to the bulk
+                                                                             defects present in the CdSeTe/CdTe absorber.Fig. 10. Schematic  structure  of the simulated CdSeTe/CdTe  devices.  (a)
+without a CdSe remnant layer. (b) with a CdSe remnant layer.                         Fig. 9b shows the CV profiles for both devices with and without the
+                                                             CdSe remaining layer. The device with the remaining CdSe layer shows 3
+                                                            minima from the CV depth profile. This unusual profile can be caused by
+Table 2                                                                 the depletion width crossing between different layers during the voltage
+Simulated device performance parameters.                                 sweep. Another reason might be due to the presence of defects, which
+  CdSe precursor thickness      Voc           Jsc (mA/      FF        Efficiency           affects the shape of the profile. CV profiles can lead to incorrect deter­
+  (nm)                     (mV)      cm2)         (%)      (%)             mination of carrier concentration due to the presence of deep bulk de­
+  120                        810.8      28.6           68.8     16.0               fects and interface defects. The DLCP technique is less sensitive to
+  400                      744       10            63.7      4.7                interface defects and provides more accurate measurements of carrier
+                                                                        concentration and density of bulk defects. Therefore, the carrier con­
+                                                                           centration is extracted from the lowest point of the DLCP profiles shown
+remaining CdSe and intermediate CdSeTe layers, which induce signifi­                                                                              in Fig. 9c. The CdSeTe/CdTe device, with and without the CdSe remnant
+cant carrier recombination due to defects on the grain boundaries. The                                                                                 layer, exhibits a carrier concentration of 7.01 × 1013 cm−3 and 8.38 ×
+intrinsic SnO2 emitter layer has a thickness of ~70 nm.                   1013 cm−3, respectively. The deep level defect density can also be
+   The CL emission peak at 1.64 eV (758 nm) and 1.49 eV (833 nm)                                                               measured using a frequency sweep in the DLCP technique. At low fre­
+corresponds to the band gap of the CdSe and intermediate CdSeTe                                                                    quency, the defects respond sufficiently quickly to follow the frequency
+layers, respectively (Fig. 7a). The EDS line scan was measured in the                                                                              of the alternating current (AC) voltage whereas they do not react to high
+same region as shown in Fig. 6b. The chemical composition of CdSe,                                                                            frequencies. Therefore, the defect density can be estimated by calcu­
+CdSeTe and CdTe is Cd-rich. Both Se and Te interdiffusion gradually                                                                                lating the difference between the two density measurements at low and
+
+Table 3
+Input material properties in the SCAPS simulation. W layer thickness. Eg band gap energy. μn, μp electron and hole mobility. NA, ND hole and electron concentration. Nt
+defect density. A and D denote acceptor and donor like defects, respectively.
+                CdSeTe/CdTe device with CdSe remnants                                                            CdSeTe/CdTe device without CdSe remnants
+              FTO        SnO2        CdSe         Intermediate CdSeTe with small grains    CdSeTe/CdTe            CdSeTe/CdTe
+                                                                                      CdSeTe     CdTe        CdSeTe        CdTe
+ W (nm)        300        50         300        480                                500        1900       500           3000
+  Eg (eV)          3.6           3.6          1.64         1.49                                      1.4           1.5           1.4              1.5
+  μn (cm2/Vs)    100        100        100        80                                 100        100        100           100
+  μp (cm2/Vs)    25         25         80         50                                 80         80         80            80
+  NA (cm−3)     0          0          0          7.01E+13                         1+E14      2E+14      8.38E+13      2E+14
+  ND (cm−3)     1E+21      5E+18      5E+17      0                                  0          0          0             0
+  Nt (cm−3)      D:1E+14    D:1E+14    A:2E+13    D:5.48E+14                         D:1E+14    D:1E+14    D:7.49E+13    D:1E+14
+
+                                                                        7
+--- Страница 8 ---
+X. Liu et al.                                                                                                                      Solar Energy Materials and Solar Cells 267 (2024) 112717
+
+                                                                                 3.5. Device modelling
+
+                                                            SCAPS is a 1D simulation software developed at the University of
+                                                                 Gent [23]. Here it is used to model the effect of the remnant CdSe layer
+                                                             on device performance. The simulated device structures are SnO2:
+                                                              F/SnO2/CdSeTe/CdTe and SnO2:F/SnO2/CdSe/intermediate CdSeTe
+                                                                    with very small grains/CdSeTe/CdTe for the devices without and with
+                                                                        the CdSe remnant layer, respectively (Fig. 10). The electrical and optical
+                                                                            properties of the materials used in the device model are tabulated in
+                                                                     Table 3. These material properties have been extracted from the
+                                                                      experimental results and literature [23,24]. The material properties of
+                                                      FTO and SnO2 are the same in the two simulated devices. The simulated
+                                                                                   light J-V and EQE measurements are shown in Fig. 11 and the device
+                                                                   performance parameters are listed in Table 2. These simulated results
+                                                                         are consistent with the experimental measurements shown in Fig. 2. The
+                                                                       device with the CdSe remnant layer has much lower efficiency, mainly
+                                                              due to a significantly reduced short circuit current. This is shown in the
+                                                                         dramatically decreased EQE in the short wavelength region (Fig. 11b).
+                                                                                      Fig. 12a–b shows the simulated current density across the device
+                                                                             structure at the maximum power point. Due to a small band gap of 1.64
+                                                                       eV, the thick 300 nm CdSe residual layer absorbs a large fraction of
+                                                                   photons with wavelengths shorter than 756 nm, which generates car­
+                                                                                      riers of electrons and holes. However, the defects present in the high
+                                                                          density of grain boundaries in the CdSe remnant and the intermediate
+                                                              CdSeTe layers (with even smaller grains) cause a severe carrier recom­
+                                                                             bination.  In  the  simulated  device with  the remnant CdSe  layer
+                                                                                   (Fig. 12b), the electron current in the remnant CdSe layer cancels out the
+                                                                       hole current and does not contribute to the total current. The partially
+                                                                              positive electron current in the remnant CdSe layer indicates the
+                                                          movement of electrons is opposite to the operating electron current,
+                                                               which increases the carrier recombination probability in the remnant
+                                                             CdSe and intermediate CdSeTe layers and the CdSe/CdSeTe interface
+                                                                           [25]. Therefore, the photo-generated carriers cannot be effectively
+                                                                             collected in these layers and interface. Due to the parasitic absorption in
+                                                                        the CdSe remnant and the adjacent CdSeTe layer, fewer photons can
+                                                                         penetrate to the underlying CdSeTe/CdTe absorber, where the carriers
+                                                                  can be efficiently collected. Thus, the combination of these effects
+                                                                         dramatically reduces the short circuit current and device efficiency.
+                                                                The p-n junction is formed between the n-type SnO2 front emitter/
+                                                         window layer and the p-type CdSeTe/CdTe absorber in the device
+                                                                    without the CdSe remnant. Due to wider band gap energy of 3.6 eV [26]
+Fig. 11. Simulated CdSeTe/CdTe device performance. (a) light J-V under AM    and much thinner thickness of the SnO2 layer compared to the CdSe
+1.5G illumination. (b) EQE.                                             remnant, more photons are absorbed in the underlying CdSeTe/CdTe
+                                                                                 layer. The exceptional material properties of the CdSeTe/CdTe absorber,
+high frequencies [21,22]. The defect density of the CdSeTe/CdTe device    such as large grain size and reduced defect density, improve the
+with and without the CdSe remaining layer is 5.48 × 1014 cm−3 and     collection efficiency of the photogenerated carriers. Therefore, most of
+7.49 × 1013 cm−3, respectively. Therefore, the defect density in the     the photons are not only absorbed but also effectively collected in the
+CdSeTe/CdTe device with the CdSe remnant layer is nearly one order of    CdSeTe/CdTe absorber, which contributes to the high, short circuit
+magnitude higher than that of the device without the CdSe remnant.     current and high device efficiency.
+These defects are associated especially with the high density of grain
+boundaries in the intermediate CdSeTe and remnant CdSe layers.
+
+
+
+
+
+                     Fig. 12. Simulated current density across the device structure (a) without the CdSe remnant. (b) with the CdSe remnant.
+
+                                                                        8
+--- Страница 9 ---
+X. Liu et al.                                                                                                                      Solar Energy Materials and Solar Cells 267 (2024) 112717
+
+4. Conclusions                                                         conclusions contained herein are those of the authors and should not be
+                                                                           interpreted as necessarily representing the official policies or endorse­
+   The efficiency of thin film CdTe based modules has been increased by     ments, either expressed or implied, of the Department of Energy or Air
+adding selenium to the front of the absorber layer to create a diffused     Force Research Laboratory or the U.S. Government.
+CdSeTe alloy layer. The preferred way of introducing the Se is by
+depositing CdSe and then inter-diffusing the layer into the CdTe layer    References
+above during the high temperature cadmium chloride activation pro­
+cess. The thickness of the CdSe must be optimised since the device ef­       [1] M.A. Scarpulla, B. McCandless, A.B. Phillips, Y. Yan, M.J. Heben, C. Wolden,                                                                                            G. Xiong, W.K. Metzger, D. Mao, D. Krasikov, I. Sankin, S. Grover, A. Munshi,
+ficiency is severely reduced  if not all the CdSe is consumed, and a         W. Sampath, J.R. Sites, A. Bothwell, D. Albin, M.O. Reese, A. Romeo, M. Nardone,
+remnant hexagonal n-type layer remains.                                               R. Klie, J.M. Walls, T. Fiducia, A. Abbas, S.M. Hayes, CdTe-based thin film
+   In this study, we have used CL in STEM to show that the individual            photovoltaics: recent advances, current challenges and future prospects, Sol.
+CdSe grains are highly photo-active following the cadmium chloride       [2] EnergyM.A. Green,Mater.E.D.Sol.Dunlop,Cell. 255G. (2023)Siefer, M.112289.Yoshita, N. Kopidakis, K. Bothe, X. Hao,
+activation process. The grain boundaries are passivated to some degree            Solar cell efficiency tables (Version 61), Prog. Photovoltaics Res. Appl. 31 (2022)
+by chlorine decoration in a similar way to cadmium telluride. CdSe is           3–16.
+photo-inactive prior to the activation process. However, due to their       [3] A.H. Munshi, J. Kephart, A. Abbas, J. Raguse, J.N. Beaudry, K. Barth, J. Sites,                                                                                                                     J. Walls, W. Sampath, Polycrystalline CdSeTe/CdTe absorber cells with 28 mA/
+very small grain size, the large number of grain boundaries causes severe         cm2 short-circuit current, IEEE J. Photovoltaics 8 (2018) 310–314.
+carrier recombination in the remnant CdSe and in the adjacent CdSeTe       [4] R. Greenhalgh, K. Morris, V. Kornienko, M. Bliss, A. Abbas, J. Bowers, M. Walls,
+intermediate layers. These observations are confirmed using electrical             Effect of microstructure on the photoactivity of thin film CdSe. IEEE 49th                                                                                                  Photovoltaics Specialists Conference, PVSC), 2022, pp. 900–903, 2022.
+measurements. The CdSe remnant moves the position of the p-n junction       [5] T.A.M. Fiducia, B.G. Mendis, K. Li, C.R.M. Grovenor, A.H. Munshi, K. Barth, W.
+in the device. A new p-n junction is formed between the n-type CdSe             S. Sampath, L.D. Wright, A. Abbas, J.W. Bowers, J.M. Walls, Understanding the
+remnant and adjacent p-type CdSeTe intermediate layer. However, the             role of selenium in defect passivation for highly efficient selenium-alloyed                                                                            cadmium telluride solar cells, Nat. Energy 4 (2019) 504–511.
+small, grained nature of the n-type CdSe remnant and p-type interme­       [6] T. Fiducia, A. Howkins, A. Abbas, B. Mendis, A. Munshi, K. Barth, W. Sampath,
+diate CdSeTe layer causes parasitic absorption. This dramatically re­              J. Walls, Selenium passivates grain boundaries in alloyed CdTe solar cells, Sol.
+duces the short  circuit current density and the device  efficiency.          Energy Mater. Sol. Cell. 238 (2022) 111595.                                                                                           [7] E. Bastola, A.B. Phillips, G. Barros-King, M.K. Jamarkattel, D.-B. Li, A. Quader,
+Therefore, the precursor CdSe thickness in the CdSe/CdTe stack must be           D. Pokhrel, J. Friedl, J.M. Gibbs, X. Mathew, Y. Yan, R.J. Ellingson, M.J. Heben,
+precisely controlled to completely remove the CdSe remnant and elim­           Understanding the interplay between CdSe thickness and Cu doping temperature in
+inate the parasitic absorption.                                                   CdSe/CdTe devices, IEEE J. Photovoltaics 12 (2022) 11–15.
+    Interestingly, the band gap energy (1.7 eV) of CdSe and its high       [8] M.M. Walls,Togay,J.W.R.C.Bowers,Greenhalgh,TransientT.A. metastableFiducia, T. behaviorShimpi, W.causedSampath,by magnesium-dopedK.L. Barth, J.
+photo-activity make it a promising top cell in a silicon-based tandem            zinc oxide emitters in CdSeTe/CdTe solar cells, IEEE J. Photovoltaics (2023) 1–7.
+photovoltaic device.                                                                   [9] J.D. Poplawsky, W. Guo, N. Paudel, A. Ng, K. More, D. Leonard, Y. Yan, Structural
+                                                                                  and compositional dependence of the CdTexSe1−x alloy layer photoactivity in
+                                                                                       CdTe-based solar cells, Nat. Commun. 7 (2016) 12537.
+CRediT authorship contribution statement                                  [10] N.R. Paudel, Y. Yan, Enhancing the photo-currents of CdTe thin-film solar cells in
+                                                                                         both short and long wavelength regions, Appl. Phys. Lett. 105 (2014).
+   Xiaolei Liu: Writing – original draft, Investigation, Formal analysis.      [11] T. Baines, G. Zoppi, L. Bowen, T.P. Shalvey, S. Mariotti, K. Durose, J.D. Major,                                                                                                Incorporation of CdSe layers into CdTe thin film solar cells, Sol. Energy Mater. Sol.
+Ali Abbas: Writing – review & editing, Methodology, Formal analysis.              Cell. 180 (2018) 196–204.
+Mustafa Togay: Writing – review & editing, Methodology, Formal      [12] B. Good, T. Ablekim, I.S. Khan, M.O. Reese, A. Zakutayev, W.K. Metzger, Tailoring
+analysis. Vlad Kornienko: Writing – review & editing, Methodology,          SnO2, (Mg,Zn)O, and Ga:(Mg,Zn)O electro-optical properties and stability for solar                                                                                                                         cells, J. Phys. Appl. Phys. 54 (2020).
+Formal analysis. Rachael Greenhalgh: Writing – review & editing,      [13] L.C. Infante-Ortega, X. Liu, L. Kujovic, M. Togay, L.O. Jones, A. Abbas, K. Curson,
+Visualization. Kieran Curson: Writing – review & editing, Methodol­            R.C. Greenhalgh, K.L. Barth, J.W. Bowers, J.M. Walls, O. Oklobia, S. Irvine,
+ogy. Jake Bowers: Writing – review & editing. Kurt Barth: Writing –             E. Colegrove, B. Good, M. Reese, SnO2 Buffer Layers for High Efficiency CdSeTe/                                                                               CdTe Devices, IEEE PVSC, Puerto Rico, 2023.
+review & editing. Michael Walls: Writing – review & editing, Funding      [14] P. Hatton, M.J. Watts, A. Abbas, J.M. Walls, R. Smith, P. Goddard, Chlorine
+acquisition, Conceptualization. Ebin Bastola: Writing – review & edit­            activated stacking fault removal mechanism in thin film CdTe solar cells: the
+ing. Griffin Barros-King: Writing – review & editing. Adam B. Phillips:           missing piece, Nat. Commun. 12 (2021) 4938.
+Writing – review & editing. Michael J. Heben: Writing – review &      [15] T.C.M.CdSe (1-x)Santhosh,Te (x) K.V.thin Bangera,films for G.K.solarShivakumar,cell applications,SynthesisSol. andEnergyband153gap(2017)tuning in
+editing, Conceptualization.                                                         343–347.
+                                                                                      [16]  J. Yang, S.-H. Wei, First-principles study of the band gap tuning and doping control
+Declaration of competing interest                                             [17] inT. CdSexTe1−xAblekim, J.N.alloyDuenow,for highX. Zheng,efficiencyH. solarMoutinho,cell, Chin.J. Moseley,Phys. B C.L.28 (2019)Perkins,086106.S.
+                                                                          W. Johnston, P. O’Keefe, E. Colegrove, D.S. Albin, M.O. Reese, W.K. Metzger, Thin-
+   This work has no interest conflict with other people or organisations.            film solar cells with 19% efficiency by thermal evaporation of CdSe and CdTe, ACS
+                                                                                       Energy Lett. 5 (2020) 892–896.
+                                                                                      [18] X. Zheng, D. Kuciauskas, J. Moseley, E. Colegrove, D.S. Albin, H. Moutinho, J.
+Data availability                                                                      N. Duenow, T. Ablekim, S.P. Harvey, A. Ferguson, W.K. Metzger, Recombination
+                                                                                  and bandgap engineering in CdSeTe/CdTe solar cells, Apl. Mater. 7 (2019).
+   Data will be made available on request.                                     [19] M. Al-Jassim, N. Haegel, Advanced Characterization of Thin Film Solar Cells, The                                                                                                           Institution of Engineering and Technology, United States, 2020.
+                                                                                      [20] T. Kobayashi, Z.J.L. Kao, T. Nakada, Temperature dependent current–voltage and
+Acknowledgements                                                                   admittance spectroscopy on heat-light soaking effects of Cu(In,Ga)Se2 solar cells
+                                                                                          with ALD-Zn(O,S) and CBD-ZnS(O,OH) buffer layers, Sol. Energy Mater. Sol. Cell.
+                                                                                143 (2015) 159–167.
+   The authors from Loughborough University are grateful for funding      [21] G. Zapalac, K. Demirkan, N. Mackie, Drive-level capacitance profiling of Cu(In,Ga)
+from UKRI through EPSRC (EP/W00092X). The authors from the Uni­          Se2 solar cells for different Cu/III ratios. IEEE 40th Photovoltaic Specialist
+versity of Toledo acknowledge research sponsored by U.S. DOE’s office           Conference, PVSC), 2014, pp. 452–455, 2014.                                                                                      [22]  J.T. Heath, J.D. Cohen, W.N. Shafarman, Bulk and metastable defects in
+of Energy Efficiency and Renewable Energy (EERE) under Solar Energy          CuIn1−xGaxSe2 thin films using drive-level capacitance profiling, J. Appl. Phys.
+Technologies Office (SETO) under Agreement DE-EE0008974, Cadmium          95 (2004) 1000–1010.
+Telluride Accelerator Consortium (CTAC) (NREL Sub-contract SUB-      [23] M. Burgelman, P. Nollet, S. Degrave, Modelling polycrystalline semiconductor
+2021-10715) and in part by U. S. Air Force Research Laboratory under             solar cells, Thin Solid Films 361–362 (2000) 527–532.
+Agreement FA9453 -19-C-1002. The U.S. Government is authorized to
+reproduce and distribute reprints for Governmental purposes not with­
+standing any copyright notation thereon. Disclaimer: The views and
+
+                                                                        9
+--- Страница 10 ---
+X. Liu et al.                                                                                                                      Solar Energy Materials and Solar Cells 267 (2024) 112717
+
+[24] M. Pawlak, Determination of the carrier concentration in CdSe crystals from the       [26] A. Doyan, Susilawati, L. Muliyadi, S. Hakim, H. Munandar, M. Taufik, The effect of
+      effective infrared absorption coefficient measured by means of the photothermal            dopant material to optical properties: energy band gap Tin Oxide thin film, J. Phys.
+      infrared radiometry, Appl. Phys. A 118 (2015) 173–176.                                    Conf. 1816 (2021) 012114.
+[25]  F. Wang, Y. Gao, Z. Pang, L. Yang, J. Yang, Insights into the role of the interface
+      defects density and the bandgap of the back surface field for efficient p-type silicon
+      heterojunction solar cells, RSC Adv. 7 (2017) 26776–26782.
+
+
+
+
+
+                                                                        10

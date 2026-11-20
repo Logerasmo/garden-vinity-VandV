@@ -1,0 +1,488 @@
+--- Страница 1 ---
+                                                                                                           This article is licensed under CC-BY 4.0
+
+http://pubs.acs.org/journal/aelccp
+
+A Templating Approach to Controlling the                                                                                                           LetterGrowth of Coevaporated Halide Perovskites
+Siyu Yan, Jay B. Patel, Jae Eun Lee, Karim A. Elmestekawy, Sinclair R. Ratnasingham, Qimu Yuan,
+Laura M. Herz, Nakita K. Noel,* and Michael B. Johnston*
+
+
+       Cite This: ACS Energy Lett. 2023, 8, 4008−4015                     Read Online
+
+
+
+                                                                                                                                                                      sı  Supporting InformationACCESS                Metrics & More                       Article Recommendations    *
+ABSTRACT: Metal  halide  perovskite semiconductors have shown                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+significant  potential  for  use  in  photovoltaic (PV)  devices. While                                                                                                                                                                  from
+fabrication of perovskite thin films can be achieved through a variety
+of  techniques, thermal vapor deposition  is  particularly promising,
+allowing for high-throughput fabrication. However, the ability to control
+the nucleation and growth of these materials, particularly at the charge-
+transport layer/perovskite interface,  is  critical to unlocking the  full
+potential of vapor-deposited perovskite PV. In this study, we explore the
+use  of a templating  layer to control the growth  of coevaporated
+perovskite films and find that such templating leads to highly oriented
+films with identical morphology, crystal structure, and optoelectronic
+properties independent of the underlying layers. Solar cells incorporat-
+ing templated FA0.9Cs0.1PbI3−xClx show marked improvements with
+steady-state power conversion  efficiency over 19.8%. Our  findings
+provide a straightforward and reproducible method of controlling the charge-transport layer/coevaporated perovskite
+interface, further clearing the path toward large-scale fabrication of efficient PV devices.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    pubs.​acs.​org/​aelccp/​article-pdf/​8/​10/​4008/​3080820/​nz3c01368.​pdf
+            etal  halide  perovskites (MHPs)  have shown       films. However, recent developments in dry, vapor deposition         by
+         tremendous promise  as  absorber  layers  for  the     methods have resulted in devices with >24% PCE in single-                       guest
+          next-generation  of  photovoltaic (PV)  devices,      junction architectures.20−25 Thermal vapor deposition allows         onMachieving certified power conversion efficiencies (PCEs) of       for uniform, conformal coating of films and fine control of the         19
+up to 26% in single-junction solar  cells and 33.7% in Si/      thickness, affording significant opportunity to achieve high-
+perovskite  tandems.1  This  impressive  device  performance      throughput fabrication and large-scale production.26−28 How-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Novemberstems from a combination of factors: the desirable optoelec-      ever,  previous  research  has  highlighted  the paramount
+tronic properties of MHP materials, including high absorption      importance of having a high-quality charge transport layer                  2026
+coefficients, long charge-carrier diffusion lengths and balanced     (CTL)/perovskite  interface  in  order  to  unlock  the  full
+charge-carrier transport;2−4 and concurrently, rapid improve-      potential of vapor-deposited perovskites.29−31 Xu et  al. have
+                                                           contended that a lead iodide (PbI2) phase located near thements  in  fabrication  approaches  such  as  compositional
+                                                        bottom of the perovskite  film,  closest to the  substrate,  isengineering, tuning of crystallization kinetics, and interfacial
+engineering.5−8 Another interesting optoelectronic property of      unavoidably formed on  all  substrates  during  the  initial
+                                                                  deposition process  even under a methylammonium iodidelead HPs is their “defect tolerance”, which means that bulk
+                                                          (MAI)-rich  environment   since  the  sticking  coefficientdefects are located close to the bands and do not form deep
+                                                                  (defined as the ratio of atoms adsorbed to all atoms incidentcharge-carrier traps.9,10 However, in a thin film, defect states
+                                                      upon the surface) of MAI is small compared to that of PbI2.32often exist at the grain boundaries and interfaces where they
+                                                          However, as opposed to the sole formation of PbI2, it is quitecan act as electronic traps, affecting charge-carrier transport in
+the films, hence hindering the performance of optoelectronic
+devices.10−13 Given  that  surface  defects are influenced by      Received:   July 7, 2023
+various factors such as poor morphology and energy  level      Accepted:  August 25, 2023
+misalignment, significant effort has been placed on these areas      Published: September 1, 2023
+in order to improve optoelectronic device performance.14−19
+  To date, many of the key advances in MHP  solar  cell
+research have been made using solution-processed perovskite
+
+                                © 2023 The Authors. Published by
+                                                  American Chemical Society                                                             https://doi.org/10.1021/acsenergylett.3c01368
+                                                             4008                                                ACS Energy Lett. 2023, 8, 4008−4015
+--- Страница 2 ---
+ACS Energy Letters                                      http://pubs.acs.org/journal/aelccp                                           Letter
+
+likely that a mixture of precursor materials/phases is present in      materials and provides a way to exert fine control over the
+this bottom region. Meanwhile, Patel et al. have uncovered that     bottom interface in perovskite optoelectronic devices.
+compared to phenyl-C61-butyric acid methyl ester (PCBM),        In  this  study, we  fabricate  perovskite  films  with  the
+coevaporated devices using compact titanium dioxide (c-TiO2)     composition  FA0.9Cs0.1PbI3−xClx,  using  the  four-source,
+as the bottom electron transport layer (ETL) experience more      coevaporation of formamidinium iodide (FAI), CsI, PbI2 and
+severe hysteresis. This clearly indicates the extent to which the     PbCl2 under high vacuum (further details are given in the SI).
+nature of the substrate impacts the quality of the perovskite at    We  carefully monitor the  initial coevaporation process by
+the bottom interface.33 It is apparent that growing coevapo-      introducing one  additional shuttered quartz  crystal micro-
+rated films on inorganic substrates is not trivial, and therefore,      balance (QCM) in close proximity to the substrate position.
+in most cases, perovskite films are coevaporated onto organic     Having a shuttered QCM allows us to record substrate rates at
+layers in order to seed better crystal growth.21,24−26,29,30 This      different  points  throughout  the  process.  Therefore, by
+may be one of the factors hindering the further performance      simultaneously opening the QCM and substrate shutters, we
+improvement of coevaporated perovskite PV devices, consid-     can record the  rates only  after  starting deposition on the
+ering that the best performing single-junction devices utilize tin       substrate. Here, we observe that it takes some time for the rate
+oxide (SnO2) as the ETL.20 As previously mentioned, one      to stabilize on a bare shuttered QCM during the initial stages
+possible explanation for  this observation  is that the  initial      of the evaporation. This stabilization time increases when the
+stages of the perovskite growth may lead to the deposition of a      shuttered QCMs are precoated with CTLs (full details are
+                                                              provided in SI, Figures S1, S2a,b). This finding confirms thatlayer of material that deviates from the target stoichiometry.
+                                                           depending on the type of substrate used, a number of differentMeanwhile, in situ photoelectron spectroscopy studies have                                                                                      initial crystal growth processes can affect the incorporation of                                              Downloadedshown that the electronic properties of the initial 2−3 nm of
+                                                              subsequent precursors and the continuity of crystal growth.                  fromthe perovskite  are  strongly  affected by the nature  of the
+                                                             This then inevitably influences how effective charge transportsubstrate, giving rise to band bending and additional defect
+states.34 Subsequent  investigations have  revealed  that  the      through the perovskite film  is, and  finally has a significant
+                                                             impact on device performance.35 One concern arising from thissurface of the substrate material exerts a substantial impact
+                                                                  observation is the difficulty in individually assessing the qualitybeyond  the bottom CTL/perovskite  interface,  leading  to
+                                                                      of the bottom  interface  since the bulk perovskite  is  alsoalterations  in  the morphology  of  the  entire  film.35−37
+                                                               unavoidably changed when different substrates are employed.Consequently, achieving uniform deposition of alkylammo-
+                                             A potential solution to this problem is to utilize a templatingnium halides and appropriate crystallization of the perovskite
+                                                                         layer which can regulate the  crystallization and growth of
+material is a critical requirement when selecting an appropriate
+                                                                    perovskite  films, such that the influence of the underlying
+CTL.  Unfortunately,  for  vapor-deposited  perovskites,  this
+                                                                      substrate is obviated. Alkylammonium halides readily adsorb
+places  significant constraints on the pool of  viable CTLs.                                                           onto the surface of metal halides to form perovskites,29,39 while
+However, it should be noted that even when suitable substrates
+                                                                  evaporating metal halides onto various substrates is reprodu-
+that meet the  criteria above are  identified, optimizing the
+                                                                          cible owing to excellent adhesion. For the sequential, two-step
+evaporation parameters for deposition on various substrates
+                                                                  deposition technique, the inorganic layer (PbI2) is deposited
+remains a laborious task (as shown in Table S1). Furthermore,                                                           onto the substrate followed by either the solution or vapor-
+this  issue  limits  the economic  feasibility  of  industrial                                                             based deposition of the organic layer, after which the film is                                                                                                                                                                                                                                                                                                                                                pubs.​acs.​org/​aelccp/​article-pdf/​8/​10/​4008/​3080820/​nz3c01368.​pdf
+applications, as the most attractive scale-up technique  is to      annealed.40 Although  this  process may  suffer from  issues         by
+produce  all device  layers on the same vacuum fabrication
+                                                                          arising from the diffusion of the organic layer,41 it presents an                       guestlines.38 Therefore, the ability to decouple the nucleation and                                                                        interesting approach in terms of using PbI2 as a templating         on
+growth of coevaporated perovskite films from the influence of                                                                               layer. To examine this, we precoat PbI2 onto the shuttered         19
+substrate materials is of the utmost importance.                                   QCM and indeed find that this effectively reduces the time
+  Here, we  introduce  an  effective  strategy  to  control                                                                taken for the readings on the QCM to stabilize, as we show inreproducibly  the  growth  of  coevaporated  perovskites by                                                                                                                                                                                                                                                                                                                                                                                                     November                                                                 Figure S2c. However, the presence of PbI2 still might introduce
+using a templating layer. We show that independent of the                                                                 nonstoichiometric perovskite near the bottom interface.                                  2026
+substrate  choice  for  perovskite  growth,  the  coevaporated                                                To overcome these issues, we develop a novel approach of
+perovskite films with the templating layer exhibit identical      depositing a templating layer consisting of a stoichiometric,
+morphology, structure, and optoelectronic properties. Through       ultrathin (15 nm) MHP which can fully cover the underlying
+a series of spectroscopic experiments, we present evidence that       layer  (Figure S3)  via  a  vapor-based,  two-step  sequential
+the  optoelectronic  properties  of  the  perovskite  remain      deposition  approach.  Specifically,  using  thermal  vapor
+unchanged  after  insertion  of  this  templating  layer. When      deposition, we coevaporate the inorganic precursors (PbI2,
+these templated perovskite films are incorporated into devices,      CsI, and PbCl2) to a total thickness of 9 nm and then deposit a
+we observe improved device performance as a result of reduced     9-nm film of FAI on top. We then anneal this film at 135 °C
+interfacial resistance, (as indicated through increased short-       for 2 min in pure N2 gas at atmospheric pressure to form the
+circuit current (Jsc) and  fill factor (FF)). We attribute this     ultrathin-MHP templating  layer (see SI  for  further exper-
+improvement to accurate interface control, allowing for fine-      imental details). This templating layer then acts as a seed for
+tuning the stoichiometry of the  initial perovskite deposited      the growth of fully coevapoated MHP layers.
+onto the substrate. Furthermore, the use of templating layers        In Figure S2c, we show that by precoating the shuttered
+permits the fabrication of high-performance devices on both   QCM with this templating layer, we are able to obtain the
+organic and inorganic CTLs in the same batch, which shows      shortest  stabilization  time. To  verify  that the use  of  this
+the universality of using templating layers in different device      templating layer is able to totally circumvent the compositional
+architectures. Overall, this templating strategy offers coevapo-       variations found  during  the  initial  phases  of growth on
+rated perovskites more freedom in the selection of substrate     untemplated  substrates, we  also deposit  it on a  2,2′,7,7′-
+
+                                                             4009                                                 https://doi.org/10.1021/acsenergylett.3c01368
+                                                                                                                                 ACS Energy Lett. 2023, 8, 4008−4015
+--- Страница 3 ---
+ACS Energy Letters                                      http://pubs.acs.org/journal/aelccp                                           Letter
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+                                                                                                                                                                                                                                                                                                                                                                  fromFigure 1. Morphological characterization of FA0.9Cs0.1PbI3−xClx perovskite films deposited with and without an ultrathin MHP layer, labeled
+UT and Ctrl, respectively. Top-view scanning electron microscopy (SEM) images of Ctrl (a-e) and UT (k-o) films on spiroTTB, NiOx, SnO2,
+C60 and PTAA, respectively (see SI for lower magnification top-view SEM images). Cross-sectional SEM images of Ctrl (f−j) and UT (p−t)
+films on spiroTTB, NiOx, SnO2, C60 and PTAA. The cross-section profile of Ctrl (u and v) and UT (w and x) films on the textured Si (film
+thicknesses obtained from the cross-section SEM can be found in Table S2).
+
+tetra(N,N-di-p-tolyl)amino-9,9-spirobifluorene (spiroTTB)      noticeable gaps. On C60, control films are also composed of
+precoated  shuttered QCM.  Here, we  find  that  the  rate      smaller crystallites of random orientations. Interestingly, when
+stabilizes almost immediately, pointing toward a significantly       films are grown on the templating layer, in all cases, the crystals
+reduced likelihood of compositional variation at the CTL/      appear to have formed more columnar structures with fewer
+perovskite interface (Figure S2d). As such, we proceed to      voids and  visible boundaries (Figure 1p−t). This suggests
+investigate the effect of this templating layer on the properties     more continuous grain growth and thus, the formation of
+of coevaporated perovskite films.                                  higher quality perovskite thin films, specifically with regards to
+  To probe the universality of the templating approach, we     improved charge transport through the absorber. As previously
+select 5  different CTLs which  are  often  used  in  high      mentioned, MHPs have been used as top cells in perovskite/Si
+performance PSCs: spiroTTB, nickel oxide (NiOx), tin oxide      tandems, achieving the highest performance of any double-(SnO2), C60 and poly[bis(4-phenyl)(2,4,6-trimethylphenyl)-      junction monolithic tandem solar cell.1 It is worth noting that                                                                                                                                                                                                                                                                                                                                                pubs.​acs.​org/​aelccp/​article-pdf/​8/​10/​4008/​3080820/​nz3c01368.​pdf
+amine] (PTAA). After the templating layers are deposited, the      the most efficient perovskite/Si tandems are constructed using         by
+initial characterization results show that these templating layers      textured Si as the bottom cell. Depositing conformal perovskite                       guest
+have consistent morphology and structure on different CTLs       layers on such substrates via spin-coating is nontrivial and as         on
+(Figures S4−S6). The perovskite films are then simultaneously      such, devices of this sort are often fabricated using one of three         19
+coevaporated onto  all these  substrates with or without a      types of two-step depostion methods:either  entirely vapor-
+templating  layer, named as “templated” or “control”  films,      based,  hybrid  vapor/solution-based,  or  entirely  solution-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Novemberrespectively.                                                             based.42,43 With this in mind, we consider the feasibility of
+   First, we investigate the influence of the templating layer on      using our templating approach to control the deposition of                  2026
+the morphology of perovskite films by using scanning electron      coevaporated perovskite films on textured Si. Here, we deposit
+microscopy (SEM) and present the data in Figure 1. From the      control and templated films on Si substrates with pyramid
+top-view SEM, we see that both control (Figure 1a−e) and      heights of more than 10 μm (Figure 1u−x). The results show
+templated (Figure 1k−o) films form uniform, homogeneous      that coevaporation can readily produce conformal, pinhole-free
+films.24,35 Figure 1a−e shows that control films deposited on       films on top of the pyramidal structures. However, as with the
+the various substrates have significant morphological changes.      substrates previously investigated, the cross-sectional profile of
+This is particularly evident on the inorganic substrates, in this      control  films grown on  the  textured  Si shows  multiple
+case, NiOx and  SnO2.  Conversely,  the morphology  of       crystallites  stacked on  top  of each  other  in  the  vertical
+templated films (Figure 1k−o)  is very similar in  all cases,      direction,  while  templated  films  again  form  vertically
+suggesting  that  the  crystallization  dynamics  are now      continuous, columnar structures. These  initial  results show
+independent of the substrate material. Lower magnification      the  likelihood  of  successfully  transferring  our  templating
+images confirm that this similarity holds across longer length     approach to a variety of substrates.
+scales (Figure S7). Cross-sectional SEM images, consistent       However, merely having a similar morphology is insufficient
+with top-view SEM images, show significant differences in the      to confirm the utility of the templating layer. We now proceed
+vertical ordering of apparent grains (Figure 1f−j). Specifically,      to probe the structure and composition of the control and
+we observe that on spiroTTB and SnO2, control films appear      templated films. First, we measure the absorption spectra of
+to have columnar growth, whereas on NiOx and PTAA, films      these films and present the data in Figure S8 and Table S3.
+appear  to  consist  of  small, randomly  sized  grains  with     The absorption coefficient of a particular material should be
+
+                                                             4010                                                 https://doi.org/10.1021/acsenergylett.3c01368
+                                                                                                                                 ACS Energy Lett. 2023, 8, 4008−4015
+--- Страница 4 ---
+ACS Energy Letters                                      http://pubs.acs.org/journal/aelccp                                           Letter
+
+
+
+
+
+Figure 2. Structural characterization of FA0.9Cs0.1PbI3−xClx perovskite films deposited with and without an ultrathin MHP layer, labeled UT
+and Ctrl, respectively. X-ray diffraction (XRD) patterns of Ctrl (a) and UT (b) films on spiroTTB, NiOx, SnO2, C60, PTAA and textured Si.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      DownloadedGrazing incidence wide-angle X-ray scattering (GIWAXS) results of Ctrl (c) and UT (d) films deposited on z-cut quartz. Simplified
+schematic representations of randomly oriented Ctrl films (e) and highly oriented UT films (f).                                                                                                                        from
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    pubs.​acs.​org/​aelccp/​article-pdf/​8/​10/​4008/​3080820/​nz3c01368.​pdf
+                                                                                                                                                                                 by
+                                                                                                                                                                                                                                                                                                                                                                                                                                                           guest
+                                                                                                                                                                                 on
+                                                                                                                                                                                 19
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     November
+                                                                                                                                                                                                                                                                                                                                                                  2026
+Figure 3. Improvement of device performance. The absorber layers are FA0.9Cs0.1PbI3−xClx perovskite films with and without an ultrathin
+MHP layer, labeled UT and Ctrl, respectively. (a) Statistical results of Ctrl and UT device parameters. (b) J−V characteristics and
+corresponding SPO (inset) for the champion cell using the Ctrl and UT films. (c) EQE, and integrated JSC for the devices. The integrated JSC
+values for the Ctrl and UT devices are 22.2 and 23.9 mA·cm−2, respectively.
+
+consistent,  as  it  is an  intrinsic  property. However,  if the      perovskite can indeed  affect the stoichiometry of the bulk
+absorption coefficients of perovskite on different substrates are       material.34 Encouragingly, however, we note that with the
+varied,  this might  suggest  the  presence  of  nonperovskite      inclusion of a templating layer the absorption coefficient and
+components in these films. Using the measured absorption     bandgap  of the deposited  films (1.59 eV)  are  consistent,
+spectra, we extract the bandgap values by fitting the absorption      regardless of the nature of the underlying  substrate. This
+onsets  with  the  Elliott model  (details  given  in  SI).44      suggests  that  with  the  templating  layer, we  are  able  to
+Surprisingly, the bandgap values of control films grown on      reproducibly control the crystallization and composition of the
+different substrates vary within the range of 1.57−1.60 eV. It is      perovskite.
+worth noting that these films were deposited during the same        Next, we explore the degree of crystallinity of these films
+deposition run, and as such, their bandgaps should be identical,      using X-ray diffraction (XRD). Figure 2a and b shows the XRD
+making a 30 meV difference in the bandgap significantly larger      patterns of the control and templated films. Apart from the
+than one would expect. This lends credence to the hypothesis      PbI2 peaks and ITO peaks,  all other peaks in control and
+that variations in the composition of the  first few nm of      templated films can be assigned to the cubic perovskite phase
+
+                                                             4011                                                 https://doi.org/10.1021/acsenergylett.3c01368
+                                                                                                                                 ACS Energy Lett. 2023, 8, 4008−4015
+--- Страница 5 ---
+ACS Energy Letters                                      http://pubs.acs.org/journal/aelccp                                           Letter
+
+Table 1. Champion and Average Device Performance Parameters for Solar Cells Fabricated from FA0.9Cs0.1PbI3−xClx
+Perovskite Films with and without an Ultrathin MHP Layer, Labeled UT and Ctrl, Respectivelya
+
+        Device                  Jsc (mA cm−2)         Voc (V)       PCE (%)          FF         SPO (%)          Rsh (kΩ)           Rs (Ω)
+
+    Ctrl (champion)            21.7                1.06               18.3               0.80               18.2              17.6              10.3
+    Ctrl (average)           21.1 ± 0.2         1.07 ± 0.02        17.0 ± 0.3        0.76 ± 0.04        16.9 ± 0.3         9.1 ± 3.1         11.2 ± 1.3
+  UT (champion)             22.2                1.06               19.3               0.82               19.1              15.0                8.4
+  UT (average)            21.8 ± 0.1         1.07 ± 0.02        18.5 ± 0.1        0.80 ± 0.02        18.3 ± 0.1        14.0 ± 0.7         8.4 ± 0.1
+aThe values given in this table represent scans from open-circuit to short-circuit conditions.
+
+(Pm3m) (Figures S9−S10).28 We note that the intensities of      thickness of the perovskite layer (Figure S14), we show the
+the perovskite (200) peaks in templated films are 2 to 10 times      best performing devices using control and templated films
+higher than  those  in  the  control  films (Table  S4). The      devices in Figure 3b and c, and list the performance parameters
+significantly higher peak intensity, as well as smaller full width       in Table 1. The statistical results shown in Figure 3a are taken
+at half-maximum (fwhm) in templated  films, suggests that     from a total of 16 devices across 3 different batches and show
+perovskite films grown on this templating layer have a higher      that devices made with the templating layer have a narrower
+degree of crystallinity and are more highly oriented. To further      distribution in performance than control devices, indicating
+probe the crystal orientation, we conducted grazing incidence      better  reproducibility.  Interestingly,  the  insertion  of  the
+wide-angle  X-ray  scattering (GIWAXS)  measurements.  In      templating  layer  results  in improved  device  performance,Figure 2c, we observe diffuse rings, representing many weak      boosting the PCE from 18.3% (18.2% stabilized power output                                              Downloaded
+reflections across the entire arc, indicative of a polycrystalline     (SPO)) to 19.3% (19.1% SPO), as shown in Figure 3c. This                  from
+film with many randomly oriented crystallites. Conversely, we     improvement  is  a  result  of  the  increased  Jsc and FF  in
+clearly observe  discrete spots in the  diffraction pattern of      templated devices. The integrated Jsc values obtained from the
+templated  films  (Figure  2d),  indicating  a  higher  level  of      corresponding external quantum efficiency (EQE) (Figure 3d)
+orientation. This change in orientation is depicted schemati-      are  22.2 mA cm−2 and  23.9 mA cm−2  for  control and
+cally in Figure 2e and  f, respectively. While these measure-      templated devices, respectively, which are in close agreement
+ments were carried out on quartz substrates, the trend holds on      with the measured values. Additionally, Table 1 illustrates the
+relevant CTLs such as spiroTTB (Figure S11).                    discrepancy of average SPO between templated (18.3 ± 0.1%)
+  Having  established  that when  deposited on CTLs,  the     and control (16.9 ± 0.3%) devices, confirming the efficiency
+morphological and structural properties of control films are     enhancement in templated devices (the statistical results of
+highly dependent on the nature of substrates and that the    SPO and steady-state current density are given in Figure S15).
+insertion of a templating layer circumvents these issues, we    We further investigate the operational stability of unencapsu-
+proceed  to  investigate  the  impact  of  this  layer on  the      lated control and templated devices aged at 85 °C in a dark N2
+optoelectronic properties of the perovskite films. Figure S12a      atmosphere. The average SPOs are shown in Figure S16. The
+shows, in the absence of CTLs, a slightly increased absorption     measured  lifetimes  for 80% of the peak SPO (T80 ave) of
+coefficient for templated films, while control and templated      control and templated devices are 408 and 480 h, respectively.films have very similar absorption onsets at approximately 1.59     The slightly prolonged lifetime of the templated devices can be                                                                                                                                                                                                                                                                                                                                                pubs.​acs.​org/​aelccp/​article-pdf/​8/​10/​4008/​3080820/​nz3c01368.​pdf
+eV and overlapping photoluminescence (PL) emission. To      ascribed to the slower degradation of the templated perovskite         by
+assess the effect of the inclusion of a templating layer on the       films (Figure S17).                                                                                                                                                                  guest
+charge-carrier dynamics, we perform time-resolved terahertz       By  fitting the  tail of the EQE spectrum, we obtain the         on
+photoconductivity spectroscopy. Control and templated films     Urbach energy (Eu), which  is a measure of the degree of         19
+were probed using the optical-pump tetraherz-probe (OPTP)      electronic disorder in semiconductor  films.49,50 The  results
+technique (Figure S12b).45,46 The bimolecular recombination      (Figures S18−19) show that the Eu values are nominally the                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Novemberconstant k2 was extracted from the fluence-dependent transient     same (14.0 ± 0.1 and 13.9 ± 0.1 meV  for control and
+photoconductivity decays  (full  details are provided in  SI).      templated  films,  respectively),  implying  similar  electronic                  2026
+Similar k2 values indicate almost unchanged electron−hole      disorder in both films, in line with both the OPTP results
+recombination in these two films. The corresponding charge-     and Voc values of control and templated devices. Given that the
+carrier mobilities (listed in Table S5) further show that the     performance improvement  is  clearly not obtained through
+short-range mobilities are unaffected by the insertion of the       altering intrinsic material properties, we re-examine the J−V
+templating layer. We then probe control and templated films      curves to gather more information about the device stacks.
+via time-resolved PL (Figures S12c, S13 and Table S6) to     Table 1 shows the average shunt resistance (Rsh) and series
+extract  the  trap-assisted  recombination (monomolecular      resistance (Rs). Compared with control devices, in templated
+recombination) k1,47,48 and we observe no significant differ-       devices, the average Rs is reduced from 11.2 ± 1.3 Ω to 8.4 ±
+ence between control (≈2.3 x106 s−1) and templated (≈1.8      0.1 Ω, and the average Rsh increases from 9.1 ± 3.1 kΩ to 14.0
+x106 s−1) films.                              ± 0.8 kΩ. The reduced average Rs for the templated devices
+  Our results thus far show that the templating layer gives us     may be ascribed to the absence of a PbI2-rich layer at the
+better control over the  crystallization and composition  of     bottom interface.32 This would also explain the increase in Jsc
+vapor-deposited MHP films, while preserving their optoelec-      as the reduced resistance at the interface would allow for the
+tronic properties. To investigate the efficacy of this approach in     more efficient extraction of charges. In addition, as low Rsh
+solar  cells, we incorporate these films into an all-vacuum-      values are usually linked with pinholes and uneven perovskite
+deposited,  p-i-n device with the structure ITO/spiroTTB/       films,51,52 the improved  Rsh  in templated devices may be
+control or templated MHP films/C60/Bathocuproine (BCP)/      attributed to the formation of higher-quality films comprised of
+Ag (as shown in Figure 3a). After the optimization of the     columnar  crystallites which have fewer boundaries  in the
+
+                                                             4012                                                 https://doi.org/10.1021/acsenergylett.3c01368
+                                                                                                                                 ACS Energy Lett. 2023, 8, 4008−4015
+--- Страница 6 ---
+ACS Energy Letters                                      http://pubs.acs.org/journal/aelccp                                           Letter
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+Figure 4. Impact of the ultrathin MHP layer on different charge transport layers. The absorber layers are FA0.9Cs0.1PbI3−xClx perovskite films
+with and without an ultrathin MHP layer, labeled UT and Ctrl, respectively. Schematics for the p-i-n device architecture (a) and n-i-p device                  from
+architectures with SnO2 (c) and C60 (e) n-type layers, with the corresponding statistical PCE results of Ctrl and UT devices (b, d, f). J−V
+characteristics (g), statistical SPO (h), statistical PCE (i), EQE, and integrated JSC (j) for the champion p-i-n and n-i-p UT devices made in
+the same batch.
+
+direction of charge transport, and a more uniform distribution      S23), indicating the universality of the templating layer to
+of the perovskite at the bottom interface.                             different perovskite compositions.
+   Finally, we show that our templated growth approach  is        In conclusion, we have successfully established a method of
+relevant for a wide range of solar-cell device architectures, not      controlling the buried interface in vapor-deposited perovskite
+just p-i-n devices utilizing spiroTTB. We deposited control and       films and have decoupled the nucleation and growth of these
+templated films on organic (PTAA and C60) and inorganic       films from the influence of substrate materials. By inserting a
+(SnO2) substrates to fabricate both p-i-n and n-i-p devices, as      templating layer between the perovskite film and the substrate,
+shown  in Figure  4a-f. In  all  cases, device performance  is     we are able to form highly oriented coevaporated perovskite
+markedly improved when the templating  layer  is  inserted,       films with identical morphology, structure, and optoelectronic
+which we attribute to the increased Jsc and FF in these devices      properties on a variety of different materials. The inclusion of
+(Figures S20−S21 and Table S7). Furthermore, by growing       this templating  layer  results  in improved  solar-cell devicethe templated films on spiroTTB, SnO2, and C60 substrates, p-      performance,  as  a  result  of reduced  interfacial  resistance                                                                                                                                                                                                                                                                                                                                                pubs.​acs.​org/​aelccp/​article-pdf/​8/​10/​4008/​3080820/​nz3c01368.​pdf
+i-n and n-i-p devices can be fabricated in one deposition run.      (increased Jsc and FF). We attribute this improvement to our         by
+This process was previously nontrivial as deposition conditions       ability to exert fine control of the composition of the initial                       guest
+needed  to be optimized  for  specific  substrates. The J−V      perovskite deposited onto the substrate. These results provide         on
+characteristics of champion spiroTTB/templated-MHP, SnO2/     an effective and reproducible method for controlling the buried         19
+templated-MHP and C60/templated-MHP devices shown in      charge transport layer/perovskite interface in vapor-deposited
+Figure 4g illustrate that the Jsc values in these three-types of      perovskite solar cells, further increasing the competitiveness of                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Novemberdevices are comparable. The small difference in Voc can be       this deposition technique, moving the field closer to large-scale
+explained by  the  slightly  different  energetic  alignments       fabrication of a wide-range of efficient perovskite optoelec-                  2026
+between perovskite and various CTLs. We show the statistical      tronic devices.
+SPO and PCE results in Figure 4h and 4i (more statistics of
+the devices are given in Figure S22). For the best-performing                CONTENTspiroTTB/templated-MHP, SnO2/templated-MHP and C60/    ■ASSOCIATED*sı  Supporting Information
+templated-MHP devices, the PCEs were 19.8% (19.8% SPO),
+                                                   The Supporting Information  is  available  free of charge  at
+19.0% (17.8% SPO) and 18.8% (18.6% SPO), respectively
+                                                                  https://pubs.acs.org/doi/10.1021/acsenergylett.3c01368.
+(Table S8). The integrated Jsc values obtained from the EQE
+data  in  Figure  4j  are  consistent with  those  of  the J−V            Additional  details about experimental methods, SEM
+measurements. This finding confirms that the use of perovskite           morphology, XRD, GIWAXS, OPTP spectra, and device
+templating layers allows for the fabrication of high performance             analysis (PDF)
+p-i-n and  n-i-p devices  in the same batch, as a  result of
+providing an effective and reproducible route of improving the
+                                                     INFORMATION
+quality  of the CTL/perovskite  interface and  exerting  fine                                 ■AUTHORcontrol over the composition and crystallization dynamics of     Corresponding Authors
+vapor-deposited perovskite films. Furthermore, this templating        Michael B. Johnston −Department of Physics, University of
+method is not limited to perovskite films with a composition of           Oxford, Oxford OX1 3PU, United Kingdom;   orcid.org/
+FA0.9Cs0.1PbI3−xClx. We observe a  similar improvement  in          0000-0002-0301-8033; Email: michael.johnston@
+device performance for FA0.9Cs0.1PbI3-based devices (Figure           physics.ox.ac.uk
+
+                                                             4013                                                 https://doi.org/10.1021/acsenergylett.3c01368
+                                                                                                                                 ACS Energy Lett. 2023, 8, 4008−4015
+--- Страница 7 ---
+ACS Energy Letters                                      http://pubs.acs.org/journal/aelccp                                           Letter
+
+  Nakita K. Noel −Department of Physics, University of Oxford,       (7) McMeekin, D. P.; Wang, Z.; Rehman, W.; Pulvirenti, F.; Patel, J.
+    Oxford OX1 3PU, United Kingdom;   orcid.org/0000-           B.; Noel, N. K.; Johnston, M. B.; Marder, S. R.; Herz, L. M.; Snaith,
+    0002-8570-479X; Email: nakita.noel@physics.ox.ac.uk         H.   J.  Crystallization  Kinetics and Morphology  Control  of
+                                                            Formamidinium−Cesium Mixed-Cation Lead Mixed-Halide Perov-
+Authors                                                                          skite Via Tunability of the Colloidal Precursor Solution. Adv. Mater.
+  Siyu Yan −Department of Physics, University of Oxford,          2017, 29 (29), 1607039.
+                                                                     (8)  Zhang,  Y.;  Liu,  Y.;  Liu,  S. Composition  Engineering  of    Oxford OX1 3PU, United Kingdom;   orcid.org/0000-
+                                                                          Perovskite  Single  Crystals  for High-Performance Optoelectronics.
+    0002-9226-6943
+                                                                       Adv. Funct. Mater. 2023, 33 (9), 2210335.
+   Jay B. Patel −Department of Physics, University of Oxford,                                                                     (9) Ball, J. M.; Petrozza, A. Defects in Perovskite-Halides and Their
+    Oxford OX1 3PU, United Kingdom;   orcid.org/0000-           Effects in Solar Cells. Nat. Energy 2016, 1 (11), 16149.
+    0001-5132-1232                                               (10) Ni, Z.; Bao, C.; Liu, Y.; Jiang, Q.; Wu, W.-Q.; Chen, S.; Dai, X.;
+   Jae Eun Lee −Department of Physics, University of Oxford,       Chen, B.; Hartweg, B.; Yu, Z.; Holman, Z.; Huang,  J. Resolving
+    Oxford OX1 3PU, United Kingdom                                  Spatial and Energetic Distributions of Trap States in Metal Halide
+  Karim A. Elmestekawy −Department of Physics, University of       Perovskite Solar Cells. Science 2020, 367 (6484), 1352−1358.
+     Oxford, Oxford OX1 3PU, United Kingdom;   orcid.org/        (11) Wang, R.; Xue, J.; Wang, K.-L.; Wang, Z.-K.; Luo, Y.; Fenning,
+    0000-0002-7707-1611                                             D.; Xu, G.; Nuryyeva, S.; Huang, T.; Zhao, Y.; Yang, J. L.; Zhu, J.;
+   Sinclair R. Ratnasingham −Department of Physics, University     Wang, M.; Tan, S.; Yavuz,  I.; Houk, K. N.; Yang, Y. Constructive
+                                                                     Molecular Configurations for Surface-Defect Passivation of Perovskite     of Oxford, Oxford OX1 3PU, United Kingdom
+                                                                             Photovoltaics. Science 2019, 366 (6472), 1509−1513.
+  Qimu Yuan −Department of Physics, University of Oxford,
+                                                                    (12) Wang, F.; Bai, S.; Tress, W.; Hagfeldt, A.; Gao, F. Defects
+    Oxford OX1 3PU, United Kingdom;   orcid.org/0000-                                                                       Engineering for High-Performance Perovskite Solar Cells. npj Flex.                                              Downloaded
+    0002-1335-4073                                                          Electron. 2018, 2 (1), 22.                                                                                                                        from
+  Laura M. Herz −Department of Physics, University of Oxford,       (13) Sherkar, T. S.; Momblona, C.; Gil-Escrig, L.; Ávila, J.; Sessolo,
+    Oxford OX1 3PU, United Kingdom; Institute for Advanced      M.; Bolink, H. J.; Koster, L. J. A. Recombination in Perovskite Solar
+     Study, Technical University of Munich, Munich D-85748           Cells: Significance of Grain Boundaries, Interface Traps, and Defect
+     Garching, Germany;   orcid.org/0000-0001-9621-334X          Ions. ACS Energy Lett. 2017, 2 (5), 1214−1222.
+                                                                    (14) Tan, H.; Jain, A.; Voznyy, O.; Lan, X.; García de Arquer, F. P.;
+Complete contact information is available at:                                                                       Fan,  J. Z.; Quintero-Bermudez, R.; Yuan, M.; Zhang, B.; Zhao, Y.;
+https://pubs.acs.org/10.1021/acsenergylett.3c01368                                                                       Fan, F.; Li, P.; Quan, L. N.; Zhao, Y.; Lu, Z.-H.; Yang, Z.; Hoogland,
+                                                                                            S.; Sargent, E. H.  Efficient and Stable Solution-Processed Planar
+Notes                                                                    Perovskite Solar Cells Via Contact Passivation. Science 2017, 355
+The authors declare no competing financial interest.                (6326), 722−726.
+                                                                    (15) Wang,  Z.; McMeekin, D.  P.;  Sakai, N.; van Reenen,  S.;
+                                                                     Wojciechowski, K.; Patel, J. B.; Johnston, M. B.; Snaith, H. J. Efficient
+                                                               and Air-Stable Mixed-Cation Lead Mixed-Halide Perovskite Solar■ACKNOWLEDGMENTSThe authors would like to thank the Engineering and Physical       Cells with n-Doped Organic Electron Extraction Layers. Adv. Mater.
+Sciences  Research  Council (UK) (EPSRC)  for  financial      2017, 29 (5), 1604186.
+support. L.M.H. acknowledges support through a Hans Fischer       (16) Yoo,  J.  J.; Wieghold,  S.; Sponseller, M. C.; Chua, M. R.;
+Senior Fellowship from the Technical University of Munich’s      Bertram, S. N.; Hartono, N. T. P.; Tresback,  J. S.; Hansen, E. C.;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    pubs.​acs.​org/​aelccp/​article-pdf/​8/​10/​4008/​3080820/​nz3c01368.​pdfInstitute  for Advanced  Study,  funded  by  the German      Correa-Baena, J.-P.; Bulović, V.; Buonassisi, T.; Shin, S. S.; Bawendi,
+Excellence  Initiative.  S.Y.,  J.B.P., and M.B.J. would  like to     M. G. An  Interface  Stabilized  Perovskite  Solar  Cell with High         by
+thank  Nicholas  Callaghan  for  his  help  designing and       Stabilized Efficiency and Low Voltage Loss. Energy Environ. Sci. 2019,                       guest
+                                                              12 (7), 2192−2199.                                                                  onmanufacturing parts for the custom thermal evaporator used
+                                                                    (17) Peng, J.; Wu, Y.; Ye, W.; Jacobs, D. A.; Shen, H.; Fu, X.; Wan,         19in this work. K.A.E. and Q.Y. acknowledge the support of Rank
+                                                                                     Y.; Duong, T.; Wu, N.; Barugkin, C.; Nguyen, H. T.; Zhong, D.; Li, J.;
+Prize through a Return to Research grant.                                                                       Lu, T.; Liu, Y.; Lockrey, M. N.; Weber, K. J.; Catchpole, K. R.; White,                                                                     T. P. Interface Passivation Using Ultrathin Polymer−Fullerene Films                                     November
+                                                                                  for High-Efficiency Perovskite Solar Cells with Negligible Hysteresis.                  2026■REFERENCES(1) NREL. Best Research-Cell Efficiencies. See the following: https://      Energy Environ. Sci. 2017, 10 (8), 1792−1800.
+www.nrel.gov/pv/cell-efficiency.html (accessed June 14, 2023).            (18) Noel, N. K.; Habisreutinger, S. N.; Pellaroque, A.; Pulvirenti,
+ (2) Stranks,  S. D.; Eperon, G.  E.; Grancini, G.; Menelaou, C.;        F.; Wenger, B.; Zhang, F.; Lin, Y.-H.; Reid, O. G.; Leisen, J.; Zhang,
+Alcocer, M. J. P.; Leijtens, T.; Herz, L. M.; Petrozza, A.; Snaith, H. J.        Y.; Barlow, S.; Marder, S. R.; Kahn, A.; Snaith, H. J.; Arnold, C. B.;
+Electron-Hole  Diffusion Lengths Exceeding 1 Micrometer  in an      Rand, B. P.  Interfacial Charge-Transfer Doping of Metal Halide
+Organometal  Trihalide  Perovskite  Absorber.  Science  2013, 342       Perovskites for High Performance Photovoltaics. Energy Environ. Sci.
+(6156), 341−344.                                                   2019, 12 (10), 3063−3073.
+ (3) Park, N.-G. Perovskite Solar Cells: An Emerging Photovoltaic       (19) Yang, G.; Wang, C.; Lei, H.; Zheng, X.; Qin, P.; Xiong, L.;
+Technology. Mater. Today 2015, 18 (2), 65−72.                        Zhao, X.; Yan, Y.; Fang, G. Interface Engineering in Planar Perovskite
+ (4)  Herz,  L. M.  Charge-Carrier  Mobilities  in  Metal  Halide       Solar Cells: Energy Level Alignment, Perovskite Morphology Control
+Perovskites: Fundamental Mechanisms and Limits. ACS Energy Lett.      and High Performance Achievement. J. Mater. Chem. A 2017, 5 (4),
+2017, 2 (7), 1539−1548.                                         1658−1666.
+ (5) Huang, Y.; Lei, X.; He, T.; Jiang, Y.; Yuan, M. Recent Progress       (20) Li, H.; Zhou, J.; Tan, L.; Li, M.; Jiang, C.; Wang, S.; Zhao, X.;
+on Formamidinium-Dominated Perovskite Photovoltaics. Adv. Energy       Liu, Y.; Zhang, Y.; Ye, Y.; Tress, W.; Yi, C. Sequential Vacuum-
+Mater. 2022, 12 (4), 2100690.                                        Evaporated Perovskite Solar Cells with More Than 24% Efficiency.
+ (6) Noel, N. K.; Habisreutinger, S. N.; Wenger, B.; Klug, M. T.;         Sci. Adv. 2022, 8 (28), eabo7422.
+Hörantner, M. T.; Johnston, M. B.; Nicholas, R.  J.; Moore, D. T.;       (21) Gil-Escrig, L.; Dreessen, C.; Palazon, F.; Hawash, Z.; Moons,
+Snaith, H.  J. A Low Viscosity, Low Boiling Point, Clean Solvent        E.; Albrecht, S.; Sessolo, M.; Bolink, H.  J. Efficient Wide-Bandgap
+System for the Rapid Crystallisation of Highly Specular Perovskite      Mixed-Cation and Mixed-Halide Perovskite Solar Cells by Vacuum
+Films. Energy Environ. Sci. 2017, 10 (1), 145−152.                        Deposition. ACS Energy Lett. 2021, 6 (2), 827−836.
+
+                                                             4014                                                 https://doi.org/10.1021/acsenergylett.3c01368
+                                                                                                                                 ACS Energy Lett. 2023, 8, 4008−4015
+--- Страница 8 ---
+ACS Energy Letters                                      http://pubs.acs.org/journal/aelccp                                           Letter
+
+ (22) Liu, M. Z.; Johnston, M. B.; Snaith, H.  J. Efficient Planar     Vacuum Deposition. ACS Appl. Mater. Interfaces 2023, 15 (1), 772−
+Heterojunction Perovskite Solar Cells by Vapour Deposition. Nature       781.
+2013, 501 (7467), 395.                                               (38) Ritzer, D. B.; Abzieher, T.; Basibüyük, A.; Feeney, T.; Laufer,
+ (23) Lin, D.; Gao, Y.; Zhang, T.; Zhan, Z.; Pang, N.; Wu, Z.; Chen,        F.; Ternes, S.; Richards, B. S.; Bergfeld, S.; Paetzold, U. W. Upscaling
+K.; Shi, T.; Pan, Z.; Liu, P.; Xie, W. Vapor Deposited Pure α-FAPbI3       of Perovskite Solar Modules: The Synergy of Fully Evaporated Layer
+Perovskite  Solar  Cell  Via  Moisture-Induced  Phase  Transition       Fabrication and All-Laser-Scribed Interconnections. Prog. Photovolt.:
+Strategy. Adv. Funct. Mater. 2022, 32 (48), 2208392.                         Res. Appl. 2022, 30 (4), 360−373.
+ (24) Chiang, Y.-H.; Anaya, M.; Stranks, S. D. Multisource Vacuum       (39) Guesnay, Q.; Sahli, F.; Ballif, C.; Jeangros, Q. Vapor Deposition
+Deposition of Methylammonium-Free Perovskite Solar Cells. ACS       of Metal Halide Perovskite Thin Films: Process Control Strategies to
+Energy Lett. 2020, 5 (8), 2498−2504.                                Shape Layer Properties. APL Mater. 2021, 9 (10), 100703.
+ (25) Lohmann, K. B.; Motti, S. G.; Oliver, R. D. J.; Ramadan, A. J.;       (40) Lee, J.-W.; Park, N.-G. Two-Step Deposition Method for High-
+Sansom, H. C.; Yuan, Q.; Elmestekawy, K. A.; Patel, J. B.; Ball, J. M.;       Efficiency Perovskite Solar Cells. MRS Bull. 2015, 40 (8), 654−659.
+Herz, L. M.; Snaith, H. J.; Johnston, M. B. Solvent-Free Method for       (41) Feng, J.; Jiao, Y.; Wang, H.; Zhu, X.; Sun, Y.; Du, M.; Cao, Y.;
+                                                                     Yang, D.; Liu, S. High-Throughput Large-Area Vacuum DepositionDefect  Reduction and Improved  Performance  of  p-i-n  Vapor-
+                                                                                  for High-Performance Formamidine-Based Perovskite Solar  Cells.Deposited Perovskite Solar  Cells. ACS Energy  Lett. 2022, 7 (6),
+                                                                       Energy Environ. Sci. 2021, 14 (5), 3035−3043.1903−1911.
+                                                                    (42) Sahli, F.; Werner, J.; Kamino, B. A.; Bräuninger, M.; Monnard, (26) Borchert, J.; Milot, R. L.; Patel, J. B.; Davies, C. L.; Wright, A.
+                                                                                 R.; Paviet-Salomon,  B.; Barraud,  L.; Ding,  L.; Diaz Leon,  J.  J.;D.; Martínez Maestro, L.; Snaith, H. J.; Herz, L. M.; Johnston, M. B.
+                                                                           Sacchetto, D.; Cattaneo, G.; Despeisse, M.; Boccard, M.; Nicolay, S.;Large-Area,  Highly Uniform  Evaporated Formamidinium Lead
+                                                                            Jeangros,  Q.;  Niesen,  B.;  Ballif,  C.  Fully  Textured  Monolithic
+Triiodide Thin Films  for Solar  Cells. ACS Energy  Lett. 2017, 2
+                                                                            Perovskite/Silicon Tandem Solar Cells with 25.2% Power Conversion
+(12), 2799−2804.                                                                                  Efficiency. Nat. Mater. 2018, 17 (9), 820−826.                                                                                                                                                                           Downloaded
+ (27) Feng, J. S.; Jiao, Y. X.; Wang, H.; Zhu, X. J.; Sun, Y. M.; Du, M.
+                                                                (43)  Ioakeimidis,  A.;  Christodoulou,  C.;  Lux-Steiner,  M.;                  fromY.; Cao, Y. X.; Yang, D.; Liu, S. Z. High-Throughput Large-Area
+                                                                           Fostiropoulos, K.  Effect  of  PbI2 Deposition Rate on Two-Step
+Vacuum  Deposition  for  High-Performance Formamidine-Based                                               PVD/CVD All-Vacuum Prepared Perovskite.  J. Solid State Chem.
+Perovskite Solar Cells. Energy Environ. Sci. 2021, 14 (5), 3035−3043.                                                                   2016, 244, 20−24.
+ (28) Patel, J. B.; Wright, A. D.; Lohmann, K. B.; Peng, K.; Xia, C. Q.;                                                                    (44) Elmestekawy, K. A.; Wright, A. D.; Lohmann, K. B.; Borchert,
+Ball, J. M.; Noel, N. K.; Crothers, T. W.; Wong-Leung, J.; Snaith, H.                                                                                                               J.; Johnston, M.  B.; Herz, L. M. Controlling  Intrinsic Quantum
+J.; Herz, L. M.; Johnston, M. B. Light Absorption and Recycling in                                                                Confinement in Formamidinium Lead Triiodide Perovskite through
+Hybrid Metal Halide Perovskite Photovoltaic Devices. Adv. Energy                                                          Cs Substitution. ACS Nano 2022, 16 (6), 9640−9650.
+Mater. 2020, 10 (10), 1903653.                                       (45)  Johnston, M.  B.;  Herz,  L. M. Hybrid  Perovskites  for
+ (29) Lohmann, K. B.; Patel,  J. B.; Rothmann, M. U.; Xia, C. Q.;       Photovoltaics: Charge-Carrier Recombination, Diffusion, and Radia-
+Oliver, R. D. J.; Herz, L. M.; Snaith, H. J.; Johnston, M. B. Control        tive Efficiencies. Acc. Chem. Res. 2016, 49 (1), 146−154.
+over Crystal Size in Vapor Deposited Metal-Halide Perovskite Films.       (46) Herz, L. M. Charge-Carrier Dynamics in Organic-Inorganic
+ACS Energy Lett. 2020, 5 (3), 710−717.                               Metal Halide Perovskites. Annu. Rev. Phys. Chem. 2016, 67 (1), 65−
+ (30) Gil-Escrig, L.; Momblona, C.; La-Placa, M.-G.; Boix, P. P.;       89.
+Sessolo, M.; Bolink, H.  J. Vacuum Deposited Triple-Cation Mixed-       (47) de Quilettes, D. W.; Vorpahl, S. M.; Stranks, S. D.; Nagaoka,
+Halide Perovskite Solar  Cells. Adv. Energy Mater. 2018, 8 (14),       H.; Eperon, G. E.; Ziffer, M. E.; Snaith, H. J.; Ginger, D. S. Impact of
+1703506.                                                               Microstructure on Local Carrier Lifetime in Perovskite Solar Cells.
+ (31) Ono, L. K.; Leyden, M. R.; Wang, S.; Qi, Y. Organometal       Science 2015, 348 (6235), 683−686.Halide Perovskite Thin Films and Solar Cells by Vapor Deposition. J.       (48) Richter, J. M.; Abdi-Jalebi, M.; Sadhanala, A.; Tabachnyk, M.;                                                                                                                                                                                                                                                                                                                                                pubs.​acs.​org/​aelccp/​article-pdf/​8/​10/​4008/​3080820/​nz3c01368.​pdf
+Mater. Chem. A 2016, 4 (18), 6693−6713.                                    Rivett, J. P. H.; Pazos-Outón, L. M.; Gödel, K. C.; Price, M.; Deschler,         by
+ (32) Xu, H.; Wu, Y.; Cui, J.; Ni, C.; Xu, F.; Cai, J.; Hong, F.; Fang,        F.; Friend, R. H. Enhancing Photoluminescence Yields in Lead Halide                       guestZ.; Wang, W.; Zhu,  J.; Wang, L.; Xu, R.; Xu, F. Formation and       Perovskites by Photon  Recycling and  Light  out-Coupling.  Nat.
+                                                                                                                                                                                 on
+Evolution of the Unexpected PbI2 Phase at the Interface During the     Commun. 2016, 7 (1), 13941.                                                      19
+Growth of Evaporated Perovskite Films. Phys. Chem. Chem. Phys.       (49) Kranjčec, M.; Studenyak,  I. P.; Kurik, M. V. On the Urbach
+2016, 18 (27), 18607−18613.                                        Rule in Non-Crystalline Solids.  J. Non-Cryst. Solids 2009, 355 (1), (33) Patel, J. B.; Wong-Leung, J.; Van Reenen, S.; Sakai, N.; Wang, J.      54−57.                                                                                                                                                                                                                                                                                                                                   November
+T. W.; Parrott, E. S.; Liu, M.; Snaith, H. J.; Herz, L. M.; Johnston, M.       (50) Cody, G. D. Urbach Edge of Crystalline and Amorphous                  2026B.  Influence  of  Interface Morphology on  Hysteresis  in Vapor-       Silicon: A Personal Review. J. Non-Cryst. Solids 1992, 141, 3−15.
+Deposited Perovskite Solar Cells. Adv. Electron. Mater. 2017, 3 (2),       (51)  Glowienka,  D.;  Galagan,  Y.  Light  Intensity  Analysis  of
+1600470.                                                                Photovoltaic  Parameters  for  Perovskite  Solar  Cells.  Adv.  Mater.
+ (34)  Olthof,  S.;  Meerholz,  K.  Substrate-Dependent  Electronic      2022, 34 (2), 2105920.
+Structure and Film Formation  of MAPbI3  Perovskites.  Sci.  Rep.       (52) Qiu, W.; Merckx, T.; Jaysankar, M.; Masse de la Huerta, C.;
+2017, 7 (1), 40267.                                                     Rakocevic, L.; Zhang, W.; Paetzold, U. W.; Gehlhaar, R.; Froyen, L.;
+ (35) Abzieher, T.; Feeney, T.; Schackmar, F.; Donie, Y. J.; Hossain,      Poortmans, J.; Cheyns, D.; Snaith, H. J.; Heremans, P. Pinhole-Free
+I. M.; Schwenzer,  J.  A.; Hellmann, T.; Mayer, T.; Powalla, M.;       Perovskite Films for Efficient Solar Modules. Energy Environ.  Sci.
+                                                                   2016, 9 (2), 484−489.Paetzold, U. W. From Groundwork to Efficient Solar Cells: On the
+Importance of the Substrate Material in Co-Evaporated Perovskite
+Solar Cells. Adv. Funct. Mater. 2021, 31 (42), 2104482.
+ (36) Roß, M.; Severin, S.; Stutz, M. B.; Wagner, P.; Köbler, H.;
+Favin-Lévêque, M.; Al-Ashouri, A.; Korb, P.; Tockhorn, P.; Abate, A.;
+Stannowski, B.; Rech, B.; Albrecht, S. Co-Evaporated Formamidinium
+Lead Iodide Based Perovskites with 1000h Constant Stability for Fully
+Textured Monolithic Perovskite/Silicon Tandem Solar Cells. Adv.
+Energy Mater. 2021, 11 (35), 2101460.
+ (37) Yuan, Q.; Lohmann, K. B.; Oliver, R. D. J.; Ramadan, A. J.; Yan,
+S.; Ball, J. M.; Christoforo, M. G.; Noel, N. K.; Snaith, H. J.; Herz, L.
+M.; Johnston, M. B. Thermally Stable Perovskite Solar Cells by All-
+
+                                                             4015                                                 https://doi.org/10.1021/acsenergylett.3c01368
+                                                                                                                                 ACS Energy Lett. 2023, 8, 4008−4015

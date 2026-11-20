@@ -1,0 +1,525 @@
+--- Страница 1 ---
+Communication
+Iodide Salt Surface Etching Reduces Energy Loss in CdTe
+Nanocrystal Solar Cells
+
+Jielin Huang 1, Xuyang Wang 1, Yilin Chen 1, Zhenyu Chen 1, Qiaochu Lin 1, Qichuan Huang 1
+and Donghuan Qin 1,2,*
+
+
+                                            1   School of Materials Science and Engineering, South China University of Technology,
+                               Guangzhou 510640, China; 202230271209@mail.scut.edu.cn (J.H.); 202230274026@mail.scut.edu.cn (X.W.);
+                                     msylchen@mail.scut.edu.cn (Y.C.); 202230270257@mail.scut.edu.cn (Z.C.);
+                                      202130273624@mail.scut.edu.cn (Q.L.); hqcscut@outlook.com (Q.H.)
+                                            2   State Key Laboratory of Luminescent Materials & Devices, Institute of Polymer Optoelectronic Materials &
+                                       Devices, South China University of Technology, Guangzhou 510640, China
+                                     *   Correspondence: qindh@scut.edu.cn; Tel.: +86-020-8711-4346
+
+
+                           Abstract
+
+                      CdTe nanocrystals (NCs) have emerged as a promising active layer for efficient thin-film
+                              solar cells due to their outstanding optical properties and simple processing techniques.
+                        However, the low hole concentration and high resistance in the CdTe NC active layer
+                           lead to high carrier recombination in the back contact. Herein, we developed a novel
+                           2-iodothiophene as a wet etching solution to treat the surface of CdTe NC. We found that
+                             surface treatment using 2-iodothiophene leads to reduced interface defects and improves
+                               carrier mobility simultaneously. The surface properties of CdTe NC thin films after io-
+                          dide salt treatment are revealed through surface element analysis, space charge limited
+                            current (SCLC) studies, and energy level investigations. The CdTe NC solar cells with
+                           2-iodothiophene treatment achieved power conversion efficiency (PCE) of 4.31% coupled
+                          with a higher voltage than in controlled devices (with NH4I-treated ones, 3.08% PCE).
+
+                        Keywords: CdTe; solar cells; etching; nanocrystalline
+
+
+
+Academic Editor: Candido Fabrizio
+
+Pirri
+Received: 26 June 2025              1. Introduction
+Revised: 26 July 2025                  Solution-processed nanocrystal (NC) materials have garnered significant interest
+Accepted: 29 July 2025
+                       due to their potential for creating low-cost and high-performance optoelectronic devices.
+Published: 31 July 2025
+                    Among them, cadmium telluride (CdTe) NCs possess an ideal bandgap for single-junction
+Citation: Huang, J.; Wang, X.; Chen,
+                             devices, aligning well with the solar spectrum and ensuring high photon absorption
+Y.; Chen, Z.; Lin, Q.; Huang, Q.; Qin, D.
+Iodide Salt Surface Etching Reduces     efficiency [1–6]. Moreover, due to their solution processability, minimal raw material us-
+Energy Loss in CdTe Nanocrystal Solar   age, and simple fabrication processes, these characteristics make CdTe NCs a promising
+Cells. Nanomaterials 2025, 15, 1180.     candidate for high-efficiency photovoltaic applications [7–9]. However, CdTe NC solar
+https://doi.org/10.3390/             cells currently face a significant challenge: the back contact issue. Due to low doping
+nano15151180                   concentrations and the self-compensation effect, along with surface oxidation, severe re-
+Copyright: © 2025 by the authors.      combination at the back contact occurs [10–12]. This limits the overall efficiency and further
+Licensee MDPI, Basel, Switzerland.    development of CdTe NC solar cells. To address this issue, the most commonly used
+This article is an open access article     methods are copper doping, introducing a hole transport layer between CdTe NC film and
+distributed under the terms and
+                             the contact electrode, or surface etching [13–15]. Among these methods, the introduction of
+conditions of the Creative Commons
+Attribution (CC BY) license          a hole transport layer has achieved significant success in mediating charge extraction and
+(https://creativecommons.org/       boosting the overall performance of solar cells. To effectively reduce carrier recombination
+licenses/by/4.0/).                  at the semiconductor–metal interface, selecting a hole transfer material (HTM) with a high
+
+
+
+Nanomaterials 2025, 15, 1180                                                                          https://doi.org/10.3390/nano15151180
+--- Страница 2 ---
+Nanomaterials 2025, 15, 1180                                                                                                     2 of 11
+
+
+
+                      work function is essential. For instance, by employing crosslinkable conjugated polymers
+                                like poly (diphenylsilane-co-4-vinyl-triphenylamine) and poly (phenylphosphine-co-4-
+                            vinyl-triphenylamine) [16,17], CdTe NC solar cells with a configuration of ITO (indium tin
+                      oxide)/ZnO/CdSe/CdTe/HTM/Au were fabricated, and over 9% power conversion effi-
+                             ciency (PCE) was achieved [16]. This improvement is due to the formation of a dipole layer
+                         between the CdTe NC and hole transport layer (HTL) interface. The dipole layer not only
+                          enhances the built-in electric field but also reduces the recombination of carriers at the back
+                              contact, thereby improving the collection efficiency and overall performance of the solar
+                                    cell [14]. Other HTMs like MoOx, Spiro (2,2′,7,7′-tetrakis [N,N-di(4-methoxyphenyl)amino]-
+                              9,9′-spirobifluorene) are also applied in CdTe NC solar cells with a similar structure and
+                              exhibit improved performance [18,19]. Nevertheless, despite their promising potential,
+                            organic HTLs are still confronted with challenges associated with contact resistance, largely
+                             attributed to the intrinsically high resistance of organic materials. As a result, a portion
+                              of the current is hindered by the parasitic resistance within the organic HTL. Most highly
+                                 efficient vacuum thermal evaporated CdTe thin-film solar cells employ a Cu/Au back
+                            contact to address this issue [20,21]. Immediately following the deposition of the CdTe
+                               thin-film, a thin layer of Cu (around 1 nm) is evaporated, enabling the formation of a
+                       Cu-doped CdTe layer. This layer functions as an HTL, enhancing the hole concentration
+                       and extending the carrier lifetime [22]. Despite the commercial success of the copper-
+                         doping technique, it has its drawbacks. Excessive Cu can diffuse into the CdTe active layer
+                          along grain boundaries [23–25]. In the case of solution-processed CdTe NC solar cells, the
+                       numerous crystal boundaries within the CdTe NC active layer pose a problem. Although
+                             the copper-doping technique has been effectively utilized in CdTe thin-film cells fabricated
+                           using vacuum processes, in solution-processed CdTe NC solar cells, the active layer needs
+                               to be polished or refined. This is because the copper-doping technique, which is successful
+                              in vacuum-processed CdTe thin-film cells, is destructive here [20].
+                             To control the diffusion of Cu in the CdTe active layer, wet chemical etching is usually
+                         performed before the deposition of Cu/Au contact in the case of traditional CSS/vacuum-
+                          processed CdTe thin-film solar cells [26,27]. The primary etching solutions employed
+                        encompass nitric acid–phosphoric acid and bromine–methanol. Nevertheless, the afore-
+                         mentioned etching solutions are inapplicable to CdTe NC solar cells. The rationale behind
+                                this is that the NCs inherently possess numerous grain boundaries, which facilitate rapid
+                              diffusion of the etching solution along these boundaries. This, in turn, leads to severe cor-
+                             rosion of the thin film and ultimately its detachment. Our prior research has substantiated
+                                this phenomenon [14]. Consequently, we have engineered a novel chemical vapor etching
+                           technique to circumvent direct contact between the solution and the thin film, and initial
+                            successes have been realized. Herein, we introduce a novel surface etching process for
+                            the CdTe NC thin film that reduces surface oxides and minimizes interface recombination
+                          using 2-iodothiophene methanol solution. As the etching process is relatively mild, the
+                           competition between oxidation and the formation of element Te is carefully controlled by
+                             controlling the concentration. Through precise control of the surface etching process, we
+                             reconstructed the surface chemistry of CdTe NCs, achieving improved monodispersity and
+                          a significant reduction in surface oxides. This suppression of surface oxides, confirmed
+                         through X-ray photoelectron spectroscopy (XPS), leads to a lower density of trap states.
+                     As a result, enhanced carrier lifetimes and longer diffusion lengths were observed, con-
+                               tributing to the fabrication of CdTe NC solar cells with a power conversion efficiency (PCE)
+                             of 4.31%—representing an over 30% improvement compared to control devices etched
+                           using conventional NH4I (3.08%). This work provides new insights into the role of surface
+                           oxides in CdTe NC photovoltaics and introduces an effective surface engineering strategy
+                              to enhance device performance.
+--- Страница 3 ---
+Nanomaterials 2025, 15, 1180                                                                                                     3 of 11
+
+
+                             2. Experimental Procedure
+
+                              Zinc oxide (ZnO) precursors, CdSe, and CdTe NCs were synthesized in accordance
+                         with methodologies previously documented [15]. The ITO/ZnO/CdSe/CdTe structure,
+                            featuring a single layer of ZnO, two layers of CdSe NCs, and four layers of CdTe NCs,
+                      was prepared through a sequential solution-based layer-by-layer technique, as previously
+                       documented in reference [13]. The thickness of all of the active layers (ZnO/CdSe/CdTe)
+                           discussed in this paper was kept to ~300 nm (the transmittance of ITO/ZnO/CdSe/CdTe
+                       was about 50%, which permitted the fabrication of semi-transparent thin-film solar cells, as
+                       shown in Figure S1). The active area of the solar cells produced using this method measures
+                             0.16 cm2. The fabrication process is illustrated in Figure 1e. The ITO/ZnO/CdSe/CdTe
+                             substrate was subjected to treatment with a 2-iodothiophene-methanol (or NH4I) solution
+                               at varying concentrations (from 5 µg/mL to 60 µg/mL), permitting a 20 s interval for
+                            the reaction between 2-iodothiophene and CdTe to achieve completion. Subsequently,
+                            the substrate underwent several rinses in methanol and was dried using a nitrogen gun.
+                             Ultimately, a gold (Au) electrode was deposited on the substrate to serve as the back-
+                             contact electrode through the process of vacuum thermal evaporation. The detailed device
+                              fabrication process can be found in our previous reports [28,29].
+
+                             3. Results and Discussion
+
+                             To evaluate the etching efficacy of iodized salt, we studied the X-ray diffraction (XRD)
+                       and photo-electron spectroscopy (XPS) results of untreated and 2-iodothiophene-treated
+                       CdTe NC films. The detailed crystal structures of the CdTe NCs with/without iodine salt
+                           treatment were further analyzed via XRD (Figure 1a). The XRD pattern of all samples
+                             exhibited diffraction peaks at 24.2◦, 41.9◦, and 47.6◦, corresponding to the (111), (220), and
+                               (311) planes of the zinc-blende CdTe structure. Notably, in the samples treated with iodine
+                                    salt, characteristic diffraction patterns with peaks at approximately 29.8◦and 35.3◦were
+                            observed, which correspond to the (101) and (102) planes of the wurtzite Te phase (similar
+                               results can be found in the case of the NH4I-treated sample). The XPS pattern of the CdTe
+                 NC thin film with/without 2-iodothiophene treatment (NH4I treatment produced similar
+                                results) is depicted in Figure 1b–d, with all spectra calibrated using the carbon C 1s core
+                               level as a reference [30] (binding energy at 284.8 eV). We observed a shift of the Cd 3d and
+                          Te 3d XPS peaks to a higher binding energy for the treated NC film compared with the
+                          peaks of the controls (Figure 1b–d and Table 1). For instance, the Cd 3d5/2 band depicted
+                              in Figure 1b for the control was resolved into two Gaussian bands with peak positions at
+                            404.29 eV and 411.09 eV, attributed to Cd in CdO and CdTe, respectively [30]. In contrast,
+                            the Cd 3d5/2 band for the treated film, as shown in Figure 1b, was situated at 404.55 eV
+                       and 411.28 eV, corresponding to Te-Cd bonds in CdTe [30,31]. Similar results can be found
+                             in the case of the Te 3d5/2 band (Figure 1c). From Figure 1d, one can see that the I 3d
+                       band is located at 617 eV for treated samples, while no I signal is found in the control
+                           samples. Therefore, it is evident that the surface of the 2-iodothiophene-treated CdTe NC
+                             film comprised elemental tellurium, CdTe, I-, and cadmium oxide (CdO). Furthermore,
+                      upon conducting a surface elemental analysis of the NC thin film (refer to Table 1), it
+                      was observed that the Cd/Te ratio for the control samples was 1.58:1, whereas for the
+                            2-iodothiophene-treated samples, the ratio was 1.45:1. This disparity distinctly indicates
+                            the formation of a Te-rich surface subsequent to 2-iodothiophene treatment.
+                        Upon analyzing the XRD and XPS outcomes, a schematic reaction of CdTe NCs
+                             incorporating 2-iodothiophene is depicted in Figure 1e. The hydrolysis of 2-iodothiophene
+                             yields elemental iodine. Subsequently, an ion exchange reaction ensues, leading to the
+                          production of elemental tellurium (Te). Concurrently, the CdO that precipitates on the
+--- Страница 4 ---
+Nanomaterials 2025, 15, 1180                                                                                                     4 of 11
+
+
+
+                             surface of the CdTe NC film is dissolved by the hydroiodic acid (HI) extracted during the
+                         methanol washing procedure, culminating in the creation of a TeO2 layer on the surface.
+
+
+                            Table 1.  Summarized XPS peaks of Cd3d, I3d, O1s, and Te3d elements for CdTe NC films
+                            with/without 2-iodothiophene treatment.
+
+    Condition      Cd3d5/2     Cd3d3/2      Te3d5/2      Te3d3/2    Te/Cd (%)    I3d (%)    O1d (%)
+
+    Untreated         404.29        411.09         571.6         582       10.60/16.78  ——        32.03
+ 2-iodothiophene      404.55        411.28        571.91        582.41      11.39/16.58     3.99         31.87
+
+
+
+
+
+                              Figure 1. (a) The XRD pattern of the NC thin film. The XPS spectra of (b) Cd3d, (c) Te3d, and (d) I3d
+                              elements of the CdTe NC film with/without 2-iodothiophene treatment; (e) schematic diagram of the
+                         CdTe NC film after 2-iodothiophene treatment.
+
+                            To investigate the morphological changes of the CdTe thin films before and after
+                           treatment with 2-iodothiophene or NH4I methanol solutions of varying concentrations,
+--- Страница 5 ---
+Nanomaterials 2025, 15, 1180                                                                                                     5 of 11
+
+
+
+                          atomic force microscopy (AFM) was employed to characterize the surface topography of
+                       CdTe/ITO substrates. The root-mean-square (RMS) roughness was obtained from a single
+                              representative AFM scan over a small area (2 × 2 µm2). As shown in Figure 2a, the pristine
+                       CdTe surface exhibits a relatively smooth morphology with an RMS roughness of 6.93 nm,
+                             indicating a compact and uniform film structure. After 2-iodothiophene or NH4I treat-
+                          ment, significant morphological changes were observed. Specifically, at a concentration of
+                           5 µg/mL, a consistent decrease in RMS roughness was noted: 6.42 nm for 2-iodothiophene
+                        and 4.65 nm for NH4I. This trend suggests that after chemical etching, the CdTe reacts with
+                            2-iodothiophene or NH4I and has a smoother surface, possibly due to the removal of surface
+                                irregularities or reorganization of CdTe NCs, which is beneficial for decreasing interface
+                           recombination and increasing carrier collection efficiency. However, it is important to note
+                              that an increase in the concentration of 2-iodothiophene methanol results in an increase
+                              in the RMS value, as shown in Figure S2. Conversely, the utilization of NH4I methanol as
+                        an etching solution results in the presence of significant pinholes throughout the films at
+                          a high concentration of 1 mg/mL, and the NC film has the potential to delaminate from
+                            the substrate when further increasing the concentration (Figure S3). A large RMS would
+                              increase the number of defect centers and increase the charge recombination in the interface
+                              of CdTe.
+
+
+
+
+
+                             Figure 2. AFM images of ITO/ZnO/CdSe/CdTe (a) without etching, (b) with NH4I etching, and
+                                       (c) with 2-iodothiophene etching.
+
+                                             It has been established that a surface enriched with tellurium is advantageous for
+                          reducing carrier interface recombination and contact resistance. Previous research has
+                          demonstrated the efficacy of NH4I in the etching of CdTe thin-film surfaces [32]. Compared
+                             to etching solutions such as bromine–methanol or phosphoric acid–nitric acid mixtures,
+                      NH4I offers a more gentle and controllable etching process with comparable effectiveness.
+                            Nonetheless, due to the abundance of NC grain boundaries, molecules with high polarity
+                        have a propensity to diffuse along these boundaries, resulting in film delamination and
+                           device shunting—a phenomenon previously identified in our research [14]. In this study,
+                    we propose the use of 2-iodothiophene methanol as an etching solution. Given its relatively
+                        low polarity, 2-iodothiophene is anticipated to mitigate the corrosion of grain boundaries.
+                        The introduction of 2-iodothiophene-treated NC film is anticipated to decrease the interface
+                             defects and extend the optical response to longer wavelengths. The concentration of the
+                           2-iodothiophene will evidently exert influence on the back contact resistance and spectrum
+                          response of NC solar cells.  It was concluded that device performance increases with
+                            the increase in 2-iodothiophene concentration from 0 to 5 µg/mL and then degrades
+                     when further increasing the 2-iodothiophene concentration (Figure S4a). From the current
+                            density–voltage (J-V) curve (Figure S4a) and Table S1, it was determined that better device
+                         performance is attained by adopting a low 2-iodothiophene concentration, while device
+                          performance degrades with the rise in 2-iodothiophene concentration, primarily suffering
+                        from low Jsc and fill factor. Devices treated with ammonium iodide also exhibit a similar
+                            trend (Table S2). Figure 3b illustrates the J-V characteristics of the champion device for the
+                             control device (treated with NH4I methanol) and 2-iodothiophene-treated and untreated
+--- Страница 6 ---
+Nanomaterials 2025, 15, 1180                                                                                                     6 of 11
+
+
+
+                             devices. The corresponding values for short-circuit current density (Jsc), open-circuit
+                             voltage (Voc), fill factor (FF), and power conversion efficiency (PCE) are detailed in Table 2.
+
+
+
+
+
+                              Figure 3. (a) Diagram of the cell. (b) J-V curves of CdTe NC devices subjected to different conditions
+                            under AM 1.5G (100 mW/cm2) illumination. (c) J-V curves of CdTe NC devices with 2-iodothiophene
+                               etching under different annealing temperatures. (d) EQE spectra and (e) dark J-V curves of devices
+                             with NH4I and 2-iodothiophene etching.
+
+
+                             Table 2. Summarized performance of devices with/without iodized salt treatment.
+
+                                         Voc         Jsc       FF    PCE      Rs      RSh
+                             Condition
+                                                 (V)     (mA/cm2)    (%)     (%)    (Ω*cm2)   (Ω*cm2)
+
+                                untreated        0.562        9.64      45.62     2.48      98.45      1433.64
+                           NH4I           0.49        12.97      47.49     3.08      99.48      1424.65
+                            2-iodothiophene     0.598        12.35      52.18     3.85      95.83      2083.33
+
+
+                              For reproducibility, four identical devices were fabricated in each group, and the
+                           reported values represent the average of the measured data. The error margins reflect the
+                            device-to-device variation within each group. Figure 3a shows the schematic structure
+                             of the device without any iodized salt treatment. The untreated device exhibited a Voc
+--- Страница 7 ---
+Nanomaterials 2025, 15, 1180                                                                                                     7 of 11
+
+
+                             of 0.562 ± 0.03 V and a Jsc of 9.64 ± 0.02 mA/cm2. In contrast, the NH4I-treated device
+                       showed a Voc of 0.490 ± 0.03 V, a Jsc of 12.97 ± 0.02 mA/cm2, and an FF of 47.49 ± 0.01%,
+                              resulting in a PCE of 3.08 ± 0.02%. The device treated with 2-iodothiophene displayed an
+                        improved Voc of 0.598 ± 0.03 V, a Jsc of 12.35 ± 0.02 mA/cm2, and an FF of 52.18 ± 0.01%,
+                            leading to a higher PCE of 3.85 ± 0.02%. Consequently, the 2-iodothiophene-treated devices
+                           achieved 25% higher efficiency than the NH4I-treated control devices. It should be pointed
+                           out that the devices prepared in this way are homogeneous with an efficiency difference of
+                                 less than 10% in each single film (for each type, over 20 devices are made from 4 individual
+                                 films). To further eliminate the interface defects between CdTe NC alloy active layers and
+                   Au back contact, an optimized annealing strategy should be adopted in NC solar cells. From
+                           another perspective, the existing high contact resistance will likely accelerate the carriers’
+                           recombination and degrade device performance. To further improve device performance,
+                            the ITO/ZnO/CdSe/CdTe/2-iodothiophene (5 µg/mL) substrates were heat-treated at
+                               different temperatures. According to our previous work [33], higher temperatures lead to
+                           poorer ITO conductivity; therefore, the annealing temperature was controlled below 400 ◦C
+                              in this study. As shown in Figure 2b and Table 3, the 250 ◦C-treated device was processed
+                              to display the following figures of merit: Jsc of 12.79 mA/cm2, Voc of 0.628 V, FF of 53.4%,
+                       and high PCE of 4.31%, which is significantly higher than the controlled device (3.08%).
+                       Lower or higher annealing temperature degraded device performance.
+
+
+                             Table 3. Summarized device performance under different annealing temperatures.
+
+                          Temperature    Voc         Jsc       FF     PCE      Rs      RSh
+                                  (◦C)          (V)     (mA/cm2)    (%)      (%)     (Ω*cm2)   (Ω*cm2)
+
+                                150          0.556        8.55       50.25       2.39       97.48      1423.65
+                                200          0.454        14.14       43.43       2.78       70.79       810.59
+                                250          0.628        12.79       53.4       4.31       81.19      1397.13
+                                300          0.442        14.86       44.46       2.95       66.78       798.03
+
+
+                            The EQE curves of NC devices (Figure 3d) denote a prominent response confined to the
+                               entire range of 400–900 nm; when they are integrated, current densities of 15.86 mA/cm2
+                       and 17.93 mA/cm2 are predicted, respectively, which is consistent with our AM 1.5 G
+                         measurements (Figure 3b). The device subjected to 2-iodothiophene treatment exhibited a
+                         dark current density that was an order of magnitude lower than that of the control device
+                                 (refer to Figure 3e), indicating that leakage current at the anode can be effectively curtailed.
+                                        It is noteworthy that the Rs of the 2-iodothiophene-treated device is lower than that of the
+                              control devices. We speculated that at an optimized annealing temperature, more CdO will
+                          be removed and more Te element will be generated, which increases the hole concentration
+                        and results in a decrease in Rs, and a higher FF and Jsc are expected in this case. It is worth
+                            pointing out that the device is very stable when kept under room light conditions, with less
+                           than 5% degradation found over 30 days (Figure 4d). We believe that by further optimizing
+                             the device fabrication process/device structure, such as using more optimized active layer
+                             thickness (~400 nm), carefully controlling the annealing strategy, or using a more suitable
+                          back contact, device performance with PCE up to 10% will be obtained.
+                                 In order to determine the charge transport characteristics of CdTe NCs treated with
+                            2-iodothiophene, hole-only devices were constructed with the following layered structure:
+                       ITO/CdTe (160 nm)/Au (70 nm). The carrier mobility values were obtained in accordance
+                          with the subsequent equation [34]:
+
+                                                         9 ε0εrµp(V −Vbi −Vs)2
+                                                                                J =
+                                                         8          L3
+--- Страница 8 ---
+Nanomaterials 2025, 15, 1180                                                                                                     8 of 11
+
+
+
+                       where ε0 represents the permittivity of free space, εr is the relative dielectric constant of
+                         CdTe, L denotes the thickness of CdTe NCs, µp signifies the hole mobility, V indicates the
+                           applied voltage, Vs signifies the voltage drop, and Vbi corresponds to the built-in voltage.
+                      As exhibited in Figure 4a–c, the mobilities of the untreated, 2-iodothiophene-treated, and
+                           NH4I-treated CdTe NC thin films are 6.81 × 10−2, 8.12 × 10−2, and 7.76 × 10−2 respectively.
+                       The value of the 2-iodothiophene-treated NCs markedly surpasses that of the untreated
+                       and the NH4I-treated ones. It is posited that the formation of elemental Te at the interface
+                        augments the hole concentration, thereby resulting in enhanced carrier mobility.
+
+
+
+
+
+                             Figure 4. The hole mobility of the CdTe NC thin films: (a) untreated, (b) 2-iodothiophene-treated,
+                         and (c) NH4I-treated; (d) stability of the NH4I and 2-iodothiophene-treated devices; (e) C−2-V
+                                  characteristics of the NH4I and 2-iodothiophene-treated devices; (f) schematic illustration of the
+                                   carrier transport mechanism at the CdTe interface.
+
+                             To further investigate the effect of 2-iodothiophene on the built-in electric field of NC
+                               solar cells, capacitance-voltage analysis was carried out with the increase in bias voltage at
+                          a constant frequency of 1000 Hz. As shown in Figure 4a, C−2-V curves were plotted based
+                       on the Mott–Schottky equation [35]:
+
+                                                                           2(Vbi −V)                                                   C−2 =
+                                                              A2qε0εrNA
+
+                        where A is the device active area, ε is the relative dielectric constant (10.6), ε0 is the permittiv-
+                                  ity of vacuum, Vbi represents the built-in potential, and NA is the net acceptor concentration.
+                        The Vbi is extracted at a forward bias from the slope and the extrapolated intersection with
+                            the x axis. A higher Vbi (0.628 V) of the device with 2-iodothiophene than that (0.549 V)
+                             of the control device was observed, which agrees well with their Voc values from the
+                            J-V curves. Figure 4f illustrates a schematic representation of the energy alignment in
+                            the NC device without 2-iodothiophene treatment. It was observed that treatment with
+                           2-iodothiophene facilitates the formation of a p+-doped interface, thereby reducing carrier
+                          recombination at the interface. Consequently, the energy barrier for hole transfer from
+                       CdTe to Au is diminished, enhancing carrier collection efficiency in this instance.
+--- Страница 9 ---
+Nanomaterials 2025, 15, 1180                                                                                                     9 of 11
+
+
+                             4. Conclusions
+
+                                 In conclusion, the successful fabrication of CdTe NC solar cells with 2-iodothiophene
+                           treatment has been achieved by meticulously controlling the concentration of the 2-
+                          iodothiophene methanol solution. The formation of a Te-rich layer subsequent to 2-
+                          iodothiophene treatment leads to diminished carrier recombination at the interface and
+                         reduced contact resistance. CdTe NC thin-film devices subjected to 2-iodothiophene treat-
+                       ment exhibit enhanced power conversion efficiencies (PCEs) of up to 4.31%, surpassing
+                           those of untreated and NH4I-treated devices. The superior performance of these devices
+                                    is predominantly attributed to the reduced recombination losses at the CdTe/Au back
+                              electrode interface, as substantiated by an array of electrical and optical assessments. Addi-
+                                  tionally, devices treated with 2-iodothiophene demonstrate exceptional operational stability,
+                             exhibiting no degradation under ambient conditions. This study underscores the efficacy
+                             of this straightforward 2-iodothiophene treatment method, which holds promise for in-
+                             tegration into future manufacturing systems for low-cost, solution-processed CdTe NC
+                              solar cells.
+
+
+                          Supplementary Materials: The following supporting information can be downloaded at: https:
+                            //www.mdpi.com/article/10.3390/nano15151180/s1, Figure S1: (a) Transmittance spectrum of a
+                                  4-layer CdTe thin films with a total thickness of 300 nm; (b) Photograph of the corresponding device;
+                              Figure S2: AFM images of CdTe NCs thin films with 2-iodothiophene etching for (a) control; (b)
+                          10ug/mL; (c) 15 ug/mL and (d) 60 ug/mL; Figure S3: AFM images of CdTe NCs thin films with NH4I
+                               etching for (a) control; (b) 500 ug/mL; (c) 1 mg/mL; Figure S4: J-V characteristics of CdTe/CdSe
+                      NCs solar cells (a) with different 2-iodothiophene concentration etching and (b) with different NH4I
+                               concentration etching; Table S1: Summarized device performance with different 2-iodothiophene
+                               concentrations under 150 °C treated; Table S2: Summarized device performance with different
+                        NH4I concentrations.
+
+                          Author Contributions: Conceptualization, J.H. and D.Q.; methodology, J.H. and D.Q.; validation,
+                                       J.H., X.W., Y.C. and Z.C.; formal analysis, J.H. and Q.L.; investigation, J.H. and X.W.; re-sources, D.Q.;
+                              data curation, J.H.; writing—original draft preparation, J.H.; writing—review and editing, J.H., D.Q.
+                         and Q.H.; visu-alization, J.H.; supervision, D.Q.; project administration, J.H.; funding acquisition,
+                            D.Q. All authors have read and agreed to the published version of the manuscript.
+
+                            Funding: We thank the financial support of the National Natural Science Foundation of China
+                                 (no. 91333206), National Science Foundation for Distinguished Young Scholars of China (grant no.
+                                51225301), the Guangzhou Science and Technology Plan Project and the Fundamental Research Funds
+                                  for the Central Universities.
+
+                           Data Availability Statement: The authors confirm that the data supporting the findings of this study
+                                are available within the article and its ESI.
+
+                                Conflicts of Interest: The authors declare no conflicts of interest.
+
+References
+
+1.   Balakhayeva, R.; Akilbekov, A.; Baimukhanov, Z.; Giniyatova, S.; Zdorovets, M.; Gorin, Y.; Popov, A.I.; Dauletbekova, A. Structure
+     properties of CdTe nanocrystals created in SiO2/Si ion track templates. Surf. Coat. Technol. 2020, 401, 126269. [CrossRef]
+2.   Beek, W.J.E.; Wienk, M.M.; Kemerink, M.; Yang, X.; Janssen, R.A.J. Hybrid Zinc Oxide Conjugated Polymer Bulk Heterojunction
+     Solar Cells. J. Phys. Chem. B 2005, 109, 9505–9516. [CrossRef]
+3.   Hoeppener, S.; Maoz, R.; Sagiv, J. Constructive microlithography: Electrochemical printing of monolayer template patterns
+     extends constructive nanolithography to the micrometer−millimeter dimension range. Nano Lett. 2003, 3, 761–767. [CrossRef]
+4.   Huynh, W.U.; Dittmer, J.J.; Alivisatos, A.P. Hybrid Nanorod-Polymer Solar Cells. Science 2002, 295, 2425–2427. [CrossRef]
+5.   Kumar, S.G.; Rao, K.S.R.K. Physics and chemistry of CdTe/CdS thin film heterojunction photovoltaic devices: Fundamental and
+      critical aspects. Energy Environ. Sci. 2014, 7, 45–102. [CrossRef]
+6.    Li, Y.C.; Zhong, H.Z.; Li, R.; Zhou, Y.; Yang, C.H.; Li, Y.F. High-yield fabrication and electrochemical characterization of tetrapodal
+     CdSe, CdTe, and CdSexTe1–x nanocrystals. Adv. Funct. Mater. 2006, 16, 1705–1716. [CrossRef]
+--- Страница 10 ---
+Nanomaterials 2025, 15, 1180                                                                                                    10 of 11
+
+
+
+7.   Gur, I.; Fromer, N.A.; Geier, M.L.; Alivisatos, A.P. Air-stable all-inorganic nanocrystal solar cells processed from solution. Science
+     2005, 310, 462–465.
+8.   Kwon, S.M.; Won, J.K.; Jo, J.-W.; Kim, J.; Kim, H.-J.; Kwon, H.-I.; Kim, J.; Ahn, S.; Kim, Y.-H.; Lee, M.-J.; et al. High-performance
+    and scalable metal-chalcogenide semiconductors and devices via chalco-gel routes. Sci. Adv. 2018, 4, eaap9104. [CrossRef]
+9.   Wang, Y.; Fedin, I.; Zhang, H.; Talapin, D.V. Direct optical lithography of functional inorganic nanomaterials. Science 2017, 357,
+     385–388. [CrossRef]
+10.  Corwine, C. Copper inclusion and migration from the back contact in CdTe solar cells. Sol. Energy Mater. Sol. Cells 2004, 82,
+     481–489. [CrossRef]
+11.   Gorai, P.; Krasikov, D.; Grover, S.; Xiong, G.; Metzger, W.K.; Stevanovi´c, V. A search for new back contacts for CdTe solar cells. Sci.
+     Adv. 2023, 9, eade3761. [CrossRef]
+12.   Visoly-Fisher, I.; Dobson, K.d.; Nair, J.; Bezalel, E.; Hodes, G.; Cahen, D. Factors affecting the stability of CdTe/CdS solar cells
+    deduced from stress tests at elevated temperature. Adv. Funct. Mater. 2003, 13, 289–299. [CrossRef]
+13.  Chun, S.; Lee, S.; Jung, Y.; Bae, J.S.; Kim, J.; Kim, D. Wet chemical etched CdTe thin film solar cells. Curr. Appl. Phys. 2013, 13,
+     211–216. [CrossRef]
+14.  Guo, X.; Rong, Z.; Wang, L.; Liu, S.; Liu, Z.; Luo, K.; Chen, B.; Qin, D.; Ma, Y.; Wu, H.; et al. Surface passivation via acid
+     vapor etching enables efficient and stable solution-processed CdTe nanocrystal solar cells. Sustain. Energy Fuels 2020, 4, 399–406.
+     [CrossRef]
+15.  Zhang, H.; Kurley, J.M.; Russell, J.C.; Jang, J.; Talapin, D.V. Solution-processed, ultrathin solar cells from CdCl3(-)-capped CdTe
+     nanocrystals: The multiple roles of CdCl3(-) ligands. J. Am. Chem. Soc. 2016, 138, 7464–7467. [CrossRef]
+16.  Guo, X.; Tan, Q.; Liu, S.; Qin, D.; Mo, Y.; Hou, L.; Liu, A.; Wu, H.; Ma, Y. High-efficiency solution-processed CdTe nanocrystal
+     solar cells incorporating a novel crosslinkable conjugated polymer as the hole transport layer. Nano Energy 2018, 46, 150–157.
+     [CrossRef]
+17.  Panthani, M.G.; Kurley, J.M.; Crisp, R.W.; Dietz, T.C.; Ezzyat, T.; Luther, J.M.; Talapin, D.V. High efficiency solution processed
+     sintered CdTe nanocrystal solar cells: The role of interfaces. Nano Lett. 2014, 14, 670–675. [CrossRef]
+18.  Du, X.; Chen, Z.; Liu, F.; Zeng, Q.; Jin, G.; Li, F.; Yao, D.; Yang, B. Improvement in open-circuit voltage of thin film solar cells from
+     aqueous nanocrystals by interface engineering. ACS Appl. Mater. Interfaces 2016, 8, 900–907. [CrossRef]
+19.  Paudel, N.R.; Compaan, A.D.; Yan, Y. Ultrathin CdTe solar cells with MoO3−x/Au back contacts. J. Electron. Mater. 2014, 43,
+     2783–2787. [CrossRef]
+20.  Chen, B.; Liu, J.; Cai, Z.; Xu, A.; Liu, X.; Rong, Z.; Qin, D.; Xu, W.; Hou, L.; Liang, Q. The effects of ZnTe:Cu back contact on the
+     performance of CdTe nanocrystal solar cells with inverted structure. Nanomaterials 2019, 9, 626. [CrossRef]
+21.  Huang, Q.; Liu, S.; Min, C.; Zhou, Z.; Qin, D.; Wang, D.; Xu, W.; Hou, L. Promoting solution-processed CdTe nanocrystal solar
+      cells via rationally controlled copper doping. J. Mater. Chem. C 2024, 12, 14283–14292. [CrossRef]
+22.  Dobson, K.D.; Visoly-Fisher, I.; Hodes, G.; Cahen, D. Stabilizing CdTe/CdS solar cells with Cu-containing contacts to p-CdTe.
+     Adv. Mater. 2001, 13, 1495–1499. [CrossRef]
+23.  McCandless, B.E.; Dobson, K.D. Processing options for CdTe thin film solar cells. Sol. Energy 2004, 77, 839–856. [CrossRef]
+24.  Paudel, N.R.; Yan, Y. CdTe thin-film solar cells with cobalt-phthalocyanine back contacts. Appl. Phys. Lett. 2014, 104, 143507.
+     [CrossRef]
+25.  Romeo, A.; Terheggen, M.; Abou-Ras, D.; Bätzner, D.L.; Haug, F.-J.; Kälin, M.; Rudmann, D.; Tiwari, A.N. Development of
+      thin-film Cu(In,Ga)Se2 and CdTe solar cells. Prog. Photovolt. Res. Appl. 2004, 12, 93–111. [CrossRef]
+26.  Romeo, A.; Artegiani, E. CdTe-based thin film solar cells: Past, present and future. Energies 2021, 14, 1684. [CrossRef]
+27.   Shi, X.; Ma, J.; Zheng, L.; Yue, X.; Liu, L. Formation of the Cd2Te2O7 phase induced by chemical etching and its influence on the
+      electrical properties of Au/CdTe contacts. CrystEngComm 2020, 22, 8118–8126. [CrossRef]
+28.  Min, C.; Chen, Y.; Yang, Y.; Wu, H.; Guo, B.; Wu, S.; Huang, Q.; Qin, D.; Hou, L. A Simple and Effective Phosphine-Doping
+     Technique for Solution-Processed Nanocrystal Solar Cells. Nanomaterials 2023, 13, 1766. [CrossRef]
+29.   Rădut,ă, A.-M.; Panaitescu, A.-M.; Manica, M.; Iftimie, S.; Antohe, V.-A.; Toma, O.; Radu, A.; Ion, L.; Suchea, M.P.; Antohe, S, . Effect
+      of deposition working power on physical properties of RF-sputtered CdTe thin films for photovoltaic applications. Nanomaterials
+     2024, 14, 535. [CrossRef]
+30.  Golestani-Fard, F.; Hashemi, T.; Mackenzie, K.J.D.; Hogarth, C.A. Formation of cadmium stannates studied by electron spec-
+     troscopy. J. Mater. Sci. 1983, 18, 3679–3685. [CrossRef]
+31.  Feng, Z.C.; Rohatgi, A.; Tin, C.C.; Hu, R.; Wee, A.T.S.; Se, K.P. Structural, optical, and surface science studies of 4H-SiC epilayers
+    grown by low pressure chemical vapor deposition. J. Electron. Mater. 1996, 25, 917–923. [CrossRef]
+32.   Bastola, E.; Alfadhili, F.K.; Phillips, A.B.; Heben, M.J.; Ellingson, R.J. Wet chemical etching of cadmium telluride photovoltaics for
+     enhanced open-circuit voltage, fill factor, and power conversion efficiency. J. Mater. Res. 2019, 34, 3988–3997. [CrossRef]
+33.   Liu, S.; Liu, W.; Heng, J.; Zhou, W.; Chen, Y.; Wen, S.; Qin, D.; Hou, L.; Wang, D.; Xu, H. Solution-processed efficient nanocrystal
+      solar cells based on CdTe and CdS nanocrystals. Coatings 2018, 8, 26. [CrossRef]
+--- Страница 11 ---
+Nanomaterials 2025, 15, 1180                                                                                                    11 of 11
+
+
+
+34.  Ciach, R.; Dotsenko, Y.P.; Naumov, V.V.; Shmyryeva, A.N.; Smertenko, P.S. Injection technique for the study of solar cell test
+      structures. Sol. Energy Mater. Sol. Cells 2003, 76, 613–624. [CrossRef]
+35.   Pal, D.; Das, S. C-V and I-V characterisation of CdS/CdTe thin film solar cell using defect density model. Serbian J. Electr. Eng.
+     2021, 18, 255–270. [CrossRef]
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

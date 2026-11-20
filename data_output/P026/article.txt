@@ -1,0 +1,1482 @@
+--- Страница 1 ---
+PAPER • OPEN ACCESS                                     You may also like
+
+                                                                                                                                                                   - Device modeling of amorphous oxide
+Charge transport modelling of perovskite solar                semiconductor TFTs
+                                                                                                          Katsumi Abe, Kazuki Ota and Takeshi
+cells accounting for non-Boltzmann statistics in              Kuwagaki
+organic and highly-doped transport layers                                     - Ionelectricenergyfielddistributiondischargesin extremely high
+                                                                                                                Liang Xu and Huihui Wang
+
+To cite this article: Will Clarke et al 2023 J. Phys. Energy 5 025007                                                              - Multivalent Ions in the Electrical Double
+                                                                                                                      Layer: The Extended Mean Spherical
+                                                                                                                Approximation
+                                                                                                              C. J. McClanahan and D. A. McQuarrie
+
+View the article online for updates and enhancements.
+
+
+
+
+
+                            This content was downloaded from IP address 185.26.50.150 on 19/11/2026 at 10:39
+--- Страница 2 ---
+                                  J. Phys. Energy 5 (2023) 025007                                                            https://doi.org/10.1088/2515-7655/acc4e9
+
+           Journal of Physics: Energy
+
+
+
+              PAPER
+
+          Charge transport modelling of perovskite solar cells accounting for
+OPEN ACCESS
+          non-Boltzmann statistics in organic and highly-doped transport
+
+RECEIVED
+6 February 2023             layers
+
+REVISED
+8 March 2023         Will Clarke1,∗, Matthew J Wolf2,3, Alison Walker3and Giles Richardson1
+ACCEPTED FOR PUBLICATION     1 Mathematical Sciences, University of Southampton, Southampton, United Kingdom
+16 March 2023            2                            Institute of Physical Chemistry, RWTH Aachen, Germany
+PUBLISHED                 3 Department of Physics, University of Bath, Bath, United Kingdom
+27 March 2023        ∗Author to whom any correspondence should be addressed.
+
+                      E-mail: wc3g16@soton.ac.uk
+Original Content from
+this work may be used    Keywords: perovskite solar cells, drift-diffusion, transport layers, statistical models, organic semiconductors
+under the terms of the
+Creative Commons
+Attribution 4.0 licence.
+
+Any     further            distribution
+of this     work          must      Abstract
+maintain attribution to  We present a drift–diffusion model of a perovskite solar cell (PSC) in which carrier transport in the
+the author(s) and the title
+of the work, journal     charge transport layers (TLs) is not based on the Boltzmann approximation to the Fermi–Dirac
+citation and DOI.     (FD) statistical distribution, in contrast to previously studied models. At sufficiently high carrier
+                  densities the Boltzmann approximation breaks down and the precise form of the density of states
+                function (often assumed to be parabolic) has a significant influence on carrier transport. In
+                   particular, parabolic, Kane and Gaussian models of the density of states are discussed in depth and
+                        it is shown that the discrepancies between the Boltzmann approximation and the full FD statistical
+              model are particularly marked for the Gaussian model, which is typically used to describe organic
+               semiconducting TLs. Comparison is made between full device models, using parameter values
+                taken from the literature, in which carrier motion in the TLs is described using (I) the full FD
+                     statistical model and (II) the Boltzmann approximation. For a representative TiO2/MAPI/Spiro
+                 device the behaviour of the PSC predicted by the Boltzmann-based model shows significant
+                  differences compared to that predicted by the FD-based model. This holds both at steady-state,
+               where the Boltzmann treatment overestimates the power conversion efficiency by a factor of 27%,
+              compared to the FD treatment, and in dynamic simulations of current–voltage hysteresis and
+                 electrochemical impedance spectroscopy. This suggests that the standard approach, in which
+                  carrier transport in the TLs is modelled based on the Boltzmann approximation, is inadequate.
+                Furthermore, we show that the full FD treatment gives a more accurate representation of the
+                  steady-state performance, compared to the standard Boltzmann treatment, as measured against
+                experimental data reported in the literature for typical TiO2/MAPI/Spiro devices.
+
+
+                 1. Introduction
+
+                Over the past decade, perovskite solar cells (PSCs) have seen rapid developments, in both efficiency and
+                       stability, to an extent that they are now viewed as a realistic prospective next-generation photovoltaic
+                  technology. However despite the impressive efficiency of modern PSCs (the current record for certified
+               power conversion efficiency (PCE) is 25.7% [1]), challenges remain that must be overcome to enable
+                    large-scale commercial manufacture of perovskite solar panels, the chief amongst these being their relatively
+                poor long-term stability and the presence of lead in the perovskite structure. An increased understanding of
+                  the fundamental materials and device physics governing their properties and performance will be key to the
+                   further development of PSC technology. In this context, modelling plays a central role in elucidating the
+                   basic physical processes underlying the performance of PSCs. In particular, drift–diffusion modelling, which
+                  provides a macroscopic description of an entire cell, and directly links to the properties of the materials from
+                which it is constructed, has proven to be a powerful tool to understand PSC device physics [2–4]. PSCs
+                    typically use a planar architecture in which a perovskite absorber layer is sandwiched between a highly
+
+              © 2023 The Author(s). Published by IOP Publishing Ltd
+--- Страница 3 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+n-doped electron transport layer (ETL) and a highly p-doped hole transport layer (HTL). While some
+drift–diffusion models comprising only electrons and holes continue to be published [5–7], it has repeatedly
+been shown that migration of ion vacancies is not only present in the perovskite layer but vital to
+understanding their operation [8–10]. These simplistic models, which omit ion migration, are incapable of
+replicating the dynamic current–voltage or impedance responses of PSCs [2, 8, 11–14]. The transport layers
+(TLs) are chosen such that light can enter through one of them, either the ETL (standard architecture) [15]
+or the HTL (inverted architecture) [16]. While early drift–diffusion models of PSCs omitted the TLs,
+focusing on the interplay between electronic and ionic conduction in the perovskite layer [8, 17–19], state of
+the art models include an explicit description of all three layers [12, 20–22], enabling a number of studies of
+the important role played by the TLs, and their interplay with the perovskite layer. Such studies have included
+investigations of the role of intrinsic materials properties, such as band alignment, carrier mobility [23] and
+dielectric constants [20], as well as extrinsic properties such as layer thickness [24] and doping densities [20],
+in determining both steady state [23, 24] and transient [20] cell characteristics.
+   As with any mathematical model, there are a number of assumptions and approximations that are made
+in the derivation of the drift–diffusion equations (see, e.g. [25]). In particular, and as will be discussed in
+detail in section 2, it is typically assumed that the diffusion coefficient (D) is related to the mobility (µ) via
+the classical Einstein relation (CER):
+
+                                 qD = µkBT;
+
+this assumption is equivalent to the assumption that the carrier density is sufficiently low that the FD
+statistical distribution is well approximated by a Boltzmann distribution (see section 2). When this is not the
+case, the generalised Einstein relation (GER) must be used instead [26, 27]:
+
+                           qDn = µnn∂Efn ,  qDp = −µpp∂Efp ,
+                                  ∂n              ∂p
+
+in which Efn and Efp are the electron and hole quasi-Fermi levels, respectively. This leads to more complex
+versions of the drift–diffusion equations, the functional forms of which depend on the density of states of the
+material, and which are, in general, no longer analytic. Physically, this results in an enhancement of the
+diffusion coefficient relative to the value from the CER, that increases with the local carrier density [27, 28].
+Additionally, it is often assumed implicitly that the mobilities (µn and µp) do not depend on the carrier
+density. Some studies [29, 30] contradict this but the functional form of the dependence of mobility on
+carrier density is still debated [31]. Henceforth, for simplicity, we treat the mobilities as constants.
+    Tessler and Vaynzof have investigated the validity of the Boltzmann approximation in describing
+electronic carriers in the perovskite layer of a PSC, assuming a density of states function derived from a
+parabolic dispersion model, and concluded that, while the approximation is warranted in many scenarios, it
+can lead to appreciable errors in others [2]. However, conditions under which it is valid are likely to be more
+limited for the TLs than the perovskite layer for at least the following three reasons: (i) while the perovskite
+layer is undoped, the TLs tend to be heavily doped in order to increase their equilibrium carrier density (and
+hence also conductivity); (ii) even if the equilibrium carrier density in the bulk of the TL is sufficiently low
+for the Boltzmann approximation to be valid, much higher carrier densities can arise in the regions close to
+the interfaces between layers [20], or when the device is out of equilibrium; and (iii) as will be discussed in
+section 3, the range of carrier densities for which the Boltzmann approximation is valid depends strongly on
+the density of states (DoS) function of the material in question. The physical processes occurring at the
+material interfaces between the perovskite and the TLs have been shown to be highly important in explaining
+the dynamic behaviour of the cell, such as current–voltage hysteresis [32–35] and electrochemical impedance
+spectroscopy (IS) [32]. Point (ii) therefore leads us to conjecture that models based on the Boltzmann
+approximation in the TLs are not always appropriate when investigating the dynamic behaviour of PSCs.
+With reference to point (iii), disordered organic semiconductors, which are often used as one of the TLs in
+PSCs, are best described by a Gaussian DoS [36, 37], which is only accurately approximated by the
+Boltzmann distribution in a far smaller domain than inorganic materials with band structures described by a
+parabolic DoS [38]. The potential inaccuracies arising from the assumption of the CER have also been
+recognised by Abdel et al [39, 40] but only addressed for ion vacancies in the perovskite layer, rather than the
+carriers in the TLs.
+   In light of the above discussion, the purpose of this contribution is to investigate the effects of full
+Fermi–Dirac (FD) statistics in drift–diffusion models of PSC devices, with a particular focus on the TLs. We
+note that the three-layer drift–diffusion model is sufficiently complex that it is difficult to predict, without
+the aid of a full numerical solution of the model, exactly how errors associated with employing the
+Boltzmann approximation in one of the TLs might manifest themselves in the predicted device behaviour in
+
+                                     2
+--- Страница 4 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+any particular scenario. For example, the accumulation of carriers near the perovskite interface is dependent
+on the distribution of ion vacancies in the perovskite, which itself is dependent on many material parameters
+as well as external conditions, such as temperature, light intensity, and applied voltage [20]. Here we shall
+present example numerical results for a typical three layer device. In particular, we compare the prediction
+made using a model in which carrier transport in the TLs is described using full FD statistics to one in which
+carrier transport in the TLs is described using the Boltzmann approximation. Since we consider only a single
+typical device there remains room for further investigation for other device configurations.
+   The remainder of the paper is organised as follows. We begin, in section 2 by discussing the
+drift-diffusion equations in which carrier transport is modelled using (i) the Boltzmann approximation and
+(ii) full FD statistics. We further show that the application of full FD statistics causes a density-dependent
+diffusivity enhancement (equivalent to the GER), the form of which is determined by the DoS function.
+Then, in section 3, we consider the form of the DoS function for both ordered inorganic and disordered
+organic materials, and show that the choice of DoS function must be carefully considered in scenarios for
+which the Boltzmann approximation does not hold. The range of carrier densities for which Boltzmann
+statistics accurately approximate full FD statistics is discussed for a variety of relevant TL materials in
+section 4. In section 5, comparisons are made between the predictions of a device-level model of a PSC in
+which charge carrier motion in the TLs is modelled by (i) the Boltzmann approximation and (ii) full FD
+statistics. The results obtained using these two different descriptions of the TLs are compared for both steady
+state performance and transient measurements, namely current–voltage hysteresis and IS. Finally, we draw
+our conclusions in section 6.
+
+2. The drift–diffusion equations and the GER
+
+The basis of the drift–diffusion model is a set of conservation equations, one for each particle species, in
+which the change in the particle number density is driven by the net flux into a region and contributions
+from volume source and sink terms. In most photovoltaic devices the only particle species modelled by the
+drift–diffusion equations are the charge carriers, i.e. electrons in the conduction band (volume density n)
+and holes in the valence band (volume density p). The source and sink terms in the corresponding
+conservation equations model photogeneration and recombination, respectively. In halide perovskites it is
+also necessary to model the transport of one or more mobile point defect species, such as charged anion or
+cation vacancies [8]. However, it is usually assumed that any defects/dopants in the charge TLs, which are
+our focus here, are static and homogeneously distributed.
+   In one dimension, the case to which we restrict ourselves here, the electron and hole conservation
+equations take the form
+
+                            ∂n   1 ∂jn
+                      =   + G(x,t) −R(n,p),                                (1a)
+                                   ∂t   q ∂x
+
+                            ∂p                     = −1 ∂jp + G(x,t) −R(n,p),                               (1b)
+                                  ∂t     q ∂x
+
+in which G(x,t) and R(n,p) are the rates of generation and recombination of electron–hole pairs per unit
+volume, respectively, and jn and jp are the electron and hole current densities, respectively. The latter are
+calculated from the carrier densities and the quasi-Fermi levels via the relations
+                                                           jn = µnn∂Efn ,                                        (2a)
+                                            ∂x
+                                                             jp = µpp∂Efp ,                                         (2b)
+                                           ∂x
+
+where µn and µp are the electron and hole mobilities, while Efn and Efp are the quasi-Fermi levels of the
+electrons in the conduction band and holes in the valence band, respectively. The implicit assumption made
+in using quasi-Fermi levels to characterise the state of the semiconductor is that the valence band electrons
+are (locally) in thermal equilibrium with each other and that the conduction band electrons are (locally) in
+thermal equilibrium with each other, but that valence and conduction band electrons are not necessarily in
+thermal equilibrium with each other. Constitutive equations that relate the quasi-Fermi levels to n, p and ϕ,
+and which derive from the statistical distributions of the electrons in the valence and conduction bands,
+must also be specified. The system of drift-diffusion equations is closed by Poisson’s equation for the electric
+potential ϕ,
+
+                                     ∂2ϕ                           = −ρ                                             (3)                                          ∂x2     ε,
+
+                                     3
+--- Страница 5 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+where ρ = q(p −n) is the net charge density and ε is the permittivity of the material.
+   The quasi-Fermi levels depend on the carrier density and the electric potential as follows:
+
+                                                    Efn = Fn(n,T) −qϕ,                                      (4a)
+
+
+                                                    Efp = Fp(p,T) −qϕ,                                      (4b)
+
+where Fn,p are functions that depend on both the band structure and the statistical distribution, the forms of
+which shall be derived below. The current densities (2) can thus be split into a diffusion term and a drift
+term, as follows:
+
+                                       ∂n                                                  jn = µnn∂Efn   −qµnn∂ϕ ,                                  (5a)
+                                    ∂n ∂x       ∂x
+
+                                        ∂p                                                   jp = µpp∂Efp   −qµpp∂ϕ .                                  (5b)
+                                     ∂p ∂x       ∂x
+
+  We define the chemical diffusivities of electrons and holes, respectively, according to Fick’s law,
+
+                                   qDn = µnn∂Efn ,                                       (6a)
+                                          ∂n
+
+                                   qDp = −µpp∂Efp ,                                       (6b)
+                                            ∂p
+
+where the change in sign between the electron and hole diffusivities is due to the sign of their respective
+charges. This result, referred to as the GER [26, 27], allows the current equations to be written as
+
+                                     ∂n                                                     jn = qDn   −qµnn∂ϕ ,                                    (7a)
+                                       ∂x       ∂x
+
+                                       ∂p                                                     jp = −qDp   −qµpp∂ϕ .                                   (7b)
+                                        ∂x       ∂x
+
+  When the conduction electrons and valence holes satisfy Boltzmann statistics (as is frequently assumed in
+semiconductor modelling [2, 41–45]), the dependencies of the QFLs on carrier density (i.e. the Fn,p
+functions in equations (4)) are logarithmic (a result that will be derived in the following sections). In such
+scenarios it is straightforward to show that the GER is replaced by the CER,
+
+                                          qDn,p = µn,pkBT,                                          (8)
+
+in which the ratio of diffusivity to mobility is constant, i.e. not dependent on the local carrier concentration.
+While this approximation greatly simplifies the model, the accuracy of the CER is often poor (as will be
+shown). In such scenarios the full GER is required.
+
+2.1. Statistical integrals and the Fermi level
+In order to determine equations for the electron and hole current currents from (2), expressions for the
+quasi-Fermi levels in terms of the carrier densities are required. In thermal equilibrium, the probability (f )
+that an electronic state with energy E is occupied in a material with Fermi level Ef is given by the FD
+statistical distribution,
+
+                                                 1
+                                          f(E;Ef) =                                                      (9)
+                                            exp  E−Ef + 1                                                                kBT
+
+where T is temperature and kB is Boltzmann’s constant. The density (per unit volume) of electrons lying in
+the conduction band with energies between E and E + dE is therefore given by the product of the FD
+distribution, f, and the DoS (per unit volume), or DoS, ˆg(E)dE. The corresponding density of holes in the
+valence band is given by the product of (1 −f) with the DoS in the valence band ˆg(E)dE.
+   Under the assumption that the material is a semiconductor, we first split the DoS ˆg(E) into that pertaining
+to the valence band ˆgv(E) and that pertaining to the conduction band ˆgc(E) (see figure 1) and write
+
+                                                 ˆg(E) = ˆgv(E) +ˆgc(E).                                     (10)
+
+                                     4
+--- Страница 6 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+
+
+   Figure 1. The filling of electron states. The solid black line shows the density of states (DoS) function ˆg(E), solid coloured lines
+  show the density of filled states per unit energy (specifically, ˆg(E)f(E;Efn) for conduction electrons and ˆg(E)[1 −f(E;Efp)] for
+   valence holes), and shaded areas show the total carrier density, integrated over all energies. Here the electron QFL is closer to the
+   band edge than the hole QFL, meaning a higher density of electrons than holes.
+
+
+
+
+
+                  Figure 2. The filling of electron states in (top) parabolic and (bottom) Gaussian DoS functions.
+
+
+
+It is usually assumed that the bands are perfectly distinct, meaning there exists a finite range of energies
+between the highest occupied state and the lowest unoccupied state at absolute zero in which the DoS is zero.
+However, in the case of organic semiconductors the bands do not have well-defined edges (see figure 2) and
+this can lead to definitions of ˆgv(E) and ˆgc(E) which are convenient, but for which there is some overlap of
+the tails of both functions. We assume that the bands have sufficient separation that any overlap in the DoS
+functions is negligible and note that any material that violates this would be a poor semiconductor. The total
+electron and hole densities (per unit volume) are thus
+                                 ˆ ∞
+                                n =      f(E;Efn)ˆgc(E)dE,                                 (11a)
+                          −∞
+                              ˆ ∞
+                               p =      1 −f(E;Efp) ˆgv(E)dE,                              (11b)
+                         −∞
+
+where the Fermi level Ef in the FD statistical distribution (9) is replaced by the QFL in the conduction/
+valence band in the expression for the electron/hole density.
+   For convenience, it is also assumed that the conduction and valence band DoS functions can each be cast
+in terms of (at least) two dimensional constants, an effective DoS (gc or gv) and reference energies Ec or Ev,
+corresponding to the conduction and valence band edges (in the case of inorganic semiconductors) and to
+the LUMO and HOMO (in the case of organic semiconductors). The dimensionless functions ˆNc and ˆNv are
+used to describe the general shape of the DoS function in the vicinity of the reference energies Ec and Ev,
+respectively. This allows us to write:
+
+                                                         gc     E −Ec
+                                              ˆgc(E) =      ˆNc               ,                                 (12a)
+                                       kBT     kBT
+
+                                                     gv
+                                            ˆgv(E) =                                                            ˆNv −E −Ev    ,                               (12b)
+                                      kBT       kBT
+
+                                     5
+--- Страница 7 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+where ˆNc and ˆNv are here referred to as reduced densities of states. These reduced DoS functions can be
+obtained from the DoS functions defined in (10) by inverting (12) to obtain
+
+                                       kBT
+                                        ˆNc(η) =        ˆgc (Ec + kBTη),                                (13a)
+                                                         gc
+
+                                       kBT
+                                        ˆNv(η) =       ˆgv (Ev −kBTη),                                (13b)
+                                                       gv
+
+in which η can be interpreted as a dimensionless state energy level. With these DoS functions, and
+substituting the FD distribution (9), the electron and hole densities (11) become
+
+                               ˆ ∞                                         1     ˆNc  E−EckBT
+                            n = gc                        dE,                            (14a)
+                         −∞ kBT 1 + exp  E−Efn                                                                      kBT
+
+                               ˆ ∞                                         1    ˆNv  −E−EvkBT
+                              p = gv                        dE.                            (14b)
+                         −∞ kBT 1 + exp  Efp−E                                                                      kBT
+
+    Carrier densities and quasi-Fermi levels are therefore related by an integral dependent on the reduced
+DoS. Specifically, the carrier densities are given by the expressions
+
+                                                                Efn −Ec
+                                 n = gcSc                  ,                                   (15a)
+                                             kBT
+                                   p = gvSv  −Efp −Ev    ,                                  (15b)
+                                             kBT
+
+where the statistical integrals, Sc and Sv, are the functions defined by the relations
+                                 ˆ ∞                                                         ˆNc(η)
+                                  Sc(ξ) =                                                     (16a)                           −∞ 1 + exp(η −ξ)dη,
+                                 ˆ ∞                                                        ˆNv(η)
+                                  Sv(ξ) =                                                     (16b)                           −∞ 1 + exp(η −ξ)dη,
+
+in which ξ may be interpreted as a dimensionless QFL. We note that, in practice, ξ will almost always be
+negative, meaning both QFLs lie between the two reference energies, Ec and Ev, in the band gap. We invert
+these expressions (15) for the carrier densities to obtain expressions for the QFLs in terms of the densities.
+Substituting for the conduction band and valence band reference energies using Ec = −Ea −qϕ and
+Ev = −Ea −Eg −qϕ, leads to the following expressions for the QFLs:
+
+                                          n
+                                              Efn = kBTS−1c      −Ea −qϕ,                                (17)
+                                                              gc
+
+                                            p
+                                          Efp = −kBTS−1v      −Ea −Eg −qϕ,                             (18)
+                                                          gv
+
+where S−1 is the inverse of S. Here Ea denotes the electron affinity, the difference between the conduction
+band reference energy and the vacuum level, and Eg = Ec −Ev is the gap between the two bands’ reference
+energies. Note that energies are defined relative to the vacuum level at E = 0 eV. In turn, the diffusion
+coefficients can be calculated as functions of mobility and carrier density from the GERs (6):
+
+                                        ∂        n
+                             qDn = µnkBTn    S−1c               ,                             (19a)
+                                      ∂n          gc
+
+                                        ∂        p
+                             qDp = µpkBTp    S−1v               .                             (19b)
+                                       ∂p          gv
+
+    Equivalently, the expressions for the QFLs (17)–(18) can be substituted directly into the current density
+equations (2) to obtain the following expressions for the currents:
+
+                                             jn = µnkBT  ∆n(n)∂n −qn ∂ϕ   ,                            (20a)
+                                           ∂x   kBT ∂x
+
+                                     6
+--- Страница 8 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+                                                     qp ∂ϕ                                             jp = −µpkBT  ∆p(p)∂p +               ,                           (20b)
+                                            ∂x   kBT ∂x
+
+in which
+
+                                       ∂        n
+                          ∆n (n) = n    S−1c               ,                               (21a)
+                                    ∂n          gc
+
+
+                                       ∂        p
+                          ∆p (p) = p    S−1v                                         (21b)
+                                      ∂p          gv
+
+are carrier density-dependent diffusion enhancement functions that approach 1 in the limit of low carrier
+density [46–50], as will be shown below.
+
+
+2.2. The Boltzmann approximation and the CER
+It is well known that the FD distribution (9) approaches the Boltzmann distribution,
+
+                                         f(E;Ef) ∼exp −E −Ef    ,                                  (22)
+                                               kBT
+
+for energies significantly greater than the Fermi level, (E −Ef)/kBT ≫1. Thus, for Fermi energies sufficiently
+far away from the reference energy of the DoS, the FD distribution (9) in the statistical integral can be
+approximated by a Boltzmann distribution (22), and the statistical integral (16) becomes
+
+                                 ˆ ∞
+                               S(ξ) ≈     ˆN(η)exp(ξ −η)dη,                               (23)
+                          −∞
+
+which can be evaluated as
+
+
+                                      S(ξ) ≈Aexp(ξ),                                       (24)
+
+
+where
+                                 ˆ ∞
+                          A =     ˆN(η)exp(−η)dη                                  (25)
+                          −∞
+
+is a scaling constant determined by the reduced DoS, which can readily be reabsorbed into an effective DoS
+constant. Specifically, this scaling constant is large if there is a high DoS at energies below the reference
+energy, i.e. the DoS has a tail, decaying into the band gap. This approximation, often referred to as the
+Boltzmann approximation, is valid when the QFL lies far inside the band gap, i.e. ξ ≪−1.
+   Thus, Boltzmann distributed carriers have an exponential statistical integral, regardless of DoS function,
+with inverse S−1(x) = ln( A).x  This function can be differentiated exactly, leading to
+
+                                 ∂        n      1
+                                   S−1c      =                                     (26a)                               ∂n          gc      n,
+
+
+                                 ∂        p      1
+                                   S−1v      =                                     (26b)                                ∂p          gv       p,
+
+and the diffusion enhancement functions (21) therefore become ∆≡1, thus recovering the CER from the
+generalised form.
+   This result is independent of the value of the constant A. The choice of DoS function is therefore
+unimportant when the Boltzmann approximation holds. If the approximation does not hold, however, the
+functional form of the DoS becomes significant and must be carefully considered. Furthermore, the choice of
+DoS affects the domain of carrier densities for which the Boltzmann approximation does hold, as will be
+discussed in section 4.
+
+                                     7
+--- Страница 9 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+3. DoS functions and statistical integrals
+
+A number of different materials have been used as TLs in PSCs, both inorganic and organic. Charge carrier
+conduction occurs via different basic mechanisms in the two classes of material (viz. inorganic and organic),
+which, in the present context, is important because it determines the model for the DoS that is appropriate
+for a given TL material.
+   Inorganic semiconductors are typically (poly)crystalline with electrons inhabiting delocalised Bloch
+(travelling) wave states, and the DoS is derived from the (quantum mechanical) dispersion relations of the
+bands of states. In contrast, electrons in organic materials occupy localised molecular orbitals, and their
+motion occurs via thermally activated hopping between molecules. In the latter case, a continuous DoS
+function arises from the (classical) disorder in the molecular arrangements, which causes variations in the
+energy of the molecular orbitals4.
+   As we shall see, in the present context the most important distinction between the two scenarios is that
+the DoS in a crystalline (inorganic, in this case) material has a well defined minimum, while this is not the
+case for the amorphous (organic) materials. In this section, we will consider appropriate choices of the DoS
+function for both crystalline inorganic and amorphous organic materials.
+
+3.1. Crystalline inorganic materials—Parabolic and simplified Kane models
+As mentioned above, the dispersion relation in an inorganic material has a well defined minimum and
+maximum. The energy (E) of an electron in a state with wavevector (k) near to the conduction band
+minimum (with energy Ec and wavevector kc) can be approximated by an expansion in powers of |k −kc|
+(see for example [27, 55]). Furthermore, we assume the band structure to be isotropic about this minimum,
+meaning the expansion depends only on the magnitude k = |k −kc|, so that
+
+                                                         k2 ∂2E                             E(k) = Ec + k∂E  +      + O(k3).                          (27)
+                                   ∂k k=0   2 ∂k2 k=0
+
+As k = 0 is the point at which the conduction band has a minimum, the first derivative in this expansion is
+necessarily zero. Furthermore, on defining the conduction band effective mass by
+
+                                                   ℏ2
+                               m∗c = ∂2E       ,                                        (28)
+                                                               ∂k2 k=0
+
+the following expression for the electron energy is obtained:
+
+                                                   ℏ2
+                                  E −Ec =      k2.                                     (29a)
+                                                     2m∗c
+
+This is referred to as the parabolic band approximation [55]. Similarly, the dispersion relation in the vicinity
+of the valence band maximum is
+                                 E −Ev = −ℏ2  k2.                                    (29b)
+                                                      2m∗v
+
+   Note that this approximation is based upon a band structure with well-defined valence and conduction
+band edges that is not found in disordered systems, hence its use is limited to crystalline inorganic materials.
+The DoS function is then derived according to [27]
+
+                                              1   dk
+                                           g(E) =    k2                                           (30)
+                                              π2  dE
+
+to obtain the DoS functions (as defined in (10)),
+
+
+                                                                                        3
+                                         2gc    1      2                                    ˆgc(E) =         √E −Ec   for E > Ec,                         (31a)                       √π  kBT
+
+
+
+
+
+4 The scenarios described here are, of course, idealisations. Both organic and inorganic materials can exhibit varying degrees of disorder,
+and intermediate or mixed modes of transport and DoS functions [51–54].
+
+
+
+
+                                     8
+--- Страница 10 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+near the conduction band minimum, and
+
+
+                                                                                        3
+                                        2gv    1      2 √
+                                    ˆgv(E) = √π  kBT     Ev −E   for E < Ev,                         (31b)
+
+near the valence band maximum. Thus the reduced DoS functions (ˆNc and ˆNv, as defined in (13)) have the
+same form, i.e.
+                        (
+                                           0       η < 0
+                                        ˆN(η) =     2                                                (32)                                 √η  η ⩾0.                                     √π
+
+   The statistical integral corresponding to this reduced DoS function is Sc,v(ξ) = F(ξ), where F follows
+from (16), and is
+                                ˆ ∞                                          2    √η
+                            F(ξ) =                                                         (33)                                                      0  √π 1 + exp(η −ξ)dη,
+
+and is referred to as the Fermi–Dirac integral5.
+   Further away from the band extrema, the parabolic approximation becomes increasingly inaccurate.
+States further from the band edge can be modelled by the simplified form of Kane’s model for dispersion in
+III–V semiconductors [57–59], in which (29a) and (29b) are replaced by
+
+                                                            ℏ2
+                               (E −Ec)(1 + αc(E −Ec)) =      k2                             (34a)
+                                                               2m∗c
+                               (E −Ev)(1 −αv(E −Ev)) = −ℏ2 k2                            (34b)
+                                                                2m∗c
+
+where αc and αv are two parameters that determine the degree of non-parabolicity. We note that the Kane
+model reduces to the parabolic model in the limit that α goes to zero. Once again, the DoS functions can be
+derived from (30) to obtain
+
+
+                                                                    3
+                             2gc    1      2 p
+                      ˆgc(E) = √π  kBT     (E −Ec)(1 + αc(E −Ec))(1 + 2αc(E −Ec)),             (35a)
+
+
+                                                                   3
+                            2gv    1      2 p
+                      ˆgv(E) = √π  kBT      (Ev −E)(1 + αc(Ev −E))(1 + 2αc(Ev −E)).             (35b)
+
+   These Kane DoS functions lead to an altered reduced DoS function taking the place of (32):
+                   (
+                                  0                        η < 0
+                              ˆN(η) =     2 p                                                      (36)
+                             √π  η(1 + α∗η)(1 + 2α∗η)  η ⩾0,
+
+where α∗= αkBT is the dimensionless non-parabolicity parameter. The statistical integrals for
+non-parabolic bands are therefore Sc(ξ) = K(ξ;α∗c ) for conduction electrons and Sv(ξ) = K(ξ;α∗v) for
+valence holes, where K (which follows from (16)) is
+                              ˆ ∞  p                                        2    η(1 + α∗η)(1 + 2α∗η)
+                     K(ξ ;α∗) =                                dη,                       (37)                                                   0  √π     1 + exp(η −ξ)
+
+and is referred to here as the Kane–Fermi integral. The non-parabolic DoS function (including the parabolic
+limit α →0) and the resulting Kane–Fermi integral are plotted in figure 3. We note once again that the Kane
+model reduces to the parabolic model in the limit that α∗→0, and that therefore the Kane–Fermi integral
+approaches the FD integral in the same limit,
+
+                               α∗→0K(ξlim     ;α∗) = F(ξ).                                    (38)
+
+
+
+5 Specifically, this is the Fermi–Dirac integral of order 1/2 [56]. Note that some definitions omit the prefactor.
+
+
+
+
+                                     9
+--- Страница 11 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+
+
+   Figure 3. Reduced densities of state (top) and statistical integrals (bottom) derived from the simplified Kane dispersion (left) and
+   Gaussian disorder (right) models. Solid lines in the bottom plots correspond to full FD distributions and dashed lines to
+   Boltzmann distributions. Here, F,K, and G denote the Fermi–Dirac (33), Kane–Fermi (37), and Gauss–Fermi (41) integrals, α∗
+    is the dimensionless non-parabolicity parameter of the Kane model and s is the dimensionless standard deviation of the Gaussian.
+
+
+
+3.2. Amorphous organic materials—Gaussian model
+The discrete transport sites in disordered organic materials are typically modelled by Gaussian DoS functions
+[36, 38], as represented in figure 2(b), of the form
+                                                2!
+                                                   gc           E −Ec                                      ˆgc(E) =  √   exp −1                     ,                          (39a)
+                                       σc  2π       2    σc
+
+                                                2!
+                                                 gv              Ev −E                                      ˆgv(E) =  √   exp −1                     ,                          (39b)
+                                      σv  2π       2    σv
+
+where the degree of disorder is represented by the standard deviation, σ. Once again the reduced DoS
+functions (ˆNc and ˆNv) can be obtained using (13) and have the form
+
+                                         1           η  2                                      ˆN(η,s) = √   exp −1            ,                               (40)
+                                                           s  2π       2   s
+
+where s = σ  is the dimensionless disorder parameter, which in general differs between the ‘conduction            kBT
+states’ (for which the reduced DoS is ˆN(η;sc) and and ‘valence states’ (for which the reduced DoS is ˆN(η;sv).
+The crucial difference from the parabolic model is that the Gaussian band has no defined edge, meaning the
+reference energies Ec and Ev are now the band centres, the LUMO and HOMO energies, respectively. The
+statistical integrals (16) resulting from the Gaussian DoS are Sc(ξ) = G(ξ;sc) for conduction electrons and
+Sv(ξ) = G(ξ;sv) for valence holes, where G follows from (16):
+
+                                    ˆ ∞ exp −12  ηs  2                                      1
+                           G(ξ ;s) = √                      dη,                            (41)
+                                                       s  2π −∞ 1 + exp(η −ξ)
+
+                                    10
+--- Страница 12 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+and is referred to as the Gauss–Fermi integral [60]. The Gaussian DoS function and the resulting
+Gauss–Fermi integral are plotted in figure 3. Note that greater standard deviation effectively shifts the onset
+of the band further away from the reference energy, resulting in a shift in the statistical integral.
+
+4. Accuracy of the Boltzmann approximation for common TL materials
+
+As discussed in section 2.2, the CER is recovered from the general Einstein relation (GER) when carrier
+densities are sufficiently low so that the FD distribution (9) can be approximated by the Boltzmann
+distribution (22). Under this approximation, the statistical integrals take the form
+
+                                      S(ξ) ≈Aexp(ξ),                             (24 repeated)
+
+where A is some constant determined by the functional form of the reduced DoS (25). For the Kane
+model (36), this constant is
+
+                                        1         1       1
+                          A = √ πα∗e 2α∗K2  2α∗                                    (42)
+
+where K2 is the second order modified Bessel function of the second kind (note that in the limit α∗→0, the
+band becomes perfectly parabolic and A →1). The corresponding result in the Gaussian band model (40) is
+
+                                                                      s2
+                             A = exp         .                                        (43)
+                                                2
+
+    Notably, the CER is unaffected by the value of this constant, meaning that the choice of DoS is
+unimportant when the Boltzmann approximation holds. However, the functional form of the DoS does
+significantly affect the range of carrier densities in which the Boltzmann approximation holds. Furthermore,
+as the statistical integrals are not, in general, analytically invertible, the validity of the Boltzmann
+approximation for each band model usually has to be investigated numerically. In what follows, we conduct
+such an investigation for a number of different TL materials. In particular, we compute the diffusion
+enhancement factor ∆for some of the more commonly used TL materials in PSCs, noting that a value of ∆
+close to 1 implies that both the CER and the Boltzmann approximation accurately model the material’s
+charge transport properties.
+  We consider the following inorganic TL materials: TiO2, ZnO and SnO2 (for the ETL) [61–65], and NiO
+(for the HTL) [66, 67]. In addition, we consider the following organic TL materials: spiro-MeOTAD [68, 69],
+PEDOT:PSS [70–72] and P3HT [73, 74] (for the HTL), and PCBM [75, 76] (for the ETL). More
+comprehensive lists of TL materials can be found in [77, 78] or through the Perovskite Database Project [79].
+The relevant parameters for these TL materials, taken from the literature, are shown in table 1. We note that
+measurements of band nonparabolicity parameters in the literature are rare and, to the authors’ knowledge,
+have not been reported for these materials, possibly because oxides are typically used as insulators in
+semiconductor applications. In the absence of measured values for inorganic TL materials, their bands will
+be assumed to be perfectly parabolic (i.e. α∗= 0).
+     It is generally agreed that the Boltzmann approximation is sufficiently accurate for carriers in parabolic
+bands when the QFL is at least three thermal voltages from the band edge (ξ < −3), corresponding to carrier
+concentrations less than 0.05gc,v. At this carrier density, the diffusion enhancement function, ∆, computed
+from from full FD statistics (and the GER), is approximately 1.018 and so is within 2% of the value given by
+the Boltzmann approximation (and the CER). For ξ > −3, however, the Boltzmann approximation to the
+FD integral begins to overestimate the carrier density, effectively allowing multiple carriers to occupy the
+same low-energy states. This can be seen in figure 3, where the FD integral is plotted with its Boltzmann
+approximation. The result is that the diffusion enhancement rapidly diverges from 1 as the carrier density
+exceeds 0.05gc,v, as shown in figure 4.
+   Perhaps unexpectedly, the Boltzmann approximation to the Kane–Fermi integral is accurate over a wider
+range of densities for greater nonparabolicity. This is because the form of the reduced DoS means
+nonparabolicity increases the density of higher energy states, far away from the QFL, for the same effective
+DoS (shown in figure 3). Despite this, the deviation is minor and the CER can be considered accurate in the
+same domain as for perfectly parabolic bands.
+   Gaussian bands possess a tail of states extending into the band gap, as shown in figure 3. These states have
+energies closer to the QFL, meaning the Boltzmann approximation performs poorly. This is exacerbated by
+greater disorder [108], as seen in the dependence of the scaling constant for Gaussian bands (43) on the
+disorder, s. Consequently, the diffusion enhancement function, ∆, predicted by the Gauss-Fermi statistical
+
+                                    11
+--- Страница 13 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+
+
+   Figure 4. Diffusion enhancement functions according to the generalised Einstein relation for (top) inorganic and (bottom)
+   organic transport layer materials. ∆is (21a) for ETL materials and (21b) for HTL materials. Similarly, carrier density is n for ETL
+   materials and p for HTL materials. Parameters taken from table 1.
+
+
+
+
+
+Table 1. Density of states parameters for common PSC transport layer materials. s is the dimensionless width of the Gaussian DoS,
+s = kBT.σ
+Material           Layer    Record PCE (%)      gc,v (m−3)                         Ec,v (eV)     α∗
+
+Inorganic
+NiO          HTL        20.68 [80]       1.1×1025 [81]              −5.41 [82]    N/A
+TiO2           ETL         24.8 [83]        2×1023 [81]               −4.13 [84]    N/A
+ZnO           ETL        20.09 [85]        2.2 × 1024 [86]             −4.03 [87]    N/A
+SnO2           ETL         25.2 [88]        4.36 × 1024 [89]            −3.91 [90]    N/A
+Organic                                                                                                                   s
+spiro-MeOTAD   HTL        25.2 [88]        1 × 1026 [91]              −5.09 [92]      3.38–4.08 [93–95]
+PEDOT:PSS     HTL        21.15 [96]       1 × 1026 [97]              −5.13 [98]      4.09–5.08 [97, 99]
+P3HT         HTL        23.9 [100]        4.2 × 1025 [101]            −4.7 [102]      1.04–3.12 [99, 101]
+PCBM          ETL        21.43 [103]      0.1 −2 × 1025 [104–106]     −3.95 [107]    2.81–5.38 [104, 105]
+
+
+
+
+integral (and the equivalent GER) quickly diverges from 1 (i.e. from the value predicted by the Boltzmann
+approximation and the CER), as shown in figure 4. The greater the disorder of the material (i.e. the larger s is)
+the more rapid the divergence of ∆away from 1 as the concentration of electrons (or holes) is increased [28].
+   Measurements of the disorder parameter, s, for common organic PSC TL materials taken from the
+literature are shown in table 1. Values range from 1.04 to 5.38. The corresponding diffusion enhancement
+functions under the GER are plotted in figure 4. Even for the material with the least disorder (P3HT), the
+GER prediction of ∆has strongly diverged from 1 by the time the carrier density has increased to the typical
+TL doping density. This divergence is far more pronounced for the more disordered materials (such as
+PEDOT:PSS and PCBM) where it begins at relatively low carrier concentrations.
+
+
+
+
+                                    12
+--- Страница 14 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+5. Effects of full FD statistics on device-level models
+
+As discussed in the previous section, the diffusion enhancement predicted by charge transport models based
+upon a full description of the charge carrier statistics (i.e. using a full FD statistical model) is often significant
+in the materials commonly employed as TLs for PSCs over the range of carrier densities relevant to device
+operation. In this section, we examine the effect that this more complete physical description of the TLs has
+on the predictions of both steady-state and time-dependent device behaviour. In order to do this, we
+augment the widely-used model of the three-layer planar PSC [2, 12, 13, 19–21, 39, 109], with a model of
+carrier transport in the TLs based upon full FD statistics (i.e. (20)–(21)), to account for the fact that carrier
+densities are sufficiently high that the standard Boltzmann approximation breaks down in these layers. We
+define the statistical integrals as SE in the conduction band of the ETL and as SH in the valence band of the
+HTL, and note that the minority carriers in the TLs (i.e. holes in the ETL and electrons in the HTL) typically
+occur at such low densities that they do not significantly affect device behaviour, and so can be neglected.
+Since only a single significant carrier species is modelled in each TL, we drop the subscripts c and v that
+distinguish between conduction and valence bands.
+   The principle change to the standard device model, in which Boltzmann statistics are assumed accurate
+for all carriers, is that electron and hole current densities in the TLs are now computed with GERs,
+via (20)–(21), with an appropriate statistical model and material parameters. The changes to the statistical
+integrals also lead to minor alterations to the continuity and boundary conditions. These are described in
+more detail in [110] but the full drift–diffusion model solved here is also stated in appendix A.
+   The numerical results presented here are obtained using a recently released version of the open-source
+PSC simulation software, IonMonger [18, 21, 110], which enables the user to simulate a variety of
+measurement protocols, including current–voltage sweeps and IS. Details of the numerical methods used for
+adapting the discretised, non-dimensional charge transport model to account for the GER can be found in
+[110], along with a discussion of the challenges of implementing statistical integrals, which are neither
+analytically invertible nor differentiable, without significantly impacting the computation time.
+   The charge transport model of a PSC discussed here is too complex to easily predict how changes to the
+statistical models of the TLs affect the predictions of the cell’s response to particular experimental protocols,
+but appropriate numerical solutions to the model allow us to investigate these changes on a case by case
+basis. In particular, they offer insight into the scenarios in which the error made by assuming Boltzmann
+statistics (and correspondingly the CER) leads to significant error in the predicted device behaviour.
+In order to illustrate our hypotheses we compute solutions based on a representative data set for a
+TiO2/MAPI/Spiro-MeOTAD cell (given in tables 2 and 3 of appendix B), with TL DoS parameters taken from
+table 1. We note that, while we construct the parameter set using material parameters taken from
+independent measurements, simulations using our parameter set may exhibit differences from the behaviour
+of a real device of this form as a consequence of device construction (e.g. material deposition method and
+architecture). The device considered here is intended to be representative, and a full parameter sweep lies
+outside the scope of this work.
+
+
+5.1. Steady-state performance
+Here the effect of the Boltzmann approximation in the TLs on four key performance parameters is
+investigated by computing numerical solutions to the drift–diffusion device model.
+    Steady-state results are shown in figures 5 and 6, in which direct comparison is made between the
+predictions of four key performance parameters (VOC, JSC, fill factor (FF), and PCE) obtained using full FD
+statistics in the TLs (i.e. the GER), and those obtained using the Boltzmann approximation (i.e. the CER).
+The short-circuit current (JSC) shows the least sensitivity to the change in the statistical model of the TL
+carriers, a consequence of the low carrier densities in the TLs at this low voltage. Conversely, the predicted
+open-circuit voltage (VOC) found using Boltzmann statistics is 9.43% greater than that found using the full
+statistical models of the TLs. This is a consequence of the Boltzmann approximation being far less accurate at
+open-circuit, where the large applied voltage leads to large carriers concentrations in the TLs. Combined
+with an increase in the FF, the increase in VOC leads the model based on the Boltzmann approximation to
+significantly overestimate the PCE of the cell (by a factor of 27.04%). As shown in figure 5, where simulations
+are compared to data from the Perovskite Database Project [79], the simulated steady-state performance
+parameters obtained using simulations based on full FD statistics in the TLs are more representative of the
+experimental results found in the literature than those predictions made using simulations based on
+Boltzmann statistics for this particular device configuration.
+   The importance of these results lies in the fact that, owing to the difficulty in obtaining accurate estimates
+of material properties, many parameters are commonly fitted by comparing simulations to experiment, for
+
+
+                                    13
+--- Страница 15 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+
+
+   Figure 5. Measured steady state performance parameters of TiO2/MAPI/Spiro-MeOTAD cells. Red circles were taken from The
+   Perovskite Database Project [79]. Crosses were obtained through simulations using IonMonger, based on the parameter set given
+   in appendix B. The band shapes in the TiO2 and in the Spiro-MeOTAD were taken to be parabolic and Gaussian, respectively,
+   using the parameters given in table 1. Significant differences can be observed between the predictions made using the Boltzmann
+   approximation (blue crosses) and full Fermi–Dirac statistics (green crosses).
+
+
+
+
+
+   Figure 6. Sensitivity of key performance parameters to the Boltzmann approximation in the transport layers of a
+  TiO2/MAPI/Spiro-MeOTAD cell. Obtained through simulation using IonMonger. The parameter set is listed in appendix B. The
+   band shapes in the TiO2 and Spiro-MeOTAD were parabolic and Gaussian, respectively, with parameters taken from table 1.
+
+
+
+values such as the short-circuit current and the open-circuit voltage. Thus, if the model predicts these values
+incorrectly (as seen here), material parameter estimates obtained through fitting will also be incorrect,
+leading to divergence between fitted parameter values obtained from the same material using different
+experimental protocols. This is likely to create confusion in the field and lead to difficulty in obtaining
+reliable and accurate material parameters estimates.
+
+5.2. Current–voltage hysteresis
+Differences in the predictions of PSC behaviour between models based on Boltzmann statistics in the TLs
+and those based on full FD statistics are not restricted to steady state behaviour. As shown in figures 7 and 8,
+simulations of J-V hysteresis and IS both show significant differences depending on which of these two
+modelling assumptions is applied.
+
+
+                                    14
+--- Страница 16 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+
+
+   Figure 7. The effect of the Boltzmann approximation vs. full Fermi–Dirac statistics for current–voltage hysteresis for the
+   parameter set listed in appendix B. The scan rates showing maximum hysteresis factor under the Boltzmann approximation and
+   Fermi–Dirac statistics are plotted in the top-left and top-right panels respectively.
+
+
+
+
+
+   Figure 8. The effect of the Boltzmann approximation vs. full Fermi–Dirac statistics on impedance spectra for the parameter set
+    listed in appendix B. The DC voltages were 0.3 V (top) and 1.0 V (bottom).
+
+
+
+  A 180 mV s−1 scan of the TiO2/MAPI/Spiro-MeOTAD parameter set shows that the use of Boltzmann
+statistics in the TLs leads not only to a different open-circuit voltage to that predicted by FD statistics, but
+also to qualitative differences in the shape of the hysteresis curve and the fill factor obtained from each
+direction of the scan. It has long been understood that the observed performance of a PSC during a
+current–voltage sweep is highly influenced by the preconditioning procedure [8], where the cell is held to
+equilibrate at a high applied voltage. Changes to the statistical integrals strongly influence the preconditioned
+state of the cell, and thus have a knock-on effect on the predicted performance observed during the sweep.
+Once again, the shape of the hysteresis curve is highly sensitive to many material parameters and subtleties of
+the drift–diffusion model and the effects seen for this parameter set cannot be assumed to be uniform across
+all other parameter sets.
+
+                                    15
+--- Страница 17 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+5.3. Impedance spectroscopy
+Current–voltage sweeps constitute only one of many dynamic characterisation techniques commonly
+simulated by drift–diffusion models. Another is IS, in which the steady state is perturbed by a
+small-amplitude oscillating voltage at varying frequencies and the amplitude and phase of the current
+response is measured as a function of frequency. This technique can be used to diagnose performance losses
+and degradation as well as probe the timescales on which the physical processes within the cell operate
+[13, 111–113]. Recent additions of FD statistics and an IS simulation capability to IonMonger [110] provide
+the first PSC modelling software capable of exploring the interdependent effects of the two. As shown in
+figure 8, predicted impedance spectra are highly sensitive to changes in the statistical integrals. The
+discrepancies between the simulations employing the Boltzmann approximation in the TLs and those based
+on FD statistics in the TLs are exacerbated for larger values of the DC voltage, the value about which the
+voltage is perturbed, and particularly impact the low-frequency arc, caused by the charging and discharging
+of the Debye layers and mediated by the mobile ions in the perovskite [13].
+
+6. Conclusion
+
+While the Boltzmann approximation (from which the CER, is derived) has been widely employed in
+semiconductor modelling, it has often been used without due consideration of the validity of the
+approximation in the scenario in which it is being employed. Specifically, the use of organic materials to
+fabricate PSC TLs, and the high doping levels in these structures, suggest that the Boltzmann
+approximation (22) to the FD statistical distribution (9) (and thus also the CER) is frequently inaccurate in
+the TLs. This, in turn, can lead to significant errors in the predictions made by PSC charge transport models.
+   Incorporating a full statistical treatment of the charge carrier dynamics in the TLs (equivalent to using
+the GER) leads to a density-dependent diffusion enhancement function, ∆, that is determined by the DoS
+function. For cases in which the Boltzmann approximation is accurate, the diffusion enhancement function
+reduces to ∆= 1. Crucially, however, the function is highly sensitive to the choice of DoS function. In
+particular, the region of validity of the Boltzmann approximation depends sensitively on the exact DoS
+employed by the model. Of the common PSC TL materials, disordered organic materials, which are usually
+modelled by a Gaussian DoS function, are those for which the Boltzmann approximation is least accurate,
+due to the diffuse nature of the Gaussian. The accuracy is particularly poor for the materials with greatest
+disorder, such as PCBM and PEDOT:PSS.
+   In order to test the sensitivity of drift–diffusion models of a typical TiO2/MAPI/Spiro-MeOTAD PSC to
+changes in the description of carrier transport in the TLs of the device, comparison was made between
+predicted device behaviour obtained from (I) a PSC model in which carrier transport in the TLs was
+described using the Boltzmann approximation and (II) a PSC model in which full FD statistics were
+employed.
+   Numerical solutions show that the the full statistical treatment of carrier transport in the TLs leads to
+significantly different predictions of four key steady state performance parameters (VOC,JSC, FF and PCE) in
+comparison to the predictions made by the model in which carrier transport in the TLs is described by the
+Boltzmann approximation. The most notable is between the predictions of the PCE, the value of which was
+overestimated by the model based upon the Boltzmann approximation by 27%. This leads us to conclude
+that the steady state performance of the cell is not well-described by the standard planar PSC model (i.e. one
+in which the Boltzmann approximation is employed in the TLs). Due to the large number of material
+parameters in the PSC model and the difficulty in obtaining accurate estimates of their values, it is common
+to fit some parameters to match experimental data, particularly the four performance parameters considered
+here. It is clear that fitting these parameters to the standard model (based on the Boltzmann approximation)
+can easily lead to incorrect predictions of these parameters, and a misleading description of the cell.
+   In addition to steady state performance, two common dynamic measurements, namely current–voltage
+hysteresis and IS, were simulated using PSC models based on (I) a Boltzmann description of the TLs and (II)
+a full FD description of the TLs. For this representative parameter set, the model based on the Boltzmann
+approximation incorrectly predicts both the maximum hysteresis factor and the scan rate at which this
+maximum appears (figure 7). Furthermore, the Boltzmann model produces qualitative errors in the shape of
+the J-V curve across a wide range of physically relevant scan rates. Similar errors were observed in the
+Boltzmann model when simulating IS, dependent on the DC voltage. At low voltages, carrier densities in the
+TLs near the perovskite interfaces are lower, meaning the Boltzmann approximation is more likely to be
+accurate. For greater DC voltages, however, carriers in the TLs accumulate near the perovskite interfaces,
+affecting the ion vacancy accumulation/depletion occurring on the perovskite side of the interfaces, and thus
+the low-frequency arc on the Nyquist plot that is caused by ion migration. Recently it has been shown that
+adopting an asymptotic approach to solving the charge transport model, rather than a numerical one, can
+
+                                    16
+--- Страница 18 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+provide significant insight into the IS response of PSCs [112]. Application of these mathematical methods to
+the modified charge transport model presented here will therefore be the subject of future work, with the aim
+of elucidating the exact effect of the Boltzmann approximation in IS modelling. The numerical simulations
+conducted here, however, show that the Boltzmann approximation causes significant errors in predictions of
+dynamic device-level behaviour.
+   As understanding of PSC physics continues to improve, it is essential that models of their operation also
+continue to advance. While PSC drift–diffusion models based on the standard Boltzmann approximation of
+charge carrier statistics in the TLs may, in some cases, be sufficient, their validity cannot be assumed in
+general. In particular, while Boltzmann statistics give a fair description of charge transport in weakly doped
+and inorganic TL materials, they provide a much poorer description of strongly doped and organic TL
+materials. The numerical methods discussed here, and their implementation in IonMonger, give the
+perovskite community access to fast and accurate numerical models incorporating alternative statistical
+descriptions of charge carrier behaviour in the TLs that enable simulations of enhanced predictive power,
+across a wide range of scenarios, which are not solely limited to the steady-state but include current–voltage
+and IS measurements.
+
+Data availability statement
+
+All data that support the findings of this study are included within the article (and any supplementary files).
+
+Acknowledgment
+
+W C was supported by an EPSRC Grant (reference EP/V520056/1). M W and A B W were supported by the
+European Commission through the Horizon 2020 Framework Programme for Research and Innovation,
+Energy Oriented Centre of Excellence (EoCoE-II) project (Grant Agreement ID: 824158).
+
+
+Appendix A. The full charge transport model
+
+Here we list the full charge transport model of a three-layer PSC, a schematic of which is shown in figure 9.
+Equations directly modified to account for full FD statistics are highlighted in teal. This charge transport
+model was presented in [110].
+
+A.1. Perovskite absorber layer (0 < x < b)
+
+            ∂P   ∂FP                                   ∂P   P ∂ϕ
+           +   = 0                             FP = −DI   +                  (A1)
+                ∂t   ∂x                                      ∂x   VT ∂x
+
+            ∂n −1 ∂jn = G(x,t) −R(n,p)                      jn = qDn  ∂n −n ∂ϕ             (A2)
+                ∂t   q ∂x                                     ∂x   VT ∂x
+
+           ∂p   1 ∂jp                                       ∂p   p ∂ϕ
+          +   = G(x,t) −R(n,p)                         jp = −qDp   +                 (A3)
+              ∂t   q ∂x                                        ∂x   VT ∂x
+
+                  ∂2ϕ    q
+               =   (N0 −P + n −p)                                             (A4)
+                     ∂x2   εA
+
+where G and R are the generation and recombination rates.
+
+A.2. Electron transport layer (−bE < x < 0)
+
+              ∂n −1 ∂jn = 0                       jn = µEkBTn ∂  S−1E    n −ϕ              (A5)
+                 ∂t   q ∂x                            ∂x             gEc    kBT
+
+                                  ∂2ϕ    q
+                         =   (n −dE).                                  (A6)
+                                       ∂x2    εE
+
+
+
+                                    17
+--- Страница 19 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+
+
+                          Figure 9. Schematic of the three-layer planar drift–diffusion model of a PSC.
+
+
+
+A.3. Hole transport layer (b < x < b + bH)
+
+              ∂p   1 ∂jp                             ∂        p     ϕ
+           +   = 0                       jp = −µHkBTp    S−1H     +                 (A7)
+                 ∂t   q ∂x                             ∂x           gHv    kBT
+
+                                  ∂2ϕ    q
+                         =   (dH −p).                                  (A8)
+                                       ∂x2    εE
+
+
+A.4. Boundary conditions
+
+                                                                           Vbi −V(t)
+                       n|x=−bE = dE,                      ϕ|x=−bE =                           (A9)
+                                                                 2
+
+                      p|x=b+bH = dH,                     ϕ|x=b+bH = −Vbi −V(t) .              (A10)
+                                                                  2
+
+
+A.5. Continuity conditions
+
+                                  
+                               jn|x=0−=                                                jn|x=0+
+                       =                                                        jp                                      −qRl
+                         =                                          0                                        FP                                      −Rl       
+                             ϕ|x=0−= ϕ|x=0+                on x = 0             (A11)
+                          ∂ϕ                                    ∂ϕ
+                                 εE                                           εA                             x=0−=                                                   x=0+                             ∂x                                        ∂x
+                                                    dE                                    n|x=0−                                                                −S−1                                 = n|x=0+                     dEkE exp S−1E                                                      E
+                                                               gEc                     gEc
+                                  
+                          =                               jp|x=b−−Rr
+                       =                                                       jn                                    −qRr
+                         =                                          0                                        FP                                                      jp|x=b+       
+                              ϕ|x=b−= ϕ|x=b+                on x = b             (A12)
+                          ∂ϕ                                    ∂ϕ
+                               εA                                        εH                             ∂x x=b−=                                         ∂x x=b+
+                                                    dH                                               p|x=b+                                                                  exp                 p|x=b−= dHkH                               S−1H                                    −S−1H
+                                                                 gHv                 gHv
+
+where
+
+                                               gc      EEc −Ec         dE                                  kE =   exp     + S−1E                                  (A13)
+                                     dE       kBT                 gEc
+
+                                            gv       Ev −EHv        dH                            kH =    exp      + S−1H                                 (A14)
+                               dH       kBT               gHv
+
+
+                                    18
+--- Страница 20 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+Appendix B. Parameter set
+
+
+Table 2. Material parameters for a TiO2/MAPI/spiro-MeOTAD cell. The necessary parameters to model non-Boltzmann statistics in the
+transport layers are shown in table 1.
+
+    Symbol               Name                              Values          Unit         References
+
+   T                        Temperature                     298         K
+  —                          Light entering through           ETL     —
+     Perovskite (MAPI)
+    b                            Perovskite width                  400        nm
+     εp                            Permittivity                         24.1             ε0           [114]
+   α                         Absorption coefficient               1.3 × 107      m−1         [115]
+      gc                       Conduction band effective DoS      8.1×1024      m−3         [114]
+     gv                          Valence band effective DoS           5.8 × 1024     m−3         [114]
+     Ec                       Conduction band edge            −3.7         eV          [116]
+     Ev                         Valence band edge                −5.4         eV          [116]
+    Dn                          Electron diffusivity               1.7×10−4     m2 s−1       [117]
+    Dp                      Hole diffusivity                  1.7×10−4     m2 s−1       [117]
+   N0                   Mean anion vacancy density          1.6 × 1025     m−3         [118]
+    DP                     Anion vacancy diffusivity          1×10−17      m2 s−1       [9]
+   ETL (TiO2)
+     gEc                       Conduction band effective DoS      2 × 1023      m−3         [81]
+    EEf                         Equilibrium electron QFL          −4.19         eV          [119]
+    DE                          Electron diffusivity                  1.3 × 10−5     m2 s−1       [120]
+     εE                            Permittivity                      10               ε0
+     bE                    ETL width                       100        nm          [121]
+    EEc                       Conduction band edge            −4.13         eV           [84]
+   HTL (spiro-MeOTAD)
+    gHv                          Valence band effective DoS         1 × 1026      m−3         [91]
+    EHf                         Equilibrium hole QFL             −4.97         eV
+   DH                      Hole diffusivity                   1 × 10−6      m2 s−1      [120]
+    εH                           Permittivity                      3                ε0
+    bH                 HTL width                       200        nm          [121]
+    EHv                         Valence band edge                −5.1         eV           [92]
+
+
+                        Table 3. Recombination parameters for a typical TiO2/MAPI/spiro-MeOTAD cell.
+
+    Symbol                   Name                                     Values              Unit
+
+     Perovskite bulk
+   β                                Bi-molecular rate constant                1.5×10−14        m3 s−1
+     τp                            Hole SRH psuedo-lifetime              3×10−7                s
+     τn                                Electron SRH psuedo-lifetime           3×10−7                s
+    An                                Electron Auger coefficient                0              m6 s−1
+    Ap                            Hole Auger coefficient                   0              m6 s−1
+    ETL/perovskite interface
+    νEp                            Hole recombination velocity              10               ms−1
+    νEn                                Electron recombination velocity 0          105              ms−1
+    βE                               Bi-molecular rate constant               0              m4 s−1
+    HTL/perovskite interface
+    νHp                            Hole recombination velocity               105              ms−1
+    νHn                                Electron recombination velocity             0.1              ms−1
+   βH                               Bi-molecular rate constant               0              m4 s−1
+
+
+ORCID iDs
+
+Will Clarke https://orcid.org/0000-0002-1629-9698
+Matthew J Wolf https://orcid.org/0000-0001-5902-4187
+Alison Walker https://orcid.org/0000-0002-2232-9734
+Giles Richardson https://orcid.org/0000-0001-6225-8590
+
+References
+
+
+   [1] NREL 2022 Best research-cell efficiency chart (available at: www.nrel.gov/pv/cell-efficiency.html)
+
+                                    19
+--- Страница 21 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+   [2] Tessler N and Vaynzof Y 2020 Insights from device modeling of perovskite solar cells ACS Energy Lett. 5 1260–70
+   [3] Le Corre V M, Wang Z, Anton Koster L J and Tress W 2020 Device modeling of perovskite solar cells: insights and outlooks
+       Soft-Matter Thin Film Solar Cells (New York: AIP Publishing) pp 1–32
+   [4] Riquelme A J, Valadez-Villalobos K, Boix P P, Oskam G, Mora-Seró Ivan and Anta J A 2022 Understanding equivalent circuits in
+       perovskite solar cells. insights from drift-diffusion simulation Phys. Chem. Chem. Phys. 24 15657–71
+   [5] Zhao P, Jie S, Lin Z, Wang J, Zhang J, Hao Y, Ouyang X and Chang J 2020 The crystal anisotropy effect of MAPbI3 perovskite on
+      optoelectronic devices Mater. Today Energy 17 100481
+   [6] Hameed Khattak Y, Baig F, Shuja A, Atourki L, Riaz K and Marí Soucase Be 2021 Device optimization of pin structured perovskite
+       solar cells: impact of design variants ACS Appl. Electron. Mater. 3 3509–20
+   [7] Kanoun A-A, Goumri-Said S and Benali Kanoun M 2021 Device design for high-efficiency monolithic two-terminal,
+      four-terminal mechanically stacked and four-terminal optically coupled perovskite-silicon tandem solar cells Int. J. Energy Res.
+     45 10538–45
+   [8] Richardson G, O’Kane S E J, Niemann R G, Peltola T A, Foster J M, Cameron P J and Walker A B 2016 Can slow-moving ions
+      explain hysteresis in the current–voltage curves of perovskite solar cells? Energy Environ. Sci. 9 1476–85
+   [9] Eames C, Frost J M, Barnes P R F, O’Regan B C, Walsh A and Islam M S 2015 Ionic transport in hybrid lead iodide perovskite
+       solar cells Nat. Commun. 6 7497
+ [10] Bertoluzzi L, Boyd C C, Rolston N, Jixian X, Prasanna R, O’Regan B C and McGehee M D 2020 Mobile ion concentration
+     measurement and open-access band diagram simulation platform for halide perovskite solar cells Joule 4 109–27
+ [11] Liu M, Johnston M B and Snaith H J 2013 Efficient planar heterojunction perovskite solar cells by vapour deposition Nature
+     501 395–8
+ [12] Neukom M T et al 2019 Consistent device simulation model describing perovskite solar cells in steady-state, transient and
+      frequency domain ACS Appl. Mater. Interfaces 11 23320–8
+ [13] Riquelme A, Bennett L J, Courtier N E, Wolf M J, Contreras-Bernal L, Walker A B, Richardson G and Anta J A 2020 Identification
+       of recombination losses and charge collection efficiency in a perovskite solar cell by comparing impedance response to a
+       drift-diffusion model Nanoscale 12 17385–98
+ [14] Calado P, Telford A M, Bryant D, Xiaoe Li, Nelson J, O’Regan B C and Barnes P R F 2016 Evidence for ion migration in hybrid
+       perovskite solar cells with minimal hysteresis Nat. Commun. 7 13831
+ [15] Ball J M, Lee M M, Hey A and Snaith H J 2013 Low-temperature processed meso-superstructured to thin-film perovskite solar
+        cells Energy Environ. Sci. 6 1739
+ [16] Docampo P, Ball J M, Darwich M, Eperon G E and Snaith H J 2013 Efficient organometal trihalide perovskite
+      planar-heterojunction solar cells on flexible polymer substrates Nat. Commun. 4 2761
+ [17] Van Reenen S, Kemerink M and Snaith H J 2015 Modeling anomalous hysteresis in perovskite solar cells J. Phys. Chem. Lett.
+     6 3808–14
+ [18] Courtier N E, Richardson G and Foster J M 2018 A fast and robust numerical scheme for solving models of charge carrier
+      transport and ion vacancy motion in perovskite solar cells Appl. Math. Modelling 63 329–48
+ [19] Courtier N E, Foster J M, O’Kane S E J, Walker A B and Richardson G 2019 Systematic derivation of a surface polarisation model
+       for planar perovskite solar cells Eur. J. Appl. Math. 30 427–57
+ [20] Courtier N E, Cave J M, Foster J M, Walker A B and Richardson G 2019 How transport layer properties affect perovskite solar cell
+      performance: insights from a coupled charge transport/ion migration model Energy Environ. Sci. 12 396–409
+ [21] Courtier N E, Cave J M, Walker A B, Richardson G and Foster J M 2019 Ionmonger: a free and fast planar perovskite solar cell
+      simulator with coupled ion vacancy and charge carrier dynamics J. Comput. Electron. 18 1435–49
+ [22] Calado P, Gelmetti I, Hilton B, Azzouzi M, Nelson J and Barnes P R F 2022 Driftfusion: an open source code for simulating
+      ordered semiconductor devices with mixed ionic-electronic conducting materials in one dimension J. Comput. Electron.
+     21 137–52
+ [23] Azri F, Meftah A, Sengouga N and Meftah A 2019 Electron and hole transport layers optimization by numerical simulation of a
+       perovskite solar cell Sol. Energy 181 372–8
+ [24] Hima A, Lakhdar N, Benhaoua B, Saadoune A, Kemerchou I and Rogti F 2019 An optimized perovskite solar cell designs for high
+      conversion efficiency Superlattices Microstruct. 129 240–6
+ [25] Markowich P A, Ringhofer C A and Schmeiser C 2012 Semiconductor Equations (Vienna: Springer Science & Business Media)
+ [26] Landsberg P T 1981 Einstein and statistical thermodynamics. III. The diffusion-mobility relation in semiconductors Eur. J. Phys.
+     2 213
+ [27] Ashcroft N W and Mermin N D 1976 Solid State Physics vol 1 (Saunders College Publishing) p 2
+ [28] Roichman Y and Tessler N 2002 Generalized einstein relation for disordered semiconductors–implications for device
+      performance Appl. Phys. Lett. 80 1948–50
+ [29] Pasveer W F, Cottaar J, Tanase C, Coehoorn R, Bobbert P A, Blom P W M, de Leeuw D M and Michels M A J 2005 Unified
+       description of charge-carrier mobilities in disordered semiconducting polymers Phys. Rev. Lett. 94 206601
+ [30] Sun J-X, Yang H-C, Yang Li and Cui H-J 2021 Unified mobility model for diffusion-limited current in organic diodes based on
+      Fermi-Dirac statistics Phys. Rev. Appl. 16 034037
+ [31] Nenashev A V, Oelerich J O, Dvurechenskii A V, Gebhard F and Baranovskii S D 2017 Fundamental characteristic length scale for
+      the field dependence of hopping charge transport in disordered organic semiconductors Phys. Rev. B 96 035204
+ [32] Alvarez A O, Arcas Ron, Aranda C A, Bethencourt L, Mas-Marzá E, Saliba M and Fabregat-Santiago F 2020 Negative capacitance
+     and inverted hysteresis: matching features in perovskite solar cells J. Phys. Chem. Lett. 11 8417–23
+ [33] Hermes I M, Hou Y, Bergmann V W, Brabec C J and Weber S A L 2018 The interplay of contact layers: how the electron transport
+       layer influences interfacial recombination and hole extraction in perovskite solar cells J. Phys. Chem. Lett. 9 6249–56
+ [34] Kerner R A and Rand B P 2017 Linking chemistry at the TiO2CH3NH3PbI3 interface to current–voltage hysteresis J. Phys. Chem.
+        Lett. 8 2298–303
+ [35] Egger D A, Bera A, Cahen D, Hodes G, Kirchartz T, Kronik L, Lovrincic R, Rappe A M, Reichman D R and Yaffe O 2018 What
+      remains unexplained about the properties of halide perovskites? Adv. Mater. 30 1800691
+ [36] Novikov S V, Dunlap D H, Kenkre V M, Parris P E and Vannikov A V 1998 Essential role of correlations in governing charge
+      transport in disordered organic materials Phys. Rev. Lett. 81 4472–5
+ [37] Bässler H 1993 Charge transport in disordered organic photoconductors. A monte carlo simulation study Phys. Status Solidi b
+     175 1
+
+
+
+                                    20
+--- Страница 22 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+ [38] Tessler N and Roichman Y 2005 Amorphous organic molecule/polymer diodes and transistors–comparison between predictions
+      based on Gaussian or exponential density of states Org. Electron. 6 200–10
+ [39] Abdel D, Vágner P, Fuhrmann Jurgen and Farrell P 2021 Modelling charge transport in perovskite solar cells: potential-based and
+       limiting ion depletion Electrochim. Acta 390 138696
+ [40] Abdel D, Courtier N and Farrell P 2022 Volume exclusion effects in perovskite charge transport modeling 2022 Int. Conf. on
+      Numerical Simulation of Optoelectronic Devices (NUSOD) (IEEE) pp 107–8
+ [41] Jacoboni C 2010 Theory of Electron Transport in Semiconductors: a Pathway From Elementary Physics to Nonequilibrium Green
+      Functions vol 165 (Heidelberg: Springer Science & Business Media)
+ [42] Grasser T, Tang T W, Kosina H and Selberherr S 2003 A review of hydrodynamic and energy-transport models for semiconductor
+      device simulation Proc. IEEE 91 251–74
+ [43] Hwang I, McNeill C R and Greenham N C 2009 Drift-diffusion modeling of photocurrent transients in bulk heterojunction solar
+        cells J. Appl. Phys. 106 094506
+ [44] Koster L J A, Smits E C P, Mihailetchi V D and Blom P W M 2005 Device model for the operation of polymer/fullerene bulk
+      heterojunction solar cells Phys. Rev. B 72 085205
+ [45] Foster J M, Snaith H J, Leijtens T and Richardson G 2014 A model for the operation of perovskite based hybrid solar cells:
+      formulation, analysis and comparison to experiment SIAM J. Appl. Math. 74 1935–66
+ [46] Van Mensfoort S L M and Coehoorn R 2008 Effect of Gaussian disorder on the voltage dependence of the current density in
+      sandwich-type devices based on organic semiconductors Phys. Rev. B 78 085207
+ [47] Patriarca M, Farrell P, Fuhrmann Jurgen and Koprucki T 2019 Highly accurate quadrature-based Scharfetter–Gummel schemes
+       for charge transport in degenerate semiconductors Comput. Phys. Commun. 235 40–49
+ [48] Abdel D, Farrell P and Fuhrmann Jurgen 2021 Assessing the quality of the excess chemical potential flux scheme for degenerate
+      semiconductor device simulation Opt. Quantum Electron. 53 163
+ [49] Koprucki T, Rotundo N, Farrell P, Hai Doan D and Fuhrmann Jurgen 2015 On thermodynamic consistency of a
+      Scharfetter–Gummel scheme based on a modified thermal voltage for drift-diffusion equations with diffusion enhancement Opt.
+     Quantum Electron. 47 1327–32
+ [50] Koprucki T and Gärtner K 2013 Discretization scheme for drift-diffusion equations with strong diffusion enhancement Opt.
+     Quantum Electron. 45 791–6
+ [51] Troisi A and Orlandi G 2006 Dynamics of the intermolecular transfer integral in crystalline organic semiconductors J. Phys.
+     Chem. A 110 4065–70
+ [52] Ciuchi S, Fratini S and Mayou D 2011 Transient localization in crystalline organic semiconductors Phys. Rev. B 83 081202(R)
+ [53] Fishchuk I I, Kadashchuk A, Bhoolokam A, de Jamblinne de Meux A, Pourtois G, Gavrilyuk M M, Köhler A, Bässler H,
+     Heremans P and Genoe J 2016 Interplay between hopping and band transport in high-mobility disordered semiconductors at
+       large carrier concentrations: the case of the amorphous oxide InGaZnO Phys. Rev. B 93 195204
+ [54] Oberhofer H, Reuter K and Blumberger J 2017 Charge transport in molecular materials: an assessment of computational
+     methods Chem. Rev. 117 10319–57
+ [55] Nelson J A 2003 The Physics of Solar Cells (London: Imperial College Press)
+ [56] Kim R, Wang X and Lundstrom M 2008 Notes on Fermi-Dirac integrals (arXiv:0811.0116)
+ [57] Kane E O 1957 Band structure of indium antimonide J. Phys. Chem. Solids 1 249–61
+ [58] Ehrenreich H 1960 Band structure and electron transport of gaas Phys. Rev. 120 1951
+ [59] Conwell E M and Vassell M O 1968 High-field transport in n-type gaas Phys. Rev. 166 797
+ [60] Paasch G and Scheinert S 2010 Charge carrier density of organics with Gaussian density of states: analytical approximation for the
+      Gauss–Fermi integral J. Appl. Phys. 107 104501
+ [61] Zhou H et al 2014 Interface engineering of highly efficient perovskite solar cells Science 345 542–6
+ [62] Arafat Mahmud Md, Elumalai N K, Upama M B, Wang D, Chan K H, Wright M, Xu C, Haque F and Uddin A 2017 Low
+      temperature processed ZnO thin film as electron transport layer for efficient perovskite solar cells Sol. Energy Mater. Sol. Cells
+     159 251–64
+ [63] Cao J, Wu B, Chen R, Wu Y, Hui Y, Mao B-W and Zheng N 2018 Efficient, hysteresis-free and stable perovskite solar cells with
+    ZnO as electron-transport layer: effect of surface passivation Adv. Mater. 30 1705596
+ [64] Jung K-H, Seo J-Y, Lee S, Shin H and Park N-G 2017 Solution-processed SnO2 thin film for a hysteresis-free planar perovskite
+       solar cell with a power conversion efficiency of 19.2% J. Mater. Chem. A 5 24790–803
+ [65] Zhang M, Fengmin W, Chi D, Shi K and Huang S 2020 High-efficiency perovskite solar cells with poly(vinylpyrrolidone)-doped
+     SnO2 as an electron transport layer Mater. Adv. 1 617–24
+ [66] Islam M B, Yanagida M, Shirai Y, Nabetani Y and Miyano K 2017 NiOx hole transport layer for perovskite solar cells with
+      improved stability and reproducibility ACS Omega 2 2291–9
+ [67] Zijun H, Chen D, Yang P, Yang L, Qin L, Huang Y and Zhao X 2018 Sol-gel-processed yttrium-doped NiO as hole transport layer
+       in inverted perovskite solar cells for enhanced performance Appl. Surf. Sci. 441 258–64
+ [68] Hawash Z, Ono L K and Yabing Q 2018 Recent advances in Spiro-MeOTAD hole transport material and its applications in
+      organic–inorganic halide perovskite solar cells Adv. Mater. Interfaces 5 1700623
+ [69] Ganesan P, Fu K, Gao P, Raabe I, Schenk K, Scopelliti R, Luo J, Wong L H, Grätzel M and Nazeeruddin M K 2015 A simple
+      spiro-type hole transporting material for efficient perovskite solar cells Energy Environ. Sci. 8 1986–91
+ [70] Mamun Reza K et al 2020 Tailored PEDOT: PSS hole transport layer for higher performance in perovskite solar cells:
+     enhancement of electrical and optical properties with improved morphology J. Energy Chem. 44 41–50
+ [71] Xia Y and Dai S 2021 Review on applications of PEDOTs and PEDOT:PSS in perovskite solar cells J. Mater. Sci., Mater. Electron.
+     32 12746–57
+ [72] Niu J, Yang D, Ren X, Yang Z, Liu Y, Zhu X, Zhao W and Liu S 2017 Graphene-oxide doped PEDOT: PSS as a superior hole
+      transport material for high-efficiency perovskite solar cell Org. Electron. 48 165–71
+ [73] Hyuk Jung E, Joong Jeon N, Young Park E, Su Moon C, Joo Shin T, Yang T-Y, Hong Noh J and Seo J 2019 Efficient, stable and
+       scalable perovskite solar cells using poly(3-hexylthiophene) Nature 567 511–5
+ [74] Zhou P, Bu T, Shi S, Li L, Zhang Y, Ku Z, Peng Y, Zhong J, Cheng Y-B and Huang F 2018 Efficient and stable mixed perovskite
+       solar cells using P3HT as a hole transporting layer J. Mater. Chem. 6 5733–7
+ [75] Liu X, Xia X, Cai Q, Cai F, Yang L, Yan Y and Wang T 2017 Efficient planar heterojunction perovskite solar cells with weak
+       hysteresis fabricated via bar coating Sol. Energy Mater. Sol. Cells 159 412–7
+
+
+
+                                    21
+--- Страница 23 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+ [76] Bai Y, Yu H, Zhu Z, Jiang K, Zhang T, Zhao N, Yang S and Yan H 2015 High performance inverted structure perovskite solar cells
+      based on a PCBM:polystyrene blend electron transport layer J. Mater. Chem. A 3 9098–102
+ [77] Pitchaiya S, Natarajan M, Santhanam A, Asokan V, Yuvapragasam A, Madurai Ramakrishnan V, Palanisamy S E, Sundaram S and
+       Velauthapillai D 2020 A review on the classification of organic/inorganic/carbonaceous hole transporting materials for perovskite
+       solar cell application Arab. J. Chem. 13 2526–57
+ [78] Zheng S, Wang G, Liu T, Lou L, Xiao S and Yang S 2019 Materials and structures for the electron transport layer of efficient and
+       stable perovskite solar cells Sci. China Chem. 62 800–9
+ [79] Jesper Jacobsson T et al 2022 An open-access database and analysis tool for perovskite solar cells based on the fair data principles
+      Nat. Energy 7 107–15
+ [80] Hsiao K-C, Jao M-H, Tian K-Y, Lin T-H, Tran D-P, Liao H-C, Hou C-H, Shyue J-J, Wu M-C and Su W-F 2020 Acetamidinium
+      cation to confer ion immobilization and structure stabilization of organometal halide perovskite toward long life and
+       high-efficiency p-i-n planar solar cell via air-processable method Sol. RRL 4 2000197
+ [81] Mouchou R T, Jen T C, Laseinde O T and Ukoba K O 2021 Numerical simulation and optimization of p-NiO/n-TiO2 solar cell
+      system using SCAPS Mater. Today Proc. 38 835–41
+ [82] Zhang B, Su J, Guo X, Zhou L, Lin Z, Feng L, Zhang J, Chang J and Hao Y 2020 NiO/perovskite heterojunction contact
+      engineering for highly efficient and stable perovskite solar cells Adv. Sci. 7 1903044
+ [83] Jeong M et al 2020 Stable perovskite solar cells with efficiency exceeding 24.8% and 0.3V voltage loss Science 369 1615–20
+ [84] Malekshahi Byranvand M et al 2018 p-type CuI islands on TiO2 electron transport layer for a highly efficient planar-perovskite
+       solar cell with negligible hysteresis Adv. Energy Mater. 8 1702235
+ [85] Dong X, Chen D, Zhou J, Zheng Y-Z and Tao X 2018 High crystallization of a multiple cation perovskite absorber for
+      low-temperature stable ZnO solar cells with high-efficiency of over 20% Nanoscale 10 7218–27
+ [86] Yue M, Su J, Zhao P, Lin Z, Zhang J, Chang J and Hao Y 2019 Optimizing the performance of CsPbI3-based perovskite solar cells
+       via doping a ZnO electron transport layer coupled with interface engineering Nano-Micro Lett. 11 91
+ [87] Sun Y, Wang W, Zhang H, Su Q, Wei J, Liu P, Chen S and Zhang S 2018 High-performance quantum dot light-emitting diodes
+      based on Al-doped ZnO nanoparticles electron transport layer ACS Appl. Mater. Interfaces 10 18902–9
+ [88] Yoo J J et al 2021 Efficient perovskite solar cells via improved carrier management Nature 590 587–93
+ [89] Zhao P, Lin Z, Wang J, Yue M, Su J, Zhang J, Chang J and Hao Y 2019 Numerical simulation of planar heterojunction perovskite
+       solar cells based on SnO2 electron transport layer ACS Appl. Energy Mater. 2 4504–12
+ [90] Wang Di, Chen S-Ci and Zheng Q 2019 Poly(vinylpyrrolidone)-doped SnO2 as an electron transport layer for perovskite solar
+        cells with improved performance J. Mater. Chem. 7 12204–10
+ [91] Peterson K A, Patterson A, Vega-Flick A, Liao B and Chabinyc M L 2020 Doping molecular organic semiconductors by diffusion
+     from the vapor phase Mater. Chem. Front. 4 3632–9
+ [92] Chi W-J, Quan-Song Li and Ze-Sheng Li 2016 Exploring the electrochemical properties of hole transport materials with
+       spiro-cores for efficient perovskite solar cells from first-principles Nanoscale 8 6146–54
+ [93] Kirkpatrick J and Nelson J 2005 Theoretical study of the transfer integral and density of states in spiro-linked triphenylamine
+       derivatives J. Chem. Phys. 123 084703
+ [94] Sallenave X, Shasti M, Anaraki E H, Volyniuk D, Grazulevicius J V, Zakeeruddin S M, Mortezaali A, Grätzel M, Hagfeldt A and
+       Sini G 2020 Interfacial and bulk properties of hole transporting materials in perovskite solar cells: spiro-MeTAD versus
+     spiro-OMeTAD J. Mater. Chem. A 8 8527–39
+ [95] Ilhan Y and Houk K N 2017 Mesoscale ordering and charge-transport of crystalline Spiro-OMeTAD organic semiconductors J.
+       Phys. Chem. C 121 993–9
+ [96] Wang K, Zheng L, Zhu T, Yao X, Yi C, Zhang X, Cao Y, Liu L, Hu W and Gong X 2019 Efficient perovskite solar cells by hybrid
+       perovskites incorporated with heterovalent neodymium cations Nano Energy 61 352–60
+ [97] Kuan-Ying H, Li C-K, Syu H-J, Lai Y, Lin C-F and Wu Y-R 2016 Analysis of the PEDOT:PSS/Si nanowire hybrid solar cell with a
+        tail state model J. Appl. Phys. 120 215501
+ [98] Hwang J, Amy F and Kahn A 2006 Spectroscopic study on sputtered PEDOT/PSS: role of surface PSS layer Org. Electron. 7 387–96
+ [99] Whitcher T J, Wong W S, Talik A N, Woon K L, Chanlek N, Nakajima H, Saisopa T and Songsiriritthigul P 2016 Investigation into
+      the Gaussian density of states widths of organic semiconductors J. Phys. D: Appl. Phys. 49 325106
+[100] Min H, Kim M, Lee S-U, Kim H, Kim G, Choi K, Lee J H and Seok S I 2019 Efficient, stable solar cells by using inherent bandgap
+       of α-phase formamidinium lead iodide Science 366 749–53
+[101] Mackenzie R C I, Kirchartz T, Dibb G F A and Nelson J 2011 Modeling nongeminate recombination in P3HT:PCBM solar cells J.
+       Phys. Chem. C 115 9806–13
+[102] Kanai Y and Jeffrey C G 2008 Role of semiconducting and metallic tubes in P3HT/carbon-nanotube photovoltaic
+       heterojunctions: density functional theory calculations Nano Lett. 8 908–12
+[103] Wenzhan X, Zheng L, Zhang X, Cao Y, Meng T, Wu D, Liu L, Hu W and Gong X 2018 Efficient perovskite solar cells fabricated by
+     Co partially substituted hybrid perovskite Adv. Energy Mater. 8 1703178
+[104] Garcia-Belmonte G`a, Boix P P, Bisquert J, Sessolo M and Bolink H J 2010 Simultaneous determination of carrier lifetime and
+       electron density-of-states in P3HT: PCBM organic solar cells under illumination by impedance spectroscopy Sol. Energy Mater.
+        Sol. Cells 94 366–75
+[105] Mihailetchi V D et al 2003 Electron transport in a methanofullerene Adv. Funct. Mater. 13 43–46
+[106] Steiner F, Foster S, Losquin A, Labram J, Anthopoulos T D, Frost J M and Nelson J 2015 Distinguishing the influence of structural
+     and energetic disorder on electron transport in fullerene multi-adducts Mater. Horiz. 2 113–9
+[107] Mikroyannidis J A, Kabanakis A N, Sharma S S and Sharma G D 2011 A simple and effective modification of PCBM for use as an
+       electron acceptor in efficient bulk heterojunction solar cells Adv. Funct. Mater. 21 746–55
+[108] Horowitz G 2015 Validity of the concept of band edge in organic semiconductors J. Appl. Phys. 118 115502
+[109] Castro-Chong A, Riquelme A J, Aernouts T, Bennett L J, Richardson G, Oskam G and Anta J A 2021 Illumination intensity
+      dependence of the recombination mechanism in mixed perovskite solar cells ChemPlusChem 86 1347–56
+[110] Clarke W, Bennett L J, Grudeva Y, Foster J M, Richardson G and Courtier N E 2022 Ionmonger 2.0: software for free, fast and
+       versatile simulation of current, voltage and impedance response of planar perovskite solar cells J. Comput. Electron. 22 364–82
+[111] Pockett A, Eperon G E, Sakai N, Snaith H J, Peter L M and Cameron P J 2017 Microseconds, milliseconds and seconds:
+      deconvoluting the dynamic behaviour of planar perovskite solar cells Phys. Chem. Chem. Phys. 19 5959–70
+[112] Bennett L J, Riquelme A J, Anta J A, Courtier N E and Richardson G 2023 Avoiding ionic interference in computing the ideality
+       factor for perovskite solar cells and an analytical theory of their impedance-spectroscopy response Phys. Rev. Appl. 19 014061
+
+
+                                    22
+--- Страница 24 ---
+J. Phys. Energy 5 (2023) 025007                                      W Clarke et al
+
+
+
+[113] Orazem M E and Tribollet B 2008 Electrochemical Impedance Spectroscopy (New York: Wiley) pp 383–9
+[114] Brivio F, Butler K T, Walsh A and Van Schilfgaarde M 2014 Relativistic quasiparticle self-consistent electronic structure of hybrid
+       halide perovskite photovoltaic absorbers Phys. Rev. B 89 155204
+[115] Löper P et al 2015 Complex refractive index spectra of CH3NH3PbI3 perovskite thin films determined by spectroscopic
+      ellipsometry and spectrophotometry J. Phys. Chem. Lett. 6 66–71
+[116] Schulz P et al 2014 Interface energetics in organo-metal halide perovskite-based photovoltaic cells Energy Environ. Sci. 7 1377
+[117] Stoumpos C C, Malliakas C D and Kanatzidis M G 2013 Semiconducting tin and lead iodide perovskites with organic cations:
+      phase transitions, high mobilities and near-infrared photoluminescent properties Inorg. Chem. 52 9019–38
+[118] Futscher M H, Lee J M, McGovern L, Muscarella L A, Wang T, Haider M I, Fakharuddin A, Schmidt-Mende L and Ehrler B 2019
+      Quantification of ion migration in CH3NH3PbI3 perovskite solar cells by transient capacitance measurements Mater. Horiz.
+     6 1497–503
+[119] Zhe X, Jihuai W, Tongyue W, Bao Q, Xin H, Lan Z, Lin J, Huang M, Huang Y and Fan L 2017 Tuning the Fermi level of TiO2
+       electron transport layer through europium doping for highly efficient perovskite solar cells Energy Technol. 5 1820–6
+[120] Wang H et al 2012 Effect of growth temperature on structure and optical characters of NiO films fabricated by PA-MOCVD
+     Vacuum 86 2044–7
+[121] Xia G, Huang B, Zhang Y, Zhao X, Wang C, Jia C, Zhao J, Chen W and Jiangyu Li 2019 Nanoscale insights into photovoltaic
+       hysteresis in triple-cation mixed-halide perovskite: Resolving the role of polarization and ionic migration Adv. Mater. 31 1902870
+
+
+
+
+
+                                    23

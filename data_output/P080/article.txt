@@ -1,0 +1,434 @@
+--- Страница 1 ---
+RESEARCH ARTICLE  | JUNE 02 2025
+PenAAc-based interfacial passivation to reduce voltage loss
+and defect densities in lead-free perovskite solar cells
+
+Jun Guo     ; Yu Liu     ; Xinyao Chen; Jin Cheng; Longjiang Zhao       ; Junming Li 
+
+
+
+J. Appl. Phys. 137, 215301 (2025)
+https://doi.org/10.1063/5.0270111
+
+            
+                                                                  View    Export
+                                                                         Online   Citation
+
+
+  Articles You May Be Interested In
+
+   Tailoring RP-structured two-dimensional perovskite with controlled interlayer distance
+
+   APL Energy (June 2025)
+
+   Crystal structures of protic ionic liquids
+
+    J. Chem. Phys. (July 2025)
+
+  Embedding gold nanoparticles in the SnO2 electron transport layer for boosting flexible perovskite solar
+   cells with the efficiency over 23%
+                                                                                                                                                              19
+   Appl. Phys. Lett. (March 2024)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      November
+                                                                                                                                                                                                                                                                                                                           2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      10:12:17
+--- Страница 2 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+ PenAAc-based interfacial passivation to reduce
+ voltage loss and defect densities in lead-free
+ perovskite solar cells
+
+
+
+   Cite as: J. Appl. Phys. 137, 215301 (2025); doi: 10.1063/5.0270111
+   Submitted: 10 March 2025 · Accepted: 6 May 2025 ·
+                                                                                                                                                                                        View Online       Export Citation       CrossMark
+   Published Online: 2 June 2025
+
+   Jun Guo,1,2   Yu Liu,1   Xinyao Chen,3 Jin Cheng,2 Longjiang Zhao,4,a)   and Junming Li2,a)
+
+   AFFILIATIONS
+
+   1Key Laboratory of Modern Measurement & Control Technology, Ministry of Education,
+
+    Beijing Information Science and Technology University, Beijing 100192, China
+    2Beijing Key Laboratory for Sensor, School of Science, Beijing Information Science and Technology University, Beijing 100101, China
+   3Key Laboratory of the Ministry of Education for Optoelectronic Measurement Technology and Instrument,
+
+    Beijing Information Science and Technology University, Beijing 100192, China
+   4College of Engineering, Qufu Normal University, Rizhao 276826, China
+
+    a)Author to whom correspondence should be addressed: honghuzlj@qfnu.edu.cn and li@bistu.edu.cn
+
+                                                                                                                                                                              19
+
+  ABSTRACT
+    Tin-based perovskites are considered a promising alternative to lead-based perovskites due to their low toxicity and suitable optical bandgap.    November
+   However, the defects and voltage loss issues severely limit their device performance. In this study, an interfacial passivation strategy based on  2026
+   pentylammonium acetate (PenAAc) was proposed in tin-based perovskite solar cells. The PenAAc-modified layer can effectively improve the
+    perovskite film morphology, crystallinity, and hydrophobicity. Meanwhile, the introduction of the PenAAc layer can significantly inhibit carrier    complexation and reduce the hysteresis effect in solar cells. By systematically analyzing the charge transport and compounding mechanisms,    10:12:17
+    the PenAAc layer enhances the built-in electric field, improves the carrier separation and the carrier extraction efficiency, and reduces the defect
+    density in the perovskite layer. The optimal tin-based perovskite solar cell achieved a power conversion efficiency of 7.0%. Moreover, the
+   PenAAc-modified device maintained above 89% of its initial efficiency even after 1200 h storage in a nitrogen-filled glovebox.
+
+  © 2025 Author(s). All article content, except where otherwise noted, is licensed under a Creative Commons Attribution-NonCommercial-
+   NoDerivs 4.0 International (CC BY-NC-ND) license (https://creativecommons.org/licenses/by-nc-nd/4.0/). https://doi.org/10.1063/5.0270111
+
+
+      I. INTRODUCTION                                             Developing effective passivation strategies  is one of the effective
+                                                               ways  to enhance  the photovoltaic performance  of  tin-based        Metal halide perovskite has been widely studied in the field of
+                                                                                   perovskites.11–14 In recent years, interfacial passivation strategies have    photovoltaic materials due to its unique optical and electrical prop-
+     erties.1 Currently, the power conversion efficiency (PCE) of lead-    been widely employed to improve perovskite film quality and device
+                                                                       performance. Chen et al. proposed a buried interface engineering   based single-junction perovskite solar cells (PSCs) has exceeded
+   26%, which  is close to the Shockley–Queisser efficiency limit.2–4     strategy utilizing an ultrathin 1-carboxymethyl-3-methylimidazolium
+   However, the presence of elemental lead toxicity poses a threat to     chloride (ImAcCl) modification layer for solving the problems of
+    the environment and human health, thus limiting its further com-     Sn2+ oxidation susceptibility and defect density.15 Yan et al. utilized
+    mercialization.5,6 Tin-based perovskites, particularly FASnI3, have     a weakly polar solvent pretreatment strategy (WPSPS) to alleviate
+   emerged as promising lead-free alternatives owing to their lower     the buried interfacial voids in tin-based perovskite and ultimately
+    toxicity, suitable bandgap, and theoretically high-efficiency poten-     resulted in high-quality tin-based perovskite films with low defect
+     tial.7 However, despite these advantages, tin-based PSCs still suffer     density.16 Gao et al. introduced pentylammonium acetate (PenAAc)
+   from severe voltage losses, poor morphology, and high defect den-     molecules to modify the interface between the HTL and perovskite
+     sities, resulting in PCE lagging far behind its lead counterpart.8–10     layers in  flexible PSCs and prepared highly  efficient and  stable
+
+
+
+
+
+J. Appl. Phys. 137, 215301 (2025); doi: 10.1063/5.0270111                                                                                                     137, 215301-1
+
+© Author(s) 2025
+--- Страница 3 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+
+                                                                                                                                                                              19
+
+
+      FIG. 1.  (a) Schematic structure of tin-based perovskite solar cells. (b) Statistical distribution of photovoltage parameters of PSCs. (c) The light J–V curve. (d) Dark J–V       curves. (e) EQE spectra of champion devices.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             November
+                                                                                                                                                                                                                                                                                                                                                             2026
+
+     flexible inverted PSCs.17 Zhang et al. introduced the PenAAc interfa-    was determined as 2 mmol/l (Fig. S2 in the supplementary material).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:12:17
+     cial layer for interfacial passivation in tin-lead hybrid PSCs, and    The champion PenAAc-modified device showed a notable increase
+    excellent efficiency and improved stability were obtained.18 However,     in overall PCE compared to the control device [Figs. 1(b) and 1(c)],
+    there is still a lack of systematic exploration of defects and voltage     with an efficiency of 7.0% under a forward scan, an FF of 70.7%, a
+    loss for the tin-based perovskite system.                                              Jsc of 18.7 mA/cm2, and a Voc of 0.53 V. During the reverse scan, the
+        In this study, an interfacial passivation strategy based on     device exhibited an efficiency of 6.4%, an FF of 67.9%, a  Jsc of
+   PenAAc was proposed in tin-based perovskite, which achieved a     18.4 mA/cm2, and a Voc of 0.51 V, yielding a hysteresis index of
+   suppressed defect density and reduced voltage loss. The effects of     8.6%. For the control device, we recorded a champion PCE of 5.5%,
+    the PenAAc passivation layer on film morphology, crystallinity,    an FF of 61.8%, a Jsc of 18.3 mA/cm2, and a Voc of 0.48 V during the
+   and device performance were systematically investigated, and the     forward scan. In the reverse scan, the efficiency dropped to 4.8%,
+    passivation mechanisms in devices were revealed by combining     with an FF of 56.5%, the same Jsc of 18.3 mA/cm2, and a Voc of
+    space charge limiting current (SCLC), electrochemical impedance     0.46 V,  resulting in a  hysteresis index of 12.7%  (Fig. S3 in the
+    spectroscopy (EIS), and deep energy level transient spectroscopy    supplementary material). The detailed J–V curves for the champion
+    (DLTS). Ultimately, the PenAAc-modified tin-based perovskite devices     device are shown in Table I. The results indicate that the PenAAc-
+    achieved a PCE of 7.0% and maintained above 89% of its initial effi-
+    ciency even after 1200 h storage in a nitrogen-filled glovebox.
+                                                                  TABLE I. Photovoltaic parameters for PSCs.
+
+      II. RESULTS AND DISCUSSION                              Sample  Scan direction  Voc (V)  Jsc (mA/cm2) FF (%) PCE (%)
+     We first fabricated a series of inverted structure PSCs using               Forward      0.48        18.3       61.8      5.5
+                                                                      Control    the  configuration  ITO/PEDOT:PSS/PenAAc/PVSK/C60/BCP/Cu                 Reverse       0.46        18.3       56.5      4.8
+    [Fig. 1(a)]. The chemical structure of PenAAc and a schematic               Forward      0.53        18.7       70.7      7.0
+                                                        PenAAc   diagram of PenAAc film preparation were shown in Fig. S1 of the                 Reverse       0.51        18.4       67.9      6.4
+   supplementary material, and the optimal concentration of PenAAc
+
+
+
+
+
+J. Appl. Phys. 137, 215301 (2025); doi: 10.1063/5.0270111                                                                                                     137, 215301-2
+
+© Author(s) 2025
+--- Страница 4 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+    modified device significantly enhances the FF and Voc. The dark     the built-in potential [Vbi, Fig. 2(a)]. The Vbi in the operating state
+    current J–V curves of the champion device shown in Fig. 1(d) reveal     of the device can be determined from the computational fit of the
+    that the PenAAc-modified device possesses a smaller leakage     equation20 [Eq. (1)],
+    current. The integration current values from the EQE curves
+   were 18.1 mA/cm2 for the control device and 18.4 mA/cm2 for the                     1       2
+                                                    ¼            (Vbi   V),                  (1)
+   PenAAc-modified device  [Fig.  1(e)],  closely aligning with the                    C2   Naεrε0qA2
+    photovoltage performance test results of 18.3 and 18.7 mA/cm2,
+    respectively. This correlation confirms the validity of our photo-    where C denotes the capacitance, Na denotes the carrier concentra-
+    voltaic performance results. The voltage loss (ΔVoc) can then be      tion, εr is the relative permittivity, ε0 is the vacuum permittivity,
+    calculated using the following equation:19 ΔVoc ¼ Voc(Eipg )   Voc;    q represents the meta-charge, A denotes the effective area of the
+    the  Eipg  was  calculated  to be 1.39 eV, which corresponded  to      cell device, and V  is the applied bias voltage.21 The Vbi of the
+   maximum  Voc(Eipg )  1.09 eV  (note  S1  in  the  supplementary    PenAAc-modified device was approximately 0.46 V, which was
+    material); thus, the voltage loss of the PenAAc-modified device is     higher than that of the control device at 0.41 V. The increase in Vbi
+   560 mV, which is smaller than that of a control device (610 mV).    would enhance the drive for charge separation and collection to
+    In addition to the tests mentioned above, stability assessments of the     suppress carrier non-radiative complexation.22 This was consistent
+    devices  are  essential. The control  device,  after being stored  for    with the increase in the Voc value in the device. EIS was utilized to
+   50 days (or 1200 h) in a nitrogen-filled glovebox, showed only 68% of     assess the impedance characteristics of the device, thereby provid-
+     its initial performance. In comparison, the PenAAc-modified device     ing insights into the extent of carrier transport and complexation
+   showed improved long-term stability, and the efficiency maintained    phenomena23 [Figs. 2(b) and 3(c)]. Notably, the series resistance
+   above 89% of its initial performance after the same duration, as     (Rs) of the PenAAc-modified device exhibited a decrease from
+   shown in Fig. S5 of the supplementary material.                       14.51 to 14.01 Ω, while the complex resistance (Rrec) demonstrated
+      To further understand the mechanisms of the PenAAc inter-    an increase from 21 010 to 28 768 Ω in comparison with the control
+    layer, the Mott–Schottky plot was utilized to assess the change in     device,  as  detailed  in Table S2  of  the supplementary  material.
+
+
+
+
+
+                                                                                                                                                                              19
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+                                                                                                                                                                                                                                                                                                                                                             2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:12:17
+
+
+
+
+
+          FIG. 2.  (a) Mott–Schottky plots. (b) Nyquist plots. (c) Bode plots of PSCs. (d) The SCLC curves of single-hole transport devices. (e) IMPS and (f) IMVS of PSCs.
+
+
+
+
+
+J. Appl. Phys. 137, 215301 (2025); doi: 10.1063/5.0270111                                                                                                     137, 215301-3
+
+© Author(s) 2025
+--- Страница 5 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+   TABLE II. IMPS and IMVS parameters of perovskite devices.                       the defect filling limiting voltage.27 The VTFL of the control device
+                                                                was  recorded  at  0.73 V,  accompanied by  a  defect  density  of
+   Sample      fIMPS (Hz)       τtrans (μs)     fIMVS (Hz)       τrec (μs)     5.47 × 1016 cm−3. In contrast, the VTFL for the PenAAc-modified
+    Control     295 732.8        0.54         7943.28        20.04      device was reduced  to  0.54 V,  resulting  in a  defect  density  of
+   PenAAc     332 424.6        0.48         6309.57        25.22      4.05 × 1016 cm−3.  This  indicates  that  the  incorporation  of  the
+                                                         PenAAc layer reduced the Nt and enhanced the performance of the
+                                                                                 device. To further investigate the carrier transport and composite
+                                                                  mechanisms, we performed intensity-modulated photocurrent spec-
+   The reduction in Rs suggests an improvement in the efficiency of
+                                                                          troscopy (IMPS) and intensity-modulated photovoltage spectroscopy
+    carrier transport, whereas the rise in Rrec indicates a diminished level
+                                                             (IMVS) measurements. fIMPS is the maximum frequency of the imag-    of carrier complexation.24 The EIS results indicate that the incorpo-
+                                                                            inary part and fIMVS is the minimum frequency of the imaginary    ration of the PenAAc layer mitigated non-radiative complexation
+                                                                                      part.28 For IMPS measurements, the device was held at 0 V, while
+   and enhanced the  carrier transport rate in tin-based PSCs. The
+                                                                           the current value was measured. To measure IMVS, the device was
+   SCLC was utilized to evaluate the trap densities for both the control
+                                                                        held at an open circuit voltage, and the voltage was measured in the
+   and PenAAc-modified devices. Figure 2(d) presents the SCLC curves
+                                                                                             light. The charge transfer time (τtrans) and the charge recombination    for FASnI3 perovskite films in double logarithmic coordinates. The                                                                                   lifetime  (τrec) can be  calculated using the following equations29    trap densities Nt can be determined using the following equation25,26
+                                                                              [Eqs. (3) and (4)]:
+    [Eq. (2)]:
+
+                               2VTFLεε0                                                         1
+                          Nt ¼                   ,                        (2)                                        τtrans ¼               ,                        (3)
+                                  qL2                                                                    2πfIMPS
+
+   where ε0 and ε represent the vacuum dielectric constant and the
+                                                                                              1
+     relative dielectric constant, respectively; q represents the unit charge;                                        τrec ¼             :                        (4)
+   L represents the thickness of the perovskite film; and VTFL denotes                                    2πfIMVS
+
+
+
+
+
+                                                                                                                                                                              19
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+                                                                                                                                                                                                                                                                                                                                                             2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:12:17
+
+
+
+
+
+      FIG. 3.  (a) The DLTS signals, (b) the corresponding Arrhenius plots, (c) the deep energy level defect of control PSCs, (d) the DLTS signals, (e) the corresponding
+       Arrhenius plots, and (f) the deep energy level defect of PSCs with the PenAAc layer.
+
+
+
+
+
+J. Appl. Phys. 137, 215301 (2025); doi: 10.1063/5.0270111                                                                                                     137, 215301-4
+
+© Author(s) 2025
+--- Страница 6 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+   TABLE   III.  Critical  defect parameters  of  control and PenAAc-modified devices    and D2, revealing two excitation peaks at varying temperatures
+     obtained from DLTS.                                                   (D1: 267 K, D2: 224 K) for the control device, with the peak at D1
+                                                                      being notably more pronounced. Figures 3(d) and 3(e) presented
+   Sample    Trap center   EC–ET (eV)  NT (cm−3)    σ (cm2)                                                                          the DLTS profiles of the PenAAc-modified device along with the
+             D1          0.372      9.58 × 1016   1.13 × 10−17    Arrhenius curves derived from these profiles. Two excitation peaks
+    Control             D2          0.495      1.65 × 1015   2.14 × 10−13    were identified at distinct temperatures (D1: 259 K, D2: 236 K) for
+             D1          0.334      1.11 × 1015   4.48 × 10−18     the PenAAc-modified device, with the peak at D1 being notably
+   PenAAc             D2          0.277      4.42 × 1014   1.25 × 10−18    more pronounced. The specific parameters were detailed in Table III.
+                                                                          Notably, with the introduction of the PenAAc layer, the main defect
+                                                                       energy level at D1 shifts from 0.372 to 0.334 eV [Figs. 3(c) and 3(f)].
+                                                                      This change indicates that the PenAAc layer facilitates an increased
+       As  illustrated in  Figs. 2(e) and  2(f), the PenAAc-modified     emission rate of carriers from the deep energy level defect center,
+    device exhibited a smaller τtrans and a larger τrec compared to the     thereby enhancing carrier separation and collection efficiency while
+    control device. Specifically,  τtrans was measured at 0.54 μs for the     extending carrier lifetime.30 Furthermore, the density of states for
+    control device, while it was 0.48 μs for the PenAAc-modified device.    deep energy level defects and the defect capture cross-sectional
+   Meanwhile,  τrec increased from 20.04 μs for the control device to     area (σ) have been  significantly reduced from 9.58 × 1016 and
+    25.22 μs for the PenAAc-modified device (Table II). This indicates     1.13 × 10−17 cm2 to 1.11 × 1015 and 4.48 × 10−18 cm2, respectively.
+    that with the addition of the PenAAc layer, the charge extraction and     This reduction will effectively reduce the deep defect-assisted non-
+    transfer in the perovskite layer were enhanced.                             radiative losses, leading to a notable improvement in Voc. These
+       The deep energy level defect states generated at the perovskite     findings are consistent with the results illustrated in the J–V char-
+    contribute  significantly to the poor optoelectronic performance      acteristic curve.
+    observed. DLTS served as an effective method for detecting these      We then investigated the impact of the PenAAc layer on the
+   deep energy level defect densities and quantifying the defect states.    morphology of perovskite films using scanning electron microscopy
+   The DLTS profiles of the control device, along with the Arrhenius    (SEM)  techniques. The  control  device  film  exhibited a rough
+    curves fitted to these profiles, were shown in Figs. 3(a) and 3(b).     surface  [Fig.  4(a)], whereas  the  film  with  the PenAAc  layer
+    Here, the different defect energy level positions were labeled as D1    appeared smooth and dense [Fig. 4(b)]. This indicates that the
+
+
+                                                                                                                                                                              19
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+                                                                                                                                                                                                                                                                                                                                                             2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:12:17
+
+
+
+
+
+      FIG. 4.  (a) and (b) Top-view SEM images of perovskite films without/with a PenAAc layer. (c) XRD spectra of perovskite films. (d) and (e) Contact angle of perovskite
+        films without/with the PenAAc layer. (f) PL spectra of perovskite films.
+
+
+
+
+
+J. Appl. Phys. 137, 215301 (2025); doi: 10.1063/5.0270111                                                                                                     137, 215301-5
+
+© Author(s) 2025
+--- Страница 7 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+    introduction of the PenAAc layer positively influenced the mor-   Author Contributions
+   phology of the perovskite films. Contact angle measurements were                                                              Jun Guo: Data curation (lead); Investigation (lead); Methodology
+   performed to explore the hydrophobicity of the perovskite films                                                                                     (lead); Writing – original draft (lead). Yu Liu: Data curation (sup-
+    [Figs. 4(c) and 4(d)]. The control device perovskite film showed a                                                                               porting);  Investigation  (supporting); Methodology  (supporting).
+    contact angle of 65.88°, while the PenAAc-modified device perov-                                                              Xinyao Chen: Writing – original draft (supporting). Jin Cheng:
+    skite film showed a contact angle of 72.80°. The results show that                                                                Funding acquisition (equal). Longjiang Zhao: Supervision (equal).
+    the perovskite film of the PenAAc-modified device has improved                                                           Junming Li: Funding acquisition (equal); Supervision (equal).
+    hydrophobicity in PSCs, which would increase the film stability
+   and the PSC stability. We further analyzed the film crystallinity                                             DATA AVAILABILITY
+    with an X-ray diffractometer (XRD) technique [Fig. 4(e)]. The dif-
+    fraction peaks at 14.4° and 28.6° in the XRD plots correspond to        The data that support the findings of this study are available
+    the FASnI3 crystals with (100) and (200) lattice facets, respec-     within the article and its supplementary material. Source data are
+    tively.31 The  diffraction peak  intensities  of PenAAc-modified     available from the corresponding author upon reasonable request.
+    device films were significantly enhanced compared to the control
+    device films, which means that the PenAAc could improve the   REFERENCES
+    crystallinity of tin-based perovskite films. This enhancement con-      1R. Wang, T. Huang, J. Xue, J. Tong, K. Zhu, and Y. Yang, Nat. Photonics 15,
+    tributes to the formation of denser perovskite films with fewer     411 (2021).
+    pinholes.32 To investigate the defect states in the perovskite films,     2G. Li, Z. Su, L. Canil, D. Hughes, M. H. Aldamasy,  J. Dagar, S. Trofimov,
+   we performed steady-state photoluminescence (PL) tests on perov-      L. Wang, W. Zuo, J. J. Jerónimo-Rendon, M. M. Byranvand, C. Wang, R. Zhu,
+    skite  films  [Fig.  4(f)]. The photoluminescence  intensity  of  the      Z. Zhang, F. Yang, G. Nasti, B. Naydenov, W. C. Tsoi, Z. Li, X. Gao, Z. Wang,
+   PenAAc-modified film was higher compared to the control device,      Y. Jia, E. Unger, M. Saliba, M. Li, and A. Abate, Science 379, 399 (2023).
+                                                                                        3Y. Li, Z. Chen, B. Yu, S. Tan, Y. Cui, H. Wu, Y. Luo, J. Shi, D. Li, and Q. Meng,   which indicates that the defect states were suppressed.33
+                                                                                            Joule 6, 676 (2022).
+                                                                             4H. Min, D. Y. Lee,  J. Kim, G. Kim, K. S. Lee,  J. Kim, M. J. Paik, Y. K. Kim,
+      III. CONCLUSION                                                         K. S. Kim, M. G. Kim, T. J. Shin, and S. Il Seok, Nature 598, 444 (2021).
+                                                                       5M. Boskabady, N.  Marefati,  T. Farkhondeh,  F.  Shakeri, A.  Farshbaf, and        In conclusion, the deep-level defects and voltage loss in lead-
+                                                                   M. H. Boskabady, Environ. Int. 120, 404 (2018).
+    free PSCs were effectively reduced by introducing an interfacial pas-
+                                                                                  6K. Raj and A. P. Das, Environ. Chem. Ecotoxicol. 5, 79 (2023).
+    sivation layer PenAAc. The PenAAc layer significantly suppressed                                                                                        7Y. Liu, X. Chen, J. Guo, L. Deng, Z. Li, C. Zhang, J. Cheng, and J. Li, J. Solid 19
+    the density of defective states and facilitated efficient carrier separa-      State Chem. 346, 125293 (2025).
+    tion and transport in the perovskite layer. The PenAAc-modified      8B. Chen, S. Wang, X. Zhang, W. Zhu, Z. Cao, and F. Hao, Chem. Eng. J. 445,    device achieved a PCE of 7.0% and maintained above 89% of its     136769 (2022).                                                                                                                                                                                                                                                                              November
+     initial efficiency even after 1200 h storage in a nitrogen-filled glove-     9X. Zhang, S. Wang, W. Zhu, Z. Cao, A. Wang, and F. Hao, Adv. Funct. Mater.  2026
+    box, exhibiting excellent interfacial stability. This work provided an      32, 2108832 (2022).
+    effective passivation scheme for the efficient lead-free PSCs.               10G. Dastgeer, S. Nisar, M. W. Zulfiqar, J. Eom, M. Imran, and K. Akbar, Nano                                                                               Energy 132, 110401 (2024).                                                                                                                                                                                                                           10:12:17
+                                                                                      11E.  A.  Alghamdi,   I.  S.  Almalki,  R.  Sai, M. H.  Alkahtani,  G.  S.  Yafi,
+  SUPPLEMENTARY MATERIAL                                                                                             Y. A. Alzahrani,  S. M. Alenzi, A. Aljuwayr, A. Aldukhail, K. E. Alzahrani,
+        See the supplementary material for a chemical structure of       F. S. Alfaifi, H. S. Althobaiti, W. K. Alenazi, A. Q. Alanazi, and M. Almalki,
+   PenAAc and a schematic representation of PenAAc film fabrication      Mater. Today Sustain. 28, 101022 (2024).
+                                                                                12G. Lei, B. Zhang, X. Cheng, R. Xia, T. Liu, and W. Zhao, Chem. Eng. J. 496,    (Fig. S1); performance metrics of PSCs with varying concentrations
+                                                                             153866 (2024).
+    of PenAAc, including PCE, FF, Jsc, and Voc (Fig. S2); a hysteresis                                                                         13M. Noman, A. H. H. Khan, and S. T. Jan, Sci. Rep. 14, 5449 (2024).
+   comparison between the control PSC and the PSC with PenAAc      14Z. Wu, E. Bi, L. K. Ono, D. Li, O. M. Bakr, Y. Yan, and Y. Qi, Nano Energy
+    (Fig. S3); EQE spectra and corresponding calculated  Eipg  values      115, 108731 (2023).
+    (Fig. S4); efficiency over time for the control PSC vs the PSC with      15Y.  Chen,  H.   Qi,  K.  Wang,   Z.  Kang,  G.  Pan,  C.  R.   Everett,
+   PenAAc  (Fig.  S5);  photovoltaic  parameters  of  devices  using       P. Müller-Buschbaum, Y. Tong, and H. Wang, Small Methods  8, e2300029
+   PenAAc in concentrations ranging from 0 to 3 mmol/l (Table S1);      (2024).
+    fitted electronic parameters derived from EIS data (Table S2); and     16D. Yan, H. Zhang, C. Gong, H. Wang, Q. Lu, J. Liu, W. Lv, M. Li, R. Chen,
+   Note S1.                                                              and L. Xu, J. Energy Chem. 98, 556 (2024).
+                                                                               17D. Gao, B. Li, Z. Li, X. Wu, S. Zhang, D. Zhao, X. Jiang, C. Zhang, Y. Wang,
+                                                                                           Z. Li, N. Li, S. Xiao, W. C. H. Choy, A. K. Y. Jen, S. Yang, and Z. Zhu, Adv.
+  ACKNOWLEDGMENTS                                                  Mater. 35, 2206387 (2023).
+                                                                                                     18J. Zhang, W. Li, X. Lv, Y.  Ji, W. Huang, T. Bu, Z. Ren, C. Yao, F. Huang,        This research was funded by the National Natural Science
+                                                                                             Y. Cheng, and J. Tong, Solar RRL 8, 2400184 (2024).   Foundation of China (No. 52002074).
+                                                                                        19L. Krückemeier, U. Rau, M. Stolterfoht, and T. Kirchartz, Adv. Energy Mater.
+                                                                                          10, 1902573 (2020).
+  AUTHOR DECLARATIONS                                       20M. A. Kamarudin,  S. R. Sahamir, K. Nishimura,  S. Iikubo, K. Yoshino,
+   Conflict of Interest                                                             T. Minemoto, Q. Shen, and S. Hayase, ACS Mater. Lett. 4, 1855 (2022).
+                                                                              21O. Almora, C. Aranda, E. Mas-Marzá, and G. Garcia-Belmonte, Appl. Phys.
+       The authors have no conflicts to disclose.                                    Lett. 109, 173903 (2016).
+
+
+
+
+
+J. Appl. Phys. 137, 215301 (2025); doi: 10.1063/5.0270111                                                                                                     137, 215301-6
+
+© Author(s) 2025
+--- Страница 8 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+     22J. Zhou, M. Hao, Y. Zhang, X. Ma,  J. Dong, F. Lu,  J. Wang, N. Wang, and     28X. Zhang, Y. Liu, X. Chen, C. Zhang,  J. Wang,  J. Cheng, and  J. Li, Phys.
+     Y. Zhou, Matter 5, 683 (2022).                                           Chem. Chem. Phys. 26, 28715 (2024).
+    23S.-H. Kim, K.-S. Sonu, P. Kim, J.-H. Ri, K.-I. Ryu, C.-I. So, S.-G. An, and      29S. Zhang, Z. Lan, J. Wu, X. Chen, and C. Zhang, J. Alloys Compd. 656, 253
+     I.-B. Choe, Optik 300, 171628 (2024).                                                 (2016).
+    24Y. Ma, Y. Zhang, H. Zhang, H. Lv, R. Hu, W. Liu, S. Wang, M. Jiang, L. Chu,      30Z. Zhu, K. Mao, K. Zhang, W. Peng,  J. Zhang, H. Meng, S. Cheng, T. Li,
+       J. Zhang, X. a. Li, R. Xia, and W. Huang, Appl. Surf. Sci. 547, 149117 (2021).        H. Lin, Q. Chen, X. Wu, and J. Xu, Joule 6, 2849 (2022).
+    25B. Chen, J. Wang, R. Ningyu, P. Liu, X. Li, S. Wang, W. Han, Z. Zhu, J. Liu,      31Y. Liu, S. Yang, L. Hua, X. Yang, E. Li,  J. Wen, Y. Wu, L. Zhu, Y. Yang,
+    Q. Huang, Y. Zhao, and X. Zhang, Interdiscip. Mater. 2, 855 (2023).                   Y. Zhao, Z. An, J. Chu, and W. Li, Nat. Commun. 16, 365 (2025).
+    26X. Xu, Z. Liu, Z. Zuo, M. Zhang, Z. Zhao, Y. Shen, H. Zhou, Q. Chen,      32Y. Liu, L. He, X. Chen, C. Zhang,  J. Cheng, and  J. Li,  J. Appl. Phys. 136,
+     Y. Yang, and M. Wang, Nano Lett. 15, 2402 (2015).                              023107 (2024).
+    27W. Zhu, L. Kang, T. Yu, B. Lv, Y. Wang, X. Chen, X. Wang, Y. Zhou, and     33A. K. Baranwal, H. Bi, G. Kapil, T. Kitamura, L. Wang, J. Liu, Q. Shen, and
+     Z. Zou, ACS Appl. Mater. Interfaces 9, 6104 (2017).                                         S. Hayase, ACS Energy Lett. 9, 4119 (2024).
+
+
+
+
+
+                                                                                                                                                                              19
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+                                                                                                                                                                                                                                                                                                                                                             2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:12:17
+
+
+
+
+
+J. Appl. Phys. 137, 215301 (2025); doi: 10.1063/5.0270111                                                                                                     137, 215301-7
+
+© Author(s) 2025

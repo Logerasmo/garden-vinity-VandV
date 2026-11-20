@@ -1,0 +1,86 @@
+{
+  "decimal_separators": [".", ","],
+  "thousands_separators": [" ", "\u00a0", "_"],
+  "strip_chars": [" ", "\u00a0", "\u202f", "\t"],
+
+  "rules": {
+    "area_cm2": {
+      "source_column": "active_area",
+      "target_unit": "cm2",
+      "unit_column": "area_unit",
+      "aliases": {
+        "cm2": "cm2", "cm^2": "cm2", "см2": "cm2",
+        "mm2": "mm2", "mm^2": "mm2", "мм2": "mm2",
+        "m2": "m2", "m^2": "m2", "м2": "m2"
+      },
+      "factors": { "mm2": 0.01, "cm2": 1.0, "m2": 10000.0 }
+    },
+
+    "bandgap_ev": {
+      "source_column": "bandgap_value",
+      "target_unit": "eV",
+      "unit_column": "bandgap_unit",
+      "aliases": { "ev": "eV", "эв": "eV", "mev": "meV", "мэВ": "meV" },
+      "factors": { "meV": 0.001, "eV": 1.0 }
+    },
+
+    "voltage_v": {
+      "target_unit": "V",
+      "unit_column": "voltage_unit",
+      "aliases": {
+        "v": "V", "в": "V",
+        "mv": "mV", "мв": "mV",
+        "kv": "kV", "кв": "kV"
+      },
+      "factors": { "mV": 0.001, "V": 1.0, "kV": 1000.0 }
+    },
+
+    "current_density_ma_cm2": {
+      "target_unit": "mA/cm2",
+      "unit_column": "current_density_unit",
+      "aliases": {
+        "ma/cm2": "mA/cm2", "ma cm-2": "mA/cm2", "ма/см2": "mA/cm2",
+        "a/cm2": "A/cm2", "a cm-2": "A/cm2"
+      },
+      "factors": { "mA/cm2": 1.0, "A/cm2": 1000.0 }
+    },
+
+    "power_w": {
+      "target_unit": "W",
+      "unit_column": "power_unit",
+      "aliases": {
+        "w": "W", "вт": "W",
+        "kw": "kW", "квт": "kW",
+        "mw": "MW", "мвт": "MW",
+        "gw": "GW", "гвт": "GW"
+      },
+      "factors": { "W": 1.0, "kW": 1000.0, "MW": 1000000.0, "GW": 1000000000.0 },
+      "default_factor": 1.0
+    },
+
+    "time_s": {
+      "target_unit": "s",
+      "unit_column": "time_unit",
+      "aliases": {
+        "s": "s", "sec": "s", "secs": "s", "second": "s", "seconds": "s", "с": "s", "сек": "s",
+        "min": "min", "mins": "min", "minute": "min", "minutes": "min", "мин": "min",
+        "h": "h", "hr": "h", "hrs": "h", "hour": "h", "hours": "h", "ч": "h", "час": "h"
+      },
+      "factors": { "s": 1.0, "min": 60.0, "h": 3600.0 }
+    },
+
+    "length_m": {
+      "target_unit": "m",
+      "unit_column": "length_unit",
+      "aliases": {
+        "nm": "nm", "нм": "nm",
+        "um": "um", "µm": "um", "мкм": "um",
+        "mm": "mm", "мм": "mm",
+        "cm": "cm", "см": "cm",
+        "m": "m", "м": "m",
+        "km": "km", "км": "km"
+      },
+      "factors": { "nm": 1e-9, "um": 1e-6, "mm": 1e-3, "cm": 1e-2, "m": 1.0, "km": 1000.0 }
+    }
+  }
+}

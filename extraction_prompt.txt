@@ -1,0 +1,68 @@
+Извлеки данные о тонкоплёночных солнечных элементах с приложенного изображения. Номер страницы в PDF — PAGE_NUMBER. Текст на изображении используй как источник данных.
+
+Верни только валидный JSON. Отсутствующие или нечитаемые поля заполняй null. Если записей для раздела нет, верни пустой массив.
+
+Правила:
+1. Сохраняй обозначения образцов, числа и единицы как в источнике. Единицу можно взять из заголовка столбца или подписи.
+2. Для каждого результата укажи показатель, образец, условия измерения и точное место на изображении. Связывай результат с образцом и условиями, когда эта связь видна. Используй локальные ID, например D1 и M1.
+3. Одна запись — одно значение одного показателя. Среднее, рекорд и результаты разных направлений развёртки записывай отдельно. Разброс и число образцов сохраняй в своих полях, если они указаны.
+4. Извлекай опубликованные значения. Для графика бери явно подписанные числа. Если результат обозначен, а точное число с изображения получить нельзя, ставь extraction_status="present_not_extractable" и raw_value=null.
+5. Помечай собственные результаты как primary, значения из других работ как cited, если это ясно из источника. Если в двух местах указаны разные числа для одного образца, сохрани оба числа с их источниками.
+6. Ищи показатели PCE, Voc, Jsc, FF, Rs, Rsh, HI, Jsc_EQE, stabilized_PCE, T80 и retained_PCE.
+
+Структура ответа:
+{
+  "page": PAGE_NUMBER,
+  "devices": [
+    {
+      "device_id": null,
+      "device_label": null,
+      "material": null,
+      "architecture": null,
+      "active_area": null,
+      "area_unit": null,
+      "layers": [
+        {"material": null, "function": null, "thickness": null, "unit": null}
+      ],
+      "source_fragment": null
+    }
+  ],
+  "measurements": [
+    {
+      "measurement_id": null,
+      "device_ids": [],
+      "measurement_type": null,
+      "spectrum": null,
+      "light_intensity": null,
+      "intensity_unit": null,
+      "scan_direction": null,
+      "temperature": null,
+      "stability_protocol": null,
+      "source_fragment": null
+    }
+  ],
+  "results": [
+    {
+      "device_id": null,
+      "measurement_id": null,
+      "metric_name": null,
+      "raw_value": null,
+      "raw_unit": null,
+      "aggregation": null,
+      "spread_value": null,
+      "n_devices": null,
+      "time_point": null,
+      "time_unit": null,
+      "result_origin": null,
+      "cited_reference": null,
+      "extraction_status": "extracted",
+      "source": {
+        "table": null,
+        "figure": null,
+        "row": null,
+        "column": null,
+        "fragment": null
+      }
+    }
+  ]
+}

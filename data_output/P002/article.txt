@@ -1,0 +1,408 @@
+--- Страница 1 ---
+RSC Advances
+
+
+                                                                            Published on 07 January 2021
+ PAPER                                                              Licensed under CC-BY-NC 3.0
+
+               Mixed lead source precursors for producing light
+                absorption layers of perovskite solar cells† Cite this: RSC Adv., 2021, 11, 1976
+                      Honggang Xie,‡a Bo Zheng,‡a Can Gao,a Jiannan Xu,a Jiejing Zhang,a Chunxiao Gaob
+                        and Xizhe Liu   *a
+
+
+                                 Beside the conventional perovskite precursors with lead halides as lead sources, non-halide lead sources
+
+                                  provide additional tools for tuning the properties of perovskite layers, and lead acetate is a promising
+
+                                  candidate for non-halide lead sources. In this work, we develop the perovskite precursor with a mixed
+
+                                 non-halide lead source by partially replacing lead acetate with lead thiocyanate. Scanning electron
+                               microscopy and X-ray diﬀraction measurements indicate that lead thiocyanate additive can remarkably
+
+                                   increase the size of perovskite grains and the crystallization of perovskite layers. And the cross-sectional
+                                      investigation illustrates that the penetration of perovskite materials into TiO2 porous layers also can be
+Received 22nd September 2020
+                               improved by the lead thiocyanate additive. As a consequence, the recombination process and charge
+Accepted 12th December 2020
+                                     extraction process of devices are improved. By optimizing the quantity of lead thiocyanate, the power
+DOI: 10.1039/d0ra08077b
+                                 conversion eﬃciency of devices is increased from 14.0% to 17.2%, and the stability of devices is elevated
+
+ rsc.li/rsc-advances                   simultaneously.
+
+1.  Introduction                                         layers with compact structure can be produced with these non-
+                                                                stoichiometric precursor solutions by simple one step spin-
+In recent years, perovskite solar  cells (PSCs) have become   coating, which releases excessive compounds in the annealing
+a research focus for their excellent photovoltaic performance   process.15
+and simple fabrication procedure.1–11 These merits are mainly     Aer the pioneering work with lead chloride as non-iodide
+attributed to the light absorption materials of organic lead   lead  source,  the  non-stoichiometric  precursor  with  lead
+halides, which have a perovskite crystal structure of ABX3.   acetate (Pb(AC)2) as a non-halide lead source was developed,
+Previous  investigations  indicate  that  the  composition  of  which produces ultrasmooth perovskite layers and leads to
+precursor solutions is an important factor to determine the   a power conversion eﬃciency (PCE) of 15.2%.16 Although the
+quality of perovskite layers.12–14 For one step spin-coating of   usage of Pb(AC)2 improves the morphology of perovskite layers,
+CH3NH3PbI3  layers, two kinds  of precursor  solutions  are   the PCEs of these devices are still lower than that of devices by
+developed. One is composed of lead iodide (PbI2) and methyl-   solvent engineering method. On the other hand, the stability of
+ammonium iodide (MAI) with the same stoichiometric ratio of  PSCs is also important topics for the devices produced by the
+obtained CH3NH3PbI3 layers. For this stoichiometric precursor   precursor  solutions with Pb(AC)2  lead  sources.17,18  Several
+solution, controlling the morphology of perovskite layers is   research works indicate that the small size of grains leads to
+usually diﬃcult in a one step spin-coating process. Although the   extensive grain boundaries, which can enhance permeability of
+solvent engineering method can improve the morphology of   oxygen/moisture to induce degradation of perovskite layers.
+these perovskite layers, the usage of antisolvent may lead to  And these grain boundaries also exhibit a high density of
+environmental problems in industry application. Another non-   defects and result in intensive recombination process.19,20
+stoichiometric precursor solution uses non-iodide compounds     To improve the photovoltaic performance of devices, several
+as the lead source, and methylammonium iodide with three   strategies are developed by tuning the composition of Pb(AC)2
+times the stoichiometric ratio is added.4 Smooth perovskite   precursors. PCBM is introduced into Pb(AC)2 precursor as an
+                                                                additional composition for passivating grain boundary.21 Zhang
+                                                                             et al. studies the ability of hypophosphorous acid, which widely
+ aInstitute of Atomic and Molecular Physics, Jilin Provincial Key Laboratory of Applied
+                                                                        exists in the hydroiodic acid solution.22 Several compounds,
+ Atomic and Molecular Spectroscopy, Jilin University, Changchun, 130012, China.
+ E-mail: liu_xizhe@jlu.edu.cn                                      such as methylammonium bromide,23 lead chloride24 and lead
+ bState Key Laboratory for Superhard Materials, Jilin University, Changchun, 130012,   iodide,25 are also employed in the Pb(AC)2 precursor. Although
+China                                                        Pb(AC)2 precursor has been investigated by several reports,
+† Electronic   supplementary   information    (ESI)    available.   See   DOI:  eﬃcient additive is still desirable for improving the PCE and
+10.1039/d0ra08077b                                                         stability simultaneously. Recently Pb(SCN)2 is emerged as the
+‡ H. Xie and B. Zheng contributed equally in this work.
+
+
+1976  | RSC Adv., 2021, 11, 1976–1983                        © 2021 The Author(s). Published by the Royal Society of Chemistry
+--- Страница 2 ---
+Paper                                                                   RSC Advances
+
+
+
+
+
+Fig. 1  The surface morphology and grain size distribution of perovskite layers prepared by Pb(AC)2 precursors without (a and e) and with 10% (b
+and f), 20% (c and g) and 30% (d and h) Pb(SCN)2 additives.
+
+
+
+
+
+© 2021 The Author(s). Published by the Royal Society of Chemistry                             RSC Adv., 2021, 11, 1976–1983  | 1977
+--- Страница 3 ---
+RSC Advances                                                                                Paper
+
+
+additive for perovskite precursor solutions with PbI2 as the lead  900 nm. Photoluminescence spectra were detected by a CCD
+source.26–28 It is found that adding a small amount of Pb(SCN)2   detector (PIXIS256BR, Princeton Instruments  Inc.), and the
+into these precursor solutions can signicantly enlarge the   excitation wavelength was 532 nm provided by a low noise solid
+grain size.29,30 And several reports indicate that Pb(SCN)2 can   state laser (MLL–III–532). Impedance spectra were measured at
+passivate the defects at grain boundaries, the carrier lifetime is   0.7 V  bias  potential  under  constant  illumination  over
+increased  consequently.31,32  Therefore,  Pb(SCN)2  additive   a frequency range from 1 MHz to 1 Hz by a CHI660 electro-
+should be a promising candidate for Pb(AC)2 precursors.        chemical workstation. To investigate the humidity stability of
+   In this work, we fabricated PSCs with Pb(AC)2 precursors by   devices, unencapsulated perovskite solar cells were maintained
+one step spin-coating without the usage of antisolvent. The  under dark at 25 C in the air condition with 50% humidity. A
+function of Pb(SCN)2 additive was investigated, and the photo-   constant temperature and humidity test chamber (LHS-80HC,
+voltaic performance and stability of these devices were studied.  BLUEPARD) was used for this humidity stability test.
+
+2.  Experiment                             3.  Results and discussion
+
+Aer laser etching, uorine doped tin oxide (FTO) glass was   Fig. 1 shows the surface morphology of perovskite  layers
+cleaned with acetone, ethanol and deionized water in ultrasonic   prepared by Pb(AC)2 precursors with diﬀerent quantity of
+bath, sequentially. Compact TiO2 layers were deposited by spray   Pb(SCN)2 additive. For the Pb(AC)2 precursor solution without
+pyrolysis  with 50 mmol mL 1  Ti(OPr)2(acetylacetone)2  in  Pb(SCN)2 additive, the perovskite layers are composed of grains
+ethanol solution at 450  C. And mesoporous TiO2 lms were   with 179 nm in average size (Fig. 1a and e). By adding 10%
+deposited on the compact TiO2 lms by spin-coating with the   Pb(SCN)2 into Pb(AC)2 precursor solution, the average size of
+TiO2 paste solution (18NRT, Dyesol, diluted with six times of   perovskite grains increases to 422 nm (Fig. 1b and  f). Aer
+ethanol in weight) at 5000 rpm for 30 s. Then these samples
+were thermal annealing at 80 C, 125 C, 325 C and 500 C for
+30 minutes, respectively. Pb(AC)2$3H2O was dehydrated at 70 C
+in vacuum drying oven for 12 hours. In the Pb(AC)2 precursor
+solution, 3.0 mol L 1 MAI and 1.0 mol L 1 Pb(AC)2 are dissolved
+into  N,N-dimethylformamide  (DMF).  For   incorporating
+diﬀerent  quantity  of  Pb(SCN)2  (10%, 20%  and  30%),
+0.1 mol L  1, 0.2 mol L 1 and 0.3 mol L 1 Pb(SCN)2 were
+incorporated into the precursor solutions by replacing Pb(AC)2,
+and the total concentration of Pb2+ ions  is maintained at
+1.0 mol L  1. Aer stirring the precursor solutions at room
+temperature, the perovskite lms were spincoated at 5000 rpm
+for 30 s and annealed at 100 C for 10 minutes. Then hole
+transport material (HTM) solution was spincoated on perov-
+skite lms at 4000 rpm for 30 s. The HTM solution is composed
+of 72.3 mg spiro-MeOTAD, 28.5 mL 4-tert-butylpyridine, 18.5 mL
+lithium bis(triuoromethanesulfonyl)imide (LiTFSI) solution
+(520 mg LiTSFI in 1 mL acetonitrile) and 1 mL chlorobenzene.
+TiO2 layers were prepared in air condition, then samples were
+transferred into a N2 glove box for preparing perovskite layers
+and HTM layers. Aer the storage in dry air for 12 hours, Au
+electrodes were deposited on the HTM  layers by thermal
+evaporation.
+  SEM images were investigated by FEI-MAGELLAN 400 scan-
+ning electron microscope. X-ray diﬀraction (XRD) patterns were
+obtained using a Rigaku D/max-2550 X-ray diﬀractometer.
+Photocurrent density–photovoltage characteristics were recor-
+ded from 1.15 V to 0 V by a CHI660 electrochemical workstation.
+The active area of solar cells is 0.15 cm2 dened by a mask.
+AM1.5 illumination was provided by a 3A class solar simulator
+(UHE-16, ScienceTech Inc.), which was calibrated to one sun by
+a KG5 ltered Si reference solar cell (certicated by VLSI Stan-
+dards Inc.). IPCE spectra are measured in the DC mode by
+                                                                                        Fig. 2  The XRD patterns (a) and PL spectra (b) of perovskite layers
+a controlled monochrometer (BOCIC Inc.) with a 500 W Xe light                                                                prepared by Pb(AC)2 precursors without and with diﬀerent Pb(SCN)2
+source (NBet Inc.). The absorption spectra were recorded with   additives, the diﬀraction peaks of CH3NH3PbI3 and FTO are labeled
+a L5S UV-vis spectrophotometer in the wavelength range of 500–   with stars and circles, respectively.
+
+
+1978  | RSC Adv., 2021, 11, 1976–1983                        © 2021 The Author(s). Published by the Royal Society of Chemistry
+--- Страница 4 ---
+Paper                                                                   RSC Advances
+
+
+further increasing the quantity of Pb(SCN)2 to 20%, compact   in the enlarged XRD pattern of Fig. S1,† 10% and 20% Pb(SCN)2
+perovskite layers with the average grain size of 521 nm can be   additives do not change the degree of diﬀraction peaks. And
+obtained (Fig. 1c and g). The increase of grain size is likely  30% Pb(SCN)2 additive leads to a decrease of 0.26  for the
+attributed to the vapor assistant annealing of HSCN and   diﬀraction peak, which reects the expansion of crystal lattice.
+CH3NH2, which is formed by the decomposition of CH3NH3 +   Therefore, 10% and 20% Pb(SCN)2 additives do not change the
+cations and SCN  anions in the heating process.31 The large   composition of MAPbI3 layers, but 30% Pb(SCN)2 additive is
+grain size of perovskite layers is benecial to decrease the   likely to incorporate SCN  anions into the crystal lattice of
+scattering of carriers at the grain boundaries.33 For the Pb(AC)2  MAPbI3. The photoluminescence (PL) spectra of perovskite
+precursor with 30% Pb(SCN)2 additive in Fig. 1d, the average   layers without and with diﬀerent Pb(SCN)2 additives were
+grain size further increases to 1026 nm (Fig. 1h), but the  measured as shown in Fig. 2b. The intensity of PL peaks can be
+coverage of perovskite layers on TiO2 layers  is poor. This   elevated by incorporating 10% and 20% Pb(SCN)2 in the
+incomplete coverage usually leads to intensive recombination   precursor solutions. For the excessive Pb(SCN)2 of 30%, the
+process in the PSCs. Except the large grains of perovskite layers   intensity of PL peaks is even lower than that of MAPbI3 without
+in Fig. 1b and c, some small grains also exist by the incorpo-   Pb(SCN)2 additive. As the intensity of PL emission reects the
+ration of Pb(SCN)2 as shown in Fig. 1f and g. The large perov-   quality of perovskite layers,34 the optimized condition of 20%
+skite  grains  are  essential  for  the  transport  process  of  Pb(SCN)2   is  accordance  to  the  crystallization  in XRD
+photogenerated charge carriers, and the small grains can ll the  measurements.
+gaps between large perovskite grains, which guarantees the    We fabricate perovskite solar  cells based on these four
+compact structure of perovskite layers.                         diﬀerent kinds of perovskite layers, and the cross-sectional SEM
+   X-ray diﬀraction (XRD) measurements are performed on  images of devices are shown in Fig. 3. Without the incorpora-
+these four kinds of perovskite layers, which are prepared by   tion of Pb(SCN)2 additive (Fig. 3a), the size of perovskite grains
+Pb(AC)2 precursors without and with diﬀerent Pb(SCN)2 addi-   is less than the thickness of perovskite layers. Therefore, pho-
+tives. As shown in Fig. 2a, all diﬀraction peaks can be assigned   togenerated charge carriers suﬀer from the grain boundary
+to FTO substrates and CH3NH3PbI3 (MAPbI3) with perovskite   scattering in the transport process. It is also noted that the
+structure. It means that all these four kinds of precursors can   penetration of MAPbI3 into TiO2 porous layers is limited and
+prepare MAPbI3 layers with perovskite structure.22 For the pure  some small empty holes are existed. This insuﬃcient penetra-
+Pb(AC)2 precursors without Pb(SCN)2 additive, the intensity of   tion can degrade the charge transfer process at TiO2/perovskite
+diﬀraction peaks for MAPbI3 is relatively small. Aer incorpo-   interfaces. Aer the incorporation of Pb(SCN)2 as shown in
+rating 10% and 20% Pb(SCN)2 into Pb(AC)2 precursors, the   Fig. 3b and c, the size of perovskite grains increases and no
+intensity of diﬀraction peaks continuously increases. This result   grain boundary exists in the depth direction. The SEM images
+reects the improvement of crystallization, which is accordance   also indicate that Pb(SCN)2 additive improves the penetration of
+to the increased size of MAPbI3 grains in Fig. 1b and c. As shown  MAPbI3 into TiO2 porous layers. For the perovskite layers with
+
+
+
+
+
+Fig. 3  The cross-sectional SEM images of the devices prepared by Pb(AC)2 precursors without (a) and with 10% (b), 20% (c) and 30% (d) Pb(SCN)2
+additives.
+
+
+© 2021 The Author(s). Published by the Royal Society of Chemistry                             RSC Adv., 2021, 11, 1976–1983  | 1979
+--- Страница 5 ---
+RSC Advances                                                                                Paper
+
+
+30% Pb(SCN)2 additive in Fig. 3d, poor coverage of the perov-   Table 1  The photovoltaic parameters of perovskite solar cells
+skite layers leads to the direct contact between Spiro-OMeTAD
+                                                                                                                 Eﬃciency
+layers and TiO2 layers, which can result in the recombination                                                                 Pb(SCN)2       Jsc (mA cm  2)      Voc (V)       Fill factor     (%)
+process of devices.
+  The  best  performed  photocurrent  density–photovoltage   w/o           20.2              1.044      0.66           14.0
+curves of these diﬀerent devices are illustrated in Fig. 4a and  10%          21.0              1.058      0.68           15.1
+Table 1. Without the incorporation of Pb(SCN)2 additive, the  20%          22.1              1.061      0.73           17.2
+                                                  30%          20.2              0.968      0.68           13.2
+device with perovskite layer by pure Pb(AC)2 precursor gives
+a PCE of 14.0% under one sun illumination, which has a short
+circuit current density (Jsc) of 20.2 mA cm  2, an open circuit
+photovoltage (Voc) of 1.044 V and a ll factor (FF) of 0.66. And                                                    PCEs of devices prepared by Pb(AC)2 precursor without and with
+the PCE of device increases to 15.1% by incorporating 10%
+                                             20% Pb(SCN)2 additive. By adding Pb(SCN)2, the average PCE of
+Pb(SCN)2 into the Pb(AC)2 precursor. For incorporating 20%                                                                devices can be increased from 12.0% to 15.4%, which conrms
+Pb(SCN)2 additive, the PCE of device reaches 17.2% with a Jsc of                                                              the ability of Pb(SCN)2 additive. To investigate the hysteresis
+22.1 mA cm  2, a Voc of 1.061 V and a FF of 0.73. The promotion                                                             eﬀect of devices, we perform a forward scan from 0 V to 1.15 V
+of photovoltaic performance is accordance with the improved                                                                    right aer a reverse scan from 1.15 V to 0 V under one sun
+quality of perovskite layers by Pb(SCN)2 additives.35 It indicates                                                                 illumination. The intensity of hysteresis eﬀect is summarized by
+that Pb(SCN)2 additive can improve the Pb(AC)2 precursor                                                              the hysteresis index ((PCErev    PCEforw)/PCErev). As shown in
+solutions for perovskite solar cells. However, further increasing
+                                                                       Fig. S2,† the device with 20% Pb(SCN)2 additive has a hysteresis
+the quantity of Pb(SCN)2 to 30% leads to an obvious decrease of                                                            index of 0.082, which is slight lower than that of device without
+device performance, which can be attributed to the incomplete
+                                                          Pb(SCN)2 additive (0.136). As the high crystallinity of MAPbI3
+coverage as shown in Fig. 1d. Fig. 4b shows the statistics for
+                                                                     layers with 20% Pb(SCN)2 additive indicates their relative low
+
+
+
+
+
+Fig. 4   (a) J–V curves of best performing devices without and with    Fig. 5   (a) IPCE spectra of devices and (b) light absorption spectra of
+diﬀerent Pb(SCN)2 additives, and (b) statistics of PCEs for 25 devices   perovskite layers prepared by Pb(AC)2 precursors without and with
+without and with 20% Pb(SCN)2 additive.                              diﬀerent Pb(SCN)2 additives.
+
+
+1980  | RSC Adv., 2021, 11, 1976–1983                        © 2021 The Author(s). Published by the Royal Society of Chemistry
+--- Страница 6 ---
+Paper                                                                   RSC Advances
+
+
+density of defects, it reduces the migration path of ions and   spectra. Previous reports indicate that the high frequency
+decreases the hysteresis eﬀect of devices.                    impedance arc can be attributed to the charge transfer process
+  We measured the incident photon-to-electron conversion   at  the  TiO2/perovskite  interfaces and  the  low  frequency
+eﬃciency (IPCE) spectra of these devices as shown in Fig. 5a. By  impedance arc can be assigned to the recombination process in
+adding 10% and 20% Pb(SCN)2 into the Pb(AC)2 precursor, the   the perovskite  layers.36–38 By tting the Nyquist plots with
+IPCE values of devices increase evenly in the whole wavelength   equivalent circuit in Fig. 6b, two resistance elements of Rh and
+range with light response. By further increasing the quantity of  RL can be deduced from high frequency and low frequency
+Pb(SCN)2 additive to 30%, the IPCE values remarkably decrease,  impedance arcs respectively. As shown in Table 2, the resis-
+especially at short wavelength range. This tendency of IPCE   tances of recombination process (RL) increase from 287.1 U cm2
+spectra is accordance with the trend of Jsc in Fig. 4a. IPCE values   to 302.9 U cm2 and 478.4 U cm2 by adding 10% and 20%
+are usually related to the light absorption process and charge   Pb(SCN)2 in the Pb(AC)2 precursors, but it decreases to 183.3 U
+collection process of solar cells. Fig. 5b is the light absorption  cm2 by further increasing the quantity of Pb(SCN)2 to 30%. It
+spectra of perovskite layers prepared by diﬀerent precursor  means that Pb(SCN)2 additive can reduce the recombination
+solutions. By adding 30% Pb(SCN)2 into Pb(AC)2 precursor   process and 20% Pb(SCN)2 additive is the optimized condition.
+solutions, the absorption spectrum has a remarkable decrease  The reduced recombination process can promote the photo-
+at the short wavelength range, which is accordance to the   voltaic performance  of PSCs, which  is accordance  to the
+decrease of IPCE values at this wavelength range in Fig. 5a. For   tendency of photovoltaic properties in Fig. 4. The slow recom-
+the perovskite layers with 10% and 20% Pb(SCN)2 additive, the   bination can be related to the improvement in grain growth and
+absorption spectra of perovskite layers have a minor increase   crystallization of perovskite layers. The charge transfer resis-
+compared with the perovskite layers without Pb(SCN)2 additive.   tance (Rh) can be reduced from 41.6 U cm2 to 15.7 U cm2 by
+The improvement of light absorption is benecial to the utili-   incorporating 10% Pb(SCN)2 additive. This result indicates that
+zation of incident solar illumination, but the obvious increase   the Pb(SCN)2 additive can improve the charge transfer process
+of photovoltaic performance cannot be fully attributed to this   at TiO2/perovskite interfaces, which  likely comes from the
+light absorption process.                                   promotion of MAPbI3 penetration into TiO2 porous layers. As
+  The transport-recombination process of PSCs can be inves-  shown in the SEM image of Fig. 3a, small holes exist in the TiO2
+tigated by the impedance spectra. Fig. 6a is the Nyquist plots of  porous layers and the penetration of MAPbI3 is insuﬃcient.
+devices with diﬀerent perovskite layers under a bias potential of  Aer incorporating 10% and 20% Pb(SCN)2 additives, these
+0.7 V, and two impedance arcs can be distinguished in these   small holes are eliminated and the penetration of MAPbI3 into
+                                                          TiO2 porous layers is improved (Fig. 3b and c). The penetration
+                                                                   of MAPbI3 enhances the contact of TiO2/MAPbI3 interfaces,
+                                                       which can lead to the reduced transfer resistance. The improved
+                                                           charge transfer process is benecial to the extraction of excited
+                                                                 electrons and holes.  It is noted that further increasing the
+                                                                quantity of Pb(SCN)2 to 20% results in a slight increase of Rh to
+                                                                25.2 U cm2, which is still lower than the Rh of devices without
+                                                          Pb(SCN)2  additive. Although  Pb(AC)2  precursor  with 20%
+                                                          Pb(SCN)2 additive leads to a slightly larger charge transfer
+                                                                  resistance than that of Pb(AC)2 precursor with 10% Pb(SCN)2
+                                                                     additive, the devices with 20% Pb(SCN)2 additive have an
+                                                               obviously large recombination resistance. The balance of these
+                                                        two factors results in the optimized photovoltaics performance
+                                                                      at the condition of 20% Pb(SCN)2 additive. As shown in Table 2,
+                                                                  excessive Pb(SCN)2 additive of 30% leads to a remarkable
+                                                                increase of Rh to 58.8 U cm,2 which degrades the interfacial
+                                                           charge transfer process.
+                                                                   Perovskite materials usually suﬀer the problem of stability,
+                                                       which leads to the degradation of PSCs. We study the aging
+                                                         performance of unencapsulated devices without and with 20%
+                                                          Pb(SCN)2 additive under dark in the air condition with 50%
+
+
+
+
+                                                                      Table 2  The resistance elements extract from impedance spectra
+
+                                                                 Pb(SCN)2       0%        10%       20%       30%
+
+Fig. 6   (a) Nyquist plots of devices without and with diﬀerent Pb(SCN)2   Rh (U cm2)           41.6           15.7           25.2           58.8
+additives measured at a bias potential of 0.7 V, and (b) the equivalent   RL (U cm2)         287.1         302.9         478.4         183.3
+circuit for ﬁtting impedance data.
+
+
+© 2021 The Author(s). Published by the Royal Society of Chemistry                              RSC Adv., 2021, 11, 1976–1983  | 1981
+--- Страница 7 ---
+RSC Advances                                                                                Paper
+
+                                    Conﬂicts of interest
+
+                                                         There are no conicts to declare.
+
+                                 Acknowledgements
+
+                                                            This work was partially supported by National Natural Science
+                                                         Foundation of China (grant no. 51772125 and 11674404), Jilin
+                                                                  Provincial Research Foundation for Basic Research (grant no.
+                                                          20180101214JC) and the Foundation of Education Department
+                                                                in Jilin Province (grant no. JJKH20190178KJ).
+
+                                  Notes and references
+Fig. 7  The degradation of normalized PCEs for the unencapsulated
+devices without and with 20% Pb(SCN)2 additive in the air condition   1 A. Kojima, K. Teshima, Y. Shirai and T. Miyasaka,  J. Am.
+with 50% humidity at 25 C.                                                         Chem. Soc., 2009, 131, 6050.
+                                                         2 J.-H. Im, C.-R. Lee, J.-W. Lee, S.-W. Park and N.-G. Park,
+humidity at 25  C. As shown in Fig. 7, the device without      Nanoscale, 2011, 3, 4088.
+Pb(SCN)2 additive leads to an intensive degradation, only 39.1%   3 H. Kim, C. Lee,  J. Im, K. Lee, T. Moehl, A. Marchioro,
+of its original PCE is preserved aer 100 hours aging. Although       S. Moon, R. Humphry-Baker, J. Yum, J. Moser, M. Gr¨atzel
+Pb(AC)2 is an eﬀective non-halide lead source for preparing     and N. Park, Sci. Rep., 2012, 2, 591.
+perovskite layers, it may lead to the problem of stability.13 Aer   4 M. Lee, J. Teushcer, T. Miyasaka, T. Murakami and H. Snaith,
+incorporating 20% Pb(SCN)2 additive into Pb(AC)2 precursors,      Science, 2012, 338, 643.
+the aging performance of PSCs is improved remarkably, and   5 D. Luo, W. Yang, Z. Wang, A. Sadhanala, Q. Hu, R. Su,
+91.6% of its original PCE is preserved by the 100 hours aging      R. Shivanna, G. Trindade, J. Watts, Z. Xu, T. Liu, K. Chen,
+process. The improved stability of devices should be attributed      F. Ye, P. Wu, L. Zhao,  J. Wu, Y. Tu, Y. Zhang, X. Yang,
+to the promotion of perovskite layers. The large grain size and    W. Zhang, R. Friend, Q. Gong, H. Snaith and R. Zhu,
+reduced grain boundaries, which are passivated by the small      Science, 2018, 260, 1442.
+grains,  can  reduce  permeability  of  oxygen/moisture  for   6 S. Yang, S. Chen, E. Mosconi, Y. Fang, X. Xiao, C. Wang,
+enhancing the stability of these devices.19,39 To investigate the      Y. Zhou, Z. Yu, J. Zhao, Y. Gao, F. DeAngelis and J. Huang,
+thermal stability, we performed thermal aging of MAPbI3 layers      Science, 2019, 365, 473.
+on glass substrates under dark in N2 atmosphere at 80 C for 24   7 D. Son, J. Lee, Y. Choi, I. Jang, S. Lee, P. Yoo, H. Shin, N. Ahn,
+hours. Aer the thermal aging process, the XRD pattern of    M. Choi, D. Kim and N. Park, Nat. Energy, 2016, 1, 16081.
+MAPbI3 layers without Pb(SCN)2 additive emerges a diﬀraction   8 S. Shin, E. Yeom, W. Yang, S. Hur, M. Kim, J. Im, J. Seo,
+peak at 12.7  (Fig. S3†), which can be assigned to PbI2. It means         J. Noh and S. Seok, Science, 2017, 356, 167.
+that MAPbI3  partially decomposes  in  this thermal  aging   9 Y. Wang, J. Yuan, X. Zhang, X. Ling, B. Larson, Q. Zhao,
+process. By incorporating 20% Pb(SCN)2 additive, all of the      Y. Yang, Y. Shi, J. Luther and W. Ma, Adv. Mater., 2020, 32,
+diﬀraction peaks can be assigned to MAPbI3 aer the thermal     2000449.
+aging, and the diﬀraction peak  of PbI2  is almost undis-  10 X.  Ling,  J. Yuan,  X. Zhang,  Y. Qian,  S. Zakeeruddin,
+tinguishable. Therefore, Pb(SCN)2 additive can improve the      B. Larson, Q. Zhao,  J.  Shi,  J. Yang, K.  Ji,  Y. Zhang,
+thermal  stability  of MAPbI3  layers produced  by  Pb(AC)2      Y. Wang, C. Zhang, S. Duhm,  J. Luther, M. Gratzel and
+precursors.                                          W. Ma, Adv. Mater., 2020, 32, 2001906.
+                                                        11 J. Yuan, A. Hazarika, Q. Zhao, X. Ling, T. Moot, W. Ma and
+4.  Conclusion                                                                J. Luther, Joule, 2020, 4, 1160.
+                                                        12 N. Jeon, J. Noh, W. Yang, Y. Kim, S. Ryu, J. Seo and S. Seok,
+In summary, we incorporate Pb(SCN)2 into Pb(AC)2 precursors      Nature, 2015, 517, 476.
+as a mixed lead source for preparing MAPbI3 light absorption  13 F. He, W. Xu, M. Zhang, X. Zhang, B. Ding, G. Wei and
+layers of PSCs by one step spin-coating.  It  is found that       F. Kang, RSC Adv., 2019, 9, 30534.
+Pb(SCN)2 additive can encourage the growth of MAPbI3 grains  14 W. Cai, Z. Chen, D. Chen, S. Su, Q. Xu, H. Yip and Y. Cao,
+and improve the penetration of MAPbI3 into the TiO2 porous     RSC Adv., 2019, 9, 27684.
+layers. By optimizing the quantity of Pb(SCN)2 additive, the  15 D. Liu, G. Wang, F. Wu, R. Wu, T. Chen, B. Ding and Q. Song,
+PCEs of devices are improved from 14.0% to 17.2%. Further      Org. Electron., 2017, 43, 189.
+investigation indicates that Pb(SCN)2 additive can reduce the  16 W. Zhang, M. Saliba, D. Moore, S. Pathak, M. Horantner,
+recombination process and  facilitate the interfacial charge      T.  Stergiopoulos,  S.  Stranks,  G.  Eperon,  J.  Alexander-
+transfer process. In addition, Pb(SCN)2 additive remarkably     Webber, A. Abate, A. Sadhanala, S. Yao, Y. Chen, R. Friend,
+increases the device stability, which is desirable for the Pb(AC)2      L. Estroﬀ, U. Wiesner and H. Snaith, Nat. Commun., 2015,
+precursor method.                                                        6, 6142.
+
+
+1982  | RSC Adv., 2021, 11, 1976–1983                        © 2021 The Author(s). Published by the Royal Society of Chemistry
+--- Страница 8 ---
+Paper                                                                   RSC Advances
+
+
+17 D. Forgacs, M. Sessolo and H. Bolink, J. Mater. Chem. A, 2015,  28 Y.  Chiang, H. Cheng, M.  Li,  T. Guo and  P. Chen,
+    3, 14121.                                              ChemSusChem, 2016, 9, 2620.
+18 F. Aldibaja, L. Badia, E. Mas-Marza, R. Sanchez, E. Barea and  29 M. Kim, T. Jeon, H. Park,  J. Lee, S. Nam and S. Kim,
+     I. Mora-Sero, J. Mater. Chem., 2015, 3, 9194.                   CrystEngComm, 2016, 18, 6090.
+19 Q. Sun, P. Fassl, D. Becker-Koch, A. Bausch, B. Rivkin, S. Bai,  30 Y. Chen, B. Li, W. Huang, D. Gao and Z. Liang, Chem.
+   P. Hopkinson, H. Snaith and Y. Vaynzof, Adv. Energy Mater.,     Commun., 2015, 51, 11997.
+   2017, 7, 1700977.                                      31 C. Wang, D. Zhao, Y. Yu, N. Shrestha, C. Grice, W. Liao,
+20 D.  deQuilettes,  S.  Vorpahl,  S.  Stranks,  H.  Nagaoka,      A. Cimaroli,  J. Chen, R. Ellingson, X. Zhao and Y. Yan,
+   G. Eperon, M. Ziﬀer, H. Snaith and D. Ginger, Science,     Nano Energy, 2017, 35, 223.
+   2015, 348, 683.                                        32 W. Ke, C. Xiao, C. Wang, B. Saparov, H. Duan, D. Zhao,
+21 J. Xu, A. Buin, A. Ip, W. Li, O. Voznyy, R. Comin, M. Yuan,      Z. Xiao, P. Schulz, S. Harvey, W. Liao, W. Meng, Y. Yu,
+    S. Jeon, Z. Ning,  J. McDowell, P. Kanjanaboos,  J. Sun,      A. Cimaroli, C.  Jiang, K. Zhu, M.  Al-jassim, G. Fang,
+   X. Lan, L. Quan, D. Kim,  I. Hill, P. Maksymovych and     D. Mitzi and Y. Yan, Adv. Mater., 2016, 28, 5214.
+   E. Sargent, Nat. Commun., 2015, 6, 7081.                   33 C. Bi, Q. Wang, Y. Shao, Y. Yuan, Z. Xiao and J. Huang, Nat.
+22 W. Zhang, S. Pathak, N. Sakai, T. Stergiopoulos, P. Nayak,     Commun., 2015, 6, 7747.
+   N.  Noel,  A. Haghighirad,  V.  Burlakov, D.  deQuilettes,  34 L.  Muscarella,  E.  Hutter,  S.  Sanchez,  C.  Dieleman,
+   A. Sadhanala, W. Li, L. Wang, D. Ginger, R. Friend and      T. Savenije, A. Hagfeldt, M. Saliba and B. Ehrler,  J. Phys.
+   H. Snaith, Nat. Commun., 2015, 6, 10030.                    Chem. Lett., 2019, 10, 6010.
+23 L. Zhao, D. Luo, J. Wu, Q. Hu, W. Zhang, K. Chen, T. Liu,  35 B. Olyaeefar, S. Ahmadi-Kandjani and A. Asgari, Sol. Energy
+   Y. Liu, Y. Zhang, F. Liu, T. Russell, H. Snaith, R. Zhu and      Mater., 2018, 180, 76.
+   Q. Gong, Adv. Funct. Mater., 2016, 26, 3508.                36 E. Juarez-Perez, M. Wubler, F. Fabregat-Santiago, K. Lakus-
+24 J. Qing, H. Chandran, Y. Cheng, X. Liu, H. Li, S. Tsang, M. Lo      Wollny, E. Mankel, T. Mayer, W. Jaegermann and I. Mora-
+   and C. Lee, ACS Appl. Mater. Interfaces, 2015, 7, 23110.           Sero, J. Phys. Chem. Lett., 2014, 5, 680.
+25 D. Luo, L. Zhao, J. Wu, Q. Hu, Y. Zhang, Z. Xu, Y. Liu, T. Liu,  37 J. Zhang,  E.  Ju´arez-P´erez,  I.  Mora-Ser´o,  B. Viana and
+   K. Chen, W. Yang, W. Zhang, R. Zhu and Q. Gong, Adv.      T. Pauport´e, J. Mater. Chem. A, 2015, 3, 4909.
+   Mater., 2017, 29, 1604758.                               38 J. Shi, Y. Li, Y. Li, D. Li, Y. Luo, H. Wu and Q. Meng, Joule,
+26 Q. Jiang, D. Rebollar, J. Gong, E. Piacentino, C. Zheng and      2018, 2, 879.
+   T. Xu, Angew. Chem., 2015, 127, 7727.                     39 J. Kim, S. Williams, N. Cho, C. Chueh and A. Jen, Adv. Energy
+27 A. Ganose, C. Savory and D. Scanlon, J. Phys. Chem. Lett.,      Mater., 2015, 5, 1401229.
+   2015, 6, 4594.
+
+
+
+
+
+© 2021 The Author(s). Published by the Royal Society of Chemistry                             RSC Adv., 2021, 11, 1976–1983  | 1983

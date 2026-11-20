@@ -1,0 +1,562 @@
+--- Страница 1 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+M AT E R I A L S S C I E N C E                                                                                                            Copyright © 2025 The
+                                                                                                                                                    Authors, some rights
+                                                                                                                                                          reserved; exclusiveMolecular polymerization strategy for stable perovskite                                                                                                                                                           licensee American
+                                                                                                                                                      Association for thesolar cells with low lead leakage                                                                                                                           Advancement of
+Qixin Zhuang1†, Zhiyuan Xu1†, Haiyun Li1†, Cong Zhang1, Cheng Gong1, Huaxin Wang1,                        Science. No claim to                                                                                                                                                                    original U.S.
+Xiong Li2*‡, Zhigang Zang1,3,4*                                                                                      Government Works.
+                                                                                                                                                        Distributed under a
+Lead leakage and stability are the main challenges for the commercialization of perovskite solar cells (PSCs). Here,      Creative Commons
+we propose adding N,N′-­bis(acryloyl)cystamine (BAC) to the perovskite precursor solution, which facilitates the       Attribution License 4.0
+formation of polymer BAC (PBAC) at the grain boundaries during the annealing process of films. The PBAC can ef-      (CC BY).
+fectively passivate the defects and reduce the risk of lead leakage. Consequently, the PBAC-­modified PSCs achieve
+an efficiency of 25.53% (0.1 square centimeters) (certified efficiency of 25.24%) and 24.03% (1.0 square centime-
+ters). Moreover, after 1500 hours of continuous maximum power point tracking under simulated AM 1.5 illumina-
+tion and 2000 hours of exposure to damp heat conditions (85°C and 85% relative humidity), the device retains
+approximately 96 and 81% of its initial power conversion efficiency, respectively. In addition, PBAC can effectively
+reduce lead leakage by nearly 72% by immersing the PSCs in water for 480 minutes.
+
+
+INTRODUCTION                                               approach to greatly improve the operational stability of PSCs under
+Perovskite solar cells (PSCs) have gained increasing favor in both   extreme conditions. In 2018, Li et al. (21) pioneered the incorporationacademic and industrial communities in recent years because of   of in situ polymerizable trimethallyl isocyanurate into the perovskite     Downloaded
+their solution processability and exceptional photovoltaic proper-   precursor solution. After the annealing process concludes, the crys-  fromties. Now, the certified power conversion efficiency (PCE) of PSCs    tallinity of the perovskite film improves, forming a cross-­linked net-
+has surpassed 26% (1–3). However, practical applications of PSCs   work structure at the GBs to stabilize the films and achieve PSCs with
+still face challenges related to their stability and lead toxicity (4, 5).   superior optoelectronic performance and operational stability. Fur-
+To date, nearly all highly efficient PSCs have been produced using   thermore, double[(3-­methyloxetane-­3-­yl)methyl]thiophene-2,5-
+solution processing methods (6). Unfortunately, perovskite films   dicarboxylate can serve as an additive in perovskite precursor solution
+obtained through this method with uncontrollable crystallization   and polymerize at GBs during heat modification, forming a polymer
+typically exhibit a high density of grain boundaries (GBs) and tend   structure. This polymer at GBs can release stress and passivate de-to accumulate various defects at GBs, resulting in severe nonradia-    fects, thereby improving the device’s operational stability under ad-           https://www.science.org
+tive recombination of charge carriers. In general, GBs are unstable   verse environmental conditions (22). However, these polymerizable on
+and susceptible to attack (7, 8). In extreme environments, GBs can   small organic molecules often require higher temperatures or ultra-
+expedite the decomposition of perovskite by acting as reaction cen-   violet (UV) irradiation to initiate polymerization. In addition, mostters and channels for ion migration (9–12). Therefore, rational regu-   polymerizable organic additive monomers typically have a limited    November
+lation to stabilize GBs is crucial for improving device stability.       number of coordinating groups, reducing their ability to passivate 19,
+   In recent years, numerous strategies have been developed to opti-   various types of perovskite defects (23). Given these challenges, the                                                                                                                                                                                                      2026mize GBs to enhance the stability of perovskite films. One effective   development of a low-­temperature, polymerizable, and multifunc-
+strategy involves the usage of additive engineering to select appropri-   tional organic additive is critical for achieving efficient and opera-
+ate protective materials for safeguarding GBs. By using organic small   tionally stable PSCs.
+molecules as additives, defects can be passivated, and a waterproof     Although perovskite-­based technologies generate ​less lead pollu-
+layer can be formed beneath the GBs, preventing water infiltration   tion compared to fossil fuel emissions, the potential long-­term risks
+(13–16). Although these organic small molecules are primarily de-   of lead leakage from degraded perovskite devices remain a critical
+signed to enhance the humidity stability of PSCs, achieving opera-   concern for environmental and human safety. (24). To mitigate the
+tional stability for commercialized PSCs requires consideration of   risk of lead leakage caused by the degradation of PSCs, extensive
+factors beyond humidity, such as thermal, electrical, and optical   research has been conducted to explore lead-­free or partially lead-­
+considerations (17, 18). Polymers generally exhibit outstanding   substituted perovskite materials, such as tin-­based perovskites and
+water-­resistant, heat-­resistant, and light-­resistant properties (19, 20).   double perovskite materials (25, 26). However, tin-­based perovskites
+Hence, the polymerizable of organic additives represents a feasible   exhibit poor stability, and the PCE of double PSCs remains relative-
+                                                                                ly low (27, 28). Therefore, despite the presence of certain drawbacks,
+                                                                        lead-­based PSCs continue to dominate due to their prevailing high
+1College of Optoelectronic Engineering, Chongqing University, Chongqing 400044,   efficiency and stability. In addition, ensuring high efficiency and sta-
+China. 2Michael Grätzel Center for Mesoscopic Solar Cells, Wuhan National Laboratory
+for Optoelectronics, Huazhong University of Science and Technology, Wuhan, China.    bility is a prerequisite for eliminating lead; thus, minimizing lead
+3School of Information Science and Engineering, Yanshan University, Qinhuangdao   release is of utmost importance. Recently, alternative methods have
+066004, China. 4Henan Zhitong Optoelectronics Co., Ltd, Xuchang 461000, China.     been developed to suppress the leakage of toxic lead in PSCs. For
+*Corresponding author. Email: xiongli@​hust.​edu.​cn (X.L.); zangzg@​cqu.​edu.​cn (Z.Z.)   instance, polymer films (4), porphyrin derivatives (29), and others†These authors contributed equally to this work.
+‡Present address: School of Physics and Optoelectronic Engineering, Hainan University,   have been used for the external physical encapsulation of devices,
+Haikou, 570228 Hainan, China.                                        demonstrating excellent ability to inhibit lead leakage. On the other
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                              1 of 10
+--- Страница 2 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+hand, from a chemical perspective, anchoring lead and inhibiting    fig. S1, when BAC is treated with ammonium persulfate as an initia-
+the degradation of perovskite are also effective methods for prevent-    tor, its molecular weight increases, indicating that the gel-­like solid
+ing lead leakage (30). Perovskite films produced by the solution   formed by BAC upon heating and in the presence of an initiator is
+method inevitably result in the formation of uncoordinated Pb2+ at   an oligomer. Furthermore, as exhibited in fig. S2, scanning electron
+their GBs and surfaces. These deep-­level defects contribute to an   microscopy (SEM) results reveal that the morphology of the gel-­like
+increase in open-­circuit voltage (VOC) losses, consequently reducing   solid formed by BAC molecules under heating and in the presence
+the performance and stability of the devices (31, 32). Therefore,   of an initiator undergoes a change compared to the individual BAC
+chemically anchoring uncoordinated Pb2+ will reduce lead leakage   molecules, exhibiting a structure with pores. Therefore, in conjunc-
+and improve device performance (33, 34). Now, small organic   tion with the GPC measurement results, we anticipate that BAC can
+molecules are widely used to passivate uncoordinated Pb2+. How-   undergo a polymerization reaction to form PBAC under the condi-
+ever, the drawbacks of small organic molecules, such as high volatil-   tions of an initiator and 100°C heating. On the basis of the measure-
+ity, high diffusion coefficient, and uneven distribution in perovskites,  ment results from GPC and SEM, we inferred the reaction scheme
+often make it challenging to maintain high stability of PSCs under   and illustration for the BAC polymerization, as shown in fig. S3. The
+harsh operating conditions, further increasing the risk of lead leak-    initiator (NH4)2S2O8 can decompose in the solvent to produce
+age (35–39). Hence, there is an urgent need to optimize and stabilize  SO42− and NH4+. It decomposes under heating or in the presence of
+GBs to obtain perovskite films with high quality, structural stability,   a catalyst to generate the free radical SO4•−. These radicals can at-
+and operational stability, with the aim of minimizing lead leakage   tack the double bonds in the BAC molecules to form a new radical.
+in PSCs.                                                           Subsequently, this new radical can react with other BAC molecules
+   In this work, we developed a polymerization method to achieve   to initiate chain growth. However, this growth is stochastic, and the
+highly stable and environmentally friendly high-­performance   exact structural composition cannot be fully determined. Therefore,
+PSCs. Through the addition of the small organic molecule N,N′-­  on the basis of the experimental results, we have simply sketched a
+bis(acryloyl)cystamine (BAC) to the perovskite precursor solution,   schematic diagram of the possible structures formed.the terminal alkenes of BAC enable the construction of polymer BAC      Subsequently, we used Fourier transform infrared (FTIR) spec-     Downloaded
+(PBAC) at the perovskite GBs during the annealing process of the   troscopy and x-­ray photoelectron spectroscopy (XPS) to elucidate the  fromperovskite films. PBAC not only overcomes the limitations of organ-   interplay between BAC molecules and perovskite. As shown in Fig.
+ic small molecules but also interacts with perovskites through its nu-   1C, after introducing BAC into the perovskite precursor solution and
+merous functional groups and multiple reactive sites. This interaction   annealing at 100°C, compared to the standalone BAC film, the stretch-
+effectively passivates deep-­level defects, suppressing nonradiative   ing vibration peaks corresponding to the C═C bonds at 1615 and
+carrier recombination. Furthermore, the PBAC-­modified film dem-   964 cm−1 in the FTIR spectrum of the PBAC film disappear. Although
+onstrated enhanced water resistance, effectively suppressing the mi-   this does not directly prove the occurrence of the polymerization re-
+gration of I− and contributing to enhanced operational stability   action, in conjunction with the results from GPC and SEM, we believeunder extreme conditions. The PSCs with PBAC achieved an impres-   that it can serve as a reference indicating the polymerization of BAC           https://www.science.org
+sive PCE of 25.53% (0.1 cm2) (certified at 25.24%) and 24.03% at a   into PBAC. Simultaneously, fig. S4 (A to C) confirms the chemical on
+larger area (1.0 cm2). Simultaneously, the unencapsulated devices   interactions between BAC and perovskite. It can be observed that the
+maintained a value of more than 96% after continuous operation for  C═O characteristic peak shifts from 1658 to a lower wave number of1500 hours under simulated AM 1.5 illumination. Furthermore, un-   1652 cm−1, the C─S characteristic peak shifts from 1190 and 809 cm−1    November
+der damp heat conditions [85°C and 85% relative humidity (RH)],   to 1185 and 804 cm−1, and the N─H characteristic peak shifts 19,
+the encapsulated device retained more than 80% of its initial PCE  from 3248 to 3423 cm−1. This suggests that the chemical interactions                                                                                                                                                                                                      2026during 2000 continuous hours of operation. Last, owing to the en-   between BAC and formamidium iodide (FAI) or BAC and lead(II)
+capsulation of the polymer around the GBs and its anchoring ability   iodide (PbI2) involve hydrogen bonding between N─H and I or FA
+to lead, the PBAC-­modified PSCs exhibited a reduction in lead leak-   and interactions between C═O and Pb2+. In addition, in fig. S5, the
+age. This research holds the promise of providing strategies for ex-   survey XPS spectrum confirms that there is no transfer of foreign car-
+ploring high-­performance and environmentally friendly PSCs.        bon, thus excluding the influence of charge on the results. Further-
+                                                              more, after the introduction of BAC to form a polymer, the Pb 4f
+                                                                 binding energy of the PBAC sample shifts toward a lower binding
+RESULTS                                                       energy in comparison with that of the control sample (Fig. 1D), at-
+Characterization of the PBAC polymer                             tributed to strengthened chemical interactions between PBAC and
+To achieve the aforementioned functionalities, we introduced a ther-   perovskite. In addition, the two S 2p peaks in PBAC, located at 164.8
+mally initiated polymerizable molecule containing amide groups, C═C   and 163.6 eV (fig. S6A), shift to 164.5 and 163.3 eV, respectively, indi-
+bonds and C─S bonds, named BAC. As illustrated in Fig. 1A, at room   cating chemical interaction between the sulfur atoms and lead ions
+temperature, BAC appears as a colorless liquid. Once BAC is heated at   (41, 42). The shift in the I 3d peak (fig. S6B) is induced by hydrogen
+100°C, it undergoes to form a gel-­like solid. We anticipate that during   bonding between PBAC and the [PbI6]4− octahedra. After polymer-
+the annealing process of perovskite films, BAC will form such a gel-­like   ization of BAC within the perovskite film, the shift in the N 1s peak at
+solid structure, providing additional chemical active sites, thereby pas-   399.5 eV further confirmed the existence of N─H···I hydrogen bonds
+sivating perovskite bulk defects and enhancing the performance and    (fig. S6C). Then, we used liquid-­state proton nuclear magnetic reso-
+operational stability of the corresponding devices (40).                nance (NMR) spectroscopy to investigate chemical interactions in the
+  To investigate whether the gel-­like solid is the result of BAC un-   precursor solution. The results presented in fig. S7A demonstrate that
+dergoing a polymerization reaction to form PBAC, we conducted   the introduction of PbI2 into the BAC solution leads to smaller chem-
+gel permeation chromatography (GPC) measurements. As shown in    ical shifts in the corresponding 13C peaks compared to the original
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                              2 of 10
+--- Страница 3 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Downloaded
+                                                                                                                                                                                                      from
+
+
+
+Fig. 1. Molecular polymerization strategy. (A) Polymerization of BAC dissolved in N,N′-­dimethylformamide (DMF)/dimethyl sulfoxide (DMSO) solvent under 100°C
+thermal treatment. (B) Fourier transform infrared (FTIR) spectra of perovskite films without and with PBAC modification. (C) XPS spectra of Pb 4f of the perovskite films
+without and with PBAC modification. (D) AFM morphology image (left) and corresponding infrared (IR) image (right) of the polymerized perovskite films at 963 and
+1650 cm−1, corresponding to the C═C bond and C═O bond. a.u., arbitrary units.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                https://www.science.org
+                                                                                                   on
+BAC. This observation suggested the occurrence of chemical interac-   addition, upon the introduction of the PBAC, the conductivity of
+tions between BAC and PbI2. Subsequently, when FAI was added into   the perovskite films almost remains unchanged (fig. S9). This fur-the BAC solution, a lower 1H peak chemical shift was observed, fur-   ther indicates that the formed polymer does not hinder the trans-    November
+ther demonstrating the hydrogen bonding interactions between BAC   port of charge carriers in the perovskite.                               19,
+and FAI (fig. S7B).                                                 Furthermore, to determine the impact of PBAC on the crystalli-                                                                                                                                                                                                      2026   Further insights into the distribution and locations of BAC in   zation of perovskite films, we conducted SEM characterization (fig.
+perovskite films were gained through atomic force microscopy–   S10, A and B). In comparison with that of the control films, the grain
+based infrared (AFM-­IR) spectroscopy (43). Figure S8 illustrates the   size of the PBAC-­modified perovskite film experiences a slight
+AFM morphology image (left) and corresponding infrared (IR) im-   growth. Meanwhile, the increased intensity of the characteristic
+age (right) of the C═C and C═O characteristic peaks at 963 and   peaks in the x-­ray diffraction (XRD) patterns corresponding to the
+1650 cm−1 in control and BAC-­modified perovskite films without   perovskite films (fig. S11A) further suggested an enhancement in
+annealing. The red region signifies BAC molecules at the corre-   the crystallinity of the PBAC perovskite films. Simultaneously, there
+sponding IR characteristic peak positions, while the deep blue re-    is no change in the positions of the corresponding characteristic
+gion corresponds to the perovskite. As shown in fig. S8A, the control   peaks  (fig. S11B), indicating that PBAC does not infiltrate the
+perovskite films only exhibited the presence of deep blue region,   perovskite lattice, as evidenced by the consistent bandgap of the
+which showed no response to C═C and C═O groups. In contrast, in   perovskite films before and after modification with PBAC in the Tauc
+fig. S8B, we observed the presence of the red region at the GBs adja-   plot results (fig. S12). All the above characterizations confirm that
+cent to the perovskite, indicating the simultaneous existence of C═C   the presence of PBAC is conducive to enhancing the crystallinity of
+and C═O groups. This also suggests that after the addition of BAC   the perovskite films.
+to form the perovskite films, it does not polymerize initially but
+rather exists in molecular form at the perovskite GBs. In Fig. 1E, for   Photovoltaic performance and optoelectronic
+the perovskite films formed with the addition of BAC molecules and   properties of PSCs
+subsequent annealing treatment, only the presence of C═O groups  To comprehensively investigate the impact of PBAC on the perfor-
+at the GBs was observed, with a clear absence of C═C groups. This  mance of PSCs, we designed a structurally straightforward planar
+indicates that after prolonged heating and annealing, BAC mole-   device comprising indium tin oxide (ITO)/NiOx/poly(triaryl amine)
+cules can polymerize to PBAC at the GBs of the perovskite film. In   (PTAA)/Al2O3/perovskite/phenyl-­C61-­butyric acid methyl ester
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                              3 of 10
+--- Страница 4 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+(PC61BM)/bathocuproine (BCP)/Ag (Fig. 2A). By optimizing the   optimized PBAC-­modified devices achieved a maximum PCE of
+introduction of BAC into the perovskite precursor solution, the op-   25.53%, VOC of 1.186 V, JSC of 25.68 mA/cm2, and FF of 83.8% (table
+timal concentration was determined to be 0.03 mM (fig. S13). Sub-   S1). The best-­performing device underwent certification at the Test
+sequently, analyzing the PCE distribution of 15 individual devices,   and Calibration Center of New Energy Device and Module, Shang-
+the average PCE increased from 22.98% (control) to 25.12% (PBAC),   hai Institute of Microsystem and Information Technology, Chinese
+providing further confirmation of the advantages and reproducibil-  Academy of Sciences, resulting in a PCE of 25.24% (JSC = 25.60 mA/
+ity of the PBAC modification in the preparation of high-­performance   cm2, VOC = 1.179 V, FF = 83.68%) (fig. S17). The notable improve-
+PSCs (Fig. 2B and fig. S14). Notably, a small amount of (NH4)2S2O8  ment of the PCE is mainly ascribed to enhancements in VOC and FF,
+is used to facilitate polymerization without affecting film crystalliza-   stemming from the suppression of nonradiative carrier recombina-
+tion and device performance (figs. S15 and S16). Figure 2C illus-   tion and enhancement in carrier transport at the GBs (44). In addi-
+trates the optimized J-­V curves of the control and PBAC devices   tion, the incident photon-­to-­electron conversion efficiency (IPCE)
+under standard AM 1.5G illumination. The control devices dis-   spectra of the PSCs are depicted in Fig. 2D, showing that the calcu-
+played a PCE of 23.44%, a VOC of 1.143 V, a short-­circuit current   lated integrated photocurrent densities for the control and PBAC-­
+density (JSC) of 25.31 mA/cm2, and a fill factor (FF) of 81.0%. The   modified devices are 24.17 and 24.73 mA/cm2, respectively, which
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Downloaded
+                                                                                                                                                                                                      from
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                https://www.science.org
+                                                                                                   on
+                                                                                                                                                                                                                                                                                                                                                                                                           November
+                                                                                                                                                    19,
+                                                                                                                                                                                                      2026
+
+
+
+
+
+Fig. 2. Device performance and optoelectronic properties. (A) Device structure diagram of the PSCs and corresponding cross-­sectional SEM image. (B) PCE and VOC
+histogram of the control and PBAC-­modified devices. (C) Photovoltaic performance characterization. J-­V curves of the optimized devices without and with PBAC modifica-
+tion. (D) IPCE curves and integrated JSC of the PSCs without and with PBAC modification. (E) JSC and PCEs at the MPP for the control and PBAC-­modified devices. (F) J-­V
+curve of the optimized PBAC-­modified devices with an active area of 1.0 cm2. (G) AFM image of perovskite films without and with PBAC modification. (H) KPFM image of
+perovskite films without and with PBAC modification. (I) Energy level diagram.
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                              4 of 10
+--- Страница 5 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+are consistent with the JSC obtained from the J-­V curves. Subse-   are obtained. As shown in Fig. 2H, the surface potential of the
+quently, maximum power point (MPP) tracking was carried out to   PBAC-­modified films increased relative to that of the control films.
+accurately evaluate the true output efficiency of the PSCs. As shown   According to the relevant literature, this is attributed to the observ-
+in Fig. 2E, the PBAC devices stably outputted at 25.48% (VMPP = 1.01 V)   able chemical interaction induced by the C═O and C─S groups in
+for 500 s; in contrast, the control devices exhibited an output ef-  PBAC with uncoordinated Pb2+ (48). In addition, UV photoelec-
+ficiency of only 23.18% (VMPP = 0.98 V). Last, as presented in Fig.   tron spectroscopy (UPS) was used to examine alterations in the en-
+2F and table S2, the PBAC-­modified devices achieve an optimized   ergy levels of the devices. As shown in fig. S22, the complete UPS
+PCE of 24.03% (a VOC of 1.181 V, a JSC of 25.81 mA/cm2, and an FF   spectrum shows that there is no new characteristic peak. Further-
+of 78.8%) at a larger area (with an aperture area of 1.0 cm2) with   more, under PBAC modification, the valence band energy (EVB) of
+negligible hysteresis. Upon scaling up the aperture area of the device   the perovskite films shifts from −5.31 eV in the control films to
+to 1.0 cm2, the FF of the device is reduced because of the increase in   −5.23 eV in the PBAC films (fig. S23 and table S6). Figure 2I reveals
+series resistance. Therefore, we have redesigned two rectangular   that after PBAC was introduced, there was an increase in the clarity
+structures to investigate the impact of different configurations on   of the alignment of energy levels between the perovskite and the
+PSC performance. As seen in fig. S18A and table S3, the device   transport layer, contributing to improved charge carrier extraction
+based on this rectangular structure exhibits a PCE of 22.92%, with a   and transport, which aligns well with the M-­S analysis. Moreover,
+VOC of 1.178 V, a JSC of 25.68 mA/cm2, and an FF of 75.7%. Further-   related studies suggest that residual stress can decrease device stabil-
+more, the device with the rectangular structure shown in fig. S18B    ity and PCE (49). The improvement in crystallization of PBAC films
+and table S4 exhibits a PCE of 23.56%, a VOC of 1.180 V, a JSC of   and the decrease in defects could be the reasons for the alleviation of
+25.72 mA/cm2, and an FF of 77.6%. The PCE and FF of both rectan-   residual stress. The reduced residual stress will contribute to en-
+gular structures are lower than those of the original design (Fig. 2F),   hancing the device’s PCE and stability (50, 51).
+indicating the necessity for a more meticulously designed rectangu-
+lar configuration to enhance the FF and PCE of PSCs.             Harsh environment stability and long-­term operation   Stable photoluminescence (PL) and time-­resolved photolumi-   stability of PSCs                                                                                                                                                                                     Downloaded
+nescence (TRPL) spectroscopy were used to explore the carrier dy-   Apart from evaluating the device performance, ensuring the stability  fromnamics in the perovskite films. As shown in fig. S19A, when the   of PSCs is equally imperative. Therefore, we assessed the stability of
+perovskite film is coated onto pure glass, the PL intensity of the PBAC-­   perovskite films in harsh environments. The characterization of wa-
+modified perovskite film is markedly greater than that of the control   ter contact angle can evaluate the water permeability and moisture
+sample, indicating that the introduction of PBAC promotes an im-   resistance of perovskite films (fig. S24). Compared with the 53.1° of
+provement in the film quality. The conclusions are further con-   the control film, the water contact angle of the film modified by
+firmed by the TRPL results (fig. S19B). For the control perovskite  PBAC increased to 80.3°, which indicated the excellent hydrophobic-
+film, the average carrier lifetime (τave) is calculated to be 308.35 ns.    ity of PBAC. First, the microscopic degradation of the perovskiteHowever, for the PBAC-­modified perovskite film, this value increas-   films was characterized by SEM after aging for 2000 hours at an RH           https://www.science.org
+es to 1046.44 ns (table S5). The carrier lifetime exceeding the micro-   of 50 to 60%. The degradation of the control films is pronounced, on
+second range suggests that PBAC enhances the quality of perovskite   with the generation of an amount of PbI2, which is undoubtedly fatal
+films, simultaneously passivating defects and suppressing nonradia-   to device stability (fig. S25A). Encouragingly, the PBAC-­modifiedtive recombination, leading to improved VOC (45, 46).                 films showed minimal changes (fig. S25B), attributed to the hydro-    November
+   The photovoltaic characteristics of PBAC-­modified devices were   phobic PBAC at the GBs and increased of crystallinity and film den- 19,
+systematically explored to uncover the mechanisms contributing to    sification induced by PBAC modification. In addition, the XRD                                                                                                                                                                                                      2026enhanced photovoltaic performance. The ideal factor (m) was ob-   patterns after aging under the same conditions reveal a decrease in
+tained by fitting the data points of VOC versus light intensity for the   the intensity of the PbI2 characteristic peak at 2θ = 12.73° for the
+control and PBAC-­modified devices (fig. S20). The ideality factor of  PBAC perovskite films compared to that of the control samples (fig.
+the PBAC-­modified devices is 1.13, which is lower than the value of   S26A). Meanwhile, the UV-­visible (UV-­vis) absorption spectra of the
+1.60 for the control device, indicating reduced carrier nonradiative   perovskite film after aging (fig. S27A) showed a smaller change in
+recombination losses and, consequently, lower VOC losses in the de-   absorbance for the PBAC-­modified film over time. This indicates
+vice. The built-­in potential (Vbi) of PSCs can be determined from   that the hydrophobic PBAC formed at the GBs, along with the de-
+the Mott-­Schottky (M-­S) plot, as depicted in fig. S21. It can be dis-   crease in the number of GBs and the improvement in film quality,
+cerned that the Vbi of the control devices is 1.08 V while that of the    is the reason for the stability of the PBAC sample under high humidity.
+PBAC devices increases to 1.17 V, suggesting an enhanced driving   Subsequently, the photostability and thermal stability of the perovskite
+force for the separation of photogenerated carriers in accordance   films were also assessed. After aging for 1000 hours at 60°C in a ni-
+with the ongoing amelioration of VOC (47). In conclusion, the opti-   trogen atmosphere, negligible sporadic PbI2 formation is observed
+mized photovoltaic performance of the PBAC-­modified devices pri-   for the PBAC-­modified films, whereas the morphology of the control
+marily arises from the improvements in carrier extraction efficiency,   perovskite films exhibits changes and nearly complete degradation
+prolonged carrier lifetime, reduced defect density, and inhibited    (fig. S28, A and B). According to the XRD patterns, the control films
+nonradiative recombination, resulting in elevated VOC and FF.         exhibit the presence of PbI2 and δ-­phase perovskite (fig. S26B). In
+   The surface potential of the perovskite films was measured using   addition, the intensity of the absorbance for the control film is much
+Kelvin probe force microscopy (KPFM). Initially, on the same test   lower than that of the PBAC film (fig. S27B). Photostability was
+structure, direct contact with the perovskite surface can be achieved   assessed by aging the perovskite films under solar irradiation for
+through an AFM probe, as illustrated in Fig. 2G. Subsequently, the   1000 hours in a nitrogen atmosphere. The surface morphology of the
+corresponding surface potential differences of the perovskite films   PBAC-­modified films shows almost no change, while the control
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                              5 of 10
+--- Страница 6 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+perovskite films clearly produce PbI2 (Fig. 3A). The XRD (fig. S26C)   aging (dashed outline). In contrast, the PBAC-­modified perovskite
+and UV-­vis absorption results (fig. S27C) were consistent with the   films remain essentially continuous, providing further evidence that
+SEM results. The improved stability of the PBAC sample under light   the PBAC-­modified strategy contributes to the improved stability of
+and heat is closely related to the reduction in I vacancies (VI) within   perovskite films.
+its perovskite film (52). Under typical light and heat conditions, the      Furthermore, as depicted in Fig. 3C, the storage stability of the
+formation of VI defects is easily triggered, amplifying ion migration   unencapsulated PSCs was evaluated under a relatively dry air envi-
+within the perovskite and initiating chemical chain reactions, result-   ronment (RH, 20 to 30%). After 5000 hours of aging, the PBAC-­
+ing in perovskite degradation. This property poses a threat to the   modified device maintains more than 94% of its initial value, while
+long-­term stability of PSCs (53). As shown in Fig. 3B, after continu-   the control device exhibits a decline in its PCE to the initial 43%
+ous solar irradiation for 1000 hours in a N2 atmosphere, substantial   after aging for 3000 hours. This favorable outcome has bolstered our
+diffusion of I− into the Ag electrode region occurs in the control de-   confidence in evaluating the operational stability of PSCs under ex-
+vices, while the PBAC-­modified devices exhibited much weaker   treme conditions. Under constant simulated AM 1.5 illumination
+diffusion, further indicating the inhibition of ion migration due to   (100 mW/cm2) conditions, we evaluated the operational stability of
+the interaction between PBAC and perovskite. In addition, evident   both the unpackaged control device and the PBAC-­modified device
+perovskite degradation fractures are observed in the control films after   by MPP tracking. As shown in Fig. 3D, after continuous testing for
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Downloaded
+                                                                                                                                                                                                      from
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                https://www.science.org
+                                                                                                   on
+                                                                                                                                                                                                                                                                                                                                                                                                           November
+                                                                                                                                                    19,
+                                                                                                                                                                                                      2026
+
+
+
+
+
+Fig. 3. Stability. (A) Top-­view SEM images of the control and PBAC-­modified perovskite films under fresh conditions and after aging under light soaking conditions.
+(B) Cross-­sectional images and corresponding energy-­dispersive spectroscopy mapping images of the control and PBAC-­modified perovskite films modified after aging
+for 1000 hours under continuous of 1-­sun illumination. (C) Humidity stability of the unencapsulated control and PBAC-­modified devices aged at room temperature under
+20 to 30% RH. (D) Stability evolution of the unencapsulated control and PBAC-­modified devices measured at MPP under continuous 1-­sun illumination in N2. (E) Exposure
+of the encapsulated control and PBAC-­modified devices to 85°C and 85% RH under dark conditions. The error bar is the SD of the three devices. Data are presented as
+means ± SEM.
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                              6 of 10
+--- Страница 7 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+1500 hours, the PBAC-­modified device sustains more than 96% of   the potential of this material to attenuate Pb leakage in devices. As
+its initial PCE at 25.50%, in contrast to the control device, which  shown in Fig. 4A, we  first observed the experimental image of
+degrades to 63% of its initial PCE at 23.40%. In addition, following   perovskite films immersed in water, and it can be seen that the con-
+damp heat aging for the encapsulated devices under 85°C and 85%    trol films rapidly decompose into PbI2 upon immersion in water,
+RH conditions, the control device markedly drops to 15% of its ini-   which becomes more evident after 2 min of immersion. Conversely,
+tial PCE after 1600 hours of aging; in contrast, the PBAC-­modified   because of the hydrophobic PBAC encapsulating the GBs, PBAC
+device preserves more than 80% of its initial PCE after 2000 hours of   perovskite films can maintain the black perovskite phase even after
+aging (Fig. 3E). In conclusion, GBs are prone to attack owing to the   immersion in water. In addition, the XRD patterns of perovskite
+presence of defects. Under extreme conditions involving humidity,   films after different durations of immersion in water (Fig. 4, B and C)
+light, and heat, GBs create channels for water molecule penetration   further confirm the effective protection of GBs by the polymer
+and ion migration, leading to accelerated degradation of perovskite   formed by PBAC. Subsequently, we characterized the perovskite
+(40, 54, 55).                                                            films immersed in water using UV-­vis spectroscopy, as shown in Fig.
+                                                             4D. The results indicate a decrease in the absorption intensity of the
+Pb leakage analysis of PSCs                                        reference perovskite film after 2 min of water immersion, accompa-
+Because of the robust coordination capability of PBAC with Pb2+ and   nied by the generation of PbI2, while the PBAC perovskite film main-
+the high humidity stability of PBAC perovskite films, we anticipate   tains the perovskite phase even after prolonged immersion without
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Downloaded
+                                                                                                                                                                                                      from
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                https://www.science.org
+                                                                                                   on
+                                                                                                                                                                                                                                                                                                                                                                                                           November
+                                                                                                                                                    19,
+                                                                                                                                                                                                      2026
+
+
+
+
+
+Fig. 4. Pb leakage analysis. (A) Photographs of water immersion measurements on control and PBAC-­modified perovskite films. (B and C) XRD patterns of aged perovskite
+films after (B) ~1 s and (C) ~2 min of water soaking. (D) UV-­vis spectra of the control and PBAC-­modified perovskite films before and after aging under deionized water
+immersion. (E) Variation in the Pb2+ concentration under room temperature conditions during immersion in deionized water. (F) Leaked lead concentration after immers-
+ing the PSCs with a different PBAC dosage into acidic water for 480 min. (G and H) TOF-­SIMS analysis of the PSCs (G) without and (H) with PBAC modification after aging
+for 1000 hours at 50 to 60% RH. ETL, electron transport layer; HTL, hole transport layer.
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                              7 of 10
+--- Страница 8 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+decomposing into PbI2. These findings suggest that the encapsula-   (99.0%) and ammonium persulfate [(NH4)2S2O8, >99.0%] were pur-
+tion of GBs by PBAC can effectively hinder direct contact and inter-   chased from Macklin Biochemical Technology Co. Ltd. Nickel oxide
+action between water and perovskite, preventing the collapse of the   (NiOx) was synthesized according to the previous work (58). The
+perovskite structure and thereby decelerating the escape of Pb2+ (56).   chemicals and solvents were used without undergoing additional pu-
+To further quantify the Pb2+ leaching rate, we conducted inductively    rification procedures.
+coupled plasma optical emission spectrometry (ICP-­OES) on a 5-­ml
+water solution containing devices, as illustrated in Fig. 4E. After im-   Device fabrication
+mersing the control devices at room temperature for 480 min, the   The ITO glass underwent cleaning in an ultrasonic bath sequential-
+Pb2+ concentration is 127.83 parts per million (ppm) (average),    ly with detergent, deionized water, acetone, and IPA. The ITO sub-
+while the PBAC devices under the same conditions exhibit a Pb2+   strates were then subjected to UV ozone exposure for 30 min. The
+concentration of 35.90 ppm (average), reducing nearly 72% lead  NiOx powder was dispersed in deionized water, resulting in a con-
+leakage in PSCs, confirming the effective reduction in lead leakage by   centration of 25 mg/ml after preparation and then followed by spin
+the polymer formed by PBAC. In addition, with an increase in PBAC   coating on the ITO substrates at 5000 rpm for 30 s. The NiOx films
+concentration, we observed a decreasing trend in Pb2+ concentration   underwent annealing on a heating plate at 150°C for 10 min in am-
+(Fig. 4F). Because of the higher concentrations, PBAC-­modified   bient air, followed by immediate transfer into a glove box. After that,
+perovskite films formed with increased hydrophobicity. We per-   a PTAA solution (2 mg in 1 ml of CB) was spin-­coated onto NiOx
+formed time-­of-­flight secondary ion mass spectrometry (TOF-­SIMS)   films at 6000 rpm for 30 s. Subsequently, following a 5-­min ultra-
+to investigate lead leakage in PSCs. After aging for 1000 hours at 50   sonication of the Al2O3 dispersion solution (0.4 wt % in IPA), it was
+to 60% RH, the control devices display a prominent lead signal at the   spin-­coated onto the PTAA films at 5000 rpm for 30 s. To prepare
+PCBM and the Ag electrode (Fig. 4G), indicating that the perovskite   the precursor solution of FA0.95Cs0.05PbI3 perovskite, 228.7 mg of
+is vulnerable to degradation into PbI2 and accelerates lead leakage   FAI, 18.2 mg of CsI, and 645.4 mg of PbI2 were dissolved in a mixed
+under high humidity (57). In contrast, the Pb signal intensity in the   solvent of DMF/DMSO (with a volume ratio of 4:1). The BAC mol-PBAC devices is low (Fig. 4H), confirming the trend of inhibited ion   ecule was added to the above solution (0 to 0.04 mM), and a small     Downloaded
+diffusion due to the stabilization of GBs by the PBAC under high  amount of (NH4)2S2O8, corresponding to 1 mol % of BAC, was si-                                                                                                                                                                                                      fromhumidity. In summary, the construction of a PBAC polymer at   multaneously introduced to facilitate the polymerization process.
+perovskite GBs not only prevents water erosion but also substantially   Afterward, spin coating the perovskite precursor solution onto the
+mitigates lead leakage in devices.                                glass/ITO/NiOx/PTAA/Al2O3 substrate occurred at 2000 rpm for
+                                                           10 s, followed by a subsequent spin coating at 4000 rpm for 40 s. In
+                                                                   the second spin-­coating step, 150 μl of CB was dropped onto the
+DISCUSSION                                                       perovskite film 5 s before the end of the program. The resultant wet
+In conclusion, we successfully developed a method for synthesizing   perovskite films were subjected to annealing at 100°C for a durationthe polymer PBAC by a low-­temperature thermally induced strate-   of 30 min. Following that, a solution with a concentration of 23 mg/           https://www.science.org
+gy. PBAC, which features numerous hydrogen bonds and functional  ml PC61BM in CB was applied to the perovskite films through spin on
+groups such as C═O and C─S, establishes strong interactions with   coating at 2500 rpm for 40 s. Following that step, a solution consist-
+perovskite, yielding high-­quality perovskite films with improved   ing of BCP (0.5 mg/ml) in IPA was spin-­coated onto the PC61BMcrystallinity, lower defect density, and inhibited ion migration. This   films at 5000 rpm for 30 s. The last step involved the thermal evapo-    November
+results in a substantial enhancement in the PCE and operational sta-   ration of a 100-­nm silver electrode under a vacuum of 5 × 10−5 Pa.  19,
+bility. The champion PCE of PBAC-­based PSCs reaches 25.53%                                                                                                                                                                                                      2026(0.1 cm2) and 24.03% (1.0 cm2). Furthermore, the modified PSCs   Characterization of perovskite films
+displayed a remarkable improvement in operational stability under   The surface morphology and cross section of the perovskite films
+MPP tracking, maintaining 96% of the initial value after 1500 hours.   were investigated through characterization using SEM (Apreo S
+In addition, after aging for 2000 hours at 85°C and 85% RH, more   HiVac FEI). The XRD patterns were obtained using a Rigaku Ultima
+than 80% of the initial PCE was retained. The polymer hydrophobic-   IV, which was equipped with Cu Kα radiation (λ = 1.5406). Using
+ity prevents Pb2+ from dissolving in water, effectively reducing lead   a Shimadzu UV3600 spectrophotometer, measurements were per-
+leakage. This work provides an effective approach to simultaneously   formed to obtain the UV-­vis absorption spectra of the perovskite
+prevent lead leakage and enhance the long-­term operational stabil-    films. Using the Nicolet iS50 FTIR spectrometer, FTIR spectra were
+ity of devices, thereby facilitating the widespread deployment of ef-   recorded. The Thermo Fisher Scientific ESCALAB 250Xi spectrome-
+ficient PSCs in clean energy applications.                                 ter was used for XPS measurements, using a monochromatic Al Kα
+                                                                  source with an energy of 1486.6 eV. The steady-­state PL spectra were
+                                                                  acquired using a fluorescence spectrometer (FLS1000, Edinburgh In-
+MATERIALS AND METHODS                                      struments Limited) with a 480-­nm excitation light source. TRPL
+Materials                                                            spectra were recorded on a fluorescence spectrophotometer (FLS1000,
+N,N′-­dimethylformamide (DMF; 99.8%), dimethyl sulfoxide (DMSO;   Edinburgh Instruments Limited) under the excitation of a pulsed la-
+99.8%), chlorobenzene (CB; >99.9%), isopropanol (IPA; 99.5%), and   ser with a wavelength of 450 nm.
+Al2O3-­dispersed solution (20 wt % in IPA) were purchased from
+Sigma-­Aldrich. FAI (99.9%), cesium iodide (CsI; 99.999%), and PbI2   Characterization of the solar cells
+(99.999%) were purchased from Advanced Election Technology Co.   The J-­V characteristics of devices were evaluated under ambient air
+Ltd. PTAA (molecular weight distribution: 6000 to 15,000) and BCP   conditions (with an RH of 30 to 50%) using a Newport-­2612A solar
+were purchased from Xi’an Polymer Light Technology Corp. BAC   simulator and a Keithley 2400 source meter. By using a black metal
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                              8 of 10
+--- Страница 9 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+mask, the effective area of the cell was established as either 0.1 or         heterojunction engineering at the buried interface towards high-­performance inverted
+1.0 cm2. The measurement of IPCE was conducted using the Newport         methylammonium-­free perovskite solar cells. Nat. Energy 8, 946–955 (2023).                                                                                                                     4.  X. Li, F. Zhang, H. He, J. J. Berry, K. Zhu, T. Xu, On-­device lead sequestration for perovskite
+instrument system (Newport-­74125), which was equipped with a          solar cells. Nature 578, 555–558 (2020).
+lock-­in amplifier and a 300-­W xenon lamp.                                               5. M. Yang, T. Tian, Y. Fang, W.-­G. Li, G. Liu, W. Feng, M. Xu, W.-­Q. Wu, Reducing lead toxicity of
+                                                                                                    perovskite solar cells with a built-­in supramolecular complex. Nat. Sustain. 6, 1455–1464
+Characterization of the device stability                                             (2023).
+The operational stability measurement of the unencapsulated de-        6.  L.S. Zhao,M. Zakeeruddin,P. Tang, D. Luo,A. Hagfeldt,M. I. Dar,J.F.Arbiol,T. Eickemeyer,W. Huang,N. Q.Arora,Gong,Q. T.Hu,P. Russell,J. Luo, Y.R.Liu,H. Friend,
+vices was conducted under a continuous 1-­sun illumination (a light-­        M. Grätzel, R. Zhu, Enabling full-­scale grain boundary mitigation in polycrystalline
+emitting diode lamp without UV filter) at 55° ± 5°C at MPP using          perovskite solids. Sci. Adv. 8, eabo3733 (2022).
+an MPP trace system (YH-­VMPP-­16) in a N2-­filled glove box for        7.  H. Wang, F. Ye, J. Liang, Y. Liu, X. Hu, S. Zhou, C. Chen, W. Ke, C. Tao, G. Fang, Pre-­annealing
+1500 hours. The evaluation of damp heat stability for encapsulated         treatment for high-­efficiency perovskite solar cells via sequential deposition. Joule 6,                                                                                     2869–2884 (2022).
+devices was carried out in a constant temperature and a humidity        8.  X. Chu, Q. Ye, Z. Wang, C. Zhang, F. Ma, Z. Qu, Y. Zhao, Z. Yin, H.-­X. Deng, X. Zhang, J. You,
+chamber (ZK-­301) under conditions of 85°C and 85% RH.                     Surface in situ reconstruction of inorganic perovskite films enabling long carrier lifetimes
+                                                                                 and solar cells with 21% efficiency. Nat. Energy 8, 372–380 (2023).
+1H and 13C NMR spectra measurements                                               9.  Q. Wang, B. Chen, Y. Liu, Y. Deng, Y. Bai, Q. Dong, J. Huang, Scaling behavior of
+Using the Bruker Advanced III 400 MHz spectrometer, 1H and 13C         moisture-­inducedEnviron. Sci. 10, 516–522grain degradation(2017).      in polycrystalline hybrid perovskite thin films. Energ.
+NMR spectra were obtained. The samples were dissolved in deu-     10.  G. Divitini, S. Cacovich, F. Matteocci, L. Cinà, A. Di Carlo, C. Ducati, In situ observation of
+terated DMSO.                                                                                 heat-­induced degradation of perovskite solar cells. Nat. Energy 1, 15012 (2016).
+                                                                                                     11.  K. Domanski, B. Roose, T. Matsui, M. Saliba, S.-­H. Turren-­Cruz, J.-­P. Correa-­Baena,
+AFM-­IR measurements                                                                         C. R. Carmona, G. Richardson, J. M. Foster, F. De Angelis, J. M. Ball, A. Petrozza, N. Mine,
+                                                                                      M. K. Nazeeruddin, W. Tress, M. Grätzel, U. Steiner, A. Hagfeldt, A. Abate, Migration of
+AFM-­IR experiments were conducted using the NanoIR3-­FS AFM          cations induces reversible performance losses over day/night cycling in perovskite solar
+test system, integrating nano-­FTIR with AFM. It features an AFM            cells. Energy Environ. Sci. 10, 604–613 (2017).microscope in contact mode and a quantum cascade laser (LS-­HS-­     12.  X. Zhao, T. Liu, Q. C. Burlingame, T. Liu, R. Holley III, G. Cheng, N. Yao, F. Gao, Y.-­L. Loo,                     Downloaded
+QCL). The IR measurement wave number is tunable within the         Accelerated aging of all-­inorganic, interface-­stabilized perovskite solar cells. Science 377,                                                                                     307–310 (2022).                                                                            fromrange of 800 to 1800 cm−1.                                                               13.  Y. Shi, E. Rojas-­Gatjens, J. Wang, J. Pothoof, R. Giridharagopal, K. Ho, F. Jiang, M. Taddei,
+                                                                                                                  Z. Yang, E. M. Sanehira, M. D. Irwin, C. Silva-­Acuña, D. S. Ginger, (3-­Aminopropyl)
+M-­S measurements                                                                       trimethoxysilane surface passivation improves perovskite solar cell performance by
+Under conditions of darkness, the M-­S measurement was executed         reducing surface recombination velocity. ACS Energy Lett. 7, 4081–4088 (2022).
+using the Chenhua electrochemical workstation (CHI 760E).               14.  C. Cheng, Y. Yao, L. Li, Q. Zhao, C. Zhang, X. Zhong, Q. Zhang, Y. Gao, K. Wang, A novel                                                                                                 organic phosphonate additive induced stable and efficient perovskite solar cells with
+                                                                                                             efficiency over 24% enabled by synergetic crystallization promotion and defect
+KPFM measurements                                                                         passivation. Nano Lett. 23, 8850–8859 (2023).KPFM measurements were carried out by sensing and counteracting     15.  X. Zhuang, D. Zhou, S. Liu, R. Sun, Z. Shi, L. Liu, T. Wang, B. Liu, D. Liu, H. Song, Learning                                 https://www.science.org
+the Coulombic forces between the probe (nanosensor, polymer-­based        from plants: Lycopene additive passivation toward efficient and “fresh” perovskite solar  on
+piezoresistive probe-­electrostatic force microscopy, chromium/gold     16. M.cellsWang,with Z.oxygenShi, C.andFei, ultravioletZ. J. D. Deng,resistance.G. Yang, Adv.S. P. Dunfield,Energy Mater.D. P. 12,Fenning,2200614J. Huang,(2022).
+coating) and the sample. This allowed for the determination of the       Ammonium cations with high pKa in perovskite solar cells for improved high-­contact potential difference between the probe and the sample.               temperature photostability. Nat. Energy 8, 1229–1239 (2023).                                                              November
+                                                                                                     17.  Y. Hou, X. Du, S. Scheiner, D. P. McMeekin, Z. Wang, N. Li, M. S. Killian, H. Chen, M. Richter,   19,
+TOF-­SIMS measurements                                                                                                                          I. Levchuk, N. Schrenker, E. Spiecker, T. Stubhan, N. A. Luechinger, A. Hirsch, P. Schmuki,
+                                                                                                                                                   H.-­P. Steinrück, R. H. Fink, M. Halik, H. J. Snaith, C. J. Brabec, A generic interface to reduce                                                                                                                                                                                                      2026The PHI nanoTOF II instrument was used for TOF-­SIMS measure-         the efficiency-­stability-­cost gap of perovskite solar cells. Science 358, 1192–1197 (2017).
+ments, using pulsed monoatomic ions from an oxygen ion beam     18.  C. Liu, X. Sun, Y. Yang, O. A. Syzgantseva, M. A. Syzgantseva, B. Ding, N. Shibayama,
+                                                                                                     H. Kanda, F. Fadaei Tirani, R. Scopelliti, S. Zhang, K. G. Brooks, S. Dai, G. Cui, M. D. Irwin,(1 keV) for sputtering and a pulsed Bi3++ ion beam (30 keV) for analysis.
+                                                                                                                  Z. Shao, Y. Ding, Z. Fei, P. J. Dyson, M. K. Nazeeruddin, Retarding solid-­state reactions
+ICP-­OES measurements                                                            enable efficient and stable all-­inorganic perovskite solar cells and modules. Sci. Adv. 9,                                                                                   eadg0087 (2023).
+ICP-­OES measurements were carried out on an Agilent 5110 (OES)     19.  T. Kaiser, Highly crosslinked polymers. Prog. Polym. Sci. 14, 373–450 (1989).
+to measure the Pb2+ concentration in water.                                       20.  C. Decker, K. Zahouily, Photodegradation and photooxidation of thermoset and UV-­cured
+                                                                                                         acrylate polymers. Polym. Degrad. Stab. 64, 293–304 (1999).
+                                                                                                     21.  X. Li, W. Zhang, Y.-­C. Wang, W. Zhang, H.-­Q. Wang, J. Fang, In-­situ cross-­linking strategy for
+Supplementary Materials                                                                        efficient9, 3806 (2018).and operationally stable methylammoniun lead iodide solar cells. Nat. Commun.
+This PDF file includes:                                                                                                     22.  Y. Wu, G. Xu, J. Xi, Y. Shen, X. Wu, X. Tang, J. Ding, H. Yang, Q. Cheng, Z. Chen, Y. Li, Y. Li, In
+Figs. S1 to S28                                                                                                                        situ crosslinking-­assisted perovskite grain growth for mechanically robust flexible
+Tables S1 to S6                                                                                                    perovskite solar cells with 23.4% efficiency. Joule 7, 398–415 (2023).
+                                                                                                     23.  Z. Chen, Q. Cheng, H. Chen, Y. Wu, J. Ding, X. Wu, H. Yang, H. Liu, W. Chen, X. Tang, X. Lu,
+REFERENCES AND NOTES                                                                                  Y. Li, Y. Li, Perovskite grain-­boundary manipulation using room-­temperature dynamic
+  1.  NREL, Best research-­cell efficiency chart (2024); https://nrel.gov/pv/cell-­efficiency.html.              self-­healing “ligaments” for developing highly stable flexible perovskite solar cells with
+  2.  S. Zhang, F. Ye, X. Wang, R. Chen, H. Zhang, L. Zhan, X. Jiang, Y. Li, X. Ji, S. Liu, M. Yu, F. Yu,          23.8% efficiency. Adv. Mater. 35, e2300513 (2023).
+       Y. Zhang, R. Wu, Z. Liu, Z. Ning, D. Neher, L. Han, Y. Lin, H. Tian, W. Chen, M. Stolterfoht,          24.  A. Babayigit, A. Ethirajan, M. Muller, B. Conings, Toxicity of organometal halide perovskite
+       L. Zhang, W.-­H. Zhu, Y. Wu, Minimizing buried interfacial defects for efficient inverted                solar cells. Nat. Mater. 15, 247–251 (2016).
+     perovskite solar cells. Science 380, 404–409 (2023).                                            25.  X. Liu, T. Wu, J.-­Y. Chen, X. Meng, X. He, T. Noda, H. Chen, X. Yang, H. Segawa, Y. Wang,
+  3.  H. Li, C. Zhang, C. Gong, D. Zhang, H. Zhang, Q. Zhuang, X. Yu, S. Gong, X. Chen, J. Yang,                L. Han, Templated growth of FASnI3 crystals for efficient tin perovskite solar cells. Energy
+      X. Li, R. Li, J. Li, J. Zhou, H. Yang, Q. Lin, J. Chu, M. Grätzel, J. Chen, Z. Zang, 2D/3D                      Environ.Sci. 13, 2896–2902 (2020).
+
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                              9 of 10
+--- Страница 10 ---
+S c i e n c e A d va n c e s  | R e s e a r c h A r t i c l e
+
+
+ 26.  Z. Zhang, Q. Sun, Y. Lu, F. Lu, X. Mu, S.-­H. Wei, M. Sui, Hydrogenated Cs2AgBiBr6 for              46.  G. Li, Z. Su, L. Canil, D. Hughes, M. H. Aldamasy, J. Dagar, S. Trofimov, L. Wang, W. Zuo,
+      significantly improved efficiency of lead-­free inorganic double perovskite solar cell. Nat.                 J. J. Jerónimo-­Rendon, M. M. Byranvand, C. Wang, R. Zhu, Z. Zhang, F. Yang, G. Nasti,
+    Commun. 13, 3397 (2022).                                                                                  B. Naydenov, W. C. Tsoi, Z. Li, X. Gao, Z. Wang, Y. Jia, E. Unger, M. Saliba, M. Li, A. Abate,
+ 27.  H. Li, X. Jiang, Q. Wei, Z. Zang, M. Ma, F. Wang, W. Zhou, Z. Ning, Low-­dimensional                 Highly efficient p-­i-­n perovskite solar cells that endure temperature variations. Science
+     inorganic tin perovskite solar cells prepared by templated growth. Angew. Chem. Int. Ed.           379, 399–403 (2023).
+      Engl. 60, 16330–16336 (2021).                                                                 47.  Y. Wu, Q. Wang, Y. Chen, W. Qiu, Q. Peng, Stable perovskite solar cells with 25.17%
+ 28.  F. Ji, J. Klarbring, F. Wang, W. Ning, L. Wang, C. Yin, J. S. M. Figueroa, C. K. Christensen,                 efficiency enabled by improving crystallization and passivating defects synergistically.
+     M. Etter, T. Ederth, L. Sun, S. I. Simak, I. A. Abrikosov, F. Gao, Lead‐free halide double               Energy Environ. Sci. 15, 4700–4709 (2022).
+     perovskite Cs2AgBiBr6 with decreased band gap. Angew. Chem. Int. Ed. Engl. 59,                48.  D. Luo, W. Yang, Z. Wang, A. Sadhanala, Q. Hu, R. Su, R. Shivanna, G. F. Trindade, J. F. Watts,
+     15191–15194 (2020).                                                                                     Z. Xu, T. Liu, K. Chen, F. Ye, P. Wu, L. Zhao, J. Wu, Y. Tu, Y. Zhang, X. Yang, W. Zhang,
+ 29.  Y. Liang, P. Song, H. Tian, C. Tian, W. Tian, Z. Nan, Y. Cai, P. Yang, C. Sun, J. Chen, L. Xie,                  R. H. Friend, Q. Gong, H. J. Snaith, R. Zhu, Enhanced photovoltage for inverted planar
+     Q. Zhang, Z. Wei, Lead leakage preventable fullerene-­porphyrin dyad for efficient and             heterojunction perovskite solar cells. Science 360, 1442–1446 (2018).
+      stable perovskite solar cells. Adv. Funct. Mater. 32, 2110139 (2022).                             49.  H. Min, S.-­G. Ji, S. I. Seok, Relaxation of externally strained halide perovskite thin layers
+ 30.  T. Wang, J. Yang, Q. Cao, X. Pu, Y. Li, H. Chen, J. Zhao, Y. Zhang, X. Chen, X. Li, Room                 with neutral ligands. Joule 6, 2175–2185 (2022).
+     temperature nondestructive encapsulation via self-­crosslinked fluorosilicone polymer         50.  H. Wang, C. Zhu, L. Liu, S. Ma, P. Liu, J. Wu, C. Shi, Q. Du, Y. Hao, S. Xiang, H. Chen, P. Chen,
+     enables damp heat-­stable sustainable perovskite solar cells. Nat. Commun. 14, 1342                    Y. Bai, H. Zhou, Y. Li, Q. Chen, Interfacial residual stress relaxation in perovskite solar cells
+      (2023).                                                                                  with improved stability. Adv. Mater. 31, e1904408 (2019).
+ 31.  E. A. Alharbi, A. Krishna, N. Lempesis, M. Dankl, I. Mosquera-­Lois, M. A. Hope,                   51.  X. Li, Z. Ying, J. Zheng, X. Wang, Y. Chen, M. Wu, C. Xiao, J. Sun, C. Shou, Z. Yang, Y. Zeng,
+       T. P. Baumeler, G. Kakavelakis, A. Mishra, F. T. Eickemeyer, O. Ouellette,                                 X. Yang, J. Ye, Surface reconstruction for efficient and stable monolithic perovskite/silicon
+       T. Chawanpunyawat, A. Hagfeldt, S. M. Zakeeruddin, L. Emsley, L. Pfeifer,                     tandem solar cells with greatly suppressed residual strain. Adv. Mater. 35, e2211962
+      U. Roethlisberger, M. Grätzel, Cooperative passivation of perovskite solar cells by                    (2023).
+     alkyldimethylammonium halide amphiphiles. Joule 7, 183–200 (2023).                         52.  G. F. Samu, C. Janáky, P. V. Kamat, A victim of halide ion segregation. How light soaking
+ 32.  C. Zhang, H. Li, C. Gong, Q. Zhuang, J. Chen, Z. Zang, Crystallization manipulation and               affects solar cell performance of mixed halide lead perovskites. ACS Energy Lett. 2,
+      holistic defect passivation toward stable and efficient inverted perovskite solar cells.            1860–1861 (2017).
+     Energy Environ. Sci. 16, 3825–3836 (2023).                                                      53.  S. G. Motti, D. Meggiolaro, A. J. Barker, E. Mosconi, C. A. R. Perini, J. M. Ball, M. Gandini,
+ 33.  C. Gong, C. Zhang, Q. Zhuang, H. Li, H. Yang, J. Chen, Z. Zang, Stabilizing buried interface         M. Kim, F. De Angelis, A. Petrozza, Controlling competing photochemical reactions
+      via synergistic effect of fluorine and sulfonyl functional groups toward efficient and                  stabilizes perovskite solar cells. Nat. Photonics 13, 532–539 (2019).      stable perovskite solar cells. Nanomicro Lett. 15, 17 (2022).                                     54.  C. Ding, L. Yin, J. Wang, V. Larini, L. Zhang, R. Huang, M. Nyman, L. Zhao, C. Zhao, W. Li,                Downloaded
+ 34.  K.-­W. Yeom, D.-­K. Lee, N.-­G. Park, Hard and soft acid and base (HSAB) engineering for               Q. Luo, Y. Shen, R. Österbacka, G. Grancini, C.-­Q. Ma, Boosting perovskite solar cells
+      efficient and stable Sn-­Pb perovskite solar cells. Adv. Energy Mater. 12, 2202496 (2022).              efficiency and stability: Interfacial passivation of crosslinked fullerene eliminates the       from
+ 35.  T. Yang, L. Gao, J. Lu, C. Ma, Y. Du, P. Wang, Z. Ding, S. Wang, P. Xu, D. Liu, H. Li, X. Chang,               “burn-­in” decay. Adv. Mater. 35, e2207656 (2023).
+        J. Fang, W. Tian, Y. Yang, S. Liu, K. Zhao, One-­stone-­for-­two-­birds strategy to attain beyond      55.  Y. Kang, R. Li, A. Wang, J. Kang, Z. Wang, W. Bi, Y. Yang, Y. Song, Q. Dong, Ionogel-­
+    25% perovskite solar cells. Nat. Commun. 14, 839 (2023).                                         perovskite matrix enabling highly efficient and stable flexible solar cells towards
+ 36.  N. Yan, Y. Gao, J. Yang, Z. Fang, J. Feng, X. Wu, T. Chen, S. Liu, Wide-­bandgap perovskite                fully-­R2R fabrication. Energy Environ. Sci. 15, 3439–3448 (2022).
+      solar cell using a fluoride-­assisted surface gradient passivation strategy. Angew. Chem.         56.  C. Ma, M.-­F. Lo, C.-­S. Lee, Stabilization of organometallic halide perovskite nanocrystals in
+       Int. Ed. Engl. 62, e202216668 (2023).                                                   aqueous solutions and their applications in copper ion detection. Chem. Commun. 54,
+ 37.  R. Wang, J. Xue, L. Meng, J.-­W. Lee, Z. Zhao, P. Sun, L. Cai, T. Huang, Z. Wang, Z.-­K. Wang,           5784–5787 (2018).
+       Y. Duan, J. L. Yang, S. Tan, Y. Yuan, Y. Huang, Y. Yang, Caffeine improves the performance         57.  S. Wu, Z. Li, M.-­Q. Li, Y. Diao, F. Lin, T. Liu, J. Zhang, P. Tieu, W. Gao, F. Qi, X. Pan, Z. Xu, Z. Zhu,    and thermal stability of perovskite solar cells. Joule 3, 1464–1477 (2019).                            A. K. Y. Jen, 2D metal-­organic framework for stable perovskite solar cells with minimized                     https://www.science.org
+ 38.  L. Chao, Y. Xia, X. Duan, Y. Wang, C. Ran, T. Niu, L. Gu, D. Li, J. Hu, X. Gao, J. Zhang, Y. Chen,           lead leakage. Nat. Nanotechnol. 15, 934–940 (2020).                    on
+      Direct and stable α-­phase formation via ionic liquid solvation for formamidinium-­based       58.  H. Zhang, J. Cheng, F. Lin, H. He, J. Mao, K. S. Wong, A. K. Y. Jen, W. C. H. Choy, Pinhole-­free
+     perovskite solar cells. Joule 6, 2203–2217 (2022).                                        and surface-­nanostructured NiOx film by room-­temperature solution process for
+ 39.  K. Kim, J. Han, S. Lee, S. Kim, J.-­M. Choi, J.-­S. Nam, D. Kim, I. Chung, T.-­D. Kim, S. Manzhos,           high-­performance flexible perovskite solar cells with good stability and reproducibility.       S. J. Choi, J. W. Song, D. S. Kim, J. Y. Do, I. Jeon, Liquid-­state dithiocarbonate-­based              ACS Nano 10, 1503–1511 (2016).                                                                                                                       November
+     polymeric additives with monodispersity rendering perovskite solar cells with                                                                                     19,
+     exceptionally high certified photocurrent and fill factor. Adv. Energy Mater. 13, 2203742     Acknowledgments: We would like to thank the Analytical and Testing Center of Chongqing
+      (2023).                                                                                      University for various measurements. We also thank Y. Yang from Shanghai Synchrotron                                                                                                                                                                                                      2026
+ 40.  C. Tian, B. Li, Y. Rui, H. Xiong, Y. Zhao, X. Han, X. Zhou, Y. Qiu, W. An, K. Li, C. Hou, Y. Li,             Radiation Facility (SSRF), Zhang Jiang Lab, Shanghai Advanced Research Institute, Chinese
+     H. Wang, Q. Zhang, In situ polymerizing internal encapsulation strategy enables stable        Academy of Sciences, Shanghai, P. R. China for GIWAXS measurements. Funding: This work
+     perovskite solar cells toward lead leakage suppression. Adv. Funct. Mater. 33, 2302270 (2023).   was financially supported by the Defense Industrial Technology Development Program
+ 41.  C. Luo, G. Zheng, X. Wang, F. Gao, C. Zhan, X. Gao, Q. Zhao, Solid–solid chemical bonding     (JCKY2017110C0654), the National Natural Science Foundation of China (11974063, 62204028,
+     featuring targeted defect passivation for efficient perovskite photovoltaics. Energy         and 62004019), the Natural Science Foundation of Chongqing (CSTB2022NSCQ-­MSX1514),
+      Environ. Sci. 16, 178–189 (2023).                                                and the China Postdoctoral Science Foundation (2022TQ0391 and 2022M710507). Author
+ 42.  X. Li, W. Zhang, X. Guo, C. Lu, J. Wei, J. Fang, Constructing heterojunctions by surface         contributions: Q.Z. and Z.Z conceived the project. Q.Z., H.L., C.Z., and C.G. prepared the
+      sulfidation for efficient inverted perovskite solar cells. Science 375, 434–437 (2022).         samples and devices. Q.Z. performed all other measurements except for GIWAXS
+ 43.  H. Zeng, L. Li, F. Liu, M. Li, S. Zhang, X. Zheng, L. Luo, S. You, Y. Zhao, R. Guo, Z. Gong,         measurements. Q.Z. wrote the first draft of the manuscript. Q.Z., Z.X., H.W., X.L., and Z.Z. wrote
+      R. Huang, Z. Li, T. Wang, Y. Cui, Y. Rong, X. Li, Improved performance and stability of          the final version of the manuscript. Z.Z. supervised the project. All authors analyzed the data
+     perovskite solar modules by regulating interfacial ion diffusion with nonionic             and contributed to the discussions. Competing interests: The authors declare that they have
+      cross-­linked 1D lead-­iodide. Adv. Energy Mater. 12, 2102820 (2022).                    no competing interests. Data and materials availability: All data needed to evaluate the
+ 44.  L. Cheng, K. Meng, Z. Qiao, Y. Zhai, R. Yu, L. Pan, B. Chen, M. Xiao, G. Chen, Tailoring           conclusions in the paper are present in the paper and/or the Supplementary Materials.
+      interlayer spacers for efficient and stable formamidinium-­based low-­dimensional
+     perovskite solar cells. Adv. Mater. 34, e2106380 (2022).                                  Submitted 18 February 2024
+ 45.  Z. Li, B. Li, X. Wu, S. A. Sheppard, S. Zhang, D. Gao, N. J. Long, Z. Zhu, Organometallic-­        Accepted 2 April 2025
+     functionalized interfaces for highly efficient inverted perovskite solar cells. Science 376,      Published 7 May 2025
+     416–420 (2022).                                                                      10.1126/sciadv.ado7318
+
+
+
+
+
+Zhuang et al., Sci. Adv. 11, eado7318 (2025)  7 May 2025                                                                             10 of 10
+--- Страница 11 ---
+   Molecular polymerization strategy for stable perovskite solar cells with low lead
+  leakage
+    Qixin Zhuang, Zhiyuan Xu, Haiyun Li, Cong Zhang, Cheng Gong, Huaxin Wang, Xiong Li, and Zhigang Zang
+
+
+    Sci. Adv. 11 (19), eado7318. DOI: 10.1126/sciadv.ado7318
+
+
+
+
+
+   View the article online
+    https://www.science.org/doi/10.1126/sciadv.ado7318
+   Permissions
+    https://www.science.org/help/reprints-and-permissions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Downloaded
+                                                                                                                                                                                           from
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  https://www.science.org
+                                                                                             on
+                                                                                                                                                                                                                                                                                                                                                                                      November
+                                                                                                                                            19,
+                                                                                                                                                                                           2026
+
+
+
+
+
+Use of this article is subject to the Terms of service
+
+Science Advances (ISSN 2375-2548) is published by the American Association for the Advancement of Science. 1200 New York Avenue
+NW, Washington, DC 20005. The title Science Advances is a registered trademark of AAAS.
+
+Copyright © 2025 The Authors, some rights reserved; exclusive licensee American Association for the Advancement of Science. No claim
+to original U.S. Government Works. Distributed under a Creative Commons Attribution License 4.0 (CC BY).

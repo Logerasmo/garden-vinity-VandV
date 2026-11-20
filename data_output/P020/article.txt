@@ -1,0 +1,835 @@
+--- Страница 1 ---
+Journal of Physics
+Communications
+
+
+
+PAPER • OPEN ACCESS                                     You may also like
+
+                                                                                                                                                                   - Electrowetting-based microfluidic
+Optoelectronic optimization of graded-bandgap                operations on rapid-manufactured devices
+                                                                                                                                             for heat pipe applications
+CdTeSe thin-film solar cells                                              Renee S Hale and Vaibhav Bahadur
+                                                                                                                                                                   - Impact of Majorana fermions on the Kondo
+                                                                                                                              state in the carbon nanotube quantum dot
+To cite this article: Faiz Ahmad et al 2025 J. Phys. Commun. 9 055008                           D Krychowski
+
+                                                                                                                                                                   - Graded bandgap design in CZTS solar
+                                                                                                                                                cells: comparative modeling of gradient
+                                                                                                                             architectures for enhanced photovoltaic
+                                                                                                           performance
+View the article online for updates and enhancements.                                                Lakshmana Kumar M, Lakshmi Prasanna
+                                                                                                                                             J, Atul Kumar et al.
+
+
+
+
+
+                            This content was downloaded from IP address 185.26.50.150 on 19/11/2026 at 10:18
+--- Страница 2 ---
+                                  J. Phys. Commun. 9 (2025) 055008                                                     https://doi.org/10.1088/2399-6528/addbc0
+
+
+
+
+
+              PAPER
+
+           Optoelectronic optimization of graded-bandgap CdTeSe thin-ﬁlm
+OPEN ACCESS     solar cells
+
+RECEIVED
+26 February 2025       Faiz Ahmad1,2    , Akhlesh Lakhtakia1  and Peter B Monk2
+REVISED                        1 NanoMM–Nanoengineered Metamaterials Group, Department of Engineering Science and Mechanics, The Pennsylvania State15 May 2025
+                           University, University Park, PA 16802-6812, United States of America
+ACCEPTED FOR PUBLICATION      2 Department of Mathematical Sciences, University of Delaware, Newark, DE 19716, United States of America
+21 May 2025
+PUBLISHED               E-mail: akhlesh@psu.edu
+2 June 2025
+                    Keywords: CdTe solar cell, bandgap grading, optoelectronic optimization, thin-ﬁlm solar cell
+
+                     Supplementary material for this article is available online
+Original content from this
+work may be used under
+the terms of the Creative
+Commons Attribution 4.0
+licence.            Abstract
+Any further distribution of Recent research on CdTeSe thin-ﬁlm solar cells has indicated that front-junction grading suppresses
+this work must maintain
+attribution to the       nonradiative recombination and improves carrier collection, thereby improving the solar-cell
+author(s)        and             the                      title of   efﬁciency. However, a comprehensive study encompassing different bandgap-grading proﬁles—suchthe work,         journal                  citation
+and DOI.            as linear, nonlinear, and piecewise homogeneous—is required to fully understand their impact on
+                 device performance. Hence, detailed optoelectronic simulations of these solar cells were performed to
+                determine the effects of compositional grading and absorbing-layer thickness on power-conversion
+                  efﬁciency. The transfer-matrix method was used to calculate the electron-hole-pair (EHP) generation
+                    rate, and a one-dimensional drift-diffusion model was used to determine the EHP recombination
+                    rate, open-circuit voltage, short-circuit current density, power-conversion efﬁciency, and ﬁll factor.
+                Optimization using the differential evolution algorithm indicates that linearly and nonlinearly graded
+              CdTeSe photon-absorbing layers of 3000 nm thickness can deliver an efﬁciency of 21.79% and
+               21.22%, respectively, when the selenium-to-tellurium ratio is not allowed to exceed 2/3. Also, the
+                 simulations indicate that a two-layered piecewise-homogeneous CdTeSe photon-absorbing layer,
+                with a thickness of 3000 nm, can deliver 22.13% efﬁciency. If higher selenium content is permitted,
+                 the maximum efﬁciency attainable rises to 24.68%.
+
+
+                  1. Introduction
+
+                Thin-ﬁlm solar cells (TFSCs) with a cadmium-telluride (CdTe) photon-absorbing layer are the second most
+             common solar cells in the global marketplace after crystalline-silicon (c-Si) solar cells [1]. Although CdTe
+                TFSCs’ performance has improved signiﬁcantly in last two decades, their power-conversion efﬁciency (denoted
+                by η) is still far below the Shockley–Queisser (SQ) limit. While η reaches 82% of the SQ limit of c-Si solar cells,
+                η is still restricted to 68% of the SQ limit for CdTe TFSCs [2], the SQ limit for CdTe TFSCs being 32.7% [2].
+                  The primary η-limiting factors for CdTe TFSCs are: (i) small charge-carrier lifetimes; (ii) low charge-carrier
+                    densities [3]; and (iii) low open-circuit voltage Voc [3, 4] caused by radiative and non-radiative recombination
+                    that occurs through band tails, defects, and lower-bandgap states causing sub-bandgap absorption [1]. Also,
+                     interfacial recombination and the charge-carrier selectivity of the back-contact lower both Voc and η [4].
+                Another limiting factor for large-scale production and reduction of the levelized cost of electricity (LCoE) with
+              CdTe TFSCs is the scarcity of tellurium [5].
+                  The incorporation of selenium (Se) into CdTe to create the ternary alloy CdTe1−ξSeξ (CdTeSe) [4, 6, 7] has
+                been found to increase the short-circuit current density Jsc [8], passivate CdTe grains and grain boundaries [7],
+                and drastically increase the minority carrier lifetime [4, 9]. Munshi et al [8] demonstrated polycrystalline
+               CdTeSe/CdTe solar cells achieving a record 19.1% efﬁciency with Jsc = 28.4 mA cm−2. Shah et al [10]
+                    investigated the role of CdTe in polycrystalline CdTeSe/CdTe graded bilayer photovoltaic devices, achieving
+
+
+
+              © 2025 The Author(s). Published by IOP Publishing Ltd
+--- Страница 3 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+efﬁciencies over 19% by leveraging CdTe as an electron reﬂector. Incorporation of a higher-bandgap CdTe layer
+behind a lower-bandgap CdTeSe photon-absorbing layer enhances Voc while maintaining Jsc. A bandgap
+gradient near the front junction by incorporating oxygenated CdS and CdSe layers, forming a penternary Cd(O,
+S,Se,Te) region was studied by Li et al [11]. The consequent reduction of nonradiative recombination at the front
+interface increased η to 20.03%. Cai et al [12] fabricated a graded CdTeSe solar cell with maximum efﬁciency of
+16.4% using pre-oxidized CdTeSe powder sources to suppress Te sublimation in oxygen-free environments,
+thereby enabling higher Se incorporation via metastable hexagonal CdTeSe phases and thus demonstrating a
+promising pathway for controlled Se alloying in CdTe photovoltaics.
+   These studies indicate the critical role of bandgap grading in enhancing efﬁciency, but bandgap grading,
+especially of the nonlinear variety, of the photon-absorbing layer has not been studied in any signiﬁcant detail.
+Hence, a comprehensive study comprising different bandgap-grading proﬁles—including linear, nonlinear, and
+piecewise homogeneous—is required to fully understand the impact of bandgap grading on the device
+performance. In addition to research on increasing minority-carrier lifetimes and reducing defect density,
+therefore, innovative designs based on thinning the photon-absorbing layer and optimal bandgap grading of
+that layer are also required to realize efﬁcient CdTeSe solar cells and further reduce the LCoE.
+  We have developed a coupled optoelectronic model comprising a photonic submodel and an electrical
+submodel to predict the efﬁciency of graded-bandgap TFSCs [13, 14]. Using this model, we have predicted that
+an optimal nonlinearly graded-bandgap photon-absorbing layer can signiﬁcantly enhance the efﬁciencies of
+CIGS [13, 15, 16] and CZTSSe [17] TFSCs. A MATLABTM implementation of the model is available from
+GitHub via https://github.com/nibj/SolarCellSimulator.git.
+   In view of the commercial signiﬁcance of CdTe TFSCs and the promise of bandgap grading, we report here
+the results of our optoelectronic simulations of TFSCs with a graded-bandgap CdTeSe photon-absorbing layer
+in order to determine the optimal bandgap-grading proﬁle and thickness of that layer. The thickness was varied
+from 200 nm to 3000 nm. The bandgap was taken to vary either linearly, nonlinearly, or in a piecewise
+homogeneous way in the thickness direction. Since CdTeSe transitions from the zincblende phase to the
+wurtzite phase when the compositional parameter ξ exceeds 0.4 [18] and the wurtzite phase is currently held to
+be unsuitable for photovoltaic applications due to low photoactivity [19], we initially optimized for ξ  0.4 and
+then for ξ  1. Interfacial and grain-boundary recombination were ignored in favor of bulk recombination in
+our study.
+   This paper is organized as follows. Section 2 describes the optoelectronic simulation of TFSCs in brief.
+Numerical results are presented and discussed in section 3. Section 3.1 validates the model-predicted efﬁciency
+of a CdTeSe TFSC with a homogeneous, 3000-nm-thick photon-absorbing layer against available experimental
+data. Section 3.2 presents the results for the zincblende phase of CdTeSe and is divided into four subsections.
+Section 3.2.1 provides optimal results for TFSCs with a homogeneous CdTeSe photon-absorbing layer and
+section 3.2.2 for TFSCs with a linearly graded CdTeSe photon-absorbing layer. Optimal results for TFSCs with a
+nonlinearly graded-bandgap CdTeSe photon-absorbing layer are discussed in section 3.2.3. Section 3.2.4
+provides the optimal results for TFSCs with a piecewise-homogeneous graded CdTeSe photon-absorbing layer.
+In order to spur technological developments to enlarge photovoltaic applications to span ξ ä [0, 1], section 3.3
+provides model predictions for that range of the compositional parameter ξ. The paper ends with some remarks
+in section 4.
+
+
+2. TFSC simulations
+
+A schematic of a MgF2/FTO/ITO/CdS/CdTe(CdTeSe)/ZnTe/Au TFSC [20] is depicted in ﬁgure 1. The
+110-nm-thick MgF2 layer acts as an antireﬂection coating. Electrons are collected in the 80-nm-thick ﬂuorine-
+doped tin-oxide (FTO) layer, FTO being a transparent conducting oxide. The 70-nm-thick layer of indium-
+doped tin oxide (ITO) and the 50-nm-thick layer of cadmium sulﬁde (CdS) function as n-type semiconductors.
+The photon-absorbing layer is made of the p-type semiconductor CdTe (or CdTeSe), its thickness
+Ls ä [200, 3000] nm. The 300-nm-thick ZnTe and the 50-nm-thick Au layers serve as both the back-contact and
+an optical reﬂector. The illuminated surface of the solar cell is the plane z = 0, and the total thickness of the solar
+cell is denoted by Lt. The band diagram of the FTO/ITO/CdS/CdTe region of a CdTe TFSC is presented in
+ﬁgure S1 of Supplementary Information. The band diagram was extracted under steady-state conditions.
+
+
+2.1. Coupled optoelectronic model and optimization
+In the coupled optoelectronic model, the photonic submodel implements the standard transfer-matrix method
+[21] to determine the photon-absorption rate as a function of z everywhere inside the TFSC, assuming normal
+illumination by unpolarized polychromatic light endowed with the AM1.5G solar spectrum [22]. The
+formulation of the coupled optoelectronic model can be found elsewhere [23], together with numerical
+
+                                     2
+--- Страница 4 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+
+
+
+   Figure 1. Schematic of a CdTe (or CdTeSe) TFSC fabricated in a superstrate conﬁguration on soda-lime glass (not shown here).
+
+
+
+convergence studies. The photonic calculations were made for the free-space wavelength λ0 of light ranging
+from 300 nm to 1000 nm.
+   The real and imaginary parts of the relative permittivity εr(λ0) = ε(λ0)/ε0 were calculated for CdTeSe as
+functions of λ0 by applying Vegard’s law [24] to the data available for CdTe [25] and CdSe [26] and are provided
+in ﬁgure S2 of Supplementary Information, ε(λ0) being the wavelength-dependent permittivity and
+ε0 = 8.854 × 10−12 F m−1 being the permittivity of free space. Spectra of the real and imaginary parts of the
+relative permittivity εr of MgF2 [27], FTO [28], ITO [28], CdS [25], ZnTe [29], and Au [30] used in our
+calculations are directly taken from experimentally reported studies and displayed in ﬁgure S3 of
+Supplementary Information.
+   With the photon-absorption rate taken to equal the electron-hole-pair (EHP) generation rate G(z) in the
+semiconductor layers, an external voltage Vext applied across the contacts drives the electric current in the TFSC
+[31]. The FTO/ITO/CdS/CdTeSe region (Lw < z < Ld in ﬁgure 1) was incorporated in the electrical submodel,
+as all four layers contribute to charge-carrier generation. The bulk recombination mechanisms—radiative and
+Shockley–Read–Hall—were incorporated into the electrical submodel. Auger recombination in CdTe is
+generally considered negligible at typical doping densities below 1018 cm−3 [32] and was therefore neglected in
+this study. Although interfacial defects can play an important role, they are considered negligible compared to
+bulk defects [32], and were therefore omitted from this analysis.
+   The electrical parameters used for all four semiconductor layers [20, 33–36] are provided in table S1 of
+Supplementary Information. The electron afﬁnity of CdSe varies in the literature, with reported values ranging
+from approximately 3.9 eV to 5.1 eV [33–36]. This variability arises due to differences in crystal structure (zinc
+blende versus wurtzite), surface orientation, doping levels, and fabrication methods. To comply with the
+ionization potential theory–which states that the ionization potential of CdSe should be higher than that of
+CdTe–we adopted a value of 4.56 eV [35] for the electron afﬁnity of CdSe in all simulations.
+   The drift-diffusion equations governing the number densities and ﬂuxes of electrons and holes, together
+with the dc electric potential in the semiconductor layers are described in detail by Anderson et al [23]. We used
+boundary conditions at the top plane (z = Lw) and the bottom plane (z = Ld) of the semiconductor region
+assuming ideal ohmic contacts, with the addition of an externally applied voltage Vext on one contact. We elected
+to use quasi-Fermi potentials to represent the number densities of electrons and holes so as to ensure that both of
+the latter quantities are always positive. The derivation of the resulting partial differential equations is provided
+by Ahmad et al [13]. To develop a special staggered ﬁnite-difference method [37] for these partial differential
+equations, we approximated the quasi-Fermi levels at the mid-point of each mesh interval, while the ﬂuxes were
+approximated at the mesh nodes. To enforce numerical continuity of the quasi-Fermi potentials at mesh nodes,
+we developed an approximate integral representation of the quasi-Fermi potential away from the mid-point of a
+mesh interval and used it to enforce continuity at the mesh nodes, effectively upwinding the equations. This
+process is described in detail elsewhere [13]. The discretization of the ﬂux equations is based on standard central
+ﬁnite differences and so the overall scheme is expected to have a second-order local truncation error [37].
+   As a result, using Newton’s method [13] to solve the ﬁnite-difference equations, we can determine the
+current density Jdev (by combining the predicted ﬂuxes of electrons and holes) and the power density P = JdevVext
+as functions of the applied voltage Vext. The Jdev–Vext and the P--Vext curves yield the short-circuit current
+density Jsc along with Voc and η.
+   For completeness, a convergence study for the problem in this paper was performed by solving the drift-
+diffusion model on increasingly reﬁned grids. The error in the computed efﬁciency with various mesh widths h
+
+                                     3
+--- Страница 5 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+was determined by comparing to the efﬁciency for a reference solution on a very ﬁne mesh. As shown in ﬁgure S5
+in Supplementary Information, the error decreases as the mesh is reﬁned at almost second order, validating the
+ﬁnite-difference implementation.
+   The TFSC can then be improved using the differential evolution algorithm (DEA) [38] to determine the
+design with the highest value of η. The DEA helps avoid local minima but involves many evaluations of η for
+different combinations of design parameters.
+
+
+2.2. Bandgap energy of CdTeSe
+The bandgap energy of CdTe1−ξSeξ alloy varies parabolically with composition, following the equation [33, 39]:
+
+                   E g ( x ) = E CdSeg   x + E CdTeg    ( 1 - x ) - b x ( 1 - x ) ,                                    ( 1)
+
+where ECdSeg  = 1.7 eV represents the bandgap of CdSe, ECdTeg  = 1.5 eV represents the bandgap of CdTe, and
+b = 0.75 is the bowing parameter. Since Eg Î (1.4, 1.5) eV does not correspond to a unique composition, the
+simulation was performed using ξ by determining the lowest positive root of equation (1) to ensure the
+preservation of the zincblende phase in the CdTeSe photon-absorbing layer. The bandgap energy of CdTe1−ξSeξ
+as a function of ξ is shown in ﬁgure S4 of Supplementary Information.
+
+
+2.3. Bandgap grading
+The linearly nonhomogeneous bandgap energy of the CdTeSe photon-absorbing layer for forward grading was
+modeled as
+
+                                                            z - L1              E g ( z ) = E g,min + A ( E g,max - E g,min )             ,      z Î [ L1, L d ] ,                          ( 2)
+                                               L s
+
+
+where Eg,min is the minimum bandgap energy; Eg,max is the maximum bandgap energy; A is an amplitude, with
+A = 0 representing a homogeneous layer; L1 = 360 nm is the total thickness of the MgF2, FTO, ITO, and CdS
+layers; and Ld = L1 + Ls. The linearly nonhomogeneous bandgap energy for backward grading was modeled as
+                                                            z - L1              E g ( z ) = E g,max - A ( E g,max - E g,min )             ,      z Î [ L1, L d ] .                         ( 3)
+                                               L s
+
+With the constraint ξ  0.4, the parameter space for optimization of η was ﬁxed as follows: A ä [0, 1],
+Eg,min Î [1.4, 1.5]  eV and Eg,max Î [1.4, 1.5] eV such that Eg,max  Eg,min . With ξ  1, the parameter space
+was changed to: A ä [0, 1], Eg,min Î [1.4, 1.7]  eV and Eg,max Î [1.4, 1.7] eV with the condition
+Eg,max  Eg,min . Note that ξ = 0 gives a predicted value of Eg = 1.5 eV, ξ = 0.4 gives Eg = 1.4 eV, and ξ = 1
+gives Eg = 1.7 eV.
+   The nonlinearly varying bandgap energy was modeled with the help of a sinusoidal function as
+
+           E g ( z ) = E g,min + A ( E g,max - E g,min )
+                                                            a
+             ´ ⎧ 1 ⎡sin ⎜⎛ 2pK z - L                                                          1 - 2py ⎟⎞ + 1⎤ ⎫   ,      z Î [ L1, L d ] ,                      ( 4)
+                                      ⎨⎩ 2 ⎣⎢   ⎝     L                                                                            s         ⎠       ⎦⎥ ⎬⎭
+
+
+where ψ ä [0, 1] quantiﬁes a relative phase shift, K is the number of periods in the CdTeSe layer, and α > 0 is a
+shaping parameter. These parameters offer control over both the amplitude and shape of the nonlinear bandgap
+proﬁle of CdTeSe photon-absorbing layer. The parameter ψ introduces a lateral shift in the grading proﬁle,
+thereby adjusting the spatial position of the regions with higher and lower bandgap energies. The period
+parameter K controls the number of crests and troughs in the CdTeSe photon-absorbing layer. The parameter α
+inﬂuences the gradient spread, determining the sharpness or smoothness of the transition between high- and
+low-bandgap energy regions. Identifying an optimal combination of these parameters enables the design of a
+tailored bandgap proﬁle that promotes efﬁcient charge-carrier transport and minimizes recombination losses
+within the photon-absorbing layer, ultimately enhancing device performance [40].
+   With the constraint ξ  0.4, the parameter space for optimization of η was ﬁxed as follows: A ä [0, 1],
+Eg,min Î [1.4, 1.5]  e V , Eg,max Î [1.4, 1.5]  e V , α ä [0, 8], K ä [0, 8], and ψ ä [0, 1]. For ξ  1, the parameter
+space was enlarged to incorporate Eg,min Î [1.4, 1.7]  e V and Eg,max Î [1.4, 1.7]  e V such that
+Eg,max  Eg,min . Additional parameters (input variables) with nonlinear bandgap grading expand the parameter
+space for optimization, which in turn increases the computational cost and time required for optimization. The
+DEA has demonstrated strong robustness and remains unaffected by the expansion of the parameter space,
+maintaining stable performance even as the number of variables increases.
+
+                                     4
+--- Страница 6 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+
+                      Table 1. Comparison of Jsc, Voc, FF, and η predicted by the coupled optoelectronic
+                    model and experimental results for a TFSC with a homogeneous CdTe (i.e., ξ = 0)
+                       photon-absorbing layer [20].
+
+                                                                                               Jsc
+                                             ξ    Eg,min    (mA cm−2)     Voc      FF       η
+                                                   (eV)                  (mV)    (%)      (%)
+
+
+
+                       Experimental [20]     0     1.5        25.50         831       77.40     16.40
+
+                    Model              0     1.5        25.41         889       81.94     18.51
+
+
+
+Table 2. Predicted parameters of the optimal TFSC when the 3000-nm-thick CdTeSe photon-absorbing layer is either homogeneous,
+linearly graded, or nonlinearly graded along the thickness direction. The change in η relative to the homogeneous-bandgap case is also
+tabulated.
+
+                                                                                                      Jsc
+Grading type      Eg,min   Eg,max   A   α   K    ψ   (mA cm−2)     Voc     FF      η       Relative change in η
+                      (eV)      (eV)                                     (mV)    (%)     (%)          (%)
+
+
+
+Homogeneous         1.4   —  —  —  —  —       28.73       818     83.93    19.72
+
+Linear (Backward)      1.4        1.5      0  —  —  —       28.73       818     83.93    19.72           0
+
+Linear (Forward)       1.4        1.5      1  —  —  —       28.52       884     86.62    21.79          10.49
+
+Nonlinear              1.4        1.5      1     1     1.5    0.6       27.99       876     86.51    21.22           7.60
+
+
+
+3. Results and discussion
+
+3.1. Model validation
+First, we validated our coupled optoelectronic model by simulating a conventional MgF2/FTO /ITO/CdS/
+CdTe/ZnTe/Au solar cell containing a 3000-nm-thick homogeneous CdTe photon-absorbing layer [20]. The
+simulated values of Jsc, Voc, the form factor FF, and η for ξ = 0 (Eg = 1.5 eV) are presented in table 1, alongside
+the corresponding experimental data [20]. Our model’s predictions are in reasonable agreement with the
+experimental data, the differences being due very likely to variances between the optical and electrical properties
+used in the model and those realized in practice.
+
+
+3.2. Optimization for zincblende phase (ξ  0.4)
+3.2.1. Homogeneous bandgap
+We then carried out the optoelectronic optimization of TFSCs with a homogeneous CdTeSe photon-absorbing
+layer. The parameter space for optimizing η was set up as: Ls ä [100, 3000] nm and Eg Î [1.4, 1.5] eV. The
+maximum efﬁciency predicted is 19.72%, which was obtained with Ls = 3000 nm and Eg = 1.4 eV (ξ = 0.4).
+The values of Jsc, Voc, and FF corresponding to this optimal design are 28.73 mA cm-2, 818 mV, and 83.93%,
+respectively.
+   In the literature, the champion CdTeSe TFSC fabricated was reported to deliver Jsc = 31.40 mA cm-2,
+Voc = 899 mV, FF = 79.30%, and η = 22.4% [41]. Unfortunately, we are unable to validate our model against
+this TFSC due to the unavailability of its exact design.
+
+
+3.2.2. Linear bandgap grading
+Next, we maximized η by linearly grading the bandgap energy of the CdTeSe photon-absorbing layer, using
+either equation (2) or equation (3). The resulting optimal values of Jsc, Voc, FF, and η are summarized in table 2,
+along with the associated parameters Eg,min , Eg,max , and A.
+   Backward grading yielded a maximum efﬁciency of 19.72% with Eg,min = 1.4 eV, Eg,max = 1.5 eV, A = 0,
+and Ls = 3000 nm. This result matches the efﬁciency reported in section 3.2.1 for the homogeneous-bandgap
+case, with no change observed in the values of Jsc, Voc, and FF.
+   With forward grading, the maximum efﬁciency predicted is 21.79% with Eg,min = 1.4 eV, Eg,max = 1.5 eV,
+A = 1.0, and Ls = 3000 nm. This represents a 10.49% relative improvement over the 19.72% efﬁciency achieved
+with a homogeneous photon-absorbing layer of the same thickness. The optimal design delivers Jsc = 28.52 mA
+cm-2, Voc = 884 mV, and a ﬁll factor of 86.62%. While Jsc remains nearly identical to that for the homogeneous-
+bandgap case, Voc shows a notable 8.07% increase.
+
+                                     5
+--- Страница 7 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+
+
+
+   Figure 2. (a) Spatial proﬁles of (a) Eg , (b) n(z) and p(z), and (c) G(z) and R(n, p;z) in the FTO/ITO/CdS/CdTeSe region of the optimal
+  CdTeSe TFSC with a 3000-nm-thick linearly graded-bandgap CdTeSe layer described by equation (2). (d) Plots of Jdev and P versus
+   Vext for the same TFSC.
+
+
+    Figure 2(a) illustrates the spatial variation of the bandgap energy Eg (z ) obtained through optoelectronic
+optimization for the TFSC with a linearly graded CdTeSe absorber. The corresponding proﬁles of the steady-
+state electron density and hole density—i.e., n(z) and p(z)—are shown in ﬁgure 2(b). Figure 2(c) depicts the
+proﬁles of the EHP generation rate G(z) and the EHP recombination rate R(n, p;z). The generation rate is highest
+near the front surface and slightly decreases toward the center of the CdTeSe layer, while the recombination rate
+drops signiﬁcantly near the back surface. The Jdev–Vext and P–Vext characteristics are plotted in ﬁgure 2(d). From
+this ﬁgure, Jdev = 27.47 mA cm−2 and Vext = 793 mV for best performance.
+
+
+3.2.3. Nonlinear bandgap grading
+We went on to maximize η by nonlinearly grading the bandgap energy of the CdTeSe photon-absorbing layer,
+using equation (4). The resulting optimal values of Jsc, Voc, FF, and η are summarized in table 2, along with those
+of the associated parameters Eg,min , Eg,max , A, α, K, and ψ.
+   An efﬁciency of 21.22% is achieved with the parameters Eg,min = 1.4 eV, Eg,max = 1.5 eV, A = 1.0, α = 1,
+K = 1.5, and ψ = 0.6. This represents a 7.60% improvement over the maximum efﬁciency of 19.72% obtained
+with a homogeneous CdTeSe layer of the same thickness. For this optimal design, the corresponding values of
+Jsc, Voc, and FF are 27.99 mA cm−2, 876 mV, and 86.51%, respectively.
+   The maximum efﬁciency achievable with a nonlinearly graded photon-absorbing layer is nearly the same as
+that with a linearly graded photon-absorbing layer. While the short-circuit current density is marginally greater
+for the linearly graded layer compared to the nonlinearly graded layer, the open-circuit voltage is slightly lower
+for the linearly graded layer. We conclude that both linearly and nonlinearly graded CdTeSe photon-absorbing
+layers result in notably higher efﬁciency than a homogeneous CdTeSe photon-absorbing layer.
+    Figure 3(a) shows the spatial variation of Eg (z ) obtained through optoelectronic optimization of the TFSC
+featuring the optimal nonlinearly graded CdTeSe absorber layer. While this proﬁle closely resembles its
+counterpart for optimal linear grading in ﬁgure 2(a), it is not the same. Whereas the proﬁles of n(z) and p(z) are
+illustrated in ﬁgures 3(b), (c) provides the proﬁles of G(z) and R(n, p;z). The generation rate is higher near the
+front face and and slightly lower in the middle of the CdTeSe layer, while the recombination rate declines sharply
+near the rear surface; similar trends are evident for the linear-grading case in ﬁgure 2(c). The Jdev–Vext and P–Vext
+characteristics plotted in ﬁgure 3(d) yield Jdev = 26.85 mA cm−2 and Vext = 790 mV for best performance.
+
+
+3.2.4. Piecewise-homogeneous grading
+The continuous variation of Eg (z ) with z in the CdTeSe layer helps in capturing a wider solar spectrum [42] and
+creating an additional drift ﬁeld for better collection of charge carriers [43]. However, a continuously varying
+
+                                     6
+--- Страница 8 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+
+
+
+   Figure 3. (a) Spatial proﬁles of (a) Eg , (b) n(z) and p(z), and (c) G(z) and R(n, p;z) in the FTO/ITO/CdS/CdTeSe region of the optimal
+   CdTeSe TFSC with a 3000-nm-thick nonlinearly graded-bandgap CdTeSe layer described by equation (4). (d) Plots of Jdev and P
+   versus Vext for the same TFSC.
+
+
+
+Eg (z ) introduces manufacturing complexities [44], thereby increasing the cost. An alternative approach to gain
+the advantages of bandgap grading without adding manufacturing complexity and cost is to employ piecewise-
+homogeneous grading of the photon-absorbing layer, as has been shown for CIGS TFSCs [16].
+   Hence, we implemented piecewise-homogeneous grading of the CdTeSe photon-absorbing layer. This layer
+was divided into nsub sublayers, each of unknown thickness Lj and uniform bandgap energy Egj . The quantities
+{Eg j , L j }nj =sub1 were determined by optimizing η subject to the constraints (i) Egj Î [1.4, 1.5] eV for j ä [1, nsub]
+and (ii) å nj =sub1 L j  3000 nm.
+   Optimal values of Jsc, Voc, FF, and η for nsub ä {1, 2, 3, 5, 7} are presented in table 4. The table also includes
+values of Egj and Lj for the nsub sublayers.
+   The highest efﬁciency is achieved with two sublayers (i.e., nsub = 2), requiring Eg1 = 1.4 eV, Eg2 = 1.5 eV,
+L1 = 1250 nm, and L2 = 1750 nm. This design yields an efﬁciency of 22.13%, representing a relative
+improvement of 12.22% compared to the baseline design with a single homogeneous photon-absorbing layer
+(see table 1). Although Jsc remains nearly unchanged, Voc increases by 9.9%. Additionally, the predicted
+efﬁciency surpasses those obtained for continuously graded bandgaps: 21.79% for linear and 21.22% for
+nonlinear grading, as reported in table 3.
+    Optoelectronic optimization indicates that piecewise-homogeneous bandgap grading outperforms both
+linear and nonlinear bandgap grading of the photon-absorbing layer. A possible explanation for the lower
+efﬁciency predicted with nonlinear bandgap grading, compared to piecewise-homogeneous grading, lies in the
+spatial variation of the internal electric ﬁeld. In nonlinear grading, the continuous and smooth variation of the
+bandgap can lead to non-uniform electric ﬁeld throughout the photon-absorbing layer. These non-uniformities
+may introduce regions where charge carriers experience unfavorable band slopes, which can increase the EHP
+recombination rate and hinder carrier-collection efﬁciency. In contrast, the piecewise-homogeneous grading
+approach allows more precise control over the internal electric-ﬁeld distribution and band alignment,
+facilitating improved charge transport and reducing recombination losses at critical interfaces. Additionally, the
+sharp transitions between adjacent sublayers in piecewise-homogeneous grading can generate strong localized
+electric ﬁelds that promote efﬁcient charge-carrier separation and extraction, thereby contributing to enhanced
+device performance. Repins et al. [45] also highlighted that overly gradual grading can be detrimental to
+efﬁciency and suggested abrupt bandgap changes as well as defect-passivation strategies to improve charge-
+carrier collection and reduce recombination.
+
+
+                                     7
+--- Страница 9 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+
+
+
+                     η
+                                                                     than     in
+                                                                                                                             change (%)                   12.22     8.46     8.92     8.37                                                                                      lower
+                                  be                                                    can                    Relative
+                                                                                                                                          sublayer
+                                  no  η (%)       19.72       22.13       21.39       21.48       21.37
+                                  in
+                                                                                                       energy
+                                          FF (%)       83.93       86.41       86.06       86.08
+                                                                                                                         bandgap                               86
+                                                                     that
+                                                         Voc                                                                                    (mV)    818    899    876    879    870
+                                                                                                                                                                            constraint
+                                                    the
+                                  to                                                         Jsc cm−2)                                                                                                                           28.73       28.46       28.38       28.38       28.41
+                                                                                                                         subject           (mA
+
+
+
+
+                                      Ls                                                                                    (nm)      3000     3000     3000     2370     2300                                                                                                                                                                                                               implemented,
+                                  is
+
+                                      L7 (nm)                                350                                                                                                                         grading  /
+                                                g7  — — — —
+                       E                                                                                                         (eV)/                                         1.5/
+
+
+
+
+                                      L6                                                                                    (nm)                                150
+                     /
+                                                g6  — — — —
+                       E                                              1.5/                                                                                                                                                                                                                                                                                                                                                                          piecewise-homogeneous                  (eV)/
+                                                                     when
+                                      L5 (nm)                         220    150
+                     /
+                                                g5  — — —                                                                                                                                                                            parameters   E                                                                                                         (eV)/                                        1.45/     1.5/                                                                                                                                                                                        tabulated.
+                                                                         also
+                                     is
+
+                                      L4                                                                                                                                                                                              performance case                                                                                    (nm)                         200    500
+                     /
+                                   1)    g4  — — —
+                  =  E
+                                                                                                                                                           predicted nsub            (eV)/                                1.5/      1.45/
+                                                                     with (i.e.,
+
+                                      L3                                                                                    (nm)                                                                                                                     1200    550    250                                                                                      along  /                         — —                                                g3
+                       E                                                                                                         (eV)/                       1.5/     1.5/     1.4/
+                                                                                                                                                           sublayers
+                                  of                                                                                                                                                                                                                                                                                                                                                             homogeneous-bandgap
+                     /                         —                                                       the                       E                                                                                                      1.5/      1.44/      1.44/     1.4/                                     to                                                g2(eV)/                                                                                                                                                                                              thicknesses     L2 (nm)               1750    900    300    200
+                                                    and relative
+                  η
+                                     in                                                                                                                                          energies                                      L1 (nm)      3000     1250    900     1100    700                     /
+                                                g1
+                       E                                                                                                              change                                                                                                                         Bandgap                  (eV)/     1.4/     1.4/     1.4/     1.4/     1.4/                                                       The
+                                  3.
+                                                       eV.
+                                                                                      Table 1.4     nsub   1 2 3 5 7
+
+
+                                     8
+--- Страница 10 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+
+
+
+   Figure 4. (a) Spatial proﬁles of (a) Eg , (b) n(z) and p(z), and (c) G(z) and R(n, p;z) in the FTO/ITO/CdS/CdTeSe region of the optimal
+  CdTeSe TFSC with a 3000-nm-thick CdTeSe layer comprising nsub = 2 homogeneous sublayers. (d) Plots of Jdev and P versus Vext for
+   the same TFSC.
+
+
+   The spatial proﬁles of Eg (z ) , n(z), p(z), G(z), and R(n, p;z) delivered by optoelectronic optimization of the
+TFSC with a CdTeSe photon-absorbing layer comprising nsub = 2 homogeneous sublayers are provided in
+ﬁgures 4(a)–(c). The EHP generation rate is higher near the front face and slightly lower in the middle of the
+CdTeSe photon-absorbing layer, whereas the EHP recombination rate drops sharply near the back face of that
+layer, these trends being similar to those for the optimal designs with linearly and nonlinearly graded photon-
+absorbing layers in sections 3.2.2 and 3.2.3, respectively.
+   The Jdev–Vext and P–Vext characteristics of the TFSC with nsub = 2 are plotted in ﬁgure 4(d). According to the
+plots in this ﬁgure, Jdev = 27.34 mA cm−2 and Vext = 809 mV for best performance.
+   The wavelength-dependent external quantum efﬁciency (EQE) offers critical insight by quantifying the
+fraction of incident monochromatic light that is converted into charge carriers in the semiconductor layers. The
+EQE is calculated as
+                                 2p     L d                              2                 EQE ( l 0 ) =                                          {Im [ er ( z , l 0 )]∣(E z , l 0 )∣} dz                                ( 5)                          òL w                           l 0 E 02
+
+where E(z, λ0) is the electric ﬁeld phasor when a plane wave with electric-ﬁeld amplitude E0 is normally incident
+on the TFSC.
+  We computed the EQE spectra of CdTeSe TFSCs for the optimal designs presented in sections 3.2.1–3.2.4.
+Figure 5 presents a comparison of the EQE spectra for the TFSCs with different bandgap grading proﬁles: linear,
+nonlinear, and piecewise-homogeneous. It can be noted that the piecewise-homogeneous bandgap grading
+delivers the highest EQE (i.e., photon absorption) across the spectrum, correlating with the superior efﬁciency
+predicted by the optimization process. The sharp drop in EQE near 886-nm wavelength corresponds to the
+CdTeSe bandgap energy of 1.4 eV, marking the absorption limit. While the homogeneous design displays a
+sharp cutoff, the linearly and nonlinearly graded designs show gradual declines, conﬁrming the bandgap-
+grading effects.
+
+3.3. Unrestricted Se compositional parameter (ξ  1)
+All the results presented in section 3.2 hold for ξ  0.4, as the wurtzite phase of CdTeSe is currently considered
+unsuitable for photovoltaic applications [18]. Assuming however that future technological advancements will
+enable the fabrication of high-quality CdTeSe thin ﬁlms for ξ > 0.4 for photovoltaic applications, we repeated
+the foregoing optimizations for ξ ä [0, 1], i.e., Eg Î [1.4, 1.7] eV.
+   For the 3000-nm-thick photon-absorbing layer with the linearly graded bandgap, the maximum efﬁciency
+predicted is 24.68% with Eg,min = 1.4 eV, Eg,max = 1.7 eV, and A = 1.0 with forward grading. Thus, a relative
+
+                                     9
+--- Страница 11 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+
+
+
+   Figure 5. EQE spectra of TFSCs with optimal graded-bandgap CdTeSe layers compared with that of a TFSC with an optimal
+  homogeneous CdTeSe layer.
+
+
+enhancement of 25.15% over the maximum efﬁciency of 19.72% with a homogeneous photon-absorbing layer
+of the same thickness is predicted. The values of Jsc, Voc, and FF corresponding to the optimal design are 27.39
+mA cm-2, 1040 mV, and 86.62%, respectively. Whereas Jsc is almost the same as for the homogeneous case, Voc
+improved by 27.14%.
+   For the 3000-nm-thick photon-absorbing layer with the nonlinearly graded bandgap, the maximum
+efﬁciency predicted is 24.41% with Eg,min = 1.4 eV, Eg,max = 1.7 eV, A = 1.0, α = 1, K = 0.75, and ψ = 0.36.
+The efﬁciency is higher by 23.78% over the maximum efﬁciency of 19.72% with the homogeneous layer of the
+same thickness. The values of Jsc, Voc, and FF corresponding to this optimal design are 28.19 mA cm-2, 1020 mV,
+and 85.02%, respectively. Again, most of the efﬁciency enhancement comes because of the enhancement of Voc.
+   For the piecewise-homogeneously graded photon-absorbing layer, the optimal design was identiﬁed with
+nsub = 3, requiring Eg1 = 1.4 eV, Eg2 = 1.51 eV, Eg3 = 1.65 eV, L1 = 900 nm, L2 = 100 nm, and L3 = 100 nm.
+This design promises an efﬁciency of 23.15%, showing a relative enhancement of 17.39% compared to a
+homogeneous photon-absorbing layer (table 1). The values of Jsc, Voc, and FF corresponding to this optimal
+design are 28.50 mA cm-2, 950 mV, and 85.50%, respectively. Note that, in this case, the CdTeSe layer is just
+1100-nm thick, about a third of the homogeneous layer in table 1.
+    Overall, the efﬁciency improves beyond that for ξ  0.4 for all three bandgap-grading cases. While Jsc for
+ξ  1 remains almost unchanged compared to that for ξ  0.4, a signiﬁcant enhancement in Voc is predicted.
+This improvement is attributed to the higher bandgap energy near the back face of the photon-absorbing layer,
+where the maximum Eg reaches 1.7 eV when ξ  1, compared to 1.5 eV for ξ  0.4.
+    Optoelectronic optimization indicates that piecewise-homogeneous bandgap grading outperforms both
+linear and nonlinear bandgap grading. Experimental studies have demonstrated the practical viability of
+implementing such grading, with successful demonstrations of front-junction grading [8, 10–12]. However,
+challenges remain in maintaining crystalline quality and minimizing defect formation across graded interfaces.
+Continued development of advanced fabrication methods and interface-engineering strategies will be key to
+fully realizing the beneﬁts of bandgap grading in high-efﬁciency CdTeSe devices.
+   Table 4 summarizes the power-conversion efﬁciencies of selected CdTeSe TFSCs employing various
+bandgap-grading strategies. Notably, a front-junction graded [46] device incorporating a penternary Cd(O,S,Se,
+Te) region achieved a record efﬁciency of 20.03% [11]. In the present study, a device structure featuring a 3000-
+nm-thick CdTeSe photon-absorbing layer composed of two homogeneous-bandgap sublayers yields a
+maximum efﬁciency of 22.13%. Furthermore, when the wurtzite phase of CdTeSe is considered in the
+optimization, the efﬁciency potentially increases to 24.68% for linear bandgap grading. These ﬁndings
+underscore the signiﬁcant potential of precise bandgap-proﬁle engineering in CdTeSe TFSCs for advancing the
+performances of thin-ﬁlm photovoltaic technologies.
+
+
+3.4. Effectiveness of bandgap-grading strategy for different TFSCs
+With the strategy of optimally grading the bandgap energy having been studied for TFSCs with four different
+photon-absorbing semiconductors [13, 14, 16, 17], it is appropriate for us to conduct a meta-analysis now.
+Table 5 summarizes the optimal power-conversion efﬁciencies of these TFSCs calculated using the same
+rigorous optoelectronic model. For comparison, the corresponding optimal efﬁciencies of the TFSCs with
+homogeneous photon-absorbing layers are also included. Notably, CIGS TFSCs demonstrate the highest
+relative gain in η with the optimal graded-bandgap photon-absorbing layer, whereas AlGaAs TFSCs exhibit the
+
+                                    10
+--- Страница 12 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+
+                           Table 4. Efﬁciencies of graded-bandgap CdTeSe TFSCs.
+
+                            Device structure        Grading Type           η (%)      Reference
+
+                        CdTeSe/CdTe          Front-junction [46]        19.1           [8]
+
+                        CdTeSe/CdTe          Front-junction [46]        19.0          [10]
+
+                           Cd(O,S,Se,Te)/Cd      Front-junction [46]       20.03         [11]
+                             (Se,Te)/CdTe
+
+                        CdTeSe/CdTe          Front-junction [46]        16.4          [12]
+
+                        CdTeSe (ξ  0.4)        Piecewise-                22.13      This work
+                                              homogeneous
+
+                        CdTeSe (ξ  1)         Linear (forward)          24.68      This work
+
+
+
+
+
+      Table 5. Efﬁciencies of different TFSCs with optimally graded photon-absorbing layers.
+
+      Photon-Absorbing semiconductor     Grading type               η (%)      Relative change in η (%)      Reference
+
+      AlGaAs                         Homogeneous               28.97       —                    [14]
+                                          Nonlinear                   29.30               1.14                   [14]
+
+     CZTSSe                        Homogeneous               12.16       —                    [17]
+                                          Nonlinear                   13.85              13.89                  [17]
+
+      CdTeSe (ξ  0.4)                  Homogeneous               19.72       —               This work
+                                         Piecewise-homogeneous      22.13              12.22              This work
+
+      CdTeSe (ξ  1)                   Homogeneous               19.72       —               This work
+
+
+                                             Linear (forward)             24.68              25.15              This work
+
+     CIGS                          Homogeneous               18.39       —                    [13]
+                                         Piecewise-homogeneous      30.15              63.94                  [16]
+
+
+
+smallest relative improvement. CZTSSe and CdTeSe TFSCs show greater efﬁciency gains than AlGaAs TFSCs
+but lower enhancements compared to CIGS TFSCs. Also, different grading types work better with different
+photon-absorbing semiconductors.
+
+
+
+4. Concluding remarks
+
+We performed detailed optoelectronic simulations of thin-ﬁlm solar cells with a photon-absorbing layer made
+of CdTeSe to determine the effects of compositional grading (i.e., bandgap grading) and absorbing-layer
+thickness on solar-cell performance. The bandgap energy of the CdTeSe layer was taken to vary either linearly, or
+nonlinearly, or in a piecewise-uniform fashion in the thickness direction. The thickness of the CdTeSe layer was
+constrained to not exceed 3000 nm.
+   Our simulations predicted that linear and nonlinear grading can deliver an efﬁciency of 21.79% and 21.22%,
+respectively, with 3000-nm-thick CdTeSe layers in the zincblende phase. With a 3000-nm-thick CdTeSe layer
+comprising two homogeneous-bandgap sublayers, the maximum efﬁciency predicted is 22.13%. If the wurtzite
+phase of CdTeSe is also included in the optimization studies, the maximum efﬁciency attainable rises to 24.68%
+with linear grading. We hope that these ﬁndings will be valuable for experimentalists aiming to enhance the
+design of high-efﬁciency CdTeSe TFSCs.
+   While our study was focused on bandgap grading in CdTeSe TFSCs under the assumption of no grain
+boundaries, future work could explore detailed modeling of grain-boundary effects and the underlying defect
+mechanisms in CdTeSe TFSCs. It is important to note that the enhanced efﬁciency achieved through bandgap
+grading comes with increased fabrication complexity. The selection of a speciﬁc bandgap-grading approach
+depends on balancing the possible efﬁciency gains with the associated fabrication costs. The exact nature of
+efﬁciency verses fabrication cost can be quantiﬁed by our fellow experimentalists.
+
+
+                                    11
+--- Страница 13 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+Acknowledgments
+
+A Lakhtakia thanks Dr Greg D Barber (Penn State) for a comparative discussion on thin-ﬁlm solar cells. The
+research of F Ahmad and A Lakhtakia was partially supported by the US National Science Foundation (NSF)
+under grant number DMS-2011996. The research of F Ahmad and P B Monk was partially supported by the US
+NSF under grant number DMS-2011603.
+
+
+Data availability statement
+
+All data that support the ﬁndings of this study are included within the article (and any supplementary ﬁles).
+
+
+Funding
+
+US National Science Foundation (DMS-2011996 and DMS-2011603).
+
+
+Disclosures
+
+The authors declare no conﬂicts of interest.
+
+
+ORCID iDs
+
+Faiz Ahmad   https://orcid.org/0000-0002-0635-207X
+Akhlesh Lakhtakia   https://orcid.org/0000-0002-2179-2313
+Peter B Monk   https://orcid.org/0000-0002-6539-5897
+
+References
+
+ [1] Scarpulla M A et al 2023 CdTe-based thin ﬁlm photovoltaics: recent advances, current challenges and future prospects Sol. Energy
+     Mater. Sol. Cells 255 112289
+ [2] Rühle S 2016 Tabulated values of the Shockley–Queisser limit for single junction solar cells Sol. Energy 130 139–47
+ [3] Kanevce A, Reese M O, Barnes T M, Jensen S A and Metzger W K 2017 The roles of carrier concentration and interface, bulk, and grain-
+    boundary recombination for 25% efﬁcient CdTe solar cells J. Appl. Phys. 121 214506
+ [4] Onno A, Li S, Reich C, Danielson A, Weigand W, Sampath W, Kuciauskas D and Holman Z C 2021 Sub-bandgap features in CdSeTe
+     solar cells: parsing the roles of material properties and cell optics IEEE 48th Photovoltaic Specialists Conference (PVSC) (Fort Lauderdale,
+     FL, USA, 20-25 June) 1754–7
+ [5] Candelise C, Winskel M and Gross R 2012 Implications for CdTe and CIGS technologies production costs of indium and tellurium
+      scarcity Prog. Photovolt. Res. Appl. 20 816–31
+ [6] Danielson A, Reich C, Drayton J, Bothwell A, Shimpi T, Sites J R and Sampath W 2023 A comprehensive material study of CdSeTe ﬁlms
+     deposited with differing selenium compositions Thin Solid Films 768 139684
+ [7] Fiducia T A M et al 2019 Understanding the role of selenium in defect passivation for highly efﬁcient selenium-alloyed cadmium
+      telluride solar cells Nat. Energy 4 504–11
+ [8] Munshi A H, Kephart J, Abbas A, Raguse J, Beaudry J-N, Barth K, Sites J, Walls J and Sampath W 2018 Polycrystalline CdSeTe/CdTe
+     absorber cells with 28 mA/cm2 short-circuit current IEEE J. Photovolt. 8 310–4
+ [9] Kephart J M, Kindvall A, Williams D, Kuciauskas D, Dippo P, Munshi A and Sampath W S 2018 Sputter-deposited oxides for interface
+     passivation of CdTe photovoltaics IEEE J. Photovolt. 8 587–93
+[10] Shah A, Pandey R, Nicholson A, Lustig Z, Abbas A, Danielson A, Walls J, Munshi A and Sampath W 2021 Understanding the role of
+    CdTe in polycrystalline CdSexTe1−x/CdTe-graded bilayer photovoltaic devices Solar RRL 5 2100523
+[11] Li D-B et al 2022 20%-efﬁcient polycrystalline Cd(Se,Te) thin-ﬁlm solar cells with compositional gradient near the front junction Nat.
+    Commun. 13 7849
+[12] Cai Y, Qu S, Chen Y, Jiang H, Yang Q and Wang D 2025 Highly efﬁcient CdTe thin-ﬁlm solar cells fabricated by pre-oxidized CdSeTe
+     sources Solar RRL 9 2400758
+[13] Ahmad F, Civiletti B J, Monk P B and Lakhtakia A 2022 Efﬁciency enhancement of ultrathin CIGS solar cells by optimal bandgap
+     grading. Part II: ﬁnite-difference algorithm and double-layer antireﬂection coatings Appl. Opt. 61 10049–61
+[14] Ahmad F, Monk P B and Lakhtakia A 2023 Optoelectronic optimization of graded-bandgap thin-ﬁlm AlGaAs solar cells. Part II:
+     optimal antireﬂection front-surface texturing Appl. Opt. 62 7487–95
+[15] Ahmad F, Monk P B and Lakhtakia A 2024 Bifacial ﬂexible CIGS thin-ﬁlm solar cells with nonlinearly graded-bandgap photon-
+     absorbing layers J. Phys. Energy 6 025012
+[16] Ahmad F, Monk P B and Lakhtakia A 2024 Efﬁciency enhancement of ultrathin CIGS solar cells by optimal bandgap grading. Part III:
+    piecewise-homogeneous grading Appl. Opt. 63 2831–6
+[17] Ahmad F, Monk P B and Lakhtakia A 2025 Towards highly efﬁcient thin-ﬁlm solar cells with a graded-bandgap CZTSSe layer. Part II:
+    Piecewise-homogeneous bandgap grading J. Phys. Energy 7 015002
+[18] Belyaev A P and Kalinkin I P 1988 Conduction processes in inhomogeneous CdSexTe1−x semiconductors Thin Solid Films 158 25–36
+[19] Poplawsky J D, Guo W, Paudel N, Ng A, More K, Leonard D and Yan Y 2016 Structural and compositional dependence of the
+    CdTexSe1−x alloy layer photoactivity in CdTe-based solar cells Nat Commun. 7 12537
+
+
+                                    12
+--- Страница 14 ---
+J. Phys. Commun. 9 (2025) 055008                                                                      F Ahmad et al
+
+
+
+[20] Mahabaduge H P et al 2015 High-efﬁciency, ﬂexible CdTe solar cells on ultra-thin glass substrates Appl. Phys. Lett. 106 133501
+[21] Mackay T G and Lakhtakia A 2020 The Transfer-Matrix Method in Electromagnetics and Optics (Morgan & Claypool)
+[22] 2025 National Renewable Energy Laboratory, Reference Solar Spectral Irradiance: Air Mass 1.5 https://nrel.gov/grid/solar-resource/
+     spectra-am1.5
+[23] Anderson T H, Civiletti B J, Monk P B and Lakhtakia A 2020 Coupled optoelectronic simulation and optimization of thin-ﬁlm
+     photovoltaic solar cells J. Comput. Phys. 407 109242 errata: 2020 18 109561
+[24] Denton A R and Ashcroft N W 1991 Vegard’s law Phys. Rev. A 43 3161–4
+[25] Treharne R E, Seymour-Pierce A, Durose K, Hutchings K, Roncallo S and Lane D 2011 Optical design and fabrication of fully sputtered
+    CdTe/CdS solar cells J. Phys.: Conf. Ser. 286 012038
+[26] Ninomiya S and Adachi S 1995 Optical properties of cubic and hexagonal CdSe J. Appl. Phys. 78 4681–9
+[27] Dodge M J 1984 Refractive properties of magnesium ﬂuoride Appl. Opt. 23 1980–5
+[28] König T A F, Ledin P A, Kerszulis J, Mahmoud M A, El-Sayed M A, Reynolds J R and Tsukruk V V 2014 Electrically tunable plasmonic
+     behavior of nanocube-polymer nanomaterials induced by a redox-active electrochromic polymer ACS Nano 8 6182–92
+[29] Sato K and Adachi S 1993 Optical properties of ZnTe J. Appl. Phys. 73 926–31
+[30] Johnson P B and Christy R W 1972 Optical constants of the noble metals Phys. Rev. B 6 4370–9
+[31] Nelson J 2003 The Physics of Solar Cells (Imperial College Press)
+[32] Taheri M M, Truong T M, Li S, Shafarman W N, McCandless B E and Baxter J B 2021 Distinguishing bulk and surface recombination in
+    CdTe thin ﬁlms and solar cells using time-resolved terahertz and photoluminescence spectroscopies J. Appl. Phys. 130 016310
+[33] Meng S and Yan Y 2016 Band gap optimization of CdTeSe thin-ﬁlm solar cells J. Adv. Phys. 12 4213–8
+[34] Ray S and Tarafder K 2023 Investigation of CdSe and ZnSe as potential back surface ﬁeld layers for CdTe-based solar cells: a study from
+     ﬁrst principles calculations Adv. Theory Simul. 6 2200718
+[35] Parajuli D, Devendra K C, Khattri K B, Adhikari D R, Gaib R A and Shah D K 2023 Numerical assessment of optoelectrical properties of
+    ZnSe-CdSe solar cell-based with ZnO antirefection coating layer Sci. Rep. 13 12193
+[36] Kafashan H, Orshesh Z, Bahrami A and Zakerian F 2024 Structural and optoelectronic properties of electrodeposited CdSe thin ﬁlms:
+      effect of Cu-dopant Physica B 675 415623
+[37] LeVeque R J 2007 Finite Difference Methods for Ordinary and Partial Differential Equations: Steady State and Time Dependent Problems
+    (SIAM Press)
+[38] Storn R and Price K 1997 Differential evolution—a simple and efﬁcient heuristic for global optimization over continuous spaces
+       J. Global Optim. 11 341–59
+[39] Lingg M, Spescha A, Haass S G, Carron R, Buechelerand S and Tiwari A N 2018 Structural and electronic properties of CdTe1−xSex
+    ﬁlms and their application in solar cells Sci. Technol. Adv. Mater. 19 683–92
+[40] Hutchby J A 1975 High-efﬁciency graded band-gap AlxGa1−xAs–GaAs solar cell Appl. Phys. Lett. 26 457–9
+[41] Green M A, Dunlop E D, Yoshita M, Kopidakis N, Bothe K, Siefer G and Hao X 2024 Solar cell efﬁciency tables (version 63) Prog.
+     Photovoltics 32 3–13
+[42] Dharmadasa I M 2005 Third generation multi-layer tandem solar cells for achieving high conversion efﬁciencies Sol. Energy Mater. Sol.
+      Cells 85 293–300
+[43] Lundberg O, Edoff M and Stolt L 2005 The effect of Ga-grading in CIGS thin ﬁlm solar cells Thin Solid Films 480-481 520–5
+[44] Repins I L, Harvey S, Bowers K, Glynn S and Mansﬁeld L M 2017 Predicting Ga and Cu proﬁles in co-evaporated Cu(In,Ga)Se2 using
+    modiﬁed diffusion equations and a spreadsheet MRS Adv. 2 3169–74
+[45] Repins I et al 2016 Wild band edges: the role of bandgap grading and band-edge ﬂuctuations in high-efﬁciency chalcogenide devices
+    IEEE 43rd Photovoltaic Specialists Conference (PVSC) (Portland, OR, USA, 5-10 June) 0309–14
+[46] The photon-absorbing layer is divided into two sublayers. The front sublayer is forward linearly graded and the back sublayer is
+    homogeneous.
+
+
+
+
+
+                                    13

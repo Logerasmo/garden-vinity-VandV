@@ -1,0 +1,941 @@
+--- Страница 1 ---
+      nanomaterials
+
+
+
+Article
+Thermally Evaporated Copper Iodide Hole-Transporter for
+Stable CdS/CdTe Thin-Film Solar Cells
+
+Thuraisamykurukkal Thivakarasarma 1,2, Adikari Arachchige Isuru Lakmal 3,4    ,
+Buddhika Senarath Dassanayake 3,4    , Dhayalan Velauthapillai 2,*  and Punniamoorthy Ravirajan 1,*
+
+
+                                            1   Clean Energy Research Laboratory, Department of Physics, University of Jaffna, Jaffna 40000, Sri Lanka;
+                                   tsarma1990@gmail.com
+                                            2   Faculty of Engineering and Science, Western Norway University of Applied Sciences, P.O. Box 7030,
+                                    5020 Bergen, Norway
+                                            3   Postgraduate Institute of Science, University of Peradeniya, Peradeniya 20400, Sri Lanka;
+                                    aaisurulakmal@gmail.com (A.A.I.L.); buddhikad@pdn.ac.lk (B.S.D.)
+                                            4  Department of Physics, University of Peradeniya, Peradeniya 20400, Sri Lanka
+                                     *   Correspondence: dhayalan.velauthapillai@hvl.no (D.V.); pravirajan@univ.jfn.ac.lk (P.R.)
+
+
+                                Abstract: This study focuses on fabricating efﬁcient CdS/CdTe thin-ﬁlm solar cells with thermally
+                              evaporated cuprous iodide (CuI) as hole-transporting material (HTM) by replacing Cu back contact in
+                               conventional CdS/CdTe solar cells to avoid Cu diffusion. In this study, a simple thermal evaporation
+                         method was used for the CuI deposition. The current-voltage characteristic of devices with CuI
+                          ﬁlms of thickness 5 nm to 30 nm was examined under illuminations of 100 mW/cm2 (1 sun) with
+                           an Air Mass (AM) of 1.5 ﬁlter. A CdS/CdTe solar cell device with thermally evaporated CuI/Au
+                         showed power conversion efﬁciency (PCE) of 6.92% with JSC, VOC, and FF of 21.98 mA/cm2, 0.64 V,
+                         and 0.49 under optimized fabrication conditions. Moreover, stability studies show that fabricated
+                         CdS/CdTe thin-ﬁlm solar cells with CuI hole-transporters have better stability than CdS/CdTe thin-
+Citation: Thivakarasarma, T.;
+                        ﬁlm solar cells with Cu/Au back contacts. The signiﬁcant increase in FF and, hence, PCE, and the
+Lakmal, A.A.I.; Dassanayake, B.S.;
+                                      stability of CdS/CdTe solar cells with CuI, reveals that Cu diffusion could be avoided by replacing Cu
+Velauthapillai, D.; Ravirajan, P.
+Thermally Evaporated Copper Iodide   with CuI, which provides good band alignment with CdTe, as conﬁrmed by XPS. Such an electronic
+Hole-Transporter for Stable         band structure alignment allows smooth hole transport from CdTe to CuI, which acts as an electron
+CdS/CdTe Thin-Film Solar Cells.        reﬂector. Hence, CuI is a promising alternative stable hole-transporter for CdS/CdTe thin-ﬁlm solar
+Nanomaterials 2022, 12, 2507.             cells that increases the PCE and stability.
+
+https://doi.org/10.3390/
+nano12142507                  Keywords: CdS/CdTe thin-ﬁlm solar cells; hole-transport layer; CuI; Cu diffusion
+
+Academic Editor: Aurora Rizzo
+
+
+Received: 10 June 2022
+Accepted: 12 July 2022                1. Introduction
+Published: 21 July 2022
+                        Cadmium telluride thin-ﬁlm solar cells are one of the most cost-effective and reliable
+Publisher’s Note: MDPI stays neutral   photovoltaic devices, with reported power conversion efﬁciencies over 22% [1]. Further,
+with regard to jurisdictional claims in   large-scale CdTe solar panels with efﬁciency over 18% are commercially available [2]. CdTe
+published maps and institutional afﬁl-   solar cells mainly contain a transparent conductive layer, n-CdS window layer, p-CdTe
+iations.                      absorber layer and back contact. The power conversion of solar cells mainly depends on
+                            the thickness, morphology, and opto-electrical property of each layer. It can be controlled
+                       by the fabrication conditions of each layer. The conventional efﬁcient CdS/CdTe solar
+                                  cells have Cu back contact. Power conversion efﬁciency and stability of the conventional
+Copyright: © 2022 by the authors.
+                     CdS/CdTe/Cu device not only depend on the fabrication conditions but also on copper
+Licensee MDPI, Basel,  Switzerland.
+                              diffusion to the CdS/CdTe interface. Chemical bath deposition (CBD), closed space subli-
+This article is an open access article
+                         mation (CSS), and thermal evaporation techniques are promising methods for depositing
+distributed  under  the  terms  and
+                         CdS, CdTe, and back contact layers. To avoid the Cu diffusion in these photovoltaic de-
+conditions of the Creative Commons
+Attribution (CC BY) license (https://   vices, Cu-free back contacts, such as wide bandgap metal oxides (NiO, MoO3, V2O5, and
+creativecommons.org/licenses/by/    WO3), have been introduced as an alternative to Cu [3–9]. The electronic band alignment
+4.0/).                     between CdTe and back contact directly affects the charge transport and recombination
+
+
+
+
+
+Nanomaterials 2022, 12, 2507. https://doi.org/10.3390/nano12142507                           https://www.mdpi.com/journal/nanomaterials
+--- Страница 2 ---
+Nanomaterials 2022, 12, 2507                                                                                                     2 of 16
+
+
+
+                              properties. Well-aligned band levels can improve the charge transport and reduce the
+                            recombination. A few organic materials, such as poly(3,4-ethylenedioxythiophene) doped
+                         with polystyrenesulfonate (PEDOT:PSS), robust cross-linkable conjugated polymer poly
+                            (diphenylsilane-co-4-vinyl-triphenylamine) Si-TPA, and P3HT, have also been employed
+                            as back contact buffer layers for CdTe thin-ﬁlm solar cells [10–12]. However, the highest
+                            efﬁciency has only been achieved in CdS/CdTe solar cells with Cu back contact, despite
+                            the diffusion of Cu at the CdS/CdTe interface. The search for a better alternative to back
+                             contact motivated this study to consider CuI as a hole transport material (HTM).
+                           Copper iodide has suitable properties that contribute to its application as an HTM
+                             in solar cells, such as a wide band gap (Eg) of 3.1 eV and stable p-type conductivity at
+                      room temperature. Depending on the thermal stability, the crystal structure of CuI is
+                             classiﬁed into α, β, and γ-structural phases. The α-phase is a cubic structure with a high
+                          temperature of 392 ◦C, the hexagonal β-phase is an ionic conductor with a temperature
+                          range of 350–392 ◦C, and the γ-phase is a cubic structure with a low temperature, below
+                          350 ◦C [13]. Mainly, the optical and electrical properties of CuI can be tuned through the
+                            synthesis and preparation conditions. Several studies show the successful utilization of
+                          γ-CuI as a hole transport layer in solid-state dye-sensitized [14], organic solar cells [15] and
+                             perovskite solar cells [16–24], due to their band-matching and hole transporting properties.
+                          These show that a CuI hole-transporter not only enhances the power conversion efﬁciency
+                           but also improves charge extraction and stability. CuI has also been used as a hole selective
+                              contact in light-emitting diodes [25–28]. Moreover, CuI is economical and chemically stable
+                       and has high hole mobility, with a suitable energy level with CdTe and the back electrode.
+                            CuI ﬁlms are prepared using various techniques, such as solution process deposition
+                           (spray coating [29,30], spin coating [31,32]) [33], electro-deposition [34], chemical bath
+                            deposition [35], sputtering [36], pulse laser deposition [37], and thermal evaporation [38,39].
+                        Each of these deposition methods has its own advantages and disadvantages. Solution
+                           process deposition and electro-deposition need a specialized precursor that limits their
+                              applications. CuI thin ﬁlms, which are deposited using solution processes, are known
+                             to carry a high resistivity. Further, the deposition process leads to the yield of corrosive
+                       and toxic by-products [29,40–42]. Zhu et al. reported that CuI ﬁlms grown with a pulse
+                                laser deposition (PLD) technique exhibited resistivity of 0.1–1 Ωcm and a transmittance of
+                         about 60–80% in a 410–1000 nm range [37]. Tanaka et al. obtained CuI ﬁlms by thermal
+                           evaporation techniques with the same transmittance as Radio frequency-Direct current
+                         magnetron sputtering (RF-DC coupled magnetron sputtering), while the reported resistivity
+                      was 10−2 Ωcm [43]. Compared to previous reports, the resistivity obtained in this work
+                      was too high to make it widely usable in LEDs. CuI layers with low resistivity and
+                          high transmittance have been used in various solar cells as hole-transporters. During the
+                            sputtering deposition, the direct use of nanoparticles can lead to agglomeration behavior
+                          and, thus, form an unsmooth layer. For the hole transporting purpose, it is necessary to
+                           prepare low-resistive CuI.
+                            Thermal evaporation has many advantages, such as being non-pollutant, easy to
+                              control the deposition rate and ﬁlm thickness, and suitable for preparing larger area fabrica-
+                              tion with smooth surfaces and high chemical purities. Therefore, the thermal evaporation
+                       method is more suitable for preparing γ-phase CuI ﬁlms with high conductivity and high
+                           hole mobility [38,43]. This study focuses on thermally evaporated CuI as an alternative
+                             hole-transporter in CdS/CdTe thin-ﬁlm solar cells.
+
+                                   2. Materials and Methods
+
+                           The substrates or ﬁlms were kept in an open environment except during fabrication.
+                        The CdS/CdTe thin-ﬁlm solar cells were fabricated with structure of glass/SnO2:F(FTO)/n-
+                       CdS/p-CdTe/CuI/Au. FTO-coated substrates (Sigma-Aldrich, St. Louis, MI, USA) were
+                            cleaned as reported elsewhere [44]. Window n-CdS layer of 80 nm thickness was deposited
+                       on cleaned FTO substrates by the chemical bath deposition technique (CBD) at 90 ◦C as
+                            reported elsewhere [44–47]. The CBD reaction solution contains de-ionized water, cadmium
+--- Страница 3 ---
+Nanomaterials 2022, 12, 2507                                                                                                     3 of 16
+
+
+
+                                acetate, ammonium acetate, and thiourea. The CdS-coated ﬁlm was ultrasonically washed
+                             to remove loosely bound CdS particles on the surface. Before further device processing
+                           began, CdS was etched off the glass side of the samples with a dilute HCl solution. After
+                                 air drying, heat treatment for the CdS layer was conducted in a N2 environment at 375 ◦C
+                              for 30 min. Thereafter, ~5 µm CdTe absorber layer was deposited on CBD-CdS by close-
+                         spaced sublimation (CSS) system (MTI, Richmond, VA, USA), with source and substrate
+                          temperatures of 640 ◦C and 580 ◦C, respectively, under various chamber pressures of
+                               5.0 Torr and 7.9 torr in an Argon medium to investigate the effect of CSS conditions for
+                       CdTe layer. In order to investigate the effect of a CuI hole transport layer on CdTe solar cells,
+                        CuI ﬁlms with thicknesses ranging from 5 nm to 30 nm were deposited on the CdTe ﬁlm by
+                          thermal evaporation (Edwards, West Sussex, UK). Following the CuI ﬁlm deposition, an
+                        ~80 nm thick Au layer was thermally evaporated. CBD-CdS/CSS-CdTe/Cu/Au devices
+                        were also fabricated as a comparison to demonstrate beneﬁcial effects induced by a CuI
+                              hole-transporter. All the fabricated devices were later annealed at 200 ◦C for 10 min in
+                      N2 environment.
+                           The electrical properties of CuI were measured using the four-point probe (FPP)
+                           technique (SES Instruments DFP-03, Uttarakhand, India). The optical and structural prop-
+                                 erties of each layer were characterized by using UV-Vis (JENWAY-6800, Stone, UK), XRD
+                           (PANalytical-AERIS, Eindhoven, The Netherlands) spectroscopy, and Atomic Force Mi-
+                          croscopy (Park systems-XE7, Suwon-si, Korea). XPS analysis was performed using the
+                       Thermo Scientiﬁc ESCALAB Xi instrument (Thermo Fisher Scientiﬁc, Waltham, MA, USA)
+                          with Al Kα as the X-ray source. Finally, their photovoltaic performance and device stability
+                         were analyzed using a solar simulator (PEC-L12, Yokohama, Japan) under the illumination
+                              of 100 mW/cm2 with an Air Mass of 1.5 ﬁlter.
+
+                                   3. Results and Discussion
+                                   3.1. Structural Characterization
+                                 Figure 1 shows the XRD pattern of the CuI thin ﬁlm with characteristic peaks at the 2θ
+                           values of 25.5◦, 42.2◦, 50.0◦, and 52.4◦that coincide with the (111), (220), (311), and (222)
+                           atomic plane of the zinc blend face centered cubic γ-phase CuI structure, respectively, and
+                            values agree with JCPDS card No.06-0246 [17,43]. Therefore, it is conﬁrmed that the CuI thin
+                      ﬁlm is a hole transport semiconductor, since it is a γ-phase rather than the ionic conductor
+                              of the α or β phase [17]. The average crystalline size of the the thermally evaporated CuI
+                      ﬁlm was estimated using the predominant (111) plane by the Debye–Scherrer equation:
+
+                                                              kλ
+                                                             d =                                                  (1)
+                                                            β cos θ
+
+                       where d is the average crystallite size, k is the dimensionless shape factor, which has a
+                              typical value of about 0.89, λ is the wavelength of the X-ray beam (0.5406 nm), θ is the
+                          Bragg angle, and β is the full width at half maxima (FWHM). The calculated crystallite size
+                      was about 25.35 nm.
+                                Figure 2 shows the topography images of CBD-CdS, CSS-CdTe, and thermally evapo-
+                            rated CuI on the CdS/CdTe ﬁlm with a scanning area of 2.0 µm × 2.0 µm. These conﬁrm
+                            the uniformity of each CBD-CdS, CSS-CdTe, and CuI on the CdTe ﬁlms and no pinholes
+                             in layers were observed from AFM analysis. The average and Root mean square (RMS)
+                          roughness values are tabulated in Table 1. The RMS roughness is slightly decreased from
+                             25.32 nm to 18.72 nm, indicating a smooth coating of CuI particles. Similar topographical
+                          changes were observed by Deng-Bing Li et.al. [48].
+--- Страница 4 ---
+Nanomaterials 2022, 12, 2507                                                                                                     4 of 16
+
+
+
+
+                            1200
+                                                      60                                                                                                         (111)
+                            1000         55
+
+                                                      50                                                                                                                                                                                                     (222)                                        (a.u)  800
+                                                      45          (220)
+                             600         40                                              (311)
+                                                      35
+                             400                                                      30                                                                         Intensity
+                             200         25
+                                                       40       45       50       55       60
+
+                               0
+
+                                20     30     40     50     60     70     80
+                               2θ (degree)
+
+                              Figure 1. XRD pattern of thermally evaporated CuI ﬁlm.
+
+
+
+
+
+                                                                                         (a)
+
+
+
+
+
+                                                                                 (b)
+
+
+
+
+
+                                                                                              (c)
+
+                              Figure 2. 3D and 2D AFM images of (a) CBD-CdS; (b) CdS/CSS-CdTe, and (c) CdS/CdTe/TE-
+                           CuI ﬁlm.
+--- Страница 5 ---
+Nanomaterials 2022, 12, 2507                                                                                                     5 of 16
+
+
+
+
+                             Table 1. Average and RMS roughness of each ﬁlm calculated from AFM topography.
+
+                                       Film               Average Roughness (nm)     RMS Roughness (nm)
+
+                                CBD-CdS                         33.60                             8.42
+
+                                    CSS-CdTe                        114.30                           25.32
+
+                                      TE-CuI                          87.00                           18.72
+
+
+                           The chemical-bath-deposited CdS surface has low roughness of 33.60 nm (RMS of
+                             8.42 nm). This was further evidence for higher transmission of the CdS layer due to the
+                          lower light scattering. As the roughness of the CdS window layer, as shown in Figure 2a,
+                                    is low, it makes an ideal substrate for the CSS- CdTe absorber layer. The closed-space
+                          sublimated CdTe ﬁlm, as shown in Figure 2b, has a roughness of 114.30 nm (RMS of
+                              25.32 nm). The grain size of the CdTe layer also makes it an ideal substrate for the CuI layer
+                        and thermally evaporated CuI on the CdTe surface, as shown in Figure 2c, has a roughness
+                              of 87 nm (RMS of 18.72 nm). Since thermally evaporated CuI particles uniformly covered
+                            the CdTe surface without any pinholes, it provides good electrical contact with Au.
+
+                                   3.2. Opto-Electrical Characterization
+
+                            The electrical resistivity of the thermally evaporated CuI ﬁlm was measured by using
+                            the four-point probe measurement technique (FPP) [49], which is shown schematically in
+                            Figure 3. To perform the measurement, a DC current I was passed through the outer probes
+                       and the potential difference V between the inner probes was measured.
+
+
+
+
+
+                              Figure 3. Schematic diagram of the four-point probe technique.
+
+                       When the probe distance d is much larger than the film thickness, t, sheet resistance,
+                        RS (in Ω/sq), and resistivity, ρ (in Ωcm), can be determined from Equations (2) and (3):
+
+                                              π V                                                   RS =     ≈4.53V                                    (2)
+                                                                  ln2 I           I
+
+                       and
+                                                              ρ = RS.t                                           (3)
+
+                           The sheet resistance and resistivity of fabricated CuI were measured as 19.856 kΩ/sq
+                       and 0.20 Ωcm, respectively (Figure S2), at room temperature, which agrees with the litera-
+                             ture value of thermally evaporated CuI ﬁlms [38].
+                                 Figure 4 shows the Tauc plot of (αhν)2 versus hν of the thermally evaporated CuI ﬁlm,
+                       where α is the absorption coefﬁcient, and h and ν are the Planck constant and photon fre-
+                            quency, respectively. The inset shows the absorption spectrum of the thermally evaporated
+                        CuI ﬁlm. The bandgap of the CuI thin ﬁlm can be calculated by Equation (4).
+
+                                                  αhν = A hν −Eg 1/2                                    (4)
+--- Страница 6 ---
+Nanomaterials 2022, 12, 2507                                                                                                     6 of 16
+
+
+
+                        where A is a parameter related to the electronic band structure, carrier effective mass, and
+                            the refractive index of the material and Eg is the bandgap energy. The obtained bandgap
+                              of the CuI ﬁlm was 2.99 eV, which is in agreement with the reported value of ~3.0 eV [38].
+                       The bandgaps of CBD-CdS and CSS-CdTe were 2.35 and 1.48 eV, respectively (Figure S1).
+                       The obtained values are in agreement with the reported values of CBD-CdS [50–52] and
+                        CSS-CdTe [53,54].
+
+                                    0.6
+
+
+                                                    0.4
+                                                                      (OD) 0.3
+                                    0.4
+
+                                                    0.2                                                2(a.u)                                                                                                                                                                              Absorbance 0.1                                                  (αhν)
+                                    0.2
+                                                    0.0
+                                                 400     500     600     700     800
+                                                    Wavelength (nm)
+
+
+
+                                    0.0
+                                         2.1   2.2   2.3   2.4   2.5   2.6   2.7   2.8   2.9   3.0
+                                         hν (eV)
+
+                              Figure 4. Tauc plot and absorption spectrum (inset) of thermally evaporated CuI ﬁlm.
+
+                           The band alignment of the CdTe/CuI interface is important to the hole transport
+                       and formation of low electronic resistance, as it enhances the hole transport and reduces
+                                carrier recombination. Figure 5 shows the proposed energy levels of CuI, which match with
+                      CdS/CdTe energy levels of calculated values of the valance band and conduction band
+                                level derived from XPS data. The values for the VBMs were obtained as 0.5 eV and 0.25 eV
+                               for CdTe and CuI, respectively, from XPS spectra of bulk CdTe and bulk CuI [55,56].
+
+
+
+
+
+                                                             (a)                                                (b)
+
+                              Figure 5. (a) Proposed energy alignment of FTO/CdS/CdTe/CuI/Au interface and (b) the quantita-
+                                   tive electronic band alignment at the CSS-CdTe/TE-CuI/TE-Au interface obtained from XPS.
+
+                               Figure 6a, shows the XPS spectra of the thermally evaporated CuI ﬁlm on the CdTe
+                                  layer. This XPS conﬁrms the stable interface formation without a shift in the binding energy
+--- Страница 7 ---
+Nanomaterials 2022, 12, 2507                                                                                                     7 of 16
+
+
+
+                              of either Cu or I. The XPS peaks of core level Cd were observed at 412.55 eV and 405.85 eV,
+                          corresponding to the 3d 3/2 and 3d 5/2 transition (Figure 6b). Similarly, the XPS peaks
+                              of core level Te were observed at 582.95 eV and 572.55 eV corresponding to the Te 3d 3/2
+                       and 3d 5/2 transition (Figure 6c). Figure 6d shows the XPS peaks for Cu were observed
+                               at 952.3 eV and 931.15 eV corresponding to the 2p1/2 and 2p3/2 transition, respectively.
+                               Similarly, Figure 6d shows the XPS peaks of I, which were observed at 631.2 eV and
+                             619.65 eV, corresponding to 3d3/2 and 3d5/2 transitions, respectively. The overall chemical
+                              structure of the CdTe/CuI was found to be signiﬁcantly stable. At the CdTe/CuI interface,
+                            the energy difference between the Cd 3d5/2 and the Cu 2p3/2 core levels (Figure 6f)
+                      was 525.5 eV.
+
+
+                                            40 (a)                                                                                     (b)
+                                                                                                                                                                                                                                             3d5/2I                                                  Cd 3d5/2
+                                            35                                                                                     3d3/2I
+                                            30                                                            Cd 3d3/2                                       5/s                                                                                                                          (a.u)
+                                                    x10 25                                                                                                                                                                            2p3/2                                                                                                                                                                                                                                                                                        3d5/2                                            20                     2p1/2                                                                     Cu                                                                                                                Cd                                                                   Cu                                                                                                      3d3/2                                                Intensity                                                                                                        Counts 15                                                   Cd
+                                                                                                                                                                                                                                                3d3/2 3d5/2
+                                            10                                     Te Te
+
+                                             5
+
+                                             0
+                                                1000         800          600          400             420  418  416  414  412  410  408  406  404
+                                                         Binding energy (eV)                                  Binding Energy (eV)
+
+
+                                                                                                                                                                (d)
+
+                                                                                                               Cu 2p3/2
+
+                                                                                                                                                                                                                      (a.u)
+                                                                                                                                                                                                                                                                                                                                                                                                  Intensity
+                                                                                        Cu 2p1/2
+
+
+
+
+
+                                                                                                           955    950    945    940    935    930
+
+                                                                                                             Binding Energy (eV)
+
+
+                                                                            (e)                                                                                                               (f)
+                                                                                                                             I 3d5/2                                              Cd 3d5/2
+                                                                                                                          ΔE=525.5 eV
+                                                                                            (a.u)                      I 3d3/2                                                                                               Cu 2p3/2                                                                                                                                                                                                                       (a.u)
+                                                                                                                                                                     Intensity                                                                                                                                                                                                                                                                                                                                                                                                   Intensity
+
+
+
+
+
+                                             640     635     630     625     620     615                950      940      930   415    410    405    400
+
+                                                        Binding Energy (eV)                                     Binding Energy (eV)
+
+                              Figure 6. (a) XPS survey spectrum of CdTe/CuI interface, (b) core level of the Cd 3d region, (c) core
+                                  level of the Te 3d region, (d) core level of the Cu 2p region, (e) core level of the I 3d region, and
+                                         (f) high-resolution spectra of the Cd 3d and Cu 2p regions in CdTe/CuI interface.
+--- Страница 8 ---
+Nanomaterials 2022, 12, 2507                                                                                                     8 of 16
+
+
+
+                              Based on the XPS measurements, the valance band offset value of ∆EV at the CdTe/CuI
+                              interface was calculated to be 0.25 eV. Further, the conduction band offset ∆EC at the
+                       CdTe/CuI interface can be found from Equation (5):
+
+                                            ∆EC = ∆EV + ECuIg  −ECdTeg                                    (5)
+
+                       where ECuIg  and ECdTeg   are the optical band gap values of CuI and CdTe, respectively. The
+                             calculated ∆EC was 1.76 eV. The small valence band offset between CdTe and CuI (∆EV)
+                         enhances the hole transport from CSS-CdTe to TE-CuI without any barrier. The large
+                           conduction band offset between CdTe and CuI (∆EC) with a value of 1.76 eV indicates that
+                             the CuI can act as an electron-blocking layer, which helps repel electron transport from the
+                   Au back contact and also reduce carrier recombination. The chemical structure of CdTe
+                      was preserved, even after CuI deposition, conﬁrming the effectiveness of the fabrication
+                            process of CdTe and CuI layers.
+
+                                   3.3. Current-Voltage (J–V) Characteristics of CdS/CdTe Thin-Film Solar Cells
+
+                           The current-voltage characteristic curves of CBD-CdS/CSS-CdTe solar cells with
+                                different thicknesses of the CuI hole transport layer are shown in Figure 7. The ﬁgure clearly
+                              indicates that the thermally evaporated CuI thickness can remarkably inﬂuence CdS/CdTe
+                           device performance. The corresponding photovoltaic parameters are summarized in
+                            Figure 8. It is found that the roll-over phenomenon in J–V characteristics was less prominent
+                     when the thickness of the hole-transporter was reduced, as reported elsewhere [57]. In the
+                                  literature, the roll-over is most frequently explained by the back contact barrier [58–61] and
+                            the photo-conducting properties of the n-CdS window layer [62,63].
+
+
+                               25
+
+               2)                                                        Roll-over
+                                                                        phenomenon
+                                0
+
+
+
+                               2)                                                          (mA/cm
+                                              20
+                                   -25
+                                                                                        5 nm                                                                                                                             (mA/cm                 10 nm
+                                              10               15 nm
+                                                                                             20 nm                                                                   density                                   -50                                   25 nm                                                                                                                                                  density                            30 nm
+                                               0
+                                   -75               Current -10                                                                   Current                                                            -0.1    0.0    0.1    0.2    0.3    0.4
+                                                            Voltage (V)
+
+                                -100
+                                         -0.2           0.0           0.2           0.4           0.6
+                                           Voltage (V)
+
+                              Figure 7. J–V characteristic curves of CBD-CdS/CSS-CdTe solar cells (without CdCl2 treatment) with
+                           CuI with thicknesses of 5, 10, 15, 20, 25, and 30 nm.
+--- Страница 9 ---
+Nanomaterials 2022, 12, 2507                                                                                                     9 of 16
+
+
+
+
+                                        6
+                                                 (a)
+                                             (%)  5
+                                             PCE  4
+
+                                        3
+
+                      2)  26                                                (b)
+
+                                        24
+                                                                                        (mA/cm  22
+                                 JSC
+                                        20
+                                       150   (c)
+                      2)
+                              cm 100
+                            (Ω
+                      RS 50
+
+                      2) 1000  (d)
+                             cm 750
+                            (Ω                                       500
+                                 RSH
+                                       250
+
+                                        50  (e)
+                                             (%)  45
+                              FF
+                                        40
+
+                                        35
+
+                                               5       10      15      20      25      30
+
+                                          CuI Thickness (nm)
+
+                              Figure 8. Photovoltaic parameters of (a) power conversion efﬁciency, (b) short circuit current density,
+                                       (c) series resistance, (d) shunt resistance, and (e) ﬁll factor of the CBD-CdS/CSS-CdTe devices with
+                                   different CuI thicknesses.
+
+                           The short circuit current density is inﬂuenced by the series resistance (RS), which
+                              increases with CuI thickness due to the high resistivity in the thicker CuI layer preventing
+                             the carrier transport. The devices with 10nm of CuI thickness deliver the best performance
+                       due to the lowest RS and largely improved JSC, RSH, and FF, compared to those devices
+                          with lower and higher thicknesses. This is mainly due to the higher hole concentration in
+                          CdTe. Higher hole concentration can boost a higher build-in potential (Vbi) and lead to less
+                           recombination in the depletion region and at the front interface, thereby resulting in larger
+                               FF, which can be further conﬁrmed through an improvement in the shunt resistance (RSH).
+                             Roussillon et al. also suggested that the back contact barrier on the properties of CdTe solar
+                                  cells depend on the space charge region in the main CBD-CdS/CSS-CdTe junction and the
+                           space charge region in the back contact may overlap, depending on the barrier height of the
+                          back contact [64]. Thus, the changed band diagram affects the collection and recombination
+                              of the carriers signiﬁcantly. Accompanied by the variation in the CuI thickness, the shunt
+                              resistance gradually increases from 404 Ωcm2 for 5 nm to 994 Ωcm2 for 10 nm thickness
+                             of CuI. When the thickness of CuI was further increased to 30 nm, the RSH decreases to
+                          186 Ωcm2. The JSC also shows a similar trend as the FF and the shunt resistance with the
+                        CuI hole-transport layer thickness. A similar trend was observed in a reported study [65].
+                           The measured photovoltaic performances of the fabricated devices instantly after
+                               fabrication and after one month for devices with 10 nm Cu/Au bi-metal and CuI/Au back
+                             contacts are shown in Figure 9 and Table 2. Insertion of a CuI hole transport layer instead
+                             of Cu demonstrated a signiﬁcant increase in the PCE due to improvement in the JSC, FF,
+                       and RSH. However, VOC in the device with Cu/Au is higher than that in the device with
+                     CuI/Au back contact due to carrier density increment in the CdTe absorber by involving
+--- Страница 10 ---
+Nanomaterials 2022, 12, 2507                                                                                                    10 of 16
+
+
+
+                       CuXTe through the diffusion of Cu, which is clearly described in previous studies [66–68].
+                      VOC is given by Equation (6) [69] and can be conﬁrmed by the dark J–V characteristic curve
+                      shown in Figure 9b.
+                                                       nkT     JSC
+                                               VOC =      ln   −1                                   (6)
+                                                                   q         J0
+
+                       where J0 is the saturation current density, JSC is the short-circuit current density, n is the
+                         diode ideality factor, q is the electronic charge, while k and T are Boltzmann constant
+                       and absolute temperature, respectively. CBD-CdS/CSS-CdTe devices with Cu/Au and
+                     CuI/Au back contacts exhibit dark saturation current densities of 3.5 × 10−9 A/cm2 and
+                               1.5 × 10−7 A/cm2, respectively. This means the dark saturation current density in the
+                           device with Cu/Au back contact is nearly two orders of magnitude lower than that of the
+                           device with CuI/Au back contact. The CuXTe structure is formed at the back of the CdTe
+                           absorber by the diffusion of copper, as mentioned earlier. Most of the Cu diffused into the
+                          bulk ﬁnds its way to the CdS with time, lowering its space charge density and causing it
+                             to become photoconductive. This effect of Cu in the CdTe is more problematic, adding
+                          recombination centers (lowering the efﬁciency) and increasing the space charge density,
+                       which might either raise or lower efﬁciency, depending on CdTe thickness [61]. This is
+                    why power conversion efﬁciency drops by ~50% within a month due to all photovoltaic
+                          parameter losses, as described in Table 2. The JSC of the device with a CuI hole-transporter
+                      was signiﬁcantly higher than the device with Cu/Au back contacts, which is due to the
+                            hole transport property of the thermally evaporated CuI and band alignment between the
+                      CdTe and CuI. The ﬁll factor of the devices with a CuI/Au was signiﬁcantly higher than
+                              that of the Cu/Au devices, which was induced by the smaller RS and larger RSH value of
+                            the device with a CuI/Au back contact than Cu/Au back contact.
+
+
+                                        30
+                                                                                                                                                                                                                                                                                                                         -2  (b)                                                           (a)                                                                             10                        2)
+                                        25                                 2)                               CuI/Au
+                                                                                           CuI/Au                                  10-3                                Cu/Au
+                                        20
+                                                                                                                                                                                                                                                                                                                         -4                                                                                                                                                                                                       (A/cm  10                                                                                               (mA/cm
+                                        15                                                                                                                                                                                -5
+                                                                                           Cu/Au                          10                                                                                                                                                                                                                                                                                      density                                                                                                              density 10                                                                                                                                                   10-6
+                                                                   CuI/Au (After 01 month)
+                                          5                                                                                  10-7                     J0=1.5X10-7Acm2
+                                                             Cu/Au (After 01 month)                                                                                                                                                                                                                                                                                      Current                                                                                                              Current
+                                          0                                                                                  10-8                    J0=3.5X10-9Acm2
+                                                                                                                                                   10-9
+                                                         0.0      0.1      0.2      0.3      0.4      0.5                 -0.4    -0.2    0.0    0.2    0.4    0.6    0.8    1.0
+                                                        Voltage (V)                                         Voltage (V)
+
+                              Figure 9. J–V curves of CBD-CdS/CSS-CdTe solar cells with a Cu/Au and CuI/Au back contact
+                                      (a) under illumination of 100 mW/cm2 with AM1.5 ﬁlter and (b) the semi-logarithmic J–V character-
+                                        istics of CBD-CdS/CSS-CdTe solar cells with Cu/Au and CuI/Au back contact in dark.
+
+
+                             Table 2. Photovoltaic parameter measured instant after fabrication and after one month of CdS/CdTe
+                               devices with CuI/Au and Cu/Au back contacts.
+
+                                     Device             JSC (mA/cm2)     VOC (V)         FF       PCE (%)
+
+                                 Cu/Au                  23.71              0.44            0.44            4.57
+
+                           Cu/Au After 01 month          18.78              0.37            0.34            2.35
+
+                                   CuI/Au                  25.00              0.39            0.52            5.05
+
+                            CuI/Au After 01 month          20.87              0.33            0.46            3.13
+
+
+                                   3.4. Inﬂuence of Fabrication Conditions on J–V Characteristics of CdS/CdTe/CuI/Au Device
+
+                           The inﬂuence of different growth conditions of CSS-CdTe on the photovoltaic perfor-
+                      mance of the device was also analyzed with CSS-CdTe growth conditions of 5.0 torr and
+--- Страница 11 ---
+Nanomaterials 2022, 12, 2507                                                                                                    11 of 16
+
+
+
+                               7.9 torr, which were fabricated with a 10 nm CuI hole-transporter. Figure 10 shows the
+                          corresponding J–V characteristic curve under the illumination of 100 mW/cm2 with AM
+                               1.5 ﬁlter and in dark. Table 3, illustrates the photovoltaic parameter of the corresponding
+                         J–V characteristic curve.
+
+
+                                                                        (a)                                                              10 -1  (b)                                         25
+                                                                                         5.0 torr                  2) 10 -2
+                        2) 20                                             7.9 torr                      10 -3
+
+                                                                                                                                                                                                                                                               -4                                                                                                                                                                                                    (A/cm 10                                                                                                                                            5.0 torr                                         15
+                                                                                                                                                                                                                                                               -5                                                                                                                                                       7.9 torr                                                                                                                        10                                                                                                 (mA/cm
+                                                                                                                        10 -6                                         10                                                                                                                                                  density                                                                                                                                                                                                                                                               -7            J0=1.5X10 -7A/cm2
+                                                                                                                        10                                                                                                                 density  5                   5.0 torr                                                                                                               7.9 torr                     10 -8
+                                                                                    (After 01 month)
+                                                                                                                                                                                                                                                               -9                                                                                                                (After 01 month)                               Current 10
+                                           0                                                                                                                                                                                                    2
+                                                                                                                                                                                                                                           -10                                J0=1.1X10-10A/cm                                                                                                                 Current                                                                    10
+                                                     -5                                                                10-11
+                                                         0.0    0.1    0.2    0.3    0.4    0.5    0.6    0.7                -0.6    -0.4    -0.2    0.0     0.2     0.4     0.6     0.8     1.0
+                                                         Voltage (V)                                        Voltage (V)
+
+                              Figure 10. (a) J–V characteristic of CdS/CdTe/CuI/Au device fabricated with different CSS parameter
+                           under illumination of 100 mW/cm2 with AM1.5 ﬁlter and (b) semi-logarithmic plot in dark.
+
+
+                             Table 3. Photovoltaic parameter of CdS/CdTe/CuI/Au devices with different deposition conditions
+                                 of CSS-CdTe.
+
+                         CSS Condition       JSC (mA/cm2)    VOC (V)      FF     PCE (%)   PCE Drops
+
+                                            5.0 torr                25.00            0.39         0.52         5.05
+                                                                                      38%
+                                  After 01 month           20.87            0.33         0.46         3.13
+
+                                            7.9 torr                21.90            0.63         0.49         6.92
+                                                                                     10%
+                                  After 01 month           20.72            0.64         0.47         6.25
+
+
+                                This also shows the roll-over phenomenon disappeared in CdTe solar cells fabricated
+                        under 7.9 torr. Further, a later crossover of the light and dark J–V curves for the cell
+                             fabricated under 7.9 torr demonstrates that the energy barrier at the back contact was
+                           reduced, and the estimated reverse saturation diode current (J0) was 1.11 × 10−10A/cm2.
+                      n-CdS/p-CdTe/CuI/Au device growth condition of 7.9 torr exhibits higher power con-
+                           version efﬁciency of 6.92% with JSC, VOC, and FF of 21.98 mA/cm2, 0.638 V and 0.49,
+                               respectively. VOC and FF in a generic FTO/CBD-CdS/CSS-CdTe/back-contact thin-ﬁlm
+                              solar cell device is a key parameter in the recombination analysis. In particular, VOC is
+                               sensitively inﬂuenced by the interface recombination at the buffer/absorber, front interface,
+                       and the absorber/back-contact interface [70], as shown in Figure 11.
+                           The highest VOC and FF illustrate the fewer recombination losses. Mathematically,
+                     VOC can be explained with recombination coefﬁcients by Equation (7).
+
+                                            v                 
+                               u                                                                             Rb                                                 4W  Ri,f0 +                                                                                                            0                                                   + Ri,b0                               u                                                   Rd                                              1                                   2kBT                                                                          0                                                                                             + 1 −1                            VOC =                                                                                                           2                                                                                                                           utGa                                           q                                                     Rb                                                ln                                                                                                  (7)                                                                         Rd0                                              2   Ri,f0 +                                                                          0                                   + Ri,b0
+
+                        where Ri,f0  , Rd0, Rb0, and Ri,b0  are bias-independent (V = 0) recombination coefﬁcients at the
+                           buffer/absorber interface, in the depletion region (Wd), in the quasi-neutral region, and
+                                at the absorber/back-contact interface, respectively [70]. This means VOC depends on the
+                                carrier recombination of the solar cells inﬂuenced by the fabrication conditions of each layer.
+                             Fabrication conditions affected the grain size (Figure S4 and Table S2), surface roughness,
+                       and thickness of the layer. This was clearly discussed in several studies [54,71–76]. In this
+                             study, it can be seen in the Supporting Information. The CuI hole-transporter provides
+--- Страница 12 ---
+Nanomaterials 2022, 12, 2507                                                                                                    12 of 16
+
+
+
+                          fewer recombination losses in CdS/CdTe thin-ﬁlm solar cells. Further, 7.9 torr vacuum
+                             gives 40% efﬁciency enhancement in solar cells fabricated compared to 5.0 torr vacuum. For
+                            the device stability, photovoltaic performance was also tested after one month (Figure 10).
+                        Only less than 10% PCE drops within a month from 6.92% to 6.25% (Figure S5). This shows
+                               that the stability of the device not only depends on the hole-transporter but the fabrication
+                            condition of each layer also has a signiﬁcant role.
+
+
+
+
+
+                              Figure 11. Energy band diagram of a generic FTO/n-CdS/p-CdTe/back-contact solar cell with the
+                                  front interface, the depletion region, quasi-neutral region, and the back-contact interface.
+
+                                   4. Conclusions
+
+                              Thermally evaporated CuI was successfully employed as a hole-transporter for CBD-
+                       CdS/CSS-CdTe solar cells. A signiﬁcant improvement in ﬁll-factor and, hence, efﬁciency
+                      was achieved by replacing Cu as back contact with CuI. Structural and opto-electrical
+                            properties of thermally evaporated CuI reveal that the deposited ﬁlm has γ-phase CuI,
+                       which has good electrical conductivity and well-matched energy band alignment with
+                         CSS-CdTe. Further, XPS studies of the CdTe/CuI interface conﬁrmed that a small valence
+                       band offset at the CdTe/CuI interface improves the photo-generated hole transport from
+                       CdTe to CuI without any barrier, and the large conduction band offset between CdTe and
+                        CuI reduces the electron transport from back contact to CdTe; thus, the insertion of CuI as a
+                              hole-transporter can reduce the electron recombination rate at the back contact. The results
+                               clearly showed that CuI is a promising hole-transporter instead of Cu as back contact for
+                      CdS/CdTe thin-ﬁlm solar cells, as that will prevent Cu diffusion, increase stability, and also
+                             increase the PCE considerably.
+
+
+                           Supplementary Materials: The following supporting information can be downloaded at: https:
+                            //www.mdpi.com/article/10.3390/nano12142507/s1, Figure S1: Optical absorption spectra of (a)
+                              chemically deposited CdS ﬁlm and closed-space sublimated CdTe ﬁlm; Figure S2: Temperature-
+                            dependent electrical property of thermally evaporated CuI; Figure S3: XRD pattern of (a) CBD-CdS
+                          and (b) CSS-CdTe; Figure S4: XRD pattern and AFM Topography images of CSS-CdTe with different
+                                  fabrication parameters; Figure S5: (a) J–V characteristic and (b) variation in photovoltaic parameters
+                                 of CdS/CdTe/CuI/Au solar cells with time; Table S1: Average crystallite size of CBD-CdS and
+                            CSS-CdTe; Table S2: Structural parameters of CSS-CdTe with different fabrication parameters.
+
+                           Author Contributions: Conceptualization, T.T. and P.R.; methodology, T.T. and A.A.I.L.; software,
+                                       T.T.; validation, T.T., A.A.I.L., B.S.D., P.R. and D.V.; formal analysis, T.T. and A.A.I.L.; investigation,
+                                       T.T.; resources, B.S.D., D.V. and P.R.; data curation, T.T.; writing—original draft preparation, T.T.;
+--- Страница 13 ---
+Nanomaterials 2022, 12, 2507                                                                                                    13 of 16
+
+
+
+
+                            writing—review and editing, T.T., A.A.I.L., B.S.D., P.R. and D.V.; visualization, T.T., A.A.I.L., B.S.D.,
+                                   P.R. and D.V.; supervision, P.R. and D.V.; project administration, P.R.; funding acquisition, P.R. All
+                              authors have read and agreed to the published version of the manuscript.
+
+                            Funding: This research was funded by the State Ministry of Skills Development, Vocational Education,
+                                    Sri Lanka, under Solar Edu-Training Project.
+
+                                 Institutional Review Board Statement: Not applicable.
+
+                           Informed Consent Statement: Not applicable.
+
+                           Data Availability Statement: The data in this paper are available in the Supplementary Materials.
+
+                          Acknowledgments: Faculty of Engineering and Science, Western Norway University of Applied
+                                 Sciences, Bergen, Norway and Department of Physics, University of Peradeniya, Sri Lanka, are
+                           acknowledged for instrumental as well as technical support provided.
+
+                             Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+References
+
+1.  NREL Photovoltaic Research: Best Research Cell Efﬁciency Char. Available online: https://www.nrel.gov/pv/cell-efﬁciency.html
+     (accessed on 9 June 2022).
+2.    First Solar Series 6 Advanced Thin Film Solar Technology. Available online: https://www.ﬁrstsolar.com/-/media/First-Solar/
+     Technical-Documents/Series-6-CuRe/Series-6-CuRe-Datasheet.ashx?la=en-Emea (accessed on 9 June 2022).
+3.    Raj, R.; Gupta, H.; Purohit, L.P. Performance of V2O5 Hole Selective Layer in CdS/CdTe Heterostructure Solar Cell. J. Alloys
+     Compd. 2022, 907, 164408. [CrossRef]
+4.   Ch, T.; Anwer, S.; Rouf, S.A.; Nawaz, A.; Javed, T.; Munir, T.; Zheng, L.; Deliang, W. Back Contact Buffer Layer of WO3 Nanosheets
+     in Thin-Film CdTe Solar Cell. J. Alloys Compd. 2021, 887, 161367. [CrossRef]
+5.   He, F.; Yin, X.; Li, J.; Lin, S.; Wu, L.; Hao, X.; Zhang, J.; Feng, L. Characterization of Sputtered MoOx Thin Films with Different
+    Oxygen Content and Their Application as Back Contact in CdTe Solar Cells. Vacuum 2020, 176, 109337. [CrossRef]
+6.   Kuddus, A.; Rahman, M.F.; Ahmmed, S.; Hossain, J.; Ismail, A.B.M. Role of Facile Synthesized V2O5 as Hole Transport Layer
+      for CdS/CdTe Heterojunction Solar Cell: Validation of Simulation Using Experimental Data. Superlattices Microstruct. 2019,
+     132, 106168. [CrossRef]
+7.   Wang, D.; Yang, R.; Wu, L.; Shen, K.; Wang, D. Band Alignment of CdTe with MoOx Oxide and Fabrication of High Efﬁciency
+    CdTe Solar Cells. Sol. Energy 2018, 162, 637–645. [CrossRef]
+8.    Xiao, D.; Li, X.; Wang, D.; Li, Q.; Shen, K.; Wang, D. CdTe Thin Film Solar Cell with NiO as a Back Contact Buffer Layer. Sol.
+     Energy Mater. Sol. Cells 2017, 169, 61–67. [CrossRef]
+9.   Paudel, N.R.; Compaan, A.D.; Yan, Y. Ultrathin CdTe Solar Cells with MoO3−x /Au Back Contacts. J. Electron. Mater. 2014, 43,
+     2783–2787. [CrossRef]
+10.  Khrypunov, G.; Bereznev, S.; Meriuts, A.; Kopach, G.; Kovtun, N.; Deyneko, N. Development Organic Back Contact for Thin-Film
+    CdS/CdTe Solar Cell. Phys. Chem. Solid State 2010, 11, 248–251.
+11.  Guo, X.; Tan, Q.; Liu, S.; Qin, D.; Mo, Y.; Hou, L.; Liu, A.; Wu, H.; Ma, Y. High-Efﬁciency Solution-Processed CdTe Nanocrystal
+     Solar Cells Incorporating a Novel Crosslinkable Conjugated Polymer as the Hole Transport Layer. Nano Energy 2018, 46, 150–157.
+     [CrossRef]
+12.  Varadharajaperumal, S.; Ilango, M.S.; Hegde, G.; Satyanarayan, M.N. Effect of CuPc and PEDOT:PSS as Hole Transport Layers in
+     Planar Heterojunction CdS/CdTe Solar Cell. Mater. Res. Express 2019, 6, 095009. [CrossRef]
+13.  Keen, D.A.; Hull, S. The High-Temperature Structural Behaviour of Copper(I) Iodide. J. Phys. Condens. Matter 1995, 7, 5793–5804.
+     [CrossRef]
+14.  Hanif, Q.A.; Ramelan, A.H.; Saputri, L.N.M.Z.; Wahyuningsih, S. Modiﬁcation of CuI Based Hole Transport Material for Solid
+      State DSSC Application. IOP Conf. Ser. Mater. Sci. Eng. 2018, 333, 012029. [CrossRef]
+15.  Peng, Y.; Yaacobi-Gross, N.; Perumal, A.K.; Faber, H.A.; Vourlias, G.; Patsalas, P.A.; Bradley, D.D.C.; He, Z.; Anthopoulos, T.D.
+     Efﬁcient Organic Solar Cells Using Copper(I) Iodide (CuI) Hole Transport Layers. Appl. Phys. Lett. 2015, 106, 243302. [CrossRef]
+16.  Khadka, D.B.; Shirai, Y.; Yanagida, M.; Miyano, K. Ammoniated Aqueous Precursor Ink Processed Copper Iodide as Hole
+     Transport Layer for Inverted Planar Perovskite Solar Cells. Sol. Energy Mater. Sol. Cells 2020, 210, 110486. [CrossRef]
+17.  Uthayaraj, S.; Karunarathne, D.G.B.C.; Kumara, G.R.A.; Murugathas, T.; Rasalingam, S.; Rajapakse, R.M.G.; Ravirajan, P.;
+      Velauthapillai, D. Powder Pressed Cuprous Iodide (CuI) as A Hole. Materials 2019, 12, 2037. [CrossRef]
+18.   Saranin, D.; Gostischev, P.; Tatarinov, D.; Ermanova, I.; Mazov, V.; Muratov, D.; Tameev, A.; Kuznetsov, D.; Didenko, S.; Di Carlo,
+     A. Copper Iodide Interlayer for Improved Charge Extraction and Stability of Inverted Perovskite Solar Cells. Materials 2019, 12,
+     1406. [CrossRef]
+19.  Takahashi, K.; Suzuki, Y. Perovskite Solar Cells with CuI Inorganic Hole Conductor. Jpn.  J. Appl. Phys. 2017, 56, 08MC04.
+     [CrossRef]
+--- Страница 14 ---
+Nanomaterials 2022, 12, 2507                                                                                                    14 of 16
+
+
+
+
+20.   Li, X.; Yang, J.; Jiang, Q.; Chu, W.; Zhang, D.; Zhou, Z.; Xin, J. Synergistic Effect to High-Performance Perovskite Solar Cells with
+    Reduced Hysteresis and Improved Stability by the Introduction of Na-Treated TiO2 and Spraying-Deposited CuI as Transport
+     Layers. ACS Appl. Mater. Interfaces 2017, 9, 41354–41362. [CrossRef]
+21.  Sun, W.; Ye, S.; Rao, H.; Li, Y.; Liu, Z.; Xiao, L.; Chen, Z.; Bian, Z.; Huang, C. Room-Temperature and Solution-Processed Copper
+     Iodide as the Hole Transport Layer for Inverted Planar Perovskite Solar Cells. Nanoscale 2016, 8, 15954–15960. [CrossRef]
+22.  Gharibzadeh, S.; Nejand, B.A.; Moshaii, A.; Mohammadian, N.; Alizadeh, A.H.; Mohammadpour, R.; Ahmadi, V.; Alizadeh, A.
+     Two-Step Physical Deposition of a Compact Cui Hole-Transport Layer and the Formation of an Interfacial Species in Perovskite
+     Solar Cells. ChemSusChem 2016, 9, 1929–1937. [CrossRef]
+23.  Chen, W.Y.; Deng, L.L.; Dai, S.M.; Wang, X.; Tian, C.B.; Zhan, X.X.; Xie, S.Y.; Huang, R.B.; Zheng, L.S. Low-Cost Solution-Processed
+    Copper Iodide as an Alternative to PEDOT:PSS Hole Transport Layer for Efﬁcient and Stable Inverted Planar Heterojunction
+     Perovskite Solar Cells. J. Mater. Chem. A 2015, 3, 19353–19359. [CrossRef]
+24.   Christians, J.A.; Fung, R.C.M.; Kamat, P.V. An Inorganic Hole Conductor for Organo-Lead Halide Perovskite Solar Cells. Improved
+    Hole Conductivity with Copper Iodide. J. Am. Chem. Soc. 2014, 136, 758–764. [CrossRef]
+25.  Mohan, V.; Gautam, A.K.; Choudhary, S.D.; Mariam Bee, M.K.; Puviarasi, R.; Saranya, S.; Agrawal, N. Enhanced Performance
+     Organic Light Emitting Diode with CuI:CuPC Composite Hole Transport Layer. IEEE Trans. Nanotechnol. 2020, 19, 699–703.
+     [CrossRef]
+26.  Baek, S.D.; Kwon, D.K.; Kim, Y.C.; Myoung, J.M. Violet Light-Emitting Diodes Based on p-CuI Thin Film/n-MgZnO Quantum
+    Dot Heterojunction. ACS Appl. Mater. Interfaces 2020, 12, 6037–6047. [CrossRef]
+27.  Hotra, Z.; Voznyak, L.; Kostiv, N.; Volunyuk, D.; Pakhomov, G.; Łuka, G.; Witkowski, B.; Wachnicki, Ł. Structural and Optical
+     Properties of Copper Iodide Thin Films for Their Application in Organic Electronic Devices. In Proceedings of the Modern
+     Problems of Radio Engineering, Telecommunications and Computer Science-Proceedings of the 11th International Conference,
+     TCSET’2012. pp. 528–529. Available online: https://www.elibrary.ru/item.asp?id=17986046 (accessed on 9 June 2022).
+28.   Liu, Z.; Qayyum, M.F.; Wu, C.; Whited, M.T.; Djurovich, P.I.; Hodgson, K.O.; Hedman, B.; Solomon, E.I.; Thompson, M.E. A
+     Codeposition Route to CuI-Pyridine Coordination Complexes for Organic Light-Emitting Diodes. J. Am. Chem. Soc. 2011, 133,
+     3700–3703. [CrossRef]
+29.  Rahmi, G.H.; Pratiwi, P.; Nuryadi, B.W.; Aimon, A.H.; Winata, T.; Iskandar, F. Preparation of Copper Iodide (CuI) Thin Film by
+      In-Situ Spraying and Its Properties. J. Phys. Conf. Ser. 2016, 739, 012050. [CrossRef]
+30.   Joseph, N.; Sebastian, T.; John, J.C.; Augustine, S. Synthesis and Characterization of Sprayed Copper Iodide Thin Films on Flexible
+     Substrate. AIP Conf. Proc. 2020, 2263, 050008. [CrossRef]
+31.  Gotoh, K.; Cui, M.; Takahashi, I.; Kurokawa, Y.; Usami, N. Development of Spin-Coated Copper Iodide on Silicon for Use in
+     Hole-Selective Contacts. Energy Procedia 2017, 124, 598–603. [CrossRef]
+32.  Inudo, S.; Miyake, M.; Hirato, T. Electrical Properties of CuI Films Prepared by Spin Coating. Phys. Status Solidi Appl. Mater. Sci.
+     2013, 210, 2395–2398. [CrossRef]
+33.  Klochko, N.P.; Klepikova, K.S.; Kopach, V.R.; Zhadan, D.O.; Starikov, V.V.; Sofronov, D.S.; Khrypunova, I.V.; Petrushenko, S.I.;
+     Dukarov, S.V.; Lyubov, V.M.; et al. Solution-Produced Copper Iodide Thin Films for Photosensor and for Vertical Thermoelectric
+     Nanogenerator, Which Uses a Spontaneous Temperature Gradient. J. Mater. Sci. Mater. Electron. 2019, 30, 17514–17524. [CrossRef]
+34.  Kang, H.; Liu, R.; Chen, K.; Zheng, Y.; Xu, Z. Electrodeposition and Optical Properties of Highly Oriented γ-CuI Thin Films.
+      Electrochim. Acta 2010, 55, 8121–8125. [CrossRef]
+35.  Bulakhe, R.N.; Shinde, N.M.; Thorat, R.D.; Nikam, S.S.; Lokhande, C.D. Deposition of Copper Iodide Thin Films by Chemical Bath
+     Deposition (CBD) and Successive Ionic Layer Adsorption and Reaction (SILAR) Methods. Curr. Appl. Phys. 2013, 13, 1661–1667.
+     [CrossRef]
+36.  Yang, C.; Souchay, D.; Kneiß, M.; Bogner, M.; Wei, H.M.; Lorenz, M.; Oeckler, O.; Benstetter, G.; Fu, Y.Q.; Grundmann, M.
+     Transparent Flexible Thermoelectric Material Based on Non-Toxic Earth-Abundant p-Type Copper Iodide Thin Film. Nat.
+    Commun. 2017, 8, 4–10. [CrossRef]
+37.  Zhu, B.L.; Zhao, X.Z. Transparent Conductive CuI Thin Films Prepared by Pulsed Laser Deposition. Phys. Status Solidi Appl.
+     Mater. Sci. 2011, 208, 91–96. [CrossRef]
+38.   Zi, M.; Li, J.; Zhang, Z.; Wang, X.; Han, J.; Yang, X.; Qiu, Z.; Gong, H.; Ji, Z.; Cao, B. Effect of Deposition Temperature on
+     Transparent Conductive Properties of γ-CuI Film Prepared by Vacuum Thermal Evaporation. Phys. Status Solidi Appl. Mater. Sci.
+     2015, 212, 1466–1470. [CrossRef]
+39.  Kaushik, D.K.; Selvaraj, M.; Ramu, S.; Subrahmanyam, A. Thermal Evaporated Copper Iodide (CuI) Thin Films: A Note on
+     the Disorder Evaluated through the Temperature Dependent Electrical Properties. Sol. Energy Mater. Sol. Cells 2017, 165, 52–58.
+     [CrossRef]
+40.  Yang, C.; Kneib, M.; Lorenz, M.; Grundmann, M. Room-Temperature Synthesized Copper Iodide Thin Filmas Degenerate p-Type
+     Transparent Conductor with a Boosted Figure of Merit. Proc. Natl. Acad. Sci. USA 2016, 113, 12929–12933. [CrossRef]
+41.  Amalina, M.N.; Rasheid, N.A.; Rusop, M. The Properties of Sprayed Nanostructured P-Type CuI Films for Dye-Sensitized Solar
+     Cells Application. J. Nanomater. 2012, 2012, 3. [CrossRef]
+42.  Johan, M.R.; Si-Wen, K.; Hawari, N.; Aznan, N.A.K. Synthesis and Characterization of Copper (I) Iodide Nanoparticles via
+     Chemical Route. Int. J. Electrochem. Sci. 2012, 7, 4942–4950.
+--- Страница 15 ---
+Nanomaterials 2022, 12, 2507                                                                                                    15 of 16
+
+
+
+
+43.  Kim, D.; Nakayama, M.; Kojima, O.; Tanaka, I.; Ichida, H.; Nakanishi, T.; Nishimura, H. Thermal-Strain-Induced Splitting of
+    Heavy- and Light-Hole Exciton Energies in Cui Thin Films Grown by Vacuum Evaporation. Phys. Rev. B-Condens. Matter Mater.
+     Phys. 1999, 60, 13879–13884. [CrossRef]
+44.  Gajanayake, G.K.U.P.; De Silva, D.S.M.; Atapattu, H.Y.R. Altering NH4OH Concentration in Producing Chemical Bath Deposited
+    CdS to Steadily Support Electrodeposited CdTe. Mater. Sci. Eng. B Solid-State Mater. Adv. Technol. 2021, 265, 114952. [CrossRef]
+45.  Hariech, S.; Aida, M.S.; Bougdira, J.; Belmahi, M.; Medjahdi, G.; Genève, D.; Attaf, N.; Rinnert, H. Cadmium Sulﬁde Thin Films
+    Growth by Chemical Bath Deposition. J. Semicond. 2018, 39, 034004. [CrossRef]
+46.  Thanihaichelvan, M.; Loheeswaran, S.; Balashangar, K.; Velauthapillai, D.; Ravirajan, P. Polymer/Fullerene Blend Solar Cells with
+    Cadmium Sulﬁde Thin Film as an Alternative Hole-Blocking Layer. Polymers 2019, 11, 460. [CrossRef] [PubMed]
+47.  Kumarage, W.G.C.; Wijesundara, L.B.D.R.P.; Seneviratne, V.A.; Jayalath, C.P.; Dassanayake, B.S. Inﬂuence of Bath Temperature on
+    CBD-CdS Thin Films. Procedia Eng. 2016, 139, 64–68. [CrossRef]
+48.   Li, D.B.; Song, Z.; Bista, S.S.; Alfadhili, F.K.; Awni, R.A.; Shrestha, N.; Rhiannon, D.M.; Phillips, A.B.; Heben, M.J.; Ellingson, R.J.;
+      et al. CuSCN as the Back Contact for Efﬁcient ZMO/CdTe Solar Cells. Materials 2020, 13, 1991. [CrossRef] [PubMed]
+49.   Smits, F.M. Measurement of Sheet Resistivities with the Four-Point Probe. Bell Syst. Tech. J. 1958, 37, 711–718. [CrossRef]
+50.  Kumarage, C.; Wijesundera, R.P.; Kaur, N.; Dassanayake, B. A Comparative Assessment: Chemical Bath Deposited and
+     Electrodeposited CdS Films A Comparative Assessment: Electrodeposited CdS Films Chemical Bath Deposited. Int. J. Electroact.
+     Mater. 2019, 7, 1–6.
+51.  Kumarage, W.G.C.; Wijesundera, R.P.; Seneviratne, V.A.; Jayalath, C.P.; Gunawardhana, N.; Kaur, N.; Comini, E.; Dassanayake,
+      B.S. Growth and Characterization of Seed-Assisted, EDTA-Treated, Chemical Bath-Deposited CdS. J. Electron. Mater. 2021, 50,
+     4858–4865. [CrossRef]
+52.  Kumarage, W.G.C.; Wijesundera, R.P.; Seneviratne, V.A.; Jayalath, C.P.; Dassanayake, B.S. Tunable Optoelectronic Properties of
+    CBD-CdS Thin Films via Bath Temperature Alterations. J. Phys. D. Appl. Phys. 2016, 49, 95109. [CrossRef]
+53.   Harif, M.N.; Rahman, K.S.; Doroody, C.; Rosly, H.N.; Isah, M.; Alghoul, M.A.; Misran, H.; Amin, N. Microstructural Evolution of
+    Oxygen Incorporated CdTe Thin Films Deposited by Close-Spaced Sublimation. Mater. Lett. 2021, 306, 130552. [CrossRef]
+54.   Flores Mendoza, M.A.; Castanedo Pérez, R.; Torres Delgado, G.; Márquez Marín, J.; Cruz Orea, A.; Zelaya Angel, O. Structural,
+     Morphological, Optical and Electrical Properties of CdTe Films Deposited by CSS under an Argon-Oxygen Mixture and Vacuum.
+      Sol. Energy Mater. Sol. Cells 2011, 95, 2023–2027. [CrossRef]
+55.   Poirier, D.M.; Weaver, J.H. CdTe(110) by XPS. Surf. Sci. Spectra 1993, 2, 209–216. [CrossRef]
+56.  Vasquez, R.P. CuI by XPS. Surf. Sci. Spectra 1993, 2, 149–154. [CrossRef]
+57.  Nelson, J.; Kirkpatrick, J.; Ravirajan, P. Factors Limiting the Efﬁciency of Molecular Photovoltaic Devices. Phys. Rev. B 2004, 69,
+     035337. [CrossRef]
+58.  Corwine, C.R.; Pudov, A.O.; Gloeckler, M.; Demtsu, S.H.; Sites, J.R. Copper Inclusion and Migration from the Back Contact in
+    CdTe Solar Cells. Sol. Energy Mater. Sol. Cells 2004, 82, 481–489. [CrossRef]
+59.  Hädrich, M.; Heisler, C.; Reislöhner, U.; Kraft, C.; Metzner, H. Back Contact Formation in Thin Cadmium Telluride Solar Cells.
+     Thin Solid Films 2011, 519, 7156–7159. [CrossRef]
+60.  Niemegeers, A.; Burgelman, M. Effect of the Au/CdTe Back Contact on IV and CV Characteristics of Au/CdTe/CdS/TCO Solar
+      Cells. J. Appl. Phys. 1997, 81, 2881–2886. [CrossRef]
+61.  Fahrenbnich, A.L. Exploring Back Contact Technology to Increase CdS/CdTe Solar Cell Efﬁciency. Mater. Res. Soc. Symp. Proc.
+     2007, 1012, 283–290. [CrossRef]
+62.  Kephart, J.M.; McCamy, J.W.; Ma, Z.; Ganjoo, A.; Alamgir, F.M.; Sampath, W.S. Band Alignment of Front Contact Layers for
+     High-Efﬁciency CdTe Solar Cells. Sol. Energy Mater. Sol. Cells 2016, 157, 266–275. [CrossRef]
+63.   Li, X.; Shen, K.; Li, Q.; Deng, Y.; Zhu, P.; Wang, D. Roll-over Behavior in Current-Voltage Curve Introduced by an Energy Barrier
+      at the Front Contact in Thin Film CdTe Solar Cell. Sol. Energy 2018, 165, 27–34. [CrossRef]
+64.   Roussillon, Y.; Karpov, V.G.; Shvydka, D.; Drayton, J.; Compaan, A.D. Back Contact and Reach-through Diode Effects in Thin-Film
+     Photovoltaics. J. Appl. Phys. 2004, 96, 7283–7288. [CrossRef]
+65.  Montgomery, A.; Guo, L.; Grice, C.; Awni, R.A.; Saurav, S.; Li, L.; Yan, Y.; Yan, F. Solution-Processed Copper (I) Thiocyanate
+    (CuSCN) for Highly Efﬁcient CdSe/CdTe Thin-Film Solar Cells. Prog. Photovolt. Res. Appl. 2019, 27, 665–672. [CrossRef]
+66.   Balcioglu, A.; Ahrenkiel, R.K.; Hasoon, F.; Balcioglu, A.; Ahrenkiel, R.K.; Hasoon, F. Deep-Level Impurities in CdTe/CdS
+     Thin-Film Solar Cells Deep-Level Impurities in CdTe/CdS Thin-Film Solar Cells. J. Appl. Phys. 2016, 7175, 10–14.
+67.  Kumar, S.G.; Rao, K.S.R.K. Physics and Chemistry of CdTe/CdS Thin Film Heterojunction Photovoltaic Devices: Fundamental
+    and Critical Aspects. Energy Environ. Sci. 2014, 7, 45–102. [CrossRef]
+68.  Wei, S.H.; Zhang, S.B. Chemical Trends of Defect Formation and Doping Limit in II-VI Semiconductors: The Case of CdTe. Phys.
+     Rev. B-Condens. Matter Mater. Phys. 2002, 66, 155211. [CrossRef]
+69.  Echendu, O.K.; Fauzi, F.; Weerasinghe, A.R.; Dharmadasa, I.M. High Short-Circuit Current Density CdTe Solar Cells Using
+     All-Electrodeposited Semiconductors. Thin Solid Films 2014, 556, 529–534. [CrossRef]
+70.   Paul, S.; Grover, S.; Repins, I.L.; Keyes, B.M.; Contreras, M.A.; Ramanathan, K.; Nouﬁ, R.; Zhao, Z.; Liao, F.; Li, J.V. Analysis of
+     Back-Contact Interface Recombination in Thin-Film Solar Cells. IEEE J. Photovolt. 2018, 8, 871–878. [CrossRef]
+71.  Cruz-Campa, J.L.; Zubia, D. CdTe Thin Film Growth Model under CSS Conditions. Sol. Energy Mater. Sol. Cells 2009, 93, 15–18.
+     [CrossRef]
+--- Страница 16 ---
+Nanomaterials 2022, 12, 2507                                                                                                    16 of 16
+
+
+
+
+72.   Gordillo, G.; Flórez, J.M.; Hernández, L.C. Preparation and Characterization of CdTe Thin Films Deposited by CSS. Sol. Energy
+     Mater. Sol. Cells 1995, 37, 273–281. [CrossRef]
+73.   Ferekides, C.; Britt, J.; Ma, Y.; Killian, L. High Efﬁciency CdTe Solar Cells by Close Spaced Sublimation. In Proceedings of the
+     Conference Record of the Twenty Third IEEE Photovoltaic Specialists Conference-1993 (Cat. No.93CH3283-9), Louisville, KY,
+    USA, 10–14 May 1993; pp. 389–393. [CrossRef]
+74.  García-Alvarado, G.I.; de Moure-Flores, F.; Mayén-Hernández, S.A.; Santos-Cruz, D.; Rivera-Muñoz, E.M.; Contreras-Puente,
+      G.S.; Pal, M.; Santos-Cruz, J. CdTe/CdS Solar Cells with CdTe Grown at Low Vacuum. Vacuum 2017, 142, 175–180. [CrossRef]
+75.  Enam, F.M.T.; Rahman, K.S.; Kamaruzzaman, M.I.; Sobayel, K.; Aktharuzzaman, M.; Amin, N. An Investigation on Structural and
+      Electrical Properties of Close-Spaced Sublimation Grown CdTe Thin Films in Different Growth Conditions. Chalcogenide Lett.
+     2017, 14, 125–131.
+76.  Munshi, A.H.; Kephart, J.M.; Abbas, A.; Shimpi, T.M.; Barth, K.; Walls, J.M.; Sampath, W.S. Effect of Varying Deposition and
+     Substrate Temperature on Sublimated CdTe Thin-Film Photovoltaics. In Proceedings of the 2016 IEEE 43rd Photovoltaic Specialists
+     Conference (PVSC), Portland, OR, USA, 5–10 June 2016; pp. 465–469.

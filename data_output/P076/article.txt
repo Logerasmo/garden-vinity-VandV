@@ -1,0 +1,503 @@
+--- Страница 1 ---
+RSC Advances
+
+ PAPER                                                                   Published on 28 April 2025                                                                          Licensed under CC-BY-NC 4.0
+
+               Hole transport layer selection for stable and
+               eﬃcient carbon electrode-based perovskite solar Cite this: RSC Adv., 2025, 15, 13681
+                   cells†
+
+                           Kausar Ali Khawaja, Wenjun Xiang, Jacob Wall, Xiaoyu Gu, Lin Li and Feng Yan   *
+
+
+                                    Perovskite solar cell (PSC) technology has achieved remarkable progress, with champion power conversion
+                                 eﬃciencies (PCE) exceeding 26%. However, the long-term stability of PSCs remains a signiﬁcant barrier to
+
+                                        their widespread commercialization. Carbon-based PSCs (C-PSCs) have gained attention as a promising
+                                  cost-eﬀective and scalable production solution, replacing expensive metal electrodes and oﬀering
+                               improved stability. Despite these advantages, C-PSCs face challenges in matching the performance of
+                                noble metal-based PSCs,  particularly  in terms of  carrier extraction eﬃciency and reduced  carrier
+
+                                 recombination at the carbon/perovskite interface. The selection of hole transport materials (HTMs) is
+
+                                       crucial for optimizing this interface, but comprehensive studies on HTM selection for C-PSCs are limited.
+
+                                    This study systematically investigated three commonly used hole transport layers (HTLs): Spiro-OMeTAD,
+
+                            CuSCN, and PTAA. Our  results show  that Spiro-OMeTAD-based C-PSCs  exhibit the best  overall
+                                 performance, achieving a PCE of 19.29%. CuSCN-based devices, while lower in eﬃciency (11.94% PCE),
+
+                               demonstrated superior stability, retaining approximately 60% of their initial performance after 500 hours
+Received 9th March 2025
+                               under ambient conditions. PTAA-based devices achieved a PCE of 12.92% but exhibited signiﬁcant
+Accepted 21st April 2025
+                                   degradation, maintaining only ∼35% of their original eﬃciency over the same duration. These ﬁndings
+DOI: 10.1039/d5ra01694k
+                                      highlight the importance of selecting HTLs that balance performance and stability and emphasize the
+
+ rsc.li/rsc-advances                need for further optimization to enhance the commercial viability of C-PSCs.
+
+1.  Introduction                                 To address the internal limitations, an eﬀective approach is
+                                                                   to develop new materials or enhance the properties of existing
+Perovskite solar  cells (PSCs) are emerging as a promising   interfaces and interlayer materials to minimize the energy los-
+photovoltaic technology owing to their superior optoelectronic   ses. In fact, functionalized interfacial design not only addresses
+properties,  such  as  high  absorption  coeﬃcient,  tunable   internal factors but also provides protection against external
+bandgap, higher charge carrier mobility, long exciton diﬀusion   issues, thus signicantly enhancing the device stability and
+length, and most importantly low fabrication cost.1,2 Although    reliability.9,10 In the conventional structure (n–i–p) of perovskite
+perovskite solar  cells are a promising and fastest-growing   solar cells, a key component of this strategy is the optimization
+alternative to silicon solar cells, several limitations still hinder   of the hole transport layer (HTL). The HTL plays a crucial role in
+their commercialization.3–5 These limitations can be broadly  minimizing energy losses.11–14 The key requirements for hole
+categorized into two factors: internal and external. The internal   transport materials (HTMs) include suitable energy levels, high
+limitation originates from energy loss within the perovskite   hole mobility, and solution processability with orthogonal
+layer, primarily due to bulk recombination and optical losses,   solvents  without  damaging  the  pre-deposited  perovskite
+these losses are oen attributed to trap-assisted non-radiative    layer.15,16 In addition to serving as electron blocking layers,
+recombination and energy-level mismatch at the interfaces.6,7  HTLs also play an important role in protecting the perovskite
+The external limitations arise from the degradation of the   layer by  exhibiting hydrophobic  properties and  guarding
+perovskite material when exposed to environmental factors   against exposure to moisture and oxygen.17
+such as moisture, oxygen, and heat.8                            Carbon-based perovskite solar cells (C-PSCs) have gained
+                                                               signicant attention in recent years, achieving PCE > 20%, in
+                                                       which carbon materials are used as charge collectors replacing
+                                                              the traditional expensive metal electrodes such as Ag and Au.18
+ Materials Science and Engineering Program, School  for Engineering  of Matter,   Planar C-PSCs  exhibit many advantages, including simple
+ Transport and Energy, Arizona State University, Tempe, AZ, 85287, USA. E-mail:
+                                                          manufacturing processes, compatibility with exible substrates,
+fengyan@asu.edu
+                                                         low energy consumption, reduced production cost, and large-† Electronic   supplementary   information    (ESI)    available.   See   DOI:
+ https://doi.org/10.1039/d5ra01694k                                       scale fabrication.19,20 Carbon materials bring extra advantages,
+
+
+© 2025 The Author(s). Published by the Royal Society of Chemistry                          RSC Adv., 2025, 15, 13681–13690  | 13681
+--- Страница 2 ---
+RSC Advances                                                                                Paper
+
+
+such as abundant availability, high electrochemical stability,   followed by PTAA and then CuSCN. Notably, while CuSCN-
+eﬃcient hole extraction, and low fabrication cost with simple  based  devices  exhibit lower PCEs,  they demonstrate the
+fabrication  techniques.21–23 Moreover, carbon materials are   greatest durability, with Spiro-OMeTAD showing moderate
+highly hydrophobic and chemically inert, which can signi-   stability and PTAA the  least. These  results highlight the
+cantly improve the stability of PSCs in an ambient environ-   possibility of simultaneously enhancing eﬃciency and stability
+ment.24,25 In addition to these advantages, recent studies have  through careful selection and optimization of HTMs, thereby
+also highlighted the role of mobile ion migration in the  advancing the development of low-cost, large-area carbon-
+degradation of metal halide perovskite (MHP) devices. Penu-  based perovskite solar cells.
+kula et al. systematically demonstrated, using transient dark
+current measurements, that both device architecture and elec-
+                                              2.  Experimental sectiontrode composition signicantly inuence ionic dynamics. Their
+ndings showed that inert carbon electrodes can reduce the   2.1  Materials
+mobile ion concentration (No) by nearly two orders of magni-                                                              PbI2 (Sigma-Aldrich, 99.999%), PbBr2 (Alfa Aesar, 99.98%), for-
+tude compared to reactive metal electrodes like silver, while also                                                  mamidinium iodide (FAI, GreatCellSolar), methylammonium
+enhancing mechanical robustness as indicated by increased                                                      bromide (MABr, GreatCellSolar), CsI (BeanTown Chemical,
+fracture energy (Gc). This ionic suppression further supports the   99.9%), SnCl2$2H2O (Acros Organics, 97%), and thiourea (Alfa
+long-term operational stability of C-PSC congurations.26                                                                  Aesar, 99%) were used without further purication. Dimethyl
+   Nevertheless, despite the numerous advantages of C-PSCs,                                                                  sulfoxide (DMSO) and  dimethyl  formamide (DMF)  were
+several critical issues remain unsolved, such as low carrier                                                         purchased from Sigma-Aldrich and used as received. Spiro-
+extraction, increased carrier recombination, and poor energy                                                OMeTAD, lithium bis(triuoromethylsulfonyl)imide (Li-TFSI),
+band alignment at the perovskite/carbon interface, all of which                                                                     4-tert-butylpyridine (tBP), and chlorobenzene were purchased
+adversely impact the device performance.27,28 Several methods                                                      from  Sigma-Aldrich.  Carbon  paste  was  purchased  from
+have been adopted to improve the intrinsic properties of carbon                                                    Guangzhou Saidi technology development Co. Ltd, China.
+layer  and  achieve  favorable  carbon/perovskite  interfacial
+contacts. However, the PCEs of these devices still lag behind the
+                                                                   2.2  Device fabricationtraditional metal electrode-based PSCs due to the undesirable
+interface charge recombination. To address this issue, intro-  The ITO substrates were cleaned by successively sonicating in
+duction of HTMs between the carbon and perovskite layer has   detergent solution, deionized water, acetone, and IPA followed
+been proved eﬀective in mitigating interfacial issues in planar  by 30 min  of UV-ozone treatment. SnO2 (2.67%)  colloid
+n–i–p C-PSCs.29–31 Various HTMs have been adopted for C-PSCs   precursor  solution was  spin-coated on  the  cleaned ITO
+to improve  their  eﬃciency.  For  example, Spiro-OMeTAD,   substrates at 3000 rpm for the 30 s. These substrates were then
+a prevalent HTM in conventional PSCs, has demonstrated  annealed at 150 °C for 1 hour and were then transferred to
+high PCE above 20% in C-PSCs.18,32 Poly(3-hexylthiophene-2,5-   a nitrogen-lled glovebox aer a 10-minute UV-ozone treat-
+diyl) (P3HT) is also commonly used HTL in C-PSCs owing to  ment. The triple cation perovskite (Cs0.05FA0.85MA0.1I2$55Br0.45,
+its suitable energy level alignment, which further suppress the   1.4 M) precursor was then deposited by a two-step spin-coating
+carrier recombination with high hole transport rate.33,34 Copper   procedure: 1000 rpm 10 s followed by 5000 rpm 30 s. 600 ml
+thiocyanate (CuSCN), a hydrophobic inorganic HTM, has also   diethyl ether was then dropped onto the spinning substrates
+shown eﬀectiveness in increasing the PCE as well as enhancing  25 s before the end of spin-coating. Spiro-OMeTAD precursor
+the stability of C-PSCs.35–37                                      solution was prepared by dissolving 72.3 mg of Spiro-OMeTAD,
+   While various HTMs such as Spiro-OMeTAD, PTAA, and   28.8 mL of tBP, and 17.5 mL of Li-TFSI solution (520 mg of Li-
+CuSCN have been explored in carbon-based devices—each   TFSI in 1 mL acetonitrile) in 1 mL of chlorobenzene. This
+demonstrating unique advantages in eﬃciency or stability—   solution was then spin-coated on the annealed perovskite lms
+most studies have focused on single-material demonstrations   at 3000 rpm for 30 s. CuSCN precursor solution was prepared
+rather than comparative analysis under consistent architec-  by dissolving 35.1 mg of CuSCN in 1 mL of diethyl sulde and
+tures. For example, as noted earlier, Yang et al. showed that   stirred overnight prior to use. This prepared solution was spin
+CuSCN oﬀers improved stability compared to Spiro-OMeTAD,   coated on annealed perovskite lms at 3000 rpm for 30 s. PTAA
+while Zhang et al. demonstrated enhanced operational dura-   solution was prepared by dissolving 10.1 mg of PTAA, 4 mL of
+bility using dopant-free PTAA with SWCNTs.37,38 These ndings  TBP and 75 mL of LiTFSI (170 mg of Li-TFSI in 1 mL acetoni-
+underscore the importance of HTL selection, but a direct side-    trile). This solution was spin coated on annealed perovskite
+by-side evaluation of commonly used HTLs in a planar C-PSC  lms at 3000 rpm for 30 s. The free-standing carbon lm (FSC)
+conguration remains limited.                                  electrode was prepared by the solvent exchange technique.34
+   In our work, we address this gap by systematically investi-   Briey, the commercial carbon paste was applied onto a glass
+gating three commonly used HTLs—Spiro-OMeTAD, CuSCN,   substrate using the doctor-blading technique. The resulting
+and PTAA—in carbon-based planar PSCs, including a control  wet lm was then immersed in ethanol to remove residual
+device without an HTL. Our ndings  reveal  that  Spiro-   solvent through a solvent-exchange process. Aerward, the
+OMeTAD-based  devices  deliver  the  highest  performance,  lm was dried for several minutes using a dry air pump. This
+achieving a superior ll factor (FF) and PCE (up to 19.29%),   dried carbon electrode lm was stored in a dry box for 48 hours
+
+
+13682  | RSC Adv., 2025, 15, 13681–13690                     © 2025 The Author(s). Published by the Royal Society of Chemistry
+--- Страница 3 ---
+Paper                                                                   RSC Advances
+
+
+before use. Once fully dried, circular pieces with an area of 0.08   molecular orbital (HUMO) level of Spiro-OMeTAD is −5.12 eV,
+cm2 were cut out using a hole punch. These pieces were then  CuSCN is −5.3 eV and PTAA is −5.1 eV. As compared to the
+adhered onto the devices using hot press on top of the Spiro-   valence band of perovskite layer −5.21 eV and Fermi level of
+OMeTAD lm, completing the device.                        carbon (−5.0 eV), the energy gap diﬀerence at HTL/carbon
+                                                                     interface is low with Spiro-OMeTAD and PTAA then CuSCN.
+2.3  Device characterization                                  This small energy gap suggests a lower energy barrier for hole
+                                                                        transfer, which could lead to improved charge transfer with
+The microscopic morphology of the electrodes was studied
+                                                                      potentially less recombination, enhancing the performance of the
+using a Thermo Scientic Apreo scanning electron micro-
+                                                                     devices. The interface properties of HTLs and carbon electrodes
+scope. The electrical characterization of the fabricated PSCs
+                                                          were observed by DC current–voltage  (I–V) measurement as
+with an active area of 0.08 cm2 was recorded using a solar
+                                                   shown in Fig. 1d. The device structure is depicted in the insert of
+simulator (Newport, Oriel Class AAA 94063A) with a Keithley
+                                                                         Fig. 1d, where a HTL is sandwiched between ITO and carbon
+2420 source meter under simulated AM 1.5G (100 mW cm−2)
+                                                                      electrode. An ohmic contact has been formed between all HTLs
+solar irradiation. The light intensity was calibrated using
+                                                     and carbon electrodes, as evidenced by the linear I–V curve
+a silicon reference cell (Newport, 91150V, certied by National
+                                                      measurement ranging from −0.5 to 0.5 V. A higher slope is
+Renewable Energy Lab). The parameters were measured from
+                                                                     indicative of a highly conductive interface and vice versa. Fig. 1e1.5 to −0.5 V with a scan rate of 100 mV s−1. The EQE was
+                                                       shows the I–V slope and calculated interface resistance of the
+obtained by an EnliTech QE measurement  system. The
+                                                                 three HTLs. Among the three studied HTLs, PTAA lm gives the
+capacitance–voltage (C–V) measurement was performed in the
+                                                                highest I–V curve slope with a resistance value of 20.7 kU, fol-
+dark  at room temperature using a  Keithley 4200  semi-
+                                                         lowed by the Spiro-OMeTAD with a resistance value of 26.6 kU,
+conductor parameter analyzer (Tektronix 4200A-SCS, USA)
+                                                     and CuSCN with the lowest I–V curve slope generating the highest
+where the DC bias voltage was swept from −0.5 to 1.5 V with
+                                                                    resistance of 136 kU. The values of HTL's resistances imply that
+a step size of 0.02 V. The EIS measurement was conducted with
+                                                         PTAA/carbon interface is the most conductive as compared to
+a Solartron Analytical 1260 impedance analyzer at a bias
+                                                                other  HTL/carbon  interfaces,  with CuSCN/carbon  interface
+potential of 0.5 V in the dark with the frequency ranging from
+                                                        showing the lowest conductivity. The transmittance curves of
+1 Hz to 1 MHz. The contact angle was measured using a contact
+                                                                  perovskite underneath HTL layers, Fig. 1f show the transmittance
+angle goniometer from Ossila.
+                                                                   of HTL layers. This slight change in transmission behavior could
+                                                        be due to the mild thickness diﬀerence arising in the perovskite
+3.  Results and discussion                         layer during the device fabrication process but the eﬀect appears
+                                                         mild which means its eﬀect on device performance could be
+Fig. 1a shows the conventional device structure of C-PSCs used in
+                                                        nominal and can be neglected.
+this study,  Fig. 1b shows the chemical structure of Spiro-
+                                                      To study the surface coverage of the perovskite layer with
+OMeTAD, CuSCN and PTAA and Fig. 1c shows the energy band
+                                                                various HTLs, X-ray diﬀraction (XRD), and scanning electron
+diagram of each layer present in the device structure mainly
+                                                          microscopy (SEM) were employed to characterize the perovskite
+presenting the hole transport  layers. The highest occupied
+
+
+
+
+
+Fig. 1   (a) Device structure of C-PSCs. (b) HTLs molecular structure, (Spiro-OMeTAD, CuSCN and, PTAA), and (c) band diagram of HTLs
+compared to the others layers of the device. (d) IV curve of HTL device only (ITO/HTL/Carbon), (e) slope and resistance calculated from HTL on
+top of ITO, only IV curve and (f) transmittance of diﬀerent HTL on top of perovskite layer.
+
+
+© 2025 The Author(s). Published by the Royal Society of Chemistry                          RSC Adv., 2025, 15, 13681–13690  | 13683
+--- Страница 4 ---
+RSC Advances                                                                                Paper
+
+
+
+
+
+Fig. 2   (a) X-ray diﬀraction (XRD) of perovskite/HTL layers and (b) zoom-in region of PbI2 peaks. (c) Top-view and (d) cross sectional scanning
+electron microscopy (SEM) of perovskite layer underneath HTLs.
+
+
+
+
+layer aer coating with HTLs. As shown in Fig. 2a, all of the as-   electron  transport  layer  to  evaluate  the  carrier  transport
+deposited  perovskite lms,  despite  various HTLs, present   behavior between the pristine perovskite layer and hole trans-
+similar perovskite cubic crystal structures, where the dominant   port layer. Compared with the pristine perovskite, the signi-
+peaks with 2q at 14.16, 20.10, and 31.9° were indexed to the   cant PL quench in all three HTL samples shown in Fig. 3a
+triple-ion perovskite crystal plane of (001), (011) and (012),   proves the facilitated charge transfer from perovskite to carbon
+respectively. It suggests that the HTLs did not change the lattice   electrode in C-PSCs aer insertion of HTL, prohibiting recom-
+parameters or generate a new phase on top of the perovskite   bination at the interface. TRPL spectra of perovskites with
+layer. Fig. 2b shows that the PbI2 peak intensity appears to be   diﬀerent HTLs are shown in Fig. 3b, the corresponding lifetime
+suppressed on these perovskite surfaces using Spiro-OMeTAD   are extracted by tting the spectra with following equation:
+and PTAA. The suppression of the PbI2 peak indicates better
+coverage of perovskite lm using Spiro-OMeTAD and PTAA,                          I(t) = S(Ai exp(−t/si)) + C                    (1)
+while a strong PbI2 peak for the CuSCN sample reveals poor
+                                                       where Ai and si represent the amplitude and lifetime of eachsurface coverage. Moreover, the surface morphology of these
+                                                           decay component, respectively, and C is a constant for the base-HTLs on the perovskite lm has been recorded using SEM, as
+                                                                     line oﬀset. As shown in Table S2 (ESI),† the carrier lifetime ofshown in Fig. 2c. The dark boundary lines suggest the devel-
+                                                              the pristine perovskite lm  is approximately 1.3 ms. Uponopment of nonuniformity at the perovskite/CuSCN interface,
+                                                               incorporating HTLs, a signicant reduction in  lifetime  isFig. S1c, g and k, ESI.† This non-uniformity may originate from
+                                                              observed, indicative of enhanced charge extraction. The Spiro-the spin coating process during the deposition of the inorganic
+                                                   OMeTAD-based device shows the shortest lifetime of 23.2 ns,CuSCN particles on the surface of the perovskite. The resulting
+                                                              followed by PTAA at 46.4 ns, and CuSCN at 195.0 ns. The shorterlow surface coverage of perovskite can lead to undesired contact
+                                                                      carrier lifetimes for Spiro-OMeTAD and PTAA indicate morebetween the top electrode and perovskite and therefore induce
+                                                         eﬃcient hole extraction and suppressed radiative recombina-charge recombination at the interface. The thickness of the
+                                                                 tion at the perovskite/HTL interface, aligning with their supe-HTLs has been characterized using the cross sectional SEM as
+                                                                        rior device performance. In contrast, the longer lifetime forshown in Fig. 2d, where the thickness for the Spiro-OMeTAD is
+                                               CuSCN suggests slower charge transfer and increased recom-200 nm, CuSCN is 100 nm and PTAA is 200 nm, respectively.
+                                                              bination losses, which contributes to  its lower PCE. These  To probe the hole-extraction properties of HTLs, steady-state
+                                                               observations are consistent with previous studies; Su et al. re-photoluminescence (PL) and time-resolved PL (TRPL) were
+                                                            ported  rapid  charge  extraction  in  Spiro-OMeTAD-basedconducted on perovskite/HTL lms. Note that the perovskite
+                                                                  systems,32 while Wu et al. noted slower interfacial kinetics forlayer was directly deposition on the glass slides without an
+                                               CuSCN due to its inorganic nature.36 The intermediate behavior
+
+
+
+13684  | RSC Adv., 2025, 15, 13681–13690                     © 2025 The Author(s). Published by the Royal Society of Chemistry
+--- Страница 5 ---
+Paper                                                                   RSC Advances
+
+
+
+
+
+Fig. 3   (a) Photoluminescence spectra and (b) time-resolved photoluminescence spectra curves of perovskite with diﬀerent HTLs. (c) Current
+density–voltage curves, and (d) external quantum eﬃciency (EQE) spectra for carbon-based PSCs with diﬀerent HTLs.
+
+
+
+of PTAA also aligns with Zhang et al.'s ndings on moderate   Voc of 1.05 V, and FF of 62.62%, which aligns well with the
+charge transfer dynamics in dopant-free PTAA systems.38 Over-  ∼16.76% PCE reported by Zhang et al. using dopant-free PTAA
+all, the TRPL results reinforce that eﬃcient interfacial charge   with  single-walled carbon nanotube (SWCNT)  electrodes,38
+separation is a key driver of the higher performance observed in   considering the  architectural  diﬀerences. In  contrast,  the
+Spiro-OMeTAD and PTAA-based devices compared to CuSCN.    CuSCN-based device delivered a lower PCE of 11.94%, with a Voc
+   Fig. 3c presents the J–V curves of the champion devices based   of 1.01 V, Jsc of 19.70 mA cm−2, and FF of 60.03%, which is
+on each HTL, with the corresponding photovoltaic parameters  comparable to the 12–13% eﬃciency range reported by Wu et al.
+summarized in Table 1. Among the three, the Spiro-OMeTAD-   for CuSCN-based C-PSCs.36 The superior performance of Spiro-
+based C-PSC exhibited the highest performance, achieving  OMeTAD and PTAA-based devices in our study can be attributed
+a PCE of 19.29%, with a short-circuit current density (Jsc) of   to their more favorable energy alignment and eﬃcient charge
+23.02 mA cm−2, an open-circuit voltage (Voc) of 1.15 V, and a ll   extraction at the perovskite/HTL/carbon interface, as supported
+factor (FF) of 72.97%. This performance surpasses that reported   by TRPL analysis in Fig. 3b, which indicates lower recombina-
+by Yang et al., who demonstrated a PCE of ∼17.5% in planar C-   tion rates. A statistical comparison of device parameters is
+PSCs using Spiro-OMeTAD.35 suggesting that our optimized   further illustrated in Fig. 4, reinforcing that Spiro-OMeTAD
+perovskite composition and improved interface engineering   delivers the highest overall performance, CuSCN contributes
+resulted in more eﬃcient hole extraction. The PTAA-based   to stable but lower-performing devices, and PTAA represents
+device achieved a PCE of 12.92%, with Jsc of 20.55 mA cm−2,   a moderate trade-oﬀbetween eﬃciency and stability.
+
+
+
+Table 1  Current density–voltage (J–V) parameters of champion devices of each HTL
+
+HTL                          Voc (V)                    Jsc (mA cm−2)           EQE Jsc (mA cm−2)            FF (%)           PCE (%)
+
+w/o HTL                     0.94                 17.42                      17.82                           49.14                 8.07
+Spiro-OMeTAD               1.15                 23.02                      20.53                           72.97                19.29
+CuSCN                      1.01                 19.70                      18.56                           60.03                11.94
+PTAA                        1.05                 20.55                      19.53                           62.62                12.92
+
+
+© 2025 The Author(s). Published by the Royal Society of Chemistry                          RSC Adv., 2025, 15, 13681–13690  | 13685
+--- Страница 6 ---
+RSC Advances                                                                                Paper
+
+
+
+
+
+Fig. 4  Statistical distribution of key photovoltaic parameters for carbon-based perovskite solar cells (C-PSCs) incorporating diﬀerent hole
+transport layers (HTLs): (a) open-circuit voltage (Voc), (b) short-circuit current density (Jsc), (c) ﬁll factor (FF), (d) power conversion eﬃciency (PCE),
+(e) series resistance (Rs), and (f) shunt resistance (Rsh).
+
+
+
+  To further investigate the recombination process associated  which are attributed to the charge transfer resistance (Rct) at the
+with the charge transfer in each of the three HTL based devices,   perovskite/HTL interface in the solar  cell. Device based on
+capacitance–voltage (C–V) measurements were performed in ESI  Spiro-OMeTAD showed a smaller semicircle diameter then
+Fig. S2a.† Fig. S2a† shows the Mott–Schottky plot depicting 1/C2  PTAA and CuSCN, i.e. lower Rct, indicates better charge transfer
+versus voltage of the solar cell under dark conditions. The gov-  and prohibited recombination for devices with Spiro-OMeTAD,
+erning equation  for  built-in  potential and charge  carrier   followed by PTAA and CuSCN. This nding aligns well with the
+concentration is determined using eqn (2):                     trend observed in the J–V test, where Spiro-OMeTAD devices
+                                                                   exhibit the highest performance, followed by PTAA in second
+                 1/C2 = 2(Vbi −V)/q0033oN                     (2)   place, and CuSCN displaying the lowest performance.
+                                                                          Fig. 5a shows the schematic diagram of the carbon encap-
+where C is the capacitance, Vbi is the built-in potential, V is the                                                                 sulation of the perovskite layer. The underneath layers were
+applied voltage, q00 is the elementary charge, 3 is the relative                                                           etched along the corners allowing the carbon to get attached to
+permittivity, 3o is the vacuum permittivity, and N is the charge                                                              the ITO directly during the hot press and thus encapsulating the
+concentration. The built-in potentials deduced from the inter-                                                        whole perovskite layer as well as charge transport layers from
+cepts of the 1/C2–V curves were 1.15, 1.22, 0.91 and 1.21 V for w/                                                                     direct exposure to air and water vapor. Optical pictures of
+o HTL, Spiro-OMeTAD, CuSCN and  PTAA-based  devices,                                                                perovskite solar cells were taken to observe the degradation
+respectively. The increased built-in potential in Spiro-OMeTAD                                                            with various HTLs aer encapsulating with a carbon layer by
+and PTAA devices indicates stronger charge separation driving                                                            exposing them to air for several days at room temperature
+force which contributes to higher Voc and ll factor and thus                                                                           (Fig. 5b), followed by placing them on hot plate at 85 °C for
+improved device performance. Whereas the low built-in poten-                                                                   several minutes (Fig. 5c), and then under continuous light
+tial in CuSCN device indicates a weak driving force, hinders                                                               illumination of AM 1.5G simulated sunlight at 95 °C for several
+charge  separation and  therefore promotes recombination,                                                         hours (Fig. 5d). The result shows that the perovskite layers did
+resulting  in  lower  device  performance.  Electrochemical                                                           not appear to show any degradation when placed in the air or on
+impedance spectroscopy (EIS) was carried out to further provide                                                          a hot plate. However, aer exposure to continuous light illu-
+insight into the charge transport processes (ESI Fig. S2b†).                                                         mination  (Fig.  5d),  the  perovskite  layers appear  to  start
+Fig. S2b† shows the Nyquist plots of devices based on various                                                           degrading within hours and completely degraded within 24
+HTLs measured with frequencies ranging from 1 MHz to 1 Hz,                                                         hours with no visible diﬀerence from each condition. The
+with tted models based on the equivalent circuit shown in the                                                            degradation is due to the intrinsic deterioration produced by
+inset. Rs accounts for the series resistance encompasses the                                                          thermal stress and illumination.9
+resistance of the materials and back/front contacts, which is in                                                      To further test the encapsulating capability of the carbon
+series with charge transport resistance (Rct). Only one semicircle                                                                      layer with diﬀerent HTLs, the devices were immersed in water
+at a lower frequency could be distinguished in the Nyquist plots                                                             completely  to value the water  resistivity by checking the
+
+
+13686  | RSC Adv., 2025, 15, 13681–13690                     © 2025 The Author(s). Published by the Royal Society of Chemistry
+--- Страница 7 ---
+Paper                                                                   RSC Advances
+
+
+
+
+
+Fig. 5  Optical pictures of the stability test condition. (a) Schematic diagram of carbon electrode encapsulation of perovskite layer. (b) Optical
+picture of cells exposed to air at room temperature. (c) For the same cells anneal at 85 °C in air, and (d) Light soaking at 95 °C under AM 1.5G
+simulated sunlight illumination.
+
+
+
+
+perovskite degradation rate. The water immersion experiment   highest contact angle (80.7°), followed by Spiro-OMeTAD (67.5°)
+serves as an accelerated aging test to stimulate extreme mois-  and PTAA (55.7°), which implies the order of hydrophobic
+ture  exposure.  Optical  images  of  encapsulated  samples   properties of these materials on perovskite lm. The result is
+immersed in water at duration time of 0 min, 40 min, and   well agreed with the water immerse experiment, the reference
+120 min were recorded, as shown in Fig. 6a. The diﬀerence   device without HTL and the device with PTAA showed partial or
+observed among the devices highlight the eﬀectiveness of the   complete degradation aer 120 minutes of immersion, while
+HTLs in enhancing stability. The color shifrom black to yellow  Spiro-OMeTAD and the CuSCN-based devices showed eﬀective
+in perovskite lms is widely recognized as a sign of degradation,   protection of the perovskite layer from water (Fig. S3†). Since
+typically caused by hydration and the formation of lead iodide   the carbon electrode  fully covers the top of the device,  it
+as water breaks down the perovskite material. The slower color   provides extra protection against moisture from above. The
+change observed in CuSCN and Spiro HTL-based devices, when  damage visible through the glass side is primarily due to water
+immersed in water, indicates that these HTLs act as eﬀective   entering from the edges, as seen from the yellowing around the
+barriers, slowing water penetration into the perovskite layer and   perimeter, indicating degraded perovskite in these areas. In
+delaying degradation. In contrast, the PTAA and HTL-free   conclusion,  it was observed that carbon lm together with
+devices degrade more quickly, showing less eﬀectiveness in  CuSCN and Spiro provide better encapsulation and less direct
+moisture protection. Meanwhile, contact angle of water droplets   exposure to water thereby improving the stability of the device.
+on each HTL was also measured to check their hydrophobicity,   In conclusion, it was observed that carbon lm together with
+with the optical images and corresponding data depicted in the  CuSCN and Spiro provide better encapsulation and less direct
+rst line of Fig. 6b and c. The CuSCN sample possesses the   exposure to water thereby improving the stability of the device.
+
+
+
+© 2025 The Author(s). Published by the Royal Society of Chemistry                          RSC Adv., 2025, 15, 13681–13690  | 13687
+--- Страница 8 ---
+RSC Advances                                                                                Paper
+
+
+
+
+
+Fig. 6   (a) Water droplets on diﬀerent perovskite/HTLs, and corresponding optical images of encapsulated samples immersed in water with
+diﬀerent duration. (b) Contact angle of diﬀerent perovskite/HTLs. Normalized PCE of PSC-HTM-free carbon-based perovskite solar cells with
+diﬀerent HTLs: (c) measured over 800 hours in an N2 atmosphere and (d) measured over 500 hours in an ambient atmosphere with humidity
+below 5% RH.
+
+
+
+
+This also shows that the hydrophobicity of HTLs also plays an  Wu et al., who observed >85% retention over 500 hours at 50%
+eﬀective role in enhancing the encapsulation of perovskite layer   RH.36 PTAA devices showed a marked decline, retaining only
+in C-PSC devices.                                ∼35% eﬃciency, while devices without HTLs stabilized around
+  The  stability  behavior  of  perovskite  solar  cells  (PSCs)   the same value aer just 200 hours. These trends mirror the
+employing diﬀerent hole transport layers (HTLs) under varying   results reported by Zhang et al.,38 who found that PTAA without
+storage and environmental conditions is presented in Fig. 6c  dopant  engineering  or  advanced  electrode  congurations
+and d, which track the normalized power conversion eﬃciency   suﬀers from accelerated degradation.
+(PCE) over time. Under inert N2 glovebox conditions without      Overall, these results highlight that Spiro-OMeTAD and
+encapsulation (Fig. 6c), Spiro-OMeTAD-based devices exhibited  CuSCN oﬀer superior environmental  stability compared to
+the best stability, retaining ∼80% of their initial PCE aer 800  PTAA or HTL-free devices, reinforcing the conclusion that HTL
+hours. PTAA devices maintained ∼70%, followed by CuSCN   selection plays a critical role in both initial performance and
+with ∼60%, while HTL-free devices showed the poorest stability,   long-term durability of carbon-based PSCs.
+dropping to ∼45% over the same period.
+  Under  ambient  conditions  at ∼5%  relative  humidity
+(Fig. 6d), Spiro-OMeTAD again outperformed others, retaining  4.  Conclusions
+∼70% of its initial eﬃciency aer 500 hours—consistent with
+                                                             In summary, three widely used Hole Transport Layers (HTLs)—
+previous ndings by Su et al., who reported moderate degra-
+                                                       Spiro-OMeTAD, CuSCN, and PTAA—were studied in conjunc-dation in doped Spiro-OMeTAD under illumination.32 CuSCN-
+                                                                 tion with carbon-based perovskite solar cells (C-PSCs) to eval-based devices retained ∼60% of their PCE, aligning well with
+                                                             uate their stability and eﬃciency. Spiro-OMeTAD-based C-PSCs
+
+
+13688  | RSC Adv., 2025, 15, 13681–13690                     © 2025 The Author(s). Published by the Royal Society of Chemistry
+--- Страница 9 ---
+Paper                                                                   RSC Advances
+
+
+exhibited the best performance, achieving a PCE of 19.29%,   9 D. Zhang, D. Li, Y. Hu, A. Mei and H. Han, Commun. Mater.,
+attributed to favorable energy alignment and eﬃcient charge      2022, 3, 58.
+extraction. CuSCN-based devices, while showing a lower PCE of  10 L. Xiang, F. Gao, Y. Cao, D. Li, Q. Liu, H. Liu and S. Li, Org.
+11.94%, demonstrated superior stability, retaining ∼60% eﬃ-       Electron., 2022, 106, 106515.
+ciency aer 500 hours in ambient  air. PTAA-based devices  11 R. Wu, J. Meng, Y. Shi, Z. Xia, C. Yan, L. Zhang, W. Liu,
+achieved moderate eﬃciency (12.92%) but degraded more         J. Zhao, J. Deng and X. Zhang, J. Mater. Chem. A, 2024, 4, 26.
+rapidly, retaining only ∼35%. These ndings highlight the  12 S. Akin, Y. Liu, M. I. Dar, S. M. Zakeeruddin, M. Gr¨atzel,
+importance of optimizing HTL selection and suggest that future       S. Turan and S. Sonmezoglu,  J. Mater. Chem. A, 2018, 6,
+improvements could be realized through dopant-free formula-     20327–20337.
+tions, hybrid HTLs, and improved encapsulation strategies to  13 ˙I. C. Kaya, R. Ozdemir, H. Usta and S. Sonmezoglu, J. Mater.
+further enhance the durability and performance of C-PSCs.        Chem. A, 2022, 10, 12464–12472.
+                                                        14 F. Kong, E. Güzel and S. Sonmezoglu, Mater. Today Energy,
+Data availability                                         2023, 35, 101324.
+                                                        15 X. Yin, Z. Song, Z. Li and W. Tang, Energy Environ. Sci., 2020,
+The materials and data that support the ndings of this study      13, 4057–4086.
+are available from the corresponding author upon reasonable  16 S. Wang, A. Cabreros, Y. Yang, A. S. Hall, S. Valenzuela,
+request.                                                               Y.  Luo,  J.-P.  Correa-Baena,  M.-c.  Kim,  Ø.  Fjeldberg,
+                                                              D. P. Fenning and Y. S. Meng, Cell Rep. Phys. Sci., 2020, 1,
+Author contributions                                100103.
+                                                        17 S. Li, Y.-L. Cao, W.-H. Li and Z.-S. Bo, Rare Met., 2021, 40,
+KK: methodology, investigation, and writing – original dra.     2712–2729.
+JW, WJX: investigation, LL, X. G. writing review. FY: conceptu-  18 H. Zhang, Y. Li, S. Tan, Z. Chen, K. Song, S. Huang, J. Shi,
+alization,  methodology,  funding  acquisition,  supervision,      Y. Luo, D. Li and Q. Meng, J. Colloid Interface Sci., 2022,
+writing-review & editing.                                           608, 3151–3158.
+                                                        19 S. Ko, T. Yong, S.-K. Kim, J. Y. Park, G. Lee, H. R. You, S. Han,
+Conﬂicts of interest                                 D. Lee, S. Choi, Y. C. Choi, Y. Kim, N.-S. Lee, S. Song and
+                                                                                                    J. Choi, Sol. RRL, 2023, 7, 2300049.
+The authors declare no competing nancial interest.           20 P. Pradid, K. Sanglee, N. Thongprong and S. Chuangchote,
+                                                                       Materials, 2021, 14(19), 5989.
+Acknowledgements                             21 H. Zhang,  J. Xiao,  J. Shi, H. Su, Y. Luo, D. Li, H. Wu,
+                                                                           Y.-B. Cheng and Q. Meng, Adv. Funct. Mater., 2018, 28,
+This material  is based upon work supported by the U.S.      1802985.
+Department  of  Energy's Oﬃce  of  Energy  Eﬃciency and  22 M. Hu, L. Liu, A. Mei, Y. Yang, T. Liu and H. Han, J. Mater.
+Renewable Energy (EERE) under the Solar Energy Technologies     Chem. A, 2014, 2, 17115–17121.
+Oﬃce Award Number DE-EE0009833. The National Science  23 S. Zhu, J. Tian, J. Zhang, C. Gao and X. Liu, ACS Appl. Energy
+Foundation supports  this work under  contract No. DMR      Mater., 2021, 4, 5554–5559.
+2330738, ECCS-2413632, CMMI-2226918, CMMI-2330728, and  24 D. Bogachuk,  S.  Zouhair,  K. Wojciechowski,  B. Yang,
+TI-2329871.                                                          V.  Babu,  L. Wagner,  B.  Xu,   J.  Lim,  S.  Mastroianni,
+                                                          H. Pettersson, A. Hagfeldt and A. Hinsch, Energy Environ.
+References                                                                Sci., 2020, 13, 3880–3916.
+                                                        25 D. Bogachuk, B. Yang,  J. Suo, D. Martineau, A. Verma,
+ 1 A. K. Jena, A. Kulkarni and T. Miyasaka, Chem. Rev., 2019,       S. Narbey, M. Anaya, K. Frohna, T. Doherty, D. Müller,
+   119, 3036–3103.                                                                        J. P. Herterich,  S. Zouhair, A. Hagfeldt,  S. D. Stranks,
+ 2 J. Y. Kim, J.-W. Lee, H. S. Jung, H. Shin and N.-G. Park, Chem.      U. Würfel, A. Hinsch and L. Wagner, Adv. Energy Mater.,
+   Rev., 2020, 120, 7867–7918.                                    2022, 12, 2103128.
+ 3 Y. Li, H. Xie, E. L. Lim, A. Hagfeldt and D. Bi, Adv. Energy  26 S. Penukula, F. Tippin, M. Li, K. A. Khawaja, F. Yan and
+   Mater., 2022, 12, 2102730.                                    N. Rolston, Energy Mater., 2024, 4, 26.
+ 4 W. E. I. Sha, X. Ren, L. Chen and W. C. H. Choy, Appl. Phys.  27 H. Chen and S. Yang,  J. Mater. Chem. A, 2019, 7, 15476–
+    Lett., 2015, 106, 221104.                                       15490.
+ 5 W. Shockley and H. J. Queisser, J. Appl. Phys., 1961, 32, 510–  28 H. Chen and S. Yang, Adv. Mater., 2017, 29, 1603994.
+   519.                                                  29 S. N. Vijayaraghavan, J. Wall, H. G. Menon, X. Duan, L. Guo,
+ 6 J. Chen and N.-G. Park, ACS Energy Lett., 2020, 5, 2742–2786.      A. Amin, X. Han, L. Kong, Y. Zheng, L. Li and F. Yan, Sol.
+ 7 H. Pan, H. Shao, X. L. Zhang, Y. Shen and M. Wang, J. Appl.      Energy, 2021, 230, 591–597.
+   Phys., 2021, 129, 130904.                                30 M. Que, B. Zhang, J. Chen, X. Yin and S. Yun, Mater. Adv.,
+ 8 J. Li, R. Xia, W. Qi, X. Zhou, J. Cheng, Y. Chen, G. Hou,      2021, 2, 5560–5579.
+   Y. Ding, Y. Li, Y. Zhao and X. Zhang,  J. Power Sources,  31 Z. Yu, W. Li, N. Cheng, Z. Liu, B. Lei, Z. Xiao, W. Zi, Z. Zhao
+   2021, 485, 229313.                                     and Y. Tu, ACS Appl. Nano Mater., 2022, 5, 10755–10762.
+
+
+© 2025 The Author(s). Published by the Royal Society of Chemistry                          RSC Adv., 2025, 15, 13681–13690  | 13689
+--- Страница 10 ---
+RSC Advances                                                                                Paper
+
+
+32 H. Su, X. Lin, Y. Wang, X. Liu, Z. Qin, Q. Shi, Q. Han,  36 X. Wu, L. Xie, K. Lin, J. Lu, K. Wang, W. Feng, B. Fan, P. Yin
+   Y. Zhang and L. Han, Sci. China:Chem., 2022, 65, 1321–1329.     and Z. Wei, J. Mater. Chem. A, 2019, 7, 12236–12243.
+33 W. Yu, Y. Zou, S. Zhang, Z. Liu, C. Wu, B. Qu, Z. Chen and  37 Y. Yang, M. T. Hoang, D. Yao, N. D. Pham, V. T. Tiong,
+   L. Xiao, Mater. Futures, 2023, 2, 022101.                          X. Wang and H. Wang, J. Mater. Chem. A, 2020, 8, 12723–
+34 F. Zhao, J. Zhou, J. Tao, Y. Guo, J. Jiang and J. Chu, J. Alloys      12734.
+   Compd., 2022, 897, 162741.                              38 B.-W. Zhang, H.-S. Lin, X.-Y. Qiu, Q.-J. Shui, Y.-J. Zheng,
+35 Y. Yang, N. D. Pham, D. Yao,  L. Fan, M.  T. Hoang,     M. Almesfer, E. I. Kauppinen, Y. Matsuo and S. Maruyama,
+   V. T. Tiong, Z. Wang, H. Zhu and H. Wang, ACS Appl.      Carbon, 2023, 205, 321–327.
+   Mater. Interfaces, 2019, 11, 28431–28441.
+
+
+
+
+
+13690  | RSC Adv., 2025, 15, 13681–13690                     © 2025 The Author(s). Published by the Royal Society of Chemistry

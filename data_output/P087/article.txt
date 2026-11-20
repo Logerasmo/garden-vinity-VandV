@@ -1,0 +1,501 @@
+--- Страница 1 ---
+                                                Advanced Powder Materials 3 (2024) 100142
+
+
+                                                  Contents lists available at ScienceDirect
+
+                       Advanced Powder Materials
+
+
+                          journal homepage: www.keaipublishing.com/en/journals/advanced-powder-materials
+
+
+
+Al2O3 nanoparticles as surface modiﬁer enables deposition of high quality
+perovskite ﬁlms for ultra-ﬂexible photovoltaics
+
+Zhiyong Wang a,b, Qingshun Dong b,**, Ying Yan a,***, Zikeng Fang a, Guojun Mi c, Mingzhu Pei b,
+Shuhong Wang b, Linghui Zhang d, Jing Liu d, Min Chen e, Hongru Ma b, Ruiting Wang a,b,
+Jie Zhang b, Chun Cheng c, Yantao Shi b,*
+
+a State Key Laboratory of High-performance Precision Manufacturing, School of Mechanical Engineering, Dalian University of Technology, Dalian 116024, China
+b State Key Laboratory of Fine Chemicals, School of Chemistry, Dalian University of Technology, Dalian 116024, China
+c Department of Materials Science and Engineering, Southern University of Science and Technology, Shenzhen 518055, China
+d School of Physics, Dalian University of Technology, Dalian 116024, China
+e School of Engineering, Brown University, Providence, RI 02912, USA
+
+
+
+
+A R T I C L E  I N F O                   A B S T R A C T
+
+
+Keywords:                                   Advanced photovoltaics, such as ultra-ﬂexible perovskite solar cells (UF-PSCs), which are known for their
+Ultra-ﬂexible                                       lightweight design and high power-to-mass ratio, have been a long-standing goal that we, as humans, have
+Perovskite solar cell                                continuously pursued. Unlike normal PSCs fabricated on rigid substrates, producing high-efﬁciency UF-PSCs re-
+Surface modify
+                                            mains a challenge due to the difﬁculty in achieving full coverage and minimizing defects of metal halide
+Al2O3 nanoparticles
+                                                  perovskite (MHP) ﬁlms. In this study, we utilized Al2O3 nanoparticles (NPs) as an inorganic surface modiﬁer toWettability
+                                            enhance the wettability and reduce the roughness of poly-bis(4-phenyl) (2,4,6-trimethylphenyl) amine simulta-
+                                                  neously. This approach proves essentials in fabricating UF-PSCs, enabling the deposition of uniform and dense
+                               MHP ﬁlms with full coverage and fewer defects. We systematically investigated the effect of Al2O3 NPs on ﬁlm
+                                                  formation, combining simulation with experiments. Our strategy not only signiﬁcantly increases the power
+                                                conversion efﬁciency (PCE) from 11.96% to 16.33%, but also promotes reproducibility by effectively addressing
+                                                 the short circuit issue commonly encountered in UF-PSCs. Additionally, our UF-PSCs demonstrates good me-
+                                                  chanical stability, maintaining 98.6% and 79.0% of their initial PCEs after 10,000 bending cycles with radii of 1.0
+                                          and 0.5 mm, respectively.
+
+
+
+
+1. Introduction                                                  UF-PSCs for the ﬁrst time and demonstrated them to be a promising
+                                                             power supply for small aircraft due to their high power-to-mass ratio (25
+   Photovoltaic (PV) technology development pursues light-weight and    W⋅g 1) and high resistance to bending and crumpling [9]. Many efforts
+high power-to-mass ratio, enabling many potential applications like    were made over the past few years to boost the power conversion efﬁ-
+building integrated photovoltaic, unmanned aerial vehicles, lightweight     ciency (PCE) from different aspects, for example, improving the substrate
+probes, weather balloons, high altitude airships, unmanned space sta-     conductance [10–14]. By using a substrate with lower sheet resistance,
+tions, etc [1–4]. Metal halide perovskites (MHPs), which have been     the PCE of UF-PSCs was increased notably [15]. Nevertheless, unlike the
+widely known to the public thanks to their excellent photo-electronic     extensively studied rigid PSCs, several  critical issues regarding the
+properties, are promising candidates to fabricate light-weight PV de-     fabrication of highly efﬁcient UF-PSCs remain unresolved, including
+vices as they can be processed by various solution routes at low tem-     achieving controllable deposition of MHP ﬁlms and establishing strong
+perature (< 150 C) [5–8]. In recent years, ultra-ﬂexible perovskite solar      interfacial coupling on ultra-ﬂexible substrates [16–19].
+cells (UF-PSCs) have been reported by preparing MHP ﬁlms on ultra-thin       The crystallinity [20], surface morphology [21], as well as defect
+substrates (1–10 μm). In 2015, Kaltenbrunner and coworkers prepared     distribution [22] of MHP ﬁlms, are crucial to the performance of PSCs,
+
+
+
+ * Corresponding author.
+ ** Corresponding author.
+ *** Corresponding author.
+    E-mail addresses: dongqs@dlut.edu.cn (Q. Dong), yanying@dlut.edu.cn (Y. Yan), shiyantao@dlut.edu.cn (Y. Shi).
+
+https://doi.org/10.1016/j.apmate.2023.100142
+Received 8 May 2023; Received in revised form 4 June 2023; Accepted 7 June 2023
+Available online 17 June 2023
+2772-834X/© 2024 Central South University. Publishing services by Elsevier B.V. on behalf of KeAi Communications Co. Ltd. This is an open access article under the
+CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+--- Страница 2 ---
+Z. Wang et al.                                                                                                              Advanced Powder Materials 3 (2024) 100142
+
+regardless of the substrate employed is rigid or ﬂexible [23,24]. The     2. Results and discussion
+conductive polymer poly(3,4-ethylenedioxythiophene) polystyrene sul-
+fonate (PEDOT:PSS, PH 1000) is a popular choice as an electrode for       As illustrated in Fig. 1, we present the preparation process of UF-PSCs.
+organic solar cells and PSCs due to its superior ﬁlm processability and      Firstly, Ultra-ﬂexible polyethylene terephthalate (UF-PET) was lami-
+mechanical durability compared to the rigid and brittle ITO electrode. As     nated onto a smooth glass surface using Polydimethylsiloxane (PDMS) as
+PEDOT:PSS  (unless  otherwise  speciﬁed, PEDOT:PSS  will  refer  to    an adhesive layer. PEDOT:PSS was then spin-coated onto the PET. To
+PEDOT:PSS PH 1000) is a p-type organic semiconductor, UF-PSCs typi-      facilitate the extraction of photogenerated holes, a PTAA layer was spin-
+cally are in a p-i-n architecture of Ag/BCP/PCBM/MHP/PEDOT:PSS/PET     coated onto PEDOT:PSS prior to the deposition of a MHP light-absorbing
+[9,15]. Modulation of the conductivity of PEDOT:PSS layer is essential in     layer. Precise control over the deposition of MHP ﬁlms and strong
+the fabrication of high-efﬁciency devices. For example, Vaagensmith      interfacial coupling with PTAA on ﬂexible substrates is crucial for the
+et al. reported the use of additive and plasma treatment to decrease the     preparation of high performance UF-PSCs. [6,6]-phenyl-C61-butyric acid
+sheet resistance of PEDOT:PSS, which then served as a good transparent    methyl ester (PCBM) and bathocuproine (BCP) layers were sequentially
+electrode for ITO-free PSCs [25]. Hu and coworkers also demonstrated     deposited by a spin-coating process. The integrated UF-PSCs device was
+the use of an ionic additive to improve conductivity, transmittance, and     obtained after the deposition of the Ag electrode, which was ﬁnally
+mechanical endurance [26]. For UF-PSCs,  it is not sufﬁcient to use     peeled off from the glass substrate. It is important to note that the surface
+PEDOT:PSS alone to selectively extract photoinduced holes or block     wettability and roughness of the substrate prior to MHP deposition are
+photoinduced electrons. Therefore, to achieve high performance in     crucial factors in the fabrication of high-efﬁciency UF-PSCs.
+UF-PSCs, it is crucial to use appropriate hole transport materials (HTMs)       As a result of the strong hydrophobic nature of the PTAA surface,
+such as nickel oxide (NiOx) and poly-bis(4-phenyl) (2,4,6-trimethyl-     achieving a uniformly coated MHP ﬁlm through direct spin-coating of the
+phenyl) amine (PTAA) [27–29]. PTAA is one of the most widely used   MHP precursor onto the PTAA surface presents a challenge, as depicted
+HTMs in inverted PSCs owing to a lower parasitic absorption and a better     in Fig. 2a. To overcome the challenge of obtaining a uniformly coated
+energy band alignment with MHP [7,30,31]. Whereas, PTAA's high   MHP ﬁlm on the hydrophobic PTAA surface, a DMF prewashing strategy
+surface energy and subsequent poor wettability may cause discontinuity     has been frequently employed. However, even after DMF prewashing, the
+or pinholes in the MHP layer [32,33]. Conventional methods to improve    ﬁlm coverage remains inadequate, as shown in Fig. 2b. The limited af-
+the wettability of MHP ﬁlms on hydrophobic substrates, such as pre-     ﬁnity of DMF on PTAA restricts the enhancement of wettability, and the
+washing with dimethylformamide (DMF), may be not sufﬁcient as it    prewashing process with DMF can compromise the glove box atmo-
+usually results in incomplete ﬁlm coverage. To overcome these limita-     sphere, negatively impacting subsequent deposition and crystallization
+tions and achieve high-performance UF-PSCs, alternative methods must     of MHP. To address this issue, a low-temperature processed layer of
+be explored to ensure complete coverage and strong interfacial coupling    Al2O3 NPs was deposited on PTAA. The abundant surface hydroxyl
+of MHP ﬁlms on PTAA for ultra-ﬂexible substrates.                       groups endow Al2O3 NPs with excellent amphiphilic properties, allowing
+   Here, we report the utilization of Al2O3 nanoparticles (NPs) as an    them to bind not only to PTAA but also to the MHP solution. Conse-
+inorganic surface modiﬁer to enhance the wettability and reduce the     quently, the modiﬁcation with Al2O3 signiﬁcantly enhances the wetta-
+roughness of PTAA simultaneously. This strategy enables good afﬁnity      bility of the PTAA surface, enabling complete coverage of the substrate
+between the substrate and MHP precursor solution, in turn attaining    by the MHP solution. This leads to the formation of a high-quality MHP
+uniform and dense MHP ﬁlms with full coverage and fewer defects,    ﬁlm and ultimately a superior device, as illustrated in Fig. 2c. For sub-
+which proves essential in fabricating UF-PSCs. Combined with computer     sequent discussion, the PTAA without any treatment, with DMF pre-
+simulations, we systematically investigated the effect of Al2O3 NPs on     washing, and with a covering of Al2O3 NPs are referred to as “control”,
+spin-coating and ﬁlm formation. This strategy not only signiﬁcantly in-    “DMF PW”, and “Al2O3 SM”,  respectively. We  utilized Al2O3 NPs
+creases PCE from ~12% to over 16%, but also promotes reproducibility     dispersed in isopropyl alcohol (IPA) instead of an aqueous dispersion
+by effectively addressing the short circuit issue commonly encountered in     system, since IPA is an organic solvent, which spreads well on hydro-
+the ﬁeld of UF-PSCs. Moreover, our UF-PSCs demonstrates good me-     phobic PET surfaces. In Fig. S3, we provide photos demonstrating the
+chanical stability, maintaining 98.6% and 79.0% of their initial PCEs     spreading of the Al2O3 IPA dispersion on the hydrophobic PET.
+after 10,000 bending cycles with radii of 1.0 and 0.5 mm, respectively.       The surface wettability of PET, PEDOT:PSS/PET, PTAA/PEDOT:PSS/
+
+
+
+
+
+Fig. 1. Preparation process of UF-PSCs. (a) Ultra-ﬂexible polyethylene terephthalate adheres to glass through PDMS; (b) Flat and bubble-free substrate; (c) Deposition
+of PEDOT:PSS and PTAA onto the ﬂat substrate in sequence; (d) Deposition of MHP absorption layer; (e) Deposition of PCBM and BCP onto the MHP ﬁlm in sequence;
+(f) Peeling off device from the support.
+
+
+                                                                        2
+--- Страница 3 ---
+Z. Wang et al.                                                                                                              Advanced Powder Materials 3 (2024) 100142
+
+
+
+
+
+Fig. 2. Deposition of MHP precursor solution on PTAA under different conditions. (a) Without any treatment to PTAA; (b) With DMF prewashing of PTAA; (c)
+Covering PTAA with Al2O3 NPs. Photos on the right side present the UF-PSCs fabricated with MHP deposited under the three corresponding conditions.
+
+
+PET, and Al2O3/PTAA/PEDOT:PSS/PET was evaluated by measuring   AFM characterization method is typically limited to observing micro-
+their contact angles using, as shown in Fig. 3a. The hydrophobic nature of     scopic roughness and morphology due to its viewport range constraint.
+PET substrate results in a relatively poor wettability to the mixed solvent    The relatively more macroscopic undulations cannot be measured by
+of DMF and DMSO, with a contact angle of 39.9  , which can be improved   AFM characterization, resulting in disparities between the roughness
+by covering PET with hydrophilic PEDOT:PSS, exhibiting a lowered      results output by AFM characterization and the simulation results. In our
+angle of 28.1  . However, there are two issues to consider when using     simulation model, the substrate dimensions exceed 700 μm in length and
+PEDOT:PSS as HTM: its acidity is unsuitable for MHP ﬁlm deposition, and     width, while the 3D-SLCM offers a viewport range of up to a millimeter.
+there may be an energy level mismatch with MHP, leading to charge     Therefore, we consider the 3D-SLCM results to provide more compelling
+accumulation. PTAA is a widely used HTM that is superior to PEDOT:PSS     evidence compared to the AFM results. Each image in Fig. S5 has a
+in terms of hole extraction, but its hydrophobic nature weakens the     viewport range of 1 mm  1 mm.
+wettability of PTAA/PEDOT:PSS/PET compared to PEDOT:PSS/PET.       As aforementioned, the surface properties of these substrates differ
+Covering PTAA with Al2O3 NPs is a good strategy to address this issue,     signiﬁcantly. To further analyze the effect of these differences on MHP
+which can signiﬁcantly reduce the contact angle from 31.1  to 14.7  .       formation, we conducted ﬁnite element simulations of spin-coating MHP
+   In addition to surface wettability, surface roughness is another crucial     precursor solutions on various substrates. The surface energy of each
+factor that requires careful consideration. Unlike the rigid glass substrate,     substrate was obtained through contact angle measurements, while other
+commercially available ultra-thin ﬂexible PET substrates have a signiﬁ-     substrate parameters regarding surface roughness were determined using
+cantly large surface roughness. However, this can be reduced through the    3D-SLCM. The simulation results, which indicate the spreading speed of
+sequential deposition of other layers such as PEDOT:PSS, PTAA, and     the MHP precursor solution on the control and Al2O3 SM substrates, are
+Al2O3 NPs by spin-coating (Fig. S4). The effect is particularly noticeable     clearly presented in Fig. 3f and g. In our simulation, we deﬁne the length
+when depositing an Al2O3 NPs layer, which can remarkably reduce the     of the viewport occupied by the original droplet as the normalized length
+surface roughness Sa from 723 nm to 348 nm. To ﬁgure out the distri-      “1". At t¼1.5 s, 1.5 s after the start of spin-coating, the MHP precursor
+bution of Al2O3 NPs on PTAA, the 3D-SLCM was employed to evaluate     solution on the control substrate spreads to L¼2.33. However, this then
+the roughness  of the PTAA/PEDOT:PSS/PET and generated a 3D     surprisingly shrinks back to L¼1.83 at t¼2 s (as shown in Fig. 3f). The
+morphological proﬁle, as depicted in Fig. 3d and Fig. S5. Subsequently,     difﬁculty in the MHP precursor solution spreading on PTAA is due to the
+we simulated the distribution of Al2O3 NPs on PTAA by means of sim-     relatively larger interface energy between PTAA and MHP precursor
+center STAR-CCM þ simulation, as illustrated in Fig. 3e. The Al2O3 NPs     solution. It therefore becomes clear that achieving complete coverage of
+can ﬂatten the rough surface of PTAA/PEDOT:PSS/PET by ﬁlling the     the MHP precursor solution on an untreated PTAA surface is impossible.
+concave region, in turn resulting in a relatively smooth substrate, as     In comparison to the untreated PTAA surface of the control substrate, the
+conﬁrmed by the SEM image in Fig. 3c. Meanwhile, we prepared four    Al2O3 SM substrate has lower interface energy with the MHP precursor
+samples: PET, PEDOT:PSS/PET, PTAA/PEDOT:PSS/PET, Al2O3/PTAA/     solution. As a result, the spreading speed of the MHP precursor solution
+PEDOT:PSS/PET. Atomic force microscopy (AFM) images, illustrated in    on the Al2O3 NPs-coated PTAA surface is much faster than that on un-
+Fig. S6, were then captured. The results obtained indicate a lack of cor-     treated PTAA. For instance, by t¼1.5 s, the MHP precursor solution
+respondence between  the  observed  roughness and  morphological     spreads to L¼4.56 and continues spreading to nearly cover the entire
+changes and the outcomes of our distribution simulation. The analysis of     viewport by t¼2.0 s. It can be concluded that both the reduction in sur-
+the reasons is as follows: Unlike the morphology of conventional devices     face roughness and the enhancement of surface wettability contributed to
+(on rigid or normal ﬂexible substrate), the substrates of ultra-ﬂexible     the facilitated spreading of the MHP precursor solution.
+substrate (~10 μm) often display a broad range of undulations. The       The morphology and photoelectric properties of MHP ﬁlms fabricated
+
+
+
+                                                                        3
+--- Страница 4 ---
+Z. Wang et al.                                                                                                              Advanced Powder Materials 3 (2024) 100142
+
+
+
+
+
+Fig. 3. (a) Contact angle measurements using a mixed solvent of DMF and DMSO (v:v ¼ 4:1) dropped on the surface of PET, PEDOT:PSS/PET, PTAA/PEDOT:PSS/PET,
+and Al2O3/PTAA/PEDOT:PSS/PTAA/PET; (b) and (c) top-view SEM images of the control substrate and the Al2O3 SM substrate; (d) Surface proﬁle of the control
+substrate mapped using a 3-dimensional scanning laser confocal microscopy (3D-SLCM); (e) Distribution of Al2O3 NPs on the PTAA substrate simulated using sim-
+center STAR-CCMþ. The spin-coating process of the MHP precursor solution was also simulated using simcenter STAR-CCM þ on both the control substrate (f) and the
+Al2O3 SM substrate (g).
+
+
+on different substrates were further investigated. Fig. 4 shows the top-     various subareas with different microstructures. Firstly, the crystal grains
+view SEM images of MHP ﬁlms deposited on the control, DMF PW, and     exhibit a wide size distribution ranging from hundreds of nanometers to
+Al2O3 SM substrates. Due to the inferior wettability, the MHP ﬁlm     over 2 μm, and they are inhomogeneously distributed over the entire
+deposited onto the control substrate (Fig. 4a) exhibits an irregular surface    domain in the SEM image. Additionally, cracks and a large number of pin
+morphology, obviously a result of heterogeneous crystallization. Fig. 4a     holes can be clearly observed in  Fig. 4b. The poor crystallization
+clearly shows that the MHP ﬁlm on the control substrate is composed of     observed can be attributed to the heterogeneous nucleation and growth
+
+
+
+
+
+            Fig. 4. Top-view SEM images of MHP ﬁlms prepared on different substrates: the control (a–b), the DMF PW (c–d), and the Al2O3 SM (e–f).
+
+
+                                                                        4
+--- Страница 5 ---
+Z. Wang et al.                                                                                                              Advanced Powder Materials 3 (2024) 100142
+
+
+of MHP, which is inconsistent either temporally or spatially due to the     We conducted further investigations to explore the defect character-
+poor afﬁnity between the untreated PTAA and MHP precursor solution.      istics of various MHP ﬁlms. The steady-state and time-resolved photo-
+Fast nucleation and growth tend to occur at concave locations, resulting     luminescence (TRPL) spectra of MHP ﬁlms deposited on  different
+in the formation of small, ﬁne grains. On the other hand, the two pro-     substrates are presented in Fig. 5a and b. In this comparison, we aim to
+cesses proceed relatively slowly at the convex locations, leading to the     identify the inherent trap states in MHP ﬁlms. To achieve this, we
+formation of larger, coarser grains. The presence of cracks and pin holes     deposited the MHP ﬁlms on different substrates that lack a charge
+in MHP ﬁlm creates direct contact between the hole transport layer and     extraction layer (PEDOT:PSS or PTAA). Compared to the bare PET sub-
+electron transport layer, introducing additional shunt pathways that      strate, both Al2O3 coating and DMF prewashing can enhance wettability
+exacerbate current leakage and charge recombination, resulting in sig-    and improve crystallinity, resulting in higher PL intensity. Particularly,
+niﬁcant energy  loss. Additionally, these cracks have a signiﬁcantly     the PL intensity of the Al2O3-based MHP ﬁlm is substantially higher than
+detrimental impact on the mechanical performance of UF-PSCs by     that of the control MHP ﬁlm, indicating a noticeable decrease in trap
+diminishing the bending strength of MHP ﬁlm. DMF prewashing has been     density and reduced nonradiative energy  loss. TRPL spectra were
+proven to be an effective strategy to improve the wettability of PTAA to     analyzed to assess the carrier lifetime, which is inﬂuenced by defect
+some extent. As shown in Fig. 4c and d, the top-view SEM images of MHP     density and distribution in the MHP ﬁlms. Fig. 5b demonstrates that the
+ﬁlms deposited on DMF prewashed PTAA (DMF PW) exhibit better     carrier lifetime τ of the MHP ﬁlm deposited on the DMF prewashed PET
+coverage with fewer voids and cracks in comparison to the control ﬁlm.    (τ¼0.85 μs) is approximately twice that of the MHP ﬁlm deposited on
+However, the ﬁlms still display crystalline inhomogeneities as the DMF    PET (τ¼0.39 μs). Meanwhile, the carrier lifetime (τ¼1.36 μs) of the MHP
+prewashing does not entirely counteract the challenges of large rough-    ﬁlms deposited on the Al2O3-coated PET is approximately three times
+ness and insufﬁcient wettability of PTAA. In contrast, the MHP ﬁlm     that of the MHP ﬁlm deposited on PET (the ﬁtted carrier lifetime is
+deposited on the Al2O3 SM substrate displays full coverage over a large    summarized in Table S1). The enhancement in carrier lifetime suggests
+area (Fig. 4e), which is crucial for the preparation of high-performance     fewer defects in MHP ﬁlms, which can be attributed to the improvement
+devices. To obtain a comprehensive understanding of the crystallinity     in MHP crystallinity resulting from the improvement in wettability.
+enhancement of MHP ﬁlms by Al2O3 SM, we conducted X-ray diffraction       The density of defect states (nt) was estimated through space-charge-
+(XRD) and UV–Vis characterizations. The detailed results can be found in     limited-current (SCLC) characterization using the hole-only device (for
+the supporting information (Fig. S7 and Fig. S8). In Fig. S7, the XRD     example, Ag/Spiro-OMeTAD/MHP/PTAA/PEDOT:PSS/PET), as shown
+patterns indicate that, compared to the perovskite ﬁlms on the control     in Fig. 5c and e. Based on SCLC, (nt) can be expressed as Equation (1):
+and DMF PW substrate, the perovskite ﬁlm on Al2O3 demonstrate higher
+crystallinity, which is also validated by the UV–Vis spectra in Fig. S8.          nt ¼ 2εε0VTFL   eL2                                                   (1)
+
+
+
+
+
+Fig. 5. Steady-state (a) and time-resolved PL (b) of MHP ﬁlms prepared on PET, DMF prewashed PET, and Al2O3-covered PET. The SCLC characterizations of the hole-
+only devices are based on the substrates of the control (c), DMF PW (d), and Al2O3 SM (e).
+
+
+                                                                        5
+--- Страница 6 ---
+Z. Wang et al.                                                                                                              Advanced Powder Materials 3 (2024) 100142
+
+                                                                            control device exhibits a nt value of 3.27   1015 cm  3, while the DMFwhere VTFL is the onset voltage of the trap-ﬁlled limit region, e is the
+                                                                     prewashing-based device displays a lower nt value (1.97   1015 cm  3).elementary charge, L is the thickness of MHP ﬁlm (~650 nm, as shown in
+Fig. 6a), ε is the vacuum permittivity, and ε0 is the relative dielectric    The use of Al2O3 coating is notable in reducing defects, as it promotes
+                                                                              better spreading of the MHP precursor solution during spin-coating andconstant. Assessment of nt in MHP ﬁlms deposited on PET, DMF pre-
+                                                                   improves the crystallization of MHP ﬁlm. The nt value is further reducedwashed PET, and Al2O3-coated PET is presented in Fig. 5c and e. The
+
+
+
+
+
+Fig. 6. (a) Schematic diagram of UF-PSCs device structure and cross-sectional SEM image of a demonstrative device prepared on a glass substrate; (b) Statistics of PCEs
+of UF-PSCs prepared on different substrates; (c) Champion photocurrent-voltage curves of UF-PSCs based on different substrates (measured under AM 1.5G, 100
+mW⋅cm 2 illumination); (d) and (e) mechanical durability measurement under two different bending radius (40% RH, 25  C).
+
+
+                                                                        6
+--- Страница 7 ---
+Z. Wang et al.                                                                                                              Advanced Powder Materials 3 (2024) 100142
+
+to 1.12   1015 cm  3.                                                   unfavorable conditions, contribute to a reduction in the FF. To achieve
+    Fig. 6a shows the device structure and cross-sectional SEM image of a     ultra-ﬂexible bending, we utilize PEDOT:PSS as the electrode material,
+device fabricated on a glass substrate (for demonstrative purposes only)    which offers greater resistance to bending compared to ITO. However, it
+because preparing a cross-sectional UF-PSCs sample for SEM character-     should be noted that the conductivity of PEDOT:PSS is inferior to that of
+ization is very challenging. As shown in Fig. 6a, the MHP layer has a     ITO, resulting in a reduced FF for the device. To isolate the impact of
+thickness of approximately 650 nm, while the PEDOT:PSS layer is only     substrate conductivity on the reduced FF, we prepared devices with an
+70 nm thanks to the enhanced conductivity. The Al2O3 thickness is     identical structure on ITO substrates. The J-V curves of the ITO device
+estimated to be approximately 40 nm. The photovoltaic performance of    and ultra-ﬂexible device are presented in Fig. S11. The results demon-
+our UF-PSCs was evaluated by photocurrent-voltage (J-V) measurement      strate that ITO devices can attain a FF of 82% when the reduction in FF
+under AM1.5G, one sun illumination (100 mW cm  2). To increase the     caused by substrate conductivity is excluded.
+persuasiveness of our ﬁndings, we meticulously fabricated 30 devices for       To evaluate the mechanical durability of our UF-PSCs, we conducted
+each group utilizing distinct substrates. The statistical PCE values of these    bending tolerance tests using a bending radius of 1.0 mm and 0.5 mm,
+devices are presented in Fig. 6b and Table S2. Furthermore, we have     respectively. Following the scheduled bending cycles, we conducted J-V
+included the J-V curves of the most superior device from each group,      tests to collect the PV parameters of the UF-PSCs. Fig. 6d and e depict the
+showcasing both forward and backward scanning directions, in Fig. 6c.     normalized PCE of the UF-PSCs as a function of bending cycles. Our re-
+When fabricating UF-PSCs on the control substrate, a signiﬁcant number      sults demonstrate that the PCE of DMF PW-based UF-PSCs decreases to
+of devices, exceeding 50%, experience complete short circuits, leaving    47.6% (radius¼1 mm) and 58.9% (radius¼0.5 mm) of the initial PCE
+only 10–20% of devices with mediocre performance. The highest-      after only 500 bending circles, while the control UF-PSCs can maintain
+performing device on the control substrate is only able to achieve a    60.2% (radius¼1 mm) and 78.3% (radius¼0.5 mm) of the initial PCE
+modest PCE of 11.96%. Limited improvement can be observed in the case    under the same conditions. This result suggests that the DMF PW-based
+of DMF PW-based UF-PSCs, but it is noteworthy that 40% of the devices    UF-PSCs exhibit inferior mechanical properties compared to the control
+still suffer from short circuit issues. While the DMF prewashing treatment     devices. This could be attributed to non-uniform stress release during
+has been utilized to enhance the PCE of rigid p-i-n PSCs, our ﬁndings     bending. Uneven stress release leads to a quicker fracturing of the ﬁlm,
+suggest that this method falls short in addressing the wetting issues that     resulting in a faster decline in PCE. In contrast, the Al2O3 SM-based de-
+arise in the realm of UF-PSCs. Two primary factors contribute to the low     vices demonstrate impressive bending  stability, maintaining 98.6%
+yields and poor repeatability observed in both the control and DMF PW-     (radius¼1 mm) and 79.0% (radius¼0.5 mm) of the initial PCE after
+based devices. There are two primary factors that contribute to this    10,000 bends. We postulate that the enhanced contact between the MHP
+challenge. The ﬁrst factor is the presence of numerous pinholes and    and PTAA interfaces facilitated by the addition of Al2O3 NPs reinforces
+cracks, leading to incomplete coverage of the MHP ﬁlms on PTAA. The     the interfacial mechanical coupling, thereby shielding the ﬁlm from
+second factor is a high degree of surface roughness, which causes the     peeling off the substrate during bending.
+device electrodes to connect and results in short circuits. Thanks to the
+full coverage of MHP ﬁlm, the Al2O3 SM-based devices exhibit excep-     3. Conclusion
+tional reproducibility and do not experience any short circuit problems,
+achieving 100% yields and high repeatability. Impressively, the Al2O3        In summary, we conducted a comprehensive study on the preparation
+SM-based devices achieve an average PCE of approximately 15%.     of UF-PSCs, with a focus on utilizing Al2O3 as a surface modiﬁer to
+Moreover, the most outstanding UF-PSCs in our current investigation     address a common problem encountered in the ﬁeld of UF-PSCs. Our
+exhibit a JSC of 24.59 mA cm  2, a VOC of 1.046 V, and a ﬁll factor (FF) of     investigation encompassed the mechanical properties, morphology, and
+63.49%, ultimately achieving a remarkable PCE of 16.33%. This PCE is     semiconductor optoelectronics of MHPs deposited on substrates with
+higher than that of either the DMF PW-based (12.20%) or the control     different roughness and wettability. We highlighted the positive effects
+(11.96%) devices. It is worth noting that the JSC value mentioned above     of the Al2O3 NPs on improving the crystalline quality of MHP, the
+is consistent with the integrated photocurrent obtained from the external     reproductivity, and the PCE of UF-PSCs. By employing this approach, we
+quantum efﬁciency (EQE) measurement, as shown in Fig. S9.              achieved a high PCE of 16.33% in UF-PSCs with excellent bending
+   The hysteresis phenomenon observed in both backward and forward     tolerance. While further improvements in PCE and scalability of large-
+J-V scanning directions for PSCs has been extensively reported in pre-     area devices are necessary for practical applications, our work provides
+vious literature. This phenomenon is associated with multiple factors,     valuable insights into the development of ﬂexible photovoltaics. We
+including ion migration, defects, interfacial charge recombination, and     believe that our ﬁndings will signiﬁcantly contribute to the advancement
+other related mechanisms. Fig. 6c and Table S3 demonstrate that the     of UF-PSCs research and inspire further exploration in this exciting ﬁeld.
+degree of hysteresis varies signiﬁcantly among the three champion UF-
+PSCs. In comparison to the control and DMF PW-based devices, the     4. Methods
+hysteresis of the Al2O3 SM-based devices is negligible. The presence of
+cracks and pinholes as well as high defect density in the active layer        Detailed characterizations, experimental methods, and simulation
+(MHP) are major reasons responsible  for the signiﬁcant hysteresis    can be found in the supporting information.
+observed in the case of the control or DMF PW-based device. By SCLC
+characterization, we calculated that the defect density of states of Al2O3     4.1. Materials
+SM devices is much lower compared to control devices, which is one of
+the reasons for the reduced hysteresis. Furthermore, we tested the tran-         All the materials were used as received from commercial sources,
+sient photovoltage (TPV) decay curves of the optimized ﬁlms and control     including PbI2 (>99%, TCI, Japan), HC(NH2)2I (FAI, 99.9%, Advanced
+devices. As shown in Fig. S10, the Al2O3 SM-based device exhibits a     Election Technology Co. Ltd, China), polydimethylsiloxane (PDMS, Syl-
+carrier recombination lifetime that is much higher than that of the con-     gard 184 Silicone Elastomer, Dow Corning). Cesium iodide (CsI, 99.9%),
+trol device. This is in good agreement with the enhanced integrity of the    CH3NH3I (MAI,  99.5%), CH3NH3Cl (MACl,  99.5%), [6,6]-phenyl C61
+MHP/PTAA interface and explains the low degree of hysteresis.             butyric acid methyl ester (PCBM, 99%), poly-bis(4-phenyl) (2,4,6-tri-
+   For Al2O3 SM devices that exhibit both a low FF, we provide the     methylphenyl) amine (PTAA, Mn   9000), PEDOT:PSS (Heraeus CLE-
+following explanation: the FF of a device is primarily determined by the    VIOSTM PH1000), (BCP, 99%) were purchased from Xi'an Polymer Light
+series resistance, bypass resistance, and characteristics of the PN junc-    Technology Corp. (P. R. China). The reagents aluminum oxide NPs
+tion. An increase in series resistance, a decrease in bypass resistance, and     (Al2O3, <50 nm particle size, 20 wt% in isopropanol), dimethylforma-
+the presence of defects and impurities within the PN junction, and other    mide (DMF, 99.8%),  ethyl  acetate  (anhydrous),  dimethylsulfoxide
+
+
+                                                                        7
+--- Страница 8 ---
+Z. Wang et al.                                                                                                              Advanced Powder Materials 3 (2024) 100142
+
+(DMSO, 99.9%) and chlorobenzene (CB, 99.8%) were all purchased from     Declaration of competing interest
+Sigma Aldrich (USA). Glass substrates were purchased from Suzhou
+Shangyang Solar Technology Co. Ltd (China). The PET substrates (~12       The authors declare that they have no known competing ﬁnancial
+μm thickness) were purchased from Shanghai Yiwei Mechanical &     interests or personal relationships that could have appeared to inﬂuence
+Electrical Hardware Co. Ltd (china).                                      the work reported in this paper.
+   To prepare the Al2O3 dispersion, 1 mL IPA was added into 8 μL Al2O3
+colloid and oscillated to achieve a suitable concentration. The resulting    Acknowledgements
+Al2O3 dispersion can be stored for several weeks and should be evenly
+oscillated before use. It is important to note that the appropriate con-       The work was supported by the National Natural Science Foundation
+centration of Al2O3 is closely related to the substrate roughness. An in-     of China (22005043, 52272193), the National Key Research and Devel-
+crease in RS and decrease in FF may be attributed to the deposition of    opment Program of China (2019YFA0709102 and 2020YFA0714502),
+thicker Al2O3 on relatively smooth surfaces.                               the   Liaoning   Revitalization   Talents  Program  (XLYC2007038,
+                                                               XLYC2008032), and the Fundamental Research Funds for the Central
+4.2. Device fabrication                                                        Universities (DUT22LAB602, DUT22GJ201).
+
+
+   PET and glass substrates were washed with deionized water, ethanol,    Appendix A. Supplementary data
+and isopropanol sequentially. The substrates were dried with N2. Sub-
+sequently, PDMS (was obtained by mixing the elastomer and curing       Supplementary data to this article can be found online at https
+agent in 10:1 and diluted 1:2 in hexane) was spin-coated on the glass     ://doi.org/10.1016/j.apmate.2023.100142.
+substrates at 2000 rpm for 40 s and annealed at 100 C for 5 min as the
+binder for the PET foil and glass substrate. A dispersion of PEDOT:PSS    References
+was prepared from stock Clevios PH1000 with 5 vol% DMSO and 0.5 vol
+% Zonyl FS-300 ﬂuorosurfactant. This formulation was spun onto the PET       [1] V. Romano, A. Agresti, R. Verduci, G. D'Angelo, Advances in perovskites for
+                                                                                                  photovoltaic applications in space, ACS Energy Lett. 7 (8) (2022) 2490–2514.
+foil or the glass substrate at 2000 rpm for 40  s, and subsequently       [2] R. Verduci, V. Romano, G. Brunetti, N. Yaghoobi Nia, A. Di Carlo, G. D’Angelo,
+annealed at 120 C for 10 min. The PEDOT:PSS ﬁlms were brieﬂy rinsed            C. Ciminelli, Solar energy in space applications: Review and technology
+with methanol to remove any excess surfactant and PSS on the surface,            perspectives, Adv. Energy Mater. 12 (29) (2022) 2200125.
+                                                                                            [3] Y. Gao, K. Huang, C. Long, Y. Ding, J. Chang, D. Zhang, L. Etgar, M. Liu, J. Zhang,
+and dried for another 10 min at 120  C. The UF-substrated was trans-                                                                                                                       J. Yang, Flexible perovskite solar cells: From materials and device architectures to
+ferred to a waterless air glove box, and PTAA (2 mg⋅mL 1) was coated at             applications, ACS Energy Lett. 7 (4) (2022) 1412–1445.
+5000 rpm for 30 s and annealed at 100 C for 10min. For DMF PW, 100 μL       [4]  J. Yang, F. Yu, A. Chen, S. Zhao, Y. Zhou, S. Zhang, T. Sun, G. Hu, Synthesis and
+DMF solution was prewashed on the substrate and spun at 4000 rpm for            application of silver and copper nanowires in high transparent solar cells, Adv.
+                                                                                 Powder Mater. 1 (4) (2022) 100045.
+30s. For Al2O3 SM, Al2O3 (0.16 wt%) was coated on the surface of PTAA       [5] Q. Dong, C. Zhu, M. Chen, C. Jiang, J. Guo, Y. Feng, Z. Dai, S.K. Yadavalli, M. Hu,
+at 3000 rpm for 30 s and annealed for 15 min. The 1.5 M Cs0.05FA0.85-            X. Cao, Y. Li, Y. Huang, Z. Liu, Y. Shi, L. Wang, N.P. Padture, Y. Zhou,
+MA0.1PbI2.91Br0.09 perovskite precursor was prepared by mixing 0.075 M            Interpenetrating interfaces for efﬁcient perovskite solar cells with high operational                                                                                                                  stability and mechanical robustness, Nat. Commun. 12 (1) (2021) 973.
+CsI, 1.275 M FAI, 0.15 M MABr and 1.6 M PbI2 in 1 mL DMF and DMSO       [6] Q. Dong, M. Chen, Y. Liu, F.T. Eickemeyer, W. Zhao, Z. Dai, Y. Yin, C. Jiang, J. Feng,
+(4:1, v/v); an extra 0.2 M MACl was added to the precursor. The 35 μL              S. Jin, S. Liu, S.M. Zakeeruddin, M. Gr€atzel, N.P. Padture, Y. Shi, Flexible perovskite
+perovskite precursor solution was spread on the Al2O3-coated substrate             solar cells with simultaneously improved efﬁciency, operational stability, and
+                                                      1                               mechanical reliability, Joule 5 (6) (2021) 1587–1601.
+and spun at 1000 rpm at a ramp rate of 200 rpm⋅s   for 10 s and 4000       [7] D. Gao, B. Li, Z. Li, X. Wu, S. Zhang, D. Zhao, X. Jiang, C. Zhang, Y. Wang, Z. Li,
+rpm at the ramp rate of 2000 rpm⋅s 1 for 30 s; then 240 μL of ethyl ac-           N. Li, S. Xiao, W.C.H. Choy, A.K. Jen, S. Yang, Z. Zhu, Highly efﬁcient ﬂexible
+etate was quickly dripped onto the substrate in the last 5 s. The perovskite            perovskite solar cells through pentylammonium acetate modiﬁcation with certiﬁed
+                                                                                               efﬁciency of 23.35%, Adv. Mater. 35 (3) (2023) 2206387.
+layer was then annealed at 70 C for 1 min and 110 C for 10 min.       [8]  L. Yang, J. Feng, Z. Liu, Y. Duan, S. Zhan, S. Yang, K. He, Y. Li, Y. Zhou, N. Yuan,
+Subsequently, the ETL was dynamically deposited from a PCBM solution              J. Ding, S. Liu, Record-efﬁciency ﬂexible perovskite solar cells enabled by
+(20 mg⋅mL 1 in CB) and spin-coated onto the perovskite layer at the            multifunctional organic ions interface passivation, Adv. Mater. 34 (24) (2022)
+                                                                  1                  2201681.speed of 1500 rpm for 30 s. Next, The BCP solution (0.5 mg⋅mL   in IPA)                                                                                            [9] M. Kaltenbrunner, G. Adam, E.D. Glowacki, M. Drack, R. Schwodiauer, L. Leonat,
+was spin-coated at 4000 rpm for 30 s on top of the PCBM layer. The 3 M           D.H. Apaydin, H. Groiss, M.C. Scharber, M.S. White, N.S. Sariciftci, S. Bauer,
+copper tape was applied to adhere to the electrode via silver glue. Finally,            Flexible high power-per-weight perovskite solar cells with chromium oxide-metal
+                                                                                                    contacts for improved stability in air, Nat. Mater. 14 (10) (2015) 1032–1039.
+an 80 nm Ag electrode was thermally evaporated on top of the device.
+                                                                                      [10] U. Kim, M. Han, J. Jang, J. Shin, M. Park, J. Byeon, M. Choi, Foldable perovskite
+                                                                                                          solar cells and modules enabled by mechanically engineered ultrathin indium-tin-
+Author contributions                                                                   oxide electrodes, Adv. Energy Mater. 13 (2) (2022) 2203198.
+                                                                                      [11] C. Jiang, J. Zhou, H. Li, L. Tan, M. Li, W. Tress, L. Ding, M. Gratzel, C. Yi, Double
+                                                                                                      layer composite electrode strategy for efﬁcient perovskite solar cells with excellent
+  Wang Zhiyong: Conceptualization, Data curation, Formal analysis,            reverse-bias stability, Nano-Micro Lett. 15 (2023) 12.
+Investigation, Methodology, Resources, Visualization, Writing - original      [12]  B.J. Worfolk, S.C. Andrews, S. Park, J. Reinspach, N. Liu, M.F. Toney,
+draft. Dong Qingshun: Conceptualization, Formal analysis, Funding             S.C. Mannsfeld, Z. Bao, Ultrahigh electrical conductivity in solution-sheared
+                                                                                            polymeric transparent ﬁlms, Proc. Natl. Acad. Sci. USA 112 (46) (2015)
+acquisition, Methodology, Project administration, Supervision, Valida-          14138–14143.
+tion, Visualization, Writing - review & editing. Yan Ying: Conceptuali-      [13]  J. Zhang, X. Hu, H. Li, K. Ji, B. Li, X. Liu, Y. Xiang, P. Hou, C. Liu, Z. Wu, Y. Shen,
+zation, Formal  analysis, Funding  acquisition, Methodology,  Project            S.D. Stranks, S.R.P. Silva, H.M. Cheng, W. Zhang, High-performance ITO-free
+                                                                                                   perovskite solar cells enabled by single-walled carbon nanotube ﬁlms, Adv. Funct.
+administration, Software, Supervision, Validation, Writing - review &           Mater. 31 (37) (2021) 2104396.
+editing. Fang Zikeng: Data curation, Investigation, Resources, Software,      [14] K. Zhu, Z. Lu, S. Cong, G. Cheng, P. Ma, Y. Lou, J. Ding, N. Yuan, M.H. Rummeli,
+Visualization, Writing - original draft. Mi Guojun: Resources. Pei Min-           G. Zou, Ultraﬂexible and lightweight bamboo-derived transparent electrodes for
+                                                                                                   perovskite solar cells, Small 15 (33) (2019) 1902878.
+gzhu: Investigation. Wang Shuhong: Investigation. Zhang Linghui:                                                                                      [15] G. Lee, M.C. Kim, Y.W. Choi, N. Ahn, J. Jang, J. Yoon, S.M. Kim, J.G. Lee, D. Kang,
+Resources. Liu Jing: Resources. Chen Min: Methodology. Ma Hongru:            H.S. Jung, M. Choi, Ultra-ﬂexible perovskite solar cells with crumpling durability:
+Resources. Wang Ruiting: Visualization. Zhang Jie: Data curation.          Toward a wearable power source, Energy Environ. Sci. 12 (10) (2019) 3182–3191.
+Cheng Chun: Resources. Shi Yantao: Conceptualization, Formal anal-      [16] Y. Hu, T. Niu, Y. Liu, Y. Zhou, Y. Xia, C. Ran, Z. Wu, L. Song, P. Müller-Buschbaum,
+                                                                                                    Y. Chen, W. Huang, Flexible perovskite solar cells with high power-per-weight:
+ysis, Funding acquisition, Methodology, Project administration, Super-            Progress, application, and perspectives, ACS Energy Lett. 6 (8) (2021) 2917–2943.
+vision, Validation, Writing - review & editing.                                   [17] B. Fan, J. Xiong, Y. Zhang, C. Gong, F. Li, X. Meng, X. Hu, Z. Yuan, F. Wang,
+                                                                                                    Y. Chen, A bionic interface to suppress the coffee-ring effect for reliable and ﬂexible
+
+
+
+
+
+                                                                        8
+--- Страница 9 ---
+Z. Wang et al.                                                                                                              Advanced Powder Materials 3 (2024) 100142
+
+
+      perovskite modules with a near-90% yield rate, Adv. Mater. 34 (29) (2022)            [33] W. Lv, Z. Hu, W. Qiu, D. Yan, M. Li, A. Mei, L. Xu, R. Chen, Constructing soft
+     2201840.                                                                                      perovskite-substrate interfaces for dynamic modulation of perovskite ﬁlm in
+[18] K. Zhang, Y. Deng, X. Shi, X. Li, D. Qi, B. Jiang, Y. Huang, Interface chelation                 inverted solar cells with over 6200 hours photostability, Adv. Sci. 9 (28) (2022)
+     induced by pyridine-based polymer for efﬁcient and durable air-processed                  2202028.
+      perovskite solar cells, Angew. Chem. Int. Ed. 61 (4) (2022) 202112673.
+[19] W. Zhao, J. Xu, K. He, Y. Cai, Y. Han, S. Yang, S. Zhan, D. Wang, Z. Liu, S. Liu,
+    A special additive enables all cations and anions passivation for stable perovskite
+                                                                                                 Zhiyong Wang is currently pursuing his PhD degree at the      solar cells with efﬁciency over 23, Nano-Micro Lett. 13 (1) (2021) 169.
+                                                                                                              School of Mechanical Engineering, Dalian University of Tech-[20] C. Xu, L. Cheng, Z. Li, X. Zheng, S. Shan, T. Chen, W. Fu, Y. Yang, L. Zuo, H. Chen,
+                                                                                                                   nology. His research primarily focuses on ultra-ﬂexible perov-      Fast solidiﬁcation and slow growth strategy for high-performance quasi-2D
+                                                                                                                                   skite solar cells, improving their photovoltaic and mechanical      perovskite solar cells, Adv. Energy Mater. 13 (17) (2023) 2300168.
+                                                                                                                             properties.
+[21]  J. Park, J. Kim, H.S. Yun, M.J. Paik, E. Noh, H.J. Mun, M.G. Kim, T.J. Shin, S.I. Seok,
+      Controlled growth of perovskite layers with volatile alkylammonium chlorides,
+     Nature 616 (2023) 724–730.
+[22] Y. Yan, R. Wang, Q. Dong, Y. Yin, L. Zhang, Z. Su, C. Wang, J. Feng, M. Wang, J. Liu,
+     H. Ma, Y. Feng, W. Shang, Z. Wang, M. Pei, Y. Wang, S. Jin, J. Bian, X. Gao, S. Liu,
+      Y. Shi, Polarity and moisture induced trans-grain-boundaries 2D/3D coupling
+      structure for ﬂexible perovskite solar cells with high mechanical reliability and
+      efﬁciency, Energy Environ. Sci. 15 (12) (2022) 5168–5180.
+[23] H. Wang, W. Zhang, B. Wang, Z. Yan, C. Chen, Y. Hua, T. Wu, L. Wang, H. Xu,
+     M. Cheng, Modulating buried interface with multi-ﬂuorine containing organic
+     molecule toward efﬁcient NiOX-based inverted perovskite solar cell, Nano Energy
+     111 (2023) 108363.
+[24]  L. Zhang, C. Fu, S. Wang, M. Wang, R. Wang, S. Xiang, Z. Wang, J. Liu, H. Ma,                            Qingshun Dong received his PhD from Tsinghua University in
+      Y. Wang, Y. Yan, M. Chen, L. Shi, Q. Dong, J. Bian, Y. Shi, Amorphous F-doped TiOX                            June 2019. After graduation, he entered Dalian University of
+     caulked SnO2 electron transport layer for ﬂexible perovskite solar cells with                                  Technology to carry out post-doctoral research. His research
+      efﬁciency exceeding 22.5%, Adv. Funct. Mater. 33 (11) (2023) 2213961.                                         focuses on  perovskite  solar  cells,  mainly  involving  low-
+[25] B. Vaagensmith, K.M. Reza, M.N. Hasan, H. Elbohy, N. Adhikari, A. Dubey,                                    temperature charge  transport  layers, high-performance  de-
+     N. Kantack, E. Gaml, Q. Qiao, Environmentally friendly plasma-treated PEDOT:PSS                                    vices, ﬂexible devices and lead-free devices.
+      as electrodes for ITO-free perovskite solar cells, ACS Appl. Mater. Interfaces 9 (41)
+     (2017) 35861–35870.
+[26] X. Hu, X. Meng, L. Zhang, Y. Zhang, Z. Cai, Z. Huang, M. Su, Y. Wang, M. Li, F. Li,
+      X. Yao, F. Wang, W. Ma, Y. Chen, Y. Song, A mechanically robust conducting
+     polymer network electrode for efﬁcient ﬂexible perovskite solar cells, Joule 3 (9)
+     (2019) 2205–2218.
+[27]  J. Wu, P. Chen, H. Xu, M. Yu, L. Li, H. Yan, Y. Huangfu, Y. Xiao, X. Yang, L. Zhao,
+    W. Wang, Q. Gong, R. Zhu, Ultralight ﬂexible perovskite solar cells, Sci. China
+     Mater. 65 (9) (2022) 2319–2324.
+[28] M. Wang, H. Wang, W. Li, X. Hu, K. Sun, Z. Zang, Defect passivation using ultrathin
+    PTAA layers for efﬁcient and stable perovskite solar cells with a high ﬁll factor and                           Yantao Shi currently serves as a Professor in the School of
+      eliminated hysteresis, J. Mater. Chem. A. 7 (46) (2019) 26421–26428.                                        Chemistry at Dalian University of Technology. He earned his
+[29] Y. Wang, H. Ju, T. Mahmoudi, C. Liu, C. Zhang, S. Wu, Y. Yang, Z. Wang, J. Hu,                          PhD from Tsinghua University in 2010, and his research pri-
+      Y. Cao, F. Guo, Y.B. Hahn, Y. Mai, Cation-size mismatch and interface stabilization                                marily centers on innovative thin-ﬁlm solar cells and photo/
+      for efﬁcient NiOX-based inverted perovskite solar cells with 21.9% efﬁciency, Nano                                    electrocatalytic materials. To date, he has published over 100
+     Energy 88 (2021) 106285.                                                                                   peer-reviewed articles, garnering more than 5000 citations, and
+[30]  F. Li, X. Deng, F. Qi, Z. Li, D. Liu, D. Shen, M. Qin, S. Wu, F. Lin, S.H. Jang, J. Zhang,                                 boasts an H-index of 40.
+      X. Lu, D. Lei, C.S. Lee, Z. Zhu, A.K. Jen, Regulating surface termination for efﬁcient
+      inverted perovskite solar cells with greater than 23% efﬁciency, J. Am. Chem. Soc.
+     142 (47) (2020) 20134–20142.
+[31] C. Wang, Z. Su, L. Chen, H. Zhang, W. Hui, D. Liang, G. Zheng, L. Zhang, Z. Tang,
+    W. Wen, J. Tang, Q. Huang, F. Song, Q. Chen, X. Gao, MoO3 doped PTAA for high-
+     performance inverted perovskite solar cells, Appl. Surf. Sci. 571 (2022) 151301.
+[32] Q. Zhou, J. Qiu, Y. Wang, M. Yu, J. Liu, X. Zhang, Multifunctional chemical bridge
+     and defect passivation for highly efﬁcient inverted perovskite solar cells, ACS
+     Energy Lett. 6 (4) (2021) 1596–1606.
+
+
+
+
+
+                                                                        9

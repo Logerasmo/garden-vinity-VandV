@@ -1,0 +1,805 @@
+--- Страница 1 ---
+           International Journal of
+       Molecular Sciences
+
+
+
+Article
+Polymeric Interlayer in CdS-Free Electron-Selective Contact for
+Sb2Se3 Thin-Film Solar Cells
+
+David Rovira 1, Eloi Ros 1, Thomas Tom 2,3    , Maykel Jiménez 1, José Miguel Asensi 2,3    , Cristobal Voz 1,*    ,
+Julian López-Vidrier 2,3    , Joaquim Puigdollers 1    , Joan Bertomeu 2,3  and Edgardo Saucedo 1,*
+
+
+                                            1  Departament d’Enginyeria Electrònica, Universitat Politècnica de Catalunya (UPC), 08034 Barcelona, Spain
+                                            2  Departament de Física Aplicada, Universitat de Barcelona, 08028 Barcelona, Spain
+                                            3   Institute of Nanoscience and Nanotechnology (IN2UB), Universitat de Barcelona, 08028 Barcelona, Spain
+                                     *   Correspondence: cristobal.voz@upc.edu (C.V.); edgardo.saucedo@upc.edu (E.S.)
+
+
+                                Abstract: High open-circuit voltage in Sb2Se3 thin-ﬁlm solar cells is a key challenge in the develop-
+                         ment of earth-abundant photovoltaic devices. CdS selective layers have been used as the standard
+                                 electron contact in this technology. Long-term scalability issues due to cadmium toxicity and envi-
+                            ronmental impact are of great concern. In this study, we propose a ZnO-based buffer layer with a
+                           polymer-ﬁlm-modiﬁed top interface to replace CdS in Sb2Se3 photovoltaic devices. The branched
+                             polyethylenimine layer at the ZnO and transparent electrode interface enhanced the performance
+                                 of Sb2Se3 solar cells. An important increase in open-circuit voltage from 243 mV to 344 mV and
+                             a maximum efﬁciency of 2.4% was achieved. This study attempts to establish a relation between
+                               the use of conjugated polyelectrolyte thin ﬁlms in chalcogenide photovoltaics and the resulting
+                               device improvements.
+
+
+                           Keywords: thin-ﬁlm photovoltaics; conjugated polyelectrolyte; dipole; selective contacts
+
+
+
+Citation: Rovira, D.; Ros, E.; Tom, T.;     1. Introduction
+Jiménez, M.; Miguel Asensi, J.; Voz,        The development of green and low-cost energy sources, such as photovoltaic (PV)
+C.; López-Vidrier, J.; Puigdollers, J.;     technology, has appeared as an urgent need in recent years [1]. This has been encouraged
+Bertomeu, J.; Saucedo, E. Polymeric    by the present context of global warming caused by economic dependence on fossil fuels.
+Interlayer in CdS-Free Electron-       Silicon-based solar cells have played a major role in this ongoing transition to carbon
+Selective Contact for Sb2Se3           neutrality. This technology has dominated the solar market during the last decades [2].
+Thin-Film Solar Cells. Int. J. Mol. Sci.    This was achieved by providing highly efﬁcient devices (reported efﬁciencies of over
+2023, 24, 3088. https://doi.org/     26% [3]) with a constant reduction cost of ﬁnal modules [4]. A levelized cost of energy
+10.3390/ijms24043088           (LCOE) of 3.3 ¢/kWh for ﬁxed axis photovoltaic plants had been estimated [5]. However,
+Academic Editor: Christian M. Julien    as the silicon technology approaches its theoretical maximum efﬁciency [6], issues related
+                              to its carbon footprint must be addressed for it to become a truly sustainable technology.
+Received: 27 October 2022
+                           High-temperature furnaces used in wafer fabrication through the Czochralski method [7] or
+Revised: 21 January 2023
+                         dopant diffusion steps in commercial technologies such as passivated rear emitter contact
+Accepted: 2 February 2023
+                        (PERC) are some examples. In this context, chalcogenide semiconductors have attracted
+Published: 4 February 2023
+                             attention as one of the candidates for the next generation of thin-ﬁlm absorbers. This
+                                    is mainly due to their low-cost, thin-ﬁlm, industrially up-scalable sputtering deposition
+                       and use of earth-abundant materials. Currently, CdTe-, CIGS-, and CZTS-based thin-
+Copyright: © 2023 by the authors.  ﬁlm solar cells (TFSCs) are reaching maturity. Power conversion efﬁciencies (PCEs) of
+Licensee MDPI, Basel,  Switzerland.   22.1%, 23.4%, and 13.0%, respectively, have been reported [8]. However, there are some
+This article is an open access article   drawbacks that make it difﬁcult to commercialize this class of solar cells. The toxicity
+distributed  under  the  terms  and   and logistics complexity of cadmium [9] or the difﬁculties in phase control of CIGS and
+conditions of the Creative Commons  CZTS absorbers are good examples. This has led to a greater effort in the investigation of
+Attribution (CC BY) license (https://  new absorbers based on ternary and binary chalcogens. Antimony selenide (Sb2Se3) is a
+creativecommons.org/licenses/by/    photovoltaic semiconductor which, due to its good optoelectronic properties, is becoming
+4.0/).
+
+
+
+
+
+Int. J. Mol. Sci. 2023, 24, 3088. https://doi.org/10.3390/ijms24043088                                   https://www.mdpi.com/journal/ijms
+--- Страница 2 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                    2 of 16
+
+
+
+                       more prominent in TFSCs. A maximum efﬁciency of 10.12% for a nanostructured solar cell
+                          has been reported for this PV technology [10,11].
+                               Sb2Se3 is a quasi-1D (Q-1D) indirect semiconductor belonging to the family of inor-
+                            ganic binary V2-VI3 compounds. Among other properties, it has a tunable band gap close
+                              to the theoretical optimum of 1.4 eV [12]. Furthermore, energies between 1.0 and 1.20 eV
+                              for the indirect band gap and between 1.17 and 1.30 eV for the direct can be obtained for
+                           Sb2Se3 compounds. The small difference between indirect and direct band gaps (~0.1 eV)
+                          provides a high absorption coefﬁcient to antimony selenide. In addition, its viability for
+                              large-scale applications is supported by the compounds’ abundance in the earth’s crust
+                                  (0.2 and 0.05 ppm) [13] and their non-toxicity. Moreover, this absorber presents a moderate
+                           melting point (~608 ◦C) and low crystallization temperature (<350 ◦C) [14]. Thus, thanks to
+                             the low-temperature processes involved, a reduced environmental impact is associated with
+                                      its synthesis. An important feature of this material is that, for a ﬁxed composition, a single
+                               stable phase is obtained. Therefore, problems with secondary phase formation are avoided,
+                       and a wide range of synthesis techniques are accessible [15–17]. Furthermore, Sb2Se3 has
+                          a preferential 1D orthorhombic crystal structure. Quasi-1D sheets of covalently bonded
+                             (Sb4Se6)n nanoribbons stack together by van der Waals forces with (001) orientation [13].
+                           This fact confers to this absorber benign grain boundaries with a low density of dangling
+                        bonds [18] and high anisotropic conductivity. The greatest charge mobility is found along
+                            the c-axis, i.e., parallel to (Sb4Se6)n nanoribbons [19,20].
+                                   Currently, the most common conﬁguration for Sb2Se3 solar cells is p-i-n geometry, i.e.,
+                           hole transport layer (HTL)–absorber–electron transport layer (ETL). Typically, layers in
+                                this conﬁguration are deposited using a bottom-up method. First, the back contact and
+                            hole transport layer (HTL) are deposited over a rigid or ﬂexible substrate (soda–lime glass,
+                          polymers, metallic foils, etc.). On top of that, the absorber is deposited, followed by the
+                              stack consisting in the electron transport layer (ETL) and the top transparent electrode (TE).
+                        The most efﬁcient devices obtained with this architecture employ a CdS compound for the
+                          ETL. This layer, commonly known as a buffer layer, is typically deposited by a chemical bath
+                              process. Gang Li et al. [21] reported an efﬁciency of 6.5% for a planar heterojunction TFSC
+                             incorporating a Cd0.75Zn0.25S buffer layer for a better energy band alignment. However, the
+                             photovoltaic conversion efﬁciency of these solar cells are still far from the theoretical results
+                              of 16.5% for the Sb2Se3/CdS direct junction [22] and the 32.23% of the Shockley–Queisser
+                            efﬁciency limit [12]. This limitation has been attributed to two main causes. On the one
+                         hand, the bulk and interface recombination losses that decrease the open-circuit voltage
+                                (Voc), and, on the other hand, CdS optical absorption in the blue-wavelength region that
+                           generates photocurrent losses [23]. Furthermore, it has been found that in these types of
+                                     cells, the diffusion of Cd and S atoms along the space between (Sb4Se6)n ribbons destabilizes
+                             the buffer/absorber junction [24]. In addition to Cd toxicity and environmental risks, a CdS
+                           replacement for an efﬁcient electron transport layer is an interesting approach to improve
+                             the efﬁciency and stability of this kind of solar cell. Wider band gap materials than CdS such
+                            as ZnMgO, SnO2, ZnO, or TiO2 [25–27] have been proposed to increase the short-circuit
+                             current density (Jsc). In particular, in this study we use ZnO as an ETL due to its abundance,
+                            the existence of different industrially scalable deposition techniques (spraying [27,28],
+                           atomic layer deposition [29], and solution processes [30,31]), and its non-toxicity. However,
+                             the use of ZnO as the only electron-collecting layer has failed to improve the efﬁciency and
+                             open-circuit voltage that is obtained with the use of CdS. Probably, an increase in surface
+                          recombination due to interfacial defects together with band misalignments are the origin
+                             of the worst performance obtained with the use of ZnO. Different approaches have been
+                         proposed to solve these problems. Strategies such as the incorporation of Mg and S in
+                            the ZnO buffer layer have been effective in the reduction of recombination losses [28,29].
+                      Band alignment engineering is another approach to improve device performance. In
+                                this study, we explore the use of an interfacial dipole to control the energy alignment
+                        between the different layers whose function is to collect electrons while blocking the
+                          conduction of holes. In particular, we propose the use of branched polyethylenimine
+--- Страница 3 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                    3 of 16
+
+
+
+                               (b-PEI), a conjugate polyelectrolyte, as an interfacial dipole. Conjugated polyelectrolytes
+                          (CPEs) have been used in different photovoltaic technologies as an approach to avoid
+                           or lower energy barriers to charge carrier transport. In addition to the large number
+                             of CPE compounds, its compatibility with low-cost solution-processable manufacturing
+                            techniques motivates its election. Different levels of selectivity of the charge carrier can be
+                           obtained depending on the chosen CPE. Thus, in the ETL part, the use of polymers such
+                             as poly [(9,9-bis(3′-(N,N-dimethylamino)propyl)-2,7-ﬂuorene)-alt-2,7-(9,9-dioctylﬂuorene)
+                        (PFN) or polyethylenimine ethoxylated (PEIE) has been reported. In contrast, poly(3,4-
+                           ethylenedioxythiophene) polystyrene sulfonate (PEDOT:PSS), 2,2′,7,7′-tetrakis[N,N-di(4-
+                           methoxyphenyl)amino]-9,9′-spirobiﬂuorene (spiro-OMeTAD) or poly[bis(4-phenyl)(2,4,6-
+                            trimethylphenyl)amine] (PTAA) are the most studied for HTL stacks [30–34]. These organic
+                               interlayers have shown to decrease the contact resistivity and enhance the contact selectivity
+                             of photovoltaic devices. This results in an increased short-circuit current (Jsc) and open-
+                                 circuit voltage (Voc) [35,36].
+                               This study ﬁrst summarizes the deposition and characterization of b-PEI on top
+                             of polished ﬂat crystalline silicon substrates. Afterwards, its efﬁciency as an electron
+                            transport layer is studied and a simple model explaining its role in the ETL interface is
+                           proposed. Next, the same approach is used to fabricate antimony selenide-based solar cells.
+                                Electrical measurements performed on diode structures allowed us to compare CdS, ZnO,
+                       and ZnO/PEI ETL contacts. The results shows that the incorporation of the polymeric
+                               interlayer results in a signiﬁcant improvement in the electrical behavior of the ZnO buffer
+                                 layer, reaching a performance similar to that of CdS. Finally, CdS-free solar cells, using the
+                       Sb2Se3/ZnO/b-PEI/AZO ETL conﬁguration, were fabricated and characterized.
+
+                                   2. Results and Discussion
+                                   2.1. PEI Characterization
+                                   2.1.1. Optical Characterization
+
+                               X-ray photoelectron spectroscopy (XPS) and energy-dispersive X-ray spectroscopy
+                          (EDS) were performed on PEI ﬁlms deposited over a chemically polished silicon substrate
+                             to ensure homogeneous coverage. From the XPS results (Figure 1), one can distinguish
+                          chemical bonding states different from the b-PEI chains. The presence of carbon–oxygen
+                        bonds can be seen in the C1s spectrum.  In the nitrogen spectrum, a mix of sp2/sp3
+                            hybridization is observed. In polyelectrolytes such as polyaniline and polypyrrole, the
+                     C-O signal is sometimes associated with surface oxidation of some sort [37,38]. However,
+                                local composition analysis by means of high-resolution transmission electron microscopy
+                     (HRTEM) combined with electron energy loss spectroscopy (EELS) of the b-PEI ﬁlms
+                           suggests that the nitrogen and oxygen specimens could be from a bilayer structure [39].
+                           This picture is consistent with the interaction of the cationic polymer (PEI+) via the sp3-
+                           hybridized nitrogen specimens and their respective counterions from the solvent (EtOx−).
+                       The solvent ethanol would behave as a Brønstred acid (proton donor) by interaction
+                         with the b-PEI, a reported Lewis base (electron donor). This results in an ethanolate
+                               (that can potentially become its respective alkoxide) and a protonated amino group. The
+                            negatively charged nature of the reduced solvent molecule will be electrostatically drawn
+                             to the positively charged amino group. A molecular dipole between them is generated.
+                          Thus, counterions from the solvent are present in the polymeric ﬁlm after the solvent’s
+                            evaporation. This picture is consistent with the presence of C-O in the C1s spectrum and
+                            the sp3 hybridization in the nitrogen spectrum.
+                        EDS data (Figure S3) indicate the presence of an organic layer of ~1–2 nm thickness
+                        between the silicon substrate and the aluminum electrode. From these results, one can
+                          observe the coexisting presence of oxygen and carbon signals in the organic layer. The
+                             resulting experiment indicates that oxygen is well integrated within the organic ﬁlm.
+                            Nevertheless, not enough resolution is obtained to observe the formation of a charge
+                                bilayer. The presence of a nitrogen signal in the XPS spectra should also point out that
+--- Страница 4 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                    4 of 16
+
+
+
+                            the observed carbon and oxygen signals in the EDS are indeed evidence of the branched
+                           polyethylenimine and not a surface oxide.
+
+
+
+
+
+                              Figure 1. XPS spectrum of the b-PEI interlayer after 0.01 wt.% solution in ethanol deposition over
+                                     c-Si substrate and schematic representation of XPS results.
+
+                            The use of these ultrathin ﬁlms avoids undesired optical absorption that could reduce
+                            the generated photocurrent. In addition, optical transmittance studies can be performed
+                             to determine the optical band gap of b-PEI ﬁlms through a Tauc plot (Figure 2). A wide
+                       band gap of 5.337 eV is obtained using Tauc’s relation for direct band gap [(αhυ)2 = C ×
+                          hυ −Eg  ] [40], where hυ is the incident photon energy, C is the proportionality constant,
+                       and Eg is the band gap energy. This high value corresponds to an expected insulating
+                           behavior and optimum transparency in the visible spectrum of b-PEI.
+
+
+
+
+
+                              Figure 2. Tauc plot of the photospectroscopy transmittance of a 1 nm b-PEI ﬁlm on sapphire.
+
+                                   2.1.2. Electrical Characterization
+
+                               Dipole strength tuning has proven to be relatively easy. In this case, the polymer was
+                          deposited using different solvents over n-type silicon. The resulting contact resistivity
+                          obtained through TLM is plotted in Figure 3a. The exact values are shown in Table S2.
+                         Four samples of c-Si/b-PEI/Al with toluene, ethanol, ethanol/water mix, and methanol as
+--- Страница 5 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                    5 of 16
+
+
+
+                            solvents were fabricated. The TLM curves for each sample are shown in Supplementary
+                            Materials (Figure S4). As can be seen, a decrease in the resistivity is found when the
+                           molecular dipole moment of the solvent [41] increases. This dependence could be related to
+                          polymer–solvent interaction. Higher polar solvents could behave as better proton donors,
+                            increasing the ratio of counterions and protonated amino groups in the ﬁlm. Thus, an
+                             increase in the charge density within the ﬁlm is obtained.
+
+
+
+
+
+                                                                (a)                                                                                                        (b)
+
+                              Figure 3. (a) Contact resistivity as a function of the solvent’s molecular dipole moment for 1 nm thick
+                             b-PEI ﬁlms, from lower to higher molecular dipole moment, with solutions of b-PEI 0.01 wt.% in
+                                toluene, ethanol, ethanol/water mix, and methanol. (b) Band bending effect of b-PEI interlayer in
+                               ethanol [42].
+
+                           The minimum contact resistivity is obtained with methanol as the b-PEI solvent.
+                         However, in the following device fabrication, ethanol is preferred. Since the bulk resistance
+                              for the Sb2Se3 dominates the total device resistance, the difference in contact resistivity
+                         from 10−2 Ω·cm2 to 5·10−2 Ω·cm2 has a low effect on cell performance. Therefore, ethanol
+                                    is considered primarily for safety reasons. Furthermore, thanks to the extensive study of
+                           b-PEI in ethanol solution, its use facilitates the comparison of results.
+                                    Similarly, through UPS one can observe how the substrate’s work function (WF)
+                           reduces when the b-PEI layer is deposited. This reduction can be further accentuated with
+                            the incorporation of a semitransparent aluminum capping (Figure 4). The initially found
+                       work function of 4.11 eV for c-Si is reduced to 3.28 eV when the b-PEI ﬁlm is incorporated
+                        and to 3.08 eV after the 10 nm thick semitransparent Al layer is deposited on top of the b-PEI.
+                        The obtained UPS spectra is consistent with the reported increase in passivation of Si/b-PEI
+                                after Al metallization [39]. This would suggest that aluminum presence promotes the
+                              orientation of the dipoles. This reorientation phenomenon is also proposed in other studies.
+                      Yun Juwon et al. [30] proposed a dipolar interaction, governed by dielectric constants,
+                              directly between the PEIE molecules and the contact layers. Aluminum deposition over
+                            the b-PEI could behave in a similar manner. A preferential orientation of the dipoles
+                                    is promoted, enhancing the electrostatic potential. Furthermore, this stronger dipolar
+                              interaction will increase the transfer of electrons from the cathode to the semiconductor
+                              interface [43]. Dipole reorientation and semiconductor electron doping are the main
+                           candidates to explain the results obtained from UPS. Following this hypothesis, surface
+                             traps get neutralized from the charge transfer and the semiconductor’s band bends. A
+                           reduction in the Fermi-level pinning (FLP) and an improvement in contact selectivity are
+                          expected (Figure 3b). For further information, see references [42,44,45]. Solvents with
+                            higher molecular dipole moments present a higher negative charge density in their oxygen
+                              functional groups. This will increase the dipole ﬁeld between the amino groups of the b-PEI
+--- Страница 6 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                    6 of 16
+
+
+
+                       and the counterions. Thus, a higher charge transfer to the semiconductor and improved
+                                 resistivity and selectivity are obtained. This mechanism is similar to the use of low-work-
+                            function metals such as calcium or magnesium to achieve ohmic electron contacts [46,47].
+
+
+
+
+
+                              Figure 4. UPS spectrum for c-Si, c-Si/b-PEI (1 nm), and c-Si/b-PEI (1 nm)/Al (10 nm) and its
+                             corresponding secondary electron cutoffs (SEC). From this, one can extract the work function
+                       (WF = ¯hω −SEC −Ef eV, with ¯hω = 21.22 eV and Ef = 0 eV) [48].
+
+                                   2.2. Sb2Se3 Diode Devices
+                           The transfer of the b-PEI interlayers as the ETL in antimony selenide devices is ex-
+                          plored in this section. Initially, an ETL design using the stack b-PEI/Al was evaluated.
+                A 300 nm aluminum ﬁlm was used as the electrode for all diode devices. With that, the
+                           authors tried to show the applicability in Sb2Se3 of the dipolar model for b-PEI interlayers.
+                         Four different solutions of b-PEI (0.001%, 0.01%, 0.1%, 1%) in ethanol solutions were coated
+                          over the Sb2Se3 samples. Slightly selenized molybdenum was used as the rear hole trans-
+                             port layer (HTL). The J-V curves can be found in the supplementary information (Figure S5).
+                       The curves are ﬁtted to a single-diode model with series and shunt resistance. With that,
+                         one can split the dependence of the contact performance with b-PEI concentration (i.e., ﬁlm
+                               thickness). Figure 5 shows the series resistance and the diode ideality factor as a function of
+                           b-PEI concentration. A parabolic (i.e., “V”-shaped) proﬁle with a minimum in the 0.01 wt.%
+                        sample is observed. This type of behavior indicates the combination of two transport
+                         mechanisms. These could potentially be thermionic emission and direct tunneling. The
+                              ﬁrst would be responsible for the resistivity increase in concentrations below the optimum.
+                    When the thickness of the polymer layer is excessively thin, the dipole effect is not capable
+                             of preventing the surface pinning of the metal contact. Thus, an energetic barrier grows
+                         with the decrease in the polymer’s thickness. Similarly, when the organic layer is far too
+                                thick, the contact resistivity increases. In this case, the resistance can be introduced by
+                            the conduction through the thicker b-PEI ﬁlm. As the resistivity increases after passing
+                            the 1–2 nm thickness mark (i.e., 0.01–0.1%), direct tunneling makes sense as one of the
+                         predominant conduction mechanisms, limiting the transport and increasing the resistivity
+                              in this structure.
+--- Страница 7 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                    7 of 16
+
+
+
+
+
+                              Figure 5. Fitted values of series resistance (blue) and ideality factor (red) for Mo/Sb2Se3/b-PEI/Al
+                              diodes with different b-PEI concentrations.
+
+                         As shown in Figures 5 and S5, an optimum concentration of 0.01% is found for the
+                           b-PEI layer in this b-PEI/Al contact. The high ideality factor can be associated with the high
+                           recombination at the interface and probably a lower contact selectivity. Low asymmetry in
+                            the J-V curves from direct to reverse bias is observed in Figure S5. This could indicate a
+                            deﬁcient selectivity for the minority carriers in the ETL, attributable to high pinhole density.
+                                  In order to enhance the diffusion of minority carriers, the dipole was combined with a
+                             buffer layer. A reduction in the pinhole density is expected, helping to improve the shunt
+                                resistance. CdS, the most widely used electron-selective layer in chalcogenide technology,
+                          has been compared to ALD-deposited ZnO ﬁlms. Thanks to ZnO’s wider band gap, a
+                            higher energetic barrier for holes is expected compared with CdS. Thus, a better selectivity
+                         should be observed. Further, the possibility to deposit it through ALD, as well as the
+                            transparent electrode (AZO), facilitates its large-scale implementation. In addition, ZnO
+                          has highly tunable electrical properties for oxygen vacancies, extending its versatility.
+                            Figure 6 shows the J-V curves of the fabricated devices incorporating buffer layers. A total
+                              of four samples are represented, two of them using CdS and the rest ZnO. In addition, the
+                         PEI ﬁlm is incorporated into one sample from each pair. The ﬁtting parameters of these
+                           curves to a single-diode model with series and shunt resistance are shown in Table 1.
+
+
+
+
+
+                              Figure 6. J-V curves of Sb2Se3 diodes with CdS and ZnO buffer layers with and without 0.001 wt.%
+                              b-PEI interlayer (0.5 nm thickness).
+--- Страница 8 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                    8 of 16
+
+
+
+                             Table 1. Fitted parameters of different Sb2Se3 diode architectures.
+
+      ETL Stack                Ideality Factor, n           Series Resistance, Rs (Ω·cm2)     Shunt Resistance, Rsh (kΩ)
+
+       CdS/Al                         1.65                                4.14                            160
+     CdS/b-PEI/Al                     1.46                                3.40                            115
+       ZnO/Al                        1.70                                0.65                             6
+     ZnO/b-PEI/Al                     1.65                                0.50                             12
+
+
+                                  In accordance with the model given in Section 2.1.2, the organic layer should be below
+                             the electrode. Therefore, the passivation effect of the dipolar ﬁlm can be enhanced with the
+                                carrier transfer from the electrode. This is a different approach from other studies where the
+                            organic ﬁlm is in between the absorber and the buffer layer [49]. Due to the incorporation of
+                                 this ﬁlm, the holes encounter a higher energy barrier, as shown in Figure 7. This will result
+                             in an enhancement in the diode’s ideality factor. A shift to lower b-PEI concentrations is
+                          observed in the minimum values for series resistance and ideality factor (Figure S6) when
+                        compared with diodes without buffer layers. The deposition of b-PEI on top of a selective
+                            contact such as CdS or ZnO instead of antimony selenide results in a different optimum
+                             value. In this case, a lower concentration of 0.001% is found.
+
+
+
+
+
+                               (a)                                                          (b)
+
+                              Figure 7. Band alignment of the diode’s ETL stacks with b-PEI ﬁlm and (a) CdS or (b) ZnO as buffer
+                                    layer. Energies in eV.
+
+                           The presence of a conjugated polyelectrolyte produces an improvement in most of
+                            the diode parameters. It is especially signiﬁcant in the series resistance and the ideality
+                                 factor, and it appears to be independent of the buffer layer. This is consistent with the
+                            reported decrease in the speciﬁc contact resistance and the increase in passivation [36,39,50].
+                       The incorporation of b-PEI depletes the band of the interlayer. Tunneling through the
+                           conduction band for electrons is facilitated, while the barrier for holes is increased (Figure 7).
+                           The same diode ideality factor is obtained for the ZnO/b-PEI/Al and the CdS/Al
+                              contacts. However, the ﬁrst shows an important improvement in the series resistance.
+                          Inhomogeneities in the absorber samples can be responsible for shunt differences.  Its
+                            strong sensitivity to fabrication conditions makes the appearance of pinholes a recurrent
+                              issue [12,51,52]. In light of these ﬁndings, ZnO/b-PEI/Al is identiﬁed as a prospective CdS-
+                                  free, non-toxic, and earth-abundant structure capable of competing with the conventional
+                     CdS buffer layer.
+
+                                   2.3. Sb2Se3 Photovoltaic Devices
+                                      Finally, the bilayer cathode ZnO/b-PEI was implemented in a series of photovoltaic
+                              structures. As the transparent electrode, zinc oxide doped with aluminum (AZO), was
+                            chosen. This transparent conducting oxide (TCO) can be deposited by ALD. This is a soft
+--- Страница 9 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                    9 of 16
+
+
+
+                            deposition technique that allows conformal deposition and up-scalability. Furthermore, the
+                            presence of aluminum in the TCO supports the choice since Al might have a prominent role
+                               in dipole orientation. Figure 8 shows the schematic ﬁlm representation of the device as well
+                            as the band structure of the photovoltaic device. The wide band gap of both intrinsic and
+                       doped zinc oxide layers leads to a high energetic barrier for holes. In addition, the voltage
+                          provided by the dipole ﬁlm prevents pinning at the surface of the ZnO. This facilitates the
+                           tunneling of electrons through its conduction band into the TCO. It has been noticed that
+                              thicker layers of b-PEI are required compared with diode devices. This is due to the lower
+                                carrier density of AZO compared with aluminum [53]. Thus, more dipoles will be needed
+                              to affect the band structure and provide similar passivation and selectivity.
+
+
+
+
+
+                              Figure 8.  Sample and schematic design of the CdS-free cell structure with its corresponding
+                          band alignment.
+
+                                Consequently, a reference sample without organic ﬁlm and three devices with different
+                            concentrations of b-PEI solutions in ethanol (0.01 wt.%, 0.05 wt.%, and 0.1 wt.%) were
+                              fabricated. Figure 9 shows the J-V curves of the fabricated devices under 1.5 AM illumi-
+                            nation and their corresponding power density characteristics. The obtained photovoltaic
+                          parameters are summarized in Table 2.
+
+
+                             Table 2. Photovoltaic parameters of Mo/Sb2Se3/ZnO/b-PEI/AZO solar cells for different b-PEI
+                                 concentrations.
+
+                                              w/o PEI       PEI 0.01 wt.%     PEI 0.05 wt.%     PEI 0.1 wt.%
+
+                                Voc (mV)            243.84             292.23             293.42             344.23
+                                     JSC (mA/cm2)          19.35              21.05              22.93              20.67
+                                FF (%)              33.07              31.39              35.36              34.42
+                                 Efﬁciency (%)          1.536              1.917              2.294              2.411
+--- Страница 10 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                   10 of 16
+
+
+
+
+
+                               (a)                                                          (b)
+
+                              Figure 9. (a) J-V ﬁrst quadrant curves under 1.5 AM illumination for Mo/Sb2Se3/ZnO/b-PEI/AZO
+                                  solar cells. (b) Power density characteristics of the fabricated devices.
+
+                                               It seems that open-circuit voltage (Voc) improves as the b-PEI layer thickness increases.
+                           This would point to an enhanced surface passivation and the successful elimination of
+                               interface energy barriers from FLP. The presence of the organic interlayer translates into a
+                      57% enhancement in power conversion efﬁciency. A PCE of 2.411% for the sample with the
+                                largest polymer concentration was obtained. In addition, the presence of the b-PEI interlayer
+                              increases the FF and Jsc, with maximum values of 35.36% and 22.93 mA/cm2 in the 0.05 wt.%
+                           sample, respectively. The relationship between FF, Jsc, and b-PEI concentration appears to
+                         peak between 0.05 and 0.1 wt.%. Nevertheless, an enhancement in AZO conductivity could
+                              potentially move these values as they are related to the strength of the dipole effect.
+                            The optimal concentration in the solar cells is pushed to higher concentrations relative
+                               to the experiments with the aluminum contact. Higher concentrations of b-PEI are necessary
+                            as the equilibrium state between the semiconductor and the electrode changes when
+                             replacing aluminum with AZO. However, this shift to higher concentrations is limited by a
+                              trade-off between the rise in Voc and the decrease in Jsc. Thicker layers will increase the
+                            dipolar voltage. At the same time, the series resistance of the device will increase due to
+                            the dielectric behavior of b-PEI.
+                                 Nonetheless, the causes for the FF to remain under 40% should be further investigated
+                              to understand whether it is a problem of the absorber or the contacts. The most probable
+                          cause for the decreased FF values could be the shunt leaks coming from pinholes in the
+                              absorber. This could potentially be improved by the deposition of thicker or less conductive
+                   ZnO ﬁlms.
+                                     Finally, the effect of the b-PEI and ZnO layers in the absorbance spectrum can be
+                           studied from the quantum efﬁciency (Figure 10). First, the ZnO layer plays a crucial role
+                              in the antireﬂective quality of the window stack. Samples containing it exhibited a ﬂatter
+                         spectrum and absorbed the visible range to a higher extent. EQEs remain above 60%
+                        from wavelengths smaller than 700 nm. In contrast, the sample without the ZnO layer
+                           experiences a drop in EQE at approximately 550 nm. Then, the effect of b-PEI is mostly
+                          seen on lower wavelengths by a slight shift in the absorbance maximum. Thus, a greater
+                          photogenerated current will be obtained for the ZnO/b-PEI sample, as we have already
+                          seen in the J-V curves. From the transfer matrix method (TMM) analysis, we determined
+                               that the insertion of a PEI interlayer between the AZO/ZnO should increase the reﬂectivity
+                             of the stack. This indicates that the increase in photogenerated current for thin b-PEI
+                        ﬁlms (lower than 0.1 wt.%) has an electrical rather than an optical origin. The increase in
+                                selectivity introduced by the polymeric layer increases the ratio of electrons extracted per
+--- Страница 11 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                   11 of 16
+
+
+
+                             incident photon, even when the number of photons reaching the absorber is slightly lower
+                       due to the higher reﬂectivity.
+
+
+
+
+
+                              Figure 10. External quantum efﬁciency spectra of different ETL stacks in Sb2Se3 solar cells and AM
+                                   1.5 solar irradiance (red). Visible light spectrum highlighted by background colors.
+
+                               Moreover, with these EQEs one can extract the band gap of the antimony selenide. A
+                           value of Eg = 1.305 ± 0.012 eV is obtained, consistent with the literature [54,55].
+
+                                   3. Materials and Methods
+                                   3.1. Preparation of Sb2Se3 Thin Films
+                           The ﬁrst step in the synthesis of the absorber material consisted in depositing Mo
+                       on soda–lime glass (SLG/Mo) by magnetron sputtering. After that, about 280 nm of
+                        Sb (Sb shots, Alfa Aesar, 1–3 mm) was evaporated on the deposited Mo. This thermal
+                           evaporation was carried out in an Oerlikon Univex 250 in a vacuum of 10−5 mbar with a
+                              rate of 1 nm/s. This was followed by a reactive annealing in a furnace under a selenium
+                           atmosphere. The samples were then set in 23 cm2 graphite boxes containing two crucibles
+                          with 25 mg of selenium (12.5 mg each, Alfa Aesar, Se powder 200 mesh). The temperature
+                      was increased with a ramp of 20◦/min up to 320 ◦C, reaching a ﬁnal pressure of 500 mbar
+                              inside the tube. The temperature of 320 ◦C was maintained for 30 min, followed by cooling
+                               at room temperature. The ﬁnal composition of the layer depends to a large extent on
+                            the number of processes carried out on the optimization boxes. The graphite boxes were
+                          always precleaned at 650 ◦C for two hours. After that, optimization processes on the boxes
+                        were carried out to try to be as reproducible as possible. The chemical composition of the
+                            Sb2Se3 thin ﬁlms was analyzed through XRF spectroscopy measurement. Material structure
+                      was characterized by XRD diffraction and SEM micrograph (see Figure S1 and Table S1 in
+                         Supplementary Materials).
+
+                                   3.2. Fabrication and Characterization of b-PEI Layers
+
+                             Branched polyethylenimine (b-PEI) solutions 50 wt.% in H2O, average Mw = 750,000
+                        by LS, were used as electron transport layer (ETL). Polyethylenimine solutions of different
+                          weight percentages, from 1 wt.% to 0.001 wt.%, were prepared using ethanol as solvent and
+                            stored at a constant temperature of 3 ◦C. All the chemicals were purchased from Sigma-
+                          Aldrich (Seoul, Republic of Korea). One side chemically polished (FZ) n-type c-silicon
+                              (100) wafers with a thickness of 280 µm and resistivity of 2 Ω·cm were used as substrate
+                              in the characterization experiments of b-PEI ﬁlms. All wafers were treated with a diluted
+                          hydroﬂuoric acid 1 (v/v)% immersion for 30 s to remove the native oxide from the surface.
+--- Страница 12 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                   12 of 16
+
+
+
+                          Spin coating of b-PEI solutions was performed at 5000 rpm for 30 s. Before spin coating,
+                                    all solutions were rested at room temperature for 30 min. Then, the ﬁlms were annealed
+                               at a temperature of 80 ◦C for 2 min on a hot plate in ambient air. A 300 nm aluminum
+                      ﬁlm was deposited by thermal evaporation using a shadow mask for the transmission
+                               line method (TLM) experiment [56,57]. In order to change the organic layer thickness,
+                             solutions with different concentrations of b-PEI were used while the angular speed of the
+                           spin coating remained constant. The thickness of b-PEI ﬁlms of various concentrations
+                      was measured by ellipsometry. The equivalence between organic ﬁlm thickness and b-PEI
+                            concentration is shown in Figure S2. Amorphous hydrogenated silicon was deposited
+                           using an elettrorava PECVD system with a combination of 36 sccms of silane and 4 sccms of
+                        methane for 10 s. The low percentage of methane prevents the formation of silicon carbide.
+                              Instead, a carbon-doped amorphous silicon ﬁlm is deposited, conferring high resilience to
+                             surface oxidation.
+                             UV–Visible–NIR spectrophotometer Lambda 950 (Perkin Elmer, Shelton, CT, USA)
+                      was employed to study the transmittance of b-PEI ﬁlms spin-coated on transparent sap-
+                            phire substrates. X-ray and UV photoelectron spectroscopy (XPS and UPS, respectively)
+                        measurements of the ﬁlms over silicon wafers were performed with a Phoibos 150 ana-
+                             lyzer (SPECS GmbH, Berlin, Germany) in ultrahigh vacuum conditions (base pressure of
+                          5 × 10−10 mbar). XPS measurements were carried out with a monochromatic Al K-alpha
+                          X-ray source (1486.74 eV). A monochromatic He I UV source (21.2 eV) was used for UPS
+                         measurements. The energy resolution, as the FWHM of the Ag 3d5/2 peak for a sputtered
+                                silver foil, was 0.62 eV for XPS and 0.11 eV for UPS. The XPS spectra were analyzed using
+                            the CASA XPS software and data were ﬁtted for C, O, N. The work function of the ﬁlms
+                      was extracted from the analysis of UPS spectra.
+
+                                   3.3. Fabrication and Characterization of Sb2Se3 Devices
+                               Zinc oxide (ZnO) and cadmium sulphide (CdS) were used as buffer layers in Sb2Se3
+                              devices. ZnO ﬁlms were deposited via atomic layer deposition (ALD) onto Sb2Se3 absorbers
+                          using an Ultratech Savannah ALD System. The ﬁlms were grown with the use of diethyl
+                            zinc (DEZ, UP chemical Co., Ltd., Pyeongtaek, Republic of Korea) and deionized water
+                         vapors as precursors of zinc and oxygen, respectively. The deposition temperature was
+                               set at 130 ◦C, and a working pressure of 0.38 mbar was employed with a N2 carrier ﬂow
+                             of 20 sccm. The zinc and oxygen precursors were contained in cylinders held at 75 ◦C
+                       and room temperature, respectively. One ZnO ALD cycle consisted of a water vapor
+                           pulsing (0.02 s), N2 purge (5 s), DEZ pulsing (0.015 s), and N2 purge (5 s). This cycle was
+                           repeated 300 times, resulting in ﬁlm thicknesses ranging from 50 to 54 nm. A 35 kΩ/sq
+                            sheet resistance for the ﬁlms was obtained with a 4-point probe. For devices with CdS
+                             buffer layer, a 50 nm thick CdS ﬁlm was deposited onto the absorber by chemical bath
+                            deposition (CBD). Next, spin coating of b-PEI layers in the same conditions as in Section 2.2.
+                      was performed. However, the annealing time was increased to 6 min due to the higher
+                             thickness of the Sb2Se3 glass substrate.
+                                After b-PEI incorporation, and for diode devices, aluminum electrodes of 300 nm
+                            thickness and 0.1 cm2 area were deposited by thermal evaporation. In contrast, for pho-
+                              tovoltaic devices, the deposition of the transparent conductive window layer (TCO) via
+                  ALD (Ultratech Savannah) was followed. Zinc oxide doped with aluminum (AZO) was
+                      grown with the use of DEZ, deionized water vapors, and trimethylaluminum (TMA, UP
+                          chemical Co., Ltd., Pyeongtaek, Republic of Korea) as precursors of zinc, oxygen, and
+                        aluminum, respectively. The deposition temperature was set at 150 ◦C, and a working
+                            pressure of 0.4 mbar was employed with a N2 carrier ﬂow of 20 sccm. The zinc precursor
+                       was contained in a cylinder held at 75 ◦C, whereas the aluminum and oxygen ones were at
+                      room temperature. One alumina (Al2O3) ALD cycle consisted of TMA pulsing (0.05 s), N2
+                         purge (5 s), water vapor pulsing (0.02 s), and N2 purge (5 s). The same zinc oxide (ZnO)
+                  ALD cycle of the buffer layer was used here. The recipe followed for AZO ﬁlms repeats
+                          45 times the sequence of 19 ZnO ALD cycles by one Al2O3 ALD cycle, i.e., ((19 + 1)45).
+--- Страница 13 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                   13 of 16
+
+
+
+                        With this deposition, we obtained an AZO ﬁlm of thickness and sheet resistance ranging
+                        from 138 to 146 nm and 184 to 230 Ω/sq, respectively. Thereafter, lateral isolation was
+                         performed by means of microdiamond scriber MR200 OEG to have cells of 0.1 cm2. Finally,
+                            small silver dots at each device were thermally evaporated in order to facilitate the contact
+                          during the characterization processes.
+                           The electrical characterization of the samples was performed several times to assess
+                        any possible light soaking effect. The current density–voltage (J-V) characteristics of the
+                                  cells were measured under standard conditions (100 mW/cm2, AM 1.5G spectrum) using
+                        94041A solar simulator (Newport, Irvine, CA, USA). Finally, external quantum efﬁciency
+                        (EQE) analysis was performed with a QEX10 setup (PV Measurements, Point Roberts,
+                    WA, USA).
+
+                                   4. Conclusions
+
+                                 In this study, we have introduced branched polyethylenimine (b-PEI) as a polymeric
+                              electron transport layer in Sb2Se3 planar heterojunction TFSC. Optical and electrical char-
+                              acterizations of b-PEI thin layers were performed. The results obtained suggest that the
+                        working principle of this organic ETL is the arrangement of interfacial molecular dipoles
+                        between amino groups in the polymeric chain and counterions coming from the solvent.
+                          Thus, the contact performance has the potential to be upgraded via chemical tuning of
+                            the b-PEI solution. The ﬁrst attempts of implementing b-PEI thin ﬁlms directly between
+                            the chalcogenide absorber and a metallic electrode in the metal/dipole/semiconductor
+                              structure showed an enhanced dipole behavior and reduced series resistance. Nevertheless,
+                             the low ideality factor indicates high surface recombination of minority carriers when only
+                           b-PEI is used. To further enhance diode performance, CdS and ZnO ﬁlms were added to
+                             the structure in combination with b-PEI interlayers. The contact’s resistivity and selectivity
+                        were improved, ﬁnding its optimum with a b-PEI solution of 0.001 wt.% in diode devices.
+                       The series resistance dependence on thickness was also studied. From this, a competition
+                              of two mechanisms affecting the junction was discerned. From these devices, it was seen
+                               that a bilayer of ZnO/b-PEI could be a viable alternative to CdS electron-selective contacts.
+                                       Finally, a CdS-free Sb2Se3 photovoltaic test structure incorporating a ZnO/b-PEI/AZO
+                             stack was proposed. A large improvement in the open-circuit voltage of these solar cells
+                      was found of over 40% with respect to reference samples without the organic interlayer.
+                           This ﬁnding completely agrees with the effect of conjugated polyelectrolytes reported in
+                             the literature. Additionally, it opens the possibility of improving CdS-free selective contacts
+                       by the combination of heterojunction and dipole thin ﬁlms. A promising performance
+                         with a PCE of 2.41% was obtained which could be further enhanced both by contact and
+                           absorber optimization.
+
+
+                           Supplementary Materials:  The following supporting information can be downloaded  at:
+                             https://www.mdpi.com/article/10.3390/ijms24043088/s1.
+
+                           Author Contributions: Conceptualization, D.R., E.R. and T.T.; methodology, D.R., E.R. and T.T.;
+                             formal analysis, D.R.; investigation, D.R., E.R., T.T. and M.J.; resources, E.S., J.P., C.V. and T.T.; data
+                                  curation, D.R.; writing—original draft preparation, D.R.; writing—review and editing, E.R., T.T., E.S.,
+                                            J.B., J.M.A., J.L.-V., M.J., C.V. and J.P.; supervision, J.P., E.S. and C.V. All authors have read and agreed
+                                 to the published version of the manuscript.
+
+                            Funding: This research was supported by the Spanish government through grants PID2019-109215RB-
+                               C41, PID2019-109215RB-C43, and PID2020-116719RB-C41 funded by MCIN/AEI/10.13039/501100011033.
+                               This research was funded by the European Union H2020 Framework Programme under Grant Agree-
+                          ment No. 866018, low-dimensional semiconductors for optically tunable solar harvesters (SENSATE).
+                                   E.S. acknowledges the ICREA Academia program. One of the authors (T.T.) acknowledges the
+                              support of the Secretaria d’Universitats i Recerca de la Generalitat de Catalunya and European Social
+                         Fund (2019 FI_B 00456).
+
+                                 Institutional Review Board Statement: Not applicable.
+--- Страница 14 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                   14 of 16
+
+
+
+
+                           Informed Consent Statement: Not applicable.
+
+                           Data Availability Statement: The data presented in this study are available on request from the
+                             corresponding author.
+
+                             Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+References
+
+1.    Dimitrov, R.S. The Paris Agreement on Climate Change: Behind Closed Doors. Glob. Environ. Polit. 2016, 16, 1–11. [CrossRef]
+2.   Jäger-Waldau, A. PV Status Report 2019; Publications Ofﬁce of the European Union: Luxembourg, 2019; pp. 7–94.
+3.   Yoshikawa, K.; Kawasaki, H.; Yoshida, W.; Irie, T.; Konishi, K.; Nakano, K.; Uto, T.; Adachi, D.; Kanematsu, M.; Uzu, H.; et al.
+      Silicon heterojunction solar cell with interdigitated back contacts for a photoconversion efﬁciency over 26%. Nat. Energy 2017,
+      2, 17032. [CrossRef]
+4.   Kavlak, G.; McNerney,  J.; Trancik, J.E. Evaluating the causes of cost reduction in photovoltaic modules.  Energy Policy
+     2018, 123, 700–710. Available online: https://www.sciencedirect.com/science/article/pii/S0301421518305196 (accessed on
+     1 February 2023). [CrossRef]
+5.   Bloomberg Actualización del Costo Nivelado de Energía (LCOE) Para 1er Semestre de 2021. 2021. Available online: https:
+     //www.bloomberg.com/latam/blog/actualizacion-del-costo-nivelado-de-energia-lcoe-para-1er-semestre-de-2021/ (accessed
+    on 3 August 2022).
+6.   Andreani, L.C.; Bozzola, A.; Kowalczewski, P.; Liscidini, M.; Redorici, L. Silicon solar cells: Toward the efﬁciency limits. Adv.
+     Phys. X 2019, 4, 1548305. [CrossRef]
+7.    Czochralski, J. Ein neues Verfahren zur Messung der Kristallisationsgeschwindigkeit der Metalle. Z. Für Phys. Chem. 1918, 92,
+     219–221. [CrossRef]
+8.   National Renewable Energy Laboratory Best Research-Cell Efﬁciency. 2022. Available online: https://www.nrel.gov/pv/cell-
+     efﬁciency.html (accessed on 1 February 2023).
+9.   Zakutayev, A. Brief review of emerging photovoltaic absorbers. Curr. Opin. Green Sustain. Chem. 2017, 4, 8–15. [CrossRef]
+10.   Li, Z.; Liang, X.; Li, G.; Liu, H.; Zhang, H.; Guo, J.; Chen, J.; Shen, K.; San, X.; Yu, W.; et al. 9.2%-Efﬁcient Core-Shell Structured
+    Antimony Selenide Nanorod Array Solar Cells. Nat. Commun. 2019, 10, 125. [CrossRef] [PubMed]
+11.  Duan, Z.; Liang, X.; Feng, Y.; Ma, H.; Liang, B.; Wang, Y.; Luo, S.; Wang, S.; Schropp, R.E.I.; Mai, Y.; et al. Sb2Se3 Thin-Film
+     Solar Cells Exceeding 10\% Power Conversion Efﬁciency Enabled by Injection Vapor Deposition Technology. Adv. Mater. 2022,
+      34, 2202969. [CrossRef]
+12.  Rühle, S. Tabulated values of the Shockley-Queisser limit for single junction solar cells. Sol. Energy 2016, 130, 139–147. [CrossRef]
+13.  Zeng, K.; Xue, D.J.; Tang, J. Antimony selenide thin-ﬁlm solar cells. Semicond. Sci. Technol. 2016, 31, 063001. [CrossRef]
+14.  Wang, X.; Tang, R.; Wu, C.; Zhu, C.; Chen, T. Development of antimony sulﬁde–selenide Sb2(S, Se)3-based solar cells. J. Energy
+     Chem. 2018, 27, 713–721. [CrossRef]
+15.  Webber, D.H.; Buckley, J.J.; Antunez, P.D.; Brutchey, R.L. Facile dissolution of selenium and tellurium in a thiol–amine solvent
+     mixture under ambient conditions. Chem. Sci. 2014, 5, 2498–2502. [CrossRef]
+16.  Zhou, Y.; Leng, M.; Xia, Z.; Zhong, J.; Song, H.; Liu, X.; Yang, B.; Zhang, J.; Chen, J.; Zhou, K.; et al. Solution-processed antimony
+     selenide heterojunction solar cells. Adv. Energy Mater. 2014, 4, 1301846. [CrossRef]
+17.   Liu, X.; Chen, J.; Luo, M.; Leng, M.; Xia, Z.; Zhou, Y.; Qin, S.; Xue, D.; Lv, L.; Huang, H.; et al. Thermal Evaporation and
+     Characterization of Sb2Se3 Thin Film for Substrate Sb2Se3/CdS Solar Cells. ACS Appl. Mater. Interfaces 2014, 6, 10687–10695.
+     [CrossRef]
+18.  Zhou, Y.; Wang, L.; Chen, S.; Qin, S.; Liu, X.; Chen, J.; Xue, D.J.; Luo, M.; Cao, Y.; Cheng, Y.; et al. Thin-ﬁlm Sb2Se3 photovoltaics
+     with oriented one-dimensional ribbons and benign grain boundaries. Nat. Photonics 2015, 9, 409–415. [CrossRef]
+19.  Chen, C.; Bobela, D.C.; Yang, Y.; Lu, S.; Zeng, K.; Ge, C.; Yang, B.; Gao, L.; Zhao, Y.; Beard, M.C.; et al. Characterization of basic
+     physical properties of Sb2Se3 and its relevance for photovoltaics. Front. Optoelectron. 2017, 10, 18–30. [CrossRef]
+20.  Song, H.; Li, T.; Zhang, J.; Zhou, Y.; Luo, J.; Chen, C.; Yang, B.; Ge, C.; Wu, Y.; Tang, J. Highly Anisotropic Sb2Se3 Nanosheets:
+     Gentle Exfoliation from the Bulk Precursors Possessing 1D Crystal Structure. Adv. Mater. 2017, 29, 1700441. [CrossRef]
+21.   Li, G.; Li, Z.; Liang, X.; Guo, C.; Shen, K.; Mai, Y. Improvement in Sb2Se3 Solar Cell Efﬁciency through Band Alignment
+     Engineering at the Buffer/Absorber Interface. ACS Appl. Mater. Interfaces 2019, 11, 828–834. [CrossRef]
+22.   Lin, L.Y.; Jiang, L.Q.; Qiu, Y.; Fan, B.D. Analysis of Sb2Se3/CdS based photovoltaic cell: A numerical simulation approach. J. Phys.
+     Chem. Solids 2018, 122, 19–24. [CrossRef]
+23.  Kamal, T.; Parvez, S.; Matin, R.; Bashar, M.S.; Hossain, T.; Sarwar, H.; Rashid, M.J. Chemical Bath Deposition and Characterization
+     of CdS layer for CZTS Thin Film Solar Cell. In Proceedings of International Exchange and Innovation Conference on Engineering &
+      Sciences (IEICES); Kyushu University: Fukuoka, Japan, 2016; pp. 33–34.
+24.  Wang, L.; Li, D.B.; Li, K.; Chen, C.; Deng, H.X.; Gao, L.; Zhao, Y.; Jiang, F.; Li, L.; Huang, F.; et al. Stable 6%-efﬁcient Sb2Se3 solar
+      cells with a ZnO buffer layer. Nat. Energy 2017, 2, 17046. [CrossRef]
+25.  Deng, H.; Yuan, S.; Yang, X.; Cai, F.; Hu, C.; Qiao, K.; Zhang, J.; Tang, J.; Song, H.; He, Z. Efﬁcient and stable TiO2/Sb2S3 planar
+      solar cells from absorber crystallization and Se-atmosphere annealing. Mater. Today Energy 2017, 3, 15–23. [CrossRef]
+--- Страница 15 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                   15 of 16
+
+
+
+26.  Chen, Z.; Guo, H.; Ma, C.; Wang, X.; Jia, X.; Yuan, N.; Ding, J. Efﬁciency improvement of Sb2Se3 solar cells based on La-doped
+    SnO2 buffer layer. Sol. Energy 2019, 187, 404–410. [CrossRef]
+27.  Wen, X.; He, Y.; Chen, C.; Liu, X.; Wang, L.; Yang, B.; Leng, M.; Song, H.; Zeng, K.; Li, D.; et al. Magnetron sputtered ZnO buffer
+     layer for Sb2Se3 thin ﬁlm solar cells. Sol. Energy Mater. Sol. Cells 2017, 172, 74–81. [CrossRef]
+28.  Gharibshahian, I.; Orouji, A.A.; Sharbati, S. Alternative buffer layers in Sb2Se3 thin-ﬁlm solar cells to reduce open-circuit voltage
+      offset. Sol. Energy 2020, 202, 294–303. [CrossRef]
+29.  Gharibshahian, I.; Orouji, A.A.; Sharbati, S. Towards high efﬁciency Cd-Free Sb2Se3 solar cells by the band alignment optimization.
+      Sol. Energy Mater. Sol. Cells 2020, 212, 110581. [CrossRef]
+30.  Yun, J.; Tan, J.; Jung, Y.K.; Yang, W.; Lee, H.; Ma, S.; Park, Y.S.; Lee, C.U.; Niu, W.; Lee, J.; et al. Interfacial Dipole Layer Enables
+     High-Performance Heterojunctions for Photoelectrochemical Water Splitting. ACS Energy Lett. 2022, 7, 1392–1402. [CrossRef]
+31.  He, M.; Qiu, F.; Lin, Z. Toward high-performance organic-inorganic hybrid solar cells: Bringing conjugated polymers and
+     inorganic nanocrystals in close contact. J. Phys. Chem. Lett. 2013, 4, 1788–1796. [CrossRef]
+32.  Rombach, F.M.; Haque, S.A.; Macdonald, T.J. Lessons learned from spiro-OMeTAD and PTAA in perovskite solar cells. Energy
+     Environ. Sci. 2021, 14, 5161–5190. [CrossRef]
+33.  Peng, L.; Liu, Z. Reduce the hysteresis effect with the PEIE interface dipole effect in the organic-inorganic hybrid perovskite
+    CH3NH3PbI3-xClx solar cell. Org. Electron. 2018, 62, 630–636. [CrossRef]
+34.  Gogolin, R.; Zielke, D.; Descoeudres, A.; Despeisse, M.; Ballif, C.; Schmidt,  J. Demonstrating the high Voc potential of
+     PEDOT:PSS/c-Si heterojunctions on solar cells. Energy Procedia 2017, 124, 593–597. [CrossRef]
+35.   Li, Z.; Liu, N.; Meng, K.; Liu, Z.; Hu, Y.; Xu, Q.; Wang, X.; Li, S.; Cheng, L.; Chen, G. A New Organic Interlayer Spacer for Stable
+    and Efﬁcient 2D Ruddlesden-Popper Perovskite Solar Cells. Nano Lett. 2019, 19, 5237–5245. [CrossRef] [PubMed]
+36.    Ji, W.; Allen, T.; Yang, X.; Zeng, G.; De Wolf, S.; Javey, A. Polymeric Electron-Selective Contact for Crystalline Silicon Solar Cells
+     with an Efﬁciency Exceeding 19%. ACS Energy Lett. 2020, 5, 897–902. [CrossRef]
+37.  Diaz, A.F.; Castillo, J.I.; Logan, J.A.; Lee, W.-Y. Electrochemistry of conducting polypyrrole ﬁlms. J. Electroanal. Chem. Interfacial
+     Electrochem. 1981, 129, 115–132. Available online: https://www.sciencedirect.com/science/article/pii/S0022072881800083
+     (accessed on 1 February 2023). [CrossRef]
+38.  Kang, E.T.; Neoh, K.G.; Tan, K.L. Polyaniline: A polymer with many interesting intrinsic redox states. Prog. Polym. Sci. 1998, 23,
+     277–324. [CrossRef]
+39.  Ros, E.; Tom, T.; Rovira, D.; Lopez, J.; Masmitjà, G.; Pusay, B.; Almache, E.; Martin, I.; Jimenez, M.; Saucedo, E.; et al. Expanding
+     the Perspective of Polymeric Selective Contacts in 2 Photovoltaic Devices Using Branched Polyethylenimine. ACS Appl. Energy
+     Mater. 2022, 5, 10702–10709. [CrossRef]
+40.   Saadati, M.; Akhavan, O.; Fazli, H. Single-Layer MoS2-MoO3−x Heterojunction Nanosheets with Simultaneous Photoluminescence
+    and Co-Photocatalytic Features. Catalysts 2021, 11, 1445. [CrossRef]
+41.  Nelson, R.; Lide, D.; Maryott, A. Dipole Moment Table. In National Standard Reference Data System; National Bureau of Standards
+    (NBS) publications: Washington, DC, USA, 1967; pp. 1–50.
+42.   Puigdollers, J.; Voz, C.; Ros, E. Physics and Technology of Carrier Selective Contact Based Heterojunction Silicon Solar Cells. In
+     Energy Harvesting and Storage: Fundamentals and Materials; Jayaraj, M.K., Antony, A., Subha, P.P., Eds.; Springer Nature: Singapore,
+     2022; pp. 61–95. [CrossRef]
+43.  Chen, Q.; Wang, C.; Li, Y.; Chen, L. Interfacial Dipole in Organic and Perovskite Solar Cells.  J. Am. Chem. Soc. 2020, 142,
+     18281–18292. [CrossRef]
+44.  Kang, J.H.; Park, Y.J.; Khan, Y.; Ahn, Y.; Seo, J.H.; Walker, B. Cationic polyelectrolytes as convenient electron extraction layers in
+     perovskite solar cells. Dye. Pigment. 2020, 182, 108634. [CrossRef]
+45.   Reichel, C.; Würfel, U.; Winkler, K.; Schleiermacher, H.F.; Kohlstädt, M.; Unmüssig, M.; Messmer, C.A.; Hermle, M.; Glunz, S.W.
+      Electron-selective contacts via ultra-thin organic interface dipoles for silicon organic heterojunction solar cells. J. Appl. Phys. 2018,
+     123, 024505. [CrossRef]
+46.  Wan, Y.; Samundsett, C.; Yan, D.; Allen, T.; Peng, J.; Cui, J.; Zhang, X.; Bullock, J.; Cuevas, A. A magnesium/amorphous silicon
+     passivating contact for n -type crystalline silicon solar cells. Appl. Phys. Lett. 2016, 109, 113901. [CrossRef]
+47.   Allen, T.G.; Bullock, J.; Zheng, P.; Vaughan, B.; Barr, M.; Wan, Y.; Samundsett, C.; Walter, D.; Javey, A.; Cuevas, A. Calcium
+     contacts to n-type crystalline silicon solar cells. Prog. Photovolt. Res. Appl. 2017, 25, 636–644. [CrossRef]
+48.  Kim, J.W.; Kim, A. Absolute work function measurement by using photoelectron spectroscopy. Curr. Appl. Phys. 2021, 31, 52–59.
+     [CrossRef]
+49.  Tan, J.; Yang, W.; Lee, H.; Park, J.; Kim, K.; Hutter, O.S.; Phillips, L.J.; Shim, S.; Yun, J.; Park, Y.; et al. Surface restoration of
+     polycrystalline Sb2Se3 thin ﬁlms by conjugated molecules enabling high-performance photocathodes for photoelectrochemical
+     water splitting. Appl. Catal. B Environ. 2021, 286, 119890. [CrossRef]
+50.  Yang, X.; Ying, Z.; Yang, Z.; Xu, J.R.; Wang, W.; Wang, J.; Wang, Z.; Yao, L.; Yan, B.; Ye, J. Light-Promoted Electrostatic Adsorption
+     of High-Density Lewis Base Monolayers as Passivating Electron-Selective Contacts. Adv. Sci. 2021, 8, 2003245. [CrossRef]
+51.  Ma, Y.; Tang, B.; Lian, W.; Wu, C.; Wang, X.; Ju, H.; Zhu, C.; Fan, F.; Chen, T. Efﬁcient defect passivation of Sb2Se3 ﬁlm by tellurium
+     doping for high performance solar cells. J. Mater. Chem. A 2020, 8, 6510–6516. [CrossRef]
+52.  Mendes, J.O.; Della Gaspera, E.; van Embden, J. High-Resistance Metal Oxide Window Layers for Optimal Front Contact
+      Interfaces in Sb2Se3 Solar Cells. Sol. RRL 2022, 6, 2200265. [CrossRef]
+--- Страница 16 ---
+Int. J. Mol. Sci. 2023, 24, 3088                                                                                                   16 of 16
+
+
+
+
+53.  Swatowska, B.; Powro´znik, W.; Czternastek, H.; Lewi´nska, G.; Stapi´nski, T.; Pietruszka, R.; Witkowski, B.S.; Godlewski, M.
+     Application properties of ZnO and AZO thin ﬁlms obtained by the ALD method. Energies 2021, 14, 6271. [CrossRef]
+54.   Hutter, O.S.; Phillips, L.J.; Durose, K.; Major, J.D. 6.6% Efﬁcient Antimony Selenide Solar Cells Using Grain Structure Control and
+    an Organic Contact Layer. Sol. Energy Mater. Sol. Cells 2018, 188, 177–181. [CrossRef]
+55.  Kondrotas, R.; Chen, C.; Tang, J. Sb2S3 Solar Cells. Joule 2018, 2, 857–878. [CrossRef]
+56.  Reeves, G.K.; Harrison, H.B. Obtaining the speciﬁc contact resistance from transmission line model measurements. IEEE Electron
+     Device Lett. 1982, 3, 111–113. [CrossRef]
+57.  Grover, S. Effect of Transmission Line Measurement (TLM) Geometry on Speciﬁc Contact Resistivity Determination. Master’s
+      Thesis, Rochester Institute of Technology, Rochester, NY, USA, 2016. Available online: https://scholarworks.rit.edu/theses/9343
+     (accessed on 1 February 2023).
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

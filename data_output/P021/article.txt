@@ -1,0 +1,324 @@
+--- Страница 1 ---
+   ACTA PHYSICA POLONICA A                                   No. 4   Vol. 142   (2022)
+
+
+
+           Path Toward High-Eﬃciency CZTS Solar
+               Cells with Buﬀer Layer Optimization
+
+
+             W. Hennia,∗, W.L. Rahalb,c and D. Rachedd
+
+      aElaboration and Characterization Physico-Mechanical and Metallurgical of Materials
+      Laboratory, University Abdelhamid Ibn Badis of Mostaganem,
+     Route National N◦11, Kharouba, 27000, Mostaganem, Algeria
+     bLaboratory of Analysis and Application of Radiation, Faculty of Physics, University of Sciences
+     and Technology of Oran Mohamed Boudiaf, BP 1505, el Mnaouar, Oran, Algeria
+     cPhysics Department, University Abdelhamid Ibn Badis of Mostaganem,
+    Chemin des Crêtes, 27000, Mostaganem, Algeria
+     dLaboratory of Plasma Physics, Conductive Materials and their Applications, University
+      of Science and Technology of Oran Mohamed Boudiaf, BP 1505, el Mnaouar, Oran, Algeria
+
+
+                                     Received: 03.01.2022 & Accepted: 07.09.2022
+
+     Doi: 10.12693/APhysPolA.142.445                        ∗e-mail:  wafaa.henni@gmail.com
+
+
+      In  this  work,  we  numerically  improve  the  performance  of  kesterite  thin  ﬁlm  solar  cells
+     (ZnO/Cu2ZnSnS4/CdS/MoS2) using the Solar Cell Capacitance Simulator. The work carried out is
+     mainly based on the study of the inﬂuence of the doping density, the thickness, and the gap energy of
+      the buﬀer layer on the cell’s performance. Based on the simulation results, it is found that increasing
+      the buﬀer layer thickness strongly deteriorates the cell’s performance. An optimized and economical
+    CdS buﬀer layer with a thickness of 15 nm and band gap of 3.2 eV is proposed. It is also shown that
+        it is important to control the doping density of this layer in order to obtain a compromise between
+      the p–n junction electric ﬁeld and the global recombination rate, to produce eﬃcient solar cells. After
+      optimizing the studied solar cell, promising results are achieved with a conversion eﬃciency of 17.93%,
+     a ﬁll factor of 71.23%, a short-circuit current density of 30.92 mA/cm2, and an open circuit voltage
+       of 0.814 V. The obtained results will provide some important guidelines for producing high-eﬃciency
+     Cu2ZnSnS4 solar cells.
+
+       topics: solar cell, CZTS, CdS, optimization
+
+
+
+
+
+                1. Introduction                 Japan  [5].  It can be  fabricated  using  diﬀerent
+                                                      processes such as sputtering, evaporation, spray
+  The renewable energy sector continues to make    pyrolysis,  electrodeposition,   sol–gel  technique,
+remarkable  progress,  in  particular  photovoltaic     etc. [6]. Thin ﬁlms based on CZTS show excellent
+(PV) technology. Today, the market for solar cells    photovoltaic properties such as direct band gap
+is still dominated by crystalline silicon despite dif-    energy  of 1.4–1.6 eV and absorption coeﬃcient
+ferent locks. The high cost of this type of cell is    over 104 cm−1  [7]. In 2014, Wei Wang et al. [8]
+mainly due to the high use of the material and    presented a record cell eﬃciency of around 12.6%
+the expensive and complicated manufacturing pro-    using  a  hydrazine  pure  solution  approach  for
+cesses [1, 2]. To get low-cost, high-eﬃciency solar    a Cu2ZnSnS4-based solar  cell with 25 nm CdS
+cells, researchers turned to making thin ﬁlm solar    buﬀer layer thickness [8, 9].
+cells to use less material. However, the problem with     The main objective  of  this work  is to reach
+this technology is that the ﬁrst thin ﬁlm solar cells,    a high-eﬃciency ZnO/CdS/CZTS/MoS2 solar cell
+such as CdTe and CIGS, are made of rare and toxic   by  optimizing the CdS buﬀer  layer,  using the
+elements [3].                               SCAPS-1D simulator, through the analysis of the
+  In    recent    years,   Cu2ZnSnS4   (CZTS),    solar  cell parameters variation,  i.e., open-circuit
+Cu2ZnSnSe4   (CZTSe),   and   Cu2ZnSn(S,Se)4    voltage (VOC), short-circuit current density (JSC),
+(CZTSSe) have emerged as replacement materials     ﬁll factor (FF), and energy conversion eﬃciency
+for thin ﬁlm PV due to promising optoelectronic     (η), and  also by  understanding how  the  elec-
+properties and the use of non-toxic, earth-abundant     tric ﬁeld, the recombination rate, and the quan-
+elements [4]. The CZTS was ﬁrst studied as a solar   tum eﬃciency  are aﬀected by the buﬀer  layer
+cell  material  in 1988  at Shinshu  University  in    parameters.
+
+
+                                             445
+--- Страница 2 ---
+                             W. Henni et al.
+
+
+
+    2. Methodology and device structure
+
+  Numerical simulation is an essential tool to un-
+derstand the mechanisms that govern the physics
+of the device and to test the viability of the pro-
+posed cell structure, as well as to predict the per-
+formance  of solar  cells before their elaboration.
+Solar Cell Capacitance Simulator (SCAPS-1D) is
+a one-dimensional solar  cell simulation program
+developed at the Department  of Electronic and
+Information Systems (ELIS) of the University of
+Gent, Belgium, and  it  is based on solving one-
+dimensional semiconductor basic equations (Pois-
+son’s equation and continuity equations of electrons
+and holes) [10–13].
+  The electrical, geometrical, and optical parame-
+                                                                Fig. 2.  Eﬀect of the CdS buﬀer layer doping con-ters of the simulated materials [14–18] are summa-
+                                                              centration ND on (a) VOC, (b) JSC, (c) FF, and (d)rized in Table I.
+                                                       eﬃciency η.
+  All the simulations are conducted under standard
+solar illumination AM 1.5 at 1000 W/m2 and a tem-
+perature of 25◦C.                                                       TABLE I
+  The schematic structure of the studied solar cell     Simulation parameters  for studied  solar  cell [14–
+ZnO/CZTS/CdS /MoS2 is shown in Fig. 1, where      18] Here, W [µm]  is thickness, Eg [eV]  is gap en-
+MoS2 plays the role of the back surface ﬁeld (BSF),      ergy, χ [eV] is electron aﬃnity, εr  is dielectric per-
+CZTS — the absorber, CdS — the buﬀer layer, and      mittivity, NC [cm−3]  is eﬀective conduction band
+ZnO — the window layer.                                  density, NV  [cm−3]  is eﬀective valence band den-
+                                                                           sity, µe [cm2/Vs] is electron mobility, µp [cm2/Vs] is
+                                                            hole mobility, ND [cm−3] is doping concentration of
+           3. Results and discussion                                                          donors, NA [cm−3] is doping concentration of accep-
+                                                               tors and Nt [cm−3] is defect density.
+  The aim of this work is to optimize the CdS buﬀer
+layer by varying diﬀerent controllable parameters      Parameters   CZTS     CdS     ZnO     MoS2
+within the experimental ranges. For this purpose   W [µm]          1.1     0.015–0.18    0.08        0.1
+we have studied the inﬂuence of doping density,    Eg [eV]          1.4       2.3–3.2       3.3         1.7
+thickness, and gap energy. The initial parameters    χ [eV]           4.5         4.1         4.6         4.2
+of the CdS layer have been set at doping density      εr             10        10         9         13.6
+ND = 5 × 1018 cm−3, thickness W = 50 nm, gap    NC [cm−3]  2.2 × 1018  1.8 × 1019  2.2 × 1018 2.2 × 1018
+energy Eg = 2.4 eV.                            NV [cm−3]  1.8 × 1019  2.4 × 1018  1.8 × 1019 1.8 × 1019
+                                                         µe [cm2/Vs]    100       100       100       100
+             3.1. Eﬀect of the CdS buﬀer                                                    µh [cm2/Vs]    25        25        25        25
+             layer doping concentration                                      ND [cm−3]      0     5 × 1014–  1 × 1018      0
+                                                                                5 × 1021  The eﬀect of CdS buﬀer doping concentration on
+                                        NA [cm−3]   1 × 1016      0         0      1 × 1016cell performance has been studied by varying the
+                                                   Nt [cm−3]    5 × 1014   1 × 1017   1 × 1017   1 × 1014donor density of CdS from ND = 5 × 1014 cm−3 to
+ND = 5 × 1021 cm−3, while the other parameters
+have been kept constant. Figure 2 shows the eﬀect
+of this variation on JSC, VOC, FF, and η.            The increase of the donor density greatly en-
+                                                  hances the power eﬃciency of the cell (Fig. 2). Al-
+                                               though the recombination rate becomes important
+                                                          in the buﬀer layer with the carriers density increase,
+                                                      as can be seen in Fig. 3, the recombination rate
+                                                      decreases in the active layer, which improves the
+                                                     conversion eﬃciency that goes from 7.44% to more
+                                                than 17% when the doping density increases from
+                                                5 × 1014 to 5 × 1018 cm−3.
+                                      On the other hand, the eﬃciency increases grad-
+                                                        ually until the doping density reaches 5×1018 cm−3
+                                                  because a strong doping density increases the elec-
+                                                                tric  ﬁeld on  the CZTS/CdS  junction and  the
+                                       CdS/ZnO junction (Fig. 4), which will promote the
+                                                     separation of the photo-generated charges. How-
+   Fig. 1.  Device structure of the studied solar cell.       ever, as can be seen in Fig. 2, the eﬃciency stabilizes
+
+
+                                             446
+--- Страница 3 ---
+                          Path Toward High-Eﬃciency CZTS Solar Cells. . .
+
+
+
+
+
+   Fig. 3.  Inﬂuence of the CdS doping density on the
+  recombination rate.                                                                Fig. 5.  Eﬀect of the buﬀer thickness variation on
+                                                                (a) VOC, (b) JSC, (c) FF, (d) eﬃciency η.
+
+
+
+
+
+   Fig. 4.  Inﬂuence of the CdS doping density on
+   the electric ﬁeld at the junctions CZTS/CdS and         Fig. 6.  Inﬂuence of the CdS buﬀer layer thickness
+  CdS/ZnO.                                         on the recombination rate for two thicknesses of the
+                                             CdS layer: (a) W = 180 nm, (b) W = 15 nm.
+
+from a charge density of 5 × 1018 cm−3 because
+the recombination process will be ampliﬁed, and the    to 16.06%. This diminution is due to the fact that
+probability of collecting the photo-generated carri-   when the thickness of the buﬀer layer increases,
+ers will decrease.                                    the photo-generated carriers must cross longer dis-
+  In the heavily doped buﬀer layer, large traps for    tances than their diﬀusion lengths, and will be re-
+charge carriers are generated, and the probability   combined before being collected, which increases
+of interaction is increased [19]. As the lifetime of    the recombination rate that has been represented
+charge carriers is inversely proportional to the trap    in Fig. 6.
+concentration [16, 20], the recombination rate in-                                                     Figure 7 shows the variation of the cell’s quantum
+creases and therefore JSC sharply decreases after    eﬃciency for two values of the buﬀer layer thickness.
+ND = 1 × 1017 cm−3.                       When the latter increases, more incident photons
+                                                              will be absorbed into the buﬀer layer, and fewer
+    3.2. Eﬀect of the CdS buﬀer layer thickness
+                                                 photons will be captured in the absorber layer [21].
+  The eﬀect of the CdS buﬀer layer thickness on the    Therefore, the photons absorbed in the CZTS layer
+performance of MoS2/CZTS/CdS/ZnO solar  cell   would make fewer electron-hole pairs and cause a re-
+has been studied by varying it from 15 to 180 nm,    duction in current and eﬃciency [22].
+while the doping density of the same layer has been     The quantum eﬃciency for a small CdS thick-
+set to the optimum value found previously. We have    ness is clearly better for wavelengths between 300
+shown in Fig. 5 the diﬀerent eﬀects of this variation   and 550 nm because short wavelength photons gen-
+on the photovoltaic parameters of the cell.             erate electron-hole pairs, which could be collected
+  As shown in Fig. 5, VOC is not aﬀected by the    since their diﬀusion lengths are enough to reach the
+buﬀer layer thickness.  Its value remains around    contacts before recombining. The optimal value of
+814 mV, while the FF increases slightly and JSC de-    buﬀer layer thickness is taken equal to 15 nm. This
+creases from 30.68 to 27.63 mA/cm2 when the thick-    drastic reduction of the CdS layer allows to reduce
+ness increases from 15 to 180 nm, generating a large    the production cost of the cell and the quantity of
+decrease  in eﬃciency, which goes from 17.80%    toxic material used.
+
+
+                                             447
+--- Страница 4 ---
+                             W. Henni et al.
+
+
+
+   3.3. Eﬀect of the CdS buﬀer layer gap energy
+
+  In Fig. 8, we present the impact of diﬀerent gap
+energies of the CdS buﬀer layer on the cell’s outputs
+— the gap energy was changed from 2.3 to 3.2 eV.
+  With the increase of the buﬀer layer band gap, no
+major change in VOC and FF is observed. However,
+an improvement in JSC and hence in eﬃciency is
+observed. As we can see in Fig. 9, with the increase
+of the band gap of CdS, the recombination rate de-
+creases in the emitter layer. Indeed, for a wide CdS
+band gap, low energy photons will not be absorbed
+in the CdS buﬀer layer but will be able to pass into
+the active layer, where they will be absorbed thanks
+to the low gap of the CZTS (1.4 eV), and this will in-       Fig. 9.  Inﬂuence of the CdS buﬀer layer band gap
+crease the photo-generated charge carriers and thus      on the recombination rate.
+will generate a high short-circuit current density.
+  In order to conﬁrm this, we have plotted in Fig. 10
+the quantum eﬃciency for two diﬀerent values of the
+band gap. We can conclude that the best eﬃciency
+is obtained for Eg = 3.2 eV. Therefore, it is impor-
+tant to choose a buﬀer layer with a wide band gap
+to obtain the best solar cell performance.
+
+
+
+
+
+                                                                Fig. 10.  The quantum eﬃciency  curves  versus
+                                                        wavelength for two diﬀerent buﬀer layer band gaps.
+
+
+                                            The optimal CdS gap energy was set at 3.2 eV,
+                                                which is compatible with thin layers characterized
+                                              by wide gaps. Moreover, the formation of alloys
+                                              (CdS:O)  is an eﬀective way to increase the CdS
+   Fig. 7.  The  quantum  eﬃciency  curves  versus
+                                                         optical bandgap. By controlling the ratio of O2/Ar  wavelength for diﬀerent thicknesses of buﬀer layer.
+                                                          in the sputtering ambient, the band gap of CdS:O
+                                                can be tuned from 2.4 to 3.8 eV [18, 23–25].
+
+                                                                       4. Conclusion
+
+                                                       In this work, theoretical simulations were per-
+                                                formed to ﬁnd the optimal parameters of CdS buﬀer
+                                                             layer. In addition to the current density–voltage
+                                                          characteristics (J(V )) study, we also tried to explain
+                                                    the physical phenomena, which induce the obtained
+                                                           results by studying the electric ﬁeld, the recombi-
+                                                    nation rate, and the quantum eﬃciency of the cell.
+                                          The obtained results indicate that the increase of
+                                                    the CdS buﬀer layer thickness deteriorates the cell’s
+                                                 performance because the diﬀusion length of the car-
+                                                               riers becomes too small compared to the distances
+                                                      to cross. The doping density of the CdS buﬀer layer
+                                                      plays an important role in improving cell eﬃciency.
+                                                                It has been shown that it is important to ﬁnd a com-
+   Fig. 8.  Eﬀect of the CdS buﬀer gap energy on: (a)     promise in the doping density, as an increase in dop-
+  VOC, (b) JSC, (c) FF, (d) eﬃciency.                   ing density causes two opposite eﬀects: an increase
+
+
+                                             448
+--- Страница 5 ---
+                          Path Toward High-Eﬃciency CZTS Solar Cells. . .
+
+
+in the electric ﬁeld, which inﬂuences positively the       [10]  M. Burgelman,  J. Verschraegen,  S. De-
+eﬃciency, and an increase in the recombination rate,            grave,  P.  Nollet,  Prog.  Photovolt.  Res.
+which inﬂuences negatively the eﬃciency.                    Appl. 12, 143 (2004).
+  This study allowed us to optimize the solar cell       [11]  J. Verschraegen, M. Burgelman, Thin Solid
+having the structure ZnO/CdS/CZTS/MoS2 and           Films 515, 6276 (2007).
+to obtain an eﬃciency of 17.93%. The best per-
+                                                                [12]  K. De cock, S. Kheliﬁ, M. Burgelman, Thin
+formances are obtained for a low CdS layer thick-                                                                Solid Films 519, 7481 (2011).
+ness of only 15 nm, which is advantageous, thanks
+                                                                [13]  S. Noor Alhuda, T. Al-Jammas, Q. Al-to the reduction in the quantity of cadmium used
+                                                               gwari,  Solid  State Technology 63, 1703for the buﬀer layer elaboration. The optimal CdS
+                                                               (2020).gap energy was set at 3.2 eV. This large gap value
+can be obtained by doping the CdS with oxy-       [14]  Y.H. Khattak, F. Baig, S. Ullah, B. Marí,
+gen [18, 23–25].                                                  S. Beg, H. Ullah, J. Renew. Sustain. En-
+  These ﬁndings are very promising and can pro-            ergy 10, 033501 (2018).
+vide helpful guidance for experimentalists in the       [15]  F.A. Jhuma, M.Z.  Shaily, M.J. Rashid,
+manufacture of high-performance CZTS solar cells.           Mater. Renew. Sustain. Energy 8, (2019).
+                                                                [16]  A. Luque, S. Hegedus, Handbook of Photo-
+           Acknowledgments                             voltaic Science and Engineering, John Wi-
+                                                                  ley & Sons, Chichester 2010.
+  The authors would like to acknowledge Dr. Marc                                                                [17]  A.I.  Oliva, O.  Solís-Canto, R.  Castro-
+Burgelman from the University of Gent, Belgium,                                                          Rodríguez, P. Quintana, Thin Solid Films
+for providing the SCAPS-1D simulator.                                                       391, 28 (2001).
+                                                                [18]  C. Ou, K. Shen, Z. Li, H. Zhu, T. Huang,
+                References                                                      Y. Mai, Solar Energy Mater. Solar Cells
+                                                       194, 47 (2019).
+    [1]  M. Okil  , M.S. Salem, T.M. Abdolkader,                                                                [19]  A.E.H.    Benzetta,   M.   Abderrezek,
+       A. Shaker, Silicon , 1 (2021).                                                   M.E. Djeghlal, Optik 204, 164155 (2020).
+    [2]  J.  Yu,  J.  Li, Y.  Zhao, A.  Lambertz,                                                                [20]  H. Zhou, J. Yu, H. Jia, H. Zhang, S. Cheng,
+       T. Chen, W. Duan, W. Liu, X. Yang,                                                      Micro Nano Lett. 11, 386 (2016).
+       Y. Huang, K. Ding, Solar Energy Mater.
+                                                                [21]  O.K. Simya, A. Mahaboobbatcha, K. Bal-
+        Solar Cells 224, 110993 (2021).
+                                                           achander,  Superlattices  Microstruct. 82,
+    [3]  M. Jamil, M. Amami, A. Ali, K. Mahmood,                                                       248 (2015).
+       N. Amine, Solar Energy 231, 41 (2022).
+                                                                [22]  S. Enayati Maklavani, S. Mohammadnejad,
+    [4]  F.  Belarbi,  W.L.  Rahal,  D.  Rached,                                                         Opt. Quant. Electron. 2, 22 (2020).
+        S. Benghabrit, M. Adnane, Optik 216,
+                                                                [23]  D.M. Meysing, C.A. Wolden, M.M. Grif-
+       164743 (2020).
+                                                              ﬁth,   H.   Mahabaduge,   J.   Pankow,
+    [5]  T. K. Ito  Nakazawa, Jpn. J. Appl. Phys.                                                 M.O.  Reese, J.M.  Burst, W.L. Rance,
+       27, 2094 (1988).                                                  T.M. Barnes, J. Vac. Sci. Technol. A 33,
+    [6]  A. Tombak, T. Kilicoglu, Y.S. Ocak, Re-           021203 (2015).
+       new. Energy 146, 1465 (2020).                                                                [24]  D.M. Meysing, M.O. Reese, C.W. Warren
+    [7]  P. Kuch,  K.deori, A. Kumar,  S. Deka,             et al., Solar Energy Mater. Solar Cells 157,
+        J. Mater. Chem. A 3, 8098 (2015).                  276 (2016).
+    [8] W. Wang, M.T. Winkler, O. Gunawan,        [25]  J. Ge, P. Koirala, C.R. Grice, P.J. Roland,
+       T.  Gokmen,  T.K.  Todorov,  Y.  Zhu,           Y.   Yu,   X.   Tan,   R.J.   Ellingson,
+       D.B. Mitzi, Adv. Energy Mater. 4, 1301465          R.W.  Collins,  Y.  Yan,  Adv.  Energy
+        (2014).                                           Mater. 7, 1601803 (2017).
+    [9]  L. Sravani,  S. Routray, Maykel Courel,
+       K.P.  Pradhan,  Solar  Energy  227,  56
+        (2021).
+
+
+
+
+
+                                             449

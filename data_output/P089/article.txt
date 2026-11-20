@@ -1,0 +1,776 @@
+--- Страница 1 ---
+RESEARCH ARTICLE  | FEBRUARY 15 2024
+Influence of oxygen content on the properties of In2(OxS1−x)3
+used as buffer material in Cu(In,Ga)Se2 solar cells
+Elaheh Ghorbani     ; Xiaowei Jin     ; Delwin Perera     ; Reinhard Schneider     ; Dagmar Gerthsen     ;
+Dimitrios Hariskos     ; Richard Menner     ; Wolfram Witte       ; Karsten Albe
+
+
+
+J. Appl. Phys. 135, 073101 (2024)
+https://doi.org/10.1063/5.0184698
+
+            
+                                                                  View    Export
+                                                                         Online   Citation
+
+
+  Articles You May Be Interested In
+
+  Band alignments of different buffer layers (CdS, Zn(O,S), and In2S3) on Cu2ZnSnS4
+
+   Appl. Phys. Lett. (April 2014)
+
+   Sulfurization-induced growth of single-crystalline high-mobility β-In2S3 films on InP
+
+   AIP Advances (December 2017)
+
+   Cd-free buffer layer materials on Cu2ZnSn(SxSe1−x)4: Band alignments with ZnO, ZnS, and In2S3
+                                                                                                                                                              19
+   Appl. Phys. Lett. (May 2012)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      November
+                                                                                                                                                                                                                                                                                                                           2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      10:19:40
+--- Страница 2 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+ Influence of oxygen content on the properties of
+ In2(OxS1−x)3 used as buffer material in Cu(In,Ga)Se2
+ solar cells
+
+
+
+   Cite as: J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698
+   Submitted: 26 October 2023 · Accepted: 13 January 2024 ·
+                                                                                                                                                                                        View Online       Export Citation       CrossMark
+   Published Online: 15 February 2024
+
+   Elaheh Ghorbani,1   Xiaowei Jin,2   Delwin Perera,1   Reinhard Schneider,2  Dagmar Gerthsen,2
+   Dimitrios Hariskos,3   Richard Menner,3   Wolfram Witte,3,a)   and Karsten Albe1
+
+   AFFILIATIONS
+
+   1Fachgebiet Materialmodellierung, Institut für Materialwissenschaft, TU Darmstadt, Otto-Berndt-Straße 3,
+   Darmstadt 64287, Germany
+   2Laboratory for Electron Microscopy (LEM), Karlsruhe Institute of Technology (KIT), Engesserstraße 7, Karlsruhe 76131, Germany
+   3Zentrum für Sonnenenergie- und Wasserstoff-Forschung Baden-Württemberg (ZSW), Meitnerstraße 1,
+    Stuttgart 70563, Germany
+
+    a)Author to whom correspondence should be addressed: wolfram.witte@zsw-bw.de
+
+                                                                                                                                                                              19
+
+  ABSTRACT
+  We investigate magnetron-sputtered In2(OxS1−x)3 compounds acting as an alternative buffer system to the solution-grown CdS or Zn(O,S)    November
+    buffer layers in Cu(In,Ga)Se2 (CIGS) thin-film solar cells. The influence of the oxygen content on the solar cell performance, microstructure of  2026
+    the mixed systems, bandgap, and band offsets to CIGS is investigated experimentally and also characterized by calculations based on density
+    functional theory. Samples in a series with different chemical compositions ranging from In2S3 to In2O3 are either directly deposited from                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:19:40    ceramic targets or from a pure In2S3 target by reactive sputtering by adding O2 in the Ar sputtering gas. The binary compounds In2S3 and
+   In2O3 sputtered at 220 °C substrate temperature from ceramic targets exhibit a crystalline structure, whereas the ternary In2(O,S)3 compounds
+    are either nanocrystalline in the case of In2(O0.25S0.75)3 or amorphous for In2(O0.5S0.5)3 and In2(O0.75S0.25)3. For [O]/([O] + [S]) ratios above
+    0.25, the cell efficiencies decrease drastically, mainly due to lower open-circuit voltages (VOC). This behavior can be explained by an increase of
+    the negative conduction band offset between the CIGS absorber and the oxygen-rich In2(OxS1−x)3 or In2O3 buffer, resulting in pronounced
+   VOC losses. Adding oxygen to In2S3 with optical bandgap energies of around 2 eV results in a bowing of the values to below 2 eV and finally
+    reaching values of around 2.7 eV for In2O3 if an indirect band transition is assumed. In summary, our results reveal that pronounced oxygen
+    incorporation in In2S3 is not beneficial in terms of CIGS device efficiency because oxygen is electronically inactive and poorly miscible.
+
+  © 2024 Author(s). All article content, except where otherwise noted, is licensed under a Creative Commons Attribution-NonCommercial-
+   NoDerivs 4.0 International (CC BY-NC-ND) license (https://creativecommons.org/licenses/by-nc-nd/4.0/). https://doi.org/10.1063/5.0184698
+
+
+      I. INTRODUCTION                                         and 3 eV, see Barreau and references therein.1 It was evident that
+                                                                          the observed fluctuations in reported bandgaps were associated        In the last two decades, the replacement of the commonly
+                                                                     with compositional and structural changes of the buffer layer as   used CdS buffer layer with a Cd-free and more transparent material
+                                                                              well as the used deposition technique. The reported bandgap values    has been an ongoing challenge for the thin-film Cu(In,Ga)Se2
+   (CIGS) solar cell technology. In this context, one prime candidate     of In2S3-based compounds depend also on the applied evaluation
+    considered for substituting the solution-grown CdS is In2S3. The     of indirect (around 2 eV) or direct (≥2.7 eV) band transitions, see
+   main motivation behind deposition of In2S3 as a buffer layer was to    Naghavi et  al. and references therein.2 The indirect bandgap of
+    use an environmentally friendly material with a wider bandgap     In2S3 with values of around 2 eV, which is about 0.5 eV lower than
+    energy, which  is also compatible with different deposition tech-     that of solution-grown CdS (2.45 eV),3 would be too small for an
+    niques. The bandgap of In2S3 was considered to change between 2     optimal buffer layer in CIGS-based solar cells. Hence, deposition of
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                    135, 073101-1
+
+© Author(s) 2024
+--- Страница 3 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+   pure In2S3 as a buffer layer with thicknesses well above 20 nm     alternative buffer system to the more commonly used solution-
+    could lead to even higher absorption loss at the low wavelength    grown CdS or Zn(O,S) buffer layers in CIGS thin-film solar cells.
+    region and consequently a reduced blue response, resulting in a
+    limited short-circuit current density (JSC) compared to the cells       II. EXPERIMENTAL SECTION
+    buffered with CdS. This scenario puts the original motivation, an
+                                                                A. Sample fabrication
+    application of In2S3 as alternative buffer layer, into question and
+    urges engineering of the optical bandgap of In2S3 through extrinsic    1. CIGS thin-film solar cell preparation
+   doping or alloying. With sputtering from a suitably composed
+                                                            CIGS thin-film solar cells were prepared with an in-line multi-
+    target,  it would be possible to realize high deposition rates and                                                                              stage  co-evaporation  process on Mo-coated  soda-lime  glass.13
+    reduce waste. Additionally, the  fast and dry deposition process
+                                                           The  CIGS  layers  had  a  thickness  of  around  2.3 μm,  the
+   from the gas phase would be better suited for an industrial environ-
+                                                                        [Ga]/([Ga] + [In]) ratio was around 0.3, and the [Cu]/([Ga] + [In])
+   ment. Moreover, it would have the advantage of better process inte-
+                                                                                      ratio was around 0.8 as determined by x-ray fluorescence measure-
+    gration for an in-line CIGS or even roll-to-roll module fabrication.
+                                                                      ments. CIGS layers were doped with Na and partially K, which were       So far, CIGS-based 30 × 30 cm2 sub-modules reached efficien-
+                                                                       provided from the soda-lime glass substrate during CIGS deposition
+    cies up to 17.9% with an evaporated InxSy:Na buffer.4 The good                                                                                      at elevated deposition temperatures with substrate heater tempera-
+    efficiency can be elucidated in view of the facts that (1) intentional
+                                                                                tures around 450 °C (1st stage) and around 650 °C (2nd/3rd stage).
+    incorporation of Na into the indium sulfide increases the bandgap                                                 No additional alkali post-deposition treatment14 was applied after
+   and (2) this InxSy:Na buffer modifies the band alignment at the
+                                                                           the CIGS process. Subsequently, rf-sputtered In2(O,S)3 buffers with
+    absorber/buffer interface and forms a favorable conduction band
+                                                                                   different oxygen contents, rf-sputtered i-ZnO as the high-resistive
+    offset.5–9 Another option to widen the bandgap of In2S3 is to sub-                                                                                         layer, and dc-sputtered ZnO:Al as the front contact were deposited.
+    stitute a part of the sulfur sites with oxygen. The study of optical
+                                                            The solar cells were completed with Ni/Al/Ni grid fingers, the total
+    properties of oxygen-doped indium sulfide showed that depending                                                                                             cell area was 0.5 cm2, and no anti-reflective coating was applied.
+   on the oxygen concentration, the bandgap can be effectively tai-
+    lored between 2.0 and 2.9 eV.10 Furthermore, the physico-chemical
+                                                               2. Sputtering of In2(O,S)3 layers    characterization of the films studied by x-ray diffraction revealed
+    that the degree of crystallization drops substantially with increasing        The In2(OxS1−x)3 buffer layers were rf magnetron-sputtered in
+   oxygen content in the films. Niemi et al. introduced oxygen into     a VON ARDENNE (Dresden, Germany) high-vacuum sputtering
+    the In2S3 buffer by reactive sputtering and compared the change in     system of type CS 730S from commercially available targets with a 19
+    the  fill  factor (FF) of the  cells with various concentrations of     diameter of 20 cm.15,16 The depositions were performed from five
+    oxygen.11 According to their report, the FF of the cells increased by     different ceramic targets with nominal chemical compositions of                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+    increasing the oxygen content in the sputter gas up to 1 vol. %, and     In2S3, In2(O0.25S0.75)3, In2(O0.5S0.5)3, In2(O0.75S0.25)3, and In2O3 at
+    decreased again  for higher concentrations  of oxygen  in  In2S3.    power densities of 1 W/cm2. The substrate temperature Tsub ranged  2026
+   However, the origin of the beneficial effect of low oxygen contents    from room temperature (RT) to 240 °C. In this work, we focus on
+    in In2S3 on CIGS device performance is not clarified yet. Besides     results achieved at room temperature, Tsub = 200 and 220 °C. As a    10:19:40
+    the evaporation and sputtering of In2S3 implemented in an indus-    consequence of the target compositions, the oxygen in the layers
+     trial environment as described above, In2S3-based buffers were    was added by two ways, either by reactive sputtering from a pure
+   grown by  chemical  bath  deposition,  atomic  layer  deposition,     In2S3 target by using different oxygen fractions in the Ar sputtering
+    various kinds  of spray  pyrolysis, ion  layer gas  reaction, metal     gas in the range of 0–5 vol. % or by non-reactive sputtering from
+    organic chemical vapor deposition, and electrodeposition and were     the  five  different  In2(OxS1−x)3  targets  without any  additional
+    successfully  adapted  to  CIGS-based  thin-film  solar  cells  (see    oxygen in the gas flow (as described above). For this series with the
+   Mughal et al. and references therein).12                                      five ceramic targets, only for the pure In2O3 layers with thicknesses
+       Note that widening the bandgap is not the single important    above 300 nm (for optical and structural characterization), oxygen
+    factor for an appropriate buffer layer. Since the main role of buffer    was added to the gas flow to minimize occurrence of intrinsic
+    layers  is to improve the quality of the pn-junction between the     defects like oxygen vacancies. Two different pure In2S3 targets were
+    absorber and transparent front contact, achieving a beneficial band     used, one for the sample series with reactive sputtering and the
+   alignment at the buffer/absorber interface is a critical feature for a     other one for the series with the ceramic targets to avoid oxygen
+    suitable buffer layer. Therefore, a fundamental understanding of    contamination due to the gas flow. The layer compositions were
+    the miscibility of oxygen in indium sulfide, crystal structure of the    determined by energy-dispersive x-ray spectroscopy (EDXS). In
+   mixed compounds, optical bandgap energy, the change in band     case of non-reactive sputtering, the deposited In2(OxS1−x)3 layers
+   alignment at the buffer/absorber interface, and finally the suitability    correspond to the nominal target compositions with x = 0, 0.25,
+    of indium oxysulfide [In2(OxS1−x)3] compounds as buffer layers is      0.5, 0.75, and 1. A slight deviation can be observed by sputtering at
+    required.                                                                elevated temperatures.
+      An open question, in this context, is whether or not substitu-         For  application  as  a  buffer  layer,  the  thickness  of  the
+    tion on the anionic site would result in improved performance of     In2(OxS1−x)3 layers ranged from 30 to 90 nm. For characterization
+   CIGS solar cells. In this contribution, we focus on physical and    by means of optical transmittance and x-ray diffraction (XRD)
+    chemical  properties  of magnetron-sputtered  In2(OxS1−x)3 com-    measurements, thicker layers of 300–500 nm were grown on quartz
+   pounds to shed more light on the viability of this material as an     glass substrates.
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                    135, 073101-2
+
+© Author(s) 2024
+--- Страница 4 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+   B. Solar cell and thin-film characterization                  TABLE I. Lattice parameters a (and ratio c/a), bandgap energies Eg, and formation
+                                                                                              enthalpies ΔH of spinel In2S3 and bixbyite In2O3 as obtained from our HSE calcula-
+        Current density–voltage (J–V) measurements were performed       tions and compared with experiments.
+    with a WACOM (Saitama, Japan) AM1.5G solar simulator with
+    four-point geometry at standard testing conditions with a silicon                         Spinel In2S3                Bixbyite In2O3
+    reference solar cell for calibration. The CIGS cells for J–V charac-
+                                                                                              Calc.         Exp.          Calc.         Exp.
+    terization were in the as-grown state without any further light-
+    soaking or post-annealing procedures.                              a(Å)             7.67          7.626         10.16         10.1221
+         External quantum efficiency (EQE) was measured with an     c/a              4.29          4.2410    …     …
+    additional light bias using a BENTHAM PVE 300 setup with Si    Eg(eV)           2.03          2.0322          3.01          2.923
+   and Ge reference photodiodes for calibration.                     ΔH(eV)       −3.30        −4.2924       −9.92        −9.5925
+        Evaluation of transmittance data of around 500 nm thick sput-
+    tered In2(O,S)3 films on D263T borosilicate glass as measured by a
+    Perkin Elmer Lambda 900 spectrometer was performed using the
+                                                                                                             III. RESULTS AND DISCUSSIONS   DIPLOT software.17 The film thickness was derived from the inter-
+    ference patterns in which interference amplitude and period were    A. Influence of sputtering conditions of the
+     fit by refractive index dispersion and film thickness. Based on the    In2(OxS1−x)3 buffer layers on solar cell parameters
+    film  thickness, the absorption  coefficient α  is  calculated.  It  is
+                                                                              Figure 1 illustrates the influence of the [O]/([O] + [S]) (OOS)   common practice to plot (α⋅Eph)0.5 or (α⋅Eph)2 vs Eph with the
+                                                                                    ratio x on the CIGS solar cell parameters. In general, the same
+   photon energy Eph, in order to determine the bandgap energy from
+                                                                        trend  is observed for CIGS solar cells with reactive or ceramic    the abscissa intersect of the extrapolated linear regions based on
+                                                                          In2(O,S)3 buffer layers either sputtered at RT, 200 °C (only ceramic    the assumptions of allowed indirect or direct interband transitions,
+                                                                                      targets), or 220 °C substrate temperature: mainly a decrease of    respectively.
+                                                               power  conversion  efficiency (PCE)  as  depicted  in  Figs.  1(a)     XRD was measured with a PANalytical Empyrian in Bragg–
+                                                             and 1(e) with increasing oxygen content as a result of strongly
+   Brentano geometry using Cu-Kα radiation.
+                                                                         decreasing open-circuit voltage (VOC) values [Figs. 1(b) and 1(f)].        Transmission electron microscopy (TEM) was applied to char-
+                                                                                                 It seems that only low or moderate OOS ratios up to 0.25 are toler-    acterize the structural properties and microchemistry of the buffer/
+                                                                             able for decent cell efficiencies, whereas OOS ratios above 0.75 end    absorber interface regions. For this purpose, cross-sectional TEM
+                                                           up in almost lethal cells, especially for cells with pure In2O3. The 19   samples  were  prepared by means  of  focused-ion-beam  (FIB)
+                                                    PCE curve for the cells with the In2(OxS1−x)3 buffers deposited at    milling using an FEI Helios G4 dual-beam microscope. The FIB
+                                                  RT  lies around 4% (absolute) below the values of the 220 °C    lamellae were finally polished by a Ga+-ion beam with a low accel-                                                                                                                                                                                                                                                                                                                                                                  November
+                                                                         samples. Probably, there could be a PCE maximum for moderate    erating   voltage   of  1 kV   to  minimize   material  damage.                                               OOS  ratios,  especially observed  for  cells deposited  at RT  (see  2026    High-resolution TEM (HRTEM) imaging was performed on an
+                                                                                    Fig. S1 in the supplementary material). Taking a closer look at rep-    image-aberration corrected FEI Titan3 80–300 transmission elec-
+                                                                                resentative J–V curves in Fig. S2 in the supplementary material, we    tron microscope at 300 kV. Chemical analyses by means of EDXS                                                                                                                                                                                                                                                                                                                                                                  10:19:40
+                                                            do not observe a kink or rollover effect, i.e., the solar cells show a   were performed in the scanning TEM (STEM) mode with a 200 kV
+                                                              good diode behavior without any cross-over between dark and light   microscope of the type FEI Tecnai Osiris. For EDXS analyses, the
+                                                              J–V curves. The drop in PCE depending on increasing OOS ratios   microscope  is equipped with a FEI Super-X system comprising
+                                                                                                  is mainly affected by a decreasing VOC, which can be a result of a    four  silicon  drift  detectors. X-ray maps were recorded  in the
+                                                                pronounced  cliff configuration as discussed  later. Only the cells    so-called HyperMap mode via the Bruker software Esprit version
+                                                                     with In2(O0.75S0.25)3 deposited at 200 °C from ceramic targets and    1.9. Subsequently, these maps were quantified using the thin-film
+                                                                          the cells with pure In2O3 deposited at RT and 200 °C (also ceramic   approximation and line profiles of the element concentrations were
+                                                                                  targets) exhibit a strong shunting effect. The FF values in Figs. 1(c)    obtained.
+                                                             and  1(g)  follow  mostly  the  trend  of  the  decreasing  VOC.
+                                                             Comparing the  effect  of  reactive vs non-reactive sputtering  of
+   C. Computational details
+                                                                           In2(OxS1−x)3,  it can be recognized that the drop in VOC and FF
+       The Vienna  ab-initio Simulation Package (VASP)18,19 was     with increasing OOS is stronger for the CIGS cells with a reactively
+   used to perform density functional theory (DFT) calculations with     sputtered buffer. We suppose that this finding is due to additional
+    projector augmented wave  pseudopotentials20 using  the range-      stress on the sensitive CIGS surface caused by the oxidizing plasma
+    separated Heyd–Scuseria–Ernzerhof (HSE) hybrid functional with     with increasing O2 concentration during reactive sputtering. JSC is
+    a mixing parameter of α ¼ 0:25 and exchange-screening length of     not affected by increasing OOS ratios, until OOS ≥0.75 when the
+    0.13 Å−1. A plane-wave cutoff energy of 400 eV was applied for all     values decrease significantly for both sputtering approaches. This
+    calculations. Ionic positions were relaxed until residual forces were     observation is supported by selected EQE spectra depicted in Fig. S3
+   below 10 meV Å−1.  Γ-centered  k-point  grids  of 4 × 4 × 2 and     in the supplementary material. We also observed limited PCE values
+   2 × 2 × 2 were used to sample the Brillouin zones of spinel In2S3    below 14% for CIGS solar cells with sulfur-free sputtered Ga2O3
+   and bixbyite In2O3 structures,  respectively. Table  I summarizes     buffer layers.26 Niemi et al. also reported a drastic drop in PCE and
+    experimental and calculated values for structural, electronic, and    FF for CIGS solar cells with reactively sputtered In2(O,S)3 buffers
+   thermodynamic properties of In2S3 and In2O3.                        with more than 1 vol. % O2 in the sputtering gas.11
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                    135, 073101-3
+
+© Author(s) 2024
+--- Страница 5 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+
+                                                                                                                                                                              19
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+                                                                                                                                                                                                                                                                                                                                                             2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:19:40
+
+
+
+
+      FIG. 1. CIGS solar cell parameters dependent on oxygen content x of In2(OxS1−x)3 (OOS ratio), substrate temperature (Tsub), i.e., room-temperature (RT), 200 °C, and
+      220 °C, and oxygen incorporation (reactive sputtering vs sputtering from ceramic targets). Left column: ceramic targets with (a) power conversion efficiency η, (b) open-
+        circuit voltage VOC, (c)  fill factor FF, and (d) short-circuit current density JSC. The number of cells is N = 80–180. Right column: reactive sputtering with oxygen in the gas
+       flow with (e) η, (f) VOC, (g) FF, and (h) JSC. The number of cells is N = 20–90. The dashed lines in red (220 °C) and blue (RT) are guides to the eye.
+
+
+        Koida et al. introduced (In1−yGay)2O3 (y = 0.6, 0.7, 0.8, 0.9, and     Tsub = 220 °C  (for  transmittance  raw  data and  corresponding
+    1) as an alternative buffer material for CIGS thin-film solar cells and     absorption,  see  Fig. S4  in  the supplementary  material). The
+   found that the performance varied systematically as a function of y.     absorption shifts continuously toward higher photon energy with
+   For values of y equal to 0.9 and 1 (pure Ga2O3), the VOC values of     increasing oxygen concentration in the targets. It is difficult to
+    the cells were comparable to that of a reference cell with the standard     decide on the appropriate energetic region where the plotted
+   CdS/i-ZnO buffer system.27 The above-mentioned, and our own,     curves  exhibit  linear  behavior  leading  to  the  related  optical
+   working CIGS solar cells with a sputtered Ga2O3 buffer26,28 behave    bandgap by extrapolating to the abscissa. We assume that the
+    differently compared to the completely dead CIGS cells with the     absorption strength caused by the indirect transitions depicted in
+   In2O3 buffer presented in Figs. 1(a) and 1(e).                               Fig. 2(a) is weak [below about 30 000 cm−1; see also Fig. S4(b) in
+                                                                        the supplementary material], whereas for direct transitions shown
+   B. Optical bandgap energy of In2(O,S)3 dependent on       in Fig. 2(b),  it  is dominant between 50 000 and 150 000 cm−1.
+   oxygen content                                                                 Hence, the linear regions are expected if (α⋅Eph)0.5 < 400 cm−1 and
+        Figure 2 shows transmittance measurements and correspond-       if  (α⋅Eph)2 ∼2 × 1011 cm−1  for  indirect and  direct  transitions,
+    ing fits for the In2(O,S)3 series sputtered from ceramic targets at     respectively.
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                    135, 073101-4
+
+© Author(s) 2024
+--- Страница 6 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+
+      FIG. 2. (α⋅Eph)0.5 or (α⋅Eph)2 vs Eph plots for the series of In2(O,S)3 films sputtered from ceramic targets at Tsub = 220 °C for determining the optical bandgaps under the
+      assumption of (a) an indirect or (b) direct allowed band-to-band transition.
+
+
+
+       Note that the applied model may not be suitable enough to                            indirect bandgap model:
+    yield exact optical bandgap data because the total absorption is                                                                                                        Eg,indirect/eV ¼ 2:123 þ 0:609x   2:409x(1   x):
+    the sum of indirect and direct transitions within the In2(O,S)3
+    material or, what is much more difficult, is the sum of inhomoge-                                                                                        19
+   neous sequential or parallel ordered different material phases of        With respect to the considerable uncertainty in finding the
+    the films.                                                               exact optical bandgap by the linear extrapolation, the measured       The optical bandgaps, derived by extrapolation in Fig. 2, for      Eg.opt with the bowing parameters 1.029 or 2.409 for direct or    November
+    films with different oxygen admixture are summarized in Fig. 3 as                                                                                                                                                                                 2026
+    a function of the OOS ratio (from EDXS measurements on sister
+    samples). Additionally, the results for films deposited at RT from    the ceramic targets and both from the reactive sputtering at RT and                                                                                                                                                                                                                                                                                                                                                                  10:19:40
+    Tsub = 220 °C are displayed as well. Based on the results in Fig. 2,
+    the  indirect band-to-band  transitions dominate  the absorption
+   mainly at lower oxygen contents, whereas approaching In2O3, the
+    direct transitions become more important. Figure 3 suggests an
+     (initial) narrowing of the indirect bandgap with increasing oxygen
+    admixture. The strong absorption increase ascribed to a  direct
+   bandgap at high photon energies shifts monotonically from below
+    3.0 to about 3.7 eV for highest oxygen concentrations. This obser-
+    vation is independent of the sputtering method (ceramic target vs
+    reactive sputtering), and  it seems that Tsub has a minor impact.
+    Often, slightly higher optical bandgap energies were observed for
+    the layers sputtered at Tsub = 220 °C compared to RT, which we
+   found also in previous experiments with pure In2S3 layers deposited
+   by magnetron sputtering.16
+        Based on  all optical bandgap data for films sputtered from
+   mixed ceramic targets and reactively from In2S3 as displayed in
+    Fig. 3, second-order polynomial fits lead to the following equations
+    for the optical bandgap depending on OOS ratio x:                                                                                          FIG. 3.  Indirect and direct optical bandgap evaluations vs OOS ratio x of the
+                                                                                               sputtered In2(O,S)3 films shown in Fig. 2 as sputtered at Tsub = 220 °C and the
+                                                                                          corresponding values for films as deposited under similar conditions but at RT.
+                           direct bandgap model:                                    Sputtering from ceramic targets in pure Ar atmosphere and reactive sputtering
+                 Eg,direct/eV ¼ 2:774 þ 0:957x   1:029x(1   x),                    from the In2S3 target with different oxygen contents in the gas flow.
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                    135, 073101-5
+
+© Author(s) 2024
+--- Страница 7 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+    indirect models, respectively, are in reasonable agreement with the     obtain  the  bulk-intrinsic  band  alignment  between  CuInSe2,
+    fitted bandgap trend. Increasing optical bandgap energies induced     CuIn5Se8, In2S3, and In2O3, the In 3s core state was taken as the
+   by oxygen addition (up to 49 at. %), with both direct and indirect     reference core level energy, and the valence band offset was calcu-
+   bandgap  evaluation, were  also found by Jayaraman  et  al.  for     lated as
+    In2(OxS1−x)3  layers grown by atomic-layer deposition (ALD).29
+    Barreau et al. reported for moderate oxygen addition (up to 8 at. %                   ΔEv(A/B) ¼ ΔEv,c0(B)   ΔEv,c(A),
+    corresponding to an OOS ratio of x = 0.14) to evaporated In2S3
+    thin films an increase of the bandgap, too.30                        where  ΔEv,c0(B) and  ΔEv,c(A)  represent  the  energy  separation
+                                                                  between the valence band maximum (VBM) and In 3s core level
+                                                                     energy of the bulk B and A compounds, respectively. The conduc-
+   C. Band alignment between CIGS-based absorbers
+                                                                             tion band offset (CBO) was then obtained by using the relation
+  and indium-based buffer materials
+
+      To get an insight into the band alignment between CIGS and                  ΔEc(A/B) ¼ ΔEg(A/B)   ΔEv(A/B),
+    In2(OxS1−x)3 and to find a possible explanation for the decreasing
+   VOC values with oxygen addition [see Figs. 1(b) and 1(f)], DFT cal-    where ΔEg(A/B) shows the difference between bandgaps of the two
+    culations  were  performed.  Figure  4  shows  the  calculated    compounds. As a global reference point, we choose the ionization
+    bulk-intrinsic band alignment between CuInSe2 and CuIn5Se8     energy of the CuInSe2 (110) surface. We note that the common
+    absorber materials with In2S3 and In2O3 buffer systems. The influ-    alignment to the vacuum level is only strictly valid if the interface
+   ence of gallium in CIGS was neglected in this calculation, but      is structurally ideal and if no gap states exist.31 Such gap states can
+    gallium addition to CuInSe2 results in a slight increase of Eg due to     result from wave function coupling  at the  interface leading to
+   an increasing conduction band minimum (CBM), in our case for a    Fermi level pinning. In this case, the reference point for band align-
+    [Ga]/([Ga] + [In])  ratio around  0.3 from ∼1.0  to ∼1.2 eV. To    ment would be the charge neutrality level of the gap states. Based
+                                                           on previous work for chalcogenide semiconductors,32 we expect
+                                                                               that the semiconductors treated in this work are sufficiently ionic
+                                                             and no sizable interface dipole emerges. In this case, a common
+                                                           vacuum level is well-defined.
+                                                               The band positions show that the VBM of In2O3 is 2.63 eV
+                                                                       lower than that of In2S3. This is because the 2p orbitals of oxygen 19
+                                                                             are deeper in energy compared to the 3p orbitals of sulfur. Hence,
+                                                                          the pd-repulsion  is larger for the anions with a smaller atomic                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+                                                          number and the VBM of In2S3 is markedly higher than that of
+                                                                        In2O3. We note that reduction of the CBM when moving from S to  2026
+                                         O is associated with an increase in the volume of the S-compound
+                                                              compared  to  the O-compound.  This  is  similar  to  the  trend                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:19:40
+                                                                      observed when moving from ZnO to ZnO0.5S0.5 and ZnS com-
+                                                                     pounds, as reported by Persson  et  al.33 For the device-relevant
+                                                                  oxygen contents up to an [O]/([O] + [S]) ratio of 0.25, we observe
+                                                                            smaller offsets of the VBM and CBM compared to the boundary
+                                                                       phases (see Fig. S5 in the supplementary material). However, the
+                                                                        course of the band offsets is not monotonous for the bixbyite crystal
+                                                                                    structure. This crystal structure is, on the other hand, thermodynam-
+                                                                                           ically unfavorable for low [O]/([O] + [S]) ratios (see Sec. III D).
+                                                                       According  to our previous work,9  the CBO between  the
+                                                               Cu-poor absorber CuIn5Se8 and In2S3 is almost flat with a slightly
+                                                                           negative value of −0.07 eV and only after incorporation of Na to
+                                                                          the system and formation of NaIn5Se8 at the pn-junction, the CBO
+                                                                  between the CuIn5Se8 absorber and NaIn5Se8 buffer adopts a small
+                                                                                positive value (spike-like conformation) of +0.12 eV. For the CIGS
+                                                                                solar cells under investigation, taking the [Ga]/([Ga] + [In]) ratio
+                                                                around 0.3 with a CBM shift of around +0.2 eV into account, the
+                                                             band alignment would be rather flat or even a small cliff. This rela-      FIG. 4.  Bulk-intrinsic band alignment between CuInSe2 and CuIn5Se8 absorber
+       materials with spinel In2S3 and bixbyite In2O3 buffer materials as calculated by        tively small negative value could be an explanation for the slightly
+      DFT. For each material, the lower and the upper numbers indicate, respectively,      reduced VOC values (20–50 mV lower) of our In2S3- or In2S3:
+       the  positions  of the valence band maximum (VBM) and conduction band      NaF-buffered CIGS cells compared to reference cells with a CdS
+     minimum (CBM) with respect to the CuInSe2 in eV. The VBM of CuInSe2 lies at        buffer.16,34 Considering the strongly lower CBM of In2O3 compared
+      a value in energy scale that corresponds to the ionization potential of the (110)
+                                                                            to In2S3, we conclude that adding O to the system results in a       surface of CuInSe2 (5.58 eV).35
+                                                                          strong downward shift of the CBM of the buffer and leads to strong
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                    135, 073101-6
+
+© Author(s) 2024
+--- Страница 8 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+    interfacial charge recombination at the absorber–buffer interface.    should be noted here that two different pure In2S3 targets from dif-
+    Therefore, despite their larger bandgaps, In2O3 and oxygen-rich     ferent targets suppliers were used for the two experimental cam-
+    In2(O,S)3 are not appropriate buffer systems to be considered in the     paigns   (reactive   sputtering   vs  ceramic   targets)   to  avoid
+    stacking sequence of CIGS devices due to their pronounced nega-    contamination with oxygen  of the oxygen-free In2S3  reference
+    tive CBO (cliff) with potential absorbers.                                  layers for the series with the ceramic targets due to reactive sputter-
+                                                                         ing with oxygen. A similar trend was reported by Jayaraman et al.
+   D. Materials’ properties of sputtered In2(O,S)3 buffer         for In2(OxS1−x)3 layers grown by ALD,  i.e., x-ray amorphous for
+   layers                                                                In2(O,S)3 and crystalline for the binary In2S3 and In2O3 layers.29
+                                                            To  consolidate  the XRD  findings,  the  structure  of  the
+   1. Structural analysis                                                                              In2(OxS1−x)3 layers sputtered at Tsub = 220 °C from the different ceramic
+           First, the  structure of the  different sputtered In2(OxS1−x)3     targets was investigated by HRTEM imaging at the CIGS/buffer
+    layers was analyzed by XRD, and the measured diffractograms are     interface in complete solar cells. Figure 6 shows typical HRTEM
+   shown in Fig. 5. The data are given for relatively thick In2(OxS1−x)3    images of interfacial regions between the CIGS absorber and the
+    layers with different OOS ratios x sputtered on quartz glass sub-     In2(OxS1−x)3  layers,  namely,  In2S3  [Fig.  6(a)],  In2(O0.25S0.75)3
+     strates. According to data for the layers sputtered from the ceramic      [Fig. 6(b)], In2(O0.5S0.5)3 [Fig. 6(c)], In2(O0.75S0.25)3 [Fig. 6(d)], and
+    targets [Fig. 5(a)], only the binary compounds In2O3 and In2S3    In2O3 [Fig. 6(e)]. The interfaces are marked by horizontal arrows.
+    exhibit a crystalline structure for Tsub = 220 °C. X-ray  diffracto-     Insets in the upper right corner of each HRTEM image depict the
+   grams of the In2(OxS1−x)3 compounds with x equal to 0.25, 0.50,     Fourier transform of selected In2(OxS1−x)3 regions. In Fig. 6(a), the
+   and 0.75 do not show distinct diffraction peaks and, therefore,    CIGS/In2S3 interface is approximately parallel to the (352) lattice
+   appear to be x-ray amorphous. This finding seems to be indepen-     planes of CIGS. The In2S3 layer shows a high degree of crystallinity.
+   dent of the oxygen incorporation during sputtering, as for the reac-    The evaluation of the Fourier transform in the inset of Fig. 6(a)
+    tively sputtered layers shown in Fig. 5(b), only reflexes appear for     yields a cubic structure (space group Fd-3 m, a = 10.77 Å) in the
+    the oxygen-free In2S3 sample (0 vol. % O2) and for the samples     [103]-zone axis orientation for In2S3.36 In the imaged field of view,
+    with very extensive oxygen incorporation (4 and 5 vol. % O2). The    an orientation relationship between the lattice planes of In2S3 and
+   sample with 1 vol. % O2 shows only two distinct reflexes compared    CIGS is observable, namely, in the form of ( 351)In2S3 || ( 352)CIGS.
+    to the oxygen-free In2S3 layer and also reflects the trend that with    Thus, here, In2S3  is epitaxially grown on CIGS. However, In2S3
+   oxygen addition, the samples tend to be x-ray amorphous. The    grown on differently oriented CIGS grains shows a nanocrystalline
+   samples  deposited  at RT  (see  Fig. S6  in  the  supplementary     structure. The In2(O0.25S0.75)3 layer deposited on the ( 112) planes 19
+    material) support the above-described findings except that pure     of CIGS [Fig. 6(b)] has a nanocrystalline structure. This is indepen-    In2S3 for the ceramic target series seems to be x-ray amorphous. It    dent  of  the  orientation  of  the underlying CIGS  grains,  since    November
+                                                                                                                                                                                                                                                                                                                                                             2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:19:40
+
+
+
+
+
+      FIG. 5. X-ray diffraction data taken from the sputtered In2(OxS1−x)3 layers deposited on quartz glass substrates at 220 °C; the diffractograms are depicted for different
+    OOS ratios x. The diffractograms are shifted in the y direction for better visibility. (a) Sputtering from ceramic targets. (b) Reactive sputtering with different oxygen contents
+        in the gas flow.
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                    135, 073101-7
+
+© Author(s) 2024
+--- Страница 9 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+
+                                                                                                                                                                              19
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+                                                                                                                                                                                                                                                                                                                                                             2026
+      FIG. 6. Cross-sectional HRTEM images obtained on complete CIGS solar cells. The In2(O,S)3 layers were sputtered from ceramic targets at Tsub = 220 °C. The interfaces            10:19:40
+      between CIGS and In2(OxS1−x)3 buffers are marked by horizontal arrows. Corresponding Fourier transforms of buffer regions are shown as insets in the top-right corner of
+      each image. (a) CIGS/In2S3, (b) CIGS/In2(O0.25S0.75)3, (c) CIGS/In2(O0.5S0.5)3, (d) CIGS/In2(O0.75S0.25)3, and (e) CIGS/In2O3 interfacial regions.
+
+
+    nanocrystalline In2(O0.25S0.75)3 is also observable on other lattice-     planes of cubic In2O3 (space group Ia-3, a = 10.12 Å) parallel to the
+    plane types. According to additional experiments by nanobeam      ( 112) planes of CIGS. The Fourier transform [inset in Fig. 6(e)]
+    electron  diffraction,  the  In2(O0.25S0.75)3  layer  consists  of  cubic     confirms the monocrystalline structure of the imaged region with
+   In2O3 (space group Ia-3, a = 10.12 Å)21 and cubic or tetragonal     cubic In2O3 in the [213] zone-axis orientation. In addition, In2O3
+    In2S3 (tetragonal  structure: space group I41/amd, a = b = 7.59 Å,    grown on (020) CIGS planes is also highly crystalline, and a well-
+    c = 32.35 Å)37 nanocrystallites with a typical size of approximately     defined orientation relationship is detected with (020)In2O3||(020)
+   5 nm. More details can be found in our previous work.38 This    CIGS. However, In2O3 on other CIGS lattice-plane types has a
+    finding demonstrates phase separation of In2(O0.25S0.75)3 into In2S3     nanocrystalline structure, which indicates that the degree of crystal-
+   and In2O3. The nanocrystallinity  is also visualized by the two      linity of In2O3 seems to depend on the orientation of the In2O3/
+    reflection rings in the Fourier transform [inset in Fig. 6(b)]. We    CIGS interface. Overall, there is a good agreement between XRD
+    note  that a small volume  fraction with a disordered  structure     data obtained on 300–500 nm thick In2(OxS1−x)3 layers on glass
+   cannot be completely excluded. In Figs. 6(c) and 6(d), HRTEM      [cf. Fig. 5] and structural data obtained on thin In2(OxS1−x)3 layers
+   images of In2(O0.5S0.5)3 and In2(O0.75S0.25)3 deposited on (112) and     in complete solar cells as revealed by HRTEM. Of course, HRTEM
+     (112) lattice planes of CIGS are presented. Both In2(O,S)3 layers    imaging reveals more details of the real structure of the sputtered
+   have an amorphous structure, which is independent of the specific     In2(OxS1−x)3 layers under investigation, and it is known that x-ray
+    lattice-plane type of the subjacent CIGS grains. The HRTEM image    amorphous does not exclude a nanocrystalline structure.
+    in Fig. 6(e) shows an orientation relationship that is typical for the       One might argue that the root cause for the decreasing electrical
+   pure In2O3 on CIGS. In the imaged CIGS/In2O3 interfacial region,     parameters observed in Fig. 1 could be the transition from the crys-
+    the oxide layer exhibits a high degree of crystallinity with the (22 2)      talline structure for In2S3 over nanocrystalline for In2(O0.25S0.75)3 to
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                    135, 073101-8
+
+© Author(s) 2024
+--- Страница 10 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+   amorphous In2(O0.5S0.5)3 and In2(O0.75S0.25)3, or just the switch to    2. Theoretical calculations on phase transition and
+   amorphous. Following  this thread, the  cells with the  crystalline    miscibility gap
+   In2O3 buffer should exhibit reasonable performance again, similar to                                                                       Phase separation  is predicted to take place in In2(OxS1−x)3
+    the cells with crystalline In2S3 buffer, which they did not. On the                                                                                  layers by DFT due to the huge miscibility gap between In2S3 and
+    contrary, CIGS-based  solar  cells  with  x-ray amorphous Ga2O3                                              27                               In2O3. Figure 7 shows alloy formation enthalpies ΔH per anion in    buffers showed decent efficiencies.26,    Nevertheless, the formation
+                                                                              bixbyite and spinel structures, defined as
+    enthalpy of a crystalline or amorphous bixbyite structure for an
+    In2(O0.75S0.25)3 is very similar to the one described in Sec. III D 2.
+                                                                     ΔH[In2(OxS1 x)3] ¼ E[In2(OxS1 x)3]   (1   x)E[In2S3]   The general question whether a crystalline, nanocrystalline, or amor-
+   phous buffer for polycrystalline thin-film absorbers like CIGS, kester-                                xE[In2O3]:
+     ite, and related compounds  is the best option in terms of device
+   performance could be a topic for future investigations.                   The formation enthalpy is computed from DFT energy differ-
+       From chemical  analyses  of  the CIGS/buffer  interfaces by     ences at 0 K and zero pressure; thus,  it equals the static inner
+   STEM/EDXS as depicted in Fig. S7 in the supplementary material,     energy of the system. For pure In2S3, the formation enthalpy in the
+    a decreasing amount of Cu from In2S3 to In2O3 is detected within     spinel structure is considerably lower than in the bixbyite structure,
+    the buffer, hinting at Cu diffusion from the CIGS absorber into the    namely, 2.13 eV per anion. This huge energy difference indicates
+    buffer. We also found such a Cu enrichment in sputtered In2S3     that the In2S3 compound cannot crystallize in the bixbyite struc-
+    buffers  at  Tsub = 220 °C  with  intentional Na  incorporation by      ture. For pure In2O3, the formation energy in the bixbyite structure
+    time-of-flight secondary mass spectrometry (ToF-SIMS) depth pro-      is 0.67 eV per anion lower than in the spinel structure, which indi-
+     files.34 Presumably, the affinity of copper to bond with S atoms is     cates that In2O3 will readily crystallize in the bixbyite structure. We
+    high, and therefore, a correlation seems to exist between the amount     see from Fig. 7 that for an oxygen concentration of 75% or less, the
+    of Cu and the particular S content of the In2(OxS1−x)3 layer. For this     spinel structure is energetically more favorable than the bixbyite
+    reason, the Cu content  is highest  for In2S3  [Fig. S7(b) in the     structure. However, for higher concentrations of oxygen, the bixby-
+   supplementary material] and appears to decrease with increasing O      ite structure  is lower in energy.  It  is noteworthy that  all mixed
+    content  of  the  buffer  layers   [cf.  Figs.  S7(c)–S7(f)  in  the     In2(OxS1−x)3 configurations are still very high in energy, suggesting
+   supplementary material]. We observed such a pronounced Cu deple-     a huge miscibility gap between In2S3 and In2O3. For comparison,
+    tion in the CIGS surface region as depicted in Fig. S7(b) in the    an amorphous structure with an alloy composition x = 0.75 was
+   supplementary material for sputtered In2S3 at Tsub = 220 °C also on     obtained by melt-quenching a bixbyite structure in an ab-initio 19
+    similar samples with ToF-SIMS,16 which indicates the possible for-     molecular dynamics simulation. This structure has a formation
+   mation of an ordered vacancy compound.                             enthalpy of 0.4 eV per anion, close to the formation enthalpies of                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+                                                                                                                                                                                                                                                                                                                                                             2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:19:40
+
+
+
+
+
+      FIG. 7. Formation enthalpy ΔH of In2(OxS1−x)3 alloys in the bixbyite (red line) and spinel (blue line) structures as calculated by DFT. The inset shows a close-up of the for-
+      mation enthalpies at x = 0.75 for an amorphous bixbyite structure, a crystalline bixbyite structure, and a crystalline spinel structure. The structure models—with In atoms in
+       blue, sulfur atoms in yellow, and oxygen atoms in red—are accompanied by radial distribution functions (RDFs).
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                    135, 073101-9
+
+© Author(s) 2024
+--- Страница 11 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+    the spinel and bixbyite structures [see the inset in the left plot of     applied. For the evaluation under assumption of a direct band tran-
+    Fig.  7].  Interestingly, the  crystalline  bixbyite  structure and the      sition, higher values from 2.7 to 3.7 eV result with an almost linear
+   amorphous bixbyite structure look rather similar, i.e., the crystalline     increase from In2S3 to In2O3, respectively. These findings are valid
+    bixbyite structure at x = 0.75 loses some crystallinity. The corre-     for  In2(O,S)3  thin  films prepared by  sputtering from ceramic
+   sponding radial distribution function tends toward one already at     targets and reactive sputtering, and this relation with x is mostly
+    distances above 5 Å and mimics the radial distribution function of    independent of the substrate temperatures during sputtering.
+    the amorphous structure. The spinel, on the other hand, retains a      A pronounced oxygen incorporation in In2S3 is not beneficial
+   pronounced crystallinity at x = 0.75. We suggest, based on this spe-     in terms of device performance because oxygen  is electronically
+     cific  result, that mixed alloys are expected to form amorphous     inactive and poorly miscible.
+    structures around x = 0.75, in agreement with our experimental
+    results from XRD and HRTEM.                        SUPPLEMENTARY MATERIAL
+        In a previous work, we considered incorporation of oxygen
+                                                      Zoom in of Fig. 1 for low OOS  ratios. Representative J-V    impurities in the crystal structure of In2S3 and found that depend-
+                                                                         curves and EQE spectra for CIGS solar cells with In2(O,S)3 buffer    ing on the crystallographic environment of sulfur atoms, the forma-
+                                                                                  layers sputtered from the ceramic targets at RT and Tsub = 200 °C.    tion enthalpy of oxygen on S sites can amount to 0.49, 0.76, and
+    1.0 eV.39 The low formation enthalpy of O on different S sites indi-     Bulk-intrinsic band alignment between CuInSe2 absorber material
+                                                                     with spinel and bixbyite In2(O,S)3 buffer materials with low OOS    cates the prevalence of OS point defects in In2S3. Obtaining an
+                                                                                    ratios as calculated by DFT. Transmittance and absorption spectra   ample oxygen content of x = 0.1 in In2S3, however, is only possible
+                                                                              of  thick  In2(O,S)3  layers  sputtered  at  Tsub = 220 °C from  the    at elevated temperatures of 2000   3000 K, as can be estimated
+                                                                     ceramic targets on glass substrates, diffractograms for In2(O,S)3   from the Boltzmann factor with the respective formation enthalpy.
+                                                                                  layers sputtered  at RT (reactive sputtering and sputtering from   Regarding electronic activity of O impurities in In2S3, we have
+                                                                     ceramic  targets), and STEM/EDXS  analyses  of CIGS/In2(O,S)3   shown that O-on-S sites form extremely deep (+/0) donor levels at
+                                                                                 interfaces with In2(OxS1−x)3 layers sputtered at Tsub = 220 °C from   around 2 eV below the CBM. Note that in order to get easily
+                                                                          the ceramic targets.    ionized and effectively doped electrons to the system, donor levels
+    are expected to form near the CBM. Therefore, O impurities on S
+     sites are electrically inactive and do not contribute to n-type con-   ACKNOWLEDGMENTS
+    ductivity of the In2S3 samples.                                           This work has been  financially supported by the German
+                                                                                                                                                                              19
+                                                                          Federal  Ministry  for  Economic  Affairs  and  Energy (BMWi)
+    IV. CONCLUSIONS                                             through the EFFCIS project under Contract Nos. 0324076A (ZSW),                                                            0324076D (TU Darmstadt), and 0324076E (KIT) and partially by    November
+         Increasing the oxygen content x in sputtered In2(OxS1−x)3     the German Federal Ministry for Economic Affairs and Climate
+    buffer layers for CIGS thin-film solar cells decreases the power con-                                                                                                                                                                                 2026                                                                    Action (BMWK) within the EFFCIS-II project under Contract Nos.
+    version efficiency drastically, mainly due to decreasing VOC values.    03EE1059A (ZSW), 03EE1059D (TU Darmstadt), and 03EE1059E    This trend was found for CIGS cells with In2(OxS1−x)3 buffers sput-     (KIT). E.G. and D.P. gratefully acknowledge the computing time    10:19:40
+    tered from ceramic targets and reactively sputtered from an In2S3     provided on the high-performance computer Lichtenberg at the
+    target with different oxygen contents in the gas flow. Similar to   NHR Centers NHR4CES at TU Darmstadt. This work is funded by
+   CIGS cells with pure In2S3 buffers, the highest efficiencies were     the Federal Ministry of Education and Research (BMBF) and the
+    observed for higher Tsub = 200 or 220 °C compared to RT. Only no      state governments participating on the basis of the resolutions of
+    or moderate oxygen contents with x < 0.25 seem to be tolerable,     the “Gemeinsame Wissenschaftskonferenz” (GWK)  for national
+   whereas medium and high oxygen contents result in almost lethal    high-performance computing at universities. The authors gratefully
+     cells. The problems for the cells with the oxygen-containing buffers    thank Oana Cojocaru-Mirédin (University of Freiburg) for fruitful
+   can be explained by an increase of the negative band offset between     discussions.
+    the CIGS absorber and In2(OxS1−x)3 buffer as calculated by DFT,
+    resulting  in a pronounced VOC degradation  as  experimentally                                          AUTHOR DECLARATIONS
+    observed. An additional issue in view of efficiencies could be an
+   even more pronounced  sputter damage  of  the  sensitive CIGS    Conflict of Interest
+    surface with increasing oxygen.                                                               The authors have no conflicts to disclose.
+       The  binary  compounds  In2S3  and  In2O3  sputtered  at
+    Tsub = 220 °C exhibit a crystalline structure, whereas In2(O0.25S0.75)3
+                                                     Author Contributions
+   shows  a  nanocrystalline  structure and both  In2(O0.5S0.5)3 and
+    In2(O0.75S0.25)3 are amorphous. These experimental findings are    Elaheh Ghorbani: Conceptualization (lead); Data curation (equal);
+   supported by DFT calculations, and it is very unlikely that crystal-    Formal  analysis  (equal);  Investigation  (equal);  Methodology
+    line In2(OxS1−x)3 will form under various experimental conditions     (equal); Software (equal); Visualization (equal); Writing – original
+   due to the necessity of very high temperatures above 2000 K.             draft (lead); Writing – review & editing (equal). Xiaowei Jin: Data
+       Adding oxygen to In2S3, an optical bandgap with around 2 eV     curation  (equal);  Investigation  (equal);  Methodology  (equal);
+    results in a bowing of the values below 2 eV, finally reaching values     Visualization  (equal);  Writing  –  original  draft  (supporting);
+   around 2.7 eV for In2O3 in case an indirect band transition  is    Writing – review & editing (equal). Delwin Perera: Data curation
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                   135, 073101-10
+
+© Author(s) 2024
+--- Страница 12 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+    (equal);   Formal    analysis    (equal);   Investigation    (equal);      9E. Ghorbani, P. Erhart, and K. Albe, “Energy level alignment of Cu(In,Ga)(S,Se)2
+   Methodology  (equal);  Software  (equal);  Visualization  (equal);      absorber compounds with In2S3, NaIn5S8, and CuIn5S8 Cd-free buffer materials,”
+   Writing – review & editing (equal). Reinhard Schneider: Data      Phys. Rev. Materials 3(7), 075401 (2019).
+                                                                                         10P. Pistor, J. M. Merino Álvarez, M. León, M. Di Michiel, S. Schorr, R. Klenk,    curation (equal); Funding acquisition (equal); Investigation (equal);
+                                                                          and  S. Lehmann,  “Structure  reinvestigation  of  α-,  β- and  γ-In₂S₃,”  Acta
+   Methodology  (equal);  Resources  (equal);  Writing –  review &
+                                                                                                Crystallogr. Sect. B: Struct. Sci. 72, 410–415 (2016).
+    editing  (equal). Dagmar Gerthsen: Funding  acquisition  (lead);      11E. Niemi,  J. Sterner, P. Carlsson,  J. Oliv, E. Jaremalm, and S. Lindström, in
+    Investigation  (equal); Methodology  (equal);  Resources  (equal);      31st European Photovoltaic Solar Energy Conference and Exhibition (WIP, 2015),
+    Supervision (equal); Writing – review & editing (equal). Dimitrios      pp. 1010–1013.
+    Hariskos: Conceptualization (lead); Data curation (equal); Funding     12M. A. Mughal, R. Engelken, and R. Sharma, “Progress in indium (III) sulfide
+    acquisition  (supporting);   Investigation   (equal);  Methodology      (In2S3) buffer layer deposition techniques for CIS, CIGS, and CdTe-based thin
+    (equal); Resources (equal); Visualization (equal); Writing – original      film solar cells,” Solar Energy 120, 131–146 (2015).
+    draft (supporting); Writing – review & editing (equal). Richard     13R. Gutzler, W. Witte, A. Kanevce, D. Hariskos, and S. Paetel, “VOC-losses
+   Menner: Data curation (equal); Investigation (equal); Visualization      across the band gap: Insights from a high-throughput inline process for CIGS
+                                                                                                solar cells,” Prog. Photovolt. Res. Appl. 31(10), 1023–1031 (2023).
+    (equal); Writing – original draft (supporting); Writing – review &                                                                                  14A. Chirilă, P. Reinhard, F. Pianezzi, P. Bloesch, A. R. Uhl, C. Fella, L. Kranz,
+    editing (equal). Wolfram Witte: Conceptualization (lead); Funding                                                                                D. Keller, C. Gretener, H. Hagendorfer, D. Jaeger, R. Erni, S. Nishiwaki, S. Buecheler,
+    acquisition (lead); Investigation (supporting); Methodology (equal);     and A. N. Tiwari, “Potassium-induced surface modification of Cu(In,Ga)Se2 thin
+    Project administration (lead); Resources (equal); Writing – original      films for high-efficiency solar cells,” Nat. Mater. 12(12), 1107–1111 (2013).
+    draft (supporting); Writing – review & editing (equal). Karsten     15D.  Hariskos,  R. Menner,  S.  Spiering, A.  Eicke, M.  Powalla, K.  Ellmer,
+    Albe: Conceptualization (lead); Formal analysis (equal); Funding    M.  Oertel, and  B. Dimmler,  in 19th European  Photovoltaic  Solar Energy
+    acquisition (lead); Investigation (supporting); Methodology (equal);      Conference and  Exhibition,  Paris, France (WIP-Munich and ETA-Florence,
+    Resources (equal); Supervision (equal); Writing – review & editing      2004), pp. 1894–1897.
+                                                                               16D. Hariskos, W. Hempel, R. Menner, and W. Witte, “Influence of substrate    (equal).
+                                                                                    temperature during InxSy sputtering on Cu(In,Ga)Se2/buffer interface properties
+                                                                          and solar cell performance,” Appl. Sci. 10(3), 1052 (2020).
+  DATA AVAILABILITY                                                       17E. Lotter, see www.diplot.de for“Diplot” (2016).
+                                                                                18G. Kresse and J. Furthmüller, “Efficiency of ab-initio total energy calculations
+       The data that support the findings of the study are available      for metals and semiconductors using a plane-wave basis set,” Comput. Mater.
+    within the article.                                                                              Sci. 6(1), 15–50 (1996).
+                                                                                 19G. Kresse and J. Furthmüller, “Efficient iterative schemes for ab initio total-energy 19
+                                                                                                   calculations using a plane-wave basis set,” Phys. Rev. B 54(16), 11169–11186 (1996).
+  REFERENCES
+                                                                                         20P.  E.  Blöchl,  “Projector augmented-wave method,” Phys. Rev. B  50(24),    1N. Barreau, “Indium sulfide and relatives in the world of photovoltaics,” Solar     17953–17979 (1994).                                                                                                                                                                                                                                                      November
+    Energy 83(3), 363–371 (2009).                                             21M. Marezio, “Refinement of the crystal structure of In2O3 at two wavelengths,”  2026
+    2N. Naghavi, D. Abou-Ras, N. Allsop, N. Barreau, S. Bücheler, A. Ennaoui,     Acta Cryst. 20(6), 723–728 (1966).
+    C.-H.  Fischer, C.  Guillen, D. Hariskos,  J. Herrero, R. Klenk, K. Kushiya,     22W. Rehwald and G. Harbeke, “On the conduction mechanism in single crystal    D. Lincot, R. Menner, T. Nakada, C. Platzer-Björkman, S. Spiering, A. N. Tiwari,     β-indium sulfide In₂S₃,” J. Phys. Chem. Solids 26(8), 1309–1324 (1965).                                          10:19:40
+    and T. Törndahl, “Buffer layers and transparent conducting oxides for chalcopy-     23K. Irmscher, M. Naumann, M. Pietsch, Z. Galazka, R. Uecker, T. Schulz,
+      rite Cu(In,Ga)(S,Se)2 based thin film photovoltaics: Present status and current      R. Schewski, M. Albrecht, and R. Fornari, “On the nature and temperature
+    developments,” Prog. Photovolt. Res. Appl. 18(7), 411–433 (2010).                  dependence of the fundamental band gap of In2O3,” Phys. Status Solidi A
+    3D. Hariskos, R. Menner,  P. Jackson,  S.  Paetel, W. Witte, W. Wischmann,      211(1), 54–58 (2014).
+   M. Powalla, L. Bürkert, T. Kolb, M. Oertel, B. Dimmler, and B. Fuchs, “New     24O. Knacke, O. Kubaschewski, and K. Hesselmann, Thermochemical Properties of
+     reaction kinetics for a high-rate chemical bath deposition of the Zn(S,O) buffer      Inorganic Substances (Düsseldorf, Springer-Verlag, Verlag Stahleisen, Berlin, 1991).
+     layer for Cu(In,Ga)Se2-based solar  cells,” Prog. Photovolt. Res. Appl. 20(5),       25J. A. Dean and N. A. Lange, Lange’s Handbook  of Chemistry, 15th  ed.
+    534–542 (2012).                                                               (McGraw-Hill, New York, 1999).
+     4T. Dalibor, P. Eraerds, M. Grave, M. Algasinger, S. Visbeck, T.P. Niesen, and     26W. Witte, S. Paetel, R. Menner, A. Bauer, and D. Hariskos, “The application of
+       J. Palm, in Proceedings of the 43rd IEEE Photovoltaics Specialists Conference,      sputtered gallium oxide as buffer for Cu(In,Ga)Se2 solar  cells,” Phys. Status
+     Portland, OR (IEEE, 2016), p. 1433.                                                       Solidi RRL 15(9), 2100180 (2021).
+    5N. Barreau, J. C. Bernède, C. Deudon, L. Brohan, and S. Marsillac, “Study of      27T. Koida, Y. Kamikawa-Shimizu, A. Yamada, H. Shibata, and  S. Niki,
+    the new β-In2S3 containing Na thin films part I: Synthesis and structural charac-     “Cu(In,Ga)Se2 solar cells with amorphous oxide semiconducting buffer layers,”
+     terization of the material,” J. Cryst. Growth 241(1–2), 4–14 (2002).                IEEE J. Photovoltaics 5(3), 956–961 (2015).
+    6N. Barreau, J. C. Bernède, S. Marsillac, C. Amory, and W. N. Shafarman, “New     28W. Witte, W. Hempel, S. Paetel, R. Menner, and D. Hariskos, “Influence of
+    Cd-free buffer layer deposited by PVD: In2S3 containing Na compounds,” Thin      sputtered gallium oxide as buffer or high-resistive layer on performance of
+     Solid Films 431–432, 326–329 (2003).                                             Cu(In,Ga)Se2-based solar cells,” J. Mater. Res. 37(11), 1825–1834 (2022).
+    7D. Hauschild,  F. Meyer, A. Benkert, D. Kreikemeyer-Lorenzo, T. Dalibor,     29A. Jayaraman, S. B. Kim, L. M. Davis, X. Lou, X. Zhao, and R. G. Gordon,
+       J. Palm, M. Blum, W. Yang, R. G. Wilks, M. Bär, F. Reinert, C. Heske, and     “Simple thermal vapor deposition process for and characterization of n-type
+     L. Weinhardt, “Improving performance by Na doping of a buffer layer-chemical     indium oxysulfide thin films,” J. Vac. Sci. Technol. A 40(6), 062402 (2022).
+    and electronic structure of the InxSy:Na/CuIn(S,Se)2 thin-film solar cell inter-     30N. Barreau, J. C. Bernède, S. Marsillac, and A. Mokrani, “Study of low temper-
+     face,” Prog. Photovolt. Res. Appl. 26(5), 359–366 (2018).                               ature elaborated tailored optical band gap β-In2S3−3xO3x thin films,”  J. Cryst.
+     8E. Ghorbani and K. Albe, “Influence of Cu and Na incorporation on the ther-     Growth 235(1–4), 439–449 (2002).
+    modynamic stability and electronic properties of β-In2S3,”  J. Mater. Chem. C     31A. Klein, “Energy band alignment in chalcogenide thin film solar cells from
+     6(27), 7226–7231 (2018).                                                          photoelectron spectroscopy,” J. Phys.: Condens. Matter 27(13), 134201 (2015).
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                   135, 073101-11
+
+© Author(s) 2024
+--- Страница 13 ---
+  Journal of
+                                                              ARTICLE        pubs.aip.org/aip/jap
+  Applied Physics
+
+
+
+
+     32S. B. Zhang, S.-H. Wei, and A. Zunger, “A phenomenological model for sys-     36C. Adenis, J. Olivier-Fourcade, J.-C. Jumas, and E. Philippot, “Etude structur-
+     tematization and prediction of doping  limits in II–VI and I–III–VI2 com-       ale par spectroscopie Mössbauer et rayons X de spinelles lacunaires de type
+    pounds,” J. Appl. Phys. 83(6), 3192–3196 (1998).                                        In2S3,” Revue de Chimie Mineral 24(1), 10–21 (1987).
+    33C. Persson, C. Platzer-Björkman,  J. Malmström, T. Törndahl, and M. Edoff,     37N. S. Rampersadh, A. M. Venter, and D. G. Billing, “Rietveld refinement of
+    “Strong valence-band  offset bowing  of ZnO1−xSx enhances p-type nitrogen      In2S3 using neutron and X-ray powder diffraction data,” Physica B 350(1–3),
+    doping of ZnO-like alloys,” Phys. Rev. Lett. 97(14), 146403 (2006).                E383–E385 (2004).
+    34W. Witte, W. Hempel, S. Paetel, R. Menner, and D. Hariskos, “Effects of sput-     38X. Jin, R. Schneider, R. Popescu, D. Hariskos, W. Witte, M. Powalla, and
+     tered InxSy buffer on CIGS with RbF post-deposition treatment,” ECS  J. Solid     D. Gerthsen, “Characterization of solution-grown and sputtered Inx(O,S)y buffer
+     State Sci. Technol. 10(5), 055006 (2021).                                                  layers in Cu(In,Ga)Se2 solar cells by analytical TEM,” Semicond. Sci. Technol.
+    35Y. Hinuma, F. Oba, Y. Kumagai, and I. Tanaka, “Ionization potentials of (112)      35(3), 034001 (2020).
+    and (11̅2) facet surfaces of CuInSe2 and CuGaSe2,” Phys. Rev. B 86(24), 245433      39E. Ghorbani and K. Albe, “Role of oxygen and chlorine impurities in β−In2S3:
+     (2012).                                               A first-principles study,” Phys. Rev. B 98(20), 205201 (2018).
+
+
+
+
+
+                                                                                                                                                                              19
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          November
+                                                                                                                                                                                                                                                                                                                                                             2026
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          10:19:40
+
+
+
+
+
+J. Appl. Phys. 135, 073101 (2024); doi: 10.1063/5.0184698                                                                                                   135, 073101-12
+
+© Author(s) 2024

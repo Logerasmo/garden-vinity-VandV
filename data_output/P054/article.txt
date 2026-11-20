@@ -1,0 +1,928 @@
+--- Страница 1 ---
+                                                                                                                      ll
+                                                                    OPEN ACCESS
+
+Article
+Non-selective adsorption of organic cations
+enables conformal surface capping of
+perovskite grains for stabilized photovoltaic
+operation
+
+
+
+
+                                                                                     Ziren Zhou, Hui Jun Lian, Jin
+
+                                                                                         Xie, ..., Yu Hou, Shuang Yang,
+
+                                                                Hua Gui Yang
+
+
+                                                                                               yhou@ecust.edu.cn (Y.H.)
+                                                                                                syang@ecust.edu.cn (S.Y.)
+
+                                                                                        Highlights
+                                                                                     Surface adsorption enthalpy of
+                                                                                    organic cations is closely related
+                                                                                       to their conﬁguration
+
+
+                                                                                              Tertiary ammonium passivation
+                                                                                                 results in conformally capped low-
+                                                                              dimension perov. phase
+
+
+                                                                                      Ion migration is suppressed in
+                                                                                      heterostructured perovskite ﬁlm
+
+
+                                                                        The as-modiﬁed solar cells
+                                                                                 possess a stable efﬁciency under
+                                                                                         various stressors
+
+
+
+
+
+Taking advantage of the weak-anisotropic adsorption nature of tertiary ammonium
+on perovskite facets, Zhou et al. demonstrate a comprehensive protection of
+perovskite grain surface by constructing a conformal low-dimensional perovskite
+passivation layer. The inhibited ion migration enables stabilized solar cell
+operation.
+
+
+
+
+
+                                                                                                    Zhou et al., Cell Reports Physical Science 3,
+
+                                                                                                      100760
+
+                                                                                                                  February 16, 2022 ª 2022 The Author(s).
+
+                                                                                                                            https://doi.org/10.1016/j.xcrp.2022.100760
+--- Страница 2 ---
+                                                                                                                      ll
+                                                                    OPEN ACCESS
+
+
+Article
+Non-selective adsorption of organic cations
+enables conformal surface capping of perovskite
+grains for stabilized photovoltaic operation
+
+Ziren Zhou,1,6 Hui Jun Lian,1,6 Jin Xie,1 Wen Cheng Qiao,5 Xue Feng Wu,1 Yiheng Shi,1 Xue Lu Wang,5
+Sheng Dai,4 Haiyang Yuan,1 Yu Hou,1,2,3,* Shuang Yang,1,7,* and Hua Gui Yang1
+
+
+
+SUMMARY
+Chemical passivation of defective perovskite surface is a funda-
+mental strategy to stabilize solar cell operation by impeding the
+defect-dominant surface ion migration. Here, we show that the
+conﬁguration of organic cations plays a key role in determining their
+surface adsorption energetics at various perovskite facets, which
+will strongly impact the spatial uniformity of the low-dimensional
+perovskite passivation layer (LDPL). A weak-anisotropic adsorption
+behavior is demonstrated for tertiary ammonium that can enable a
+conformal LDPL on the perovskite grain surface. Beneﬁting from
+comprehensive surface passivation, the migration of ionic perov-
+skite species was suppressed and the as-fabricated p-i-n solar cells
+yielded an optimized power conversion efﬁciency of 22.6% with
+an expected T80 lifetime of about 4,000 h under continuous 1-sun
+illumination. Our ﬁndings give insight into the design and prepara-
+tion of heterostructured perovskite ﬁlms toward efﬁcient and stable
+solar cells.
+
+
+INTRODUCTION
+
+Despitedramaticimprovementsthathavebeenachievedtargetingthepowerconver-     1Key Laboratory for Ultraﬁne Materials of Ministry
+sion efﬁciencies (PCEs) of halide perovskite-based photovoltaics,1 the long-term po-      of Education, Shanghai Engineering Research
+                                                                                               Center of Hierarchical Nanomaterials, School of
+wer output stability of loaded cells is still a pressing issue regarding their future      Materials Science and Engineering, East China
+commercialization. The migration of charged perovskite defects or ions, which com-      University of Science and Technology, Shanghai
+                                                                                                    200237, China
+binesboth fast(e.g.,iodine vacancyandinterstitial)andslowcomponents(e.g.,meth-
+                                                                                                   2School of Mathematics, East China University of
+ylammonium vacancy)atdifferenttimescales,hasbeenunveiledtobeassociatedwith     Science and Technology, Shanghai 200237, China
+the operational lability and switchable photovoltaic effect of perovskite solar cells     3Shenzhen Research Institute of East China
+(PSCs).2–6 Those mobile charged species would further accumulate at the p-/n-con-      University of Science and Technology, Shenzhen
+                                                                                                    518057, China
+tacting interfaces under a photoinduced electric ﬁeld, causing unwanted interfacial
+                                                                                                4Key Laboratory for Advanced Materials and
+band bending and carrier recombination and ultimately deteriorating the perfor-
+                                                                                                     Feringa Nobel Prize Scientist Joint Research
+mance of PSCs in working conditions.7,8                                                         Center, Institute of Fine Chemicals, School of
+                                                                                                  Chemistry & Molecular Engineering, East China
+                                                                                                                 University of Science and Technology, Shanghai
+Polycrystalline perovskite absorbers typically feature a high surface-area-to-volume     200237, China
+ratio due to the presence of grain boundaries (GBs). Previous reports have unveiled     5Department & Shanghai Key Laboratory of
+the defective nature of the perovskite grain surface where the activation energy (Ea)     Magnetic Resonance, School of Physics and
+                                                                                                              Electronic Science, East China Normal University,
+for ion migration can be lowered due to the unsaturated bonding of structural imper-                                                                                              Shanghai 200062, China
+fections.9 In this view, surface capping and interior gap-ﬁlling strategies were devel-                                                                                               6These authors contributed equally
+oped over the past few years with the aim of passivating those reactive sites through                                                                                              7Lead contact
+chemical bonding or physical coverage.10–20 Taking advantage of strong ionic                                                                                               *Correspondence: yhou@ecust.edu.cn (Y.H.),
+bonding, Yang et al.10 demonstrated the impeded ion migration on the PbSO4-cap-     syang@ecust.edu.cn (S.Y.)
+ped perovskite ﬁlm surface. Wei et al.11 reported that p interactions between      https://doi.org/10.1016/j.xcrp.2022.100760
+
+
+
+                                                                      Cell Reports Physical Science 3, 100760, February 16, 2022 ª 2022 The Author(s).    1
+                                  This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+--- Страница 3 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+rubrene and organic A cations would inhibit the cation migration within perovskite
+ﬁlm. van der Waals (vdW) gapped interface by using graphene or WS2 ﬂakes was
+also demonstrated to suppress interfacial ion migration through barrier effect or
+strain relaxation.15,21 Most often, passivation by surface treatment only protects
+the top surface of the polycrystalline perovskite ﬁlms, whereas the additive route
+by incorporating small amounts of passivating agents in the precursors normally
+yields partially covered grain boundaries in heterostructured ﬁlms. The conformal
+capping of perovskite grains from the top-surface, inner GBs with buried interfaces
+by passivation materials can be an ideal architecture for entirely immobilizing the
+ionic perovskite species toward stable solar cell operation but is yet to be achieved
+for polycrystalline perovskite ﬁlms.
+
+
+Here, we reveal the surface adsorption behavior to be a deterministic factor for the
+spatial distribution of low-dimensional perovskite phase in heterostructured perov-
+skite ﬁlms. Notably, tertiary ammonium with similar adsorption enthalpy (Ead) on
+various perovskite facets generates spatially conformal coating of perovskite grains
+by low-dimensional phase, enabling operational T80 lifetime of  4,000 h under
+continuous 1-sun illumination. Conversely, the large Ead variations of primary ammo-
+nium resulted in a nonuniformly distributed phase in perovskite ﬁlms and yielded
+inferior photovoltaic performance. Our theoretical simulations further show that
+the minimized Ead discrepancy for different perovskite facets terminated by tertiary
+ammonium can be ascribed to the synergistic effect of hydrogen bonding and elec-
+trostatic interaction between the tertiary amino group and perovskite surface.
+
+
+RESULTS AND DISCUSSION
+
+Adsorption energetics of organic cations on perovskite surface
+Three-dimensional (3D) perovskites (e.g., MAPbI3; MA, methylammonium) possess
+relatively low enthalpy of 56.6–97.3 kJ mol 1 for phase transition,22 while the forma-
+tion enthalpy of layered perovskites, such as PEA2PbI4 and (n-BA)2PbI4 (PEA, phene-
+thylammonium; n-BA, n-butylammonium), is usually estimated to be over 100 kJ
+mol  1.23,24 Many experimental studies have also identiﬁed that 3D phase typically
+appears prior to other ammonium-templated, low-dimensional phases during
+liquid-to-solid transformation.25,26 In most occasions, the perovskite phase is not
+fully formed immediately, even for the antisolvent or fast annealing methods.
+Thus, the structure of this transient phase gradually evolves from a wet ﬁlm to a
+more thermodynamically stable one during the followed annealing procedure,
+which normally lasts for several minutes. For this reason, the adsorption energetics
+of ammoniums on as-formed perovskite facets cannot be ignored in the dimension-
+ality-mixed perovskites. The chemical interaction between these cations and the
+perovskite matrix would heavily impact the crystalline location of latterly formed
+low-dimensional phases.
+
+Figure 1A shows the representative facets of tetragonal MAPbI3.27,28 Based on the
+density functional theory (DFT), we simulated the adsorption conﬁguration of pri-
+mary and tertiary ammoniums on those facets (Figure S1), respectively. The amino
+group of bulky ammoniums will have a preferred orientation to semiconductor sur-
+face due to electrostatic interaction or hydrogen bonding, leading to a polarized sur-
+face relative to their dipole moment.29,30 n-BA cation possesses three hydrogen
+bond donors and has a dipole moment that is about 10-fold higher than that of tri-
+methylammonium (TMA) (Table S1), which may impart a considerably altered
+adsorption behavior on perovskite surface as well as the homogeneity of low-dimen-
+sional phases.31–35 The calculated Ead suggests that n-BA is energetically favorable
+
+
+
+
+2      Cell Reports Physical Science 3, 100760, February 16, 2022
+--- Страница 4 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+
+
+
+Figure 1. Surface adsorption energetics of organic cations
+(A) Representative facets of tetragonal MAPbI3.
+(B–D) DFT-calculated Ead of n-BA and TMA cations on different perovskite facets (B). Geometrically optimized conﬁgurations of (C) n-BA and (D) TMA
+cations adsorbed on different perovskite facets are shown. The bond length of H   I was measured based on two adjacent atoms, and the effective ones
+are colored red.
+
+
+to adsorb on (001) and (110) facets while is less favorable on (100) and (112) facets,
+with the average value and SD of  1.89 and 0.68 eV, respectively (Figure 1B; Table
+S2). In contrast, TMA exhibits reduced discrepancy of Ead, with the average value
+and SD of  2.18 and 0.25 eV, respectively.
+
+
+Despite reduced hydrogen-bond donors, TMA cation possesses a slightly increased
+average Ead on representative perovskite facets. We hence analyze the effective
+hydrogen bonds whose length and angle fall within 2.5–3.5 A˚ and 0 –140  , respec-
+tively (Table S3).36 Figures 1C and 1D show that the number of effective hydrogen
+bonds is less dependent on the donors. The major difference of Ead lies in the
+(100) and (112) facets, where more MA cations are exposed to perovskite surfaces.
+Electrostatic potential maps (ESPs) show the tertiary amino group of TMA is more
+electronegative than the primary one of n-BA (Figure S2), through which the electric
+repulsion from adjacent MA might be diminished. We therefore conclude that the
+
+
+
+                                                                                             Cell Reports Physical Science 3, 100760, February 16, 2022    3
+--- Страница 5 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+minimized discrepancy of Ead for TMA should be attributed to the synergistic effect
+of surface hydrogen bonding and electrostatic interaction.
+
+
+Structural analysis of perovskite ﬁlms
+To understand the impact of Ead difference of organic cations on the compositional
+uniformity of perovskite ﬁlms, we performed time of ﬂight secondary ion mass spec-
+trometry (ToF-SIMS) on (n-BA)0.03MA0.97PbI3 and TMA0.03MA0.97PbI3 perovskite
+ﬁlms (hereafter referred to as BMPI and TMPI, respectively). As seen in Figures 2A,
+2B, and S3, the lateral distribution of TMA+, MA+, and PbI3   is homogeneous in
+TMPI ﬁlm at submillimeter scale, as contrasted by the nonuniform regions of over
+dozens of micrometers in BMPI ﬁlm. Scanning electron microscopy (SEM) images
+show the fabric-like morphology of BMPI ﬁlm, which is markedly different from the
+regular morphology of pure MAPbI3 (hereafter referred to as pristine) and TMPI ﬁlms
+(Figures S4A–S4C). Such morphology is consistent with the height proﬁles of perov-
+skite ﬁlms obtained by atomic force microscopy (AFM) (Figures S4D–S4F). Phase
+angle images have been widely used to discriminate the phase composition of poly-
+mer and perovskite blends.37–39 The phase angle is altered from about 65  for the
+pristine ﬁlm to about 0  for TMPI ﬁlm, suggesting the existence of an impurity phase
+that fully covers the TMPI ﬁlm surface (Figures 2C–2E and S5). In comparison, the
+multimodally distributed phase angle of BMPI ﬁlm indicates the failure of uniform
+surface capping by low-dimensional phases, in agreement with its compositional in-
+homogeneity determined by ToF-SIMS. We then performed ToF-SIMS to study the
+vertical distribution of TMA cations in TMPI ﬁlm. The depth proﬁle of TMA+ shows a
+gradually declined intensity from the top surface to the middle region and then in-
+creases again closing to the bottom side (Figures 2F and S6).
+
+
+X-raydiffraction(XRD)patternshelpustoidentifythephasecompositionofperovskite
+ﬁlms. As seen in Figure S7, a diffraction peak emerges at  11.0 for TMPI ﬁlm, while no
+additional peak is observed in BMPI ﬁlm. Such diffraction peak can be indexed to the
+(100)facetsofas-synthesizedTMAPbI3powder,ofwhichtheXRDpatternmatcheswell
+with the simulated pattern of hexagonal TMAPbI3.40 To identify the blended structure
+of TMPI ﬁlm down to atomic level, we carried out solid-state nuclear magnetic reso-
+nance (SSNMR) measurements. The conﬁguration of the TMA cation in this work is
+conﬁrmed by the 1H NMR spectra (Figure S8). The powder samples of pristine and
+TMPI were collected by mechanically scraping the as-fabricated perovskite ﬁlms. As
+seen in 1H magic angle spinning (MAS) NMR spectra (Figure S9), two peaks were
+observed for pristine sample, corresponding to the signals of  NH3 + (6.12 ppm)
+and  CH3 (3.07 ppm) of MA cation, respectively. For the TMPI sample, the 1H peaks
+slightly shift to a lower ﬁeld that is closer to where TMAPbI3 locates, probably due to
+the overlap signals of perovskite and TMAPbI3 phases. Besides, we ﬁnd that the inte-
+grated peak area of ammonium is decreased in the TMPI sample, in accordance with
+the increasing number of  CH3 in the TMA cation.
+
+
+Grazing-incidence XRD (GIXRD) conducted by varied incident angles allows us to
+determine the vertical distribution of TMAPbI3 throughout the perovskite ﬁlm. The
+TMAPbI3(100) is detected at selected incident angles from 0.5 to 1 –3  , correspond-
+ing to the regions from the top ﬁlm to the bottom (Figure 2G). As shown in Fig-
+ure S10, the decreased ratio of the integrated intensity of TMAPbI3(100) to
+MAPbI3(110), MAPbI3(220), and MAPbI3(310) implies the enrichment of TMAPbI3
+at the ﬁlm surface. Combining the phase angle results of TMPI ﬁlm, we deem that
+TMAPbI3 is a uniformly dispersed phase that can enable a conformal capping layer
+on perovskite grain surface, including the top surface, interior GBs, and buried inter-
+face. High-resolution transmission electron microscopy (HRTEM) was conducted to
+
+
+
+4      Cell Reports Physical Science 3, 100760, February 16, 2022
+--- Страница 6 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+
+
+
+Figure 2. Spatial uniformity of low-dimensional perovskite phase
+(A and B) ToF-SIMS images of (A) n-BA+ and (B) TMA+ in BMPI and TMPI ﬁlms, respectively. Scale bars: 10 mm.
+(C and D) AFM phase angle images of (C) BMPI and (D) TMPI ﬁlms. Scale bars: 500 nm.
+(E) Phase angle distribution of pristine, BMPI, and TMPI ﬁlms.
+(F) ToF-SIMS depth proﬁle of TMPI ﬁlm.
+(G) GIXRD patterns of TMPI ﬁlm were measured at different incident angles. The diffraction peaks of TMAPbI3(100) and FTO substrate are marked by an
+asterisk and hash symbols, respectively.
+(H) HRTEM image of MAPbI3/TMAPbI3 heterointerface. Insets are the FFT patterns of the corresponding regions. Scale bar: 4 nm.
+
+
+discriminate MAPbI3 and TMAPbI3 phases in TMPI ﬁlm. Lattice fringes at the
+MAPbI3/TMAPbI3 heterointerface show the d-spacing of  8.0 A˚ that can be indexed
+to TMAPbI3(100), adjacent to that of MAPbI3(202) (Figure 2H). The crystal structures
+of the two phases were conﬁrmed by the fast Fourier transform (FFT) patterns.
+
+
+Optical properties of perovskite ﬁlms
+The optical absorption proﬁle of TMAPbI3 reveals its wide bandgap of  2.37 eV (Fig-
+ure S11A), and the photoluminescence (PL) spectrum shows a red shift and broadband
+peak ( 650 nm) under UV excitation. We examined the priority of phase formation in
+precursor solution containing an equal mole ratio of MAPbI3 and TMAPbI3. Previous re-
+ports have revealed that the crystallization of one-step deposited perovskite solution is
+initialized from the liquid-air interface, and this rule also holds for other low-dimensional
+perovskite components.41,42 We ﬁnd the PL proportion of MAPbI3 overwhelms that of
+TMAPbI3 at the top surface of the ﬁlm while is decreased at the substrate side (Figures
+S11B and S11C). Such results suggest that the formation of the MAPbI3 phase is prior to
+the TMAPbI3 during ﬁlm processing, verifying the feasibility of our surface adsorption
+calculations at the beginning part.
+
+
+Halide perovskites are direct-bandgap semiconductors whose PL spectra reﬂect
+their optical bandgaps. By varying the direction of photoexcitation, we determined
+the bandgap uniformity of BMPI and TMPI ﬁlms relative to the depth.25 BMPI ﬁlm has
+an increased full-width at half-maximum (FWHM) of 51.0 nm at 75  incident angle
+with respect to the 36.9 nm of TMPI ﬁlm (Figures 3A and 3B). The summarized results
+of FWHM suggest that TMPI ﬁlm has a more uniform bandgap than BMPI ﬁlm relative
+
+
+
+                                                                                             Cell Reports Physical Science 3, 100760, February 16, 2022    5
+--- Страница 7 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+
+
+
+Figure 3. Bandgap uniformity of heterostructured perovskite ﬁlm
+(A and B) Dependence of PL spectra on the excitation direction of (A) BMPI and (B) TMPI ﬁlms
+deposited on a quartz substrate (excitation: 365 nm).
+(C) Summarized FWHM of PL spectra of pristine, BMPI, and TMPI ﬁlms.
+(D) Schematic illustration of surface adsorption behavior of TMA cations on prior-formed
+perovskite grain surface and the resultant conformally capped perovskite ﬁlm.
+
+to the depth and resembles that of the pristine ﬁlm (Figures 3C and S12), probably
+because of the uniformly dispersed TMAPbI3 on the overall perovskite surface. UV
+photoelectron spectroscopy (UPS) helps us to identify the altered work function
+(WF) of perovskite ﬁlm surface terminated by TMAPbI3. The WF is increased from
+4.67 eV of pristine ﬁlm to 4.74 eV of TMPI ﬁlm, corresponding to the Fermi level
+(EF) shifts to valence band maximum (VBM) for 0.07 eV (Figures S13A–S13C). Our
+theoretical calculations on the density of state (DOS) of TMAPbI3 reveal its p-type
+nature (Figures S13D), in agreement with the increased WF of TMPI ﬁlm. Based on
+the above characterization results, we conceptualize the formation mechanisms of
+TMPI ﬁlm in Figure 3D. The non-selective surface adsorption of TMA cations would
+lead to conformally capped perovskite grains by TMAPbI3.
+
+
+Device performance and passivation effect of LDPL
+A p-i-n device conﬁguration (FTO/Sr-doped NiOx [Sr:NiOx]/perovskite/[6,6]-phenyl-
+C61-butyric acid methyl ester [PCBM]/bathocuproine [BCP]/Ag) is adopted to eval-
+uate the photovoltaic performance of as-fabricated perovskite ﬁlms. The thickness
+of perovskite ﬁlms is estimated to be  500 nm (Figures 4A and S14). The solar cell
+based on TMPI ﬁlm delivered a short-circuit current density (JSC) of 23.5 mA cm  2,
+an open-circuit voltage (VOC) of 1.125 V, and a ﬁll factor (FF) of 0.838 with a maximum
+PCE of 22.2% under AM 1.5G irradiation. The pristine device delivered a JSC of
+23.4 mA cm  2, a VOC of 1.114 V, and an FF of 0.806 with a maximum PCE of
+21.0%. For devices based on BMPI ﬁlm, a signiﬁcantly decreased JSC was delivered,
+leading to a poor efﬁciency of 9.6% (Figures 4B and S15; Table S4). The average
+
+
+
+6      Cell Reports Physical Science 3, 100760, February 16, 2022
+--- Страница 8 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+
+
+
+Figure 4. Photovoltaic performance and defect passivation of solar cells
+(A) Cross-sectional SEM image of TMPI solar cell.
+(B) J-V curves of champion solar cells based on pristine, TMPI, and BMPI ﬁlms.
+(C) TRPL spectra of pristine, TMPI, and BMPI ﬁlms (excitation: 520 nm). Inset is their steady-state PL spectra (excitation: 365 nm).
+(D) tDOS of pristine and TMPI solar cells.
+(E) J-V curves of champion solar cells based on CsFAMA and TMA-CsFAMA ﬁlms. Inset is the device conﬁguration.
+(F) TRPL spectra of CsFAMA and TMA-CsFAMA ﬁlms. Insets is their steady-state PL spectra.
+
+
+PCEs of pristine, TMPI, and BMPI devices are 19.7%, 21.3%, and 8.4%, respectively.
+Meanwhile, minimized hysteresis was obtained for the TMPI solar cell at opposite
+scan direction (Figure S16). The JSC of pristine and TMPI solar cells integrated
+from external quantum efﬁciency (EQE) spectra is nearly consistent with the values
+obtained by photocurrent-voltage (J-V) measurements (Figure S17A). The as-deter-
+mined absorption edge of EQE spectra shows that the bandgap of the pristine ﬁlm is
+1.574 eV, with a blue-shift bandgap less than 0.01 eV for TMPI ﬁlm (Figure S17B).
+
+
+The steady-state PL spectra of the perovskite ﬁlms show the increased PL intensity of
+TMPI ﬁlm (Figure 4C) is associated with the reduced population of nonradiative
+recombination centers.43 The biexponential ﬁtting of time-resolved PL (TRPL)
+spectra shows the fast components of pristine, TMPI, and BMPI ﬁlms are 6.8, 11.4,
+and 6.0 ns, respectively, corresponding to the nonradiative recombination lifetime.
+The enhanced PL decay lifetime of TMPI ﬁlm is in accordance with its enhanced
+steady-state PL intensity and indicates the reduced nonradiative recombination of
+photogenerated carriers in TMPI ﬁlm.10,44
+
+
+We quantitatively determined the defect density of perovskite ﬁlms by space-charge
+current limited curves (SCLCs) based on the device conﬁguration of FTO/perovskite/
+Au. Defect density was calculated following the equation45 VTFL = qntL2/2εε0, where
+VTFL is trap-ﬁlled limit voltage, q is electric charge, nt is defect density, L is the thick-
+ness of perovskite layer, ε is the dielectric constant of perovskite, and ε0 is vacuum
+permittivity. The as-determined VTFL was decreased from 0.29 V for the pristine
+
+
+
+                                                                                             Cell Reports Physical Science 3, 100760, February 16, 2022    7
+--- Страница 9 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+ﬁlm to 0.24 V for TMPI ﬁlm (Figure S18), corresponding to the reduced nt from
+4.2 3 1016 cm 3 to 3.5 3 1016 cm  3. For BMPI ﬁlm, the nt reaches up to 5.8 3
+1016 cm  3. Thermal admittance spectroscopy (TAS) allows us to determine the
+trap density of states (tDOS) of solar cells. As seen in Figure 4D, the TMPI device
+shows reduced tDOS that can reach up to a magnitude within the shallow region
+(0.3–0.5 eV). The above results reveal the passivation effect of as-capped LDPL
+that can reduce the defect density of perovskite ﬁlm.
+
+
+Transient photovoltage (TPV) decay curves of solar cells under AM 1.5G irradiation
+allow us to assess the lifetime of photogenerated charge carriers. The lifetime was
+increased from 0.73 ms for the pristine device to 1.49 ms for the TMPI device and
+decreased to 0.80 ms for the BMPI device (Figure S19A). The enhanced charge carrier
+lifetime of the TMPI device indicates its reduced defect density at the perovskite/
+LDPL interface.10,46 Transient photocurrent (TPC) decay reveals the charge collec-
+tion efﬁciency of solar cells. Pristine and TMPI devices show the overlapped decay
+signals, with an identical photocurrent decay time of 0.51 ms (Figure S19B). BMPI de-
+vice shows an increased photocurrent decay time of 0.85 ms, which suggests a dete-
+riorated charge collection efﬁciency and explains its low JSC.46
+
+
+We studied the compatibility of TMA analogues, including triethylammonium (TEA)
+and tripropylammonium (TPA), as well as the commonly used PEA (Figure S20; here-
+after referred to as TEMPI, TPMPI, and PMPI for cation-mixed perovskite ﬁlms,
+respectively). The diffraction peak of the corresponding ABX3 phase is, however,
+not observed in the XRD patterns of perovskite ﬁlms (Figure S21). Despite the
+increased length of alkyl chains, TEMPI solar cells did not exhibit severely deterio-
+rated efﬁciency and yielded an optimal PCE of 20.5% (Figure S22; Table S5). Devices
+based on TPMPI and PMPI ﬁlms yielded poor PCEs akin to that of BMPI devices. Our
+chemical strategy was then applied to the triple-cation perovskite component
+(referred to as CsFAMA). The diffraction peak of TMAPbI3(100) is clearly identiﬁed
+in CsFAMA ﬁlm mixed with TMA cations (referred to as TMA-CsFAMA; Figure S23).
+The phase angle image of the TMA-CsFAMA ﬁlm shows the altered angle that is
+similar to that of TMPI ﬁlm (Figure S24), probably because of the surface-capped
+TMAPbI3. The p-i-n solar cells based on TMA-CsFAMA ﬁlm delivered a JSC of
+22.8 mA cm  2, a VOC of 1.181 V, and an FF of 0.839 and yielded a maximum PCE
+of 22.6% (Figure 4E; Table S6). TRPL spectra also show the enhanced carrier lifetime
+of TMA-CsFAMA ﬁlm, which should be contributed by the passivation effect of
+TMAPbI3 (Figure 4F).
+
+
+Operational stability of solar cells and ion migration analysis
+The stabilized power output (SPO) of unencapsulated solar cells was tracked at
+maximum power point (MPP) in ambient, and the devices were exposed to AM
+1.5G irradiation for 2 min before MPP tracking for the purpose of reaching the steady
+state in standard J-V scans. TMPI device exhibited a stable power output above 21%
+and was stabilized at  21.1% at the tracking end of 350 min (Figure 5A). A pro-
+nounced performance loss of pristine device was observed with a PCE stabilized
+at  18.2% at the tracking end of 100 min. We also measured the SPO of solar cells
+in the condition of ambient aging. TMPI and TEMPI devices exhibited robust power
+output in aging cycles with a time interval of 24 h (Figures 5B and S25). In contrast,
+the pristine device lost approximately half of its initial PCE at the end, in accordance
+with the PCE yields before and after MPP tracking (Figure S26).
+
+
+The migration of ionic perovskite species is dominated by the electric ﬁeld of heter-
+ojunction;6 we therefore measured the stability of solar cells under accelerated
+
+
+
+8      Cell Reports Physical Science 3, 100760, February 16, 2022
+--- Страница 10 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+
+
+
+Figure 5. Operation stability of solar cells and intrinsic ion migration
+(A) MPP tracking of pristine and TMPI solar cells in ambient.
+(B) MPP tracking of pristine and TMPI solar cells in the condition of ambient aging cycles (relative humidity: 10%–15%).
+(C) Evolution of VOC, FF, and PCE of pristine and TMPI solar cells relative to the polling time of external electric ﬁeld.
+(D) Temperature-dependent dark-current decay of pristine and TMPI solar cells.
+(E) Temperature-dependent conductivity of pristine and TMPI ﬁlms. The inset shows the conﬁguration of the lateral perovskite device.
+(F) Long-term operation stability of sealed CsFAMA and TMA-CsFAMA solar cells at open-circuit conditions. Insets are the photographs of as-sealed
+TMA-CsFAMA devices before and after continuous illumination.
+
+
+
+degradation conditions by applying a reverse bias voltage of 0.3 V. The external
+electrical ﬁeld is identical to that of the built-in electric ﬁeld in heterojunction of solar
+cells, leading to an overall electrical ﬁeld of  2.6 V mm 1 that enhances the drift of
+both carriers and ionic species. As shown in Figures 5C and S27, the TMPI device
+outputs stable PCEs within the electrical poling time of 1,080 s under AM 1.5G irra-
+diation, yet the pristine device exhibited the considerably decreased VOC and FF
+within 390 s and yielded poor PCE of 7% after poling. Dark-current curves of solar
+cells show that the leakage current density of pristine device after continuous polling
+is signiﬁcantly larger than that of TMPI device (Figure S28), implying the formation of
+new shunt pathways in pristine ﬁlm.47 Meanwhile, we measured the dark-current de-
+cays of solar cells under a continuous bias voltage of 0.8 V relative to the tempera-
+ture. The pristine device exhibited a strong temperature-dependent current decay,
+while the decay for the TMPI device was minimized (Figure 5D), indicating the
+reduced mobile ions in TMPI ﬁlm under an electric ﬁeld.48
+
+
+Temperature-dependent conductivity measurements were performed on lateral
+perovskite devices (Sr:NiOx/perovskite/Au) under the applied electric ﬁeld of
+0.4 V mm 1 between two Au electrodes. The Ea for mobile ions was extracted from
+the linearly ﬁtting data following Nernst-Einstein relation:49 s(T) = (s0/T)exp(  Ea/
+kBT), where s0 is a constant, T is temperature, and kB is the Boltzmann constant,
+and the high-temperature region can be used to assess the ionic conductivity of
+
+
+
+                                                                                             Cell Reports Physical Science 3, 100760, February 16, 2022    9
+--- Страница 11 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+perovskite ﬁlms. The pristine device showed a linear increase in conductivity relative
+to the increase in temperature from 293 K, and the Ea was determined to be 295 meV
+(Figure 5E), consistent with other reported cases.50,51 For the TMPI device, the total
+conductivity was not dominated by the ionic conductivity until 341 K, with the ex-
+tracted Ea of 687 meV above this threshold temperature. In the case of enhanced
+ion migration in perovskite ﬁlm (e.g., under light illumination), the threshold temper-
+ature will come at a lower value.10 The increased threshold temperature and Ea of the
+TMPI device therefore indicate that conformal surface capping by LDPL can efﬁca-
+ciously suppress ion migration.
+
+
+The light-soaking stability of unencapsulated solar cells was measured under the illu-
+mination of an equivalent 1-sun light-emitting diode (LED) lamp at open-circuit con-
+dition in a nitrogen glove box. TMPI and TEMPI devices were capable of maintaining
+about 90% and 93% of their initial PCEs, respectively, yet the PCEs’ loss of pristine
+devices reached up to about 50% after 1,008 h illumination in nitrogen (Figure S29).
+We further measured the light-soaking stability of CsFAMA and TMA-CsFAMA solar
+cells sealed by the heat-melt polymer in ambient, with the room temperature of
+ 300 K and the humidity of  60%. TMA-CsFAMA devices can maintain 94.9% of
+their initial efﬁciencies in contrast to 63.5% of CsFAMA devices after equivalent
+1-sun illumination for 1,032 h (Figure 5F), indicating the enhanced stability of solar
+cells upon surface conformal capping strategy. By ﬁtting the PCE decay rate, we
+can predict the T80 lifetime of the TMA-CsFAMA device, which reaches up to
+  4,000 h. Considering the charge accumulation effect of solar cells under open-cir-
+cuit conditions, we anticipate that the operational stability of the TMA-CsFAMA
+device can be better under MPP conditions.
+
+
+Taking advantage of the weak-anisotropic adsorption behavior of tertiary ammo-
+nium, we hereby demonstrated a chemical route to conformally cap the perovskite
+grain surface in polycrystalline ﬁlms. Perovskite surface terminated by LDPL enabled
+a reduced recombination of photogenerated carriers and simultaneously sup-
+pressed ion migration under various environmental stressors, including light irradi-
+ation, electric ﬁeld, and moisture. We highlight that comprehensive passivation of
+defective perovskite surface is of fundamental importance to immobilize the ionic
+species in polycrystalline ﬁlm, which can be realized through the rational screening
+of surface adsorbates in perovskite precursors. Our ﬁndings provide a universal so-
+lution toward simpliﬁed fabrication of surface-protected perovskite absorbers for
+real-world applications and may be also applied to optimize the spatial distribution
+of pre-synthesized passivation materials that directly adsorb onto crystal surface
+without following structural transition.
+
+
+EXPERIMENTAL PROCEDURES
+
+Resource availability
+Lead contact
+Further information and requests for resources should be directed to and will be ful-
+ﬁlled by the lead contact, Prof. Shuang Yang (syang@ecust.edu.cn).
+
+
+Materials availability
+This study did not generate new material structures.
+
+Data and code availability
+
+This study did not produce new code. All data associated with the work can be found
+in the article or supplemental information and are available from the authors upon
+reasonable request.
+
+
+
+10    Cell Reports Physical Science 3, 100760, February 16, 2022
+--- Страница 12 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+Materials
+TMA iodide was synthesized by reacting trimethylamine (25 wt % in methanol; TCI)
+with hydriodic acid (57 wt % in water; J&K Scientiﬁc) in anhydrous ethanol following
+a mole ratio of 2.4:1. The reactions were kept at 0 C in nitrogen for 2 h. The white
+powder can be then obtained by rotation evaporation and was dissolved in anhy-
+drous ethanol and recrystallized by diethyl ether. n-butylammonium iodide, triethy-
+lammonium iodide, tripropylammonium iodide, and phenethylammonium iodide
+were synthesized by reacting n-butylamine (99%; Energy Chemical), triethylamine
+(99.5%; Energy Chemical), tripropylamine (99%; Energy Chemical), and phenylethyl-
+amine (99.5%; Energy Chemical) with hydriodic acid in anhydrous ethanol following a
+mole ratio of 1.1:1. All recrystallized white powders were further dried in vacuum oven
+at 60 C overnight. MAI, MABr, and FAI were purchased from Dyesol. CsI (99.9%),
+poly(bis(4-phenyl)(2,4,6-trimethylphenyl)amine) (PTAA) (average GPC Mn 7,000–
+10,000), and dimethyl sulfoxide (DMSO) (anhydrous; R99.9%) were purchased
+from Sigma-Aldrich. PbI2 (99.99%) and PbBr2 (99.99%) were purchased from Energy
+Chemical. Nickel (II) acetate tetrahydrate and strontium chloride hexahydrate were
+purchased from Sinopharm. N,N-dimethylformamide (DMF) (anhydrous; 99.8%),
+chlorobenzene (American Chemical Society [ACS]; 99.5%), and 2-methoxyethanol
+(99%) were purchased from Alfa Aesar. PCBM (99.5%) and BCP (99%) were purchased
+from Nichem.
+
+
+Device fabrication
+The Sr:NiOx hole transport layer (HTL) was prepared on UV-cleaned FTO substrate
+according to our previous work.52 Perovskite precursors (159 mg MAI and 461 mg
+PbI2 in 560 mL DMF and 80 mL DMSO) were spin coated on HTL at 1,000 rpm for
+5 s and 4,000 rpm for 30 s, during which 120 mL chlorobenzene was dropped to re-
+move the solvent at 23 s before the end. As for A cation substituted perovskite pre-
+cursors, 3 mol % ammonium iodides were used to substitute MAI. All as-deposited
+perovskite ﬁlms were annealed at 100 C for 10 min in a nitrogen glove box. After ﬁlm
+cooling down, PCBM (20 mg in 1 mL chlorobenzene) and BCP (0.5 mg in 1 mL anhy-
+drous ethanol) solutions were sequentially spin coated on perovskite ﬁlm at 2,000
+and 4,000 rpm for 45 s, respectively, and were dried at 70 C for another 15 min.
+Finally, 100-nm Ag/Au was thermally evaporated as metal electrodes. As for devices
+based on triple-cation perovskite, PTAA (2 mg in 1 mL toluene) was spin coated onto
+ITO substrates at 5,000 rpm for 30 s and then annealed at 100 C for 10 min. The stoi-
+chiometry of different perovskite precursors was prepared following previous re-
+ports, and TMAPbI3 (3 mol %) was added into the triple-cation perovskite precursor
+for blended ﬁlm deposition.53 The precursors were spin coated on PTAA at
+1,000 rpm for 5 s and 4,000 rpm for 20 s, during which 150 mL chlorobenzene was
+dropped to remove the solvent at 5 s before the end. All as-deposited perovskite
+ﬁlms were annealed at 100 C for 30 min in a nitrogen glove box.
+
+
+Characterization
+The morphology of ﬁlms was characterized by ﬁeld-emission SEM (HITACHI S4800).
+XRD patterns were acquired by Powder XRD (Bruker Advance D8 X-ray diffractom-
+eter Cu Ka radiation, 40 kV). GIXRD (Rigaku D/max, Cu Ka radiation, 2.55 kV,
+18 kW) was used to probe the structure of the perovskite ﬁlms at different incident
+angles. NMR (Bruker Avance III 400, 400 MHz) equipped with a superconducting
+Fourier spectrometer was used to acquire the 1H NMR spectra of ammonium io-
+dides. 1H MAS NMR spectra were performed in a 400 MHz NMR instrument, using
+the single pulse excitation pulse. The spinning rate was set to 6/10 kHz. The
+recycle delay was set to 5 s. The 1H chemical shifts are calibrated using adamantane
+(d = 1.91 ppm for the 1H spectra). A Bruker two-channel static PE probe with a
+
+
+
+                                                                                             Cell Reports Physical Science 3, 100760, February 16, 2022   11
+--- Страница 13 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+homemade 2.5 mm coil was used to record the spectra. HRTEM characterization was
+performed by using Thermo Fisher Scientiﬁc Talos F200X. A Cary 500 ultraviolet-
+visible (UV-Vis)-near infrared (NIR) spectrophotometer was applied to measure the
+optical absorption spectra of perovskite ﬁlms. PL and TRPL spectra were character-
+ized by Fluorolog-3-p spectrophotometer. The energy level of the perovskite ﬁlm
+surface was measured by UPS (AXIS ULTRA DLD, Al/Mg Ka, 450 W, 15 kV) with a
+He source of incident energy of 21.21 eV. The lateral and depth proﬁle of ionic spe-
+cies in perovskite ﬁlms were acquired by ToF-SIMS (ION-TOF) equipped with a 10 kV
+Ar-Cluster gun, and the Bi+ primary-ion beam was scanned over 50 3 50 and
+150 3 150 mm areas, respectively. Solar cells were illuminated by a solar light simu-
+lator (Solar IV-150A, Zolix), and the light intensity was calibrated by a standard New-
+port calibrated KG5-ﬁltered Si reference cell. The J-V curves of solar cells were
+measured by a Keithley 2400 digital source meter with a scan rate of 0.1 V s 1
+(scan range:  0.1 to 1.3 V) in ambient (relative humidity: 10%–15%), and the devices
+were masked with a metal aperture to deﬁne the active area of 0.0625 cm2. As for
+encapsulated solar cells,  all J-V curves were measured in ambient air without
+humidity control. TPC and TPV curves of solar cells were measured by digital storage
+oscilloscope (KEYSIGHT, DSOX3104T) under the excitation of pulsed laser (532 nm,
+DPS-532-A, 1 mJ). EQE spectra of solar cells were characterized by SCS600-QEDZ-
+JN system (Zolix). Temperature-dependent conductivity was measured on a probe
+station (HGOAN, HGPS100), and the temperature was controlled by the thermo-
+electric plate. The lateral spacing of two Au electrodes on perovskite ﬁlms was set
+to be 100 mm, and the electrical measurements were done by the digital source
+meter under a direct current (DC) bias voltage of 40 V. Frequency-dependent capac-
+itance was measured by an inductance, capacitance, and resistance (LCR) meter
+(Agilent, E4980A) to determine the tDOS of solar cells. A single output programma-
+ble DC power supply (BK PRECISION) was used to apply an electric ﬁeld on the solar
+cells and lateral devices.
+
+
+Theoretical calculations
+All calculations were computed by the Vienna ab initio Simulation package (VASP) of
+DFT. The projector augmented wave (PAW) model with Perdew-Burke-Ernzerhof
+(PBE) function was employed to describe the interactions between core and elec-
+trons, with ultrasoft pseudopotentials (shells explicitly included in calculations:
+5d106s26p2 for Pb; 5s25p5 for I; 2s22p2 for C; 2s22p3 for N; and 1s1 for H). DFT-D3
+dispersion interactions were included in the calculation. During the structure optimi-
+zation, the MAPbI3 surface of a relatively stable terminal was chosen. The bottom few
+layers were constrained, and the top layers were fully relaxed. A vacuum region of
+20 A˚ was built to avoid interactions between the neighboring MAPbI3 slabs. An en-
+ergy cutoff of 450 eV was used for the plane wave expansion of the electronic wave
+function. The Brillouin zones of  all systems were sampled with gamma-point-
+centered Monkhorst-Pack grids. A 1 3 1 3 1 and 3 3 3 3 3 Monkhorst Pack k-point
+setup was used for slab geometry optimization and electronic structures, respec-
+tively. The force and energy convergence criteria were set to 0.01 eV A˚ 1 and
+10 5 eV, respectively. The adsorption enthalpy of all absorbates is calculated as
+DEad = Ead/sur    Esur   Ead, where Esur, Ead, and Ead/sur are the energy of the bare
+MAPbI3 surface, the energy of an adsorbate, and the surface with adsorbate,
+respectively.
+
+
+SUPPLEMENTAL INFORMATION
+
+Supplemental information can be found online at https://doi.org/10.1016/j.xcrp.
+2022.100760.
+
+
+
+12    Cell Reports Physical Science 3, 100760, February 16, 2022
+--- Страница 14 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+ACKNOWLEDGMENTS
+
+This work was ﬁnancially supported by National Natural Science Fund for Excellent
+Young Scholars (52022030), National Ten Thousand Talent Program for Young Top-
+notch Talent, National Natural Science Fund for Distinguished Young Scholars
+(51725201),  National  Natural  Science  Foundation  of  China (51972111 and
+51902185), International (Regional) Cooperation and Exchange Projects of the Na-
+tional Natural Science Foundation of China (51920105003), Innovation Program of
+Shanghai Municipal Education Commission (E00014), the Fundamental Research
+Funds   for  the  Central   Universities  (JKD01211623,  JKVD1211041,  and
+JKVJ1211022), the Fundamental Research Funds of Free Exploration of Science,
+Technology and Innovation Commission of Shenzhen Municipality (2021Szvup039),
+and  Shanghai  Engineering  Research  Center  of  Hierarchical  Nanomaterials
+(18DZ2252400). The authors also thank the Frontiers Science Center for Materiobi-
+ology and Dynamic Chemistry. S.D. acknowledges the support by Shanghai Rising-
+Star Program (20QA1402400) and the Program for Professor of Special Appointment
+(Eastern Scholar) at Shanghai Institutions of Higher Learning. Additional support was
+provided by the Feringa Nobel Prize Scientist Joint Research Center.
+
+
+AUTHOR CONTRIBUTIONS
+
+Z.Z. and J.X. designed and conducted the experiments. Z.Z. wrote the paper. H.J.L.
+and H.Y. performed the theoretical calculations. W.C.Q. and X.L.W. performed the
+SSNMR characterization. X.F.W. and S.D. performed the TEM characterization. Y.S.
+helped revise the paper. Y.H., S.Y., and H.G.Y. provided all support needed in this
+work. All authors contributed to the general discussion.
+
+
+DECLARATION OF INTERESTS
+
+The authors declare no competing interests.
+
+
+Received: November 10, 2021
+Revised: December 21, 2021
+Accepted: January 14, 2022
+Published: February 7, 2022
+
+
+REFERENCES
+
+ 1. Best Research-Cell Efﬁciency Chart, NREL.          6. Yuan, Y., Chae, J., Shao, Y., Wang, Q., Xiao, Z.,       surfaces for solar cell operation with wide-
+    https://www.nrel.gov/pv/cell-efﬁciency.html.         Centrone, A., and Huang, J. (2015).              bandgap lead oxysalts. Science 365, 473–478.
+                                                        Photovoltaic switching mechanism in lateral
+ 2. Eames, C., Frost, J.M., Barnes, P.R.F., O’Regan,        structure hybrid perovskite solar cells. Adv.       11. Wei, D., Ma, F., Wang, R., Dou, S., Cui, P.,
+    B.C., Walsh, A., and Islam, M.S. (2015). Ionic        Energy Mater. 5, 1500615.                       Huang, H., Ji, J., Jia, E., Jia, X., Sajid, S., et al.
+    transport in hybrid lead iodide perovskite solar                                                                  (2018). Ion-migration inhibition by the cation-p
+     cells. Nat. Commun. 6, 7497.                         7. Azpiroz, J.M., Mosconi, E., Bisquert, J., and           interaction in perovskite materials for efﬁcient
+                                                         Angelis, F.D. (2015). Defect migration in           and stable perovskite solar cells. Adv. Mater.
+ 3. Domanski, K., Roose, B., Matsui, T., Saliba, M.,      methylammonium lead iodide and its role in         30, 1707583.
+    Cruz, S.H.T., Baena, J.P.C., Carmona, C.R.,           perovskite solar cell operation. Energy Environ.
+    Richardson, G., Foster, J.M., Angelis, F.D.,             Sci. 8, 2118–2127.                                 12. Li, M., Zuo, W., Wang, Q., Wang, K., Zhuo, M.,
+    et al. (2017). Migration of cations induces                                                                         Ko¨ bler, H., Halbig, C.E., Eigler, S., Yang, Y.,
+    reversible performance losses over day/night       8. Bertoluzzi, L., Boyd, C.C., Rolston, N., Xu, J.,        Gao, X., et al. (2020). Ultrathin nanosheets of
+    cycling in perovskite solar cells. Energy              Prasanna, R., O’Regan, B.C., and McGehee,          oxo-functionalized graphene inhibit the ion
+    Environ. Sci. 10, 604–613.                       M.D. (2020). Mobile ion concentration               migration in perovskite solar cells. Adv. Energy
+                                              measurement and open-access band diagram       Mater. 10, 1902653.
+ 4. Yuan, Y., and Huang, J. (2016). Ion migration in       simulation platform for halide perovskite solar
+   organometal trihalide perovskite and its                cells. Joule 4, 109–127.                           13. Jalebi, M., Garmaroudi, Z., Cacovich, S.,
+    impact on photovoltaic efﬁciency and stability.                                                             Stavrakas, C., Philippe, B., Richter, J.M., Alsari,
+    Acc. Chem. Res. 49, 286–293.                         9. Meggiolaro, D., Mosconi, E., and Angelis, F.D.       M., Booker, E.P., Hutter, E.M., Pearson, A.J.,
+                                                               (2019). Formation of surface defects dominates       et al. (2018). Maximizing and stabilizing
+ 5. Bag, M., Renna, L.A., Adhikari, R.Y., Karak, S.,        ion migration in lead-halide perovskites. ACS       luminescence from halide perovskites with
+     Liu, F., Lahti, P.M., Russell, T.P., Tuominen,         Energy Lett. 4, 779–785.                          potassium passivation. Nature 555, 497–501.
+    M.T., and Venkataraman, D. (2015). Kinetics of
+    ion transport in perovskite active layers and its   10. Yang, S., Chen, S., Mosconi, E., Fang, Y., Xiao,    14. Zhang, Y., Grancini, G., Fei, Z., Shirzadi, E., Liu,
+    implications for active layer stability. J. Am.            X., Wang, C., Zhou, Y., Yu, Z., Zhao, J., Gao, Y.,         X., Oveisi, E., Tirani, F.F., Scopelliti, R., Feng, Y.,
+   Chem. Soc. 137, 13130–13137.                       et al. (2019). Stabilizing halide perovskite           Nazeeruddin, M.K., and Dyson, P.J. (2019).
+
+
+
+                                                                                             Cell Reports Physical Science 3, 100760, February 16, 2022   13
+--- Страница 15 ---
+          ll
+   OPEN ACCESS                                                          Article
+
+
+
+    Auto-passivation of crystal defects in hybrid          perovskites and its effect on photovoltaic         39. Jung, E.H., Jeon, N.J., Park, E.Y., Moon, C.S.,
+   imidazolium/methylammonium lead iodide         performance. Nat. Commun. 9, 1336.                 Shin, T.J., Yang, T., Noh, J.H., and Seo, J.
+   ﬁlms by fumigation with methylamine affords                                                                    (2019). Efﬁcient, stable and scalable perovskite
+    high efﬁciency perovskite solar cells. Nano       27. Lian, Z., Yan, Q., Lv, Q., Wang, Y., Liu, L., Zhang,        solar cells using poly(3-hexylthiophene).
+   Energy 58, 105–111.                                            L., Pan, S., Li, Q., Wang, L., and Sun, J. (2015).       Nature 567, 511–515.
+                                                  High-performance planar-type photodetector
+15. Zhou, Q., Duan, J., Yang, X., Duan, Y., and         on (100) facet of MAPbI3 single crystal. Sci. Rep.   40. Mancini, A., Quadrelli, P., Amoroso, G.,
+   Tang, Q. (2020). Interfacial strain release from         5, 16563.                                          Milanese, C., Boiocchi, M., Sironi, A., Patrini,
+    the WS2/CsPbBr3 van der Waals                                                                       M., Guizzetti, G., and Malavasi, L. (2016).
+    heterostructure for 1.7 V voltage all-inorganic    28. Ding, J., Jing, L., Cheng, X., Zhao, Y., Du, S.,         Synthesis, structural and optical
+    perovskite solar cells. Angew. Chem. Int. Ed.        Zhan, X., and Cui, H. (2018). Design growth of        characterization of APbX3
+    59, 21997–22001.                             MAPbI3 single crystal with (220) facets exposed      (A=methylammonium, dimethylammonium,
+                                             and its superior optoelectronic properties.          trimethylammonium; X=I, Br, Cl) hybrid
+16. Liu, X., Wang, X., Zhang, T., Miao, Y., Qin, Z.,          J. Phys. Chem. Lett. 9, 216–221.                     organic-inorganic materials. J. Solid State
+   Chen, Y., and Zhao, Y. (2021). Organic                                                    Chem. 240, 55–60.
+   tetrabutylammonium cation intercalation to      29. Ansari, F., Shirzadi, E., Niasari, M.S., LaGrange,
+    heal inorganic CsPbI3 perovskite. Angew.               T., Nonomura, K., Yum, J., Sivula, K.,              41. Chen, S., Xiao, X., Chen, B., Kelly, L.L., Zhao, J.,
+   Chem. Int. Ed. 60, 12351–12355.                    Zakeeruddin, S.M., Nazeeruddin, M.K., Gra¨tzel,        Lin, Y., Toney, M.F., and Huang, J. (2021).
+                                                       M., et al. (2020). Passivation mechanism               Crystallization in one-step solution deposition
+17. Miao, Y., Chen, Y., Chen, H., Wang, X., and          exploiting surface dipoles affords high-              of perovskite ﬁlms: upward or downward? Sci.
+    Zhao, Y. (2021). Using steric hindrance to           performance perovskite solar cells. J. Am.          Adv. 7, eabb2412.
+   manipulate and stabilize metal halide            Chem. Soc. 142, 11428–11433.
+    perovskites for optoelectronics. Chem. Sci. 12,                                                          42. Dong, J., Shao, S., Kahmann, S., Rommens,
+    7231–7247.                                       30. Kroupa, D.M., Vo¨ ro¨ s, M., Brawand, N.P.,               A.J., Merino, D., Brink, G.H., Loi, M.A., and
+                                                    McNichols, B.W., Miller, E.M., Gu, J., Nozik,          Portale, G. (2020). Mechanism of crystal
+18. Miao, Y., Wang, X., Zhang, H., Zhang, T., Wei,         A.J., Sellinger, A., Galli, G., and Beard, M.C.         formation in Ruddlesden-Popper Sn-based
+    N., Liu, X., Chen, Y., Chen, J., and Zhao, Y.            (2017). Tuning colloidal quantum dot band           perovskites. Adv. Funct. Mater. 30, 2001294.
+    (2021). In situ growth of ultra-thin perovskitoid      edge positions through solution-phase surface
+    layer to stabilize and passivate MAPbI3 for           chemistry modiﬁcation. Nat. Commun. 8,         43. Zheng, X., Hou, Y., Bao, C., Yin, J., Yuan, F.,
+    efﬁcient and stable photovoltaics. eScience.         15257.                                       Huang, Z., Song, K., Liu, J., Troughton, J.,
+    https://doi.org/10.1016/j.esci.2021.09.005.                                                                Gasparini, N., et al. (2020). Managing grains
+                                                       31. Schulz, P., Cahen, D., and Kahn, A. (2019).         and interfaces via ligand anchoring enables
+19. Zhou, Z., Qiao, H.W., Hou, Y., Yang, H.G., and       Halide perovskites: is it all about the interfaces?       22.3%-efﬁciency inverted perovskite solar cells.
+   Yang, S. (2021). Epitaxial halide perovskite-        Chem. Rev. 119, 3349–3417.                        Nat. Energy 5, 131–140.
+   based materials for photoelectric energy
+    conversion. Energy Environ. Sci. 14, 127–157.     32. Stoumpos, C.C., Soe, C.M.M., Tsai, H., Nie, W.,   44. Lv, G., Li, L., Lu, D., Xu, Z., Dong, Y., Li, Q.,
+                                                     Blancon, J., Cao, D.H., Liu, F., Traore´ , B., Katan,      Chang, Z., Yin, W., and Liu, Y. (2021). Multiple-
+20. Lin, Z.Q., Lian, H.J., Ge, B., Zhou, Z., Yuan, H.,        C., Even, J., et al. (2017). High members of the       noncovalent-interaction-stabilized layered
+   Hou, Y., Yang, S., and Yang, H.G. (2021).         2D Ruddlesden-Popper halide perovskites:         Dion-Jacobson perovskite for efﬁcient solar
+   Mediating the local oxygen-bridge interactions        synthesis, optical properties, and solar cells of         cells. Nano Lett. 21, 5788–5797.
+    of oxysalt/perovskite interface for defect            (CH3(CH2)3NH3)2(CH3NH3)4Pb5I16. Chem 2,
+    passivation of perovskite photovoltaics.             427–440.                                          45. Duijnstee, E.A., Ball, J.M., Corre, V.M.L.,
+   Nanomicro Lett. 13, 177.                                                                                  Koster, L.J.A., Snaith, H.J., and Lim, J. (2020).
+                                                       33. Zhang, X., Ren, X., Liu, B., Munir, R., Zhu, X.,        Toward understanding space-charge limited
+21. Petridis, C., Kakavelakis, G., and Kymakis, E.        Yang, D., Li, J., Liu, Y., Smilgies, D.M., Li, R.,          current measurements on metal halide
+    (2018). Renaissance of graphene-related              et al. (2017). Stable high efﬁciency two-               perovskites. ACS Energy Lett. 5, 376–384.
+    materials in photovoltaics due to the               dimensional perovskite solar cells via cesium
+   emergence of metal halide perovskite solar         doping. Energy Environ. Sci. 10, 2095–2102.      46. Wang, Y., Dar, M.I., Ono, L.K., Zhang, T., Kan,
+     cells. Energy Environ. Sci. 11, 1030–1061.                                                               M., Li, Y., Zhang, L., Wang, X., Yang, Y., Gao, X.,
+                                                       34. Liang, C., Gu, H., Xia, Y., Wang, Z., Liu, X., Xia,       et al. (2019). Thermodynamically stabilized b-
+22. Moore, D.T., Sai, H., Tan, K.W., Smilgies, D.,             J., Zuo, S., Hu, Y., Gao, X., Hui, W., et al. (2021).      CsPbI3-based perovskite solar cells with
+   Zhang, W., Snaith, H.J., Wiesner, U., and           Two-dimensional Ruddlesden-Popper layered        efﬁciencies >18. Science 365, 591–595.
+    Estroff, L.A. (2015). Crystallization kinetics of         perovskite solar cells based on phase-pure thin
+    organic-inorganic trihalide perovskites and the       ﬁlms. Nat. Energy 6, 38–45.                       47. Almora, O., Zarazua, I., Marza, E., Sero, I.,
+    role of the lead anion in crystal growth. J. Am.                                                              Bisquert, J., and Belmonte, G. (2015).
+   Chem. Soc. 137, 2350–2358.                      35. Sidhik, S., Wang, Y., Li, W., Zhang, H., Zhong,        Capacitive dark currents, hysteresis, and
+                                                                    X., Agrawal, A., Hadar, I., Spanopoulos, I.,           electrode polarization in lead halide perovskite
+23. Hu, J., Oswald, I.W.H., Stuard, S.J., Nahid, M.M.,       Mishra, A., Traore´ , B., et al. (2021). High-phase        solar cells. J. Phys. Chem. Lett. 6, 1645–1652.
+    Zhou, N., Williams, O.F., Guo, Z., Yan, L., Hu, H.,        purity two-dimensional perovskites with 17.3%
+   Chen, Z., et al. (2019). Synthetic control over          efﬁciency enabled by interface engineering of    48. Wang, H., Chen, Z., Hu, J., Yu, H., Kuang, C.,
+    orientational degeneracy of spacer cations           hole transport layer. Cell Rep. Phys. Sci. 2,           Qin, J., Liu, X., Lu, Y., Fahlman, M., Hou, L., et al.
+   enhances solar cell efﬁciency in two-dimensional       100601.                                                  (2021). Dynamic redistribution of mobile ions in
+    perovskites. Nat. Commun. 10, 1276.                                                                     perovskite light-emitting diodes. Adv. Funct.
+                                                       36. Amat, A., Mosconi, E., Ronca, E., Quarti, C.,         Mater. 31, 2007596.
+24. Soe, C.M.M., Nagabhushana, G.P.,                 Umari, P., Nazeeruddin, M.K., Gra¨tzel, M., and
+    Shivaramaiah, R., Tsai, H., Nie, W., Blancone, J.,       Angelis, F.D. (2014). Cation-induced band-gap   49. McKee, R.A. (1981). A generalization of the
+   Melkonyan, F., Cao, D.H., Traore´ , B.,                tuning in organohalide perovskites: interplay of       Nernst-Einstein equation for self-diffusion in
+   Pedesseau, L., et al. (2019). Structural and            spin-orbit coupling and octahedra tilting. Nano       high defect concentration solids. Solid State
+   thermodynamic limits of layer thickness in 2D         Lett. 14, 3608–3616.                                   Ionics 5, 133–136.
+    halide perovskites. Proc. Natl. Acad. Sci. U S A
+    116, 58–66.                                       37. Li, G., Shrotriya, V., Huang, J., Yao, Y., Moriarty,   50. Chen, S., Liu, Y., Xiao, X., Yu, Z., Deng, Y., Dai,
+                                                                      T., Emery, K., and Yang, Y. (2005). High-                X., Ni, Z., and Huang, J. (2020). Identifying the
+25. Lin, Y., Fang, Y., Zhao, J., Shao, Y., Stuard, S.J.,       efﬁciency solution processable polymer               soft nature of defective perovskite surface layer
+    Nahid, M.M., Ade, H., Wang, Q., Shield, J.E.,        photovoltaic cells by self-organization of          and its removal using a facile mechanical
+   Zhou, N., et al. (2019). Unveiling the operation      polymer blends. Nat. Mater. 4, 864–868.            approach. Joule 4, 2661–2674.
+   mechanism of layered perovskite solar cells.
+    Nat. Commun. 10, 1008.                          38. Zhou, Z., Yang, S., Xu, K., Qiao, H.W., Xie, J.,     51. Ebadi, F., Aryanpour, M., Mohammadpour, R.,
+                                                                  Lin, Z., Ge, B., He, J., Chen, M., Zhang, J., et al.      and Taghavinia, N. (2019). Coupled ionic-
+26. Chen, A.Z., Shiu, M., Ma, J.H., Alpert, M.R.,           (2020). Diammonium-cesium lead halide              electronic equivalent circuit to describe
+   Zhang, D., Foley, B.J., Smilgies, D.M., Lee, S.,        perovskite with phase-segregated                 asymmetric rise and decay of photovoltage
+   and Choi, J.J. (2018). Origin of vertical               interpenetrating morphology for                    proﬁle in perovskite solar cells. Sci. Rep. 9,
+    orientation in two-dimensional metal halide          photovoltaics. J. Phys. Chem. Lett. 11, 747–754.       11962.
+
+
+
+14    Cell Reports Physical Science 3, 100760, February 16, 2022
+--- Страница 16 ---
+                                                                                                                      ll
+Article                                                             OPEN ACCESS
+
+
+
+52. Ge, B., Qiao, H.W., Lin, Z.Q., Zhou, Z.R.,           with high open-circuit voltage. Sol. RRL 3,         Ma´rquez, J.A., Ko¨ hnen, E., Kasparavi cius, E.,
+   Chen, A.P., Yang, S., Hou, Y., and Yang, H.G.      1900192.                                             et al. (2019). Conformal monolayer contacts
+    (2019). Deepening the valance band edges                                                            with lossless interfaces for perovskite single
+    of NiOx contacts by alkaline earth metal        53. Ashouri, A., Magomedov, A., Ro, M., Jo st, M.,        junction and monolithic tandem solar cells.
+   doping for efﬁcient perovskite photovoltaics        Talaikis, M., Chistiakova, G., Bertram, T.,           Energy Environ. Sci. 12, 3356–3369.
+
+
+
+
+
+                                                                                             Cell Reports Physical Science 3, 100760, February 16, 2022   15

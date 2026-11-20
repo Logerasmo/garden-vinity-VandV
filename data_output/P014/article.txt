@@ -1,0 +1,658 @@
+--- Страница 1 ---
+    materials
+
+
+
+Article
+Role of CdTe Interface Structure on CdS/CdTe Photovoltaic
+Device Performance
+
+Niva K. Jayswal, Dipendra Adhikari     , Indra Subedi     , Ambalanath Shan and Nikolas J. Podraza *
+
+
+
+                               Department of Physics and Astronomy, Wright Center for Photovoltaics Innovation and Commercialization,
+                             The University of Toledo, Toledo, OH 43606, USA; niva.jayswal@rockets.utoledo.edu (N.K.J.);
+                                   dipendra.adhikari@rockets.utoledo.edu (D.A.); indra.subedi@rockets.utoledo.edu (I.S.)
+                                     * Correspondence: nikolas.podraza@utoledo.edu
+
+
+                                Abstract: Glancing angle deposition (GLAD) of CdTe can produce a cubic, hexagonal, or mixed
+                             phase crystal structure depending upon the oblique deposition angles (Φ) and substrate temperature.
+                    GLAD CdTe ﬁlms are prepared at different Φ at room temperature (RT) and a high temperature
+                           (HT) of 250 ◦C and used as interlayers between the n-type hexagonal CdS window layer and the
+                              p-type cubic CdTe absorber layer to investigate the role of interfacial tailoring at the CdS/CdTe
+                                heterojunction in photovoltaic (PV) device performance. The Φ = 80◦RT GLAD CdTe interlayer and
+                       CdS both have the hexagonal structure, which reduces lattice mismatch at the CdS/CdTe interface
+                         and improves electronic quality at the heterojunction for device performance optimization. The
+                              device performance of HT CdS/CdTe solar cells with Φ = 80◦RT with 50 to 350 nm thick GLAD
+                          CdTe interlayers is evaluated in which a 250 nm interlayer device shows the best device performance
+                             with a 0.53 V increase in open-circuit voltage and ﬁll-factor product and a 0.73% increase in absolute
+                               efﬁciency compared to the HT baseline PV device without an interlayer.
+
+
+                           Keywords: glancing angle deposition (GLAD); thin ﬁlm solar cell; GLAD CdTe interlayer; interface
+                                   tailoring
+
+
+
+
+                                   1. Introduction
+Citation: Jayswal, N.K.; Adhikari, D.;
+Subedi, I.; Shan, A.; Podraza, N.J.        Cadmium telluride (CdTe) is a photovoltaic (PV) absorber layer material with an
+Role of CdTe Interface Structure on     absorption coefﬁcient > 105 cm−1 in the visible spectral range and a bandgap of ~1.5 eV
+CdS/CdTe Photovoltaic Device      which is well suited for single-junction PV devices [1–7]. CdTe-based PV devices have
+Performance. Materials 2023, 16, 6812.   achieved 22.1% efﬁciency and have captured ~5% of the current world PV market [8]. CdTe
+https://doi.org/10.3390/          can be deposited using different deposition methods such as close-space sublimation [9,10],
+ma16206812                     electrochemical deposition [11], close-space vapor transport deposition [12,13], and sputter-
+                            ing [2–6]. Sputtered CdTe solar cells are widely studied in laboratory research as they can be
+Academic Editor: Abderrahim Yassar
+                              fabricated at comparatively low temperatures (<250 ◦C), whereas close-space sublimation
+Received: 21 September 2023        and vapor transport deposition require high processing temperatures (>500 ◦C) for the best
+Revised: 15 October 2023         CdTe cells, while electrochemical deposition requires acidic or basic media. Previously,
+Accepted: 17 October 2023             all sputtered CdS/CdTe heterojunction solar cells with up to 14% efﬁciency have been
+Published: 23 October 2023          reported [6]. The efﬁciency of CdTe solar cell devices can be increased by improving the
+                            conductivity of the front contact with novel transparent conducting oxides with higher
+                            conductivity and low resistance. Other potential measures include barrier-free back con-
+Copyright: © 2023 by the authors.   tacts and fewer defects at the CdS/CdTe interface by reducing the high lattice mismatch
+Licensee MDPI, Basel,  Switzerland.  between the n-type hexagonal CdS window layer and the p-type cubic CdTe absorber
+This article is an open access article   layer [14,15]. The lattice mismatch between hexagonal wurtzite-structured CdS and cubic
+distributed  under  the  terms  and   zinc blende CdTe can be reduced by optimizing the interdiffusion of CdS and CdTe at the
+conditions of the Creative Commons  CdS/CdTe interface or controlling the microstructure of CdTe at the interface to improve
+Attribution (CC BY) license (https://   the electronic quality [16–18]. The optimized interdiffusion of CdS and CdTe at the interface
+creativecommons.org/licenses/by/    reduces the lattice mismatch due to the decreased interatomic distance by the substitution
+4.0/).                          of lower atomic radii sulfur onto tellurium sites. The crystallite orientation and size can be
+
+
+
+
+
+Materials 2023, 16, 6812. https://doi.org/10.3390/ma16206812                                     https://www.mdpi.com/journal/materials
+--- Страница 2 ---
+Materials 2023, 16, 6812                                                                                                         2 of 12
+
+
+
+                              controlled by manipulating the microstructure at the interface, which can be used to reduce
+                            the lattice mismatch at the CdS/CdTe heterojunction interface to improve the structural
+                       and electronic quality, leading to better PV device performance.
+                              Glancing angle deposition (GLAD) can be employed to produce polycrystalline thin
+                       ﬁlms with different microstructures for use at the CdS/CdTe interface. In GLAD, the
+                              substrate normal and target normal are at an oblique source ﬂux angle (Φ). Microstructural
+                             control of the CdTe ﬁlms by oblique angle deposition can engineer different crystal struc-
+                             tures and crystallite orientations of the polycrystalline thin ﬁlms. In previous studies, an
+                           X-ray diffraction (XRD) analysis of room temperature (RT) GLAD CdTe has been shown to
+                              exhibit cubic [19–22], mixed phase [20], or hexagonal CdTe crystal structures for the ﬁlms
+                          prepared by varying source ﬂux angles from Φ = 0◦to 80◦using different physical vapor
+                            deposition techniques, such as thermal evaporation and sputtering [23–26]. The presence
+                              of overlapping cubic and hexagonal phase diffraction peaks implies the mixed phase, with
+                            the dominant peaks being the cubic phase.
+                           The metastable hexagonal wurtzite phase of CdTe is produced when sputtered at an
+                           oblique angle (Φ = 80◦) deposition at RT, as opposed to the more stable cubic zinc blende
+                       CdTe [23]. However, XRD patterns of 250 ◦C GLAD CdTe ﬁlms exhibit only a cubic or mixed
+                         phase structure at any oblique source ﬂux angle [26]. The Φ = 40◦GLAD CdTe thin ﬁlm
+                              fabricated at 250 ◦C shows the highest preferential crystallite orientation and has the largest
+                                 crystallite size among the high-temperature (HT) GLAD polycrystalline CdTe ﬁlms [26].
+                       More preferential crystallite orientations and the strong preference for the formation of the
+                              stable cubic phase over the metastable wurtzite phase occur at high-temperature CdTe in
+                            general due to additional thermal energy increasing the diffusion length of precursors on
+                            the surface and facilitating the formation of the more thermodynamically stable crystal
+                              structure compared to the material deposited at room temperature. The largest crystallite
+                              size and most preferential orientation are observed for high-temperature GLAD CdTe
+                          prepared at Φ = 40◦, possibly as an effect of a slightly lower nucleation density. Hexagonal
+                       and mixed phase CdTe produced by higher deposition angles exhibit a crystal structure
+                       more comparable with hexagonal CdS than the zinc blende cubic phase of CdTe. When
+                           applied at the CdS/CdTe interface, PV device performance can be optimized by reducing
+                                  lattice mismatch at the n/p heterojunction interface. Previously, an RT-deposited CdTe
+                              solar cell with an RT GLAD CdTe interlayer demonstrated a 0.9% increase in absolute
+                            efﬁciency [23].
+                               This work investigates the role of interfacial tailoring of the phase structure and the
+                             resulting effect on the HT CdS/CdTe solar cell device performance. GLAD is used to
+                         produce interlayers with wurtzite and mixed phase crystal structures as well as strongly
+                              preferentially oriented cubic CdTe, which are then applied between the thin (~100 nm)
+                           wurtzite hexagonal CdS window layer and thicker (~2000 nm) zinc blende cubic CdTe
+                              absorber. GLAD interlayer deposition conditions are chosen to modify the phase structure
+                           (hexagonal and mixed phase), degree of preferential crystallite orientation, and crystallite
+                                 size. As a result, the impacts of tailoring the phase structure and crystallite orientation at
+                             the CdS/CdTe heterojunction interface on device performance are studied using interlayers
+                         prepared at Φ = 80◦RT with the hexagonal structure and at Φ = 40◦HT with the largest
+                                 crystallite size and most preferentially oriented cubic phase crystallites.
+                                Here, we have incorporated 50 to 350 nm thick Φ = 80◦RT GLAD CdTe interlayers and
+                          a 150 nm thick Φ = 40◦HT GLAD interlayer in CdS/CdTe PV devices with the remainder
+                              of the bulk CdTe fabricated at 250 ◦C, and we have compared the device performance with
+                            the baseline PV devices without interlayers fabricated at 250 ◦C and RT. The hexagonal
+                          phase GLAD CdTe interlayers adjacent to the hexagonal CdS heterojunction partner reduce
+                            the lattice mismatch between it and cubic CdTe. This enables better tailoring of the phase
+                              structure resulting in improved electronic quality at the interface and is expected to enhance
+                   PV device performance. PV device performance parameters are determined for all the
+                            devices discussed in this work in terms of efﬁciency, open-circuit voltage (Voc), short-circuit
+                             current density (Jsc), ﬁll-factor (FF), and Voc × FF product. The ideality factors of baseline
+--- Страница 3 ---
+Materials 2023, 16, 6812                                                                                                         3 of 12
+
+
+                             devices, the best performance device, and the Φ = 40◦HT GLAD interlayer device are
+                         determined to evaluate the diode behavior of these devices. The PV device efﬁciency,
+                               Voc, and FF have been improved and are the highest with the incorporation of a 250 nm
+                 Φ = 80◦RT GLAD CdTe interlayer between CdS and bulk CdTe layers of an otherwise
+                          standard HT CdS/CdTe solar cell due to the reduced lattice mismatch and strain at the
+                                interface. Also, the important device parameter, the Voc × FF product, is the highest for
+                            the 250 nm Φ = 80◦RT GLAD CdTe interlayer device due to better tailoring of the phase
+                             structure improving the electronic quality of the interface. An optimized morphology of
+                             the GLAD CdTe interface has been identiﬁed to improve the PV device performance due to
+                        an improved n/p heterojunction interface.
+
+                                   2. Materials and Methods
+                                   2.1. Standard CdS/CdTe Solar Cell Fabrication
+
+                               Standard CdS/CdTe heterojunction solar cells have been fabricated with and without
+                  GLAD CdTe interlayers in the superstrate conﬁguration (TEC-12D/CdS/GLAD CdTe-
+                          interlayer/CdTe/Cu/Au) as shown in Figure 1. TEC-12D (NSG Pilkington North America,
+                        Northwood, OH, USA) [23] is a commercial soda lime glass coated with 300 to 400 nm
+                         ﬂuorine-doped tin oxide (SnO2:F) and a 50 nm high-resistivity transparent (HRT) SnO2
+                             layer on top of SnO2:F. Prior to the CdS/CdTe solar cell fabrication, the TEC-12D glass
+                             superstrate is ultrasonically cleaned in two steps with and without detergent for 45 min,
+                       and then rinsed with deionized water followed by drying with nitrogen gas. The 100 nm
+                            n-type CdS window layer is prepared on TEC-12D followed by p-type CdTe absorber layer
+                            deposition using RF magnetron sputtering at normal incidence to fabricate all CdS/CdTe
+                                     cells, with or without a GLAD CdTe interlayer. For standard baseline CdS/CdTe solar cells
+                          without interlayers, a 2.2 to 2.5 µm thick bulk CdTe is deposited at HT and RT following
+                      CdS deposition, but for cells with an interlayer, the bulk CdTe is deposited after the GLAD
+                       CdTe interlayer. After the application of the CdTe bulk layer, CdCl2 treatment is carried out
+                              for 30 min in dry air at 387 ◦C, followed by a methanol wash and nitrogen drying as has
+                         been previously optimized [2,23,27–29]. To complete the solar cell, a back contact of 3 nm
+                    Cu and 40 nm Au is deposited at RT using thermal evaporation onto the CdCl2-treated
+                      CdS/CdTe stack with a dot shadow mask. A 4′′ × 4′′ superstrate is used to fabricate
+                          144 individual dot solar cells, each with an area of 0.126 cm2.
+
+
+
+
+
+                              Figure 1. CdS/CdTe solar cell structure with a thin GLAD CdTe (hexagonal, cubic, or mixed phase)
+                                  interlayer between hexagonal wurtzite CdS and cubic zinc blende CdTe bulk layer.
+
+                            To increase the p-type conductivity of the CdTe absorber layer, Cu diffusion is per-
+                        formed by annealing the complete solar cell device at 150 ◦C for 30 min in air, enabling
+--- Страница 4 ---
+Materials 2023, 16, 6812                                                                                                         4 of 12
+
+
+
+                            the Cu to diffuse into bulk CdTe rather than remaining as a thin layer. The details of the
+                            deposition parameters for each layer of the solar cell are listed in Table 1.
+
+
+                             Table 1. Deposition parameters for CdS/CdTe solar cell component. RT indicates room temperature.
+
+
+                                                                               Deposition Parameters
+                     Deposition                      Thickness
+      Layer                         Temperature                                  Target      Pressure     Ar Flow                     Technique                        (nm)     Φ (◦)
+                                                                     Power (W)     (mTorr)       (sccm)
+      CdS        RF sputtering        250 ◦C           100                      200          15           23
+
+  GLAD CdTe                       RT           50–350         80          100          15           23
+                 RF sputtering
+     interlayer                            250 ◦C           150          40          100          15           23
+
+                                  RT           2.2–2.4 µm        0          100          15           23
+    Bulk CdTe      RF sputtering
+                                         250 ◦C         2.2–2.4 µm        0          100          15           23
+
+                     Thermal      Cu                          RT              3                  -                 -          10−3                -
+                      evaporation
+
+                     Thermal     Au                          RT             40                 -                 -          10−3                -
+                      evaporation
+
+
+                                   2.2. Interlayer CdTe Deposition
+
+                     GLAD CdTe thin ﬁlms of different thicknesses are produced at different oblique angles
+                       (Φ = 80◦and 40◦) using RF magnetron sputtering with the schematic shown in Figure 2.
+                          Both the GLAD CdTe interlayer and bulk CdTe ﬁlms are deposited using a 7.62 cm diameter
+                      CdTe target (99.999% pure, Kurt. J. Lesker Co., Jefferson Hills, PA, USA) in 15 mTorr Ar
+                          gas pressure at 100 W target power. At the normal incidence (Φ = 0◦) deposition, the
+                            distance between the substrate and target centers is 13.4 cm. Previously, RT GLAD CdTe
+                          prepared at Φ = 80◦has been shown to have a hexagonal wurtzite crystal phase [23]. Also,
+                          a 0.9% increase in absolute efﬁciency of the RT CdS/CdTe solar cell has been shown by
+                            incorporating such a ﬁlm of 100 nm thickness as an interlayer compared to a standard
+                             baseline RT CdS/CdTe solar cell without an interlayer [23]. The hexagonal structure
+                             of Φ = 80◦RT CdTe has been used as an interlayer due to its similar crystal structure to
+                          hexagonal CdS, reducing the lattice mismatch between hexagonal CdS and cubic bulk CdTe,
+                          with the resulting phase structure improving the electronic quality at the n/p heterojunction
+                              interface and increasing device performance. HT GLAD CdTe prepared at Φ = 40◦has
+                            the highest preferential crystallite orientation and larger crystallite size relative to normal
+                            incidence cubic CdTe and is used to generate a more ordered material present at the
+                            heterojunction than the baseline. The Φ = 40◦HT GLAD CdTe device has been studied
+                            as it has the greatest degree of preferential crystallite orientation and largest crystallite
+                              size among the GLAD ﬁlms studied which reduce grain boundaries with the potential
+                             to reduce the photo-generated charge carrier recombination at the interface leading to
+                        improved device performance. Here, Φ = 80◦RT GLAD CdTe interlayer ﬁlms prepared
+                        under the same conditions with different thicknesses of 50, 100, 150, 200, 250, 300, and
+                          350 nm and a 150 nm Φ = 40◦HT GLAD CdTe interlayer have been incorporated between
+                             the wurtzite hexagonal n-type CdS window layer and zinc blende cubic p-type CdTe bulk
+                            absorber prepared at HT. The 50 to 350 nm thick Φ = 80◦RT GLAD CdTe ﬁlms are expected
+                             to have a hexagonal crystal structure, as was indicated previously for >1000 nm ﬁlms
+                     made under the same conditions before and after the CdCl2 treatment [23]. The Φ = 40◦
+                  HT GLAD CdTe > 1000 nm [26] has a predominately cubic mixed phase structure with
+                               preferential orientation of H(002)/C(111) and C(222) crystallites; therefore, a 150 nm GLAD
+                       CdTe ﬁlm is deposited in the same manner. The structural properties of CdTe ﬁlms can tune
+                            the optoelectronic properties of PV device optimization resulting from the GLAD CdTe
+                               tailoring of the material structure between hexagonal CdS and cubic CdTe at the interface.
+                       The deposition rate of the target material at the center of the substrate is ~31 nm/min for
+                 Φ = 0◦HT CdTe, ~15 nm/min for Φ = 80◦RT GLAD CdTe, and ~28 nm/min for Φ = 40◦
+--- Страница 5 ---
+Materials 2023, 16, 6812                                                                                                         5 of 12
+
+
+
+                  HT GLAD CdTe. For the PV device characterization, the current density versus voltage
+                               (J-V) has been measured using a Keithley 2440 digital source meter in the dark and under
+                         one sun AM1.5 (100 mW/cm2) illumination with a 450 W Xenon light source (Oriel, Model
+                             9119, Newport, CA, USA) [15,23,25,27,29].
+
+
+
+
+
+                              Figure 2. Schematic of glancing angle deposition (GLAD) sputtering at an oblique angle Φ.
+
+                                   3. Results and Discussion
+
+                              Standard CdTe devices without GLAD CdTe interlayers are fabricated with the bulk
+                       CdTe deposited at HT and RT and having the device structure shown in Figure 1. HT bulk
+                      CdTe ﬁlms have pronounced crystallinity and more preferentially orientated crystallites
+                          with larger grain sizes when compared to RT bulk CdTe ﬁlms. The larger grains of HT bulk
+                       CdTe reduce grain boundaries and defect state density, leading to reduced photo-generated
+                               carrier recombination. As expected, the device efﬁciency of the standard HT CdTe cell
+                          without the interlayer is higher than the standard RT CdTe cell without an interlayer. Jsc,
+                               Voc, and FF increase from 21.36 mAcm−2, 0.767 V, and 58.62% for the RT baseline device
+                              to 22.15 mAcm−2, 0.825 V, and 64.22% for the HT baseline device. The standard HT CdTe
+                           device shows a 3.2% absolute increase in efﬁciency when compared to the standard RT
+                       CdTe device, increasing from 9.59 to 12.76%.
+                                Building from the baseline device structure, CdS/CdTe solar cells have been fabricated
+                            incorporating Φ = 80◦RT GLAD CdTe interlayers with different thicknesses from 50 to
+                           350 nm and a Φ = 40◦HT GLAD CdTe interlayer for comparison with devices incorporating
+                          bulk CdTe deposited at 250 ◦C without interlayers. To investigate whether a hexagonal
+                               crystal structure interlayer may improve the performance of typical HT CdS/CdTe solar
+                                   cells by minimizing strain and lattice mismatch, the Φ = 80◦RT GLAD hexagonal structured
+                    CdT interlayer of different thicknesses, dn, (n = 1 to 7) = 50, 100, 150, 200, 250, 300, and
+                           350 nm is incorporated between the wurtzite hexagonal CdS n-type heterojunction partner
+                       and zinc blende cubic CdTe p-type absorber. Previously, it had been observed that the
+                         hexagonal structured RT GLAD CdTe interlayer reduces the lattice mismatch between
+                          hexagonal CdS and cubic bulk CdTe, reducing the defect density and carrier recombination
+                                at the heterojunction n/p interface in devices with RT CdTe bulk absorbers and improving
+                            the device performance by a 0.9% absolute increase in efﬁciency [23]. The potentially
+                       mixed phase but predominately cubic HT GLAD CdTe interlayer prepared at Φ = 40◦,
+                          having the largest crystallite size and highest preferential crystallite orientation with only
+                           H(002)/C(111) and C(222) diffraction peaks [26], is incorporated in standard HT CdS/CdTe
+--- Страница 6 ---
+Materials 2023, 16, 6812                                                                                                         6 of 12
+
+
+
+                              solar cells to investigate the impact of the reduced grain boundaries and preferential
+                                 crystallite orientation of the HT GLAD interlayer on PV device performance.
+                                Figures 3 and 4 show the statistical distribution (best 20 performing cells) of device
+                              efﬁciency, Voc, Jsc, FF, and the product of Voc and FF (Voc × FF) for the different device
+                          conﬁgurations tested and comparison of device performance parameters are shown in
+                           Table 2. These devices are fabricated with varying deposition parameters as those (I, II)
+                          without interlayers fabricated at RT and 250 ◦C as baselines; (III) with a 250 ◦C deposited
+                          bulk absorber and a Φ = 40◦mixed phase interlayer also deposited at a high temperature,
+                       which exhibits highly preferential orientation; and (dn, n = 1–7) with 250 ◦C deposited
+                          bulk absorbers and different Φ = 80◦RT interlayers of different thickness which exhibit a
+                          hexagonal crystal structure. The device with a 250 nm Φ = 80◦RT GLAD CdTe interlayer
+                       shows the highest efﬁciency and Voc × FF increasing from 12.76 to 13.49% (absolute 0.73%
+                              increase) and 0.53 to 0.58 V (9.4% increase), respectively, when compared to the best
+                          performing standard HT baseline device. The Voc × FF product is the key factor for voltage
+                                at the maximum power point as the solar cells are designed to be operated at the maximum
+                       power point in commercial use [30]. Practically, this also enables a more direct comparison
+                              of device performance when subtle differences in absorber layer thickness impact Jsc and
+                            the resulting device efﬁciency, while Voc and FF may be less strongly impacted. Previous
+                             studies have shown that some portion of metastable hexagonal CdTe remains after the
+                           higher temperature CdCl2 process, so these improvements in device performance may be
+                              attributed to a similar effect whereby hexagonal phase crystallites are present in sufﬁcient
+                              quantities to reduce lattice mismatch at the CdS/CdTe interface, but not to the extent that
+                            the electronic performance of the bulk layer is reduced. Reducing the lattice mismatch
+                         improves the n/p interface, making it less defective with a higher electronic quality which
+                              also reduces carrier recombination and increases the device performance [31,32].
+                       When comparing the device performance with different thicknesses of this interlayer,
+                            the average Jsc initially decreases and then increases with the increasing interlayer thick-
+                              ness. The initial decrease in Jsc with small interlayer thicknesses can be attributed to the
+                           recombination of the photo-generated charge carriers in the bulk CdTe absorber. Although
+                           recombination may also occur in these thin GLAD interlayers, devices with thicker GLAD
+                              interlayers show increased Jsc, implying that the electronic quality of the bulk CdTe may
+                         be compromised when deposited upon thin GLAD interlayers. The latter increase in Jsc
+                          with increasing interlayer thickness can be attributed to the increased total CdTe thickness
+                             of the bulk and the GLAD interlayer, which consistently increases by ~0.2 mA/cm2 per
+                          each 50 nm increase in the interlayer and total thickness. Previously, it has been shown
+                              that the Jsc of CdS/CdTe solar cells increases with increasing CdTe thickness up to ~3 or
+                          4 µm [33–36]. The total thickness of the CdTe absorber, consisting of both the bulk and
+                  GLAD interlayer, in any of these devices does not exceed 4 µm, which may have led to
+                          a slight increase in Jsc when the interlayer is incorporated to increase the total absorber
+                              layer thickness.
+                            The device with a 250 nm Φ = 80◦RT GLAD CdTe interlayer device shows the highest
+                            Voc due to a reduction in the lattice mismatch from tailoring the phase structure at the
+                                interface. The FFs of all interlayer devices except the device with the 250 nm interlayer
+                            are comparable to or less than the FFs of HT baseline devices, which may be due to the
+                           presence of parasitic resistance leading to reduced diode characteristics of the solar cell.
+                        The reduced Voc and FF for devices with GLAD interlayers greater than or less than 250 nm
+                      show that interface modiﬁcation is not optimized. The device incorporating the 250 nm
+                  GLAD interlayer shows the highest FF among all devices, which can be attributed to
+                         lower parasitic resistive losses. The optimization observed when incorporating a 250 nm
+                             thick Φ = 80◦RT GLAD CdTe interlayer compared to thinner interlayers may be due to
+                          a decreasing strain gradient in the GLAD CdTe with increasing thickness, and it is the
+                            highest when in contact with CdS [23,37,38]. However, structural defects also increase
+                         with the interlayer thickness due to the relatively low density and pronounced columnar
+                             structure of the GLAD interlayer compared to bulk CdTe upon which bulk CdTe grows.
+--- Страница 7 ---
+Materials 2023, 16, 6812                                                                                                         7 of 12
+
+
+
+                            Here, a device incorporating a 250 nm GLAD interlayer may be optimized by the reduction
+                             of strain at the interlayer/bulk CdTe interface with an interlayer that is not sufﬁciently
+                              thick to negatively impact the subsequent growth of bulk CdTe.
+
+
+
+
+
+                              Figure 3.  (a) Efﬁciency, (b) open-circuit voltage (Voc), (c) short-circuit current density (Jsc), and
+                                   (d) ﬁll-factor (FF) for the 20 best CdTe photovoltaic devices with and without GLAD CdTe interlayers
+                             prepared with varying temperatures, source ﬂux angles, and thicknesses.
+
+
+
+
+
+                              Figure 4. The product of Voc and FF for the 20 best (highest efﬁciency) CdTe photovoltaic devices
+                            with and without GLAD CdTe interlayers prepared with varying temperatures, source ﬂux angles,
+                          and thicknesses.
+--- Страница 8 ---
+Materials 2023, 16, 6812                                                                                                         8 of 12
+
+
+
+
+                             Table 2. Comparison of device performance parameters of 20 highest efﬁciency CdTe solar cells with
+                         and without GLAD interlayers prepared as functions of deposition temperature, source ﬂux angle
+                                  (Φ), and interlayer thicknesses.
+
+
+                   CdTe Deposition                                        Device Parameters                       Best Cell
+
+     Bulk         Interlayer            Interlayer
+                                                                                                                     Jsc                     Efﬁciency    Voc × FF (V)
+    CdTe         CdTe    Φ    Thickness                    Voc (V)                   FF (%)                                                                   (mAcm−2)                   (%)       (× 10−2)
+  Temperature   Temperature           (nm)
+                                                        Best cell         0.767           21.36          58.62          9.59           44.96
+               w/o
+     RT                     interlayer         -             -        Average of    0.741 ± 0.017    19.9 ± 1.4     55.4 ± 2.3      8.2 ± 0.8
+                                                    20 cells
+                                                        Best cell         0.825           22.15          64.22          12.76           52.98
+               w/o
+                     interlayer         -             -        Average of    0.797 ± 0.022    22.2 ± 0.3     67.8 ± 1.6     12.3 ± 0.2
+                                                    20 cells
+                                                        Best cell         0.751           22.95          70.25          12.11           52.76
+               HT        40◦       150       Average of                                                                       0.757 ± 0.015    22.5 ± 0.3     69.3 ± 1.1     11.8 ± 0.1
+                                                    20 cells
+                                                        Best cell         0.778           22.28          63.66          11.04           49.53
+                                  80◦       50       Average of
+                                                                       0.761 ± 0.015    22.1 ± 0.3     62.0 ± 1.4     10.5 ± 0.2
+                                                    20 cells
+                                                        Best cell         0.783           22.22          68.65          11.94           53.75
+                                  80◦       100       Average of
+                                                                       0.756 ± 0.012    22.3 ± 0.4     66.7 ± 1.6     11.2 ± 0.3
+                                                    20 cells
+                                                        Best cell         0.808           22.06          69.37          12.36           56.05
+    HT                        80◦       150       Average of
+                                                                       0.778 ± 0.028    21.9 ± 0.3     68.7 ± 1.3     11.7 ± 0.3
+                                                    20 cells
+                                                        Best cell         0.801           22.46          68.33          12.29           54.73                 RT
+                                  80◦       200       Average of
+                                                                       0.765 ± 0.025    22.6 ± 0.3     67.7 ± 1.2     11.7 ± 0.3
+                                                    20 cells
+                                                        Best cell         0.826           23.15          70.54          13.49           58.26
+                                  80◦       250       Average of
+                                                                       0.821 ± 0.005    22.77 ± 0.4    69.29 ±1.3     12.9 ± 0.4
+                                                    20 cells
+                                                        Best cell         0.800           23.69          67.10         12.717          53.68
+                                  80◦       300       Average of
+                                                                       0.786 ± 0.011    23.0 ± 0.5     65.2 ± 1.0     11.8 ± 0.3
+                                                    20 cells
+                                                        Best cell         0.793           23.13          66.01          12.11           52.35
+                                  80◦       350       Average of
+                                                                       0.784 ± 0.007    23.2 ± 0.2     63.2 ± 1.2     11.5 ± 0.2
+                                                    20 cells
+
+
+                             Implementing the Φ = 40◦HT GLAD CdTe interlayer in a standard HT CdTe device
+                         does not show improvement in device performance. In previous work, the XRD patterns
+                              of Φ = 40◦HT GLAD CdTe did not exhibit diffraction peaks that can be attributed solely
+                              to the hexagonal phase. Predominant diffraction peaks are C(222) for Φ = 40◦HT GLAD
+                       CdTe and C(400) and C(331) for Φ =0◦HT CdTe. The lattice mismatch between the crystal
+                            planes of C(222)-oriented crystallites found predominately in Φ = 40◦HT GLAD CdTe and
+                          hexagonal CdS might be higher than that between those associated with C(400) or C(331)-
+                            oriented crystallites found in the more randomly oriented Φ = 0◦of HT CdTe. Hence, a
+                              larger lattice mismatch between the Φ = 40◦HT GLAD CdTe interlayer and CdS than the
+                  HT CdTe and CdS causes an increase in carrier recombination at that interface due to the
+                           presence of increased strain, unpassivated bonds, or both, and a decrease in Voc, Voc × FF,
+                        and PV device efficiency for the Φ = 40◦HT GLAD CdTe interlayer PV device compared to
+                             the HT baseline device. Jsc of the Φ = 40◦HT GLAD CdTe interlayer is higher than that of the
+                  HT baseline device, which can be attributed to the greater sum of the bulk and GLAD CdTe
+                               interlayer leading to increased photo-generation and collection of carriers. The FF of the
+                 Φ = 40◦HT GLAD CdTe interlayer is higher than the HT baseline device due to improved
+                          diode characteristics, as observed from an improved ideality factor. These results indicate
+                               that the most preferentially oriented HT GLAD CdTe interlayer is not beneficial to improving
+                             the PV device performance, primarily by its negative effect on Voc. Based on this observation,
+--- Страница 9 ---
+Materials 2023, 16, 6812                                                                                                         9 of 12
+
+
+                           varying the Φ = 40◦HT GLAD CdTe interlayer thickness would not be expected to optimize
+                            the device; however, a complete series, as for those based on the Φ = 80◦RT GLAD CdTe
+                                  interlayer, has not be produced. For the Φ = 40◦HT GLAD CdTe interlayer device, the highest
+                                strain and lattice mismatch occurs at the CdS/GLAD interlayer interface. The greater level
+                              of preferential orientation in this GLAD interlayer than in the baseline is likely responsible
+                               for the lower Voc. Although the strain will decrease with the increasing interlayer thickness,
+                            the structural defects occurring with the increasing GLAD interlayer thickness due to the
+                                 relatively low density of the GLAD interlayer compared to bulk CdTe upon which bulk CdTe
+                        grows will reduce the FF [23,37,38].
+                               Figure 5 shows the light and dark J-V characteristics of the highest efﬁciency RT
+                       and HT baseline PV devices without interlayers and Φ = 40◦HT and 250 nm Φ = 80◦RT
+                  GLAD CdTe interlayer devices. The J-V behavior of the solar is described by the diode
+                           equation [39–41]:
+                                                                q
+                                                                      J = J0 exp      (V −JRS) + GSHV −JL,                       (1)
+                                               AkBT
+
+                        where J0 is the reverse saturation current, A is the diode ideality factor, q is the electronic
+                             charge, kB is Boltzmann’s constant, T is the temperature, Rs is series resistance, GSH is shunt
+                            conductance, and JL is the load current density = Jsc = 0 for dark conditions. From the experi-
+                          mental dark J-V, the solar cell diode ideality factors and series resistances are determined
+                        from the behavior of dV/dJ as a function of 1/J as shown in Figure 6. The slope and the
+                               intercept of the linear fit of dV/dJ as a function of 1/J are used to find the ideality factor and
+                                 series resistance, respectively. The series resistances are found to be 4.3 and 4.7 Ωcm2 for the
+                     RT and HT baseline devices with ideality factors of 2.2 and 1.5, respectively. Similarly, the
+                                series resistances are 6.0 and 2.7 Ωcm2 for the Φ = 40◦HT and 250 nm Φ = 80◦RT GLAD
+                       CdTe interlayer devices with ideality factors of 1.2 and 1.5, respectively. Similar values of A
+                       and Rs had been reported previously for these types of device structures [23,39,41,42]. The
+                           lower values of A and Rs for the HT CdTe baseline device compared to the RT CdTe baseline
+                           device clearly indicate improvement in the diode performance parameters and increased
+                              solar cell device performance parameters due to larger crystallite size and reduced grain
+                            boundaries, lowering the defect density and reducing the charge carrier recombination in
+                            the HT bulk CdTe cell. The almost equal ideality factor and series resistance values for the
+                 Φ = 80◦RT GLAD CdTe interlayer device compared to the HT baseline device indicate the
+                         enhancement in the diode performance parameter due to the improved n/p heterojunction
+                                interface, and the improved electronic quality of the n/p interface leading to the increase
+                              in Voc, FF, and the overall device performance parameters [30,33,36]. Comparable values
+                               for the Φ = 40◦HT interlayer device with the HT baseline device indicate the similar diode
+                          performance parameters and similar device performance.
+
+
+
+
+
+                              Figure 5. Dark and light current-voltage characteristics of CdTe solar cells with GLAD HT interlayer
+                          (Φ = 40◦and 80◦) and without (RT and HT bulk CdTe) GLAD CdTe interlayers.
+--- Страница 10 ---
+Materials 2023, 16, 6812                                                                                                        10 of 12
+
+
+
+
+
+                              Figure 6. Dark J-V characteristic for the best performing CdTe solar cells plotted as dV/dJ as a
+                               function of 1/J to determine ideality factors and series resistances: (I) bulk RT CdTe device without
+                          an interlayer, (II) bulk HT CdTe device without an interlayer, (III) Φ = 40◦HT GLAD interlayer
+                                 device, and (IV) Φ = 80◦RT 250 nm GLAD interlayer device.
+
+                                   4. Conclusions
+
+                         CdS/CdTe PV devices are fabricated incorporating GLAD interlayers with varying
+                            deposition parameters such as temperature, source ﬂux angle, and interlayer thicknesses.
+                          Device performance is compared in terms of efﬁciency, Voc, Jsc, FF, and the product of Voc
+                       and FF. RT and 250 ◦C standard CdS/CdTe solar cells are fabricated without the GLAD
+                       CdTe interlayer as the baseline PV devices. The HT standard CdTe PV device incorporating
+                          a 250 nm Φ = 80◦RT GLAD hexagonal CdTe interlayer shows a 0.73% absolute increase in
+                            efﬁciency when compared to the HT baseline CdTe solar cell without an interlayer. This
+                           optimization may be due to a reduction of strain at the interlayer / bulk CdTe interface
+                          without negatively impacting the growth of bulk CdTe due to a structural defect from the
+                         columnar structure of the underlying GLAD CdTe. This device performance indicates the
+                           presence of some hexagonal CdTe to reduce the lattice mismatch at the interface with CdS
+                          without reducing the electronic performance of the bulk CdTe absorber layer. Moreover, a
+                            ~0.53 V increase in Voc × FF has been found when comparing the 250 nm interlayer device
+                              to the HT CdTe baseline solar cell, which could be attributed to better interfacial tailoring
+                                at the CdS/CdTe heterojunction interface in the PV device.
+
+
+                           Author Contributions: Conceptualization, N.K.J. and N.J.P.; formal analysis, N.K.J.; funding acquisi-
+                                    tion, N.J.P.; investigation, N.K.J.; resources, N.J.P.; writing—original draft, N.K.J.; writing—review
+                         and editing, N.K.J., D.A., I.S., A.S. and N.J.P. All authors have read and agreed to the published
+                               version of the manuscript.
+--- Страница 11 ---
+Materials 2023, 16, 6812                                                                                                        11 of 12
+
+
+
+
+                            Funding: This work is supported by the National Science Foundation (NSF) Grant No. 1711534 and
+                             Air Force Research Laboratory under agreement number FA9453-19-C-1002. The U.S. Government
+                                         is authorized to reproduce and distribute reprints for governmental purposes notwithstanding any
+                              copyright notation thereon. The views and conclusions contained herein are those of the authors
+                          and should not be interpreted as necessarily representing the ofﬁcial policies or endorsements, either
+                              expressed or implied, of the Air Force Research Laboratory or the U.S. Government.
+
+                                 Institutional Review Board Statement: Not applicable.
+
+                           Informed Consent Statement: Not applicable.
+
+                           Data Availability Statement: The data presented in this study are available on request from the
+                             corresponding author.
+
+                             Conﬂicts of Interest: The authors declare that the research was conducted in the absence of any
+                            commercial or ﬁnancial relationships that could be construed as potential conﬂict of interest.
+
+References
+
+1.    Mitchell, K.; Fahrenbruch, A.L.; Bube, R.H. Photovoltaic determination of optical-absorption coefﬁcient in CdTe. J. Appl. Phys.
+     1977, 48, 829–830. [CrossRef]
+2.   Gupta, A.; Parikh, V.; Compaan, A.D. High efﬁciency ultra-thin sputtered CdTe solar Cells. Sol. Energy Mater. Sol. Cells 2006, 90,
+     2263–2271. [CrossRef]
+3.    Koirala, P.; Li, J.; Yoon, H.P.; Aryal, P.; Marsillac, S.; Rockett, A.A.; Podraza, N.J.; Collins, R.W. Through-the-glass spectroscopic
+     ellipsometry for analysis of CdTe thin-ﬁlm solar cells in the superstrate conﬁguration. Prog. Photovolt. Res. Appl. 2016, 24,
+     1055–1067. [CrossRef]
+4.   Morales-Acevedo, A. Thin ﬁlm CdS/CdTe solar cells: Research perspectives. Sol. Energy 2006, 80, 675–681. [CrossRef]
+5.   Paudel, N.; Wieland, K.; Compaan, A. Ultrathin CdS/CdTe solar cells by sputtering. Sol. Energy Mater. Sol. Cells 2012, 105,
+     109–112. [CrossRef]
+6.   Gupta, A.; Compaan, A.D. All-sputtered 14% CdS/CdTe thin-ﬁlm solar cell with ZnO: Al transparent conducting oxide. Appl.
+     Phys. Lett. 2004, 85, 684–686. [CrossRef]
+7.   Wu, X. High-efﬁciency polycrystalline CdTe thin-ﬁlm solar Cells. Sol. Energy. 2004, 77, 803–814. [CrossRef]
+8.   Green, M.; Dunlop, E.; Hohl-Ebinger, J.; Yoshita, M.; Kopidakis, N.; Hao, X. Solar cell efﬁciency tables (Version 57). Prog. Photovolt.
+      Res. Appl. 2021, 29, 3–15. [CrossRef]
+9.    Schaffner, J.; Motzko, M.; Tueschen, A.; Swirschuk, A.; Schimper, H.-J.; Klein, A.; Modes, T.; Zywitzki, O.; Jaegermann, W. 12%
+     efﬁcient CdTe/CdS thin ﬁlm solar cells deposited by low-temperature close space sublimation. J. Appl. Phys. 2011, 110, 064508.
+     [CrossRef]
+10.   Britt, J.; Ferekides, C. Thin-ﬁlm CdS/CdTe solar cell with 15.8% efﬁciency. Appl. Phys. Lett. 1993, 62, 2851–2852. [CrossRef]
+11.  Savadogo, O. Chemically and electrochemically deposited thin ﬁlms for solar energy materials. Sol. Energy Mater. Sol. Cells 1998,
+      52, 361–388. [CrossRef]
+12.   Vigil-Galán, O.; Vaillant, L.; Mendoza-Pérez, R.; Contreras-Puente, G.; Vidal-Larramendi, J.; Morales-Acevedo, A. Inﬂuence of the
+    growth conditions and postdeposition treatments upon the grain boundary barrier height of CdTe thin ﬁlms deposited by close
+     space vapor transport. J. Appl. Phys. 2001, 90, 3427–3431. [CrossRef]
+13.  Mendoza-Pérez, R.; Sastre-Hernández, J.; Contreras-Puente, G.; Vigil-Galán, O. CdTe solar cell degradation studies with the use
+     of CdS as the window material. Sol. Energy Mater. Sol. Cells 2009, 93, 79–84. [CrossRef]
+14.  Rioux, D.; Niles, D.W.; Höchst, H. ZnTe: A potential interlayer to form low resistance back contacts in CdS/CdTe solar Cells. J.
+     Appl. Phys. 1993, 73, 8381–8385. [CrossRef]
+15.  Subedi, K.K.; Bastola, E.; Subedi, I.; Song, Z.; Bhandari, K.P.; Phillips, A.B.; Podraza, N.J.; Heben, M.J.; Ellingson, R.J. Nanocom-
+     posite (CuS)x(ZnS)1−x thin ﬁlm back contact for CdTe solar cells: Toward a bifacial device. Sol. Energy Mater. Sol. Cells 2018, 186,
+     227–235. [CrossRef]
+16.  Nakamura, K.; Gotoh, M.; Fujihara, T.; Toyama, T.; Okamoto, H. Inﬂuence of CdS window layer on 2-µm thick CdS/CdTe thin
+    ﬁlm solar Cells. Sol. Energy Mater. Sol. Cells 2003, 75, 185–192. [CrossRef]
+17.  Dobson, K.D.; Visoly-Fisher, I.; Hodes, G.; Cahen, D. Stability of CdTe/CdS thin-ﬁlm solar Cells. Sol. Energy Mater. Sol. Cells 2000,
+      62, 295–325. [CrossRef]
+18.  Chou, H.; Rohatgi, A.; Jokerst, N.; Kamra, S.; Stock, S.; Lowrie, S.; Ahrenkiel, R.; Levi, D. Approach toward high efﬁciency
+    CdTe/CdS heterojunction solar Cells. Mater. Chem. Phys. 1996, 43, 178–182. [CrossRef]
+19.  Gu, P.; Zhu, X.; Wu, H.; Yang, D. Regulation of substrate-target distance on the microstructural, optical and electrical properties of
+    CdTe ﬁlms by magnetron sputtering. Materials 2018, 11, 2496. [CrossRef]
+20.  Kulkarni, R.; Rondiya, S.; Pawbake, A.; Waykar, R.; Jadhavar, A.; Jadkar, V.; Bhorde, A.; Date, A.; Pathan, H.; Jadkar, S. Structural
+    and optical properties of CdTe thin ﬁlms deposited using RF magnetron sputtering. Energy Procedia 2017, 110, 188–195. [CrossRef]
+21.  Hosseinpanahi, F.; Raouﬁ, D.; Ranjbarghanei, K.; Karimi, B.; Babaei, R.; Hasani, E. Fractal features of CdTe thin ﬁlms grown by RF
+    magnetron sputtering. Appl. Surf. Sci. 2015, 357, 1843–1848. [CrossRef]
+--- Страница 12 ---
+Materials 2023, 16, 6812                                                                                                        12 of 12
+
+
+
+
+22.  Hegedus, S.S.; Luque, A. Status, trends, challenges and the bright future of solar electricity from photovoltaics. In Handbook of
+      Photovoltaic Science and Engineering; Wiley: Hoboken, NJ, USA, 2003; pp. 1–43.
+23.  Adhikari, D.; Junda, M.M.; Bastola, E.; Koirala, P.; Ellingson, R.J.; Collins, R.W.; Podraza, N.J. Glancing angle deposited CdTe:
+     Nanostructured ﬁlms and impact on solar cell performance. Surf. Coat. Technol. 2020, 381, 125127. [CrossRef]
+24.  Ehsani, M.; Dizaji, H.R.; Azizi, S.; Mirmahalle, S.G.; Siyanaki, F.H. Optical and structural properties of cadmium telluride ﬁlms
+    grown by glancing angle deposition. Phys. Scr. 2013, 88, 025602. [CrossRef]
+25.  Adhikari, D.; Koirala, P.; Junda, M.M.; Collins, R.W.; Podraza, N.J. Glancing angle deposited CdTe: Optical properties and
+      structure. In Proceedings of the IEEE 7th World Conference on Photovoltaic Energy Conversion (WCPEC) (A Joint Conference of
+     45th IEEE PVSC, 28th PVSEC & 34th EU PVSEC) IEEE, Waikoloa Village, HI, USA, 10–15 June 2018; pp. 3227–3230.
+26.  Jayswal, N.K. Deposition Temperature Dependence of Optical and Structural Properties of Glancing Angle Deposited CdTe. In
+     Proceedings of the 64th Annual SVC Technical Conference, Virtual, 3–7 May 2021; Volume 64.
+27.  Paudel, N.R.; Young, M.; Roland, P.J.; Ellingson, R.J.; Yan, Y.; Compaan, A.D. Post-deposition processing options for high-efﬁciency
+     sputtered CdS/CdTe solar Cells. J. Appl. Phys. 2014, 115, 064502. [CrossRef]
+28.  Compaan, A.D.; Gupta, A.; Lee, S.; Wang, S.; Drayton, J. High efﬁciency, magnetron sputtered CdS/CdTe solar Cells. Sol. Energy
+     2004, 77, 815–822. [CrossRef]
+29.   Tuteja, M.; Koirala, P.; Palekis, V.; MacLaren, S.; Ferekides, C.S.; Collins, R.W.; Rockett, A.A. Direct observation of CdCl2 treatment
+     induced grain boundary carrier depletion in CdTe solar cells using scanning probe microwave reﬂectivity based capacitance
+     measurements. J. Phys. Chem. C. 2016, 120, 7020–7024. [CrossRef]
+30.   Liu, Z.; Siekmann, J.; Klingebiel, B.; Rau, U.; Kirchartz, T. Interface optimization via fullerene blends enables open-circuit voltages
+      of 1.35 V in CH3NH3Pb(I0.8Br0.2)3 solar Cells. Adv. Energy Mater. 2021, 11, 2003386. [CrossRef]
+31.  Song, T.; Kanevce, A.; Sites, J.R. Emitter/absorber interface of CdTe solar Cells. J. Appl. Phys. 2016, 119, 233104. [CrossRef]
+32.  Major, J.D. Grain boundaries in CdTe thin ﬁlm solar cells: A review. Semicond. Sci. Technol. 2016, 31, 093001. [CrossRef]
+33.  Amin, N.; Sopian, K.; Konagai, M. Numerical modeling of CdS/CdTe and CdS/CdTe/ZnTe solar cells as a function of CdTe
+      thickness. Sol. Energy Mater. 2007, 91, 1202–1208. [CrossRef]
+34.  Montoya De Los Santos, I.; Pérez-Orozco, A.A.; Liña-Martínez, D.A.; Courel, M.; Meza-Avendaño, C.A.; Borrego-Pérez, J.A.; Pérez,
+     L.M.; Laroze, D. Towards a CdTe Solar Cell Efﬁciency Promotion: The Role of ZnO: Al and CuSCN Nanolayers. Nanomaterials
+     2023, 13, 1335. [CrossRef] [PubMed]
+35.  Matin, M.; Amin, N.; Zaharim, A.; Sopian, K. A study towards the possibility of ultra thin Cds/CdTe high efﬁciency solar cells
+     from numerical analysis. WSEAS Trans. Environ. Dev. 2010, 6, 571–580.
+36.  Boudour, S.; Bouchama, I.; Bouarissa, N.; Hadjab, M. A study of CdTe solar cells using Ga-doped MgxZn1-xO buffer/TCO layers:
+     Simulation and performance analysis. J. Sci. Adv. Mater. Devices 2019, 4, 111–115. [CrossRef]
+37.  Roura Grabulosa, P.; Vilà i Arbonès, A.M.; Bosch, J.; López-de Miguel, M.; Cornet i Calveras, A.; Morante i Lleonart, J.R.;
+    Westwood, D.I. Atomic diffusion induced by stress relaxation in InGaAs/GaAs epitaxial layers. J. Appl. Phys. 1997, 82, 1147–1152.
+     [CrossRef]
+38.   Janssen, G. Stress and strain in polycrystalline thin ﬁlms. Thin Solid Film. 2007, 515, 6654–6664. [CrossRef]
+39.  Hegedus, S.S.; Shafarman, W.N. Thin-ﬁlm solar cells: Device measurements and analysis. Prog. Photovolt. Res. Appl. 2004, 12,
+     155–176. [CrossRef]
+40.  Pokhrel, D.; Bastola, E.; Phillips, A.B.; Heben, M.J.; Ellingson, R.J. Aspect ratio controlled synthesis of tellurium nanowires for
+     photovoltaic applications. Mater. Adv. 2020, 1, 2721–2728. [CrossRef]
+41.  Bhandari, K.P.; Tan, X.; Zereshki, P.; Alfadhili, F.K.; Phillips, A.B.; Koirala, P.; Heben, M.J.; Collins, R.W.; Ellingson, R.J. Thin ﬁlm
+     iron pyrite deposited by hybrid sputtering/co-evaporation as a hole transport layer for sputtered CdS/CdTe solar Cells. Sol.
+     Energy Mater. Sol. Cells 2017, 163, 277–284. [CrossRef]
+42.   Marsillac, S.; Parikh, V.; Compaan, A. Ultra-thin bifacial CdTe solar cell. Sol. Energy Mater. Sol. Cells 2007, 91, 1398–1402.
+     [CrossRef]
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

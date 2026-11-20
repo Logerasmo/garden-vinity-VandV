@@ -1,0 +1,577 @@
+--- Страница 1 ---
+www.acsaem.org                                                                                                                                        Article
+
+Electrochemically Prepared Polyaniline as an Alternative to Poly(3,4-
+ethylenedioxythiophene)-poly(styrenesulfonate) for Inverted
+Perovskite Solar Cells
+
+Sally Mabrouk, Ashim Gurung, Behzad Bahrami, Abiral Baniya, Raja Sekhar Bobba, Fan Wu,
+Rajesh Pathak, and Quinn Qiao*
+
+
+       Cite This: ACS Appl. Energy Mater. 2022, 5, 9351−9360               Read Online
+
+ACCESS                Metrics & More                       Article Recommendations    *
+                                                                                                                                                                      sı  Supporting Information                                                                                         Downloaded
+                                                                                                                                                                                                                                                                                                                                                                  from
+
+
+
+
+
+ABSTRACT: The  goal  of  this work  is  to  substitute  the  conventional  high-cost  poly(3,4-ethylenedioxythiophene)-poly-
+(styrenesulfonate) (PEDOT:PSS) in inverted perovskite solar cells (PSCs) with an efficient and conducting polyaniline (PANI)
+polymer. The reported use of PANI in PSCs involves a chemical synthesis method which is prone to contamination with impurities
+as it requires several materials for polymerization and adhesion improvement with substrates, contributing to low device efficiencies.
+This work mitigates this issue using an electrochemical method that is low cost, less time consuming, and capable of producing thin                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf
+films  of PANI with  excellent adhesion  to  substrates.  Results demonstrated  that  the power conversion  efficiency  of  the         by
+electrochemically synthesized PANI-based PSC is 16.94% versus 15.11% for the PEDOT:PSS-based device. It was observed that the                       guest
+work function of PANI was lower compared to that of PEDOT:PSS which decreased VOC but enhanced hole extraction at the hole         on
+transport layer/perovskite interface, thus increasing JSC. Doping electrolyte solution with lithium bis(trifluoromethanesulfonyl)imide         19
+LiTFSI increased the work function of PANI, thus increasing VOC from 0.87 to 0.93 V. This method enables simple and scalable
+synthesis of PANI as a competitive hole transport material to replace rather expensive PEDOT:PSS, thus enabling an important steptoward low-cost inverted perovskite photovoltaic devices.                                                                                                                                                                                                                                                                                                                                                                                                                             November
+KEYWORDS: inverted perovskite solar cells, hole transport layer, conducting polymers, PEDOT:PSS, PANI, electrochemical synthesis,                      2026
+doping, conductivity and work function
+
+
+                                                          be superior to that of the pin or inverted structure. However,■INTRODUCTIONSunlight  is a renewable clean energy source, able to meet      the inverted structure  is preferred as  it enables low-temper-
+world’s electricity demand with only one and a half hour of      ature fabrication (<100 °C) compared to 450 °C for the
+sunlight. Conversion of sunlight into electricity can be realized     mesoscopic structure. The low-temperature fabrication process
+using solar cells or photovoltaic (PV) technology and storing     can  facilitate  roll-to-roll manufacturability of the perovskite
+in energy-storage devices.1 PV devices employing organic−                                                                   photovoltaic devices.21
+inorganic (hybrid) halide perovskites as the absorber layer
+have attracted great attention because of the excellent light-
+                                                                    Received:  February 27, 2022harvesting properties of the hybrid perovskites with a tunable
+                                                                  Accepted:  July 11, 2022band gap, low exciton binding energy (∼45 meV), long charge
+                                                                     Published:  July 20, 2022carrier  lifetime, and  a  long  diffusion  length.2−8 Power
+conversion efficiencies (PCEs) of the perovskite solar  cells
+(PSCs) have increased from 3.8% in 2009 to 25.6%.9−20 The
+PCE of the nip mesoscopic devices has been demonstrated to
+
+                                © 2022 The Authors. Published by
+                                                  American Chemical Society                                                                 https://doi.org/10.1021/acsaem.2c00621
+                                                             9351                                         ACS Appl. Energy Mater. 2022, 5, 9351−9360
+--- Страница 2 ---
+ACS Applied Energy Materials                                www.acsaem.org                                               Article
+
+
+
+
+
+Figure 1. (a) Device structure and (b) energy level diagram of the fabricated PSCs.21
+
+  Poly(3,4-ethylenedioxythiophene)-poly(styrenesulfonate)      transparency, and a high degree of processability which are
+(PEDOT:PSS) is the most commonly employed hole transport       suitable for PSCs.21
+layer (HTL) between  the indium  tin  oxide (ITO) and        Synthesis of polyaniline (PANI) involves polymerization of
+perovskite photoactive  layer. The PCE of the PSCs using       aniline which can be performed chemically, electrochemically,
+PEDOT:PSS as the HTL has increased remarkably. Because of      photochemically, or enzyme-catalyzed.38,50 Our previous work
+the  different  reactivities  of  polymers  with  active  metals,      involved characterization of the inverted PSC based on therhodamine 101 which is a conjugated zwitterion was used as      chemically synthesized PANI as a HTL and exhibited very                                              Downloaded
+an interlayer at the PCBM/Ag interface to lower the work     poor performance with a PCE of 3.33%.37 Chemically prepared                  from
+function of the metal, thus enhance electron collection, and      polyaniline:poly(styrenesulfonate) (PANI:PSS) has been in-
+improve PEDOT:PSS-based PSC  performance.22  Further      vestigated as a HTM in inverted PSCs which achieved a PCE
+adding a LiF layer increased VOC and FF to achieve a higher      of up to 11.67%.51 PSS-g-PANI achieved a good energy level
+PCE  of 13.2% compared  to 12.1%  without  LiF.23 The      alignment with the VBM of MAPbI3 improving PSC VOC and
+transparent PEDOT:PSS doped with methanesulfonic acid       JSC. PSS-g-PANI mixed with the perfluorinated ionomer (PFI)
+achieved a PCE of 11% for the rigid and 8% for the flexible      increased the work function (5.49 eV) and PCE to 12.4% in
+PSCs exhibiting excellent mechanical flexibility in the bending      those with the PSS-g-PANI:PFI compared to 7.8% in the PSC
+test.24 Doping PEDOT:PSS with NaCl improved the PCE      with PEDOT:PSS.52  Camphorsulfonic  acid-doped PANI
+from 15.1 to 18.1% as a result of enhancing the electrical     (PANI-CSA) as a HTL in the inverted PSCs improved the
+conductivity and hole extraction capability of the PEDOT:PSS       efficiency and stability of the solar cell achieving up to 15.42%,
+HTL.25 Adding RbCl into PEDOT:PSS enlarged the crystal     compared  to 14.11%  for  the  device  fabricated  with
+size, enhanced electrical conductivity and hole transport, and     PEDOT:PSS.53 Large-area PANI films were deposited by the
+increased  the work  function  of PEDOT:PSS, and  thus      sequential solution polymerization technique for the synthesis
+improved  the PCE  of  the MAPbI3 PSC from  13.24  to      of hydrated vanadium pentoxide. The prepared PANI film
+16.63% and  MA0.7FA0.3Pb(I0.9Br0.1)3 PSC from  16.13  to      exhibited excellent electrochromic performance and cycling18.30%.26 However, various issues have been noticed. Most       stability showing great potential in situ deposition of large-area                                                                                                                                                                                                                                                                                                                                           pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf
+of all, the large particle size of the PEDOT:PSS induced the    PANI films for the development of optoelectronic modules.54         by
+degradation of the active layer with formation of defects; in    The  electrochemical  polymerization method  by  cyclic                       guest
+addition, its high cost and low electrical conductivity limit its     voltammetry is the preferred method to prepare PANI. The         on
+use as a HTL.27−31 For these reasons, it is necessary to develop      prepared polymer from this method can possess high purity         19
+a new hole transport material (HTM) that provides superior     and good adhesion with the hydrophilic substrate compared toproperties along with lower cost than PEDOT:PSS.21,32−38         the chemically prepared PANI, which is prone to impurities                                     November
+  Several inorganic materials were utilized as HTL alternatives                                                        and poor adhesion to the substrate. Electrochemical polymer-                  2026                                                                       42,43to PEDOT:PSS such  as CuSCN,39,40  CuI,33,41 CuOx,           ization  facilitates  total  flexibility with control over various
+NiOx,44,45 MoO3,46,47 MoS2, 48 and WO3.42  Similarly,  fully      parameters during polymerization such  as  oxidation  state,
+vacuum-processed inverted PSCs using N,N0-di(1-naphthyl)-      thickness, adhesion, conductivity, and transparency of PANI
+N,N0-diphenyl-(1,10-biphenyl)-4,40-diamine (NPB) as a HTL       via changing the applied voltage, scan  rate, polymerization
+combined with the interfacial layer of MoO3 were demon-      time, monomer and dopant concentration, dopant type, and
+strated to achieve a PCE of 13.7%. Likewise, poly [2,6-(4,4-bis-       electrolyte temperature.21,50,55
+potassiumbutanylsulfonate-4H-cyclopenta-[2,1-b;3,4-b’]-di-        This work studies an electrochemically synthesized p-type
+thiophene)-alt-4,7-(2,1,3-benzothiadiazole)] (CPE-K) was     doped PANI-based HTL via cyclic voltammetry for potential
+studied as a HTL for the inverted PSC. A PCE of over 12%      application in PSCs. The synthesized PANI electrode was
+with enhanced device stability was demonstrated via enhancing     found to possess high electrical conductivity through doping
+the wetting of the precursor solution of perovskite on the CPE      with nitric acid (HNO3). PSCs with the structure shown in
+layer, the  interfacial hole extraction  at the perovskite/ITO      Figure 1 were fabricated, and comparative PV studies show
+interface, and  pH-neutral CPE-K  solution.49  Transparent      that the inverted PSC based on the optimized PANI electrode
+conducting polymers have high conductivity and good stability      delivered a higher PCE of 16.94% compared to the device
+which make them promising candidates as alternative HTMs      based on the conventional PEDOT:PSS with 15.11%. These
+to PEDOT:PSS. Polyaniline is one such candidate as it exhibits       results suggest that the PANI prepared using this easy, fast, and
+attractive attributes such as high conductivity, environmental      low-cost method can be an excellent alternative to the rather
+stability, low  cost,  easy  synthesis,  high  purity,  thin  film      expensive PEDOT:PSS to further improve the PV performance
+
+                                                             9352                                                     https://doi.org/10.1021/acsaem.2c00621
+                                                                                                                           ACS Appl. Energy Mater. 2022, 5, 9351−9360
+--- Страница 3 ---
+ACS Applied Energy Materials                                www.acsaem.org                                               Article
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+                                                                                                                                                                                                                                                                                                                                                                  from
+Figure 2. AFM topography images of (a) PEDOT:PSS and electrochemically synthesized HNO3-PANI doped with (b) 0.8 M HNO3, (c) 0.9 M
+HNO3, and (d) 0.9 M HNO3, 6.25 mM LiTFSI.21
+
+and simultaneously reduce the  cost  of the perovskite PV      degradation of the long polymer chains into shorter ones.
+technology.21                                                    Previous reports confirmed that the electrical conductivity of
+                                                                      polyaniline degrades with exposure to heated air (100−140
+         AND DISCUSSION                         °C) due  to  corroded  macroscopic  grain  boundaries and■RESULTSEffect  of PANI Annealing Temperature on PSC      degradation caused by changes to the polymer itself, such as a
+Performance. Atomic force microscopy (AFM) was used      decrease in the dopant concentration, oxidation, and cross-
+                                                                           linking.56for measuring topography of PANI films annealed at different
+temperatures. Figure S1, Supporting Information (SI) shows      J−V characteristics of the fabricated PSCs Figure S3 and
+that increasing annealing temperature results in homogeneous     Table  S1, SI confirm  that the optimum PANI annealing
+and smooth PANI films fully covering the substrate, while the      temperature is 100 °C resulting in solar cells with 7.6% PCE
+low  annealing  temperature  results  in  rough PANI and     which  is  in good agreement  with AFM topography and
+perovskite  films with  large  gaps. X-ray  diffraction (XRD)      conductivity measurements.
+patterns were recorded to understand the effect of the PANI        Effect of the HNO3 Doping Degree of Polyaniline on                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf
+HTL on crystallization of the perovskite films as shown in    PSC Performance. AFM topography images Figure S4, SI         by
+(Figure S2a, SI). Results confirmed the complete conversion of     show that the optimum HNO3 concentration which achieves                                                                                                                                                                                                                                                                                                                                                                                                                                                           guest
+PbI2 to the tetragonal CH3NH3PbI3 perovskite phase with high      the  lowest RMS  roughness  (3.35 nm)  is  0.9 M. J−V         on
+crystallinity. The highly rough PANI film adsorbs and traps a       characteristics from Figure S5a,b and Table S2, SI show that         19
+large amount of perovskite precursor solution  resulting  in      the optimum HNO3 concentration for doping PANI is 0.9 M
+slower interdiffusion of MAI and PbI2 into each other, thus       resulting in a solar cell with a PCE of 16.19% compared toslow perovskite crystallization. This results in perovskite films     15.11%  for  the PEDOT:PSS-based  cell.  Transient photo-                                     November
+with higher crystallinity when roughness of the underneath      current (TPC) data in Figure S5c,d, SI, are in good agreement                  2026
+PANI film increases.37                                           with PV parameters from J−V curves (Figure S5a,b, SI). The
+  The  conductivities  of  the  electrochemically  synthesized      0.9 M HNO3-based  solar  cell achieved the lowest charge
+PANI on top of ITO substrates and annealed at different      transport times while carrier lifetime decreased with increasing
+temperatures  were  measured and compared  with  the      the doping degree because of the shift of the PANI polaron
+conductivity of PEDOT:PSS via using a two-contact electrical     band to a lower work function.
+conductivity setup (glass/ITO/PANI/Ag) shown in Figure        Effect of the LiTFSI Doping Degree of PANI-HNO3 on
+S2b,  SI. Figure S2d, SI shows the current−voltage (I−V)    PSC Performance. PANI highest occupied molecular orbital
+characteristics of the hole-only devices based on the PANI    (HOMO)−lowest  unoccupied  molecular  orbital (LUMO)
+annealed at 60, 100, and 140 °C for 10 min. The following     measurements were performed before and  after doping to
+equation was used to measure the conductivity.                   study the effect of LiTFSI on the energy level alignment and
+                                                                hole extraction. Results in Figure S6 and Table S3, SI, show the   = L / RWD
+                                  HOMO of HNO3-PANI with the value −5.4 eV. Further
+where 1/R is the slope of the I−V curve while L, W, and D are     doping  of PANI  with LiTFSI  resulted  in an  additional
+the length, width, and thickness of the PANI film, respectively.      oxidation peak with a HOMO value of −5.5 eV and thus
+The calculated conductivities were 9.95 × 10−4, 8.12 × 10−4,      generation of a new energy level with a higher work function.
+and 6.15 × 10−4 S/cm for the PANI annealed at 60, 100, and      Figure S7 shows a schematic diagram showing energy levels of
+140 °C, respectively. These results confirm that conductivity of     CH3NH3PbI3, HNO3-PANI, and LiTFSI-HNO3-PANI. These
+PANI decreases at higher annealing temperatures as a result of       results expect an increase in the work function of PANI as a
+
+                                                             9353                                                     https://doi.org/10.1021/acsaem.2c00621
+                                                                                                                           ACS Appl. Energy Mater. 2022, 5, 9351−9360
+--- Страница 4 ---
+ACS Applied Energy Materials                                www.acsaem.org                                               Article
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+                                                                                                                                                                                                                                                                                                                                                                  from
+Figure 3. CSAFM images of (a) PEDOT:PSS and electrochemically synthesized HNO3-PANI doped with (b) 0.8 M HNO3, (c) 0.9 M HNO3, and
+(d) 0.9 M HNO3/6.25 mM LiTFSI.21
+
+result of LiTFSI doping thus expecting improvement in VOC of        Figure 3 shows CSAFM images of PEDOT:PSS (Figure 3a)
+the fabricated device.                                       and the electrochemically synthesized PANI doped with 0.8 M
+ AFM topography measurements (Figure S8, SI) confirm    HNO3 (Figure 3b), 0.9 M HNO3 (Figure 3c), and 0.9 M
+that the optimum LiTFSI concentration is 6.25 mM and higher     HNO3/6.25 mM LiTFSI  (Figure 3d)  exhibiting  surface
+concentration results in a PANI film with higher roughness and      current  values  of  0.226,  0.147,  0.379, and  0.369  nA,
+thus solar cells with lower JSC values.                                  respectively. This shows that the surface current of electro-
+  PSCs made of HNO3-PANI achieved 16.19% PCE (Figure      chemically synthesized PANI increases with increasing the
+S9a,b and Table S4, SI) compared to 16.94% for the solar cell    HNO3 concentration in the electrolyte solution. To under-
+made of LiTFSI-HNO3-PANI (6.25 mM LiTFSI) as a result of      stand the change in surface current as a result of doping,
+the improved JSC and VOC. This is attributed to the increased      conductivities of the electrochemically synthesized PANI on
+PANI work  function and  the improved  interfacial  hole      top  of ITO  substrates were measured  before and  after
+extraction as a result of LiTFSI doping. TPC and transient      optimization of HNO3 and LiTFSI dopants and comparedphotovoltage (TPV) results (Figure S9c,d and Table S4, SI)      with the conductivity of PEDOT:PSS using a two-contact                                                                                                                                                                                                                                                                                                                                           pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf
+match with JSC and VOC results from the J−V characteristics       electrical conductivity setup (glass/ITO/PANI/Ag) and (Ag/         by
+(Figure S9a,b). They confirm that 6.25 mM LiTFSI doping     PEDOT:PSS/Ag) as shown in Figure S2b,c, SI respectively.                       guest
+decreased the charge transport time and increased the carrier      Figure S2e shows the current−voltage (I−V) characteristics of         on
+lifetime which is in good agreement with VOC and JSC values of      the hole-only devices based on the PANI doped with 0.8 M         19
+the fabricated devices.                                HNO3, 0.9 M HNO3, and 0.9 M HNO3 + 6.25 mM LiTFSI
+  After optimization of the processing parameters for electro-     and annealed at 100 °C for 10 min. Figure S2f, SI, shows the                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Novemberchemically  synthesized PANI  as shown  before,  further    I−V  characteristics  of  the  hole-only  device  based on
+characterizations were  performed  for comparing between    PEDOT:PSS annealed at 140 °C for 10 min. Conductivity                  2026
+PEDOT:PSS and PANI as HTLs for the inverted PSC as       results match with surface current measurements  at which
+follows. AFM measurements of PEDOT:PSS and the electro-      increasing HNO3 concentration from 0.8 to 0.9 M in the
+chemically  synthesized PANI were  carried  out, and  their       electrolyte solution enhanced conductivity significantly from
+topographical images are shown in Figure 2. The PEDOT:PSS      8.12 × 10−4 to 1.05 × 10−3 S/cm, respectively. Further adding
+film shows a RMS surface roughness of 1.89 nm (Figure 2a),      6.25 mM LiTFSI slightly decreased the conductivity of PANI
+while the PANI film doped with 0.8 M HNO3 has a high RMS      to 8.69 × 10−4 S/cm compared to 8.43 × 10−4 S/cm for
+roughness value of 8.00 nm (Figure 2b). Increasing HNO3     PEDOT:PSS. This is because polyaniline conductivity depends
+concentration to 0.9 M decreases the RMS value to 3.35 nm     on  its  oxidation  state and  protonation  degree. When
+(Figure 2c), and adding 6.25 mM LiTFSI into the electrolyte      electrochemical polymerization of the aniline monomer into
+solution in addition to 0.9 M HNO3 further decreases the RMS    PANI is performed, aniline is oxidized into an anilinium cation
+value to 2.35 nm (Figure 2d). The decrease in the surface       radical at the N position which delocalizes by conjugation into
+roughness is observed because HNO3 and LiTFSI not only act     O- and P- positions followed by coupling between radicals at
+as dopants, but also as catalysts increasing polymerization rate     N- and P- positions. Therefore, the N atom is involved in the
+of aniline. This results in full coverage of the substrate surface,     polymer chain and  its oxidation state greatly affects PANI’s
+thus producing a smoother and more compact PANI film. The      conductivity. If all N atoms are oxidized into imine groups,
+lower  surface  roughness  is  expected  to  facilitate  charge    PANI is called pernigraniline base (violet) and if all N atoms
+extraction and collection, thus improving JSC for the perovskite      are reduced into amine groups, PANI is called leucoemeraldine
+device.                                                         base (yellow). If PANI is half oxidized, it is called emeraldine
+
+                                                             9354                                                     https://doi.org/10.1021/acsaem.2c00621
+                                                                                                                           ACS Appl. Energy Mater. 2022, 5, 9351−9360
+--- Страница 5 ---
+ACS Applied Energy Materials                                www.acsaem.org                                               Article
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+                                                                                                                                                                                                                                                                                                                                                                  from
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf
+                                                                                                                                                                                 by
+                                                                                                                                                                                                                                                                                                                                                                                                                                                           guest
+                                                                                                                                                                                 on
+Figure 4. KPFM images of (a) CH3NH3PbI3 perovskite, (b) PEDOT:PSS, (c) PANI doped with 0.9 M HNO3, and (d) PANI doped with 0.9 M         19
+HNO3 and 6.25 mM LiTFSI, and (e) their surface potential distribution.21
+base, which  is the only form that could be conductive via      function (surface potential = −78.1 mV) compared to the                                     November
+protonation of imine groups giving the conducting emeraldine    PANI  without LiTFSI  (surface  potential = −50.1 mV)                  2026
+salt (green). This could be achieved by doping the electrolyte      suggesting that adding LiTFSI can result in enhancement of
+solution with a strong acid such as HNO3. Decreasing the     VOC. This might be attributed to that LiTFSI increased the
+HNO3  concentration  leads  to some  unprotonated  imine     work function of PANI due to the generation of new HOMO
+groups, thus decreasing conductivity. As a result, the PANI      energy as shown by HOMO−LUMO measurements (Figure
+film doped with 0.9 M HNO3 has higher conductivity and      S6, SI).21
+surface current than the film doped with 0.8 M HNO3. Adding        Figure 5a,b show forward and reverse J−V curves of PSCs
+LiTFSI into the electrolyte solution can protonate some amine      based on PANI doped with different concentrations of HNO3
+groups and thus decrease the conductivity and surface current     and LiTFSI as HTMs compared to the PEDOT:PSS-based
+of PANI.21                                                                          cell, and Table 1 summarizes the PV performance parameters
+  Figure 4 shows the KPFM images of the perovskite film      of the fabricated devices. Results show that the device made of
+(Figure 4a), PEDOT:PSS film (Figure 4b), and the electro-    PANI doped with 0.8 M HNO3 achieved a PCE of 7.61%.
+chemically synthesized PANI film doped with 0.9 M HNO3      Increasing the doping degree to 0.9 M HNO3 enhances PCE of
+(Figure 4c) and 0.9 M HNO3/6.25 mM LiTFSI (Figure 4d)      the PANI-based devices to 16.19%, which is higher compared
+and their surface potential distribution (Figure 4e) acquired      to that of the PEDOT:PSS-based cell with a PCE of 15.11%.
+from the KPFM images. Results show that the PEDOT:PSS     The enhanced efficiency is attributed to the improved JSC and
+has a higher work function than the PANI films suggesting     FF as a result of increasing doping degree, which is in good
+higher VOC for the PEDOT:PSS-based cell than the PANI-     agreement  with  the AFM,  conductivity, and CSAFM
+based cells. The PANI doped with LiTFSI has a higher work      observations.  This  is  because  the  protonation  degree  of
+
+                                                             9355                                                     https://doi.org/10.1021/acsaem.2c00621
+                                                                                                                           ACS Appl. Energy Mater. 2022, 5, 9351−9360
+--- Страница 6 ---
+ACS Applied Energy Materials                                www.acsaem.org                                               Article
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloaded
+                                                                                                                                                                                                                                                                                                                                                                  from
+
+
+
+
+
+Figure 5. (a) Forward and (b) reverse J−V characteristics of PSCs based on PEDOT:PSS and electrochemically synthesized PANI films as HTMs.
+(c) IPCE spectra and integrated current density of PSCs based on PEDOT:PSS and the optimized electrochemically synthesized PANI films as
+HTMs.21
+
+Table 1. PV Performance Parameters of Perovskite Solar Cells Based on PEDOT:PSS and Electrochemically Synthesized
+PANI Films as HTMs21
+
+          HTM                    scan direction   JSC (mAcm−2)  VOC(V)   FF   PCE (%)  IPCE (%)   Integrated JSC from IPCE (mAcm−2) PEDOT:PSS                                forward          18.31         0.92     0.65     11.02       76.97                   17.93                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf
+                                                  reverse          20.08         0.97     0.78     15.11                                                                  by
+ PANI (0.8 M HNO3)                        forward          12.97         0.87     0.57      6.39        62.23                    14.5                                                                   guest
+                                                  reverse          13.11         0.88     0.66      7.60                                                                    on
+ PANI (0.9 M HNO3)                        forward          23.88         0.87      0.7      14.54       89.90                   20.88                          19
+                                                  reverse          23.86         0.87     0.78     16.19
+ PANI (0.9 M HNO3, 6.25 mM LiTFSI)      forward          24.28         0.93     0.63     14.23       93.56                   21.87                                                                                                       November
+                                                  reverse          24.28         0.93     0.75     16.94                                                                                                                                     2026
+
+imine groups increases with increasing the doping degree,     amine groups resulting in little decrease in surface current of
+leading to an increase in surface current and conductivity. In      the PANI film. At the same time, doping of PANI with LiTFSI
+addition,  the  decrease  in PANI  film roughness can  also      resulted in the generation of additional energy levels with work
+contribute to enhancement in FF and JSC.21                        functions higher than PANI and lower than perovskite and
+  Adding 6.25 mM LiTFSI into the electrolyte solution results      thus enhanced the  interfacial hole extraction at the HTL/
+in further enhancement in solar cell efficiency up to 16.94%      perovskite interface in the full device. The increase in JSC of the
+which  is  attributed  to  the improved VOC and  JSC. The       solar  cell  as a  result  of the enhancement  of the PANI/
+enhanced VOC  is in good agreement with the KFM results      perovskite  interfacial charge  extraction  is  greater than the
+(Figure 4), which confirmed that doping PANI with LiTFSI      decrease in JSC as a result of the reduction of the PANI film
+increased  its work  function,  thus  increasing VOC. LiTFSI      surface current after doping with LiTFSI.21
+enhanced the JSC; however, CSAFM images showed that  it         Hysteresis, that is, discrepancy that exists between forward
+decreased surface current of PANI as a result of doping amine     and reverse voltage sweeping during I−V measurement was
+groups. The enhanced JSC can be attributed to that LiTFSI     found in all the cells. This is because PV parameters greatly
+generated a new hole transporting energy level between the     depend on the voltage range, scan rate, and the direction of the
+HOMO of perovskite and HOMO of PANI, thus facilitating      applied  bias. In PSCs, hysteresis increases in case of poor
+charge extraction and collection at the interface. This confirms      contact  quality  (surface  recombination),  a  short  diffusion
+that further doping of PANI with LiTFSI can introduce some      length of the charge carriers, ion migration and polarization,
+
+                                                             9356                                                     https://doi.org/10.1021/acsaem.2c00621
+                                                                                                                           ACS Appl. Energy Mater. 2022, 5, 9351−9360
+--- Страница 7 ---
+ACS Applied Energy Materials                                www.acsaem.org                                               Article
+
+
+
+
+
+Figure 6. (a) Transient photocurrent and (b) normalized transient photovoltage of inverted PSCs based on PEDOT:PSS and electrochemically
+synthesized PANI films as HTMs.21
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Downloadedcharge trapping/detrapping process, and material and interface       intensity or monochromatic illumination but becomes lowered
+defects. The most common reason for hysteresis in perovskites     by photodoping  of  the  buffer  at AM1.5  illumination.  In                  from
+is mainly ion migration due to excess ions as interstitial defects.      addition, EQE measurement involves irradiation of a limited
+This is because perovskites have ionic characteristics and can      area in the device which may have small shunt resistance, while
+be segregated into positively charged and negatively charged      the nonilluminated part in the cell has high shunt resistance in
+ionic species leading to ion migration. The accumulation of the       parallel with the EQE amplifier resistance (act as shunting
+excess ions can  facilitate the polarization of the perovskite      load). Thus, the current from the active solar cell is drained
+leading to hysteresis. Results show a significant decrease in I−      throughout the shunting load. Sometimes, the JSC from the J−
+V curve hysteresis of the PSC based on electrochemically    V curve is lower than that from IPCE; this is because a small
+synthesized PANI  after  increasing HNO3 dopant concen-      thermionic emission current can pass the barrier during the
+tration from 0.8 to 0.9 M. This  is in good matching with    EQE measurement, while the high  current  density under
+conductivity and surface current measurements and could be     AM1.5 illumination cannot pass the barrier.
+attributed to the enhancement  in PANI conductivity and        Figure S10a shows  a  histogram  of  the PCE from 20
+surface current as a result of optimization of the protonation      individual PSCs based on PEDOT:PSS and the electrochemi-
+degree. The enhancement in the electronic conductivity of       cally synthesized PANI before and after doping with LiTFSI.
+PANI  suppresses  the accumulation and recombination  of     The PCE histogram from 20 samples of each HTL (Figure
+charge carriers in the bulk and at the interfaces and thus     S10a) demonstrates the better reproducibility for PEDOT:PSSmitigates hysteresis.21,57                                (SD = ±0.562%) compared  to PANI (SD = ±0.906%).                                                                                                                                                                                                                                                                                                                                            pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf
+  The IPCE spectra (Figure 5c) are in good agreement with     Doping PANI  with LiTFSI  results  in  better and more         by
+the JSC values obtained from the J−V characteristics. As shown      reproducible  solar  cell performance with SD = ±0.566%.                       guest
+in Table 1, IPCE of the 0.8 M HNO3-PANI-based solar cell is     The average PCE for the PANI-based PSC before and after         on
+62.23% compared  to 76.97%  for  the PEDOT:PSS-based     LiTFSI is 14.54 and 15.89%, respectively, compared to 14.37%         19
+device.  Increasing the doping degree  of PANI  to  0.9 M      for  the PEDOT:PSS-based PSC. The enhancement  in
+HNO3 increased IPCE to 89.90% as a result of increasing      reproducibility  of  the PSC based on PANI  after LiTFSI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     November
+protonation  of  imine  groups  thus  achieving  higher  con-      could be attributed to the enhanced carrier life time and VOC
+ductivity.  Also, doping  with  6.25 mM LiTFSI improved     which plays an important role in suppression of charge carrier                  2026
+IPCE up to 93.56% because of the enhanced charge extraction      recombination.
+as a result of generation of a new HOMO energy level between        Figure S10b indicates the stability of devices via showing the
+those of perovskite and PANI. These results perfectly match      normalized PCE evolution over time of unencapsulated PSCs
+conductivity, surface current, HOMO−LUMO, and surface      based on PEDOT:PSS and the optimized electrochemically
+potential measurements which confirm that increasing HNO3      synthesized PANI HTLs under the ambient condition (23 ± 1
+concentration  in  the  electrolyte  solution  during  electro-    °C and 50 ± 5% humidity). The PEDOT:PSS-based device
+chemical synthesis of PANI resulted in higher surface current      degrades completely after 600 h exposure to air and humidity
+as a result of protonation of imine groups in the polymer chain.       at room temperature, because the large particle size of the
+While HOMO−LUMO and KPFM measurements confirm    PEDOT:PSS induced the degradation of the active layer with
+that doping PANI with LiTFSI resulted in the generation of a      formation of defects suppressing its stability, while the PANI-
+new energy level with a higher work function compared to that      based device is still working after around 800 h. These results
+of PANI, which enhanced charge extraction at the PANI/      confirm that the PANI HTL improves the device  stability
+perovskite interface.21                                      compared to PEDOT:PSS. This  is because polyanilines are
+  The integrated  JSC values of the prepared devices were      very stable in air and the conductivity stability of PANI  is
+calculated from ICPE and are listed in Table 1; they exhibit     enhanced in the presence of humid air. In addition, PANI is
+little lower values compared to the JSC from the J−V curves.      highly  stable  thermally (up  to 450 °C  for  the undoped
+This is a common phenomenon in thin-film PV devices due to      emeraldine base), and doping may decrease its thermal stability
+the barrier for the photocurrent, which is large under low light      based on  the  nature  of  counter  anions  (acid  dopant).58
+
+                                                             9357                                                     https://doi.org/10.1021/acsaem.2c00621
+                                                                                                                           ACS Appl. Energy Mater. 2022, 5, 9351−9360
+--- Страница 8 ---
+ACS Applied Energy Materials                                www.acsaem.org                                               Article
+
+Previous reports confirmed that PANI is also highly stable in     from 0.87 to 0.93 V. This work presents a facile route to
+air and acidic water.59                                        produce a cheaper  alternative  to PEDOT:PSS,  potentially
+  Figure 6 shows TPC and TPV measurements of PSCs based      contributing toward low-cost PSCs.21
+on PEDOT:PSS and the different PANI films as HTMs, and
+Table 2 shows the obtained values of charge carrier transport                CONTENT                                       ■ASSOCIATED                      *sı  Supporting Information
+Table 2. Fitted Charge Carrier Transport Time and Lifetime                                                   The Supporting Information  is  available  free of charge  at
+for Perovskite Solar Cells Based on PEDOT:PSS and                                                                https://pubs.acs.org/doi/10.1021/acsaem.2c00621.
+Electrochemically Synthesized PANI Films as HTMs21
+                                                                     Experimental work including materials, PANI synthesis
+                              charge carrier transport    Charge carrier             procedure,  device  fabrication, and  characterization,      HTM                   time (μs)              lifetime (μs)
+                                                                        optimization of the parameters of PANI electrochemical
+PEDOT:PSS                           0.99                   1.02
+                                                                                synthesis, AFM topography images of PANI films and
+PANI (0.8 M HNO3)                  1.08                   0.72
+                                                                          perovskite deposited on top of it, XRD of perovskite on
+PANI (0.9 M HNO3)                  0.86                   0.53
+                                                                  top  of PANI  annealed  at  different  temperatures,
+PANI (0.9 M HNO3,                   0.81                   0.75
+  6.25 mM LiTFSI)                                                         conductivity of PANI compared to PEDOT:PSS, J−V
+                                                                        curves  of optimizing the annealing temperature and
+                                                                 doping degree  of PANI,  transient measurements  of
+time and lifetime. A charge transport time of 1.08, 0.86, and            devices based on PEDOT:PSS and PANI, HOMO−0.81 μs was obtained for the cells fabricated with PANI HTMs       LUMO measurement of PANI before and after doping                                              Downloaded
+doped with 0.8 M HNO3, 0.9 M HNO3, and 0.9 M HNO3/          and a schematic diagram of energy level alignment, a                  from
+6.25 mM LiTFSI, respectively, compared to the cell based on           histogram showing reproducibility of PEDOT:PSS- and
+pristine PEDOT:PSS with 0.99 μs. These results match with          PANI-based devices, and a curve showing the stability of
+the observations made in the J−V characteristics as the lower        PSC devices (PDF)
+transport time values further confirm the positive effect of the
+doping degree and dopant type on charge extraction, thus                                                     INFORMATION
+enhancing JSC values of the inverted PSCs.21                                 ■AUTHORCorresponding Author   Similarly, the TPV results are in good agreement with the
+VOC values obtained from the J−V  characteristics. Charge       Quinn Qiao −Mechanical and Aerospace Engineering,
+carrier lifetime of the devices based on PEDOT:PSS  is the           Syracuse University, Syracuse, New York 13244, United
+longest  with  1.02  μs compared  to  the  electrochemically            States;   orcid.org/0000-0002-4555-7887;
+synthesized PANI films. Increasing the doping degree from          Email: quqiao@syr.edu
+0.8 to 0.9 M HNO3 decreased carrier lifetime from 0.72 to 0.53
+                                                        Authors
+μs. Further doping HNO3-PANI with LiTFSI results in an
+                                                                            Sally Mabrouk −Mechanical and Aerospace Engineering,increase in carrier lifetime to 0.75 μs thus improving VOC from
+                                                                         Syracuse University, Syracuse, New York 13244, United0.87 to 0.93 V. These enhancements in the charge carrier
+                                                                                  States;   orcid.org/0000-0003-3853-027Xdynamics parameters match with the KPFM measurements                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf                                                       Ashim Gurung −Center for Advanced Photovoltaics,(Figure 4) as LiTFSI generates a new hole transporting energy                                                                                                 by
+                                                                 Department of Electrical Engineering and Computer Science,level between the HOMO of perovskite and the HOMO of                                                                   South Dakota State University, Brookings, South Dakota                                 guestPANI and increasing the work function of the PANI, thus                                                                                                 on
+                                                                  57007, United Statesimproving  VOC.  Also,  the new  energy  level  facilitates                                                                                                 19
+                                                          Behzad Bahrami −Center for Advanced Photovoltaics,enhancement in charge extraction and collection in the HTL
+                                                                 Department of Electrical Engineering and Computer Science,resulting in shorter transport time and improved JSC.                                                                   South Dakota State University, Brookings, South Dakota                                                    November
+                                                                  57007, United States                                                                                                                  2026
+                                                                      Abiral Baniya −Mechanical and Aerospace Engineering,■CONCLUSIONSA new approach aimed toward commercialization of PSCs has
+                                                                         Syracuse University, Syracuse, New York 13244, Unitedbeen implemented  via  substituting  conventional  high-cost
+                                                                                  States;   orcid.org/0000-0002-7341-0022PEDOT:PSS by facile synthesis of polyaniline electrochemi-
+                                                                 Raja Sekhar Bobba −Mechanical and Aerospace Engineering,cally. This can solve the issue of contamination in the chemical
+                                                                         Syracuse University, Syracuse, New York 13244, Unitedsynthesis method as it requires several materials for polymer-
+                                                                                Statesization and adhesion improvement with substrates. The PANI
+                                                         Fan Wu −Key Lab of Optoelectronic Materials and Devices,thin film was synthesized by a simple and scalable electro-
+                                                                        School of Science, Huzhou University, Huzhou 313000,chemical method and implemented as a HTM for the inverted
+                                                                   China;   orcid.org/0000-0002-7275-7649PSCs. A competitive PCE of 16.94% was achieved for the
+                                                                Rajesh Pathak −Center for Advanced Photovoltaics,electrochemically prepared PANI-based inverted PSC com-
+                                                                 Department of Electrical Engineering and Computer Science,pared to the conventional PEDOT:PSS with 15.11%. The
+                                                                   South Dakota State University, Brookings, South Dakota
+PANI-based PSC achieved better JSC and lower VOC and FF
+                                                                  57007, United Statescompared  to the PEDOT:PSS-based  device. This can be
+attributed to the work function of PANI being lower compared     Complete contact information is available at:
+to that of PEDOT:PSS which decreased VOC but enhanced      https://pubs.acs.org/10.1021/acsaem.2c00621
+hole  extraction  at  the HTM/perovskite  interface,  thus
+increasing  JSC. Doping  electrolyte  solution  with LiTFSI     Notes
+increased the work function of PANI, thus increasing VOC     The authors declare no competing financial interest.
+
+                                                             9358                                                     https://doi.org/10.1021/acsaem.2c00621
+                                                                                                                           ACS Appl. Energy Mater. 2022, 5, 9351−9360
+--- Страница 9 ---
+ACS Applied Energy Materials                                www.acsaem.org                                               Article
+
+                                                                    (14) Jeon, N. J.; Noh, J. H.; Yang, W. S.; Kim, Y. C.; Ryu, S.; Seo, J.;■ACKNOWLEDGMENTS                                        Seok, S.  I. Compositional Engineering of Perovskite Materials for
+This work was supported by in part by Syracuse University      High-Performance Solar Cells. Nature 2015, 517, 476−480.
+Startup Fund, National Science Foundation, and U.S.-Egypt       (15) Zheng, X.; Hou, Y.; Bao, C.; Yin, J.; Yuan, F.; Huang, Z.; Song,
+Science and Technology (S&T) Joint Fund. This work was       K.; Liu, J.; Troughton, J.; Gasparini, N.; Zhou, C.; Lin, Y.; Xue, D. J.;
+derived from the Subject Data supported in whole or part by      Chen,  B.; Johnston, A.  K.; Wei, N.;  Hedhili, M. N.; Wei, M.;
+NAS and USAID, and any opinions, findings, conclusions, or       Alsalloum,  A.  Y.;  Maity,  P.;  Turedi,  B.;  Yang,  C.;  Baran,  D.;
+recommendations expressed in the  article are those of the      Anthopoulos, T. D.; Han, Y.; Lu, Z. H.; Mohammed, O. F.; Gao, F.;
+                                                                            Sargent, E. H.; Bakr, O. M. Managing Grains and Interfaces Viaauthors alone and do not necessarily  reflect the views of
+                                                                   Ligand Anchoring Enables 22.3%-Efficiency Inverted Perovskite Solar
+USAID or NAS. The author would  like to thank Poojan                                                                                    Cells. Nat. Energy 2020, 5, 131−140.
+Kaswekar from Syracuse University-Mechanical and Aerospace                                                                    (16) Jeong, M.; Choi, I. W.; Go, E. M.; Cho, Y.; Kim, M.; Lee, B.;
+Engineering (SU-MAE) for measuring the thickness of the       Jeong, S.; Jo, Y.; Choi, H. W.; Lee, J.; Bae, J. H.; Kwak, S. K.; Kim, D.
+prepared PANI films. Thanks to Jyotshna Pokharel from South        S.; Yang, C. Stable Perovskite Solar Cells with Efficiency Exceeding
+Dakota State University-Electrical Engineering (SDSU-EE) for      24.8% and 0.3-V Voltage Loss. Science 2020, 369, 1615−1620.
+updating the references. Many thanks to Prof. Weiwei Zhang       (17) Chen, Z.; Turedi, B.; Alsalloum, A. Y.; Yang, C.; Zheng, X.;
+from Syracuse University-Chemistry department (SU-CST)       Gereige,  I.; AlSaggaf, A.; Mohammed, O. F.; Bakr, O. M. Single-
+for revising the manuscript. Thanks to Hanjie Lin (SU-CST),       Crystal Mapbi3  Perovskite  Solar  Cells  Exceeding 21% Power
+                                                                   Conversion Efficiency. ACS Energy Lett. 2019, 4, 1258−1259.Hansheng  Li (SU-MAE), Yuchen Zhang (SU-MAE), and
+                                                                    (18) Jiang, Q.; Zhao, Y.; Zhang, X.; Yang, X.; Chen, Y.; Chu, Z.; Ye,
+Madan Saud (SU-MAE) for their support.                                                                        Q.; Li, X.; Yin, Z.; You, J. Surface Passivation of Perovskite Film for                                                                                   Efficient Solar Cells. Nat. Photonics 2019, 13, 460−466.                                                                                                                        Downloaded
+                                                                    (19) Mabrouk, S.; Zhang, M.; Wang, Z.; Liang, M.; Bahrami, B.; Wu,                  from■REFERENCES                                                             Y.; Wu,  J.; Qiao, Q.; Yang, S. Dithieno [3, 2-B: 2′, 3′-D] Pyrrole- (1) Gurung,  A.; Qiao, Q.  Solar Charging  Batteries: Advances,
+                                                                 Based Hole Transport Materials  for Perovskite  Solar  Cells with
+Challenges, and Opportunities. Joule 2018, 2, 1217−1230.
+                                                                                  Efficiencies over 18%. J. Mater. Chem. A 2018, 6, 7950−7958.
+ (2) Yang, W. S.; Noh, J. H.; Jeon, N. J.; Kim, Y. C.; Ryu, S.; Seo, J.;
+                                                                    (20) Jeong,  J.; Kim, M.; Seo,  J.; Lu, H.; Ahlawat, P.; Mishra, A.;
+Seok,  S.   I.  High-Performance  Photovoltaic  Perovskite  Layers
+                                                                     Yang, Y.; Hope, M. A.; Eickemeyer, F. T.; Kim, M.; Yoon, Y. J.; Choi,
+Fabricated through  Intramolecular  Exchange.  Science 2015,  348,
+                                                                                                                I. W.; Darwich, B. P.; Choi, S.  J.; Jo, Y.; Lee,  J. H.; Walker, B.;
+1234−1237.                                                                      Zakeeruddin, S. M.; Emsley, L.; Rothlisberger, U.; Hagfeldt, A.; Kim,
+ (3) Correa-Baena,  J.-P.;  Saliba, M.; Buonassisi, T.; Grätzel, M.;
+                                                                D. S.; Grätzel, M.; Kim, J. Y. Pseudo-Halide Anion Engineering for A-
+Abate,  A.;  Tress, W.;  Hagfeldt, A. Promises and Challenges  of                                                                   Fapbi3 Perovskite Solar Cells. Nature 2021, 592, 381−385.
+Perovskite Solar Cells. Science 2017, 358, 739−744.                                                                    (21) Mabrouk,  S.  Engineering  of Hole Transport and  Perovskite
+ (4) Xing, G.; Mathews, N.; Sun, S.; Lim, S. S.; Lam, Y. M.; Grätzel,                                                                         Absorber Layers to Achieve High Efficiency and Stable Perovskite Solar
+M.; Mhaisalkar, S.; Sum, T. C. Long-Range Balanced Electron-and                                                                                           Cells. Ph.D., South Dakota State University, Ann Arbor, 2018.
+Hole-Transport Lengths in Organic-Inorganic Ch3nh3pbi3. Science                                                                    (22) Sun,  K.; Zhao,  B.; Murugesan,  V.; Kumar,  A.; Zeng,  K.;
+2013, 342, 344−347.                                                                       Subbiah, J.; Wong, W. W.; Jones, D. J.; Ouyang, J. High-Performance
+ (5) Tong, J.; Song, Z.; Kim, D. H.; Chen, X.; Chen, C.; Palmstrom,                                                                Polymer  Solar  Cells with  a Conjugated  Zwitterion by  Solution
+A. F.; Ndione, P. F.; Reese, M. O.; Dunfield, S. P.; Reid, O. G.; Liu, J.;                                                                      Processing  or Thermal  Deposition  as  the  Electron-Collection
+Zhang, F.; Harvey, S. P.; Li, Z.; Christensen, S. T.; Teeter, G.; Zhao,                                                                                   Interlayer. J. Mater. Chem. 2012, 22, 24155−24165.
+D.; al-Jassim, M. M.; van Hest, M.; Beard, M. C.; Shaheen, S. E.;                                                                    (23) Sun, K.; Chang, J.; Isikgor, F. H.; Li, P.; Ouyang, J. Efficiency                                                                                                                                                                                                                                                                                                                                           pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf
+Berry,  J.  J.; Yan, Y.; Zhu, K. Carrier Lifetimes of> 1 Ms in Sn-Pb      Enhancement of Planar Perovskite Solar Cells by Adding Zwitterion/         by
+Perovskites  Enable  Efficient  All-Perovskite Tandem  Solar  Cells.        Lif Double Interlayers for Electron Collection. Nanoscale 2015, 7,                       guest
+Science 2019, 364, 475−479.                                       896−900.                                                                              on
+ (6) Luo, D.; Su, R.; Zhang, W.; Gong, Q.; Zhu, R. Minimizing Non-       (24) Sun, K.; Li, P.; Xia, Y.; Chang,  J.; Ouyang,  J. Transparent         19
+Radiative Recombination Losses in Perovskite Solar Cells. Nat. Rev.      Conductive Oxide-Free Perovskite Solar Cells with Pedot: Pss as
+Mater. 2020, 5, 44−60.                                                Transparent Electrode. ACS Appl. Mater. Interfaces 2015, 7, 15314− (7) Green, M. A.; Ho-Baillie, A.; Snaith, H.  J. The Emergence of      15320.                                                                                                                                                                                                                                                                                                                                      November
+Perovskite Solar Cells. Nat. Photonics 2014, 8, 506−514.                  (25) Hu, L.; Sun, K.; Wang, M.; Chen, W.; Yang, B.; Fu, J.; Xiong,                  2026
+ (8) Mabrouk, S.; Bahrami, B.; Gurung, A.; Reza, K. M.; Adhikari, N.;        Z.; Li, X.; Tang, X.; Zang, Z.; Zhang, S.; Sun, L.; Li, M. Inverted
+Dubey, A.; Pathak, R.; Yang, S.; Qiao, Q. Higher Efficiency Perovskite       Planar Perovskite Solar Cells with a High Fill Factor and Negligible
+Solar Cells Using Additives of  Lii, Litfsi and Bmimi in the Pbi 2       Hysteresis by the Dual Effect of Nacl-Doped Pedot: Pss. ACS Appl.
+Precursor. Sustain. Energy Fuels 2017, 1, 2162−2171.                      Mater. Interfaces 2017, 9, 43902−43909.
+ (9) Bi, D.; Yi, C.; Luo, J.; Décoppet, J.-D.; Zhang, F.; Zakeeruddin,       (26) Liu, X.; Li, B.; Zhang, N.; Yu, Z.; Sun, K.; Tang, B.; Shi, D.;
+S. M.; Li, X.; Hagfeldt, A.; Grätzel, M. Polymer-Templated Nucleation      Yao, H.; Ouyang,  J.; Gong, H. Multifunctional Rbcl Dopants for
+and Crystal Growth of Perovskite Films for Solar Cells with Efficiency        Efficient Inverted Planar Perovskite Solar Cell with Ultra-High Fill
+Greater Than 21%. Nat. Energy 2016, 1, 16142.                            Factor, Negligible Hysteresis and Improved Stability. Nano Energy
+ (10) Jeon, N. J.; Noh, J. H.; Kim, Y. C.; Yang, W. S.; Ryu, S.; Seok, S.      2018, 53, 567−578.
+I.  Solvent  Engineering  for High-Performance Inorganic−Organic       (27) Nardes, A. M.; Kemerink, M.; Janssen, R. A.; Bastiaansen, J. A.;
+Hybrid Perovskite Solar Cells. Nat. Mater. 2014, 13, 897.                 Kiggen, N. M.; Langeveld, B. M.; Van Breemen, A. J.; De Kok, M. M.
+ (11) NREL. Best Research-Cell Efficiency Chart, 2020 (acccessed      Microscopic Understanding of the Anisotropic Conductivity of Pedot:
+12/30/2020).                                                          Pss Thin Films. Adv. Mater. 2007, 19, 1196−1200.
+ (12) Kojima, A.; Teshima, K.; Shirai, Y.; Miyasaka, T. Organometal       (28) Timpanaro, S.; Kemerink, M.; Touwslager, F.; De Kok, M.;
+Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells.       Schrader,  S. Morphology and  Conductivity  of Pedot/Pss  Films
+J. Am. Chem. Soc. 2009, 131, 6050−6051.                               Studied by Scanning−Tunneling Microscopy. Chem. Phys. Lett. 2004,
+ (13) Lee, M. M.; Teuscher,  J.; Miyasaka, T.; Murakami, T. N.;       394, 339−343.
+Snaith, H.  J. Efficient Hybrid Solar Cells Based on Meso-Super-       (29)  Jönsson,  S.;  Birgerson,   J.;  Crispin,  X.;  Greczynski,  G.;
+structured Organometal Halide Perovskites. Science 2012, 338, 643−      Osikowicz, W.; Van Der Gon, A. D.; Salaneck, W. R.; Fahlman, M.
+647.                                                     The Effects of Solvents on the Morphology and Sheet Resistance in
+
+                                                             9359                                                     https://doi.org/10.1021/acsaem.2c00621
+                                                                                                                           ACS Appl. Energy Mater. 2022, 5, 9351−9360
+--- Страница 10 ---
+ACS Applied Energy Materials                                www.acsaem.org                                               Article
+
+Poly  (3,  4-Ethylenedioxythiophene)−Polystyrenesulfonic  Acid       Solar Cells with an Moo 3/Pedot: Pss Hole Transporting Layer.
+(Pedot−Pss) Films. Synth. Met. 2003, 139, 1−10.                        Nanoscale 2015, 7, 9427−9432.
+ (30) Reza, K. M.; Gurung, A.; Bahrami, B.; Mabrouk, S.; Elbohy, H.;       (47) Kim, B.-S.; Kim, T.-M.; Choi, M.-S.; Shim, H.-S.; Kim,  J.-J.
+Pathak, R.; Chen, K.; Chowdhury, A. H.; Rahman, M. T.; Letourneau,       Fully Vacuum−Processed Perovskite Solar Cells with High Open
+S.; Yang, H. C.; Saianand, G.; Elam, J. W.; Darling, S. B.; Qiao, Q.       Circuit Voltage Using Moo3/Npb as Hole Extraction Layers. Org.
+Tailored Pedot: Pss Hole Transport Layer for Higher Performance in        Electron. 2015, 17, 102−106.
+Perovskite  Solar  Cells: Enhancement  of  Electrical and  Optical       (48) Dasgupta, U.; Chatterjee, S.; Pal, A. J. Thin-Film Formation of
+Properties with Improved Morphology.  J. Energy Chem. 2020, 44,     2d Mos2 and Its Application as a Hole-Transport Layer in Planar
+41−50.                                                                   Perovskite Solar Cells. Sol. Energy Mater. Sol. Cells 2017, 172, 353−
+ (31) Elbohy, H.; Bahrami, B.; Mabrouk, S.; Reza, K. M.; Gurung, A.;       360.
+Pathak, R.; Liang, M.; Qiao, Q.; Zhu, K. Tuning Hole Transport       (49) Choi, H.; Mai, C.-K.; Kim, H.-B.; Jeong, J.; Song, S.; Bazan, G.
+Layer Using Urea for High-Performance Perovskite Solar Cells. Adv.       C.; Kim,  J.  Y.;  Heeger,  A.  J. Conjugated  Polyelectrolyte Hole
+                                                                     Transport  Layer  for  Inverted-Type  Perovskite  Solar  Cells.  Nat.Funct. Mater. 2019, 29, No. 1806740.
+                                                          Commun. 2015, 6, 7348. (32) Weerakoon, K. A.; Chin, B. Detecting Insect Infestation Using a
+                                                                    (50) Ruiz-Hitzky, E. Conducting Polymers Intercalated in LayeredCarbon/Polymer Composite Based Sensor Array. ECS Trans. 2010,
+                                                                                  Solids. Adv. Mater. 1993, 5, 334−340.33, 85−89.
+                                                                    (51) Lee, K.; Cho, K. H.; Ryu, J.; Yun, J.; Yu, H.; Lee, J.; Na, W.; (33) Chuang, K.-L.; Chen, Y.-J.; Wong, M.-S.; Ling, H. S.; Tsai, C.-
+                                                                               Jang,  J. Low-Cost and  Efficient  Perovskite  Solar  Cells Using aH.; Wang, C. C. Verification of Effect of Electric Field on Electron
+                                                                         Surfactant-Modified Polyaniline: Poly (Styrenesulfonate) Hole Trans-Transport in Tio 2 Electrode. In Organic Photovoltaics XVI, 2015;
+                                                                         port Material. Electrochim. Acta 2017, 224, 600−607.
+International Society for Optics and Photonics: Vol. 9567, p. 95671F.
+                                                                    (52) Lim, K. G.; Ahn, S.; Kim, H.; Choi, M. R.; Huh, D. H.; Lee, T.
+ (34) Wakizaka, D.; Fushimi, T.; Ohkita, H.; Ito, S. Hole Transport                                                      W. Self-Doped Conducting Polymer as a Hole-Extraction Layer in                                              Downloaded
+in Conducting Ultrathin Films of Pedot/Pss Prepared by Layer-by-
+                                                                  Organic−Inorganic Hybrid  Perovskite  Solar  Cells.  Adv.  Mater.                  fromLayer Deposition Technique. Polymer 2004, 45, 8561−8565.
+                                                                                      Interfaces 2016, 3, No. 1500678.
+ (35) Wan, M.  Conducting  Polymers  with  Micro  or Nanometer
+                                                                    (53) Lee, K.; Yu, H.; Lee, J. W.; Oh, J.; Bae, S.; Kim, S. K.; Jang, J.
+Structure; Springer, 2008.                                                                                   Efficient and Moisture-Resistant Hole Transport Layer for Inverted
+ (36) Kim, G. Y.; Oh, S. H.; Nguyen, B. P.; Jo, W.; Kim, B. J.; Lee, D.                                                                          Perovskite Solar Cells Using Solution-Processed Polyaniline. J. Mater.
+G.; Jung, H. S. Efficient Carrier Separation and Intriguing Switching                                                               Chem. C 2018, 6, 6250−6256.
+of Bound Charges in Inorganic−Organic Lead Halide Solar Cells. J.                                                                    (54) Chen, R.; Zhang, L.; Zhou, Y.; Ren, Z.; Zhang, Y.; Guo, B.;
+Phys. Chem. Lett. 2015, 6, 2355−2362.                                                                          Xing, X.; Odunmbaku, G. O.; Li, Y.; Sun, K. In-Situ Synthesis of
+ (37) Mabrouk, S.; Bahrami, B.; Elbohy, H.; Reza, K. M.; Gurung, A.;                                                                     Large-Area  Pani  Films  Via  Sequential  Solution  Polymerization
+Liang, M.; Wu,  F.; Wang, M.;  Yang,  S.;  Qiao, Q.  Synergistic                                                             Technique  for  Electrochromic  Applications.  Giant  2021,  8,
+Engineering of Hole Transport Materials in Perovskite Solar Cells.      No. 100072.
+InfoMat 2020, 2, 928−941.                                            (55) Shirakawa, H.; Louis, E. J.; MacDiarmid, A. G.; Chiang, C. K.;
+ (38) Reynolds, J. R.; Thompson, B. C.; Skotheim, T. A. Handbook of      Heeger, A. J. Synthesis of Electrically Conducting Organic Polymers:
+Conducting Polymers, −2 Volume Set; CRC Press, 2019.                 Halogen Derivatives of Polyacetylene,(Ch) X.  J. Chem. Soc., Chem.
+ (39) Wijeyasinghe, N.; Regoutz, A.; Eisner, F.; Du, T.; Tsetseris, L.;     Commun. 1977, 578−580.
+Lin, Y. H.; Faber, H.; Pattanasattayavong, P.; Li, J.; Yan, F. Copper (I)       (56) Rannou, P.; Nechtschein, M. Aging Studies on Polyaniline:
+Thiocyanate (Cuscn)  Hole-Transport  Layers  Processed from      Conductivity and Thermal Stability. Synth. Met. 1997, 84, 755−756.
+Aqueous Precursor Solutions and Their Application in Thin-Film       (57) Dharmadasa,  I.; Rahaq, Y.; Alam, A. Perovskite Solar Cells:Transistors and Highly Efficient Organic and Organometal Halide      Short  Lifetime and  Hysteresis  Behaviour  of  Current−Voltage                                                                                                                                                                                                                                                                                                                                           pubs.​acs.​org/​aaemcq/​article-pdf/​5/​8/​9351/​3441408/​ae2c00621.​pdf
+Perovskite Solar Cells. Adv. Funct. Mater. 2017, 27, No. 1701818.          Characteristics. J. Mater. Sci.: Mater. Electron. 2019, 30, 12851−12859.         by
+ (40) Wang, B.; Zhang, Z.-G.; Ye, S.; Gao, L.; Yan, T.; Bian, Z.;       (58) Kulkarni, V. G.; Campbell, L. D.; Mathew, W. R. Thermal                       guestHuang, C.;  Li, Y. Solution-Processable Cathode Buffer Layer for        Stability of Polyaniline. Synth. Met. 1989, 30, 321−325.
+                                                                                                                                                                                 on
+High-Performance Ito/Cuscn-Based Planar Heterojunction Perov-       (59) Hobaica, S. C. Stability of Polyaniline in Air and Acidic Water.         19
+skite Solar Cell. Electrochim. Acta 2016, 218, 263−270.                                J. Polym. Sci., Part B: Polym. Phys. 2003, 41, 807−822.
+ (41) Sun, W.; Ye, S.; Rao, H.; Li, Y.; Liu, Z.; Xiao, L.; Chen, Z.; Bian,Z.; Huang, C. Room-Temperature and Solution-Processed Copper                                                                                                                                                                                                                                                                                                                                                                                                     November
+Iodide as the Hole Transport Layer for Inverted Planar Perovskite                                                                                                                                                                                                  2026Solar Cells. Nanoscale 2016, 8, 15954−15960.
+ (42) Zuo, C.; Ding, L. Solution-Processed Cu2o and Cuo as Hole
+Transport Materials for Efficient Perovskite Solar Cells. Small 2015,
+11, 5528−5532.
+ (43) Sun, W.; Li, Y.; Ye, S.; Rao, H.; Yan, W.; Peng, H.; Li, Y.; Liu,
+Z.; Wang,  S.; Chen,  Z.;  Xiao,  L.;  Bian,  Z.; Huang, C. High-
+Performance Inverted Planar Heterojunction Perovskite Solar Cells
+Based on  a  Solution-Processed Cuo X Hole  Transport  Layer.
+Nanoscale 2016, 8, 10806−10813.
+ (44) Yue, S.; Liu, K.; Xu, R.; Li, M.; Azam, M.; Ren, K.; Liu, J.; Sun,
+Y.; Wang, Z.; Cao, D.; Yan, X.; Qu, S.; Lei, Y.; Wang, Z. Efficacious
+Engineering on Charge  Extraction  for  Realizing Highly  Efficient
+Perovskite Solar Cells. Energy Environ. Sci. 2017, 10, 2570−2578.
+ (45) Chen, W.; Xu, L.; Feng, X.; Jie, J.; He, Z. Metal Acetylacetonate
+Series in Interface Engineering for Full Low-Temperature-Processed,
+High-Performance, and Stable Planar Perovskite Solar Cells with
+Conversion Efficiency over 16% on 1 Cm2 Scale. Adv. Mater. 2017,
+29, No. 1603923.
+ (46) Hou, F.; Su, Z.; Jin, F.; Yan, X.; Wang, L.; Zhao, H.; Zhu, J.;
+Chu, B.; Li, W. Efficient and Stable Planar Heterojunction Perovskite
+
+                                                             9360                                                     https://doi.org/10.1021/acsaem.2c00621
+                                                                                                                           ACS Appl. Energy Mater. 2022, 5, 9351−9360

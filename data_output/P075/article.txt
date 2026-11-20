@@ -1,0 +1,493 @@
+--- Страница 1 ---
+Journal of
+Materials Chemistry A
+
+ COMMUNICATION                                               Published on 30 March 2021                                                                          Licensed under CC-BY-NC 3.0
+
+               Inﬂuence of the stoichiometry of tin-based 2D/3D
+                 perovskite active layers on solar cell performance†
+Cite this: J. Mater. Chem. A, 2021, 9,
+10095
+                        Shuyan Shao,‡*a Maykel Nijenhuis,‡a Jingjin Dong,b Simon Kahmann,   a Gert H. ten
+Received 21st October 2020         Brink,   c Giuseppe Portale   b and Maria Antonietta Loi   *a
+Accepted 29th March 2021
+
+
+DOI: 10.1039/d0ta10277f
+
+rsc.li/materials-a
+
+2D/3D mixed tin perovskites have the advantages of high crystallinity  Introduction
+and preferential orientation compared to pure 3D tin perovskite.
+However, solar cells based on 2D/3D mixed tin perovskites are still  Hybrid metal halide perovskite based solar cells (HPSCs) have
+limited by low power conversion eﬃciency (PCE) when compared to   attractive advantages, such as low cost of the material and the
+their lead-based counterparts. It is essential to gain deeper insight into   easy fabrication process, as well as light weight. The last two are
+the factors that limit the performance of these solar cells in order to   especially relevant as they may open up the possibility for new
+further improve them. In this work, we demonstrate that the starting   applications.1 The outstanding semiconducting properties of
+stoichiometry of 2D/3D (PEA0.08FAxSnI3) tin perovskite ﬁlms inﬂuences  HPs, such as good defect tolerance,2 high absorption coeﬃ-
+their crystallization and photophysical properties as well as the solar   cients3,4 and excellent charge mobilities, put HPSCs in the
+cell performance. The reference 2D/3D ﬁlm (x ¼ 0.92, where x refers   spotlight of academic research.5–8 Although Pb-based HPSCs
+to the stoichiometry of the precursors) is highly crystalline with the 3D  have shown remarkable improvements in terms of power
+phase preferentially oriented and a small amount of 2D phase located   conversion eﬃciency (PCE),9,10 in the last decade, the toxicity of
+at the bottom of the ﬁlm. The reference solar cell delivers a PCE of  Pb has cast doubts on the actual realization of large-scale
+about 8.0%. 2D/3D ﬁlms with even higher FA concentration (x > 1.0)   commercialization of HPSCs. Since the electronic congura-
+mainly consist of poorly crystalline and randomly oriented 3D phases,   tion of Pb (6s26p2) is the primary reason for the exceptional
+with much higher trap density compared to the reference ﬁlm. The  semiconducting properties of the corresponding perovskite,11
+corresponding solar cells therefore suﬀer from severe trap-assisted   elements with a similar electronic conguration (ns2np2) in the
+charge recombination, and deliver a poor PCE of <1%. FA-deﬁcient   IVA-group, such as Sn (5s25p2), are regarded as viable alternative
+2D/3D ﬁlms (x # 0.8) form highly crystalline and oriented 3D grains,   candidates.11–16 Nevertheless, Sn-based HPSCs have not shown
+and at the same time a large quantity of 2D (n # 2) phases throughout  such a rapid improvement in PCE and reproducibility as Pb-
+the entire ﬁlm. Furthermore, the FA-deﬁcient ﬁlms contain excess  based HPSCs. The main limiting factors are attributed to the
+SnI2. Consequently, charge transport in FA-deﬁcient ﬁlms is hindered   facile formation of Sn vacancies and oxidation of Sn2+, which
+by both the 2D phases oriented parallel to the substrate and SnI2, and   cause severe p-doping in the tin perovskite lm and trap-
+the corresponding solar cells suﬀer from the recombination of free   assisted charge recombination losses in solar cells.17–21
+holes and electrons, resulting in a lower PCE than the reference      Previous studies have demonstrated that the stoichiometry
+devices.                                                           of Pb-based perovskite lms inuences the performance of the
+                                                           corresponding HPSCs.22–25 So far, to the best of our knowledge,
+                                                              only two papers investigated the eﬀect of excess SnI2 on the
+                                                         performance of 3D cesium tin iodide (CsSnI3) based solar cells.
+                                                            Marshall et al. reported an optimum PCE of 2.8% upon adding
+aPhotophysics  and  OptoElectronics,  Zernike  Institute  for  Advanced  Materials,   excess SnI2, while Song et al. reported an optimum PCE of 4.8%
+University of Groningen, Nijenborgh 4, 9747 AG, The Netherlands. E-mail: s.shao@
+                                                   upon adding excess SnI2.26,27 They found that the excess of rug.nl; m.a.loi@rug.nl
+bMacromolecular Chemistry and New Polymeric  Material, Zernike  Institute  for  amorphous SnI2 does not aﬀect the crystallization behavior in
+Advanced Materials, University of Groningen, Nijenborgh 4, 9747 AG, The Netherlands   terms of the crystallinity or orientation of the 3D CsSnI3 lm.
+cNanostructured Materials and Interfaces, Zernike Institute for Advanced Materials,  They proposed that the tin-rich environment helps to suppress
+University of Groningen, Nijenborgh 4, 9747 AG, The Netherlands                the formation of tin vacancies and improves the solar cell
+† Electronic   supplementary   information    (ESI)    available.   See   DOI:   performance. However, they did not address the eﬀect of tin
+10.1039/d0ta10277f
+                                                            deciency on the performance of the HPSCs.
+‡ Dr S. Shao and M. Nijenhuis contributed equally to this work.
+
+
+
+This journal is © The Royal Society of Chemistry 2021                                                         J. Mater. Chem. A, 2021, 9, 10095–10103  | 10095
+--- Страница 2 ---
+Journal of Materials Chemistry A                                                      Communication
+
+
+   Recently, we demonstrated that in situ formation of a small   quantity of n # 2 phases oriented parallel to the substrate and
+amount of 2D tin perovskite in a 3D formamidinium tin iodide   excess  SnI2 throughout the  entire lm, hindering charge
+(FASnI3) perovskite matrix (nominal formula: PEA0.08FA0.92SnI3)   transport. Consequently, solar cells suﬀer from recombination
+is an eﬀective strategy to suppress tin vacancies and tin oxida-   of holes and electrons and deliver much lower eﬃciency of
+tion.18  Consequently, 2D/3D  tin  perovskite  based HPSCs   about 3%. This systematic study on the eﬀect of stoichiometry
+exhibited a 50% improvement in PCE as compared to 3D tin  on the 2D/3D Sn-perovskite lm formation provides guidance
+perovskite based HPSCs.19,28 The question arising from previous   for fabricating eﬃcient tin based solar cells.
+studies is how the stoichiometry of the 2D/3D tin perovskite
+lm inuences the performance of the HPSCs. Recently, we
+claried that the crystallization behavior of the 3D tin perov-  Results and discussion
+skite in the presence of the 2D phase is diﬀerent from that of
+                                                             In this work we prepared a series of 2D/3D tin perovskite lms
+pure 3D lms.28 Besides the crystallization, the quantity, loca-
+                                                            with a nominal formula of PEA0.08FAxSnI3 from precursor
+tion, and orientation of the 2D phases are also critical for the
+                                                                solutions consisting of 0.08 M 2-phenylethylammonium iodide
+performance of the solar cells. Elucidating the eﬀect of the
+                                                                    (PEAI), x M formamidinium iodide (FAI), 1 M SnI2 and 0.1 M
+stoichiometry of the 2D/3D tin perovskite lm on the crystalli-
+                                                               SnF2. For this study we vary x from 0.6 to 1.2.
+zation behavior of both 2D and 3D phases is therefore essential
+                                                                          Fig. 1 shows the X-ray diﬀraction (XRD) patterns of 2D/3D tin
+to fully understand and tackle the limiting factors still aﬀecting
+                                                                perovskite lms. The 2D/3D lm with a nominal formula of
+solar cell performance.
+                                                                  PEA0.08FA0.92SnI3 (x ¼ 0.92) is regarded as the stoichiometric
+   Herein, we investigate the eﬀects of the stoichiometry of 2D/
+                                                                   reference. The diﬀraction pattern exhibits two dominant and
+3D Sn-based perovskite lms, which have a nominal formula of
+                                                               intense diﬀraction peaks at 14.0 and 28.2  , which are assigned
+PEA0.08FAxSnI3, on their crystallization behavior and solar cell
+                                                                   to the (100) and the (200) planes of the cubic structure of 3D
+performance. By varying the concentration of FAI (x) in the
+                                                          FASnI3 (Fig. 1a).29 This indicates a highly oriented and crystal-
+precursor solution from 0.6 to 1.2 M, we obtained a series of 2D/
+                                                                     line 2D/3D lm, in agreement with what we reported in our
+3D tin perovskite lms with diﬀerent crystallization behaviors/
+                                                              previous works.18,19 The FA-decient (x # 0.8 M) 2D/3D lms
+compositions. The reference 2D/3D lm (x ¼ 0.92), which has
+                                                                  also consist of highly crystalline and oriented 3D grains, which
+a compact morphology, high  crystallinity and  preferential
+                                                                               is evidenced by the two dominant and intense peaks at 14.0
+orientation, produces HPSCs with a PCE of 8%, which  is
+                                                    and 28.2  . However, they contain excess of SnI2, which is evi-
+a typical value when using less pure SnI2 (99.99%).19 2D/3D
+                                                       denced by the diﬀraction peak at around 12.7  (Fig. S1†). The
+lms with a signicant excess of FA (x > 1.00) consist of less
+                                                    2D/3D lm containing a slight excess of FA (x ¼ 1.0 M) shows
+crystalline and randomly oriented 3D phases which show
+                                                                 similar diﬀraction features to those of the reference sample.
+a much higher trap density compared to the reference lm.
+                                                         However, the 2D/3D lms with a higher excess of FA (x ¼ 1.1 and
+Solar cells therefore suﬀer from severe trap-assisted charge
+                                                                        1.2) show much weaker and almost invisible diﬀraction peaks
+recombination, and exhibit a very poor eﬃciency (<1%). 2D/3D
+                                                     compared to the reference 2D/3D lm, indicating very poor
+lms with a decient FA (x < 0.92 M) consist of highly crystalline
+                                                                            crystallinity. In order to observe the diﬀraction features of these
+and oriented 3D grains and a larger amount of 2D phases
+                                                    lms more clearly, we re-plot their diﬀraction patterns together
+compared to the reference 2D/3D lm. In particular, 2D/3D
+                                                            with the one of the FASnI3 in Fig. 1b. Unlike the reference
+lms with a high deciency of FA (x # 0.8) contain a large
+                                                           sample, these FA-excess lms exhibit multiple diﬀraction peaks
+
+
+
+
+
+Fig. 1 XRD patterns of PEA0.08FAxSnI3 ﬁlms with (a) x ranging from 0.70 M to 1.20 M and (b) the 1.10 M and 1.20 M patterns compared to the one
+of pure FASnI3.
+
+
+
+10096  | J. Mater. Chem. A, 2021, 9, 10095–10103                                           This journal is © The Royal Society of Chemistry 2021
+--- Страница 3 ---
+Communication                                                              Journal of Materials Chemistry A
+
+
+at 14.0  , 24.4  , 28.2  , 31.7  , 40.4 and 42.9  , which are assigned   direction (in-plane). This shows that, similar to the situation of
+to the (100), (120)/(102), (200), (122), (222) and (300) planes of   the reference 2D/3D lm,18 the 3D tin perovskite phase is highly
+the 3D  structure.18 This indicates that the 3D grains are   oriented with (h00) planes preferentially stacking in the out-of-
+randomly oriented in these FA-excess lms. The two features of   plane direction throughout the entire lm. The FA-decient
+random orientation and low crystallinity bring these lms  lms  detected  at  the  two  X-ray  incident  angles  show
+closer to the pure 3D FASnI3.                              pronounced diﬀraction patterns at qz z 0.6 A  1 and 0.78 A  1,
+  We performed grazing incidence wide-angle X-ray scattering  which are assigned to the (004) planes of the low-dimensional
+(GIWAXS) measurements to gain deeper insight into the eﬀect   (2D) tin perovskite PEA2FASn2I7 (n ¼ 2) and PEA2SnI4 (n ¼ 1),
+of stoichiometry on the orientation of the 2D/3D lms. Fig. 2   respectively.28 Notably, they do not show these diﬀraction
+and S2† show GIWAXS images recorded at incident angles of 2    features along the qr direction, which indicates that the n ¼ 1
+and 0.25  for the PEA0.08FAxSnI3 lms. The X-ray penetrates  and 2 phases exist throughout the entire lm and lie preferen-
+through the entire lm in the former case and only several tens    tially with their inorganic layers parallel to the substrate. These
+of nanometers from the top part of the lm in the latter case.18,19   FA-decient lms contain a remarkably higher amount of the
+Regardless of the penetration depth, the FA-decient 2D/3D  2D phases compared to the reference 2D/3D lm which only has
+lms (x # 0.8) exhibit very sharp and intense Bragg spots for   a very small amount of the 2D phase at the bottom of the lm.18
+the (100) and (200) planes along the qz direction (out-of-plane),  The 2D/3D lm containing a slight excess of FA (x ¼ 1.00) also
+and very weak diﬀraction spots of these planes along the qr   maintains the preferential orientation of the 3D phase, which
+
+
+
+
+
+Fig. 2  GIWAXS patterns of (a) the PEA0.08FA0.6SnI3, (b) PEA0.08FA0.7SnI3, (c) PEA0.08FA0.8SnI3, (d) PEA0.08FA1.0SnI3, (e) PEA0.08FA1.1SnI3 and (f)
+PEA0.08FA1.2SnI3 ﬁlms. The images were recorded using an incident angle of 2  . Line-cut data of the PEA0.08FAxSnI3 (x ¼ 0.6–1.1) ﬁlms along (g) qr
+and (h) qz directions.
+
+
+
+This journal is © The Royal Society of Chemistry 2021                                                        J. Mater. Chem. A, 2021, 9, 10095–10103  | 10097
+--- Страница 4 ---
+Journal of Materials Chemistry A                                                      Communication
+
+
+shows diﬀraction patterns similar to that of the reference 2D/3D  The scanning electron microscopy (SEM) images shown in
+lm.18,19 2D/3D lms with a higher excess of FAI (x > 1) only   Fig. S4† generally display features consistent with what  is
+exhibit broad diﬀraction arcs of the 3D phase, which is clear   observed in the AFM images. A closer look at the FA-excess (x ¼
+evidence for the randomly oriented 3D grains in these lms.   1.1) lm reveals plenty of tiny pinholes (smaller than 50 nm)
+Moreover, these lms do not show observable diﬀraction   within grains, which are absent in the 2D/3D lms with lower FA
+patterns of the 2D phases probably due to their extremely small   concentrations (x # 1).
+quantity or absence (Fig. 2f and h). The variation in the amount     Photoluminescence (PL) spectroscopy is a useful tool to gain
+of the 2D tin perovskite phase is caused by the competitive   deeper insight into the eﬀect of stoichiometry on the quality of
+crystallization between the 3D and the 2D phase.28 Deciency in   the tin perovskite lms.29,30 Fig. 4a shows the steady-state PL
+FA facilitates the crystallization of 2D tin perovskite, while   spectra of PEA0.08FAxSnI3 lms. The reference 2D/3D lm
+excess FA facilitates the crystallization of 3D tin perovskite. The   exhibits an emission peak centered around 900 nm, which is
+quantity of the 2D tin perovskite determines the crystallinity  due to the radiative recombination of the free holes and elec-
+and orientation of the 3D phase by changing its crystallization   trons. The FA-decient lms exhibit emission peaks at similar
+mechanism.28 The highly oriented 2D tin perovskite enables   wavelengths to the reference 2D/3D lm, while the FAI-excess
+growth of the highly crystalline and oriented 3D phase in the  lms show blue-shied emission peaks  (Fig.  S5†). These
+2D/3D tin perovskite lms, while its absence causes randomly   shis in the photoluminescence are in agreement with the
+oriented 3D phases with poor crystallinity.18,19,28                  variation in absorbance spectra (Fig. S6†), which demonstrate
+   Atomic force microscopy (AFM) images in Fig. 3 reveal the  an onset at approximately 900 nm for the reference sample and
+obvious diﬀerence in the morphology of the PEA0.08FAxSnI3   a blue-shied onset for the FA-excess (x $ 1.1) lm. Similar to
+lms due to the variation in the composition and crystallization   the pure 3D lms, the signicant crystallographic disorder may
+behavior. Compared to the reference 2D/3D lm, FA-decient   cause severe p-doping in the extreme FA-excess lms, which will
+2D/3D lms (x # 0.8) contain more ake-like grains due to  be discussed  later. The blue-shiin both absorbance and
+more perfect orientation of the grains, and a signicant number  photoluminescence spectra of the FA-excess lms is presumably
+of large pinholes with the size larger than 500 nm at grain   associated with the Burstein–Moss eﬀect due to the p-doping of
+boundaries. In contrast, FA-excess 2D/3D lms (x $ 1.1) do not   the material,15,29 which shis the edge of the valence band
+show any large pin holes or ake-like features due to the   towards lower energy and enlarges the bandgap. Additionally,
+random orientation of the grains in the absence of the 2D   the broadening in the peak width of the FA-excess lms is
+materials. These results are in line with the observation from  dominated by the disorder and the doping. The PL intensity
+GIWAXS measurements. Particularly, the FA-excess 2D/3D lm   (Fig. 4a) of the 2D/3D lms decreases with increased FA
+(x ¼ 1.2) appears to be non-textured due to its poor crystallinity.   concentration. Particularly, the FA-excess lms show a much
+
+
+
+
+
+Fig. 3 AFM images of PEA0.08FAxSnI3 at a scan area of 5 mm  5 mm.
+
+
+
+10098  | J. Mater. Chem. A, 2021, 9, 10095–10103                                           This journal is © The Royal Society of Chemistry 2021
+--- Страница 5 ---
+Communication                                                              Journal of Materials Chemistry A
+
+
+
+
+
+Fig. 4  PL measurements of PEA0.08FAxSnI3 ﬁlms. (a) Steady state and (b) time-resolved PL. The color scheme is the same in the two ﬁgures,
+lifetimes are reported in the legend of (b).
+
+
+weaker PL intensity than the rest of the 2D/3D lms. Therefore,   keeping the samples in the dark. Fig. 5a shows the current
+we can state that FA-excess 2D/3D lms show the highest non-   density–voltage  (J–V) curves measured on a  lateral device
+radiative charge  carrier recombination.  Fig. 4b shows the   structure (see the Experimental details). As mentioned above,
+decay dynamics of the photo-generated charge carriers in the   the  electrical conductivity in tin based perovskite lms  is
+PEA0.08FAxSnI3 lms. Fitting the low intensity, the FA-excess  dominated by holes18,19 and tin vacancies are mainly respon-
+lm (x ¼ 1.1) exhibits a short PL lifetime of 0.10 ns, while the   sible for the high degree of doping that is oen encountered.
+reference 2D/3D lm and slight FA-excess lm exhibit PL life-   Fig. 5b shows the conductivity values of the 2D/3D lms. The
+times more than 20 times longer (2.27 ns and 3.50 ns). As   FA-decient lms show electrical conductivity of the order of
+further conrmed below, this is due to both the reduction of  10 4 S cm  1, which is similar to that of the reference 2D/3D
+trap-assisted carrier recombination loss and the suppression of  lm. Mott–Schottky analysis conrms that these lms have
+strong background doping for lms of comparatively low FA-   a background hole density similar to that of the reference 2D/3D
+content. The charge carriers in the FA-decient lms have  lm (Fig. S7†). In contrast, the FA-excess lms (x $ 1.1) are 20
+intermediate lifetimes. It is likely that 2D phases throughout   times more conductive than the reference 2D/3D lm due to
+the entire lm and the excess SnI2 inhibit the diﬀusion of  much higher background hole density (Fig. S6†), indicating an
+photo-generated carriers away from each other. Consequently,   increased number of tin vacancies.
+the recombination of the free holes and electrons increases,     With the knowledge on the properties of the tin perovskite
+leading to strong emission but short charge carrier lifetime.     lms, we proceed further to investigate how the stoichiometry
+  To understand more about  the  intrinsic  properties  of   of the 2D/3D lms inuences the performance of solar cells. We
+PEA0.08FAxSnI3 lms we performed conductivity measurements   fabricated  devices  using  the  architecture  ITO/poly(3,4-
+
+
+
+
+
+Fig. 5  Conductivity measurements of PEA0.08FA(x)SnI3 ﬁlms. (a) I–V characteristics under dark conditions, and (b) electrical conductivity
+calculated from the I–V curves in (a).
+
+
+
+This journal is © The Royal Society of Chemistry 2021                                                        J. Mater. Chem. A, 2021, 9, 10095–10103  | 10099
+--- Страница 6 ---
+Journal of Materials Chemistry A                                                      Communication
+
+
+                                                                      Table 1  Figures of merit for devices with PEA0.08FAxSnI3 tin perovskite
+                                                                            layers under one sun conditions
+
+                                                       X (M)           Jsc (mA cm  2)        Voc (V)       FF       PCE (%)
+
+                                                                        1.20           3.1                 0.19          0.37        0.22
+                                                                        1.10           6.9                 0.24          0.55        0.53
+                                                                        1.00         23.9                 0.50          0.66        7.82
+                                                                        0.95         23.1                 0.50          0.69        7.99
+                                                                        0.92         22.8                 0.50          0.69        7.98
+                                                                        0.85         20.5                 0.52          0.52        5.57
+                                                                        0.80         16.3                 0.53          0.40        3.34
+                                                                        0.70         14.2                 0.53          0.40        3.00
+
+
+
+                                                                 similar PCEs. These results can be explained by the fact that the
+                                                               PEA0.08FAxSnI3 (x in the range of 0.92 to 1) lms have low trap-
+                                                                  assisted charge carrier recombination. HPSCs based on 2D/3D
+                                                    lms with a signicant excess of FA exhibit a sharp drop in
+                                                              the VOC, JSC and FF, leading to a PCE lower than 1%. Such poor
+                                                                device performance is caused by the severe trap-assisted charge
+                                                          recombination and high shunt loss (Fig. 6c). These results show
+                                                                        clearly that the concentration of FA should lie in the range of
+                                                                0.92–1.0 M in order to obtain eﬃcient 2D/3D based HPSCs.
+                                                 HPSCs based on FA-decient lms have slightly higher VOC than
+                                                              the best performing reference solar cell, but signicantly lower
+                                                                         JSC and FF. The statistics of the gures of merits for devices of
+                                                             diﬀerent stoichiometries is shown in Fig. S8–S10.† As we dis-
+                                                           cussed previously, the parallel oriented 2D phases and the
+                                                            presence of SnI2 hinder the charge transport and cause signif-
+                                                                  icant recombination of free electrons and holes, reducing JSC
+                                                    and FF in solar cells. The incident photon to electron conver-
+                                                              sion eﬃciency (IPCE) spectra (Fig. S11†) conrm the trend of
+                                                              the JSC.
+                                                      To gain deeper insight into the charge recombination in the
+                                                                    solar cells, we tested their J–V curves under diﬀerent light
+                                                                       intensities. Fig. 7a shows the JSC vs. light intensity (I) plots.
+                                                                       Fig. 7b shows the value of the slope (alpha) obtained by tting
+                                                              the experimental data points from Fig. 7a assuming a power law
+                                                       dependence of the JSC on the light intensity (JSC f Ia). The
+                                                                device based on the FA-decient (x ¼ 0.8) 2D/3D lm shows an
+                                                  a value of about 0.81, conrming strong bimolecular recombi-
+                                                             nation of electrons and holes in those devices.31 Again, this
+                                                                explains the origin of the low JSC and FF. The rest of the devicesFig. 6  PEA0.08FAxSnI3 based devices. (a) J–V curves under AM 1.5G
+conditions, (b) PCE versus FA concentration and (c) J–V curves of the  based on 2D/3D lms with a higher FA concentration show
+solar cells under dark conditions. Displayed results are coming from  a values of 0.88, due to reduced recombination of the free
+a batch of consistent samples.                                      electrons and holes. Fig. 7c shows the VOC vs. semi-logarithmic
+                                                                       light intensity plots, and Fig. 7d shows the ideality factor (n)
+                                                                values extracted from the slope of the former plots. Compared
+ethylenedioxythiophene):polystyrene  sulfonate  (PEDOT:PSS)/   to the devices based on 2D/3D lms with lower FA concentra-
+PEA0.08FA(x)SnI3/C60/2,9-dimethyl-4,7-diphenyl-1,10-               tions, the devices based on 2D/3D lms with a signicant excess
+phenanthroline (BCP)/Al, following the fabrication method re-   of FA (x $ 1.1) exhibit much higher n values, verifying severe
+ported in our previous studies.18,19 Fig. 6a shows the J–V curves   trap-assisted  charge  carrier  recombination.  Consequently,
+of the solar cells tested under a light intensity of 100 mW cm 2   these devices suﬀer from low VOC and JSC.
+and AM 1.5G conditions. The reference HPSC exhibits an open    We also tested the  stability of the devices without any
+circuit voltage (VOC) of 0.50 V, a short circuit current density (JSC)   encapsulation exposing samples to ambient conditions for the
+of 22.8 mA cm  2, and a ll factor (FF) of 0.69, which results in   indicated time and testing them back in the N2-lled glove box
+a PCE of about 8%, as shown in Table 1 and Fig. 6b. The devices   (see Fig. S12†). Generally, the FA-decient devices (x # 0.85)
+based on slight FA-excess (x ¼ 0.95 and 1.0) 2D/3D lms deliver   degrade quickly and lose their performance completely within 5
+
+
+
+10100  | J. Mater. Chem. A, 2021, 9, 10095–10103                                            This journal is © The Royal Society of Chemistry 2021
+--- Страница 7 ---
+Communication                                                              Journal of Materials Chemistry A
+
+
+
+
+
+Fig. 7   (a) JSC as a function of the light intensity, (b) the extracted values of a, (c) VOC as a function of the light intensity and (d) the extracted
+ideality factor n for the solar cells.
+
+
+
+minutes of exposure to air even though they contain a remark-  2D/3D lm (x ¼ 0.92) has a high crystallinity and preferential
+able amount of the low dimensional perovskite phase. The rest   grain orientation, resulting in devices with low trap-assisted
+of the devices are much more stable compared to the FA-   charge recombination and a PCE of 8.0%. 2D/3D tin perov-
+decient devices, and maintain at least 60% of the initial   skite lms fabricated with a slightly increased FAI concentra-
+performance aer being exposed to air for 35 minutes. Such   tion (up to x ¼ 1.00) exhibit a similar crystallization behavior to
+distinct degradation behavior for diﬀerent FA concentrations is   the reference samples, which in turn produces HPSCs with
+most probably associated with the lm morphology. The   a PCE of about 8%. 2D/3D lms with higher FAI concentration
+severely  FA-decient 2D/3D lm has a  large  quantity  of   (x > 1.0) are less crystalline and display randomly oriented pure
+pinholes, which allow moisture and oxygen to penetrate into the  3D phases. Conductivity measurements indicate a signicantly
+lm more rapidly and therefore cause faster degradation in the   higher trap density than that found for the reference lm.
+device performance. Among the 2D/3D lms with higher FA   Therefore, the fabricated solar cells suﬀer from severe trap-
+concentrations (x > 0.85), the device with signicant FA-excess   assisted charge recombination and exhibit a very low PCE of
+(x ¼ 1.2) degrades faster probably due to the poor crystallinity  <1%. The 2D/3D lms with signicant deciency in FAI (x # 0.7)
+of the lm, which creates weak points prone to start degrada-   are composed of highly crystalline and oriented 3D grains, and
+tion in the presence of oxygen and moisture. As a consequence   a large quantity of 2D (n # 2) phases oriented parallel to the
+of the enhanced crystallinity, the 2D/3D lms with FA concen-   substrate. Moreover, these lms contain considerable amounts
+tration ranging from 0.92 to 1.0 oﬀer the most stable devices.    of SnI2. Consequently, the solar cells suﬀer from poor charge
+                                                                   transport, displaying very low JSC and FF. Our results demon-
+                                                                       strate that the stoichiometry of the tin perovskite lm plays
+Conclusions                                         a critical role in the performance of the solar cells and in their
+                                                                             stability. The chemical diversity of the 2D materials oﬀers
+To summarize, we investigated the eﬀects of the nominal stoi-
+                                                          a great opportunity for obtaining eﬃcient and stable 2D/3D tin
+chiometry of 2D/3D (PEA0.08FAxSnI3) tin perovskite lms on
+                                                         based solar cells. So far, very limited bulky organic spacer
+their crystallization and solar cell performance. The reference
+
+
+
+This journal is © The Royal Society of Chemistry 2021                                                          J. Mater. Chem. A, 2021, 9, 10095–10103  | 10101
+--- Страница 8 ---
+Journal of Materials Chemistry A                                                      Communication
+
+cations have been investigated in the 2D/3D approach based tin   Electrical conductivity and C–V measurements
+perovskite solar cells. Designing new organic spacer cations
+                                                           For the electrical conductivity measurements, parallel line-
+with diﬀerent functionalities for 2D materials combined with
+                                                        shape Au electrodes with a width (w) of 13 mm and a channel
+stoichiometry  optimization has  great  potential  to  further                                                              length (L) of 200 mm were deposited on cleaned glass substrates
+improve the eﬃciency and stability of tin based perovskite solar                                                              as bottom contacts. Diﬀerent perovskite lms were spin-coated
+cells.
+                                                   on the patterned glass following the same procedure used for
+                                                                photovoltaic  device  fabrication.  Voltage-sourced  two-point
+Experimental details                                 conductivity measurements were conducted using a probe
+Materials                                                         station in a N2 glovebox. The electrical conductivity (s) was
+                                                                 calculated according to the formula s ¼ (J/V)   L/(w   d), where
+The PEDOT:PSS water dispersion (i.e. Clevios VP AI 4083) was                                                      d is the thickness of the perovskite lms. The capacitance–
+purchased from Heraus. Tin iodide (SnI2) (99.99%), tin uoride   voltage  (C–V) measurements  were conducted under  dark
+(SnF2) (>99%), buckminsterfullerene  (C60)  (>99.9%),  bath-   conditions at a frequency of 10 KHz with an AC drive voltage of
+ocuproine (BCP) (99.99%), dimethyl sulfoxide (DMF) (99.8%)                                                        20 mV and DC bias in the range of  0.6 to 0.6 V on a Solartron
+and N,N-dimethylformamide (DMSO) (99.8%) were bought                                                        1260 impedance gain-phase analyzer.
+from Sigma Aldrich. 2-Phenylethylammonium iodide (PEAI)
+(>98%) and formamidinium iodide (FAI) (>98%) were acquired
+                                                            UV-Vis measurementsfrom TCI EUROPE N.V. All materials were used as received.
+   PEA0.08FAxSnI3 solutions were prepared in a nitrogen-lled   UV-Vis spectra of the perovskite lms were recorded on a UV-
+glovebox. Here x indicates the molar concentration of FAI that   Vis-NIR spectrometer Shimadzu UV-3600.
+has been added to the solution. To produce the PEA0.08FAxSnI3
+precursor perovskite solution, (0.08 M) PEAI, (x M) FAI, (1 M)
+                                                             Device fabrication
+SnI2 and (0.1 M) SnF2 were dissolved in a mixture of DMF and
+DMSO (volume ratio of 4 : 1). X is varied between 0.60 and  ITO glass substrates were cleaned using an ultrasonic bath in
+1.20 M. The solutions were stirred for a minimum of 6 hours  soap water and rinsed  sequentially with deionized  water,
+before use.                                                  acetone and isopropyl alcohol. A PEDOT:PSS layer was then
+                                                               spin-coated onto the ITO substrates at 4000 rpm for 60 s and
+SEM measurements                                           dried at 140 C for 20 min. The coated substrates were then
+                                                                 transferred to a nitrogen-lled glovebox. The tin based perov-
+SEM images were recorded in vacuum on an FEI NovaNano SEM
+                                                                      skite lms were spin-coated from their precursor solutions at
+650 with an acceleration voltage of 10 kV.
+                                                        4000 rpm for 60 s. Toluene was used as the anti-solvent during
+                                                              the spin-coating process. These lms were then annealed at
+XRD
+                                                        70 C for 20 min. Next, 30 nm C60, 6 nm BCP and 100 nm Al
+XRD patterns of the perovskite lms were recorded on a Bruker   layers were sequentially evaporated on top of the perovskite lm
+D8 Advance X-ray diﬀractometer with a Cu Ka source (l ¼ 1.54  under a vacuum of <10 6 mbar. The J–V curves of the perovskite
+A) and a Lynxeye detector.                                         solar cells were measured at 295 K using a Keithley 2400 source
+                                                         meter under simulated AM 1.5G  solar illumination using
+GIWAXS measurements                                     a Steuernagel  Solar constant 1200 metal  halide lamp  in
+                                                          a nitrogen-lled glovebox. The light intensity was calibrated to
+Grazing  incidence  wide-angle  X-ray  scattering  (GIWAXS)                      2
+                                                       be 100 mW cm  by using a Si reference cell and correcting the
+measurements were performed using a MINA X-ray scattering
+                                                                   spectral mismatch. A shadow mask (0.04 cm2) was used during
+instrument built on a Cu rotating anode source (l ¼ 1.5413 A)
+                                                              the J–V measurements.following the procedure reported in our previous work.18
+
+Steady-state and time-resolved PL measurements         Conﬂicts of interest
+Steady-state  and  time-resolved  photoluminescence   (PL)
+                                                         There are no conicts of interest to declare.
+measurements were conducted by exciting the samples with the
+second harmonic (400 nm)  of a mode-locked Ti:Sapphire
+femtosecond laser (Mira 900, Coherent). The repetition rate of Acknowledgements
+the laser is 76 MHz; a pulse picker was inserted in the optical
+path to decrease the repetition rate of the laser pulses. The  We thank Arjen Kamp and Teo Zaharia for their kind technical
+excitation beam was focused with a 150 mm focal length lens,   support in the laboratory. S. K. acknowledges the Deutsche
+and the emission was collected and coupled into a spectrometer  Forschungsgemeinscha(DFG)  for a postdoctoral research
+with a 50 lines per mm grating. The steady-state PL was recor-   fellowship (grant number 408012143). This work was nanced
+ded with an Image EM CCD camera from Hamamatsu (Hama-  through the Materials for Sustainability (Mat4Sus) programme
+matsu,  Japan).  Time-resolved  PL  was  measured  with   (739.017.005) of the Netherlands Organisation for Scientic
+a Hamamatsu streak camera working in single sweep mode.     Research (NWO).
+
+
+
+10102  | J. Mater. Chem. A, 2021, 9, 10095–10103                                            This journal is © The Royal Society of Chemistry 2021
+--- Страница 9 ---
+Communication                                                              Journal of Materials Chemistry A
+
+References                                         17 W. Ke, C. C. Stoumpos, I. Spanopoulos, L. Mao, M. Chen,
+                                                    M. R. Wasielewski and M. G. Kanatzidis, J. Am. Chem. Soc.,
+ 1 M. A. Green, A. Ho-Baillie and H. J. Snaith, Nat. Photonics,      2017, 139, 14800–14806.
+   2014, 8, 506.                                           18 S. Shao, J. Liu, G. Portale, H.-H. Fang, G. R. Blake, G. H. ten
+ 2 J. Even, L. Pedesseau, J.-M. Jancu and C. Katan, J. Phys. Chem.      Brink, L. Jan Anton Koster and M. A. Loi, Adv. Energy Mater.,
+    Lett., 2013, 4, 2999–3005.                                      2018, 8, 1702019.
+ 3 G. Xing, N. Mathews, S. Sun, S. S. Lim, Y. M. Lam, M. Gratzel,  19 S. Shao, J. Dong, H. Duim, G. H. ten Brink, G. R. Blake,
+   S. Mhaisalkar and T. C. Sum, Science, 2013, 342, 344–347.        G. Portale and M. A. Loi, Nano Energy, 2019, 60, 810–816.
+ 4 A. Kojima, K. Teshima, Y. Shirai and T. Miyasaka,  J. Am.  20 D. Meggiolaro, D. Ricciarelli, A. A. Alasmari, F. A. S. Alasmary
+  Chem. Soc., 2009, 131, 6050–6051.                         and F. De Angelis, J. Phys. Chem. Lett., 2020, 11, 3546–3556.
+ 5 S. Shao, H. Duim, Q. Wang, B. Xu, J. Dong, S. Adjokatse,  21 Y. Wang, J. Tu, T. Li, C. Tao, X. Deng and Z. Li, J. Mater.
+   G. R. Blake, L. Protesescu, G. Portale, J. Hou, M. Saba and     Chem. A, 2019, 7, 7683–7690.
+  M. A. Loi, ACS Energy Lett., 2019, 5, 39–46.                 22 C. Rold´an-Carmona, P. Gratia, I. Zimmermann, G. Grancini,
+ 6 M. He, D. Zheng, M. Wang, C. Lin and Z. Lin, J. Mater. Chem.      P. Gao, M. Graetzel and M. K. Nazeeruddin, Energy Environ.
+   A, 2014, 2, 5994–6003.                                                       Sci., 2015, 8, 3550–3556.
+ 7 W. Ning and F. Gao, Adv. Mater., 2019, 31, 1900326.         23 Q. Ma,  S. Huang,  S. Chen, M. Zhang,  C.  F.  J. Lau,
+ 8 M.   Saliba,   T.   Matsui,   K.  Domanski,    J.-Y.   Seo,     M. N. Lockrey, H. K. Mulmudi, Y. Shan, J. Yao, J. Zheng,
+   A. Ummadisingu, S. M. Zakeeruddin,  J.-P. Correa-Baena,      X. Deng, K. Catchpole, M. A. Green and A. W. Y. Ho-Baillie,
+  W. R. Tress, A. Abate, A. Hagfeldt and M. Gr¨atzel, Science,         J. Phys. Chem. C, 2017, 121, 19642–19649.
+   2016, 354, 206–209.                                     24 M. Yang, D. H. Kim, Y. Yu, Z. Li, O. G. Reid, Z. Song, D. Zhao,
+ 9 H. Yu, F. Wang, F. Xie, W. Li, J. Chen and N. Zhao, Adv. Funct.      C. Wang, L. Li, Y. Meng, T. Guo, Y. Yan and K. Zhu, Mater.
+   Mater., 2014, 24, 7102–7108.                                Today Energy, 2018, 7, 232–238.
+10 F. Wan, L. Ke, Y. Yuan and L. Ding, Sci. Bull., 2020, 66, 417–  25 H. Duim, S. Adjokatse, S. Kahmann, G. H. ten Brink and
+   420.                                               M. A. Loi, Adv. Funct. Mater., 2020, 30, 1907505.
+11 A. Filippetti and A. Mattoni, Phys. Rev. B, 2014, 89, 125203.   26 K. P. Marshall, R. I. Walton and R. A. Hatton, J. Mater. Chem.
+12 A. H. Slavney, L. Leppert, D. Bartesaghi, A. Gold-Parker,       A, 2015, 3, 11631–11640.
+  M.   F.  Toney,   T.    J.   Savenije,    J.  B.  Neaton  and  27 T.-B. Song, T. Yokoyama, S. Aramaki and M. G. Kanatzidis,
+   H. I. Karunadasa, J. Am. Chem. Soc., 2017, 139, 5015–5018.      ACS Energy Lett., 2017, 2, 897–903.
+13 I. Chung, B. Lee, J. He, R. P. H. Chang and M. G. Kanatzidis,  28 J. Dong, S. Shao, S. Kahmann, A. J. Rommens, D. Hermida-
+   Nature, 2012, 485, 486–489.                                  Merino, G. H. ten Brink, M. A. Loi and G. Portale, Adv.
+14 J. Jiang, C. K. Onwudinanti, R. A. Hatton, P. A. Bobbert and      Funct. Mater., 2020, 30, 2001294.
+    S. Tao,  J. Phys. Chem. C Nanomater. Interfaces, 2018, 122,  29 S. Kahmann,  O.  Nazarenko,  S.  Shao,  O.  Hordiichuk,
+   17660–17667.                                        M. Kepenekian, J. Even, M. V. Kovalenko, G. R. Blake and
+15 H.-H. Fang, S. Adjokatse, S. Shao, J. Even and M. A. Loi, Nat.     M. A. Loi, ACS Energy Lett., 2020, 5, 2512–2519.
+   Commun., 2018, 9, 243.                                  30 S. Kahmann, S. Shao and M. A. Loi, Adv. Funct. Mater., 2019,
+16 S. Kahmann and M. A. Loi, J. Mater. Chem. C, 2019, 7, 2471–      29, 1902963.
+   2486.                                                 31 J. Liu, X. Li, S. Zhang, X. Ren, J. Cheng, L. Zhu, D. Zhang,
+                                                                         L. Huo, J. Hou and W. C. H. Choy, Adv. Mater. Interfaces,
+                                                                 2015, 2, 1500324.
+
+
+
+
+
+This journal is © The Royal Society of Chemistry 2021                                                          J. Mater. Chem. A, 2021, 9, 10095–10103  | 10103

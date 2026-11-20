@@ -1,0 +1,549 @@
+--- Страница 1 ---
+Materials Research. 2023; 26﻿:e20220477
+DOI: https://doi.org/10.1590/1980-5373-MR-2022-0477
+
+
+      Intermixing and Diffusion Impact on CdS/CdTe/p+ Regions (Te or ZnTe)/Cu/Au
+                                 Solar Cell Interphases
+
+                 C. Hernández-Vásqueza* , M.L. Albor-Aguilerab , J.M. Flores-Marquezc ,
+                                    M.A. González-Trujilloa 
+
+                         aInstituto Politécnico Nacional, CDMX, 07738, Ciudad de México, México.
+           bInstituto Politécnico Nacional, Departamento de Física, CDMX, 07738, Ciudad de México, México.
+               cInstituto Politécnico Nacional, Departamento de Ingeniería en Metalurgia y Materiales, CDMX, 07738,
+                                      Ciudad de México, México.
+
+                     Received: November 08, 2022; Revised: May 02, 2023; Accepted: May 30, 2023
+
+           The polycrystalline CdS/CdTe thin film solar cell is one of the most important photovoltaic devices
+           for cost-effective generation of solar electricity for terrestrial applications. A typical superstrate structure
+          of CdTe solar cell has been studied through current-voltage (J-V) and secondary ion mass spectroscopy
+        (SIMS) measurements. A close correlation between quality of interphases and its photovoltaic efficiency
+        was determined. It was found an improvement of open circuit voltage (VOC) and efficiency associated
+           to CdS and CdTe thermal treatments, and a reduction of diffusion of S and Cd into CdTe and CdS
+           respectively. An efficiency of 12% has been reached on solar cells with a Te and ZnTe interlayer as part
+          of the back contact. Low diffusion of Cu along absorbent material was observed when Te and ZnTe
+        was used creating a stable back contact along the time. Diffusion and intermixing at each junction
+         SnO2:F/CdS, CdS/CdTe and CdTe/Te or ZnTe/Cu/Au was found, establishing limit values of element
+          diffusion along CdTe solar cells.
+
+           Keywords: CdTe, Solar cells, Depth profile, photovoltaic efficiency, Diffusion, Intermixing, p+ regions.
+
+1. Introduction
+   The photovoltaic trade has been dominated by crystalline   1.2. Absorber material and deposition method:
+silicon technology, which requires high-energy intensive      CdTe by CSVT
+processes. On the opposite side, thin film technology employs
+deposition methods as simple as possible, low production      The II-VI heterostructures based solar cells like CdTe
+costs and high efficiencies. However, the efficiency of    ones, are promising candidates because of its low cost
+PV devices is mainly influenced by charge transport across   and high photovoltaic efficiency devices. The highest
+the heterojunction formed by both materials: the window    reported efficiencies are not still near to the theoretical
+and absorber material. So, the materials for photovoltaic    limits (18 – 24%)5. The CdTe semiconductor material has
+conversion could be selected considering the follow   been used in photovoltaic devices as absorbent material,
+characteristics as highly desired: a direct band gap with   CdTe has a band gap value of 1.5 eV, and it was obtained
+values near to the visible light spectrum; and a high optical   by different techniques that allows get specific properties.
+absorption coefficient.                                   Techniques such as magnetron sputtering could fabricate
+                                                                 ultra-thin CdTe layer with crystallographic texture and
+1.1. Window material and chemical bath deposition                                                            thickness around 0.5 and 1.28 µm6, laser ablation technique
+    (CBD) method                                      allows to obtain nanoparticles of CdTe and thin films around
+   Chemical Bath Deposition (CBD) has proven to be    1.8 and 3 µm with two different crystalline structures
+the best technology for CdS production due to it provides    (cubic and hexagonal)7,8, spray pyrolysis technique has
+a variety of routes to produce a functional film at relative   been used to growth CdTe thin films from an aqueous
+low temperatures by immersing a substrate in a chemical    colloidal dispersion of CdTe obtaining a crack-free CdTe9,
+solution1,2 allowing scale-up technological process for larger    electrodeposition technique is a viable technique to deposited
+deposition areas at lowest cost. CdS as window material must    thin films due to simplicity, CdTe thin films was deposited
+be free of defects such as inter grain caves and pin-holes.   on flexible substrate obtaining grain size around 500 nm as is
+The CdS has a band gap value around 2.4 eV that causes    reported by Mathew et al.10, and close space vapor transport
+absorption of photo-generated carries in the short wavelength   (CSVT) equipment that allows created CdTe thin films
+region. The reduction of CdS thickness layer could improve    with adequate structural, optical, electrical properties11,12.
+the short-circuit current density and blue response together    Important characteristics are demanding for CdTe films;
+Fluorine Tin Oxide (FTO)3,4.                                stoichiometry, growth morphology, adequate crystalline
+                                                               structure; in particular, CdTe growth with preferential
+*e-mail: chernandezex@gmail.com                              phase on (111) plane13.
+--- Страница 2 ---
+2                                                     Hernández-Vásquez et al.                                          Materials Research
+
+
+    Additionally, a thermal annealing of CdTe thin films by   CdS films shown thickness about 60 nm and 85% of
+CdCl2 plays an important role in the photovoltaic process; it    transmittance with a band gap value of 2.42 eV24. The
+increases the CdTe grain size and reduce the grain boundary14-16.   CdTe films were deposited on CdS thin films by using
+The record efficiency into CdS/CdTe solar cells are 21.3%  CSVT equipment. CdTe source powder Sigma Aldrich®
+at laboratory level and 16% at commercial solar panels17.    with a purity of 99.99% (0.0130g ± 0.0005g) was set up
+These efficiencies, however, are well below of the theoretical    in evaporation chamber (see Figure 1). A thermal gradient
+limit of about 30% calculated by Schockley and Queisser18.   between source and substrate blocks of 100 °C was used,
+   On the other hand, it is important to remark that the    the vacuum degree for the deposition process is 10-1Torr
+transport could be strongly influenced by the quality of the    considering an atmosphere of 50% Argon (Ar) and 50%
+interphases during solar cell fabrication. In order to achieve this   Oxygen (O2) atmosphere was used by 3min (deposition time).
+the intermixing and diffusion are study on each step process of   The CdTe thickness layer was around 3 µm. CdTe films were
+CdTe solar cell by SIMS, SEM, EDS. Analyzing the diffusion    thermally treated with CdCl2 (TTCdCl2) and Ar atmosphere
+of elements that constitute the window material, absorbent    during 3 min on CSVT system, after that samples were cleaned
+material, thermal treatments, and p+ regions (Te or ZnTe) the    with distilled water to remove remnants of CdCl2 grains and
+last ones have been proposed as interlayer between the CdTe    dry with Nitrogen (N2) gas. The CdS/CdTe junction was
+film surface and the metallic layer. These regions allowed    activated by thermal treatment in air at 450°C for 30 min.
+to get a smoothed CdTe surface and consequently a better    After that to enhancement CdTe solar cells and study the
+alignment of the bands that clearly reduced the potential    effect of p+ regions Tellurium (Te) and Zinc-Tellurium
+barriers19. Bätzner et al.20 different etching treatments process   (ZnTe) were deposited on different samples. To deposited
+produce a conducting Te layer that allow get stable and    Te, a compound is collocated on a graphite container into
+non-rectifying back contact. On another hand ZnTe regions  CSVT system using a substrate temperature of 300°C by
+has been implemented resulting in an improvement on open   30 min (see Figure 1), it allows get a nanostructured region
+circuit voltage and efficiency using 300nm of thickness21;   on CdTe, additionally a thermal treatment is done by 20 min
+Zn accumulation has been detected at the edge of CuxTe   on air to recrystallize this region. On the other hand, a ZnTe
+cluster that are former after ZnTe deposition on CdTe22 and    region is deposited on CdTe using an inert atmosphere (Ar)
+efficiencies about 15% has been reached using ZnTe films    during 3 and 5 min using a temperature gradient of 500°C
+around 35nm23. However, at the back contact is important   and 700°C respectively. Finally, standard back contacts
+determine what are the principal problematics on the solar    consist of an evaporated Cooper (Cu) / Gold (Au) layer25,26.
+cells conformation. Finally different solar cells devices       Layer thicknesses were measured with a step profiler
+were developed to understand the electrical behavior of    (Sloan Dektak II). The morphology of the surface samples
+each solar cell considering the intermixing and diffusion   was analyzed by a scanning electron microscope (SEM) JEOL
+along the solar cell.                                               series JSM7X and elemental analysis EDS was obtained using
+                                                     an EDAX detector with a spectral resolution of 129 eV and
+2. Experimental Details                             0.001 cps/eV using an acceleration voltage of 10 kV. K-line                                                    and L-line were used to detect (Cd, Te, Cl, S, Sn and O).
+                                    A PB-ZAF correction method was applied. In order to investigate2.1. Thin films growth                                                              the abruptness of the interphases generated, secondary ion
+   CdTe solar cells were grown in a superstrate configurations   mass spectroscopy (SIMS) depth profiling were performed
+onto commercial SnO2:F substrates (FTO). CdS thin   by using an IONTOF 5 spectrometer; the measurements were
+films were grown by CBD on FTO substrates treated    obtained by using liquid bismuth source at 30 keV for analysis
+chemically on HCl, as a precursor solution were used   and Cesium beam at 1 keV for sputtering. Considering an
+NH4Cl (0.2 M), CdCl2 (0.12 M), NH3 (2M) and (NH2)2CS    incidence beam at 45 nominal degrees. Craters of 400 µm2
+(0.3M) at temperature of 70°C for 4 min. All samples   were eroded but only 200 µm2 were considered for analyses;
+were thermally treated in air (TTair) at 450 °C for 60 min.    this one to exclude boarder effects on measurements.
+
+
+
+
+
+Figure 1. Schematic diagram of CSVT system used to growth and thermal treatments.
+--- Страница 3 ---
+                        Intermixing and Diffusion Impact on CdS/CdTe/p+ Regions (Te or ZnTe)/Cu/Au Solar Cell Interphases                    3
+
+
+2.2. CdTe solar cells                                       3.1.1. Window material (SnO2:F/HCl/CdS) step
+   CdTe solar cells has been developed along time,      CdS thin films were deposited by CBD onto SnO2:F (FTO)
+and different analysis were made to understand the    substrates previously treated with HCl1, CdS thin film shows
+behavior of each material in this kind of devices.    a conglomerates structure (see Figure 3a), producing a softly
+This work establishes an understanding about intermixing    material that can be used as window material due to it could
+or diffusion between interphases by SIMS and SEM. Five   be sublimated with CdTe sublimation temperature without
+prototypes solar cells were considered for this purpose    affecting performance on photovoltaic device. However,
+as is observed in Table 1.                         SIMS measurement allows analyze intermixing and diffusion
+   CdTe solar cell structure is showed in Figure 2a. These    of each element that conforms these thin films. In this way
+solar cells were developed as is detailed in Figure 2b   from Figure 3b, is possible to observe a Sulfur (S) diffusion
+to analyze each step of the process (window material,    about 22.5nm, Cadmium (Cd) diffusion around of 13.6nm
+absorbent material, back contacts). I-V measurements   and finally a Chlorine (Cl) diffusion or remanent is detected
+were obtained with a (Sol3A Class AAA Solar simulator   from HCl chemical treatment along FTO; after the CdS
+IEC/JIS/ASTM, 1000 Watt Xenon) equipment with a light    films was thermal annealed in air at 450°C for 60 min., CdO
+source of (100mW/cm2 – AM1.5) and a QEPVSI-b Oriel    crystals appear on surface with the thermal treatment; This
+Instrument was used to obtain the spectral response and    thermal treatment produces a phase transition from CdS to
+quantum efficiency values.                      CdO changing the optical band27. It could be associated to the
+                                                              increase of O2 concentration in the CdS thin films producing
+3. Results and Discussion                           a decrease of the crystallinity, then the band gap contribution
+                                                             of CdO allow to use more photon of solar radiation. Figure 3c
+                                                            as shows in SEM image of CdS surface where CdO crystals3.1. Intermixing and diffusion analysis in thin films                                                          appear clearly along CdS surface. An elemental quantification     layers at intermediated steps                                                              of Cd and S atomic percent was made, obtaining 64% and 36%
+    Trial structures based on CdS/CdTe were fabricated   atoms respectively. Figure 3d shows a depth profile considering
+using all the different protocols above describe. Quantitative   Cd, S, Cl and O signals along the FTO/CdS; where S diffuses
+SIMS and qualitative SEM/EDS was used to check the    into FTO around 42nm, Cd diffuses 153.4nm and Cl diffuses
+incorporation of elements into the films along the complete    completely in FTO without reach substrate. Diffusion of Cd,
+solar cells, checking each step process as is mentioned   S and Cl has a close correlation with its ionic radii. Cd ionic
+in the following sections to determine the influence and    radii (0.97 Å) is small when it works with +2, S ionic radii
+impact on electrical behavior.                               (1.84 Å) is bigger when works with -2, it diffuses to FTO like
+                                                     Cd, when CdS thin film is thermally treated, but much less
+                                                           than Cd. Cl approach size of S when it works with -1, around
+                                                            of 1.81 Å, however, if Cl2 is molecular, it has a covalent bond
+Table 1. CdTe solar cells structures designed to analyze the diffusion   and its radii is about 0.99 Å, which would explain why it
+and intermixing of elements present along the device.               diffuses as much as Cd to the FTO when thermal treatment
+ Nomenclature               Solar Cell Structure                     is performed, at the same time Cl was detected in the CdS
+                                                    due to it escape to the atmosphere considering that Cl comes     P1               FTO/CdS/CdTe/Cu/Au                                                    from precursor solutions and chemical activation done to
+     P2              FTO/CdS+TTair/CdTe/Cu/Au          FTO. On the other hand, a less signal due to O that appears
+     P3           FTO/CdS+TTair/CdTe+TTCdCl2/Cu/Au        on FTO and CdS surface, this signal could be associated with
+                                        CdO crystals. Thermal treatment on CdS increase diffusion     P4          FTO/CdS+TTair/CdTe+TTCdCl2/Te/Cu/Au                                                            of S and Cd on FTO creating a better match between CdS
+     P5                 FTO/CdS+TTair/CdTe+TTCdCl2/ZnTe 700°C      and SnO2:F increasing the JSC and Rsh on CdTe solar cells as                          by 3 min/Cu/Au                                                                            is observed on CdTe solar cells electrical parameters.
+
+
+
+
+
+Figure 2. a) CdTe solar cell structure, b) CdTe solar cell process
+--- Страница 4 ---
+4                                                     Hernández-Vásquez et al.                                          Materials Research
+
+
+3.1.2. Absorbent material (SnO2:F/HCl/CdS/CdTe) step    comparing this data with not recrystallized CdTe samples, the
+                                                                quantity of Cd atoms increase on 8% and Te atoms are reduced    Figure 4a shows CdTe polycrystalline as grown on CdS
+                                                  on 18%. This treatment produces a blue surface associatedfilms; an elemental analysis reveals an atomic percentage
+                                                                 to the CdTe grains orientation and CdCl2 grains at the CdTeof Cd and Te around 43% and 57% respectively; due Cd
+                                                                 surface, and it can assure a good response in the solar cells30.vacancies, the CdTe is p-type. CdTe grains have average size
+                                                          Figure 4d shows a depth profile, where S and Te diffusionof 4 µm and they are characterized by a twin conformation.
+                                                             increase on CdTe and CdS thin films around 230nm andXRD patterns of as deposit CdTe show a (111) orientation.
+Depth profile in Figure 4b shows a CdTe region conformed   400nm respectively. A comparison between CdTe as grown
+by uniform Cd and Te signals; S signal is confined on CdS   and CdTe thermally treated structures, can show EQE spectra
+region, nevertheless, a low diffusion (180nm) on CdTe thin   from 550 nm to 800 nm where more photons are absorbed in
+film is determine, in the same way Te signal is detected on    this range, more electron hole pairs are also generated in this
+CdS thin films diffusing 270nm reaching FTO, the diffusion    range. Hence more carriers contribute to current. Furthermore,
+between CdS and CdTe can be reduced due to CdO crystals.    the Cl trace appears along the CdTe bulk, with major intensity
+As is reported for different researchers the CdSxTe1-x could be    at CdTe bulk (see Figure 4d) increasing diffusion to 1.56µm.
+created28,29. Figure 4c show a SEM image of CdTe thermally   As part of the CdTe solar cells process a finally thermal
+treated with CdCl2 by CSVT, some crystals of CdCl2 appear    treatment on air is made and a rinsed process is made to the
+on CdTe surface and the CdTe twins are reduced; Elemental   CdTe surface treated with distilled water to reduce CdCl2
+analysis reveals for recrystallized CdTe films an atomic    grains (see Figure 4c). It promotes a reduction of Cl signal
+percent of 49%, 47% and 4% of Cd, Te and Cl respectively;    along to the CdTe bulk (see Figure 4d).
+
+
+
+
+
+Figure 3. SEM images at 5kV of (a) CdS thin film deposited on FTO substrate and (c) CdO crystals distribution along CdS thin film,
+depth profile by SIMS of (b) FTO/ CdS, and (d) FTO/ CdS+TTair
+
+
+
+
+
+Figure 4. SEM images at 5 kV and SIMS results of CdTe (a) as grown, (c) recrystallized CdTe film, depth profile by SIMS of (b) CdTe
+as grown, (d) recrystallized CdTe film.
+--- Страница 5 ---
+                        Intermixing and Diffusion Impact on CdS/CdTe/p+ Regions (Te or ZnTe)/Cu/Au Solar Cell Interphases                    5
+
+
+3.1.3. Back contacts (SnO2:F/HCl/CdTe/Te or ZnTe) step     performance on solar cell, then these results allow improving
+                                                               the ohmic properties on CdTe/metal junction, increasing shunt
+3.1.3.1. Te region                                              resistance and create a better CdS/CdTe junction, it could be
+                                                        observed on J-V curves and EQ spectra. In Figure 5c SEM   An alternative model for glass/FTO/CdS/CdTe/metal solar                                                    image allows to observed the Cu/Au metal contacts on CdTecells is formulate, due to commonly electrical resistivity values
+                                                                  grains, and Figure 5d shows the depth profile of CdTe solarfor CdTe are found in 106 Ω*cm range, consequently CdTe/metal
+                                                                           cell, the Au, Cu, Cd and Te elements ratio compared withis not a good Ohmic junction. In this way a nanostructured
+                                           Cu quantity on metal/semiconductor junction was analyzed.Te region on CdTe surface is deposited (see Figure 5a);
+                                                 The depth profile was analyzed in the region, from 0 nm toElemental analysis shows values of 45% and 55% of Cd and
+                                                             0.5 μm. Cu and Au has problems in different ways, mainly isTe respectively considering the bulk interaction, at the same
+                                                               migration, however, using the Te region on CdTe was possibletime electrical measurements were improved on CdTe surface
+                                                                to observed how it stops. Analyzing the depth resolutionwith the Te region from 106Ω*cm to 102Ω*cm. Considering
+that parallel high conductivity paths (shunts) across the CdTe   Δz between 16% and 84% on the graphs. The structure shows
+solar cell p-n junction or on the cell-edges are related to shunt    a Δzdiffusion (Cu) = 138nm in Cd, a Δzdiffusion (Cu) = 117nm in Te,
+resistance. Some paths give rise to the shunt current such   on the other hand the device shows a Δzdiffusion (Au) =150nm
+as impurities in and near the junction, presence of different    in Cd, a Δzdiffusion (Au) = 100nm in Te, considering the edge in
+defects, crystal scratches and manufacturing process. Shunt   Cd and Te signals, as it is observed the diffusion is reduced
+paths lead the current away from the intentional load, and    into CdTe thin films.
+their effects are detrimental to the module performance mainly       Figure 6 shows a cross sectional SEM image and lineal
+at low intensity levels. In this way optimization of contacts   EDS for SnO2:F/HCl/CdTe/Te structure. The CdS/FTO junction
+and contact resistances will add more complexity to the   can be distinguish clearly, besides it, lineal EDS allow to
+analysis, a simple ohmic contact with negligible resistance is    observed a Sn signal from SnO2:F thin films and Cd peak from
+considered assume when resistivity of the material is reduced   CdS thin films. CdTe region exhibits its typically twins grains
+due to an ohmic contact with no resistance create a better    conformation, with a uniform Cd and Te signals along solar cells.
+
+
+
+
+
+Figure 5. SEM images at 5kV of (a) Te deposition, and (c) Cu/Au Metals deposition, depth profile by SIMS for (b) SnO2:F/HCl/CdTe/Te
+structure and (d) SnO2:F/HCl/CdTe/Te/Cu/Au structure.
+
+
+
+
+
+Figure 6. SnO2:F/HCl/CdTe/Te structure analyzed by (a) Cross sectional SEM and (b) lineal EDS.
+--- Страница 6 ---
+6                                                     Hernández-Vásquez et al.                                          Materials Research
+
+
+Additionally, O and Cl signals is observed through complete    Finally, a good uniform deposition of Cu and Au on Te/CdTe
+device, it can be explained in different ways, the most    grains is appreciate.
+representative behaviors are related to Cl on CdTe grains                                                                  3.1.3.2. ZnTe regionboundaries, considering that Cl signal comes from chemical
+treatment to FTO, precursors solutions associated to CdS      The ZnTe regions obtained were slightly grey along the
+deposition and the thermal treatment on CdCl2 to CdTe    complete CdTe surface, uniform ZnTe deposition on CdTe
+surface; Additionally O is associated to CdS surface    surface for 500°C by 3 and 5 min and 700°C for 3 min,
+oxidation31-33 and formation of TeO2 on CdTe surface34.    however, it is not uniform for 700°C by 5 min, with smooth
+As we can see in Figure 6 the cross-sectional SEM image    surface characteristic to ZnTe. The surface SEM images of
+of CdTe/CdS interfaces are not abrupt due to a changing    films deposited at different temperatures and times are given
+hetero-interface structure decreases the lattice mismatch, and    in Figure 7a, 7c, 7e. The SEM images show that films are
+CdS/CdTe interface could be modified into CdS/CdO/CdTe   homogenous in CdTe surface. A granular morphology is
+or CdS/CdS1-xTex/CdTe ternary phase according to the    observed for 500°C by 3 and 5 min and a columnar morphology
+sulfur diffusion along CdTe and CdO crystals present on   can be observed for 700°C by 3 min. Allowing identify grain
+CdS surface (see Figure 4d and Figure 5b). The formation    boundaries associated to CdTe grains. The thickness of the films
+of ternary compounds is related to the growth temperature     is homogenous and continuous throughout the whole length of
+of CdTe. On another hand the Cd diffusion into CdTe    the films, although ZnTe deposited by 5 min at 700°C create
+is stopped by oxygen atoms present on CdS surface.    a thin film on CdTe surface vanishing the grain boundaries.
+
+
+
+
+
+Figure 7. SEM images of ZnTe deposited on CdTe surface at 500°C by (a) 3 min and 5 min and 700°C by (c) 3 min and (e) 5 min,
+SIMS depth profiles of samples with ZnTe at (b) 500°C by 3 and 5 min, (d) 700°C by 3 min and (f) 700°C by 5 min.
+--- Страница 7 ---
+                        Intermixing and Diffusion Impact on CdS/CdTe/p+ Regions (Te or ZnTe)/Cu/Au Solar Cell Interphases                    7
+
+
+   To analyze the behavior of Zn and Te elements along CdTe,    these results, we could observe that temperature impact
+SIMS measurements were performed. In Figure 7b, 7d, and 7f    the diffusion of Cu and Au along CdTe/ZnTe structure.
+depth analysis was performed, it is observed the intermixing    In Figure 7b, 7d, and 7f the Zn signal reaches CdS/CdTe
+and diffusion of each element along CdS/CdTe structure,    junction, probably it produces a bad function of solar cells,
+at the same time Cu and Au was analyzed. Leading and   due to electrical carriers can found a short route between both
+trailing edges of a measured delta distribution allow to    contacts and could generate a short circuit in the device or
+understand the possible diffusion along the thin films35,   an increase on current. The last results allow to identify an
+in order to check it and comparing diffusion on each step    increment on ZnTe thickness; however this produces a thin
+graphs in Figure 7b shows a diffusion of Cu and Au into    film on CdTe surface reducing the large grain boundaries
+CdTe/ZnTe (500°C by 3 and 5 min); a maximum diffusion    associated to CdTe, it means create more potential barriers
+for Audiffusion = 265.8nm and Cudiffusion = 263.5nm is obtained    limiting the flux of carriers to the back contact, in this way the
+under these conditions and a lower diffusion is about of    best option is create grains that has a preferential direction.
+Audiffusion = 94.3nm and Cudiffusion = 100.6nm, considering an    In order to identify the impact and effect of each element
+average thickness of ZnTe thin film around of 91nm, however,    along the solar cell structures analyzed before some solar
+a zinc signal is not appreciated in CdTe region. In Figure 7d    cells were developed to determine the influence of these.
+is showed a depth profile of ZnTe deposited on CdTe surface
+                                                               3.1.4. CdTe solar cells performanceby 700°C for 3 min, diffusion of Cu and Au is analyzed too,
+getting a maximum diffusion of Audiffusion = 428.7nm and       Figure 8a, 8b shows I-V and J-V curves of CdTe solar
+Cudiffusion = 488.1nm, while the lower diffusion for Cu and    cells, to determine the impact of each step process during
+Au are Audiffusion = 194.4nm and Cudiffusion = 202.6nm, the    the cell manufacturing; this process consider deposition of
+last results are considering a thickness of ZnTe deposition   CdS/CdTe as P1, thermal treatment to CdS (P2), thermal
+around 187.9nm; according to ZnTe deposition on CdTe    treatment of CdTe (P3) and p+ regions (Te or ZnTe) on
+surface a Zn signal is observed in Figure 7d, showing a   CdTe (P4 and P5 respectively). All the I-V measures was
+diffusion from 11.6nm up to 228.8nm. Finally in Figure 7f   made considering areas of 0.03cm2, each back contact metal
+is showed a depth profile of CdS/CdTe/ZnTe structure where   was isolated by laser scribing creating a square associated
+ZnTe was deposited at 700°C by 5 min. The maximum    to the diameter of the back contact and a mask was used
+and minimum diffusion of Cu and Au in this structure are    to cover the radiation incidence area on the substrate. The
+Audiffusion = 634nm, Audiffusion = 240.7nm and Cudiffusion = 696nm    electrical parameters that are influenced by the diffusion and
+and Cudiffusion = 252.7nm respectively, considering an    intermixing of each element can be observed on Figure 9.
+average thickness of ZnTe about 212.1nm. In concordance    Electrical parameters, as short circuit current density
+with Figure 7f a Zn signal is observed along CdTe, the     JSC, open circuit voltage VOC, fill factor FF, efficiency η,
+maximum and minimum diffusion are Zndiffusion =679.3nm    ideality factor of a diode, series and shunt resistance Rs,
+and Zndiffusion =245.5nm respectively. As a consequence of    Rsh are included.
+
+
+
+
+
+Figure 8. (a) Current vs voltage measure in dark condition, (b) Current density vs Voltage (J-V) measure under illumination and (c)
+Normalized Quantum Efficiency of CdS/CdTe solar cells.
+--- Страница 8 ---
+8                                                     Hernández-Vásquez et al.                                          Materials Research
+
+
+    Figure 8b shows a typically behavior for p-n junction    to observe the efficiency on photo-electron conversion. EQE
+without any thermal treatment using two different deposition   comparison in Figure 8b shows the increasing collection in
+techniques (see curve P1); where VOC and FF values are low   wavelength range from 350nm to 900nm specially at low
+as is showed in Figure 9a. For all devices JSC increase when   wavelength as a result of the interdiffusion of elements
+CdS is thermally treated (see P2-P4 devices in Figure 9b), it is   such as Cd, Te, S or Cl into layer along the solar cell, we
+associate with an increase of photons conversion on electron   can expect that thin films get doped on each energy region
+as is observed on EQE curves in the region between 350nm    associated to CdS and CdTe thin films (500nm and 800nm
+to 550nm (see Figure 8c). An effective diffusion method in    respectively). It means that at higher doping concentrations
+CdTe solar cells is treating thermally each thin film, as we    could produce a built-in potential increase. As a result, an
+can review along this work; as consequence of this result   added field is produced that helps to amplify the carrier
+FF of P1, P2, P3 and P4 and increases due to the quality    collection. Additionally at higher electric field, the free
+between junction created on CdTe solar cells are improved.    carrier recombination reduces which results in the increase
+A Te+ region has been deposited on CdTe surface (P4 device) as    of open circuit voltage, and then the solar cell performance
+part of the back contact achieving VOC, FF, reducing potential     is improved39. On the other hand, as we can see along the
+barriers and decreasing de diode recombination; last result    steps process of CdTe solar cells the interdiffusion allow us
+is confirmed by reduction of ideality factor diode (n) value,    to expect an increase on the doping, that has an influence on
+which was calculated by Cheung method (see Figure 9d)36-38,    the mobility and lifetime of the carriers that are generated.
+however P3 show a similar value considering a good thermal    This increment has a correlation with a strong electrical field
+treatment of CdCl2. The thermal treatment made to each    that could reduce recombination of carries separating these
+thin film contribute to series and shunt resistance, as we can    ones. Recording that each photon that strikes an ideal solar cell
+observe in Figure 9c. Rs values decrease while each thin film    produces an electron-hole pair. External quantum efficiency
+is treated and Rsh increase, where these values are related to   (EQE) is the number of carriers contributed to the external
+contact resistivity and bulk resistivity, additionally RS value    load for each incident of photons. Then the photon generated
+for P5 device shows a high value, it has different possible    carriers will be gathered through the contacts. The Figure 8c
+causes to be increased: firstly, the movement of current   shows the EQE with respect to wavelength in the manuscript.
+through the emitter and base of the solar cell; secondly,     It shows that EQE is higher in the wavelength region of 550nm
+the contact resistance between the metal contact and CdTe    to 830nm. That means the absorber material absorbs more
+surface; and finally the resistance of the top and rear metal    photons in this wavelength range and absorption goes down
+contacts, the last one is the most important for the solar cell   beyond 850nm wavelength. Since, more photons are absorbed
+P5 due to ZnTe region under deposited conditions generate    in this range, more electron-hole pairs are also generated
+a thin film increasing the series resistance as consequence    in this range. Hence more carriers contribute to current, it
+the fill factor decrease as is observed in Figure 9a. On the   means that photons with adequate energy could create useful
+other hand, EQE from P1, P2, P3, P4 and P5 devices allows    electron-hole pairs that produce an enhance of JSC39-41.
+
+
+
+
+
+Figure 9. Electrical parameters of CdTe solar cells (a) VOC, FF, (b) JSC, η, (c) RS, Rsh, and (d) ideality factor diode.
+--- Страница 9 ---
+                        Intermixing and Diffusion Impact on CdS/CdTe/p+ Regions (Te or ZnTe)/Cu/Au Solar Cell Interphases                    9
+
+
+    Moreover, it is important notice that solar cell P5 shows a  A and B are shown in Figure 10. Point A and B referred to
+high current density (see figure 8b and Figure 9b), however,    the metallic contacts of the center and right-side show Au,
+this value is not completely correct because this indicates   Cu and Te signals and atomic values of 51%, 8% and 40%
+that is almost used all the photons from wavelength radiation    respectively, it is observed that the presence of Au is bigger
+creating electrical carriers; However, it is impossible considering    than Cu, which indicates that Cu begging diffuse faster than
+the Schottky limit. To understand this effect SIMS analysis   Au, as detailed in SIMS (see Figure 7f).
+for ZnTe as part of the back contact allows observed that        Point A1 shows a shade along CdTe surface as is detailed
+Zn as metal diffuses into CdTe solar cell reaching CdS/CdTe    in Figure 10. For this reason, the morphology was analyzed,
+junctions (see Figure 7d and 7f), it means that Zn create a   and EDS color-coded elemental mapping was performed,
+route to carries between front and back contacts producing    considering that the shade region could be an oxidation or
+a short circuit increasing the current measured. In addition,   an excessive deposit of ZnTe. Figure 10 shows the Cd, Te
+fill factor is affected obtaining a 39% value for diffusion of   and Zn signal elements that are statistically distributed near
+Zn because is possible the creation of compound between    to the center contact, the elemental analysis shows that in
+elements presents on each junction along CdTe solar cells.    the analyzed region there is 6.2% of Zn, 17.7% of Cd and
+To understand the influence of ZnTe as part of the back    in greater quantity it is found Te with 76.1%, this result is
+contact in CdTe solar cell, SIMS and SEM measurements was    according to the semiconductor doping generating a better
+used to analyze the presence of Zn along CdTe solar cells,   ohmic region which is observed on solar cell efficiency.
+considering the different morphologies deposited on CdTe       Region A2 obtained from ZnTe deposit shows the distribution
+surface that are associated to temperature, distance between    of the materials on CdTe surface where a very notable change
+powder source and substrate, and chamber deposition. For    in relation to point A1 was observed. Morphology in region A2
+this reason, cell P5 was analyzed according to the Figure 10.    allows to see a saturation zones; the EDS color-coded elemental
+    Solar cell P5 shows substantial differences between   mapping analysis carried out that the over-deposition generates
+the deposited contacts, as can be seen in Figure 10, the cell    regions rich in Cd and Te and poor Zn signal it means that Zn
+has a different coloration from the center to the ends of the   do not be evaporated or Zn traces are diffused into CdTe/CdS
+device, it means that ZnTe deposited on CdTe surface as    junctions, due to only 2.8% of Zn was detected on CdTe surface,
+well as Cu/Au metallic contact, the morphology, chemical    while 14.6% Cd and 82.64% Te were detected, the last one
+composition of specific zones and photovoltaic conversion    could be oxidized generating a shadow appearance around
+efficiencies in some representative metallic contacts were    the contacts. This deposition behavior could be attribute to
+analyzed. The areas analyzed A1, A2 and B1 as well as contacts   ZnTe deposition temperature.
+
+
+
+
+
+Figure 10. EDS color-coded elemental mapping for region A1, A2 y B1 of P5 solar cell.
+--- Страница 10 ---
+10                                                    Hernández-Vásquez et al.                                          Materials Research
+
+
+    Finally analyzing the morphology of point B1 that is located  We assume that using Te as part of the back contact VOC
+to one side of the most efficient contact, it is possible to see   and FF electrical parameters can be improved, however,
+a columnar morphology (Figure 10). In this region, a color   ZnTe provides greater stability in the performance of CdTe
+mapping was performed again to observe the distribution of    photovoltaic solar cells along the time.
+the elements, which revealed that both Zn, Cd and Te are
+found well distributed. The morphology and elemental analyze   4. Conclusions
+obtained suggest that the ZnTe deposit is not uniform throughout                                                                In this work CBD and CSVT systems was used for thethe deposit area, which implies variations in efficiency.                                                             successful fabrication of the thin films of CdS, CdTe, Te,Therefore, currents that are created on CdTe device could                                                 ZnTe and CdCl2 thermal treatments. Step by step analysis wastravel to the Zn metallic diffused along photovoltaic device                                                       used to understand the elements behavior along photovoltaic
+contributing to the increase of the current, as consequence of                                                             device. The fabricated films were analyzed with various
+this, will be required to search more routes to growth ZnTe on                                                          physical characterization using SEM-EDS, SIMS, EDS
+CdTe surface as part of the back contact.                                                            color-coded elemental mapping, lineal EDS, and photovoltaic
+   To analyze the stability of solar cells according to Cu                                                          devices were analyzed by I-V, EQE. SEM-EDS and SIMS
+diffusion just we measured J-V for P3, P4 and P5 these has                                                                analysis showed that elements nature diffuses and intermixing
+the complete solar cell process and p+ regions.                                                    between thin films junctions. Cd, S, Te and Zn diffusion and
+   I-V electrical response of P3, P4 and P5 photovoltaic    intermixing play an important role on electrical solar cell
+devices influenced by the time (24 months) are shows in    behavior. Cl, O, diffusion along CdTe solar cells contribute
+Figure 11. The electrical parameters are reduced with respect    to the series and shunt resistance increasing electrical
+to time. In Table 2 are reported the electrical parameters of    parameters and diffusion values were establish in this process.
+the photovoltaic devices on detail. P3 photovoltaic device    Additionally, was found that Cl is present along the solar cell
+(see Figure 11a) shows the bigger degradation about of 50%;   on each step of manufacture. For CdTe solar cells with Te
+while P4 photovoltaic efficiency is reduced from 12% to 7.9%    as part of back contact, the photovoltaic efficiency depends
+it means a degradation of 34%. Figure 11c shows the electrical   on Cu and Au diffusion values, if diffusion increase more
+degradation for P5 device, parameters such as VOC, JSC, FF    than 150nm conflicts on carrier transport can be occurs;
+and efficiency was not affected as much as in the P4 device    while ZnTe allow to reduce diffusion of Cu, however Zn
+used as part of the back contact, it means ZnTe deposited on    diffusion create paths that produces shorts circuits creating
+CdTe surface is more functional as part of the metal contact.    a high current density but affecting fill factor of the device.
+
+
+
+
+
+Figure 11. J-V measurements as deposited (blue line) and 24 months later (red line) for (a) P3, (b) P4, and (c) P5 devices.
+
+
+Table 2. Electrical parameters of P3, P4 and P5 devices as deposited and 24 months later.
+                      Voc                       Jsc            FF          RS            Rsh               η       Degradation  Solar Cell                                                                       n            (mV) ± 1 mV (mA/cm2) ± 3 mA/cm2  (%) ± 0.6%   (Ω) ± 0.1 Ω   (Ω) ± 0.1 Ω        (%) ± 0.8%      (%)
+    P3                 707              24.6              51.5         122.8        3396.1     5        8.4 as deposited
+   P3 24                 617              14.8              45.7         103.5        1604.2     4.4       4.2          50 months later
+    P4         729             28               60.6          93.5        4364.7     1.8      12.0
+   P4 24                 699             25               45.4         157.2        2224.1     4.4       7.9          34 months later
+    P5         742             41               39.5         773.4        3742.1     7.9      12.2
+   P5 24                 705             36               35.9         819.7        2512.2     6.3       9.1          25 months later
+--- Страница 11 ---
+                        Intermixing and Diffusion Impact on CdS/CdTe/p+ Regions (Te or ZnTe)/Cu/Au Solar Cell Interphases                   11
+
+
+SIMS technique provide an important tool to observe each    13. Major JD, Proskuryakov YY, Durose K, Zoppi G, Forbes
+thin films interphases and performance in solar cells.            I. Control of grain size in sublimation-grow CdTe, and the
+To check the stability of the back contact metal on Te,       improvement in performance of devices with systematically
+                                                                         increased grain size. Sol Energy Mater Sol Cells. 2010;94:1107-ZnTe and Cu/Au devices, is determine that a nanostructure                                                                       12. http://dx.doi.org/10.1016/j.solmat.2010.02.034.create a better region instead of a thin film between                                                                   14. Fritsche J, Schulmeyer T, Thiben A, Klein A, Jaegermann
+semiconductor/metal junction.                             W. Interface modification of CdTe thin film solar cells by
+                                                                       CdCl2-activation. Thin Solid Films. 2015;431-432:267-71.
+5. Acknowledgment                                           http://dx.doi.org/10.1016/S0040-6090(03)00269-4.
+                                                                   15. Huo X, Peng X, Liu W, Mo X, Chen G, Wang S et al.
+   This work was supported by Instituto Politécnico       Comparison between the effects of CdCl2 heat treatment on
+Nacional, SIP-20231014, SIP-20231026, SIP-20231027,       CdTe films prepared by RF magnetron sputtering and close
+SIP-20230690 and CONAHCyT.                                spaced sublimation methods. J Mater Sci Mater Electron.
+                                                                      2013;24:2479-84. http://dx.doi.org/10.1007/s10854-013-1121-6.
+6. References                                                 16. MoutinhoPC, Dhere HR,RG etAl-Jassimmal. Studies ofMM,recrystallizationAbulfotuh FA,ofLeviCdTeDH,thinDippofilms
+1.  Schneller T, Waser R, Kosec M, Payne D. Chemical          after CdCl2 treatment. In: 26th IEEE Photovoltaic Specialists
+    solution deposition of functional oxide thin films [Internet].        Conference; 1997 Sep/Oct 29-3; Anaheim. Proceedings. New
+    Wien: Springer; 2013 [cited 2023 May 30]. Available from        York: IEEE; 1997. p. 431-434. http://dx.doi.org/10.1109/
+    https://link.springer.com/book/10.1007/978-3-211-99311-8         PVSC.1997.654120.
+2.  Kumar VN, Suriakarthick R, Shyju TS, Gopalakrishnan R.    17. Green MA, Dunlop ED, Hohl-Ebinger J, Yoshita M, Kopidakis
+    Deposition of CdS thin films by chemical bath and photochemical        N, Ho-Baillie AWY. Solar cell efficiency tables (version 55). Prog
+    deposition methods and its characterization. AIP Conf Proc.        Photovolt Res Appl. 2020;28:3-15. http://dx.doi.org/10.1002/
+    2013;1536:347-8. http://dx.doi.org/10.1063/1.4810243.              pip.3228.
+3.  Flores-Marquez JM, Albor-Aguilera ML, Matsumoto-Kuwabara    18. Shockley W, Queisser HJ. Detailed balance limit of efficiency
+    Y, Gonzalez-Trujillo MA, Hernandez-Vasquez C, Mendoza-Perez        of p-n Junction Solar Cells. J Appl Phys. 1961;32:510-9.
+   R et al. Improving CdS/CdTe thin film solar cell efficiency by         http://dx.doi.org/10.1063/1.1736034.
+    optimizing the physical properties of CdS with the application    19. Hernández Vásquez C, Albor Aguilera ML, González Trujillo
+    of thermal and chemical treatments. Thin Solid Films.     MA, Flores Márquez JM, Jiménez Olarte D, Gallardo
+    2015;582:124-7. http://dx.doi.org/10.1016/j.tsf.2014.10.070.        Hernández S et al. Enhancement of CdS/CdTe solar cells by
+4.  Hernández-Calderón V, Vigil-Galán O, Pulgarín-Agudelo FA,         the interbuilding of a nanostructured Te rich layer. Mater Res
+    Courel M, Arce-Plaza A, Cruz-Gandarilla F et al. Optimization         Express. 2017;4:0864043. http://dx.doi.org/10.1088/2053-1591/
+    of CdxZn1-xS compound from CdS/ZnS bi-layers deposited by        aa7d88.
+    chemical bath deposition for thin film solar cells application.    20. Bätzner DL, Wendt R, Romeo A, Zogg H, Tiwari AN. A study
+    Thin Solid Films. 2019;676:100-7. http://dx.doi.org/10.1016/j.        of the back contacts on CdTe/CdS solar cells. Thin Solid
+    tsf.2019.03.003.                                                   Films. 2000;361-362:463-7. http://dx.doi.org/10.1016/S0040-
+5.  Amin N, Yamada A, Konogai M. Effect of ZnTe and CdZnTe        6090(99)00842-1.
+     alloys at the back contact of 1-µm-thick CdTe thin film solar cells.    21. Uličná S, Isherwood PJM, Kaminski PM, Walls JM, Li J, Wolden
+    Jpn J Appl Phys. 2002;41:2834-41. http://dx.doi.org/10.1143/      CA. Development of ZnTe as a back contact material for thin
+    JJAP.41.2834.                                          ﬁlm cadmium telluride solar cells. Vacuum. 2017;139:159-63.
+6.  Gupta A, Parikh V, Compaan AD. High efﬁciency ultra-thin         http://dx.doi.org/10.1016/j.vacuum.2017.01.001.
+    sputtered CdTe solar cells. Sol Energy Mater Sol Cells.    22. Wolden CA, Abbas A, Li J, Diercks DR, Meysing DM, Ohno
+    2006;90:2263-71. http://dx.doi.org/10.1016/j.solmat.2006.02.029.      TR et al. The roles of ZnTe buffer layers on CdTe solar cell
+7.  Abad WK, Maki SA, Alattar FIM. Fabrication and characterization        performance. Sol Energy Mater Sol Cells. 2016;147:203-10.
+     of FTO/CdS/CdTe/Al solar cell. AIP Conf Proc. 2021;2372:170002.         http://dx.doi.org/10.1016/j.solmat.2015.12.019.
+    http://dx.doi.org/10.1063/5.0066104.                           23. Bista SS, Li DB, Lei C, Grice C, Awni RA, Song Z et al.
+8.  Pandey SK, Tiwari U, Raman R, Prakash C, Krishna V, Dutta       ZnTe back buffer layer to enhance the efficiency of CdS/
+  V et al. Growth of cubic and hexagonal CdTe thin films by       CdTe solar cells. In: 2019 IEEE 46th Photovoltaic Specialists
+    pulsed laser deposition. Thin Solid Films. 2005;473:54-7.        Conference (PVSC); 2019 Jun 16-21; Chicago. Proceedings.
+     http://dx.doi.org/10.1016/j.tsf.2004.06.157.                 New York: IEEE; 2019. p. 0499-502. http://dx.doi.org/10.1109/
+9.  Arce-Plaza A, Andrade-Arvizu JA, Courel M, Alvarado JA,       PVSC40753.2019.8981157.
+    Ortega-López M. Study and application of colloidal systems    24. Albor Aguilera ML, Flores Márquez JM, Remolina-Millan A,
+    ﬁlms for obtaining CdTe+Te thin by spray pyrolysis. J Anal       Kuwabara YM, González Trujillo MA, Hernández Vásquez
+    Appl Pyrolysis. 2017;124:285-9. http://dx.doi.org/10.1016/j.     C et al. Cu doping concentration effect on the physical properties
+    jaap.2017.01.022.                                                  of CdS thin films obtained by the CBD technique. Mater Res
+10. Mathew X, Pantoja Enriquez J, Romeo A, Tiwari AN. CdTe/CdS        Express. 2017;4:086410. http://dx.doi.org/10.1088/2053-1591/
+     solar cells on ﬂexible substrates. Sol Energy. 2004;77:831-8.        aa810c.
+    http://dx.doi.org/10.1016/j.solener.2004.06.020.                 25. Ortega-Cardenas JA, Albor-Aguilera ML, Hernandez-Vasquez
+11. Vigil-Galán O, Courel M, Cruz-Gandarilla F, Seuret-Jiménez        C, Flores-Marquez JM, Rueda-Morales G, Rangel-Kuoppa
+    D. CdTe:Bi ﬁlms deposited by closed space vapor transport     VT et al. Impact of different thermal treatments on ZnS physical
+    under variable pressure and doping levels: evidences of the         properties and their performance in CdTe solar cells. Mater Res
+    possible formation of an intermediate band. J Mater Sci Mater        Express. 2019;6:08646. http://dx.doi.org/10.1088/2053-1591/
+    Electron. 2016;27:6088-95. http://dx.doi.org/10.1007/s10854-        ab1d38.
+    016-4534-1.                                                   26. Galarza-Gutierrez U, Albor-Aguilera ML, Gonzalez-Trujillo MA,
+12. Vigil-Galán O, Marín E, Sastré Hernández J, Saucedo E,        Hernandez-Vasquez C, Ortega-Cardenas JA, Flores Marquez
+    Ruiz CM, Contreras-Puente G et al. A study of the optical      JM et al. Incorporation of an efficient β-In2S3 thin film as window
+    absorption in CdTe by photoacoustic spectroscopy. J Mater Sci.         material into CdTe photovoltaic devices. Mater Res Express.
+    2007;42:7176-9. http://dx.doi.org/10.1007/s10853-006-1246-6.        2019;6:125510. http://dx.doi.org/10.1088/2053-1591/ab5508.
+--- Страница 12 ---
+12                                                    Hernández-Vásquez et al.                                          Materials Research
+
+
+
+27. Islam MA, Haque F, Rahman KS, Dhar N, Hossain MS,    35. Hofmann S. From depth resolution to depth resolution
+    Sulaiman Y et al. Effect of oxidation on structural, optical of and        function: refinement of the concept for delta layers
+     electrical properties CdS thin ﬁlms grown by sputtering. Optik.       and multilayers. Surf Interface Anal. 1999;27:825-34.
+    2015;126:3177-80. http://dx.doi.org/10.1016/j.ijleo.2015.07.078.        http://dx.doi.org/10.1002/(SICI)1096-9918(199909)27:9<
+28. Duenow JN, Dhere RG, Moutinho HR, To B, Pankow JW,       825:AID-SIA638>3.0.CO;2-D.
+    Kuciauskas D et al. CdSxTe1-x alloying in CdS/CdTe solar    36. Rangel-Kuoppa VT, Albor-Aguilera ML, Hernández-Vásquez C,
+     cells. MRS Online Proc Libr. 2011;1324:1403. http://dx.doi.        Flores-Márquez JM, González-Trujillo MA, Contreras-Puente
+    org/10.1557/opl.2011.1151.                                 GS. Shunt resistance and saturation current determination in
+29. Mathew X, Cruz JS, Coronado DR, Millan AR, Segura GC,      CdTe and CIGS solar cells: I. A new theoretical procedure
+    Morales ER et al. CdS thin ﬁlm post-annealing and Te–S       and comparison with other methodologies. Semicond Sci
+     interdiﬀusion in a CdTe/CdS solar cell. Sol Energy. 2012;86:1023-8.        Technol. 2018;33:045007. http://dx.doi.org/10.1088/1361-
+    http://dx.doi.org/10.1016/j.solener.2011.06.024.                   6641/aab017.
+30. Hernandez Vasquez C, Albor Aguilera ML, González    37. Rangel-Kuoppa VT, Albor-Aguilera ML, Hernández-Vásquez
+    Trujillo MA, Flores Márquez JM, Galarza Gutiérrez U,        C, Flores-Márquez JM, Jiménez-Olarte D, Sastré-Hernández
+    Aguilar Hernandez JR et al. Study of CdTe recrystallization         J et al. Shunt resistance and saturation current determination in
+   by hydrated-CdCl2 thermal treatment. Rev Mex Fis. 2017       CdTe and CIGS solar cells: II. Application to experimental IV
+     [cited 2023 May 30];63(5):469-73. https://www.scielo.org.mx/scielo.       measurements and comparison with other methods. Semicond
+    php?pid=S0035-001X2017000500469&script=sci_arttext&tlng=en.        Sci Technol. 2018;33:045008. http://dx.doi.org/10.1088/1361-
+31. Islam MA, Haque F, Rahman KS, Dhar N, Hossain MS, Sulaiman        6641/aab018.
+  Y et al. Effect of oxidation on structural, optical and electrical    38. Cheung SK, Cheung NW. Extraction of Schottky diode parameters
+    properties of CdS thin ﬁlms grown by sputtering. Optik.       from forward current-voltage. Appl Phys Lett. 1986;49:85-7.
+    2015;126:3177-80. http://dx.doi.org/10.1016/j.ijleo.2015.07.078.         http://dx.doi.org/10.1063/1.97359.
+32. Lisco F, Kaminski PM, Abbas A, Bass K, Bowers JW, Claudio    39. Sameera JN, Jhuma FA, Rashid MJ. Numerical approach to
+  G et al. The structural properties of CdS deposited by chemical        optimizing the doping concentration of the absorber layer to
+    bath deposition and pulsed direct current magnetron sputtering.        enhance the performance of a CdTe solar cell. Semicond Sci
+    Thin Solid Films. 2015;582:323-7. http://dx.doi.org/10.1016/j.        Technol. 2020;36(1):015022. http://dx.doi.org/10.1088/1361-
+    tsf.2014.11.062.                                                 6641/abca0e.
+33. Alexander JN, Higashiya S, Caskey D Jr, Efstathiadis H, Haldar    40. Dharmadasa IM, Bunning JD, Samantilleke AP, Shen T. Effects
+     P. Deposition and characterization of cadmium sulﬁde (CdS)         of multi-defects at metal/semiconductor interfaces on electrical
+    by chemical bath deposition using an alternative chemistry         properties and their influence on stability and lifetime of thin
+   cadmium precursor. Sol Energy Mater Sol Cells. 2014;125:47-53.        film solar cells. Sol Energy Mater Sol Cells. 2005;86:373-84.
+    http://dx.doi.org/10.1016/j.solmat.2014.02.017.                       http://dx.doi.org/10.1016/j.solmat.2004.08.009.
+34. Fritsche J, Gunst S, Golusda E, Lejard MC, Thißen A, Mayer    41. Echendu OK, Fauzi F, Weerasinghe AR, Dharmadasa IM.
+   T et al. Surface analysis of CdTe thin film solar cells. Thin       High short-circuit current density CdTe solar cells using
+    Solid Films. 2001;387:161-4. http://dx.doi.org/10.1016/S0040-        all-electrodeposited semiconductor. Thin Solid Films.
+    6090(00)01851-4.                                               2014;556:529-34. http://dx.doi.org/10.1016/j.tsf.2014.01.071.

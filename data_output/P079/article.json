@@ -1,0 +1,703 @@
+{
+  "publication_id": "P079",
+  "source_file": "P079.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Effect of Heterojunction Characteristics and Deep Electronic Levels on the Performance of (Cd,Zn)S/Sb2Se3 Solar Cells",
+    "author": "Alessio Bosio; Stefano Pasini; Donato Spoltore; Gianluca Foti; Antonella Parisini; Maura Pavesi; Samaneh Shapouri; Ildikó Cora; Zsolt Fogarassy; Roberto Fornari",
+    "subject": "Antimony selenide (Sb2Se3) is an Earth-abundant and non-toxic material that stands out as a promising absorber for the fabrication of thin film solar cells. Despite significant advancements in recent years, all the devices reported in the literature exhibit open-circuit voltages well below the theoretical value. Identifying the factors contributing to this low voltage is an essential step for increasing the efficiency beyond the recently attained 10% milestone and moving closer to the theoretical limit. In this paper, we present the results of an in-depth analysis of a Sb2Se3 solar cell in the common superstrate configuration. By making use of current density–voltage characteristic as a function of both temperature and wavelength, capacitance–voltage measurements, and admittance spectroscopy, we ascribe the low open-circuit voltage to the presence of a potential barrier within the absorber material near the junction interface Furthermore, it was observed that the junction behavior in the dark and under illumination changes, which is compatible with the presence of deep electronic levels connected with intrinsic point defects.",
+    "keywords": "Sb2Se3; J-V characteristic; kink effect; crossover; deep levels; intrinsic defects",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.25",
+    "creationDate": "D:20250308153133+08'00'",
+    "modDate": "D:20250308083551+01'00'",
+    "DOI": "10.3390/app15062930",
+    "year": 2025,
+    "authors": [
+      "Alessio Bosio",
+      "Stefano Pasini",
+      "Donato Spoltore",
+      "Gianluca Foti",
+      "Antonella Parisini",
+      "Maura Pavesi",
+      "Samaneh Shapouri",
+      "Ildikó Cora",
+      "Zsolt Fogarassy",
+      "Roberto Fornari"
+    ]
+  },
+  "page_count": 20,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Article\nEffect of Heterojunction Characteristics and Deep Electronic\nLevels on the Performance of (Cd,Zn)S/Sb2Se3 Solar Cells\n\nAlessio Bosio 1,*    , Stefano Pasini 1    , Donato Spoltore 1    , Gianluca Foti 1    , Antonella Parisini 1    ,\nMaura Pavesi 1    , Samaneh Shapouri 1,2    , Ildikó Cora 3    , Zsolt Fogarassy 3  and Roberto Fornari 1\n\n\n                                            1  Department of Mathematical, Physical and Computer Science, University of Parma, 43124 Parma, Italy;\n                                         stefano.pasini@unipr.it (S.P.); donato.spoltore@unipr.it (D.S.); gianluca.foti@unipr.it (G.F.);\n                                          antonella.parisini@unipr.it (A.P.); maura.pavesi@unipr.it (M.P.); samaneh.shapouri@unipr.it (S.S.);\n                                         roberto.fornari1@unipr.it (R.F.)\n                                            2  Atomic and Molecular Group, Physics Department, Tarbiat Modares University, Tehran 14115-175, Iran\n                                            3   Institute for Technical Physics and Materials Science, Centre for Energy Research, HUN-REN,\n                                  H-1525 Budapest, Hungary; cora.ildiko@ek.hun-ren.hu (I.C.); fogarassy.zsolt@ek.hun-ren.hu (Z.F.)\n                                     *   Correspondence: alessio.bosio@unipr.it\n\n\n                            Abstract: Antimony selenide (Sb2Se3) is an Earth-abundant and non-toxic material that\n                           stands out as a promising absorber for the fabrication of thin film solar cells. Despite\n                               significant advancements in recent years, all the devices reported in the literature exhibit\n                              open-circuit voltages well below the theoretical value. Identifying the factors contributing\n                              to this low voltage is an essential step for increasing the efficiency beyond the recently\n                             attained 10% milestone and moving closer to the theoretical limit.  In this paper, we\n                            present the results of an in-depth analysis of a Sb2Se3 solar cell in the common superstrate\n                             configuration. By making use of current density–voltage characteristic as a function of\n                          both temperature and wavelength, capacitance–voltage measurements, and admittance\n                             spectroscopy, we ascribe the low open-circuit voltage to the presence of a potential barrier\n                           within the absorber material near the junction interface Furthermore, it was observed that\n                            the junction behavior in the dark and under illumination changes, which is compatible\n                          with the presence of deep electronic levels connected with intrinsic point defects.\nAcademic Editor: Fabrice Goubard\n\nReceived: 9 January 2025          Keywords: Sb2Se3; J-V characteristic; kink effect; crossover; deep levels; intrinsic defects\nRevised: 28 February 2025\n\nAccepted: 5 March 2025\n\nPublished: 8 March 2025\n\nCitation:  Bosio, A.; Pasini, S.;         1. Introduction\nSpoltore, D.; Foti, G.; Parisini, A.;\n                           Antimony chalcogenides, such as Sb2S3, Sb2Se3, Sb2(S,Se)3 [1], and CuSb2Se3 [2], arePavesi, M.; Shapouri, S.; Cora, I.;\nFogarassy, Z.; Fornari, R. Effect of      gaining attention within the research community as potential and promising absorber\nHeterojunction Characteristics and     materials for thin film solar cells. In particular, antimony selenide (Sb2Se3) exhibits sev-\nDeep Electronic Levels on the          eral advantageous characteristics that make it suitable for this role. Sb2Se3 is generally\nPerformance of (Cd,Zn)S/Sb2Se3 Solar   considered to be an indirect bandgap semiconductor. Previous studies have reported\nCells. Appl. Sci. 2025, 15, 2930.\n                        an indirect bandgap of approximately 1.04 eV and a direct bandgap of about 1.17 eV at\nhttps://doi.org/10.3390/\n                      room temperature. Nevertheless, Sb2Se3 exhibits a strong absorption coefficient, whichapp15062930\n                                    is advantageous for photovoltaic applications. The high absorption coefficient of Sb2Se3,\nCopyright: © 2025 by the authors.\n                             despite its indirect bandgap, can be justified by the following considerations:\nLicensee MDPI, Basel, Switzerland.\nThis article is an open access article      1.   Quasi-1D Crystal Structure: strong orbital interactions inside the ribbon enhance\ndistributed under the terms and              light absorption.\nconditions of the Creative Commons     2.   Near-Direct Optical Transitions: a close-to-direct bandgap (~1.1–1.2 eV) boosts\nAttribution (CC BY) license                absorption.\n(https://creativecommons.org/\n                                   3.   p-d Orbital Hybridization: strong Se 4p–Sb 5s interactions improve optical transitions.\nlicenses/by/4.0/).\n\n\n\n\nAppl. Sci. 2025, 15, 2930                                                                               https://doi.org/10.3390/app15062930",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                         2 of 20\n\n\n\n                                   4.   Short Exciton Diffusion Length:  charges are generated close to where light\n                                          is absorbed.\n                                   5.   High Optical Density of States: enhancement of photon absorption [1].\n\n                             These factors make Sb2Se3 behave more like a quasi-direct bandgap material with\n                        an Eg of 1.17 eV [3] that lies within the range for maximum efficiencies in the Shockley–\n                           Queisser (SQ) model [4].\n                                   Additionally, the innocuous nature and abundance of antimony selenide on the Earth’s\n                              crust suggest great potential for commercialization [5,6]. Sb2Se3 has a high absorption\n                               coefficient (α > 105 cm−1), which allows for thinner absorber layers; furthermore, the\n                          absence of polymorphism and a low melting point (885 K) facilitate efficient synthesis by\n                               different deposition techniques, such as Chemical Bath Deposition (CBD), Close-Spaced\n                           Sublimation (CSS), Vapor Transport Deposition (VTD), Rapid Thermal Evaporation (RTE),\n                           Ion Vapor Deposition (IVD), and Radio-Frequency Magnetron Sputtering (RFMS) [1,7,8].\n                   On the other hand, the deposition of antimony selenide presents challenges, particularly\n                           regarding its sensitivity to the substrate [9], its tendency to form defects [10,11], and the\n                            occurrence of stoichiometric deviations [12]. These negative issues are reflected in low and\n                            highly anisotropic mobility, as well as self-compensation, which constitutes an impediment\n                              to extrinsic doping. State-of-the-art devices have partially addressed these challenges by\n                              careful control of the preferential orientation [13], band offset tuning [14], passivation of\n                               interface defects [15], and reduction of contact barriers [16]. These efforts led to the current\n                            record efficiency of 10.57% [17]. Research efforts were especially focused on enhancing Fill\n                             Factor (FF) and short-circuit current density (Jsc), which are both now over 70% of their SQ\n                                  limits. However, no similar progress was achieved in increasing the Voc, which represents\n                          a notable problem for further efficiency improvements. Indeed, many reported devices\n                              in the literature exhibit a Voc close to 50% of the SQ limit [18]. Understanding the causes\n                         behind this Voc deficit is imperative for increasing the efficiency of Sb2Se3 solar cells.\n                               This study employs sputtering and closed-space sublimation (CSS) for thin-film de-\n                              position, which offers key advantages over conventional methods. Sputtering, a PVD\n                            technique, ensures high film uniformity, precise thickness control, and strong adhesion,\n                       making it ideal for depositing high-purity layers. Compared to solution growth meth-\n                            ods, it provides superior structural integrity. On the other hand, CSS is a highly efficient\n                       method for Sb2Se3 deposition, offering high deposition rates, scalability, and excellent crys-\n                                    tallinity. It promotes better grain growth and reduces grain boundary defects, improving\n                           charge carrier transport. Moreover, low-temperature CSS is considered a cost-effective and\n                               energy-efficient choice for industrial solar cell production.\n                           The ZnO/CdS-(Cd, Zn)S combination in Sb2Se3 solar cells provides key advantages\n                              in terms of optical, electrical, and structural properties, ensuring efficient charge trans-\n                            port and stability. ZnO, as an HRL (High Resistive Layer), offers high transparency\n                             (~3.3 eV bandgap), high resistivity, which is essential for reducing leakage currents, and\n                            strong chemical stability, outperforming alternatives like SnO2 in balancing optical and\n                                 electrical properties.\n                            Using CdS-(Cd, Zn)S as a buffer layer provides energy gap tuning, low interface\n                               defects, and good stability, making it more reliable than alternatives like ZnS or In2S3\n                       and MgZnO despite cadmium toxicity concerns. Overall, ZnO and CdS-(Cd, Zn)S remain\n                             technologically viable choices that ensure the efficient charge extraction, scalability, and\n                          high performance of Sb2Se3 solar cells.\n                                 In this work, different optoelectrical measurements were carried out on Sb2Se3-based\n                              solar cells [19,20] to explain some unusual features of the J-V characteristic, namely, the\n                           presence of a “kink” and “crossover”. Both features may be justified by the existence of a\n                              potential barrier at the interface between the n-type electron transport layer (ETL) and the",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                         3 of 20\n\n\n\n                           p-type absorber layer. Capacitance measurements reveal that the positive charge density\n                              in the region of the junction follows a linear profile rather than the typical step function.\n                           Furthermore, temperature-dependent admittance measurements show the presence of two\n                        deep levels, likely connected with intrinsic defects. As a fallout of this comprehensive\n                           assessment, we propose a possible path towards the improvement of photovoltage (Voc)\n                       and Fill Factor (FF) aimed at pushing up the power conversion efficiency (PCE) of Sb2Se3-\n                          based solar cells.\n\n                             2. Experimental Section\n\n                                   Solar cells were fabricated in a superstrate configuration (Figure 1a), with ITO and ZnO\n                            as the front contact. CdS and Cd0.85Zn0.15S ((Cd,Zn)S) serve as the ETLs and, right after,\n                         antimony selenide (Sb2Se3) was deposited by Close-Spaced Sublimation (CSS) (details on\n                         growth parameters and technical specifications can be found in previous publications [9,20]).\n                       The back contact was an amorphous thin film composed of iron, sulfur, and oxygen; we\n                                 refer to this layer as Fe-S-O, and it was coated by an Au layer. All layers, except Sb2Se3, were\n                           deposited using either r.f. magnetron sputtering (ZnO, CdS, (Cd,Zn)S) or d.c. magnetron\n                            sputtering (ITO, Fe-S-O, Au). The current–voltage (J-V) characteristics of the solar cells\n                        were assessed using a continuous LOT-Oriel solar simulator (Oriel, Irvine, CA, USA)\n                        equipped with an air mass AM1.5G filter. The simulator was equipped with a 600 W\n                       Xenon lamp (Oriel, Irvine, CA, USA) that gives a 1 kW/m2 light power density. To ensure\n                             accuracy, a calibrated pyranometer served as a reference, and the measurements were\n                         conducted at the standard temperature of 298 K. For the intensity-dependent current–\n                             voltage measurements, neutral density optical filters with optical densities (OD) of 3, 2, 1.3,\n                                   1, and 0.3 were employed.\n                                 J-V curves were taken under illumination, using a KEITHLEY 2400 (Keithley, Solon,\n                     OH, USA) source meter, between 233 K and 353 K in steps of 20 K. The antimony selenide-\n                         based solar cell was placed inside a thermostatic chamber and illuminated through an\n                               optical fiber coupled with a Linos photonics LQX 1000 lamp (Qioptiq Photonics, Gottingen,\n                             De). To achieve illumination in different spectral ranges, a combination of band-pass optical\n                                     filters in the range from 1000 nm to 500 nm was employed.\n                               Capacitance–voltage (CV) measurements in the dark and at room temperature (RT)\n                         were carried out with a Keithley 4200-SCS semiconductor characterization system, selecting\n                            the highest available frequency (10 MHz) to limit the contribution of deep levels to the\n                             capacitance while varying the applied reverse bias within the range of from 0.4 V to 2 V. For\n                           admittance spectroscopy, experiments were carried out in the dark and under light using a\n                         Hewlett Packard 4284A (Hewlett Packard Enterprise, Palo Alto, CA, USA) PRECISION\n                    LCR METER by varying the frequency between 100 Hz and 1 MHz, and the temperature in\n                            the range 273 K–353 K.\n                             To determine the energy gap of CdS and (Cd,Zn)S, UV–vis absorption measurements\n                        were acquired with a Varian 2390 UV-VIS-NIR (Varian Inc., Palo Alto, CA, USA) in the\n                          range between 300 nm and 1500 nm using a transmission configuration.\n                            The (scanning) transmission electron microscopy ((S)TEM) investigations were carried\n                          out in an aberration-corrected Titan Themis G2 200-type microscope ((Thermo Fisher\n                                 Scientific, Waltham, MA, USA)) operating at 200 keV equipped with an X-FEG gun, a\n                          4 k × 4 k CETA 16 CMOS camera (ThermoFisher Scientific), and a HAADF detector (E.A.\n                            Fischione Instruments (Fischione Instruments, Inc., PA, USA)). For the energy dispersive\n                           X-ray (EDX) mapping, a Super-X detector was used. The cross-sectional TEM samples were\n                          prepared by focused ion beam (FIB) technique using a ThermoFisher Scios 2 Dual Beam\n                          microscope with EasyLiftTM nanomanipulator. The TEM lamella was immediately moved",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                         4 of 20\n\n\n\n                               to the TEM after preparation in FIB in order to reduce the contamination with air. After the\n                  TEM experiments, the lamella was stored in a vacuum.\n\n\n\n\n\n                             Figure 1. (a) Non-scaled sketch of the Sb2Se3-based solar cell and cross-sectional bright field (BF)\n                    TEM image of the solar cell; (b) current density–voltage characteristics in dark (black) and under\n                                   solar simulator illumination with 700 W/m2 AM1.5G filtered light (red); the magnification highlights\n                                the crossover point VX.\n\n                             3. Results and Discussion\n\n                                   3.1. The Sb2Se3 Solar Cell\n\n                                 Figure 1a illustrates a non-scaled diagram of the structures of the Cd0.85Zn0.15S/Sb2Se3-\n                         based solar cell. The key photovoltaic parameters, extracted from the J-V characteristic\n                           presented in Figure 1b, are reported in Table 1.\n\n\n                             Table 1. Main photovoltaic parameters of the investigated solar cell. Voc is the open circuit voltage,\n                        VX is the crossover voltage, Jsc is the current density, FF is the fill factor, PCE is the power conversion\n                                     efficiency, Rsh is the shunt resistance, RS is the series resistance, n is the ideality factor.\n\n                                   Voc [mV]            365 ± 6.0          PCE [%]             4.36 ± 0.3\n                             Vx [mV]            375 ± 6.0            Rsh [Ωcm2]           378 ± 16\n                                                Jsc [mA/cm2]           17.1 ± 0.3          RS [Ωcm2]             3.6 ± 0.1\n                              FF [%]             49 ± 3.0              n                  2.1 ± 0.1",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. Main photovoltaic parameters of the investigated solar cell. Voc is the open circuit voltage,\nVX is the crossover voltage, Jsc is the current density, FF is the fill factor, PCE is the power conversion\nefficiency, Rsh is the shunt resistance, RS is the series resistance, n is the ideality factor.",
+          "bbox": [
+            166.39,
+            656.63,
+            559.28,
+            725.15
+          ],
+          "rows": [
+            [
+              "Voc [mV]",
+              "365 ± 6.0",
+              "PCE [%]",
+              "4.36 ± 0.3"
+            ],
+            [
+              "Vx [mV]",
+              "375 ± 6.0",
+              "Rsh [Ωcm²]",
+              "378 ± 16"
+            ],
+            [
+              "Jsc [mA/cm²]",
+              "17.1 ± 0.3",
+              "RS [Ωcm²]",
+              "3.6 ± 0.1"
+            ],
+            [
+              "FF [%]",
+              "49 ± 3.0",
+              "n",
+              "2.1 ± 0.1"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. (a) Non-scaled sketch of the Sb2Se3-based solar cell and cross-sectional bright field (BF)\nTEM image of the solar cell; (b) current density–voltage characteristics in dark (black) and under\nsolar simulator illumination with 700 W/m² AM1.5G filtered light (red); the magnification highlights\nthe crossover point VX.",
+          "figure_bbox": [
+            39.79,
+            109.52,
+            555.21,
+            457.81
+          ],
+          "bbox": [
+            166.12,
+            466.17,
+            560.17,
+            514.94
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. Main photovoltaic parameters of the investigated solar cell. Voc is the open circuit voltage,\nVX is the crossover voltage, Jsc is the current density, FF is the fill factor, PCE is the power conversion\nefficiency, Rsh is the shunt resistance, RS is the series resistance, n is the ideality factor.",
+          "bbox": [
+            166.07,
+            614.23,
+            560.39,
+            650.9
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. (a) Non-scaled sketch of the Sb2Se3-based solar cell and cross-sectional bright field (BF)\nTEM image of the solar cell; (b) current density–voltage characteristics in dark (black) and under\nsolar simulator illumination with 700 W/m² AM1.5G filtered light (red); the magnification highlights\nthe crossover point VX.",
+          "bbox": [
+            39.79,
+            109.52,
+            555.21,
+            457.81
+          ],
+          "file": "extracted_images/page4_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                         5 of 20\n\n\n\n                            To evaluate the series resistance (Rs) and the ideality factor (n) of the solar cell, a ma-\n                             nipulation of the J-V expression, neglecting the saturation current and supposing Rs << Rsh,\n                              yields the following [14]:\n                                           dV   nKT         −1\n                                   =          J + Jph  + RS                                (1)\n                                                          dJ      q\n\n                               Here, n represents the diode ideality factor and Jph is the current attributed to the\n                          photogenerated carriers, which can be approximated by the short-circuit current Jsc.\n                          From the plot in Figure 2a, it is possible to extract the series resistance RS while, from\n                             the plot of dJ/dV in Figure 2b, one can obtain the shunt resistance Rsh (both values reported\n                              in Table 1) once the value of RS is known from the fit of Figure 2a [21].\n\n                                                                                            q(V−JRS)                                                           dJ                                                                            1                                                                         qJ0                                   =                                                                                        nKT     ] +                                                                                                     e[                                                                                                                                     (2)\n                                            dV   nKT            Rsh\n\n\n\n\n\n                             Figure 2. (a) Linear fit (in red) of dV/dJ data for the determination of RS. (b) Linear fit (in red) of\n                         dJ/dV data for the determination of Rsh. The curves were derived from J-V curves measured under\n                                  solar simulator illumination of 700 W/m2 AM1.5G at a temperature of 298 K.\n\n                              For the subsequent analysis of the cell properties, it is important to note that the\n                               interface between the p-type Sb2Se3 and the n-type (Cd,Zn)S region is not sharp but rather\n                         graded due to layer intermixing, which helps minimize the lattice mismatch between the\n                       two materials. According to relation (3), the lattice mismatch (δ) between Sb2Se3 and\n                             Zn0.15Cd0.85S is indeed large [22]:\n\n                                                     2 · a(Cd,Zn)S −bSb2Se3\n                                           δ(%) =                                    · 100 = 2.63%                       (3)\n                                                                    a(Cd,Zn)S + bSb2Se3\n\n                           The lattice parameters of (Cd,Zn)S and Sb2Se3 are denoted as a(Cd,Zn)S and bSb2Se3,\n                               respectively.\n                            The lattice parameter of (Cd,Zn)S (with 15% atomic concentration of Zn) is estimated\n                           using Vegard law [23,24] with aCdS = 4.14 Å and aZnS = 3.82 Å [25,26].\n\n                                                                aZn0.15Cd0.85S = 0.15aZnS + 0.85aCdS = 4.092 Å                       (4)\n\n                            The lattice parameter of Sb2Se3 to be considered is bSb2Se3 = 3.9858 Å, as for our growth\n                            conditions the Sb2Se3 preferential orientation is [001] direction, i.e., parallel to the growth\n                              axis [9].",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. (a) Linear fit (in red) of dV/dJ data for the determination of RS. (b) Linear fit (in red) of\ndJ/dV data for the determination of Rsh. The curves were derived from J-V curves measured under\nsolar simulator illumination of 700 W/m² AM1.5G at a temperature of 298 K.",
+          "figure_bbox": [
+            60.3,
+            264.15,
+            531.69,
+            465.12
+          ],
+          "bbox": [
+            166.39,
+            473.49,
+            559.45,
+            508.25
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. (a) Linear fit (in red) of dV/dJ data for the determination of RS. (b) Linear fit (in red) of\ndJ/dV data for the determination of Rsh. The curves were derived from J-V curves measured under\nsolar simulator illumination of 700 W/m² AM1.5G at a temperature of 298 K.",
+          "bbox": [
+            60.3,
+            264.15,
+            531.69,
+            465.12
+          ],
+          "file": "extracted_images/page5_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                         6 of 20\n\n\n\n                            The nominal concentration of 15 at% Zn inside the CdS crystal structure was confirmed\n                        by taking the Eg of (Cd,Zn)S (2.67 ± 0.01 eV) and CdS (2.48 ± 0.01 eV) from a Tauc plot (see\n                            Figure 3). With the assumption that the energy gap varies linearly with the Zn concentration\n                         between the Eg of CdS (0%) and that of ZnS (100%), and taking the Eg of ZnS = 3.6 eV [27],\n                    we estimated the at% of Zn in CdS to be (17 ± 2)%, which is consistent with the present\n                          15 at% value.\n\n\n\n\n\n                              Figure 3. Tauc plot of (a) (Cd,Zn)S and (b) CdS thin films. Red lines represent the linear fitting with\n                                the dotted part being the extrapolation to the energy axis.\n\n                    A lattice mismatch exceeding 1% normally introduces a significant density of crystal-\n                            lographic defects at the interface, which provides energy levels acting as recombination\n                               centers. This well-known fact limits the number of photocarriers that actually reach the\n                            device electrodes. Such a phenomenon was previously observed in CdS/CdTe-based solar\n                                  cells and pre-vented the formation of an adapting layer [28], which gradually reduced the\n                               effective mismatch. Similarly, in antimony selenide-based solar cells, the introduction of\n                          such an adapting layer proved to be essential to circumvent the lattice mismatch issue.\n                           The introduction of (Cd,Zn)S at the junction, besides decreasing the lattice mis-\n                          match, has two further advantages. First, as previously shown [9], the introduction of a\n                             Zn0.15Cd0.85S layer allows the growth of antimony selenide with preferential grain growth\n                              orientation along the [001] direction. Second, as demonstrated in ref. [14], a zinc concentra-\n                               tion ranging from 15 at% to 20 at% within CdS enables the achievement of a spike-like type\n                           conduction band offset (CBO) at the interface with Sb2Se3, which is sufficiently small so as\n                              to not induce significant effects on the photovoltaic parameters of the cell.\n                           The hypothesis regarding the existence of the intermixing layer between (Cd,Zn)S\n                       and Sb2Se3, based on the experience with the CdS/CdTe system, has been experimentally\n                              verified using HRTEM and EDS measurements in cross-section on the complete Sb2Se3-\n                         based cell. Figure 4b shows the EDS spectrum related to the cross-section highlighted in\n                            Figure 4a.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. Tauc plot of (a) (Cd,Zn)S and (b) CdS thin films. Red lines represent the linear fitting with\nthe dotted part being the extrapolation to the energy axis.",
+          "figure_bbox": [
+            54.52,
+            163.51,
+            540.91,
+            352.79
+          ],
+          "bbox": [
+            166.39,
+            362.26,
+            559.27,
+            384.13
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. Tauc plot of (a) (Cd,Zn)S and (b) CdS thin films. Red lines represent the linear fitting with\nthe dotted part being the extrapolation to the energy axis.",
+          "bbox": [
+            54.52,
+            163.51,
+            540.91,
+            352.79
+          ],
+          "file": "extracted_images/page6_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                         7 of 20\n\n\n\n\n\n                              Figure 4. (a) Cross-sectional HAADF TEM image with elemental EDX maps for (c) Zn, (d) O, (e) Se,\n                                          (f) Sb, (g) Cd, (h) S. The white box on the HAADF image shows the area from where the (b) integrated\n                                  intensity profile with the calculated at% was taken. The diffusion of Se and Sb atoms into the sulfide\n                                 layer is observed.\n\n                                 In Figure 4c–e,h, an interdiffusion of selenium and antimony atoms into the sulfide\n                              layer is observed, which forms an adaptive layer with an estimated thickness of about 20 nm\n                               in accordance with the EDS profile spectrum depicted in Figure 4b. The interdiffusion of Se\n                       and Sb into the sulfide layer occurs during the CSS deposition of Sb2Se3 at temperatures\n                         between 350 and 400 ◦C. This temperature range is sufficient to promote diffusion at the (Cd,\n                          Zn)S/Sb2Se3 interface, leading to the formation of an intermixing layer [29]. The observed\n                              interdiffusion is uniquely produced during the CSS growth as no additional heating is\n                           applied after deposition. Additionally, a non-negligible amount of oxygen (10 to 20 at%)\n                         seems present outside the ZnO layer, including in the Sb2Se3 layer. This amount cannot be\n                            explained by assuming the presence of oxygen during deposition since the starting vacuum\n                               of all the different deposition processes is less than 10−6 mbar, and the oxygen presence has\n                         been shown to be undetectable with an oxygen vapor pressure that is more than one order\n                              of magnitude greater [30]. A hypothesis regarding this anomalous experimental result is\n                               that the cross-sectional ca. 30 nm thin TEM lamella with a large free surface tends to oxidize\n                         during sample transfer, and, thus, the oxygen is not actually present in the subsequent\n                                layers, especially not in the Sb2Se3. After the TEM investigation, we put the samples into a\n                      vacuum (10−6 mbar); however, the measured amount of oxygen was 1.5 times higher on\n                             the second day due to the double transfer that exposed the sample to contamination by air.\n                     TEM measurements on the Sb2Se3 do not show any spurious secondary phases of\n                         antimony oxides in accordance with the results obtained in Figure 5.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. (a) Cross-sectional HAADF TEM image with elemental EDX maps for (c) Zn, (d) O, (e) Se,\n(f) Sb, (g) Cd, (h) S. The white box on the HAADF image shows the area from where the (b) integrated\nintensity profile with the calculated at% was taken. The diffusion of Se and Sb atoms into the sulfide\nlayer is observed.",
+          "figure_bbox": [
+            55.17,
+            73.01,
+            541.57,
+            349.89
+          ],
+          "bbox": [
+            166.1,
+            361.99,
+            560.39,
+            409.52
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. (a) Cross-sectional HAADF TEM image with elemental EDX maps for (c) Zn, (d) O, (e) Se,\n(f) Sb, (g) Cd, (h) S. The white box on the HAADF image shows the area from where the (b) integrated\nintensity profile with the calculated at% was taken. The diffusion of Se and Sb atoms into the sulfide\nlayer is observed.",
+          "bbox": [
+            55.17,
+            73.01,
+            541.57,
+            349.89
+          ],
+          "file": "extracted_images/page7_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                         8 of 20\n\n\n\n\n\n                              Figure 5. HRTEM image from the ZnO/CdS/(Cd,Zn)S/Sb2Se3 interfaces. The FFT from the signed\n                               area is indexed as orthorhombic (s.g. Pnma) Sb2Se3 from the [010] projection. In the right-upper\n                                  corner, the HAADF image with the projected atomic structure of the Sb2Se3 is shown. CdS and the\n                             (Cd,Zn)S layer are polycrystalline.\n\n                                   3.2. Kink Effect in the J-V Characteristic\n\n                          As clearly shown in Figure 1b, the current–density characteristic for the polycrystalline\n                           Sb2Se3-based solar cell exhibits different behavior in the dark and under illumination.\n                                Specifically, under illumination, a kink is observed at high voltages in the first quadrant\n                             of the forward J-V characteristic. This behavior is attributed to the presence of an energy\n                               barrier within the absorber layer, which can be explained by the two-diode model in series\n                            configuration (Figure 6a) [31,32]. In the first quadrant of the J-V characteristic, the main\n                             junction barrier is completely flattened by the voltage applied to the contacts. In this\n                               situation, holes must exit from the negative pole and electrons from the positive pole,",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. HRTEM image from the ZnO/CdS/(Cd,Zn)S/Sb2Se3 interfaces. The FFT from the signed\narea is indexed as orthorhombic (s.g. Pnma) Sb2Se3 from the [010] projection. In the right-upper\ncorner, the HAADF image with the projected atomic structure of the Sb2Se3 is shown. CdS and the\n(Cd,Zn)S layer are polycrystalline.",
+          "figure_bbox": [
+            54.7,
+            72.59,
+            540.62,
+            558.45
+          ],
+          "bbox": [
+            166.1,
+            571.89,
+            559.45,
+            619.41
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. HRTEM image from the ZnO/CdS/(Cd,Zn)S/Sb2Se3 interfaces. The FFT from the signed\narea is indexed as orthorhombic (s.g. Pnma) Sb2Se3 from the [010] projection. In the right-upper\ncorner, the HAADF image with the projected atomic structure of the Sb2Se3 is shown. CdS and the\n(Cd,Zn)S layer are polycrystalline.",
+          "bbox": [
+            54.7,
+            72.59,
+            540.62,
+            558.45
+          ],
+          "file": "extracted_images/page8_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                         9 of 20\n\n\n\n                            contrary to what happens in the fourth quadrant, where the built-in electric field of the\n                             junction pushes the photogenerated carriers in the opposite direction.\n\n\n\n\n\n                             Figure 6. (a) The solar cell model highlights the second barrier diode positioned in anti-series with\n                                 respect to the primary barrier diode. R0 and DB are the contact resistance and threshold barrier of the\n                                    anti-series diode, respectively. (b) Non-scaled sketch for the proposed model of the (Cd,Zn)S/Sb2Se3\n                                junction highlighting the intermixing layer between (Cd,Zn)S and Sb2Se3, the penetration depth in\n                           which 63% of the incoming light is absorbed, and the depletion layer.\n\n                                 In the case of the (Cd,Zn)S/Sb2Se3 junction, for a forward bias above Voc, this is\n                               certainly true for electrons, but holes tend to accumulate at the interface of the p-side of the\n                              junction. This accumulation is a result of the potential step caused by the offset between\n                            the valence bands of (Cd,Zn)S and Sb2Se3 (see Figure 7).\n\n\n\n\n\n                              Figure 7. Schematic representation of the (Cd,Zn)S/Sb2Se3 interface band profiles.\n\n                              These materials possess quite different band gaps, and the low conduction band offset\n                        (CBO) leads to a big cliff-like discontinuity in the valence band, even under the conditions\n                               of the first quadrant of the J-V characteristic, as explained in [33]. Therefore, a fraction of the\n                              holes, partly photogenerated and partly injected, are trapped in the Sb2Se3 layer near the\n                               interface with (Cd,Zn)S. The trapped holes, unable to move freely, promote recombination",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. (a) The solar cell model highlights the second barrier diode positioned in anti-series with\nrespect to the primary barrier diode. R0 and DB are the contact resistance and threshold barrier of the\nanti-series diode, respectively. (b) Non-scaled sketch for the proposed model of the (Cd,Zn)S/Sb2Se3\njunction highlighting the intermixing layer between (Cd,Zn)S and Sb2Se3, the penetration depth in\nwhich 63% of the incoming light is absorbed, and the depletion layer.",
+          "figure_bbox": [
+            55.0,
+            109.52,
+            541.4,
+            291.03
+          ],
+          "bbox": [
+            166.02,
+            299.43,
+            559.28,
+            359.8
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Figure 7. Schematic representation of the (Cd,Zn)S/Sb2Se3 interface band profiles.",
+          "figure_bbox": [
+            164.39,
+            436.56,
+            463.2,
+            681.43
+          ],
+          "bbox": [
+            166.39,
+            687.86,
+            492.31,
+            698.66
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. (a) The solar cell model highlights the second barrier diode positioned in anti-series with\nrespect to the primary barrier diode. R0 and DB are the contact resistance and threshold barrier of the\nanti-series diode, respectively. (b) Non-scaled sketch for the proposed model of the (Cd,Zn)S/Sb2Se3\njunction highlighting the intermixing layer between (Cd,Zn)S and Sb2Se3, the penetration depth in\nwhich 63% of the incoming light is absorbed, and the depletion layer.",
+          "bbox": [
+            55.0,
+            109.52,
+            541.4,
+            291.03
+          ],
+          "file": "extracted_images/page9_figure-6_1.png"
+        },
+        {
+          "label": "Figure 7",
+          "caption": "Figure 7. Schematic representation of the (Cd,Zn)S/Sb2Se3 interface band profiles.",
+          "bbox": [
+            164.39,
+            436.56,
+            463.2,
+            681.43
+          ],
+          "file": "extracted_images/page9_figure-7_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        10 of 20\n\n\n\n                         with electrons, causing a noticeable decrease in current, which is seen as a kink in the\n                            J-V characteristic.\n                                 In the dark, the phenomenon is much less evident, as the resistance offered by the\n                              materials only allows the flow of a weaker current and, accordingly, the number of trapped\n                            holes is also lower.\n                             To determine the barrier height, we performed temperature-dependent J-V character-\n                                    istics at different temperatures, and we assumed that the barrier height as a function of the\n                           temperature follows a thermally activated behavior, as reported in ref. [34]:\n\n                                                                                ΦB\n                                                  RST = C e KT                                         (5)\n\n                        where RS is the total resistance comprising the resistance due to the materials constituting\n                            the solar cell, the resistances arising from contacts R0, and the resistance of the additional\n                               barrier DB (see Figure 6a). C is a constant independent of the temperature T, and ΦB is the\n                               barrier height. If R0 is sufficiently small compared to the barrier resistance, and, therefore,\n                               negligible, then the temperature dependence of Rs is primarily attributed to DB, which is\n                            the circuital representation of the barrier due to charge trapping.\n                            The total series resistance (Rs) was determined by linearly fitting the J-V characteristics,\n                                at different temperatures, around Voc. The inverse of the fitting slope represents the value\n                             of Rs. The barrier height was estimated to be 306 ± 9 meV from the slope of ln(RsT)\n                               vs. 1/T (Figure 8a) [35–37]. As reported in Figure 6b, the barrier height varies with the\n                         wavelength of the incident light. This happens because the penetration length depends\n                       on the wavelength and so does the thickness of the material where the photogenerated\n                            holes pile up [38]. This experimental fact may be appreciated from Figure 8b, where the\n                              barrier height is plotted as a function of the light penetration depth (remembering that\n                          approximately 82% of light is absorbed within a thickness of two penetration lengths,\n                           according to the Beer–Lambert–Bouguer law).\n\n\n\n\n\n                                                        (a)                   (b)\n\n\n\n\n\n                             Figure 8. The data points on both graphs were obtained by illuminating the sample with a LQX\n                             1000 lamp. (a) Arrhenius plot of ln(T·RS) (in K·Ωcm2) as a function of 1/T. Each experimental value\n                         was derived from the J-V measurements taken at temperatures ranging from 196 K to 353 K without\n                                   optical filters. (b) The height of the additional barrier as a function of distance from the junction: each\n                               data point was obtained using bandpass filters centered at 650 nm, 750 nm, 850 nm, and 950 nm, and\n                                        all were normalized to the same number of absorbed photons.\n\n                                This result has two consequences: first, it completely rules out the dependence of the\n                          kink on potential barriers at the contacts, and, second, it shows that the barrier, due to\n                           trapped holes, is at its maximum at the junction region near the interface and then decreases\n                              into the p-type material.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 8",
+          "text": "Figure 8. The data points on both graphs were obtained by illuminating the sample with a LQX\n1000 lamp. (a) Arrhenius plot of ln(T·RS) (in K·Ωcm²) as a function of 1/T. Each experimental value\nwas derived from the J-V measurements taken at temperatures ranging from 196 K to 353 K without\noptical filters. (b) The height of the additional barrier as a function of distance from the junction: each\ndata point was obtained using bandpass filters centered at 650 nm, 750 nm, 850 nm, and 950 nm, and\nall were normalized to the same number of absorbed photons.",
+          "figure_bbox": [
+            74.26,
+            459.19,
+            516.39,
+            631.63
+          ],
+          "bbox": [
+            165.95,
+            639.99,
+            559.58,
+            713.22
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 8",
+          "caption": "Figure 8. The data points on both graphs were obtained by illuminating the sample with a LQX\n1000 lamp. (a) Arrhenius plot of ln(T·RS) (in K·Ωcm²) as a function of 1/T. Each experimental value\nwas derived from the J-V measurements taken at temperatures ranging from 196 K to 353 K without\noptical filters. (b) The height of the additional barrier as a function of distance from the junction: each\ndata point was obtained using bandpass filters centered at 650 nm, 750 nm, 850 nm, and 950 nm, and\nall were normalized to the same number of absorbed photons.",
+          "bbox": [
+            74.26,
+            459.19,
+            516.39,
+            631.63
+          ],
+          "file": "extracted_images/page10_figure-8_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 11,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        11 of 20\n\n\n\n                                   3.3. Crossover Effect in the J-V Characteristic\n\n                         From Figure 1b, it is evident that the J-V characteristic under light is not a simple\n                              translation of the dark J-V characteristic, as in an ideal junction. The two characteristics\n                      show a crossover, indicating a potential-dependent photocurrent [39–41]. It is typically\n                       assumed that the photogenerated current primarily depends on the intensity of incident\n                                   light, with only a minor dependence on the voltage V. However, in this case, the dependence\n                       on V is not sufficiently weak to be disregarded. Consequently, we can describe the current\n                           flowing in the solar cell as follows (superposition principle) [33]:\n\n                                                        JL(V, g) = JDsc(V, g) + Jph(V, g)                              (6)\n\n                        where JL(V,g) is the total flowing current, JDSC(V,g) is the current flowing in the diode (p-n\n                                junction), and Jph(V,g) is the current generated by light. Here, V is the applied bias and g is\n                            the photocarrier generation rate. The net current of the diode without the contribution of\n                            light-induced generation can be expressed, considering the dark current, as follows:\n\n                                                            JDsc(V, g) = Jj(V, g) −Jdark                                (7)\n\n                               Here, Jj(V,g) represents the injection current of the diode, and Jdark is the current\n                             of the unilluminated diode, which, being minimally dependent on the potential, can be\n                           considered as constant. Consequently, the difference between JL(V,g) and Jdark can give\n                       some information about the crossover:\n\n                                                         n           o                      ∆= JL(V, g) −Jdark =  Jj(V, g) −Jdark +  Jph(V, g) −Jdark               (8)\n\n                         From the first term (in square brackets) on the right-hand side of Equation (8), we\n                         can infer that, if the current injected by the junction also depends on the illumination,\n                             then, in ∆, this term predominates, and the crossover essentially depends on this. On the\n                               contrary, if photogeneration depends on the potential, then the second term (curly brackets)\n                           predominates. The difference ∆has a trade-off at the point Vx. In our Sb2Se3-based cell, the\n                          p-n junction can be considered as a hole-blocking heterojunction, attributed to the electron\n                                 affinity of the n-type layer ((Cd,Zn)S) and the doping level of the p-type layer (Sb2Se3). As\n                         mentioned earlier, this implies an accumulation of positive charge in the p-type region of the\n                             junction and, consequently, (Jj(V,g) −Jdark) > 0. This remains valid even when considering\n                            the intermixing layer, which reduces the lattice mismatch but does not fully adapt the\n                                offset in the valence bands between (Cd,Zn)S and Sb2Se3. Concerning the presence of\n                            the crossover, there are, however, two more questions to be discussed. First, it should be\n                           considered that the potential we observe at the contacts is not the built-in potential Vbi but\n                              rather the potential that drops on the resistances of materials and contacts. We can denote\n                                this potential as Vbi,c to indicate that it is the potential observed at the contacts.\n                                Secondly, as mentioned earlier, we need to consider that, in the (Cd,Zn)S/Sb2Se3\n                                  cell under moderate forward bias, only electrons can flow through the p-type contact,\n                           while holes are partially blocked by the barrier between the valence band of (Cd,Zn)S and\n                            Sb2Se3. The photocurrent is, therefore, voltage-dependent but cannot become zero until\n                                    all electrons and holes have reached their respective contacts. Nevertheless, the presence\n                              of positive charge accumulation in the junction region under light implies a change in the\n                              internal electric fields. This, in turn, means that the diode current becomes dependent\n                       on the light-induced generation of charge carriers. This influences the point where the\n                           photocurrent and the dark current intersect. Two cases can be distinguished:\n\n                         •   In the case where the doping density within the CdS + (Cd,Zn)S layer is quite low, in\n                                 the order of 1013 cm−3, the electric field primarily drops in the n-type region and the",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 12,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        12 of 20\n\n\n\n                               p-type region will be only slightly depleted. In this region, there will be a relatively\n                                small accumulation of photogenerated positive charges. Therefore, a higher potential\n                                    will be required to reach the crossover voltage, which is typically greater than Vbi,c.\n                         •   In contrast, when the n-type region of the junction is more heavily doped than the p-\n                                type region, the latter experiences greater depletion. This results in a more pronounced\n                             bending of the energy bands in this region. Consequently, there is an increased\n                               accumulation of positive charges in this area, leading to a crossover point that is lower\n                               than Vbi,c.\n\n                            To understand which of the two situations we are in, we need to assess how much\n                                   Vbi,c depends on the series resistances of the device.\n                               Considering the series resistance values of our solar cell (RS ≈3.6 Ω· cm2), the relative\n                            voltage drop (J·RS) across the materials is not significant, especially when the current\n                             density is very low, i.e., the voltage is close to Voc and/or the crossover point Vx. Therefore,\n                                   Vbi,c is approximately equal to Vbi.\n                                 In summary, the condition where Vx < Vbi arises because of the higher doping level\n                              in Sb2Se3 compared to (Cd,Zn)S. It is now necessary to address the question of how Vx is\n                             influenced by light (generation). The variation of Vx and Voc as a function of the wavelength\n                              of the incident light has been illustrated in Figure 9a. Measurements were conducted using\n                         bandpass filters centered at wavelengths of 650 nm, 750 nm, 850 nm, and 950 nm. The Vx\n                       and Voc values were then extracted from the standardized JV curves normalized for an\n                           equal number of absorbed photons.\n\n\n\n\n\n                  (a)                                           (b)\n\n\n\n\n                              Figure 9. (a) Measurements of Vx and Voc were conducted at different wavelengths, with all potential\n                               values standardized to an equal number of absorbed photons. The varied wavelengths were selected\n                             using passband filters centered at 650 nm, 750 nm, 850 nm, and 950 nm. (b) ∆V = Vx −Voc as a\n                                function of the absorbed light wavelength.\n\n                           The graph (Figure 9a) indicates that Vx is always slightly higher than Voc, aligning\n                         with the definition of Vx. However, the difference between Vx and Voc seems to widen\n                            as the wavelength decreases (Figure 9b). Considering the penetration depth of the light\n                              into the Sb2Se3 layer, carriers generated by a longer wavelength must cover a greater\n                             distance to reach the electrodes (Figure 8b), amplifying the impact of recombination effects.\n                           This phenomenon results in a diminished photovoltage. The graph in Figure 9a shows a\n                         non-uniform dependency of Vx on light generation.\n                           The accumulation of photogenerated charges at the junction varies with the wave-\n                           length of the absorbed light. Holes generated by short-wavelength light are near the\n                              junction, allowing for more effective accumulation compared to holes generated farther\n                      away by long-wavelength light. Explaining this analytically is challenging, but the ob-\n                          served trend as a function of absorbed light aligns with what is depicted in Figure 9a,b.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 9",
+          "text": "Figure 9. (a) Measurements of Vx and Voc were conducted at different wavelengths, with all potential\nvalues standardized to an equal number of absorbed photons. The varied wavelengths were selected\nusing passband filters centered at 650 nm, 750 nm, 850 nm, and 950 nm. (b) ∆V = Vx −Voc as a\nfunction of the absorbed light wavelength.",
+          "figure_bbox": [
+            70.33,
+            375.74,
+            522.52,
+            546.43
+          ],
+          "bbox": [
+            166.14,
+            554.93,
+            559.28,
+            602.38
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 9",
+          "caption": "Figure 9. (a) Measurements of Vx and Voc were conducted at different wavelengths, with all potential\nvalues standardized to an equal number of absorbed photons. The varied wavelengths were selected\nusing passband filters centered at 650 nm, 750 nm, 850 nm, and 950 nm. (b) ∆V = Vx −Voc as a\nfunction of the absorbed light wavelength.",
+          "bbox": [
+            70.33,
+            375.74,
+            522.52,
+            546.43
+          ],
+          "file": "extracted_images/page12_figure-9_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 13,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        13 of 20\n\n\n\n                              Additionally, the slight increase in Vx values compared to Voc supports the accuracy of the\n                           Voc ≤Vx ≤Vbi relationship.\n\n                                   3.4. Capacitance–Voltage Characterization\n\n                                Capacitance–voltage measurements, in the dark and under light, were performed to\n                             obtain the built-in potential and the behavior of the spatial charge density. The capacitance\n                              of the p-n junction can be expressed for any diode as follows [42]:\n\n                                                                       −β                                                  V\n                                        C = constant·  1 +                                          (9)\n                                                                                        Vbi\n\n                               Here, C represents the capacitance of the junction, V denotes the reverse bias, Vbi\n                           stands for the barrier potential, and β is a coefficient accounting for the dependency of C\n                       on the reverse bias V. For an ideal junction with an abrupt charge density step profile, β\n                     = 1/2. β can be determined from the slope of the linear fit of ln(C) vs. ln(V) in dark and\n                               light condition (see Figure 10). This procedure enables the determination of the spatial\n                              distribution of a space charge within the junction region. The values of β result in 2.941  and\n\n                                        3.06                                    1  in dark conditions and under light, respectively. Both values are very close to 13 and\n                           suggest a linear dependence of C3 vs. V, which corresponds to a linear dependence of the\n                          space charge density within the space charge region, according to the C-V theory for a\n                               linearly graded junction reported in [43,44].\n\n\n\n\n\n                              Figure 10. Plot of ln(C) (C unit: F) against ln(V + Vbi) (V + Vbi unit: V) under light and dark conditions.\n                          The linear fit of the experimental data is made in the reverse bias region for V > Vbi.\n\n                           The relationship between depletion region capacitance and applied voltage is thus\n                            as follows:\n                                                         1     12(Vbi −V)\n                                     =                                                 (10)\n                                                     C3    q(δρ)A3(ϵ0ϵ)2\n\n                        where V represents the applied voltage, Vbi is the built-in potential, q is the electron charge,\n                            (δρ) indicates the impurity gradient expressed in cm−4, A denotes the active area of the\n                             diode, ϵ is the relative dielectric constant (assumed to be 15.1 [45,46]), and ϵ0 represents the\n                      vacuum dielectric constant. Equation (10) is indeed confirmed by the plot in Figure 11 that\n                              reports the plot of 1/C3 vs. applied bias, and the linear fit in the negative bias region can be\n                         used to determine the built-in potential from the intercept with the V-axis. Vbi was found to\n                          be (0.53 ± 0.05) V and (0.82 ± 0.05) V under light and dark conditions, respectively [35–37].\n                       The result reveals a higher built-in potential in dark conditions compared to that under\n                                  light. This discrepancy contradicts classical theory, as these two values are expected to\n                         be equal and suggest the presence of an illumination-linked potential. Indeed, when we",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 10",
+          "text": "Figure 10. Plot of ln(C) (C unit: F) against ln(V + Vbi) (V + Vbi unit: V) under light and dark conditions.\nThe linear fit of the experimental data is made in the reverse bias region for V > Vbi.",
+          "figure_bbox": [
+            164.39,
+            363.26,
+            385.64,
+            545.73
+          ],
+          "bbox": [
+            166.12,
+            552.23,
+            560.85,
+            575.35
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 10",
+          "caption": "Figure 10. Plot of ln(C) (C unit: F) against ln(V + Vbi) (V + Vbi unit: V) under light and dark conditions.\nThe linear fit of the experimental data is made in the reverse bias region for V > Vbi.",
+          "bbox": [
+            164.39,
+            363.26,
+            385.64,
+            545.73
+          ],
+          "file": "extracted_images/page13_figure-10_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 14,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        14 of 20\n\n\n\n                            consider the height (0.3 V) of the barrier attributed to the hole-blocking heterojunction and\n                       add it to Vbi under illumination (0.53 V), we obtain a value very close to the Vbi (0.83 V) in\n                            the dark. This confirms that the first term on the left side of Equation (8) is significantly\n                            influenced by g, the photocarrier generation rate, as corroborated by the presence of the\n                            crossover discussed above.\n\n\n\n\n\n                              Figure 11. Plot of 1/C3 as a function of the bias voltage: (a) under light, (b) in dark conditions.\n\n                                   3.5. Deep Levels\n\n                                 In the dark, the plot of the J-V curve on a log–log graph exhibits three distinct linear\n                            regions [47–50]:\n\n                         •   Ohmic region (J ∝V);\n                         •    Trap-filling-limit region (J ∝Vn>2);\n                         •   Child region (J ∝V2).\n\n                                  In the presence of traps, increasing the applied voltage results in an increased injected\n                              current, which will fill empty traps. The trap density (Nt) can be determined from the\n                                  trap-filling-limit (Vtfl) voltage, which is the intersection between the linear fits of the ohmic\n                        and trap-filling-limit regions of Figure 12. Once the intersection is known, the trap density\n                          can be calculated from the following relation [21,51]:\n\n                                                                      2ϵϵ0Vt f l\n                                                           Nt =                                              (11)\n                                                                    qL2\n\n                        where ε is the relative dielectric constant (assumed equal to 15.1 [45,46]), ε0 is the vacuum\n                                dielectric constant, q is the electron charge, and L is the antimony selenide thickness [52].\n                             With an estimated trap density of Nt ≈1.1 · 1013 cm-3, it can be then assumed that all\n                             traps in the Child region are filled.\n                               Consequently, the relationship governing the current–voltage trend in this region\n                            follows the Mott–Gurney law [48].\n\n                                                             9     VC −Vbi\n                                                                   JC = 8ϵϵ0µh   L3                                    (12)\n\n                               Here, JC and VC are the values at the intercept between the linear fits of trap-filling-\n                               limit and Child regions. Vbi is the built-in voltage in the dark, and µh denotes the hole\n                               mobility. Solving Equation (12) yields µh ≈8.9 cm2 V−1 s−1.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 11",
+          "text": "Figure 11. Plot of 1/C³ as a function of the bias voltage: (a) under light, (b) in dark conditions.",
+          "figure_bbox": [
+            88.66,
+            150.34,
+            506.33,
+            323.76
+          ],
+          "bbox": [
+            166.39,
+            329.02,
+            539.71,
+            341.24
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 11",
+          "caption": "Figure 11. Plot of 1/C³ as a function of the bias voltage: (a) under light, (b) in dark conditions.",
+          "bbox": [
+            88.66,
+            150.34,
+            506.33,
+            323.76
+          ],
+          "file": "extracted_images/page14_figure-11_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 15,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        15 of 20\n\n\n\n                                   Utilizing the resistivity measured in our previous work for antimony selenide in the\n                          dark [9], and applying the well-known relationship, we obtain the following:\n\n                                                                1\n                                                     σ =  = qpµ                                     (13)\n                                                                ρ\n\n                   A free hole density p of 1.4 × 1014 cm−3 is obtained. The difference of just one order\n                              of magnitude between the free hole density and the density of traps may explain the rather\n                        low performances of the solar cell.\n\n\n\n\n\n                              Figure 12. Plotting log(J) (unit: mA/cm2) against log(V) (unit: V) under dark conditions reveals three\n                                    distinct regions, delineated by dotted vertical lines. Linear fittings of the data in the respective region\n                                are shown in red, blue and green for the Ohmic, TFL and Child region respectively.\n\n                            To assess the energy position of the traps, admittance spectroscopy measurements\n                              in the dark and under illumination at steps of 20 K from 193 K to 353 K were carried\n                              out. Notably, the curves at the lowest temperatures exhibit an inflection point for the\n                            capacitance at high frequency, which again confirms the presence of deep traps [53] as\n                      shown in Figure 13.\n\n\n\n\n\n                        (a)                                                (b)\n\n\n\n\n                              Figure 13. Admittance spectroscopy measurements (a) under light (b) in the dark.\n\n                          By evaluating the frequency ω0 at which the inflection points occur and considering\n                            the following relationship [54]:\n\n                                                 ω0                                    = 2ξ0 exp −Ea                                  (14)\n                                                       T2          KT",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 12",
+          "text": "Figure 12. Plotting log(J) (unit: mA/cm²) against log(V) (unit: V) under dark conditions reveals three\ndistinct regions, delineated by dotted vertical lines. Linear fittings of the data in the respective region\nare shown in red, blue and green for the Ohmic, TFL and Child region respectively.",
+          "figure_bbox": [
+            164.39,
+            199.96,
+            384.35,
+            383.5
+          ],
+          "bbox": [
+            166.39,
+            388.2,
+            559.28,
+            424.63
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 13",
+          "text": "Figure 13. Admittance spectroscopy measurements (a) under light (b) in the dark.",
+          "figure_bbox": [
+            84.08,
+            515.32,
+            510.91,
+            686.45
+          ],
+          "bbox": [
+            166.39,
+            694.88,
+            490.64,
+            703.93
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 12",
+          "caption": "Figure 12. Plotting log(J) (unit: mA/cm²) against log(V) (unit: V) under dark conditions reveals three\ndistinct regions, delineated by dotted vertical lines. Linear fittings of the data in the respective region\nare shown in red, blue and green for the Ohmic, TFL and Child region respectively.",
+          "bbox": [
+            164.39,
+            199.96,
+            384.35,
+            383.5
+          ],
+          "file": "extracted_images/page15_figure-12_1.png"
+        },
+        {
+          "label": "Figure 13",
+          "caption": "Figure 13. Admittance spectroscopy measurements (a) under light (b) in the dark.",
+          "bbox": [
+            84.08,
+            515.32,
+            510.91,
+            686.45
+          ],
+          "file": "extracted_images/page15_figure-13_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 16,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        16 of 20\n\n\n\n                            the activation energy of the deep levels can be determined, as shown in Figure 14.\n\n\n\n\n\n                     (a)                                                   (b)\n\n\n\n                             Figure 14. ln ω0/T2  (unit: s−1·K−2) as a function of 1/KT, illustrating two distinct activation\n                                energies observed (a) under light and (b) in the dark.\n\n                        Two deep levels acting as traps were identified at (183 ± 23) meV and (324 ± 39) meV\n                               in the dark and under light, respectively. It is important to note that this is only an estimate\n                             since the C-ω curves were obtained at relatively large d-factor values and that, with this\n                           procedure, it is not possible to determine the exact position of these traps, whether in the\n                           p-type or the n-type region. Anyway, from the curves shown in Figures 13 and 14, we can\n                         deduce that these energies represent the limits of a narrow energy band corresponding to a\n                              distribution of traps. This conclusion is supported by the absence of an evident inflection\n                              in each curve, as the decrease in capacitance is not sharp, which points to the overlapping\n                                effects of multiple trap levels close in energy. This band of traps may explain why two\n                               different energy levels show up in the dark or under light (Figure 14). This phenomenon\n                          can be explained by the band bending occurring at the intermixing layer between (Cd,Zn)S\n                       and Sb2Se3. Indeed, because of the extended trap levels and the variable Fermi and quasi-\n                         Fermi levels in the dark and after illumination, only energy-related fractions of the traps\n                              will be filled. The literature [55] reports numerous levels within the Sb2Se3 energy gap;\n                        most of them are categorized as deep donors, with only a few classified as acceptor-like\n                               defects. Among these, the antimony vacancy (VSb) corresponds to an energy level located\n                               at 180 meV above the top of the valence band [55,56], which is consistent with the lower\n                         extreme of the trap band detected by admittance measurements (Figures 13 and 14). If\n                         VSb [55,56] is the actual point defect acting as a trap then one is led to conclude that the\n                             trap band is localized in the Sb2Se3 layer.\n                               Preventing defects can reduce recombination, leading to a higher open-circuit volt-\n                         age (Voc) and fill factor (FF), while minimizing the lattice mismatch improves carrier\n                             transport and short-circuit current density (Jsc). Based on trends in similar thin-film tech-\n                             nologies, efficiency gains of 20–30% are expected with effective defect passivation and\n                          optimized interfaces.\n\n                             4. Conclusions\n\n                               This study aims to improve the efficiency of Sb2Se3-based solar cells by optimizing\n                    DC/RF sputtering for the ZnO/CdS-(Cd,Zn)S and back-contact layers, along with the CSS\n                              for Sb2Se3, in order to improve film quality, interface engineering, and defect reduction.\n                      Compared to other Sb2Se3 studies, this approach offers significant advantages. Unlike\n                           chemical bath deposition, electrodeposition, hydrothermal deposition, and thermal evapo-\n                                ration, it ensures superior crystallinity, lower defect density, and improved charge transport.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 14",
+          "text": "Figure 14. ln",
+          "figure_bbox": [
+            77.1,
+            98.91,
+            294.22,
+            268.46
+          ],
+          "bbox": [
+            166.39,
+            276.82,
+            221.38,
+            285.88
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 14",
+          "caption": "Figure 14. ln",
+          "bbox": [
+            77.1,
+            98.91,
+            294.22,
+            268.46
+          ],
+          "file": "extracted_images/page16_figure-14_1.png"
+        }
+      ],
+      "image_ids": [
+        "a743bc9e11e57f5e9b1e77ba67cd3d9c"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 17,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        17 of 20\n\n\n\n                    When considering alternative absorbers, like CdTe, CIGS, and perovskites, Sb2Se3 stands\n                           out for its earth abundance, non-toxicity, and long-term stability. Although CdTe and CIGS\n                                offer higher efficiencies, they face material scarcity and toxicity concerns, while perovskites\n                              suffer from stability issues, particularly under prolonged exposure to moisture and heat,\n                        which hinder their large-scale deployment. Despite the actual lower efficiencies (~10–11%)\n                               of Sb2Se3, advancements in passivation and heterojunction engineering can bridge this gap.\n                           This work contributes to the field by proposing novel scalable, reproducible deposition\n                          methods, implementing defect passivation strategies, and demonstrating industrial viabil-\n                                        ity. With continued progress, Sb2Se3 solar cells can achieve higher efficiencies and become\n                          a commercially viable and sustainable thin-film photovoltaic technology.\n                                 In particular, we discussed the non-standard J-V characteristic of (Cd,Zn)S/Sb2Se3\n                              heterojunctions, particularly focusing on features such as kink, crossover, and photovoltage\n                                losses. The presence of a kink can be attributed to the accumulation of positive charges\n                              in the junction region, arising from a non-perfect alignment of the energy bands with the\n                            (Cd,Zn)S. On the other hand, the occurrence of a crossover is likely due to a small built-in\n                            voltage resulting from the limited density of holes in Sb2Se3. Capacitance measurements\n                           suggest that the (Cd,Zn)S/Sb2Se3 junction is not sharp but rather presents a linear charge\n                               distribution. Two deep levels sensitive to illumination conditions were identified through\n                           admittance measurements, and there are indications that VSb is involved as one of the traps.\n                             Higher power conversion efficiencies in Sb2Se3-based solar cells can be expected by\n                           properly addressing some major issues:\n\n                                   1.   Given the imperfect alignment of the energy bands with (Cd,Zn)S, it is impera-\n                                     tive to explore alternative n-type partners, such as Zn(S,O), TiO2, MgO2, Cd2Sn04,\n                           and others, in an attempt to minimize the interface barrier. A possible benefit of\n                              such attempts could be the substitution of cadmium-based semiconductors with\n                                environment-friendly materials and, at the same time, enhanced transparency in\n                                 the ETL.\n                                   2.   Replacing cadmium-based materials in Sb2Se3 solar cells offers significant environ-\n                               mental benefits by reducing toxicity and minimizing contamination risksEliminating\n                          cadmium simplifies manufacturing, enhances worker safety, and facilitates recycling\n                           by avoiding hazardous waste management. Alternative materials, such as Zn(O,S),\n                        ZnMgO, or low-Cd (Cd, Zn)S, can provide suitable band alignment while reducing\n                              environmental impact, though interface engineering remains crucial to maintain-\n                                ing performance. As sustainability becomes a key factor in solar energy adoption,\n                              cadmium-free Sb2Se3 solar cells align with stricter environmental policies and market\n                            demands, enhancing their long-term commercial viability.\n                                   3.   The correlation between the deep levels and intrinsic defects offers the opportunity to\n                                   adjust the Sb2Se3 growth parameters and post-deposition treatments. This adjustment\n                             aims to minimize or eliminate intrinsic defects responsible for the formation of deep\n                                       levels. Preventing deep levels acting as traps for charge carriers would enhance free\n                                charge accumulation in the junction region, thereby improving the built-in potential,\n                                 photovoltage, and photocurrent.\n\n                                               It is crucial to carefully consider the lattice mismatch between the ETL layer and Sb2Se3\n                              to mitigate the formation of the interfacial states responsible for recombination centers.\n                         These recombination centers can significantly reduce the internal quantum efficiency,\n                            leading to adverse effects on photovoltaic conversion efficiency.\n                           The insights gained in this study can help to improve the efficiency of Sb2Se3-based\n                              solar cells, stimulate a broader research effort, and attract commercial attention.\n                               Indeed, the transition from laboratory-scale to industrial applications for Sb2Se3-\n                          based solar cells using DC/RF sputtering and close-spaced sublimation (CSS) involves key",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 18,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        18 of 20\n\n\n\n                            considerations for scalability, cost-effectiveness, device stability, and compatibility with\n                              existing production infrastructure.\n                             Low-temperature sputtering and CSS are scalable techniques with low energy con-\n                         sumption and high deposition rates, making them suitable and cost-effective for large-area\n                              solar cell production.\n                             Reducing deep-level defects and lattice mismatches is crucial for ensuring long-term\n                           device performance and stability. The techniques are compatible with existing solar cell\n                           production lines, hence reducing initial investment and speeding up commercialization.\n                                    Efficiency improvements and optimization will help Sb2Se3-based solar cells compete\n                          with CdTe and CIGS. In summary, Sb2Se3-based solar cells have strong potential to become\n                          commercial players.\n\n\n                           Author Contributions: A.B., G.F., S.P. and D.S. wrote the original draft of this manuscript; A.B., A.P.,\n                                    D.S., S.S., M.P. and R.F. revised and confirmed the manuscript, A.B. offered financial support. I.C. did\n                               the TEM measurements and evaluation of data. Z.F. contributed to the EDS evaluation. All authors\n                           have read and agreed to the published version of the manuscript.\n\n                            Funding: This research was funded by the National Recovery and Resilience Plan (NRRP), Mission\n                             4 Component 2 Investment 1.5—Call for tender No. 3277 of 30/12/2021 of the Italian Ministry\n                                 of University and Research funded by the European Union—NextGenerationEU. Award Number:\n                                   Project code ECS00000033, Concession Decree No. 1052 of 23/06/2022 adopted by the Italian Ministry\n                                  of University and Research, CUP D93C22000460001, “Ecosystem for Sustainable Transition in Emilia-\n                         Romagna” (Ecosister). The Hungarian authors thank the VEKOP-2.3.3-15-2016-00002 of the European\n                                  Structural and Investment Funds for their support and also wish to thank the Ministry of Innovation\n                          and Technology of Hungary from the National Research, Development and Innovation Fund, financed\n                           under the TKP2021 funding scheme, grant number TKP2021-NVA-03. I.C. thanks the János Bolyai\n                              Research Scholarship of the Hungarian Academy of Sciences for their support. The authors gratefully\n                             thank Noémi Szász for the TEM sample preparations.\n\n                                 Institutional Review Board Statement: Not applicable.\n\n                           Informed Consent Statement: Not applicable.\n\n                           Data Availability Statement: Data will be made available on request.\n\n                           Acknowledgments: We would like to thank Andrea Baraldi of the University of Parma for his support\n                                 in the optical measurements of the layers used for this study.\n\n                                Conflicts of Interest: The authors declare no conflicts of interest.\n\nReferences\n\n1.    Bosio, A.; Foti, G.; Pasini, S.; Spoltore, D. A Review on the Fundamental Properties of Sb2Se3-Based Thin Film Solar Cells. Energies\n     2023, 16, 6862. [CrossRef]\n2.   Abouabassi, K.; Sala, A.; Atourki, L.; Soussi, A.; Elfanaoui, A.; Kirou, H.; Hssi, A.A.; Bouabid, K.; Gilioli, E.; Ihlal, A. Electrode-\n     posited CuSbSe2 thin films based solar cells on various substrates. J. Nanoparticle Res. 2022, 24, 221. [CrossRef]\n3.   Chen, C.; Li, W.; Zhou, Y.; Chen, C.; Luo, M.; Liu, X.; Zeng, K.; Yang, B.; Zhang, C.; Han, J.; et al. Optical properties of amorphous\n    and polycrystalline Sb2Se3 thin films prepared by thermal evaporation. Appl. Phys. Lett. 2015, 107, 043905. [CrossRef]\n4.    Kirchartz, T.; Rau, U. What Makes a Good Solar Cell? Adv. Energy Mater. 2018, 8, 201703385. [CrossRef]\n5.    Khadir, A. Performance investigation of Sb2S3 and Sb2Se3 earth abundant based thin film solar cells. Opt. Mater. 2022, 127, 112281.\n     [CrossRef]\n6.   Basak, A.; Singh, U.P. Numerical modelling and analysis of earth abundant Sb2S3 and Sb2Se3 based solar cells using SCAPS-1D.\n      Sol. Energy Mater. Sol. Cells 2021, 230, 111184. [CrossRef]\n7.   Zeng, K.; Xue, D.-J.; Tang, J. Antimony selenide thin-film solar cells. Semicond. Sci. Technol. 2016, 31, 063001. [CrossRef]\n8.   Mavlonov, A.; Razykov, T.; Raziq, F.; Gan, J.; Chantana, J.; Kawano, Y.; Nishimura, T.; Wei, H.; Zakutayev, A.; Minemoto, T.; et al.\n   A review of Sb2Se3 photovoltaic absorber materials and thin-film solar cells. Sol. Energy 2020, 201, 227–246. [CrossRef]\n9.    Pasini, S.; Spoltore, D.; Parisini, A.; Foti, G.; Marchionna, S.; Vantaggio, S.; Fornari, R.; Bosio, A. Sb2Se3 Polycrystalline Thin Films\n    Grown on Different Window Layers. Coatings 2023, 13, 338. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 19,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        19 of 20\n\n\n\n10.  Hu, X.; Tao, J.; Weng, G.; Jiang, J.; Chen, S.; Zhu, Z.; Chu, J. Investigation of electrically-active defects in Sb2Se3 thin-film solar\n      cells with up to 5.91% efficiency via admittance spectroscopy. Sol. Energy Mater. Sol. Cells 2018, 186, 324–329. [CrossRef]\n11.   Savory, C.N.; Scanlon, D.O. The complex defect chemistry of antimony selenide. J. Mater. Chem. A 2019, 7, 10739–10744. [CrossRef]\n12.  Huang, M.; Cai, Z.; Wang, S.; Gong, X.; Wei, S.; Chen, S. More Se Vacancies in Sb2Se3 under Se-Rich Conditions: An Abnormal\n     Behavior Induced by Defect-Correlation in Compensated Compound Semiconductors. Small 2021, 17, 2102429. [CrossRef]\n    [PubMed]\n13.  Krautmann, R.; Spalatu, N.; Gunder, R.; Abou-Ras, D.; Unold, T.; Schorr, S.; Krunks, M.; Acik, I.O. Analysis of grain orientation\n    and defects in Sb2Se3 solar cells fabricated by close-spaced sublimation. Sol. Energy 2021, 225, 494–500. [CrossRef]\n14.   Li, G.; Li, Z.; Liang, X.; Guo, C.; Shen, K.; Mai, Y. Improvement in Sb2Se3 Solar Cell Efficiency through Band Alignment\n     Engineering at the Buffer/Absorber Interface. ACS Appl. Mater. Interfaces 2019, 11, 828–834. [CrossRef]\n15.   Rijal, S.; Li, D.; Awni, R.A.; Xiao, C.; Bista, S.S.; Jamarkattel, M.K.; Heben, M.J.; Jiang, C.; Al-Jassim, M.; Song, Z.; et al. Templated\n    Growth and Passivation of Vertically Oriented Antimony Selenide Thin Films for High-Efficiency Solar Cells in Substrate\n     Configuration. Adv. Funct. Mater. 2022, 32, 2110032. [CrossRef]\n16.  Zhang, J.; Kondrotas, R.; Lu, S.; Wang, C.; Chen, C.; Tang, J. Alternative back contacts for Sb2Se3 solar cells. Sol. Energy 2019, 182,\n     96–101. [CrossRef]\n17.  Zhao, Y.; Wang, S.; Li, C.; Che, B.; Chen, X.; Chen, H.; Tang, R.; Wang, X.; Chen, G.; Wang, T.; et al. Regulating deposition kinetics\n      via a novel additive-assisted chemical bath deposition technology enables fabrication of 10.57%-efficiency Sb2Se3 solar cells.\n     Energy Environ. Sci. 2022, 15, 5118–5128. [CrossRef]\n18.  Barthwal, S.; Kumar, R.; Pathak, S. Present Status and Future Perspective of Antimony Chalcogenide (Sb2X3) Photovoltaics. ACS\n     Appl. Energy Mater. 2022, 5, 6545–6585. [CrossRef]\n19.  Don, C.H.; Shalvey, T.P.; Sindi, D.A.; Lewis, B.; Swallow, J.E.N.; Bowen, L.; Fernandes, D.F.; Kubart, T.; Biswas, D.; Thakur, P.K.;\n      et al. Reactive DC Sputtered TiO2Electron Transport Layers for Cadmium-Free Sb2Se3Solar Cells. Adv. Energy Mater. 2024, 14,\n     202401077. [CrossRef]\n20.   Pasini, S.; Spoltore, D.; Parisini, A.; Marchionna, S.; Fornasini, L.; Bersani, D.; Fornari, R.; Bosio, A. Innovative back-contact for\n     Sb2Se3-based thin film solar cells. Sol. Energy 2023, 249, 414–423. [CrossRef]\n21.  Liang, G.-X.; Luo, Y.-D.; Chen, S.; Tang, R.; Zheng, Z.-H.; Li, X.-J.; Liu, X.-S.; Liu, Y.-K.; Li, Y.-F.; Chen, X.-Y.; et al. Sputtered and\n     selenized Sb2Se3 thin-film solar cells with open-circuit voltage exceeding 500 mV. Nano Energy 2020, 73, 104806. [CrossRef]\n22.  Cang, Q.; Guo, H.; Jia, X.; Ning, H.; Ma, C.; Zhang, J.; Yuan, N.; Ding, J. Enhancement in the efficiency of Sb2Se3 solar cells by\n     adding low lattice mismatch CuSbSe2 hole transport layer. Sol. Energy 2020, 199, 19–25. [CrossRef]\n23.  Denton, A.R.; Ashcroft, N.W. Vegard’s law. Phys. Rev. A 1991, 43, 3161–3164. [CrossRef] [PubMed]\n24.  Vegard, L. Die Konstitution der Mischkristalle und die Raumfüllung der Atome. Z. Physik 1921, 5, 17–26. [CrossRef]\n25.  Ohata, K.; Saraie, J.; Tanaka, T. Phase Diagram of the CdS-CdTe Pseudobinary System. Jpn. J. Appl. Phys. 1973, 12, 1198–1204.\n     [CrossRef]\n26.  Fang, X.; Zhai, T.; Gautam, U.K.; Li, L.; Wu, L.; Bando, Y.; Golberg, D. ZnS nanostructures: From synthesis to applications. Prog.\n     Mater. Sci. 2011, 56, 175–287. [CrossRef]\n27.  D’amico, P.; Calzolari, A.; Ruini, A.; Catellani, A. New energy with ZnS: Novel applications for a standard transparent compound.\n      Sci. Rep. 2017, 7, 16805. [CrossRef]\n28.  Chou, H.; Rohatgi, A.; Jokerst, N.; Kamra, S.; Stock, S.; Lowrie, S.; Ahrenkiel, R.; Levi, D. Approach toward high efficiency\n    CdTe/CdS heterojunction solar cells. Mater. Chem. Phys. 1996, 43, 178–182. [CrossRef]\n29.   Spalatu, N.; Krautmann, R.; Katerski, A.; Karber, E.; Josepson, R.; Hiie, J.; Acik, I.O.; Krunks, M. Screening and optimization of\n     processing temperature for Sb2Se3 thin film growth protocol: Interrelation between grain structure, interface intermixing and\n      solar cell performance. Sol. Energy Mater. Sol. Cells 2021, 225, 111045. [CrossRef]\n30.   Liu, X.; Chen, C.; Wang, L.; Zhong, J.; Luo, M.; Chen, J.; Xue, D.; Li, D.; Zhou, Y.; Tang, J. Improving the performance of Sb2Se3\n     thin film solar cells over 4% by controlled addition of oxygen during film deposition. Prog. Photovoltaics Res. Appl. 2015, 23,\n     1828–1836. [CrossRef]\n31.  Garcia-Sanchez, F.J.; Romero, B. Equivalent Circuit Models for Next Generation Photovoltaic Devices with S-shaped I-V Curves.\n     In Proceedings of the 2019 8th International Symposium on Next Generation Electronics (ISNE), Zhengzhou, China, 9–10 October\n     2019; pp. 1–4.\n32.  Wei, T.; Xu, C.; Lin, W.; Huang, G.; Yu, F. A Lumped-Parameter Equivalent Circuit Modeling for S-Shaped I–V Kinks of Organic\n     Solar Cells. Crystals 2019, 9, 80. [CrossRef]\n33.  Moore, J.E.; Dongaonkar, S.; Chavali, R.V.K.; Alam, M.A.; Lundstrom, M.S. Correlation of Built-In Potential and I–V Crossover in\n     Thin-Film Solar Cells. IEEE J. Photovoltaics 2014, 4, 1138–1148. [CrossRef]\n34.  Sharma, B.; Purohit, R. Semiconductor Heterojunctions; Elsevier: Amsterdam, The Netherlands, 1974. [CrossRef]\n35.  Gunawan, O.; Todorov, T.K.; Mitzi, D.B. Loss mechanisms in hydrazine-processed Cu2ZnSn(Se,S)4 solar cells. Appl. Phys. Lett.\n     2010, 97, 233506. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 20,
+      "text": "Appl. Sci. 2025, 15, 2930                                                                                                        20 of 20\n\n\n\n36.  Wang, K.; Gunawan, O.; Todorov, T.; Shin, B.; Chey, S.J.; Bojarczuk, N.A.; Mitzi, D.; Guha, S. Thermally evaporated Cu2ZnSnS4\n      solar cells. Appl. Phys. Lett. 2010, 97, 143508. [CrossRef]\n37.  Mavlonov, A.; Nishimura, T.; Chantana, J.; Kawano, Y.; Masuda, T.; Minemoto, T. Back-contact barrier analysis to develop flexible\n    and bifacial Cu(In,Ga)Se2 solar cells using transparent conductive In2O3: SnO2 thin films. Sol. Energy 2020, 211, 1311–1317.\n     [CrossRef]\n38.  Chen, C.; Bobela, D.C.; Yang, Y.; Lu, S.; Zeng, K.; Ge, C.; Yang, B.; Gao, L.; Zhao, Y.; Beard, M.C.; et al. Characterization of basic\n     physical properties of Sb2Se3 and its relevance for photovoltaics. Front. Optoelectron. 2017, 10, 18–30. [CrossRef]\n39.   Dittrich, T. Basic Characteristics and Characterization of Solar Cells. In Materials Concepts for Solar Cells; World Scientific Publishing\n    Co Pte Ltd.: Singapore, 2018; pp. 3–43. [CrossRef]\n40.  Chung, C.-H.; Bob, B.; Song, T.-B.; Yang, Y. Current–voltage characteristics of fully solution processed high performance\n     CuIn(S,Se)2 solar cells: Crossover and red kink. Sol. Energy Mater. Sol. Cells 2014, 120, 642–646. [CrossRef]\n41.   Gloeckler, M.; Jenkins, C.R.; Sites, J.R. Explanation of Light/Dark Superposition Failure in CIGS Solar Cells. MRS Proc. 2002, 763,\n      522. [CrossRef]\n42.  El-Nahass, M.; Zeyada, H.;  Aziz, M.; Makhlouf, M. Current transport mechanisms and photovoltaic properties of\n     tetraphenylporphyrin/n-type silicon heterojunction solar cell. Thin Solid Films 2005, 492, 290–297. [CrossRef]\n43.  Green, D.R.; Michaels, T.E.; Olsen, L.C.; Price, L.S. Current Solar Cell Measurement Methods Review and Evaluation; Hanford\n     Engineering Development Laborator: Richland, WA, USA, 1980.\n44.   Sze, S.M.; Li, Y.; Ng, K.K. Physics of Semiconductor Devices; Wiley: Hoboken, NJ, USA, 2006; pp. 77–133. [CrossRef]\n45.  Sun, S.; Zhang, S.; Han, Y.; Tan, H.; Wen, J.; Liu, X.; Sun, Y.; Liu, H. Improved performances in Sb2Se3 solar cells based on CdS\n     buffered TiO2 electron transport layer. J. Sol-Gel Sci. Technol. 2024, 109, 182–191. [CrossRef]\n46.  Chen, S.; Ishaq, M.; Xiong, W.; Shah, U.A.; Farooq, U.; Luo, J.; Zheng, Z.; Su, Z.; Fan, P.; Zhang, X.; et al. Improved Open-Circuit\n     Voltage of Sb2Se3 Thin-Film Solar Cells Via Interfacial Sulfur Diffusion-Induced Gradient Bandgap Engineering. Sol. RRL 2021, 5,\n     2100419. [CrossRef]\n47.  Bube, R.H. Trap Density Determination by Space-Charge-Limited Currents. J. Appl. Phys. 1962, 33, 1733–1737. [CrossRef]\n48.  Le Corre, V.M.; Duijnstee, E.A.; El Tambouli, O.; Ball, J.M.; Snaith, H.J.; Lim, J.; Koster, L.J.A. Revealing Charge Carrier Mobility\n    and Defect Densities in Metal Halide Perovskites via Space-Charge-Limited Current Measurements. ACS Energy Lett. 2021, 6,\n     1087–1094. [CrossRef]\n49.  Rohr, J.A.; Moia, D.; Haque, S.A.; Kirchartz, T.; Nelson, J. Exploring the validity and limitations of the Mott–Gurney law for\n      charge-carrier mobility determination of semiconducting thin-films. J. Phys. Condens. Matter 2018, 30, 105901. [CrossRef]\n50.   Duijnstee, E.A.; Ball, J.M.; Le Corre, V.M.; Koster, L.J.A.; Snaith, H.J.; Lim, J. Toward Understanding Space-Charge Limited\n     Current Measurements on Metal Halide Perovskites. ACS Energy Lett. 2020, 5, 376–384. [CrossRef]\n51.  Chen, K.; Wu, P.; Yang, W.; Su, R.; Luo, D.; Yang, X.; Tu, Y.; Zhu, R.; Gong, Q. Low-dimensional perovskite interlayer for highly\n      efficient lead-free formamidinium tin iodide perovskite solar cells. Nano Energy 2018, 49, 411–418. [CrossRef]\n52.   Jain, A.; Kumar, P.; Jain, S.C.; Kumar, V.; Kaur, R.; Mehra, R.M. Trap filled limit voltage (VTFL) and V2 law in space charge limited\n      currents. J. Appl. Phys. 2007, 102, 094505. [CrossRef]\n53.   Walter, T.; Herberholz, R.; Müller, C.; Schock, H.W. Determination of defect distributions from admittance measurements and\n     application to Cu(In,Ga)Se2 based heterojunctions. J. Appl. Phys. 1996, 80, 4411–4420. [CrossRef]\n54.  Pan, X.; Pan, Y.; Shen, L.; Wang, L.; Wang, R.; Weng, G.; Jiang, J.; Hu, X.; Chen, S.; Yang, P.; et al. All-Vacuum-Processed Sb2(S,Se)3\n     Thin Film Photovoltaic Devices via Controllable Tuning Seed Orientation. Adv. Funct. Mater. 2023, 33, 202214511. [CrossRef]\n55.  Wijesinghe, U.; Longo, G.; Hutter, O.S. Defect engineering in antimony selenide thin film solar cells. Energy Adv. 2023, 2, 12–33.\n     [CrossRef]\n56.  Huang, M.; Xu, P.; Han, D.; Tang, J.; Chen, S. Complicated and Unconventional Defect Properties of the Quasi-One-Dimensional\n     Photovoltaic Semiconductor Sb2Se3. ACS Appl. Mater. Interfaces 2019, 11, 15564–15572. [CrossRef] [PubMed]\n\n\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "a743bc9e11e57f5e9b1e77ba67cd3d9c",
+      "page": 16,
+      "pages": [
+        16
+      ],
+      "placements": [
+        {
+          "page": 16,
+          "bbox": [
+            310.22,
+            98.27,
+            512.54,
+            266.46
+          ]
+        }
+      ],
+      "file": "extracted_images/page16_a743bc9e11e57f5e9b1e77ba67cd3d9c.png",
+      "is_garbage": false
+    }
+  ]
+}

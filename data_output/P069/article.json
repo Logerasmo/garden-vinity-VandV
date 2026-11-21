@@ -1,0 +1,1116 @@
+{
+  "publication_id": "P069",
+  "source_file": "P069.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "Enhanced Selective Contact Behavior in a‐Si:H/oxide Transparent Photovoltaic Devices via Dipole Layer Integration",
+    "author": "Alex J. Lopez‐Garcia; Gustavo Alvarez‐Suarez; Eloi Ros; Pablo Ortega; Cristobal Voz; Joaquim Puigdollers; Alejandro Pérez Rodríguez",
+    "subject": "Solar RRL 2024.8:2400276",
+    "keywords": "dipoles, interfaces, open-circuit voltage (Voc) deficits, selective contacts, transparent photovoltaic (PV)",
+    "creator": "Arbortext Advanced Print Publisher 9.1.405/W Unicode",
+    "producer": "Acrobat Distiller 10.0.0 (Windows); modified using iTextSharp 5.5.13 ©2000-2018 iText Group NV (AGPL-version)",
+    "creationDate": "D:20240724033658-04'00'",
+    "modDate": "D:20261119024335-08'00'",
+    "DOI": "10.1002/solr.202400276",
+    "year": 2024,
+    "authors": [
+      "Alex J. Lopez‐Garcia",
+      "Gustavo Alvarez‐Suarez",
+      "Eloi Ros",
+      "Pablo Ortega",
+      "Cristobal Voz",
+      "Joaquim Puigdollers",
+      "Alejandro Pérez Rodríguez"
+    ]
+  },
+  "page_count": 7,
+  "pages": [
+    {
+      "page": 1,
+      "text": "RESEARCH ARTICLE\n\n                                                                                                                            www.solar-rrl.com\n\nEnhanced Selective Contact Behavior in a-Si:H/oxide\nTransparent Photovoltaic Devices via Dipole Layer\nIntegration\n\nAlex J. Lopez-Garcia,* Gustavo Alvarez-Suarez, Eloi Ros, Pablo Ortega, Cristobal Voz,\nJoaquim Puigdollers, and Alejandro Pérez Rodríguez*\n\n\n\n                                                                                        scaled up into industrial processes, pre-\nTransparent photovoltaic (TPV) devices have the potential to revolutionize          senting  a  high  technology  readiness\nphotovoltaic (PV) technology by enabling on-site generation while minimizing         level.[2]  Recently,  different  works  have\n                                                                                   explored the potential of using ultrathinvisual impact. However, a major challenge in the development of TPV, as well as\n                                                                              hydrogenated amorphous silicon ﬁlms as\nfor many PV technologies, is the open-circuit voltage (Voc) deﬁcit, which limits                                                                                     UV-selective absorbers for TPV applica-\ntheir efﬁciency. In this work, the development of wide-bandgap inorganic-based       tions, improving on power conversion efﬁ-\nTPV devices is reported with a focus on low-cost, earth-abundant, stable, and       ciency (PCE) with respect to state-of-the-art\nnontoxic materials. The device structure consists of an ultrathin hydrogenated      devices, which have mostly relied on oxide-\n                                                                              based  technologies.[3–5]  This  alternativeamorphous silicon (a-Si:H) absorber and metal-oxide layers as selective contacts.\n                                                                             can be implemented without sacriﬁcing\nHerein, novel approach is presented to signiﬁcantly improve device performance,\n                                                             much in terms of transparency due  to\nespecially in Voc, by introducing molecular dipoles in the device electron-transport      the ultrathin absorber thickness and the\nlayer. By incorporating polyethyleneimine or poly(amidoamine) G1 and G2          use  of  transparent  and  color-neutral\ndipoles, Voc (from 410 mV up to 638 mV) is signiﬁcantly increased without          oxide-based    charge-transport     layers\nsacriﬁcing the average photopic transmittance of the device, leading to a record       (CTLs).[6,7] This potentially allows its appli-\n                                                                                        cation onto windows, facades, and buildingefﬁciency for this particular approach in TPV. Measurements conﬁrm excellent\n                                                                                          surfaces, where it can generate electricity\nlong-term stability. This approach can potentially allow tuning the work function\n                                                                        from sunlight without signiﬁcantly affect-\nof the selective contacts enabling the use of low-cost, earth-abundant materials      ing  the appearance  of  the  substrate.[8]\nthat are not optimized for a particular absorber. Furthermore, this solution        These types of transparent solar cells open\ncircumvents the issue of low Voc by a simple interface treatment.               up new possibilities for integrating solar\n                                                                               energy into architectural design, sustain-\n                                                                                        able construction, and the development\n                                                                                           of  multifunctional  optoelectronic  devi-\n1. Introduction                                                             ces.[9] Moreover,  it  is important to highlight that reducing\n                                                           manufacturing  costs  is  a  key  objective  allowing  for  this\nCurrently, one of the promising approaches in the ﬁeld of mate-   technology to become cost-effective, more accessible and com-\nrials for solar cells is the use of amorphous silicon for the manu-    petitive in the energy market.[10] By addressing these challenges,\nfacture of transparent solar  cells.[1] Amorphous silicon  is a   hydrogenated amorphous silicon solar cells could become a\nnoncrystalline form of silicon that has the advantage of being   more attractive option for clean and renewable energy genera-\nhighly transparent to visible light and that has already been    tion in the future.[11]\n\n\nA. J. Lopez-Garcia, G. Alvarez-Suarez, A. Pérez Rodríguez                   A. J. Lopez-Garcia, G. Alvarez-Suarez\nSolar Energy Materials and Systems Group                                  Facultat de Física\nInstitut de Recerca en Energia de Catalunya (IREC)                          Universitat de Barcelona (UB)\nJardins de les Dones de Negre, 1, 2ª pl, Sant Adrià del Besòs, 08930       Carrer de Martí i Franquès 1-11, 08028 Barcelona, Spain\nBarcelona, Spain\n                                                                                  E. Ros, P. Ortega, C. Voz, J. PuigdollersE-mail: alopez@irec.cat; aperezr@irec.cat\n                                                                 Departament Enginyeria Electrònica\n   The ORCID identiﬁcation number(s) for the author(s) of this article    Universitat Politècnica Catalunya\n   can be found under https://doi.org/10.1002/solr.202400276.            c/ Jordi Girona 3-1, 08034 Barcelona, Spain\n\n© 2024 The Author(s). Solar RRL published by Wiley-VCH GmbH. This is    A. Pérez Rodríguez\nan open access  article under the terms of the Creative Commons   IN2UB\nAttribution-NonCommercial  License, which permits  use,  distribution    Departament d’Enginyeria Electrònica i Biomèdica\nand  reproduction  in  any medium,  provided  the  original  work  is    Universitat de Barcelona (UB)\nproperly cited and is not used for commercial purposes.                   Carrer de Martí i Franquès 1, 08028 Barcelona, Spain\n\nDOI: 10.1002/solr.202400276\n\n\nSol. RRL 2024, 8, 2400276                  2400276 (1 of 7)           © 2024 The Author(s). Solar RRL published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "cde2017ee1dd0136c9ae78f4cb37ddd3",
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2024,\n                                                                                                                                                                                                                        14,\n\n  The integration of dipoles[12] has been explored in organic    contact. Additionally, scanning transmission electron microscopyelectronic  devices, such as organic  solar  cells,[13,14] organic   and energy dispersive X-ray spectroscopy (STEM–EDX) measure-                                               Downloaded\nlight-emitting diodes and ferroelectric materials,[15] to enhance   ments have been carried out. Optical characterization has con-                   from\ncarrier injection, and improve charge-carrier mobility.[16] In solar   ﬁrmed  the  high  transparency  of  devices  and  that  the\ncells and other electronic devices, careful incorporation of dipoles    incorporation of interfacial dipoles has negligible effect on the\nthrough material selection, deposition techniques, and device    optical characteristics of the devices. This research is potentially\nengineering optimizes their performance.[17] Different research    relevant for the advancement of thin-ﬁlm TPV technologies as well\nworks have evidenced that they serve as passivation layers on    as for conventional PV technologies, and other technologies in\nsolar cell surfaces, reducing charge carrier recombination and    general that rely on advanced CTL/active layer/CTL architectures.\nimproving efﬁciency.[18,19] Furthermore, they facilitate charge\nseparation in solar cells, leading to more efﬁcient charge extrac-\ntion and power generation. Ongoing research continues  to   2. Results and Discussion\nexplore innovative ways to integrate dipoles, pushing the bound-\naries of efﬁciency and performance further in these devices. As   Planar ultrathin TPV devices are fabricated with the followingfor inorganic solar cells, there has been less research on the    architecture: SLG/FTO/ETL/a-Si:H/V2O5/AZO. The most inno-                                                                                                                                                                                                                                                                                    https://onlinelibrary.wiley.com/doi/10.1002/solr.202400276,\nmatter, although it seems a very promising approach in order    vative focus of this study consists in the introduction of molecu-                       Wileyfor photovoltaic (PV) devices to meet their theoretical limits    lar dipoles at the ETL. A reference device is prepared using an\nand maximize PCE especially by maximizing their open-circuit   ETL composed of AZO/ZnO and in parallel samples are fabri-                            Online\nvoltage (Voc).                                                     cated intercalating molecular dipoles AZO/dipole/ZnO. Three                                 Library  In this work, different molecular dipoles have been imple-    different molecules are studied: a branched conjugated polymer,\n                                                                                                                                                on\nmented into device architectures, speciﬁcally at the electron-   polyethyleneimine (PEI), and two different generations (G1, G2)\ntransport layer (ETL)/absorber interfaces of a-Si:H/oxide TPV    of the dendrimeric macromolecule poly(amidoamine) (PAMAM)devices. These devices have been characterized and compared    (Figure 1). For the different samples, AZO, ZnO, and V2O5 ﬁlms                                                             [19/11/2026].\nagainst a reference structure without the interfacial dipoles.   have been deposited in parallel in a single process to be able to              See\nThe reference device architecture consists of soda lime glass   make accurate comparisons focusing on the effect of the dipolar              the\n(SLG)/ﬂuorine-doped  tin oxide (FTO)/aluminum-doped zinc   molecule  incorporation. In  this  case, a 30 nm a-Si:H ﬁlm                       Terms\noxide (AZO)/ZnO/a-Si:H/V2O5/AZO and the studied devices    is deposited while a hole-transport layer (HTL)/TCO stack of              and\nincorporate molecular dipoles embedded as an interfacial nano-   V2O5/AZO   is  deposited  on  top  to  complete  the   cells\nmetric ﬁlm between the AZO and ZnO ﬁlms. TPV characteriza-    (Figure 1). It is relevant to stress that these devices are made                                               Conditions\ntion of these devices has been carried out. Speciﬁcally, the   without any catalogued critical raw material and at relatively\ntemperature-dependent Voc characteristics have been studied   low temperatures, being 220 °C the maximum process tempera-\nand suggest that the Voc improvement can be correlated to the    ture used for the deposition of a-Si:H. Additionally, the different\ndipolar moment of the interfacial layer at the electron-selective    deposition  techniques  used  allow  for  the  conformal and\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                         Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                                 Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                         rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                 use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 governed\n                                                                                                                                                by\n                                                                                                                                                                                                                        the\nFigure 1. a) (left) Schematic illustration of the TPV device reference architecture (not to scale); (right) schematic illustration of the TPV device reference\narchitecture with dipole layer. b) STEM–EDX—cross section of reference device. c) Band diagram of the different ﬁlms that conform the reference device.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 applicabled) Pictures of completed dipole device, taken outdoors in broad daylight. The picture shows the TPV device, showing a board with the Institut de Recerca\nen Energia de Catalunya (IREC) logo located at the building entrance.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Creative\nSol. RRL 2024, 8, 2400276                  2400276 (2 of 7)           © 2024 The Author(s). Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. a) (left) Schematic illustration of the TPV device reference architecture (not to scale); (right) schematic illustration of the TPV device reference\narchitecture with dipole layer. b) STEM–EDX—cross section of reference device. c) Band diagram of the different ﬁlms that conform the reference device.\nd) Pictures of completed dipole device, taken outdoors in broad daylight. The picture shows the TPV device, showing a board with the Institut de Recerca\nen Energia de Catalunya (IREC) logo located at the building entrance.",
+          "figure_bbox": [
+            93.87,
+            448.99,
+            498.12,
+            672.56
+          ],
+          "bbox": [
+            48.02,
+            679.53,
+            544.07,
+            717.58
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. a) (left) Schematic illustration of the TPV device reference architecture (not to scale); (right) schematic illustration of the TPV device reference\narchitecture with dipole layer. b) STEM–EDX—cross section of reference device. c) Band diagram of the different ﬁlms that conform the reference device.\nd) Pictures of completed dipole device, taken outdoors in broad daylight. The picture shows the TPV device, showing a board with the Institut de Recerca\nen Energia de Catalunya (IREC) logo located at the building entrance.",
+          "bbox": [
+            93.87,
+            448.99,
+            498.12,
+            672.56
+          ],
+          "file": "extracted_images/page2_figure-1_1.png"
+        }
+      ],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2024,\n                                                                                                                                                                                                                       14,\n\ncontrolled deposition of the different nanometric ﬁlms that com-    Table 1. Summary of TPV parameters extracted from optical and electricalpose the device.                                                           characterization of the different devices studied in front illumination                                           Downloaded\n  We begin by analyzing the optical properties of the completed    conﬁguration.                                                                                                                           from\ndevices and later continuing with the different optoelectronic\ncharacterizations performed.                                             Device      CRI  APT [%]  Voc [mV]   Jsc [mA cm  2]  FF [%]  PCE [%]  LUE [%]\n                                                                                 Reference    89    39.8     407          5.1        39      0.80      0.32\n\n                                                                                PEI         89    39.9     535          4.8        45      1.17      0.47\n2.1. Optical Characterization and Current Density–Voltage and\n                                                    PAMAM G1  90    39.4     591          5.5        46      1.51      0.56\nVoc–T Characteristics of TPV Devices\n                                                    PAMAM G2  89    39.5     638          4.8        49      1.50      0.59\n\nIn this section, the complete device structure is characterized\nby measuring their reﬂectance and transmittance by optical spec-          R\ntrophotometry. The complete devices were fabricated with the            TðλÞPðλÞSðλÞdλ\n                                              APT ¼   R                                                         (2)\nsame conditions using different dipole layers in the architecture              PðλÞSðλÞdλ\nincluding PEI and dendrimer PAMAM Generation 1 (G1) and                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         https://onlinelibrary.wiley.com/doi/10.1002/solr.202400276,Generation 2 (G2) leaving the rest of the structure unchanged.   where λ is the wavelength, T is the transmittance, P is the\nThe measurement allows the determination of the transmittance   photopic response, and S is the solar photon ﬂux (AM1.5 G).                     Wiley\nspectra of complete TPV devices, which will serve as input for   For detailed information about APT, LUE, CRI, and calculation,                          Online\ncalculation of average photopic transmittance (APT) and color    see ref. [20].\nrendering index (CRI).                                           Figure 3 shows the improvement of the Voc values and the                              Library\n  The optical measurements of reﬂectance and transmittance    other parameters as well as the efﬁciency of the solar cells. All         on\nfor the completed devices were conducted in the wavelength    the devices using dipolar interlayers exhibit a statistically relevant\nrange of 300–800 nm as depicted in Figure 2. These spectra were   improvement in the PV performance, compared to the reference                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     [19/11/2026].\nemployed to determine the values of APT and CRI, as per the    solar cell.                                                                                                See\nequations provided in the methodology outlined by Traverse    An essential factor in enhancing the performance of transpar-             the\net  al.[20]  All these parameters are summarized in Table  1.    ent devices  is  bifaciality  (see Figure S1–S4 and Table S1,                     Terms\nFrom the transmittance measurements,  it has been possible   Supporting Information). This means that solar cells can gener-             and\nto calculate the CIE color coordinates. The coordinates as well    ate close to the same efﬁciency regardless of the incident direc-\nas the CIE color maps are provided in Figure S7, Supporting    tion of light, even harnessing the energy reﬂected from surfaces.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Conditions\nInformation. As a standard in TPV characterization, from optical   This allows us to consider superstrate conﬁgurations, which\nmeasurements and external quantum efﬁciency (EQE) measure-   could be  advantageous when  depositing them on  various\nments, we provide the photon balance check graphs in Figure S8,    substrates and streamlining processes. This becomes especially\nSupporting Information. These measurements conﬁrm no over-    signiﬁcant when considering industrial scalability for the next\nestimation of generated photocurrent.                            generations of TPV technology. Stability measurements were\n   Light  utilization  efﬁciency  (LUE)  was  calculated  using   performed and conﬁrmed excellent  stability for the devices\nEquation (1):                                                     (Figure S5, Supporting Information).\n                                                                Dipole layers used for this experiment are readily known as\nLUE ¼ PCE  APT                                                (1)   conjugated polyelectrolytes (CP). CPs are polymeric structures\n                                                                       that possess charged groups of either positive (cationic) or nega-\nAPT was calculated using Equation (2):                                tive (anionic)  charge.[21] Cationic polymers are preferred  to                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                               on\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                              Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Library\n                                                                                                                                                                                                                       for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                               of\n                                                                                                                                                                                                                                                                                               use;\n                                                                                                                                               OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              articles\n                                                                                                                                                                                                                       are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              governed\n                                                                                                                                               by\n                                                                                                                                                                                                                       the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             applicable\n\nFigure 2. a) Transmittance spectra; b) reﬂectance spectra from 300 to 800 nm.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Creative\nSol. RRL 2024, 8, 2400276                  2400276 (3 of 7)           © 2024 The Author(s). Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      License",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. Summary of TPV parameters extracted from optical and electrical\ncharacterization of the different devices studied in front illumination\nconﬁguration.",
+          "bbox": [
+            306.03,
+            110.24,
+            546.97,
+            179.74
+          ],
+          "rows": [
+            [
+              "Device",
+              "CRI",
+              "APT [%]",
+              "Voc [mV]",
+              "Jsc [mA cm×²]",
+              "FF [%]",
+              "PCE [%]",
+              "LUE [%]"
+            ],
+            [
+              "Reference",
+              "89",
+              "39.8",
+              "407",
+              "5.1",
+              "39",
+              "0.80",
+              "0.32"
+            ],
+            [
+              "PEI",
+              "89",
+              "39.9",
+              "535",
+              "4.8",
+              "45",
+              "1.17",
+              "0.47"
+            ],
+            [
+              "PAMAM G1",
+              "90",
+              "39.4",
+              "591",
+              "5.5",
+              "46",
+              "1.51",
+              "0.56"
+            ],
+            [
+              "PAMAM G2",
+              "89",
+              "39.5",
+              "638",
+              "4.8",
+              "49",
+              "1.50",
+              "0.59"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. a) Transmittance spectra; b) reﬂectance spectra from 300 to 800 nm.",
+          "figure_bbox": [
+            96.87,
+            523.43,
+            501.33,
+            702.55
+          ],
+          "bbox": [
+            51.02,
+            709.12,
+            316.6,
+            717.58
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. Summary of TPV parameters extracted from optical and electrical\ncharacterization of the different devices studied in front illumination\nconﬁguration.",
+          "bbox": [
+            306.03,
+            71.5,
+            547.05,
+            99.57
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. a) Transmittance spectra; b) reﬂectance spectra from 300 to 800 nm.",
+          "bbox": [
+            96.87,
+            523.43,
+            501.33,
+            702.55
+          ],
+          "file": "extracted_images/page3_figure-2_1.png"
+        }
+      ],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2024,\n                                                                                                                                                                                                                        14,\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Downloaded\n                                                                                                                                                                                                                                                                                                 from\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 https://onlinelibrary.wiley.com/doi/10.1002/solr.202400276,\n                                                                                                                                                                                                                                                                                                                                                                         WileyFigure 3. a) J–V characteristics of the studied devices; b) box plot showing Voc statistics for all subcells measured in the different devices.\n                                                                                                                                                                                                                                                                                                                                                                                                                                                 Online\n                                                                Figure                                                                                            4).                                                     PV                                                                                     characterization                                                                                        has                                                                               shown                                                                                                                       that as the                                                                                            numbergenerate        proper             band                   alignment                                  for electron                                               extraction,                                                      therefore                                                                                                                                       of                                 Libraryacting as        ETLs. In                    contrast,                           anionic                               polymers                                             are generally                                                  used                                                      amino                                                                                       sites                                                                           per                                                             monomer or                                                                                          molecule                                                                                                                   increases,                                                                                                                a                                                                                                                        signiﬁcant\n                                                                                                                                                on\nfor enhancing hole extraction properties.[22,23] In both PEI and    increase in Voc, ﬁll factor (FF), and in general a signiﬁcantly higher\nPAMAM ﬁlms, presence of amino groups  (i.e., –NH2) with    efﬁciency is obtained compared to the reference sample. This cannitrogen in sp3 hybridization provides a cationic nature to the   be linked to the Helmholtz equation[26]:                                                                                                                                                                                                                                 [19/11/2026].\nﬁlm.[19,24] Counter anion is understood to be critical to enhance                                                                                                                      See\n                                                             1the dipole effect on these cationic polymer sites.[25] Nevertheless,\n                                       Δ ¼                                                                   · N · p                                                       (3)              the\nLewis basicity of amino groups combined with slightly acidic sol-        ε                                                                                                                                                                            Terms\nvents (e.g., anhydrous methanol, pH 6) promotes the formation                                                                                                                      and\nof a conjugated charged system necessary for the formation of   The Helmholtz potential of the ﬁlm is directly proportional to the\ndipole systems.                                        number of dipoles (N) and dipole moment (p) and inversely                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Conditions\n  Equal chemical nature of the cationic sites, as well as counter    proportional to the dielectric constant (ε). As the dipole is formed\nanions in PEI and PAMAM G1 and G2 (i.e., protonated amino/   by the amino/ethanolate-conjugated system, the change in dipole\nmethanolate systems), allows for qualitative interpretation of the    potential is in essence driven by the number of dipoles of the ﬁlm.\nPV results. In this sense, the total number of amino sites per   This number will also depend on packing factor of monomers/\nmonomer/macromolecule will be used as the main difference    molecules. Nevertheless, dipole potential is increased by a factor\nbetween dipole layers. For instance, branched PEI is generally   2 as the dendrimer generation is increased.\ndrawn to have four amino sites per monomer. Dendrimers in     Another signiﬁcant result is the higher FF values of the solar\ncontrast form hyper-branched treelike structures with increasingly    cells implementing dipolar interlayers at the electron-selective\nhigher surface amino sites per generation. For example, PAMAM    contact. The FF value has been usually associated to the quality\nG1 has eight amino sites per macromolecule, while for PAMAM G2    of the transparent electrode. Since all the devices studied here\nthe number of amino sites is doubled to 16 per macromolecule (see   used the same TCO, the increased FF could be attributed to a                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                         Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                                 Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                         rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                 use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 governed\n                                                                                                                                                by\n                                                                                                                                                                                                                        the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 applicable\n\nFigure 4. Schematic representation of branched polyethyleneimine (b-PEI) and polyamidoamine (PAMAM) Generation 1 and Generation 2.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Creative\nSol. RRL 2024, 8, 2400276                  2400276 (4 of 7)           © 2024 The Author(s). Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. a) J–V characteristics of the studied devices; b) box plot showing Voc statistics for all subcells measured in the different devices.",
+          "figure_bbox": [
+            93.98,
+            69.49,
+            498.18,
+            241.58
+          ],
+          "bbox": [
+            48.02,
+            248.21,
+            512.45,
+            257.97
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. Schematic representation of branched polyethyleneimine (b-PEI) and polyamidoamine (PAMAM) Generation 1 and Generation 2.",
+          "figure_bbox": [
+            118.87,
+            525.3,
+            473.13,
+            702.5
+          ],
+          "bbox": [
+            48.02,
+            709.52,
+            514.88,
+            717.58
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. a) J–V characteristics of the studied devices; b) box plot showing Voc statistics for all subcells measured in the different devices.",
+          "bbox": [
+            93.98,
+            69.49,
+            498.18,
+            241.58
+          ],
+          "file": "extracted_images/page4_figure-3_1.png"
+        },
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. Schematic representation of branched polyethyleneimine (b-PEI) and polyamidoamine (PAMAM) Generation 1 and Generation 2.",
+          "bbox": [
+            118.87,
+            525.3,
+            473.13,
+            702.5
+          ],
+          "file": "extracted_images/page4_figure-4_2.png"
+        }
+      ],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2024,\n                                                                                                                                                                                                                       14,\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Downloaded\n                                                                                                                                                                                                                                                                                               from\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         https://onlinelibrary.wiley.com/doi/10.1002/solr.202400276,\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                              Online\nFigure 5. Temperature-dependent open-circuit voltage (Voc) measurements                                                                                                                                                                                                                                                                                 Libraryin a-Si:H devices under 1 sun, the dotted lines represent the linear extrapo-\n                                                                                                                                               on\nlation to T = 0 K, which gives an estimation of the activation energy Ea.      Figure 6. External quantum efﬁciency of the reference device compared\n                                                                         with the devices incorporating molecular dipoles. The spectra show that                                                                          the dipoles do not signiﬁcantly affect the devices spectral response as                                                       [19/11/2026].\nTable 2. Values of activation energy, saturation Voc, and temperature for   compared  with  the  strong modiﬁcation observed  in  the  increased             See\nthe studied devices.                                                       Voc and FF as seen on the J–V characteristics.                                                the\n                                                                     sat                                                                                                                                                                                                                                                                TermsSample                  Ea [V]              Voc   [V]            T (Voc sat) [K]\n                                                               In Figure 6, the EQE resulting from spectral response meas-             and\nReference                 0.47                 0.41                  225      urements of the studied devices are presented. As already seen in\nPEI                       0.87                 0.66                  150       previous experimental  work,[6,7] the response  is centered  at                                           Conditions\nPAMAM G1               0.91                 0.74                  125      around 400–430 nm. From the EQE, a calculation of the inte-\nPAMAM G2               0.97                 0.79                  150       grated short-circuit current density (Jsc) is performed to compare\n                                                                         this value with those extracted from the current density–voltage\n                                                            (J–V) measurements (Figure S9, Supporting Information).\nmuch easier extraction of the photo-generated carrier (i.e., elec-    When comparing the EQE of the different devices, it can be\ntrons at the electron-selective contact).                          concluded that the introduction of interfacial dipoles did not\n  Temperature-dependent  Voc  characteristics  are shown  in    affect the spectral response (hence, the Jsc) of the resulting devi-\nFigure  5. The  electrical measurements were  carried from    ces. This fact is also supported when inspecting the J–V charac-\n300 K down to 100 K, sampling every 25 K. At room temperature,    teristics of the different devices. Looking at the transmittance\nthe Voc experiences a linear decrease. The extrapolated values of    spectra obtained from optical spectrophotometry, it is clear thatactivation energy (Ea) for all the studied devices are presented in    the changes coming from the incorporation of the interfacial                                                                                                                                                                                                                                       (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                               onTable 2. The extrapolated Ea serves as an indicator of the maxi-    dipoles are negligible, and that indeed the most relevant change\nmum achievable quasi-Fermi level separation. If Ea approaches    is the strong increase in Voc and also a somewhat signiﬁcant                     Wiley\nthe absorber bandgap, Voc is dominated by bulk recombination    increase in the FF of the TPV devices, when compared against                          Onlineand  thus   interface  recombination  becomes   negligible.    the reference. Going back to the EQE measurements, it is con-\nConversely, when Ea is signiﬁcantly smaller than the bandgap,   ﬁrmed that increased dipolar strength does not affect the spectral                              Library\na substantial portion of total recombination is expected to take    response.                                                                                                 for\nplace at the interfaces. For the bandgap of 1.7 eV in a-Si:H,                                                                                                                                                                                                   rules\none would expect high Ea values in solar cells with optimum                                                                              of\n                                                           3. Conclusion                                                                                                                 use;interfaces. Thus, the low Ea value of the reference device suggests                                                                              OA\nthat a high degree of recombination takes place at the interfaces.\n                                                             In  conclusion,   this  study  has  addressed  Voc   deﬁcit.                                  articlesIn contrast,  it seems evident from the higher Ea values that\n                                                          Circumventing this issue by incorporating dipole layers in the             areinterface recombination was signiﬁcantly mitigated for devices                                                                     architecture using ultrathin a-Si absorber layers in TPV solar\nincorporating dipole layers.                                                                                  cells, the results have shown a signiﬁcant improvement in the                                  governed\n                                                          performance of these devices, the most important coming from         by\n2.2. Spectral Response                                          a signiﬁcantly strong increase in the Voc and the FF, which has             the\n                                                                    led to a higher overall solar cell efﬁciency. The studied dipoles                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             applicableSpectral response measurements were performed on the differ-   PEI and PAMAM G1 and G2 have positively increased the Voc\nent devices studied to compare and analyze their response.      and FF values. Future work could explore the use of higher dipole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Creative\nSol. RRL 2024, 8, 2400276                  2400276 (5 of 7)           © 2024 The Author(s). Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      License",
+      "tables": [
+        {
+          "label": "Table 2",
+          "caption": "Table 2. Values of activation energy, saturation Voc, and temperature for\nthe studied devices.",
+          "bbox": [
+            51.02,
+            353.25,
+            292.03,
+            422.73
+          ],
+          "rows": [
+            [
+              "Sample",
+              "Ea [V]",
+              "sat [V]\nVoc",
+              "sat) [K]\nT (Voc"
+            ],
+            [
+              "Reference",
+              "0.47",
+              "0.41",
+              "225"
+            ],
+            [
+              "PEI",
+              "0.87",
+              "0.66",
+              "150"
+            ],
+            [
+              "PAMAM G1",
+              "0.91",
+              "0.74",
+              "125"
+            ],
+            [
+              "PAMAM G2",
+              "0.97",
+              "0.79",
+              "150"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. Temperature-dependent open-circuit voltage (Voc) measurements\nin a-Si:H devices under 1 sun, the dotted lines represent the linear extrapo-\nlation to T = 0 K, which gives an estimation of the activation energy Ea.",
+          "figure_bbox": [
+            49.93,
+            69.49,
+            293.06,
+            267.04
+          ],
+          "bbox": [
+            51.02,
+            274.01,
+            292.03,
+            302.84
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 2",
+          "text": "Table 2. Values of activation energy, saturation Voc, and temperature for\nthe studied devices.",
+          "bbox": [
+            51.02,
+            324.52,
+            292.0,
+            342.56
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. External quantum efﬁciency of the reference device compared\nwith the devices incorporating molecular dipoles. The spectra show that\nthe dipoles do not signiﬁcantly affect the devices spectral response as\ncompared with the strong modiﬁcation observed in the increased\nVoc and FF as seen on the J–V characteristics.",
+          "figure_bbox": [
+            304.82,
+            69.49,
+            548.18,
+            288.87
+          ],
+          "bbox": [
+            306.03,
+            295.43,
+            547.08,
+            345.22
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. Temperature-dependent open-circuit voltage (Voc) measurements\nin a-Si:H devices under 1 sun, the dotted lines represent the linear extrapo-\nlation to T = 0 K, which gives an estimation of the activation energy Ea.",
+          "bbox": [
+            49.93,
+            69.49,
+            293.06,
+            267.04
+          ],
+          "file": "extracted_images/page5_figure-5_1.png"
+        },
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. External quantum efﬁciency of the reference device compared\nwith the devices incorporating molecular dipoles. The spectra show that\nthe dipoles do not signiﬁcantly affect the devices spectral response as\ncompared with the strong modiﬁcation observed in the increased\nVoc and FF as seen on the J–V characteristics.",
+          "bbox": [
+            304.82,
+            69.49,
+            548.18,
+            288.87
+          ],
+          "file": "extracted_images/page5_figure-6_2.png"
+        }
+      ],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2024,\n                                                                                                                                                                                                                        14,\nmomentum molecules to approach the Voc limits of the light    (0.01 wt%). This was done identically for both G1- and G2-PAMAM.absorber. Furthermore, these alternative CTL structures mini-    These solutions were spin coated at 5000 rpm for 50 s and immediately                                               Downloaded\nmize parasitic absorption, avoiding the need of harmful and    transferred to a hot plate at 90 °C to remove any solvent. The following                   from                                                                         step consisted in depositing an interfacial ZnO ﬁlm of 8 nm, which helped\ncostly dopants  to  provide quasi-Fermi  level  splitting. This\n                                                               making a better contact with the absorber/ETL and also served as a cap-\nincreased Voc has been postulated to stem from the increased    ping or protection layer so that the dipolar ﬁlms were not degraded in the\ndipolar moment that tunes the energetics at the ETL/absorber    heat and plasma that the ﬁlms would see in the plasma enhanced chemical\ninterface and thus improves on contact selectivity in contrast with    vapor deposition (PE-CVD) of a-Si:H. Afterward, intrinsic a-Si:H ultrathin\nthe use of the standard unfunctionalized oxide ETL. Further    ﬁlms of 30 nm were deposited by PE-CVD (Elettrorava) with a radio fre-\nstudies will try to pinpoint the origin of this improvement to con-    quency power supply of 13.56 MHz at 6 W. Substrate temperature was\n                                                               measured at 220–250 °C during deposition, with a mixed 36/12 sccmﬁrm the mechanism that enables the Voc increase. Furthermore,\n                                                               SiH4/CH4 atmosphere and with deposition time of 4 min, respectively.\nthe use of ultrathin a-Si:H absorber layers has allowed wave-                                                            To ﬁnish the solar cells, the HTL and front contact were deposited in a\nlength selectivity in the UV–blue range, providing promising    single sequential ALD process without breaking vacuum. V2O5 was grown\nresults  in terms  of  efﬁciency. In summary,  this approach     at 165 °C, using tetrakis(ethylmethylamino)-vanadium (IV) (C12H32N4V)\npresents an interesting route for the improvement of devices   (TEMAV 99%, STREM) and ultrapure H2O using again N2 as carrier\nreducing Voc deﬁcit with the introduction of an interfacial layer,   and purging gas. Immediately after 125 supercycles H2O/N2/TEMAV/                                                         N2 (2 s/3 s/3 s/3 s), without breaking vacuum and keeping T = 165 °C,                                                                                                                                                                                                                                                                                   https://onlinelibrary.wiley.com/doi/10.1002/solr.202400276,offering alternative applications and an efﬁcient power source for\n                                                 AZO was deposited at a 19:1 ratio for 75 supercycles. Once the sample                       Wileylow-power devices, with the potential to expand the possibilities\n                                                             was fully grown, the active area cells were isolated using a photolitho-\nin the ﬁeld of PVs.                                                    graphic process followed by a wet chemical etching process that effectively                            Online\n  The  high  Voc  was  particularly  noteworthy  for  devices    isolated the cells from each other. First, photoresist at room temperature\nwith  FTO/AZO/G2-PAMAM/ZnO/a-Si:H(30 nm)/V2O5/AZO   was spread on the surface of the samples and was statically spin coating                                 Library\narchitecture, which demonstrated the highest value, close to     for 30 s at 30.000 rpm. Immediately after,  it was taken to a furnace at         on\nVoc = 640 mV, a PCE of 1.5%, and AVT of 40%. To the best    105 °C for 20 min to evaporate the residual solvent. Then, UV photolithog-\n                                                                      raphy was performed with a positive mask with square patterns deﬁning a\nof our knowledge, this result yields a record PCE when compared                                                                                              cell active area of 0.20 cm2. Afterward, a two-step etching process was per-                                                             [19/11/2026].\nto  state-of-the-art  devices  that  take  this  approach  toward                                                                     formed. The ﬁrst stage used HCl at 10% to remove the AZO/V2O5 layer.              See\nUV-selective TPV using oxide-based CTLs. This compares with   The ﬁnal etching used an isotropic etching solution of HF þ HNO3 to              the\na reference  device without any  dipolar molecules showing    attack and remove the rest of the stack (a-Si:H/ZnO/dipole/AZO) down                       Terms\nPCE = 0.8% with Voc = 410 mV only. We have also observed that    to the FTO, which remained unaffected. As a result, the active area pro-              and\nthe Voc increases proportionally with the generation of the    tected with the resin would remain and the subcells would be effectively\n                                                                                isolated from each other allowing for J–V characterization without the need\nPAMAM dendrimer (i.e., proportional to the magnitude of dipole                                                                               of a mask.                                                                                                                                                                                                                                                                                                                                      Conditionsmoment).[27] These encouraging results bring the devices closer                                                                                    Characterization: Spectrophotometry measurements were carried out\nto their fundamental maximum Voc, around 900 mV, as already    with a UV–vis–NIR spectrophotometer (Perkin Elmer Lambda L950) with\nachieved in opaque PV for p–i–n a-Si:H solar cells while avoiding   an integrating sphere, in single-beam conﬁguration, in transmittance and\nthe use of doped a-Si:H CTLs.                                       reﬂectance mode with spectral range from 300 to 800 nm to measure the\n  These results demonstrate the potential of molecular dipoles    completed device total transmittance and reﬂectance. This data was also\n                                                                 used to calculate the device APT, CRI, and CIE color coordinates and colorto signiﬁcantly improve the performance of TPV solar cells[28]\n                                                             map. J–V measurements under illumination were carried out using an AAA\nand pave the way for the development of cost-effective and                                                                               class  solar simulator with AM1.5G illumination  calibrated using an\naesthetically  pleasing TPV  devices  for  distributed  energy    National Renewable Energy Laboratory-certiﬁed Si reference solar cell\napplications.                                                          (Abet Technologies Model 15 150). Electrical measurements were carried\n                                                                      out with a source-measure unit (Keithley SMU 2400) in four-wire sense\n                                                             mode, remotely controlled by the software Tracer (ReRa solutions) using4. Experimental Section                                   an IEEE 488 GPIB instrument control device (National Instruments GPIB-                                                                                                                                                                                                                                                            (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                USB-HS). Voc–T measurements were carried out in the same manner.         on\n   Sample Preparation: Transparent solar cells (fabricated in this work    Temperature was controlled using a Linkam system and measurements                       Wiley\n                                                                  were                                                                                     carried                                                                                  out                                                                               from 300                                                                             K down to 100                                                                                         K in                                                                                                                 temperature                                                                                                                                                     intervalspresent         the              structure SLG/FTO/AZO/(dipole)/ZnO/a-Si:H/V2O5/AZO.                                                                                                                                                       of                            Online                                                                25 K.                                                                                   Spectral                                                                                 response                                                                                   measurements                                                                                                     were                                                                                                                     acquired                                                                                                                           using                                                                                                                            a spectralCommercial          SLG/FTO                       substrates (Merck; Rsh = 10 Ω sq  1) were used\n                                                                    response                                                                            system                                                                               (Bentham  PVE300)                                                                                                                            calibrated                                                                                                                             with  Si                                                                                                                  andas   substrate          and                transparent                             back-contact.                                            Prior                                                to deposition,                                                             substrates                                                                                                        Ge                                 Library                                                                       photodiodes.                                                                                 For optoelectronic                                                                                         measurements                                                                                                                       the samples                                                                                                                      were                                                                                                                                     placedwere     rinsed             in distilled                        water,                              dried in Ar                                     ﬂux and                                                  afterward cleaned                                                                by\nsubsequent 10 min ultrasonic baths in isopropanol and ultrapure H2O     in a dark opaque matt to avoid any back-reﬂections that could alter the              for\nat room temperature, followed by a drying step in Ar ﬂux and concluding    characterization of the transparent solar cells.                                                                                   rules\nwith a 5 min O3 treatment. A 75 nm AZO ﬁlm was grown in an ALD system                                                                               of                                                                                                                                                                                                                                                                                                 use;\n(Savannah S200, Cambridge Nanotech) at 135 °C, using precursors dieth-\n                                                                                                                                                OA\nylzinc (DEZ 95%, STREM), ultrapure H2O, and trimethylaluminum (TMA   Supporting Information\n99%, STREM) and using N2 as purging gas. A total of 21 supercycles at a                                                                                                                                                                                                                                                                                                                           articles\n19:1 DEZ:TMA ratio were performed, with 19 H2O/N2/DEZ/N2 (20 ms/    Supporting Information is available from the Wiley Online Library or from              are\n3 s/15 ms/3 s)  cycles and 1 H2O/N2/TMA/N2 (50 ms/1 s/20 ms/5 s)    the author.\ncycle. After the AZO deposition, the dipolar molecules studied were depos-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 governed\nited on top (except for the reference device, without any dipolar ﬁlm). For                                                                               by\nthe PEI ﬁlm, fresh solutions of PEI (Merck; 20%) dissolved in methanol  Acknowledgements                                                                           the\n(0.01 wt%) were spin coated at 5000 rpm for 50 s and immediately after\nwere transferred to a hot plate at 90 °C to remove any solvent. This method    This work  is part of the RþDþi MaterOne project  (ref. PID 2020-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 applicableyielded a 2 nm ﬁlm. For the PAMAM ﬁlms, fresh solutions of PAMAM    116719RB-C4)  and  the RþDþi SCALED  project  (ref.  PID  2019-\n(Merck;  20 wt%)  were  prepared  dissolving PAMAM  in  methanol    109215RB-C4), both funded  by MCIN/AEI/10.13039/5011000110033.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Creative\nSol. RRL 2024, 8, 2400276                  2400276 (6 of 7)           © 2024 The Author(s). Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         License",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2024,\n                                                                                                                                                                                                                       14,\n\nAuthors from IREC belong to the MNT-Solar Consolidated Research       [9] A. A. F. Husain, W. Z. W. Hasan, S. Shaﬁe, M. N. Hamidon,Group of the “Generalitat de Catalunya” (ref. 2021 SGR 01286) and are          S. S. Pandey, Renewable Sustainable Energy Rev. 2018, 94, 779.                                                                Downloaded\ngrateful  to European  Regional Development Funds (ERDF, FEDER     [10] K. Obaideen, M. Nooman AlMallahi, A. H. Alami, M. Ramadan,                 from\nPrograma  Competitivitat  de  Catalunya  2007–2013).  Author  G.A.-S.       M. A. Abdelkareem, N. Shehata, A. G. Olabi, Int.  J. Thermoﬂuids\nacknowledges the Ministerio de Ciencia, Tecnología e Innovación de        2021, 12, 100123.\nColombia, through the program COLCIENCIAS.                                                                                      [11] M. Stuckelberger, R. Biron, N. Wyrsch, F. J. Haug, C. Ballif, Renewable\n                                                                                  Sustainable Energy Rev. 2017, 76, 1497.\n                                                                                      [12] W. Ji, T. Allen, X. Yang, G. Zeng, S. De Wolf, A. Javey, ACS Energy Lett.\nConﬂict of Interest                                                   2020, 5, 897.\n                                                                                      [13] L.  Tian, Q.  Xue,  Z. Hu,  F. Huang,  Org.  Electron.  2021,  93,The authors declare no conﬂict of interest.\n                                                                          106141.\n                                                                                      [14] K. Zhang, B. Fan, R. Xia, X. Liu, Z. Hu, H. Gu, S. Liu, H. L. Yip, L. Ying,\nData Availability Statement                                              F. Huang, Y. Cao, Adv. Energy Mater. 2018, 8, 1703180.\n                                                                                      [15] L.  Li,  J. Cheng, Y. Cheng, T. Han, Y.  Liu, Y. Zhou, G. Zhao,\nThe data that support the ﬁndings of this study are available from the          Y. Zhao, C. Xiong,  L. Dong, Q. Wang, Adv. Mater. 2021, 33,\ncorresponding author upon reasonable request.                              2102392.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         https://onlinelibrary.wiley.com/doi/10.1002/solr.202400276,\n                                                                                      [16] H. Yu, Q. Zhang, C. Han, X. Zhu, X. Sun, Q. Yang, H. Yang, L. Deng,\n                                                                                        F. Zhao, K. Wang, B. Hu, Org. Electron. 2018, 63, 137.                                                  Wiley\n                                                                                      [17] E.                                                                              Ros,                                                                                                 T. Tom,                                                                                        D.  Rovira,                                                                                                                                                                              J. Lopez,                                                                                                             G.                                                                                                                    Masmitjà,                                                                                                                                           B.                                                                                                                                       Pusay,                          OnlineKeywords                                                                                       E.                                                                          Almache,                                                                                                                                                    I.  Martin,                                                                                M.  Jimenez,                                                                                                                                   E.                                                                                                                Saucedo,                                                                                                                                                  E.                                                                                                                       Tormos,\n                                                                                                                             J. M. Asensi, P. Ortega,  J. Bertomeu,  J. Puigdollers, C. Voz, ACSdipoles, interfaces, open-circuit voltage (Voc) deﬁcits, selective contacts,                                                                                                                                                                                                                                                                                 Library\ntransparent photovoltaic (PV)                                                     Appl. Energy Mater. 2022, 5, 10702.                                      on\n                                                                                      [18] T. M. Khan, Y. Zhou, A. Dindar, J. W. Shim, C. Fuentes-Hernandez,\n                                                Received: April 9, 2024         B. Kippelen, ACS Appl. Mater. Interfaces 2014, 6, 6202.                                                 Revised: May 28, 2024     [19] E. Ros, T. Tom, P. Ortega,  I. Martin, E. Maggi,  J. M. Asensi,                                                       [19/11/2026].\n                                      Published online: June 19, 2024              J. López-Vidrier, E. Saucedo,  J. Bertomeu,  J. Puigdollers, C. Voz,             See\n                                                           ACS Appl. Mater. Interfaces 2023, 15, 28705.                                            the\n                                                                                     [20] C. J. Traverse, R. Pandey, M. C. Barr, R. R. Lunt, Nat. Energy 2017, 2,                     Terms\n  [1]  J. Pastuszak, P. W˛egierek, Materials 2022, 15, 5542.                        849.                                                                                                   and\n  [2] M. Ballester, A. P. Márquez, C. García-Vázquez, J. M. Díaz, E. Blanco,     [21] W. Lee, J. H. Seo, H. Y. Woo, Polymer 2013, 54, 5104.\n    D. Minkov, S. M. Fernández-Ruano, F. Willomitzer, O. Cossairt,     [22] L. Zhang, X. Zhou, X. Zhong, C. Cheng, Y. Tian, B. Xu, Nano Energy     E. Márquez, J. Non-Cryst. Solids 2022, 594, 121803.                       2019, 57, 248.                                                                                                                                                                                                                                                                                            Conditions\n  [3] P. Bhatnagar, M. Patel, S. Kim, T. T. Nguyen, S. Ghosh, H. Kim,     [23] R. Yang, H. Wu, Y. Cao, G. C. Bazan, J. Am. Chem. Soc. 2006, 128,\n    N. Kumar, J. Lee, K. Lee, J. Lee, C. Choi, J. Kim, Sol. RRL 2024, 8,        14422.\n    2300720.                                                                      [24] X. Yang, Z. Ying, Z. Yang, J. R. Xu, W. Wang, J. Wang, Z. Wang, L. Yao,\n  [4] M. Patel, S. Kim, J. Kim, Adv. Sci. 2023, 10, 230389.                        B. Yan, J. Ye, Adv. Sci. 2021, 8, 2003245.\n  [5] S. Kim, M. Patel, S. Youn, Y. Kim, K. Lee, J. Kim, Mater. Today Energy     [25] R. F. B. Nasrun, D. H. Son, S. A. Salma, J. H. Kim, Dyes Pigm. 2022,\n    2023, 31, 101203.                                                        206, 110625.\n  [6] A.    J.  Lopez-Garcia,  O.  Blazquez,  C.  Voz,    J.   Puigdollers,     [26] P. Jean, J. Chim. Phys. 1904, 2, 601.\n     V. Izquierdo-Roca, A. Pérez-Rodríguez, Sol. RRL 2022, 6, 2100909.      [27]  J.  Re˜né,  O.  Segura,  https://upcommons.upc.edu/handle/2117/\n  [7] A.   J.  Lopez-Garcia,  C.  Voz,   J.  M.  Asensi,   J.  Puigdollers,        393801 (accessed: November 2023).\n     V. Izquierdo-Roca, A. Pérez-Rodríguez, Sol. RRL 2023, 7, 2200928.      [28] T. Tom, E. Ros, J. López-Vidrier, J. M. Asensi, P. Ortega, J. Puigdollers,\n  [8] A. K. Shukla, K. Sudhakar, P. Baredar, Energy Build. 2017, 140, 188.              J. Bertomeu, C. Voz, J. Phys. Chem. Lett. 2023, 14, 4322.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                               on\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                              Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Library\n                                                                                                                                                                                                                       for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                               of\n                                                                                                                                                                                                                                                                                               use;\n                                                                                                                                               OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              articles\n                                                                                                                                                                                                                       are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              governed\n                                                                                                                                               by\n                                                                                                                                                                                                                       the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             applicable\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Creative\nSol. RRL 2024, 8, 2400276                  2400276 (7 of 7)           © 2024 The Author(s). Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      License",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "cde2017ee1dd0136c9ae78f4cb37ddd3",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            519.39,
+            0.0,
+            595.39,
+            15.0
+          ]
+        }
+      ],
+      "file": "garbage/page1_cde2017ee1dd0136c9ae78f4cb37ddd3.png",
+      "is_garbage": true
+    },
+    {
+      "id": "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            525.65,
+            16.57,
+            539.19,
+            23.17
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            522.65,
+            16.57,
+            536.18,
+            23.17
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            525.65,
+            16.57,
+            539.19,
+            23.17
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            522.65,
+            16.57,
+            536.18,
+            23.17
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            525.65,
+            16.57,
+            539.19,
+            23.17
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            522.65,
+            16.57,
+            536.18,
+            23.17
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            525.65,
+            16.57,
+            539.19,
+            23.17
+          ]
+        }
+      ],
+      "file": "garbage/page1_b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758.png",
+      "is_garbage": true
+    },
+    {
+      "id": "adbcb2bdb1de20819c1d392fde4cef6a",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            500.71,
+            19.71,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            497.71,
+            19.71,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            500.71,
+            19.71,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            497.71,
+            19.71,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            500.71,
+            19.71,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            497.71,
+            19.71,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            500.71,
+            19.71,
+            539.82,
+            33.48
+          ]
+        }
+      ],
+      "file": "garbage/page1_adbcb2bdb1de20819c1d392fde4cef6a.png",
+      "is_garbage": true
+    },
+    {
+      "id": "3ad964d5915aa5379cf9c2c0df752177",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            525.95,
+            19.71,
+            538.18,
+            22.12
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            522.94,
+            19.71,
+            535.18,
+            22.12
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            525.95,
+            19.71,
+            538.18,
+            22.12
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            522.94,
+            19.71,
+            535.18,
+            22.12
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            525.95,
+            19.71,
+            538.18,
+            22.12
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            522.94,
+            19.71,
+            535.18,
+            22.12
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            525.95,
+            19.71,
+            538.18,
+            22.12
+          ]
+        }
+      ],
+      "file": "garbage/page1_3ad964d5915aa5379cf9c2c0df752177.png",
+      "is_garbage": true
+    },
+    {
+      "id": "27234108a5289819306af0e8c349783c",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            502.47,
+            31.03,
+            523.76,
+            39.46
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            499.47,
+            31.03,
+            520.76,
+            39.46
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            502.47,
+            31.03,
+            523.76,
+            39.46
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            499.47,
+            31.03,
+            520.76,
+            39.46
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            502.47,
+            31.03,
+            523.76,
+            39.46
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            499.47,
+            31.03,
+            520.76,
+            39.46
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            502.47,
+            31.03,
+            523.76,
+            39.46
+          ]
+        }
+      ],
+      "file": "garbage/page1_27234108a5289819306af0e8c349783c.png",
+      "is_garbage": true
+    },
+    {
+      "id": "1ac4015a6de6141a3590dd44ca90f8cc",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            501.89,
+            31.03,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            498.89,
+            31.03,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            501.89,
+            31.03,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            498.89,
+            31.03,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            501.89,
+            31.03,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            498.89,
+            31.03,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            501.89,
+            31.03,
+            539.82,
+            33.48
+          ]
+        }
+      ],
+      "file": "garbage/page1_1ac4015a6de6141a3590dd44ca90f8cc.png",
+      "is_garbage": true
+    },
+    {
+      "id": "89d51f99f89f26e3f83ea29bbf858c0d",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            503.6,
+            31.03,
+            505.53,
+            33.48
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            500.59,
+            31.03,
+            502.52,
+            33.48
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            503.6,
+            31.03,
+            505.53,
+            33.48
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            500.59,
+            31.03,
+            502.52,
+            33.48
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            503.6,
+            31.03,
+            505.53,
+            33.48
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            500.59,
+            31.03,
+            502.52,
+            33.48
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            503.6,
+            31.03,
+            505.53,
+            33.48
+          ]
+        }
+      ],
+      "file": "garbage/page1_89d51f99f89f26e3f83ea29bbf858c0d.png",
+      "is_garbage": true
+    },
+    {
+      "id": "3d30006aa0959e47a5c2383c7392e287",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            520.71,
+            31.03,
+            522.64,
+            33.48
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            517.7,
+            31.03,
+            519.64,
+            33.48
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            520.71,
+            31.03,
+            522.64,
+            33.48
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            517.7,
+            31.03,
+            519.64,
+            33.48
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            520.71,
+            31.03,
+            522.64,
+            33.48
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            517.7,
+            31.03,
+            519.64,
+            33.48
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            520.71,
+            31.03,
+            522.64,
+            33.48
+          ]
+        }
+      ],
+      "file": "garbage/page1_3d30006aa0959e47a5c2383c7392e287.png",
+      "is_garbage": true
+    },
+    {
+      "id": "117873320dae92b9740101d3daa20e0a",
+      "page": 2,
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        }
+      ],
+      "file": "garbage/page2_117873320dae92b9740101d3daa20e0a.png",
+      "is_garbage": true
+    }
+  ]
+}

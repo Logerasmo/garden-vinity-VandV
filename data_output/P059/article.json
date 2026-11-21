@@ -1,0 +1,354 @@
+{
+  "publication_id": "P059",
+  "source_file": "P059.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.6",
+    "title": "A bismuth silver pnictohalide alternative to perovskite in fully-printable triple-mesoscopic solar cells",
+    "author": "Ying Yuan; Neil Robertson",
+    "subject": "Sustainable Energy & Fuels (2023), 7, 1067-1076, doi:10.1039/D2SE01324J",
+    "creator": "Aspose Ltd.",
+    "producer": "Aspose.PDF for .NET 22.3.0",
+    "creationDate": "D:20230211112353+05'30'",
+    "modDate": "D:20260318041346+00'00'",
+    "DOI": "10.1039/d2se01324j",
+    "year": 2023,
+    "authors": [
+      "Ying Yuan",
+      "Neil Robertson"
+    ]
+  },
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Sustainable\nEnergy & Fuels\n\n PAPER                                                                Published on 10 January 2023                                                                             Licensed under CC-BY 4.0\n\n             A bismuth silver pnictohalide alternative to\n                 perovskite in fully-printable triple-mesoscopic\nCite this: Sustainable Energy Fuels,\n2023, 7, 1067            solar cells†\n\n                           Ying Yuan and Neil Robertson   *\n\n                               Recent Ag3BiI6 solar cells have demonstrated promising eﬃciency, however, most have focused on\n                             mesoporous n-i-p conﬁguration, using expensive hole transport materials (e.g., P3HT, PTAA and spiro-\n                          OMeTAD) and a Au counter electrode. To lower the cost and potentially enable larger scale Ag3BiI6 solar\n                                            cells, herein, this study provides the ﬁrst  feasibility examination of Ag3BiI6 in fully-printable  triple-\n                              mesoscopic (TiO2/ZrO2/carbon) solar cells (TM-SCs) and explores the eﬀect of pre-treatment with small\n                                molecules and post-treatment (CuSCN) on the overall Ag3BiI6 TM-SC performance. An Ag3BiI6 solar cell\n                                  with a power conversion eﬃciency (PCE) of 0.38% (Jsc = 1.97 mA cm−2; Voc = 0.49 V; ﬁll factor = 0.39)\n                                                 is demonstrated under  1 sun  irradiation  with two-month  dark-storage  stability  in  the ambient\n                                atmosphere. An improved Voc from 0.43 V to 0.48 V was observed with biPY pre-treatment; a champion\nReceived 25th September 2022\n                          PCE of 0.74% (Jsc = 2.78 mA cm−2; Voc = 0.56 V; ﬁll factor = 0.48) was achieved with CuSCN post-Accepted 2nd January 2023\n                                   treatment. The results reported here represent a step toward developing all inorganic Bi-based absorbers\nDOI: 10.1039/d2se01324j\n                                        in printable TM-SCs, suggesting that further improvements should be possible with porous surface\nrsc.li/sustainable-energy              engineering and eﬃcient charge extraction.\n\n1  Introduction                                        (5-AVAI)  and  4-(aminomethyl)  benzoic  acid  iodide  (AB),\n                                                         improving the device performance from 7.2% to 14.1% and\nWith the rapid development of perovskite solar cells (PSCs), the   15.6%, respectively.1,4 Also, Xu et al. modied the porous surface\npath to commercialisation is underway. The current fabrication   of TM-SCs with a dye molecule, di-tetrabutylammonium cis-\ntechnologies for highly-eﬃcient PSCs, however, require quality   bis(isothiocyanato)bis(2,2′-bipyridyl-4,4′-dicarboxylato)    ruth-\nperovskite layers to achieve outstanding performance, which is   enium(II) (known as N719), and highlighted the passivation\ndiﬃcult to satisfy in large-scale manufacturing. Printable triple-   eﬀect of N719@TiO2 core–shell additives to suppress MA+\nmesoscopic solar cells (TM-SCs) opened a new chapter of PSCs   vacancies and shallow defects. This facilitates charge separa-\nwith promising power conversion eﬃciency (PCE) up to 16.53%,   tion, improving Jsc from 21.95 mA cm−2 to 23.58 mA cm−2.5,6 A\nwhich meets the scale-up commercialisation requirements,   similar approach has also been followed by other researchers\nsuch as low cost and easy fabrication.1–3 TM-SCs consist of   using post-treatment, such as phenyl-C61-butyric acid methyl\nmesoporous TiO2 and ZrO2 layers covered with a porous carbon   ester (PCBM) and copper thiocyanate (CuSCN) treatments, on\nlm. Unlike the conventional PSCs, the TM-SCs can be fabri-   perovskite TM-SCs to passivate the grain boundaries of perov-\ncated by screen-printing, and the device can be lled with the   skite and ease electron–hole pair separation.7,8\nperovskite by drop-casting. However, absorber lling of TM-SCs     Despite the high eﬃciency achieved by PSCs, concerns have\nrelies on spontaneous precursor diﬀusion and solvent evapo-  been raised over the stability and toxicity of lead-based perov-\nration, facing the challenge of unpredictable precursor pene-   skites. To address these issues, great interest has grown in Bi-\ntration and crystallisation within pores, potentially introducing  based materials due to their non-toxicity and long-lasting\ndefects and recombination routes. To enhance the perovskite   stability.  Silver pnictohalides (Ag–Bi–I) have attracted wide\ncrystal growth and to regulate crystal kinetics, Han's group   attention since 2016.9–11 The controllable ratio of AgI to BiI3\nemployed stabilisers, such as 5-ammonium valeric acid iodide   leads to varying compounds within  this family, including\n                                                                    AgBi2I7, AgBiI4, Ag2BiI5 and Ag3BiI6, which have been exten-\n                                                                         sively studied as light-absorbing materials.9–15 The silver pnic-\nSchool of Chemistry and EaStCHEM, University of Edinburgh, King's Building, David   tohalide  family  shares  similar 3D  crystal  structures and\nBrewster Road, Edinburgh, Scotland EH9 3FJ, UK. E-mail: s1779788@ed.ac.uk; neil.   a suitable optical bandgap of 1.79–1.83 eV.10 According to the\nrobertson@ed.ac.uk\n                                                                       ratio of Ag and Bi, they are classied into two space groups:\n† Electronic supplementary information (ESI) available: EM and EDS images,\n                                                       Fd 3m (AgBi2I7 and AgBiI4) and R 3m (Ag2BiI5 and Ag3BiI6).16,17absorption  spectra, XPS survey  spectra, J–V  curve, energy alignment, dark\nstorage stability and EIS. See DOI: https://doi.org/10.1039/d2se01324j        Among the existing studies on silver pnictohalides, Ag3BiI6\n\n\n\nThis journal is © The Royal Society of Chemistry 2023                                      Sustainable Energy Fuels, 2023, 7, 1067–1076  | 1067",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "04a41bc71d58292498f1a01fcf7959a3"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Sustainable Energy & Fuels                                                                     Paper\n\nstands out as a promising photovoltaic material. Although it is   2,2′,7,7′-tetrakis[N,N-di(4-methoxyphenyl)amino]-9,9′-spirobi-\nwell known that AgI is insoluble in most organic solvents at   uorene, and spiro-OMeTAD) are popular in conventional\nroom temperature, Turkevych et al. found that AgI is soluble in   Ag3BiI6 devices, a cheaper alternative, CuSCN, with high hole\nhot DMSO (110 °C) in the presence of BiI3.10 Aer dissolving AgI,   mobility warrants an attempt in TM-SCs.25,26 The study pre-\nthe rst solution-processed Ag3BiI6 solar cell was fabricated,   sented here is the rst application of Ag3BiI6 in TM-SCs, and\ndemonstrating a promising PCE of 4.3%. Aer this, Pai et al.   also includes a treatment study using 4tBP, biPY, CPDT-1, N719\ntailored the optical bandgap of Ag3BiI6 by partially substituting  and CuSCN.\nI−by S2−.15 The modied compound, Ag3BiI5.92S0.4, achieved\na PCE of 5.44%, attributed to upshiing the valence band of\n                                 2  ExperimentalAg3BiI6. However, most studies of Ag3BiI6 devices have only\nfocused on the mesoporous TiO2-based conguration, namely   2.1  Precursor preparation\nFTO/compact-TiO2 (c-TiO2)/mesoporous-TiO2 (m-TiO2)/Ag3BiI6/                                                    The Ag3BiI6 precursor was prepared by following the method of\nHTM/Au, using expensive hole transport materials (HTMs)                                                          Turkevyvh et al.10 Briey, a mixed hot solvent (DMSO/DMF = 3 :\nand Au electrodes. As TM-SCs arouse great interest in large-scale\n                                                                          2, v/v, at 110 °C) was used to dissolve AgI/BiI3 powder at a ratio\nperovskite solar cell research, Li et al. rst attempted to inves-                                                                   of 3 : 1. 0.2 M 4tBP or biPY was dissolved in acetonitrile as\ntigate Bi-based absorbers in this conguration.18,19 However,                                                               nitrogen-containing   pre-treatment.   0.5 mM  N719   in\nAg3BiI6 has not been previously studied in TM-SCs.                                                                     acetonitrile/tert-butanol (1 : 1, v/v) and 0.05 mM CPDT-1 in\n   Inspired by the studies mentioned above, this paper explores                                                             chloroform/ethanol (3 : 7, v/v) were prepared as dye molecule\nthe performance of Ag3BiI6 based TM-SCs and reveals the eﬀect                                                                 precursors. The CuSCN precursor was prepared in diethyl\nof specic pre-treatment and post-treatment on Ag3BiI6 devices.                                                            sulphide (30 mg mL−1) for post-treatment.\nFig. 1a shows the organic molecules applied in the device as pre-\ntreatment: 4-tertbutylpyridine (4tBP), 2,2′-bipyridine (biPY), 4H-\ncyclopenta[2,1-b:3,4-b']dithiophene (CPDT-1) and N719. 4tBP   2.2  Device fabrication\nand biPY are nitrogen-containing additives widely applied in  FTO glass substrates (7 U sq−1, Sigma-Aldrich) were prepared by\ndye-sensitised solar cells (DSSCs) to improve Voc, where the   etching the conductive side with Zn powder and 1 M HCl. Before\nlone-pair electrons of N attached to TiO2 negatively shithe   use, the substrates were sequentially washed with detergent\nTiO2 conduction band, leading to overall Voc increase and  (Decon 90), DI water, acetone and isopropanol for 15 min each\nsurface hydrophobicity enhancement.20,21 In perovskite solar   in a sonic bath, then placed in a UV/ozone chamber to remove\ncells, dye molecules have been reported previously as additives,   the surface contamination residues. The c-TiO2 precursor of\nbridging TiO2 (by carboxyl group anchoring) with the perovskite   0.18 M titanium diisopropoxide bis(acetyl-acetonate) (75 wt% in\nand simultaneously passivating trap states (by the thioether   isopropanol, Sigma-Aldrich) in 1-butanol was spin-coated on\ngroup with uncoordinated metal cations).5,6,22,23 Drawing upon   the FTO substrate at 4000 rpm for 30 s and then annealed at\ntwo strands of pre-treatment research on solar cells, this paper  450 °C for 30 min. The m-TiO2 was subsequently screen-printed\ncompares two approaches, N-donor molecules (4tBP and biPY)  on top by using a TiO2 slurry (Ti Nanoxide T/SP, Solaronix\nand dye molecules (N719 and CPDT-1) to increase the wetta-   diluted with terpinol, 1 : 4 wt%), followed by annealing at 500 °C\nbility of the TiO2 surface, and to improve the pore lling and   for 30 min on a programmable hotplate with a ramp rate of 10 °\ndevice performance within TM-SCs. In addition, an HTM was  C min−1. Aer cooling to room temperature, mesoporous ZrO2\nincluded in the device to enhance hole extraction, mitigate   (m-ZrO2) and carbon layers (obtained from National Laboratory\npotential  imbalanced  charge  separation and  reduce  the   for Optoelectronics, Wuhan) were deposited by screen-printing\nhysteresis behaviour.8,24 Although organic HTMs  (e.g., poly(-  and annealed together at 400 °C for 30 min with the same\ntriaryl amine), PTAA:  poly(3-hexylthiophene-2,5-diyl), P3HT:   temperature ramp rate. The device was lled with the absorber\n\n\n\n\n\nFig. 1   (a) Schematic illustration of pre-treated attachment of 4tBP, biPY, N719 and CPDT-1 on TiO2; (b) device conﬁguration with the treatment\nprocedure.\n\n\n\n1068  | Sustainable Energy Fuels, 2023, 7, 1067–1076                                       This journal is © The Royal Society of Chemistry 2023",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "da85b60fb352ffe55b7e9be03c9de899"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Paper                                                                             Sustainable Energy & Fuels\n\n\nby dropwise addition of 6 mL Ag3BiI6 precursor on it, and then   substrates; CuSCN-treated Ag3BiI6 samples were prepared on\nannealing was done at 110 °C for 3 h.                          the ZrO2 substrate to avoid any quenching eﬀect of TiO2. All PL\n   As  illustrated in  Fig. 1b, 4tBP, biPY, N719 or CPDT-1  samples were measured with an  excitation wavelength  of\nprecursors were drop-cast on the device and dried at room  500 nm at room temperature.\ntemperature  for  30 min  before  introducing  the  Ag3BiI6     The  current  density–voltage  (J–V)  characteristics  of the\nprecursor; the CuSCN precursor was applied aer the pores   devices were measured using an AUTOLAB PGSTAT30 poten-\nwere thoroughly lled with Ag3BiI6 and annealing was done at   tiostat. A solar simulator (Sciencetech-SF-150-B, AM1.5) was\n100 °C for 10 min.                                               calibrated and used to provide 1000 W m−2 illumination. All\n                                                                devices were measured with varying potential bias from 0.02 V\n2.3  Characterisation                                            to −0.6 V at a scan rate of 100 mV s−1. During the measurement,\n                                                          a metal mask with a 0.0314 cm2 aperture area was used toThe phase purity of thin lms was identied using a Bruker D2\n                                                              prevent light scattering. Impedance spectroscopy was carriedPHASER X-ray diﬀractometer (XRD) using Cu-Ka radiation with\n                                                            out on an AUTOLAB PGSTAT30 potentiostat in the frequencyscattering angles (2q) from 5–70°. All thin-lm XRD samples\n                                                           range from 100 mHZ to 1 MHz in the dark at 450 mV.\nwere prepared on TiO2 and ZrO2 layers, where the carbon layer\nwas omitted to avoid strong carbon peaks interfering with the\ndesired XRD patterns. The top-view morphology images of 3  Results and discussion\nmesoporous  TiO2/ZrO2  lled  with  Ag3BiI6,  cross-sectional\n                                                                   3.1  Material characterisationdevice images and layered energy dispersive X-ray spectros-\ncopy (EDS) images were recorded using a eld emission scan-  Thin-lm X-ray diﬀraction measurements (XRD) were carried\nning electron microscope (FE-SEM, Zeiss Sigma HD VP). The   out to understand how treatments aﬀect the formation of\nsurface elemental analysis of Ag3BiI6 and CuSCN-treated Ag3BiI6   introduced Ag3BiI6 in mesoporous layers. The main diﬀraction\nlms was performed by X-ray photoelectron spectroscopy (XPS,   peaks of the TiO2/ZrO2/Ag3BiI6 sample correspond to highly\nThermo Scientic VG Sigma Probe) using Al-Ka radiation. XPS   crystalline phases with R 3m symmetry for the Ag3BiI6 pattern\nsamples were prepared on the bare glass to avoid any nones-   concerning both positions and intensities, with reections\nsential peaks from substrates. The diﬀuse reectance spec-   corresponding to the (003), (010), (102), (104), (105), (110), (108)\ntroscopy of thin lms was carried out on a Jasco V-670 UV/Vis/  and (204) planes at 12.8°, 24.1°, 25.2°, 29.4°, 32.2°, 41.6°, 42.4°\nNIR spectrophotometer. Samples were prepared on the ZrO2  and 51.8°, respectively (Fig. 2a).16 Consistent with previous\nsubstrate  to  facilitate  pre-/post-treatments. The absorption   studies, the three distinct diﬀraction peaks at 22.3°, 39.2° and\nspectra  were measured and  calculated  according  to  the   46.3° correspond to the impurity of AgI, originating from the\nKubelka–Munk theory within the wavelength range of 300–   silver-rich precursor that  is required  to prepare  Ag3BiI6.27\n1000 nm. Photoluminescence (PL) quenching of  pre-/post-  Beyond this, no other impurity was identied. Fig. 2b compares\ntreated Ag3BiI6 was recorded with a Fluoromax-3. Ag3BiI6   the results of Ag3BiI6 with diﬀerent pre-treatments on the\nsamples with pre-treatments were prepared on the TiO2/ZrO2  mesoporous surface. Consistent patterns suggest that the pre-\n\n\n\n\n\nFig. 2   (a) XRD patterns of the TiO2/ZrO2 substrate with Ag3BiI6 and Ag3BiI6 with CuSCN-treatment; (b) XRD patterns of Ag3BiI6 with pre-\ntreatments. Top-view SEM images of (c) Ag3BiI6 with (d) 4tBP, (e) biPY, (f) CPDT-1 and (g) N719 pre-treatment; and (h) CuSCN post-treatment.\n\n\n\nThis journal is © The Royal Society of Chemistry 2023                                      Sustainable Energy Fuels, 2023, 7, 1067–1076  | 1069",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "56be5b5995dbbd5bbb76d525ebdf3c34"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Sustainable Energy & Fuels                                                                     Paper\n\n\n                                                                                            it is essential to bear in mind that these images only suggest an\n                                                          approximation of the actual pore-lling process in the full\n                                                                   device.\n                                                                    Cross-sectional SEM images with energy dispersive X-ray\n                                                              spectroscopy (EDS) mapping were recorded to comprehend\n                                                              the element distribution of the Ag3BiI6 containing full devices.\n                                                                       Fig. 3 illustrates the component element (Ag/Bi/I) distribution\n                                                             reaching the  very bottom TiO2  layer, indicating thorough\n                                                              penetration of Ag3BiI6. A detailed investigation of how Ag3BiI6\n                                                               penetrates with diﬀerent treatments is provided in Fig. S2.† As\n                                                               indicated from top-view SEM images, an even distribution of\n                                                                 Ag3BiI6  was  observed  with   pre-treatments,  suggesting\n                                                     unchanged pore lling. However, with CuSCN post-treatment,\n                                                            AgI  is found  to accumulate  in  the upper carbon  layer,\n                                                              providing evidence of the re-dissolving process and constricting\n                                                                 Ag3BiI6 to a thinner layer. The cross-sectional SEM images and\n                                                                  selected EDS maps (Ag/Bi/Zr/Cu) are shown in Fig. 4, indicating\n                                                                  that CuSCN (Fig. 4e) is ideally placed on the top of the absorber\n                                                             (mainly staying in the carbon layer and upper ZrO2 layer) to play\n                                                          a role in the hole extraction.\n                                                          Diﬀuse reectance spectroscopy provides surface optical\n                                                            information on solid-state materials. The absorption spectra\nFig. 3   (a) Cross-sectional SEM image of the device ﬁlled with only  were therefore employed to investigate the eﬀect of pre-/post-\nAg3BiI6 and EDS mapsof (b) Ag, (c) Bi, (d) I, (e) Ti, (f) Zr, and (g) C.      treatment on the optical properties of Ag3BiI6. The absorption\n                                                                     results following diﬀerent pre-treatments are identical in the\n                                                                        visible region (Fig. S3a†), and a direct bandgap of 1.79 eV was\ntreatments barely aﬀect the formation or morphology of Ag3BiI6   obtained (inset in Fig. S3a†). Compared with results obtained\non the substrates. Fig. 2a also shows the XRD result of CuSCN  from previous studies, the smaller experimental value here is\ntreated samples, where a strong peak at 16.6° indicates the   possibly due to the increased thickness of Ag3BiI6 (∼3 mm),\nexistence of b-CuSCN.28 Although a previous study showed that  which  is thicker than the Ag3BiI6 lm deposited by spin-\nspin-coating CuSCN on Ag3BiI6 washed away the underlying   coating.29 In this case, the thicker lm particularly reduces the\nAg3BiI6 lm, in this case, by drop-casting CuSCN on the device,   light transmittance and shis the corresponding absorption\nAg3BiI6  is rmly retained within the mesoporous scaﬀold  edge to a longer wavelength, resulting in a smaller measured\ninstead of being removed.14 Interestingly, Ag3BiI6 was observed  bandgap. However, with CuSCN treatment, a slight loss in\nrst to dissolve in the CuSCN precursor and then slowly crys-   absorption  is observed in the spectrum  (Fig. S3b†). This\ntallise when the substrates were heated up, as the colour   discrepancy could be attributed to less material in the central\nchanged from black to dark orange and then turned back to  measuring area, caused by spreading of the CuSCN precursor\nblack (Fig. S1†). Aer annealing, the Ag3BiI6 recrystallised and\nmixed with CuSCN.\n   Top-view SEM  images  were  recorded  to  reveal  the\nmorphology of Ag3BiI6  crystallites with diﬀerent treatment\nprocedures.  Fig.  2c shows  the  well-dened ZrO2  particle\nboundaries (∼30 nm) lled with Ag3BiI6 and slightly covered\nwith the Ag3BiI6  crust. A similar surface morphology was\nobserved with 4tBP and biPY treatments (Fig. 2d and e), indi-\ncating that the pore lling process is unaﬀected by the N-donor\nmolecule treatment. A more compact mesoporous lm was\nobtained aer the mesoporous layer was treated with CPDT-1\nand N719, as shown in Fig. 2f and g. It seems that the wetta-\nbility of the mesoporous layers  is better modied by the\ncarboxyl-binding dye molecules than the Ti–N bonds of N-donor\nmolecules,  resulting  in  better  Ag3BiI6  precursor  infusion.\nFig. 2h shows that the Ag3BiI6 crust disappears with the CuSCN\ntreatment. The most likely reason for such an observation is\nthat Ag3BiI6 re-dissolves in the CuSCN precursor solution and\npenetrates deeper into the mesoporous layer. However, these    Fig. 4   (a) Cross-sectional SEM image of CuSCN post-treated Ag3BiI6\nndings may be aﬀected by the absence of the carbon layer, and   device and EDS maps of (b) Ag, (c) Bi, (d) Zr, and (e) Cu.\n\n\n\n1070  | Sustainable Energy Fuels, 2023, 7, 1067–1076                                      This journal is © The Royal Society of Chemistry 2023",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "5d81233b78ff737ddffd3f1ce148eb33",
+        "7be5e44aebda0a3fa4f4113636fae06c"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Paper                                                                             Sustainable Energy & Fuels\n\n\nsolution that pushes part of Ag3BiI6 to the edge. Despite this,\nthe absorption covers most of the visible region.\n  The interaction between Ag3BiI6 and CuSCN was investigated\nby X-ray photoelectron spectroscopy (XPS). The survey spectra\n(Fig. S4†) conrm the major elements (e.g., Ag, Bi, and I) in\nAg3BiI6 lms, and a weak peak at 932.4 eV related to Cu 2p was\ndetected in the CuSCN treated lm. High-resolution spectra\n(Fig. 5a) show that Ag 3d5/2, Bi 4d5/2 and I 3d5/2 peaks appear\nat  the same  position  with  a  negligible  shi,  indicating\na consistent chemical state of Ag3BiI6. The Ag 3d5/2 peak at the\nbinding energy of 368.20/368.19 eV includes two weak peaks at\n368.97/368.88 eV (green) and 367.19/367.16 eV (violet). The\npeaks at 368.97 eV and 368.88 eV are attributed to metallic Ag,\nwhile peaks at 367.19 eV and 367.16 eV correspond to AgI.30 This\nresult conrms the existence of excess Ag or Ag+. Fig. 5b shows\nthe sole peak of Bi 4d5/2 at the binding energy of 442.18/    Fig. 6  Steady-state PL quenching spectra of Ag3BiI6 with diﬀerent\n442.26 eV. Although Bi 4f is the rst choice for element analysis   treatments on the mesoporous ﬁlm.\nin XPS, Bi 4d, which gives the same information, is used here\nbecause the binding energy of Bi 4f and S 2p are close, at\n∼164 eV and ∼167.5 eV, respectively, complicating the decon-   BiI3 and AgI, respectively (Fig. 5c).31 The peak of the Cu 2p3/2\nvolution. The I 3d5/2 peak at the binding energy position of   binding energy was observed  at 932.39  eV, as shown  in\n619.31/619.38 eV is further deconvoluted at 620.83/620.96 eV   Fig. 5d. The central peak at the binding energy position of\n(violet) and 617.92/617.97 eV (green), which are likely related to   931.92/932.39 eV (blue) is attributed to Cu+ with SCN−(in\n                                                                  tetrahedral coordination), while the weaker ones at 930.18/\n                                                             929.14 eV (green) are likely associated with Cu2O impurities.32,33\n                                                    The lowest binding energy peak at 928.65/926.88 eV (violet) is\n                                                                 possibly related to Cu metal.34 Further analysis of the data\n                                                                revealed that the I 3p1/2 peak at 930.61 eV overlapped with the\n                                                           deconvoluted peaks of Cu 2p3/2.\n                                                            Photoluminescence (PL) spectroscopy was carried out to\n                                                       examine the electron and hole donating ability of Ag3BiI6 at\n                                                          TiO2 and CuSCN interfaces. Fig. 6 presents the results obtained\n                                                      from PL spectroscopy. A change in Ag3BiI6 emission was\n                                                           observed when  it was deposited on TiO2  substrates and\n                                                          a noticeable quenching eﬀect was found with N-donor treat-\n                                                        ment, explaining why greater Voc was obtained in devices with\n                                                              pre-treatment (vide infra). On the other hand, a signicant\n                                                          emission suppression was observed in the mixture of Ag3BiI6/\n                                                   CuSCN, facilitating hole transfer. These results suggest that the\n                                                        N-donor and CuSCN help to extract charge carriers more eﬃ-\n                                                                      ciently within mesoporous layers, suggesting that performance\n                                                      improvement in TM-SCs should occur.\n\n\n\n                                                                   3.2  Device characterisation\n\n                                                                 Ag3BiI6 TM-SCs were fabricated to study the device performance\n                                                            with diﬀerent treatments. Although perovskites have been\n                                                               widely applied in TM-SCs, the reproducibility of device fabri-\n                                                                cation remains challenging due to variation in the spontaneous\n                                                              precursor pore lling, aﬀected by solution viscosity, annealing\n                                                           temperature or ventilation conditions. Given the novelty of our\n                                                                devices that use the Ag3BiI6 absorber, and the general diﬃcul-\n                                                                           ties of reproducibility, we focus on the champion devices for\n                                                                 discussion, although some consideration of average results is\n                                                                  also given where appropriate. J–V curves of the as-prepared\nFig. 5  High-resolution XPS spectra of (a) Ag 3d5/2, (b) Bi 4d5/2, (c) I   devices are shown in Fig. 7, and the corresponding device\n3d5/2 and (d) Cu 2p3/2.                                       parameters are summarised in Table 1.\n\n\n\nThis journal is © The Royal Society of Chemistry 2023                                       Sustainable Energy Fuels, 2023, 7, 1067–1076  | 1071",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "ebcb686ce4f9712e9e9e42e5f7fe51b9",
+        "eebbc580f89ddd0c1db0ded1bfa43652"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Sustainable Energy & Fuels                                                                     Paper\n\n\n                                                               or at the same position compared to the reported conduction\n                                                    band of Ag3BiI6 (−3.6 eV), creating a barrier for electron injec-\n                                                                 tion (Fig.  S6†).15,23,38,39 Therefore, the electron from Ag3BiI6\n                                                           could be hampered, causing a high recombination rate within\n                                                                    Ag3BiI6.\n                                                 CuSCN devices demonstrated an increased Voc with minor Jsc\n                                                                          loss, which is likely attributed to better hole extraction. As N-\n                                                       donor molecule pre-treatment exhibited better performance\n                                                         than dyes, an attempt has been made at joint-treatment using\n                                                         biPY and 4tBP with CuSCN. Surprisingly, the joint-treatment\n                                                                devices demonstrated serious hysteresis behaviour and less\n                                                         eﬃcient performance, than the devices with only CuSCN\n                                                                           (Fig. S5†).\n                                                      The calculated hysteresis index, HI, is compared to evaluate\n                                                              the hysteresis level (listed in Table S1†). HI can be calculated\n                                                            using the following equation:Fig. 7  J–V curves of as-prepared Ag3BiI6 TM-SC devices with biPY,\n4tBP and CuSCN treatments.                                                                       PCEreverse   PCEforward\n                                                             HI ¼\n                                                                                                            PCEreverse\n\n  The Ag3BiI6 devices showed photo-response with hysteresis\nbehaviour under  illumination,  indicating the  existence  of\ndefects and/or vacancy-mediated ion migration in Ag3BiI6.35,36 It\nis apparent from Fig. 7 and Table 1 that the devices with 4tBP\nand biPY pre-treatments yield an improved Voc. With biPY, Voc\nwas improved from 0.42 V to 0.48 V. These results agree with\nprevious studies on DSSCs, in which the conduction band of\nTiO2 was negatively shied to improve Voc.35 However, applying\nthe N-donor molecule, such as 4tPB and biPY, may have intro-\nduced a series resistance at the TiO2 interface, leading to low\nJsc.37 Therefore, the overall as-prepared performance of N-donor\ntreated devices remains largely unchanged.\n  When comparing the results of dye molecule treated devices,\nthe performance is poor due to low Jsc (Fig. S5 and Table S1†).\nThe energy level alignment mismatch may hinder electron–hole\nextraction because  the  lowest occupied molecular  orbital\n(LUMO) of CPDT-1 (−2.8 eV) and N719 (−3.6 eV) is higher than    Fig. 8  J–V curve of 1 week aged Ag3BiI6 TM-SC devices with biPY,\n                                                             4tBP and CuSCN treatments.\n\n\n\nTable 1  J–V characteristic parameters of as-prepared Ag3BiI6 TM-SCs with biPY, 4tBP and CuSCN treatmentsa\n\nDevice               Ageing          Scan             Jsc [mA cm−2]          Voc [V]              FF                PCE (%)\n\nAg3BiI6 only          As-prepared      Forward      1.69 (1.48   0.28)      0.34 (0.34   0.02)      0.33 (0.31   0.02)      0.19 (0.16   0.04)\n                                      Reverse       1.70 (1.50   0.28)      0.43 (0.42   0.02)      0.39 (0.36   0.03)      0.28 (0.24   0.06)\nbiPY + Ag3BiI6        As-prepared      Forward      1.12 (1.06   0.16)      0.45 (0.44   0.02)      0.32 (0.31   0.04)      0.16 (0.14   0.04)\n                                      Reverse       1.05 (0.99   0.12)      0.48 (0.48   0.01)      0.53 (0.49   0.04)      0.27 (0.23   0.02)\n4tBP + Ag3BiI6        As-prepared      Forward      1.22 (1.17   0.20)      0.36 (0.36   0.04)      0.33 (0.32   0.04)      0.14 (0.13   0.03)\n                                      Reverse       1.34 (1.23   0.28)      0.44 (0.43   0.01)      0.53 (0.46   0.07)      0.32 (0.24   0.05)\nAg3BiI6 + CuSCN      As-prepared      Forward      1.63 (1.47   0.21)      0.43 (0.40   0.02)      0.32 (0.34   0.05)      0.22 (0.20   0.04)\n                                      Reverse       1.65 (1.46   0.21)      0.47 (0.46   0.01)      0.42 (0.43   0.04)      0.33 (0.29   0.05)\nAg3BiI6 only         1 week aged     Forward      1.95 (1.75   0.40)      0.39 (0.37   0.05)      0.34 (0.32   0.03)      0.26 (0.21   0.08)\n                                      Reverse       1.97 (1.79   0.36)      0.49 (0.49   0.02)      0.39 (0.36   0.05)      0.38 (0.32   0.10)\nbiPY + Ag3BiI6       1 week aged     Forward      1.30 (1.12   0.12)      0.49 (0.47   0.02)      0.33 (0.33   0.01)      0.21 (0.17   0.03)\n                                      Reverse       1.21 (1.07   0.10)      0.57 (0.57   0.01)      0.56 (0.50   0.06)      0.39 (0.30   0.05)\n4tBP + Ag3BiI6       1 week aged     Forward      1.68 (1.33   0.27)      0.44 (0.42   0.03)      0.34 (0.34   0.03)      0.25 (0.19   0.04)\n                                      Reverse       1.64 (1.33   0.28)      0.52 (0.51   0.01)      0.57 (0.46   0.08)      0.49 (0.31   0.11)\nAg3BiI6 + CuSCN     1 week aged     Forward      2.28 (2.16   0.53)      0.49 (0.45   0.03)      0.36 (0.37   0.04)      0.40 (0.35   0.07)\n                                      Reverse       2.35 (2.17   0.62)      0.53 (0.51   0.02)      0.47 (0.48   0.05)      0.60 (0.52   0.09)\n\na The average results in brackets were calculated from 5 individual devices for each type.\n\n\n\n1072  | Sustainable Energy Fuels, 2023, 7, 1067–1076                                       This journal is © The Royal Society of Chemistry 2023",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "ea9abc2ad77c60b0e9556fe1c1639d4d",
+        "c50d16b354c4b578b0160889be75e770"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Paper                                                                             Sustainable Energy & Fuels\n\n\n                                                                          Fig. 8 and Table 1 show that the performance of all devices\n                                                              increased aer one-week ageing (more details in Fig. S7 and\n                                                            Table S2†). Slow solvent evaporation and crystallisation process\n                                                                are likely to be the underlying factors to improve Voc and Jsc. It is\n                                                         worth noting that the eﬃciency of the champion CuSCN treated\n                                                                device doubled from 0.33% (day 1) to 0.60% (day 7) and peaked\n                                                                      at 0.74% on day 28 (Table S2†). Besides, the HI of the CuSCN-\n                                                                  treated devices reduced aer 14 days, from 0.30 to 0.25. When\n                                                       comparing the dark storage stability parameters (Fig. 9 and\n                                                                     S8†), the increased PCE is mainly due to Jsc improvement where\n                                                                   Voc and FF results maintain a stable level. The distinct perfor-\n                                                  mance decay aer day 80 is mainly caused by fatigue in the\n                                                                devices due to repeated impedance measurements. Neverthe-\n                                                                            less, the overall results indicate satisfactory ageing stability,\n                                                                  also suggesting that better device eﬃciency could be obtained\nFig. 9  Dark storage PCE stability (reverse scan) of Ag3BiI6 devices with\nbiPY, 4tBP and CuSCN treatments in the ambient atmosphere.        by improving the initial performance.\n                                                                 Electrochemical impedance spectroscopy  (EIS) measure-\n                                                     ments were conducted to study the charge transport and\nInterestingly, HI is smaller in those devices without any pre-   transfer processes in the devices. A previous study on perovskite\ntreatment  (with/without CuSCN  post-treatment). With  the  TM-SCs  has  reported  two  major  features  of  EIS:  the\npresence of CuSCN, HI is slightly smaller than that of Ag3BiI6   intermediate-frequency arc and the low-frequency arc, associ-\nonly devices, indicating eﬃcient charge extraction. Although   ated with the bulk recombination of perovskite and the inter-\nCuSCN may re-dissolve Ag3BiI6, remaining Ag+ in the meso-   face phenomena, respectively.41 Fig. 10a and b and S9† show the\nporous layer could potentially create more defects, obstructing   Nyquist and Bode plots of devices measured at 450 mV in the\nthe charge separation by charge accumulation at interfaces.      dark. In this case, three arcs are observed in EIS measurement:\n   Stability was evaluated for all fabricated solar cells, following        (i) The rst arc in the high-frequency region (105–106 Hz)\nthe ambient dark storage protocol of the International Summit  remains almost unchanged with varying bias, which is attrib-\non OPV stability (ISOS) protocol—ISOS-D-1.40 The performance   uted to the carbon/FTO interface on the counter electrode side\nof all devices was recorded for 99 days, and consistent eﬃciency   for hole extraction;\nwith the initial devices was found. Fig. 8 presents the one-week        (ii) The second arc in the intermediate frequency region\ndevice performance regarding the ageing eﬀect, and the corre-   (101–105 Hz) is related to the bulk Ag3BiI6 recombination (Rrec),\nsponding device parameters are summarised in Table 1.\n\n\n\n\n\nFig. 10   (a) and (b) Nyquist plots of Ag3BiI6 TM-SCs only and with biPY, 4tBP and CuSCN treatments at 450 mV in the dark; values of extracted\nresistance of (c) Rrec and (d) Rct; calculated lifetime of (e) srec and (f) sct.\n\n\n\nThis journal is © The Royal Society of Chemistry 2023                                      Sustainable Energy Fuels, 2023, 7, 1067–1076  | 1073",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "ef4aa657f711afa1262a476cbeafd95c",
+        "947f0ffdd42188c2ca72ab7c044a2466"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Sustainable Energy & Fuels                                                                     Paper\n\nTable 2  Summary of eﬃciency of Ag3BiI6 based solar cellsa\n\n                                                            Voc      PCE\nDevice structure                                       Jsc [mA cm−2] [V]   FF  (%)   Method         Description\n\nFTO/c-TiO2/m-TiO2/Ag3BiI6/P3HT/Au          5.12         0.58  0.61 1.80   Spin-coating     This study proposed a\n                                                                            (with an anti-    triple-ion-migration-induced degradation\n                                                                                solvent)        mechanism that mainly occurred\n                                                                                             in Ag-rich pnictohalides36\nITO/NiOx/Ag3BiI6/PCBM + C60/Au             1.73         0.82  0.76 1.08   Spin-coating in  This study reported an inverted\n                                                                     a glovebox        (p-i-n) solar cell using dynamic\n                                                                                              casting in combination with a ramped\n                                                                                       annealing procedure42\nFTO/c-TiO2/m-TiO2/A Ag3BiI6/PTAA/Au       10.70         0.63  0.64 4.30   Spin-coating     AgI was rst reported to be dissolved in\n                                                                                      hot DMSO with BiI3, which makes\n                                                                                           pnictohalide solution-process available10\nFTO/c-TiO2/m- TiO2/Ag3BiI6/spiro-OMeTAD/   2.36         0.65  0.70 1.08   Spin-coating in  This study compared MA3Bi2I9, Ag3BiI6 and\nAu                                                                  a glovebox       Cu3BiI6 in both\nFTO/NiO/Ag3BiI6/PCBM/BCP/Ag              1.29         0.41  0.59 0.32   Spin-coating in  normal (n-i-p) and inverted (p-i-n)\n                                                                     a glovebox       congurations43\nFTO/c-TiO2/m-TiO2/Ag3BiI6/PTAA/Au         11.20         0.61  0.65 4.38   Spin-coating in  This study partially replaced I−with\n                                                                     a glovebox      S2−in Ag3BiI6 to adjust\n                                                                                         the optical band gap of pnictohalides.\n                                                                                                          Ag3BiI5.92S0.04 achieved\n                                                                             5.44% eﬃciency15\nFTO/c-TiO2/m-TiO2/Ag3BiI6/spiro-OMeTAD/    1.00         0.35  0.35 0.12   Spin-coating     This study illustrated the sulphur\nAu                                                                                        incorporation eﬀect of multi-walled carbon\n                                                                                  nanotubes and reduced graphene oxide\n                                                                          on silver pnictohalides44\nFTO/c-TiO2/m-TiO2/m-ZrO2/Carbon           2.78         0.56  0.48 0.74   Screen-printing  Our study rst introduced Ag3BiI6 in\n(introduced Ag3BiI6)                                             and             triple-mesoporous solar cells with additional\n                                                                           drop-casting in  treatment procedures. With CuSCN\n                                                                         the              post-treatment, the champion device eﬃciency\n                                                                 ambient        improved\n                                                                  atmosphere      to 0.74% aer aging. (This work)\n\na BCP: bathocuproine.\n\n\n\n\nalthough  it  is barely observed in the Nyquist plot due to   values in all devices regardless of the treatment procedure,\nsignicant overlap;                                              indicating the consistent bulk recombination resistance of\n    (iii) The third arc in the low-frequency region (10−1–101 Hz)   Ag3BiI6 (Fig. 10c and e). However, we observed a slight diﬀer-\nis diﬀerent for each device, which is likely to be associated with   ence in the results of Rct and sct (sct = Rct × Cct), as shown in\nthe Ag3BiI6/TiO2 interface. Three R–C elements were applied to   Fig. 10f and d, respectively: N-donor molecules lead to higher\nsimulate the equivalent circuit in this case (Fig. 10a inset). The   charge transfer resistance and a longer charge lifetime in the\nseries resistance (Rs) represents the general transport resistance   devices; while CuSCN treated devices exhibit smaller resistance\nof the FTO substrate and external circuit. In the Nyquist plot,  and a shorter electron lifetime than the non-treated devices,\nthe CuSCN treated devices exhibit a minor feature, while biPY  which may due to the physical mixture of Ag3BiI6 and CuSCN. It\nand 4tBP pre-treatment devices show a much more signicant   is worth noting that Rrec mainly appears in the frequency range\nfeature. This amplied feature has been highlighted in the   of 101–105 Hz, implying a higher frequency process than the\nperovskite.                                                  charge extraction to TiO2, which may explain the low Voc value\n  A strong relationship of the arc feature in TM-SCs is reported   obtained from the devices. The corresponding capacitances\nto be related to perovskite thickness.41 As discussed in the   (Crec and Cct) are shown in Fig. S10.† However, it is diﬃcult to\nprevious section  (cross-sessional EDS layered images), the   explain the corresponding Crec trend, which might be related to\nCuSCN-treated device exhibits a thinner layer when compared   the tting errors due to the severe overlap of the semicircles in\nto other devices due to a re-dissolving process, while the   the intermediate-low frequency region.\nenlarged feature of biPY and 4tBP is possibly due to increased\nthickness, although it is diﬃcult to tell from the EDS results.\n   Fig. 10c–f show the extracted results of charge transfer 4  Conclusions\nresistance (Rrec and Rct), and calculated lifetime (srec and sct) as\n                                                             In summary, this study demonstrated Ag3BiI6 as an absorber ina function of the applied potential for the solar cells. Rrec and\n                                                    TM-SCs and examined the role of pre-treatment (biPY, 4tBP,\nthe corresponding lifetime,  srec = Rrec × Crec, gave similar\n                                                   N719 and CPDT-1) and post-treatment (CuSCN) in device\n\n\n\n1074  | Sustainable Energy Fuels, 2023, 7, 1067–1076                                       This journal is © The Royal Society of Chemistry 2023",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Paper                                                                             Sustainable Energy & Fuels\n\n\nperformance. The cross-sectional SEM and EDS layered images   3 K. Yang, S. Liu, J. Du, W. Zhang, Q. Huang, W. Zhang, W. Hu,\nhave shown the thorough penetration of Ag3BiI6 in all devices.      Y. Hu, Y. Rong, A. Mei, et al., Sol. RRL, 2021, 5, 2000825.\nAlthough we observed a re-dissolving process upon CuSCN   4 Y. Hu, Z. Zhang, A. Mei, Y. Jiang, X. Hou, Q. Wang, K. Du,\ntreatment, which led to thinner Ag3BiI6, the Ag3BiI6 component      Y. Rong, Y. Zhou, G. Xu, et al., Adv. Mater., 2018, 30, 1705786.\nis only slightly aﬀected by this re-dissolving process, as shown   5 T. Wu, Y. Wang, X. Li, Y. Wu, X. Meng, D. Cui, X. Yang and\nby consistent results obtained from XRD, UV/vis and XPS. Also,      L. Han, Adv. Energy Mater., 2019, 9, 1803766.\nthe  steady-state PL  intensity  revealed  the enhanced hole   6 L. Xu, Y. Li,  J. Shi, N. Robertson, W. Wu, Q. Meng and\nextraction with CuSCN treatment. Based on this character-     H. Tian, Sol. RRL, 2020, 4, 2000042.\nisation of Ag3BiI6 in mesoporous layers, we fabricated Ag3BiI6   7 Y. Guan, A. Mei, Y. Rong, M. Duan, X. Hou, Y. Hu and\nTM-SCs, demonstrating a best as-prepared PCE of 0.33%. Pre-     H. Han, Org. Electron., 2018, 62, 653–659.\ntreatment made no signicant diﬀerence to device perfor-   8 I. Zimmermann,  P.  Gratia, D. Martineau, G. Grancini,\nmance. However, CuSCN provides superior charge collection in       J.-N. Audinot, T. Wirtz and M. K. Nazeeruddin,  J. Mater.\nthe device, which boosted the device PCE to 0.74% aer ageing.     Chem. A, 2019, 7, 8073–8077.\nAll devices exhibited satisfactory dark storage stability for up to   9 Y. Kim, Z. Yang, A. Jain, O. Voznyy, G.-H. Kim, M. Liu,\n80 days with no encapsulation. Table 2 compares the PCE of      L. N. Quan, F. P. Garc´ıa de Arquer, R. Comin,  J. Z. Fan,\ncurrent Ag3BiI6 TM-SCs with that  of conventional Ag3BiI6       et al., Angew. Chem., Int. Ed., 2016, 55, 9586–9590.\ndevices reported previously. These results suggest the feasibility  10 I. Turkevych,  S. Kazaoui, E.  Ito, T. Urano, K. Yamada,\nof Ag3BiI6 in low-cost and carbon-based solar cells and the role     H. Tomiyasu, H. Yamagishi, M. Kondo and S. Aramaki,\nof additional device treatment in promoting PCE, extending our     ChemSusChem, 2017, 10, 3754–3759.\nunderstanding of Bi-based materials in TM-SCs. Although this  11 A. Chakraborty, N. Pai, J. Zhao, B. R. Tuttle, A. N. Simonov\nstudy has demonstrated a promising pathway for developing Bi-     and V. Pecunia, Adv. Funct. Mater., 2022, 32, 2203300.\nbased TM-SCs, performance  is  limited by  hysteresis and  12 H. Zhu, M. Pan, M. B. Johansson and E. M. Johansson,\nreproducibility issues. Previous Ag2BiI5 device studies noted     ChemSusChem, 2017, 10, 2592–2596.\nthat a thicker absorbing layer leads to higher carrier recombi-  13 B. Ghosh, B. Wu, X. Guo, P. C. Harikesh, R. A. John, T. Baikie,\nnation, suggesting that future work could focus on modifying      A. T. Wee, C. Guet, T. C. Sum, S. Mhaisalkar, et al., Adv.\nthe thickness of the ZrO2 layer so as to facilitate charge trans-      Energy Mater., 2018, 8, 1802051.\nfer.45,46 Further work could also assess the TiO2/Ag3BiI6 surface  14 M. Khazaee, K. Sardashti, C.-C. Chung, J.-P. Sun, H. Zhou,\nengineering on  the  device,  the  Ag3BiI6  precursor  or  the      E. Bergmann, W. A. Dunlap-Shohl, Q. Han,  I. G.  Hill,\nannealing process to perform better pore lling and reduce         J. L. Jones, et al., J. Mater. Chem. A, 2019, 7, 2095–2105.\nnon-radiative recombination. Furthermore, CuSCN could be  15 N. Pai, J. Lu, T. R. Gengenbach, A. Seeber, A. S. Chesman,\nreplaced by other Cu-based inorganic HTMs or NiOx to avoid the      L.  Jiang, D. C. Senevirathna,  P. C. Andrews, U. Bach,\nre-crystallising process. These additional engineering steps may       Y.-B. Cheng, et al., Adv. Energy Mater., 2019, 9, 1803396.\nenable us to develop higher eﬃciency and better reproducibility  16 T. Oldag, T. Aussieker, H.-L.  Keller, C. Preitschaand\nin TM-SCs.                                                           A. Ptzner, Z. Anorg. Allg. Chem., 2005, 631, 677–682.\n                                                        17 L.  F.  Mashadieva,  Z.  S.  Aliev,  A.  V.  Shevelkov and\nConﬂicts of interest                            M. B. Babanly, J. Alloys Compd., 2013, 551, 512–520.\n                                                        18 T.  Li,  Y. Hu,  C.  A.  Morrison, W. Wu, H. Han and\nThere are no conicts to declare.                                N. Robertson, Sustainable Energy Fuels, 2017, 1, 308–316.\n                                                        19 T. Li, Q. Wang, G. S. Nichol, C. A. Morrison, H. Han, Y. Hu\nAcknowledgements                             and N. Robertson, Dalton Trans., 2018, 47, 7050–7058.\n                                                        20 P. T. Nguyen, P. E. Hansen and T. Lund, Sol. Energy, 2013, 88,\nWe thank the Energy Technology Partnership (ETP) for the      23–30.\nPostgraduate and Early Career Researcher Exchanges Grant  21 P. T. Nguyen, T. A. P. Phan, N. H. T. Ngo, T. Van Huynh and\n(PECRE). We greatly thank Prof. Yue Hu, Dr Qifei Wang, and Dr      T. Lund, Solid State Ionics, 2018, 314, 98–102.\nDaiyu Li from Wuhan National Laboratory for Optoelectronics  22 F. Tan, M. I. Saidaminov, H. Tan, J. Z. Fan, Y. Wang, S. Yue,\n(WNLO) for their assistance in the device study; Dr Nicola      X. Wang, Z. Shen, S. Li, J. Kim, et al., Adv. Funct. Mater., 2020,\nCayzer from the School of Geoscience for assistance in SEM; Dr      30, 2005155.\nStephen Francis from the University of St. Andrews for assis-  23 Y. Hu, A. Abate, Y. Cao, A. Ivaturi, S. M. Zakeeruddin,\ntance in XPS.                                          M. Gratzel and N. Robertson, J. Phys. Chem. C, 2016, 120,\n                                                             15027–15034.\nNotes and references                          24 X. Lin, J. Lu, S. R. Raga, D. P. McMeekin, Q. Ou, A. D. Scully,\n                                                                     B. Tan, A. S. Chesman, S. Deng, B. Zhao, et al., Adv. Energy\n 1 A. Mei, X. Li, L. Liu, Z. Ku, T. Liu, Y. Rong, M. Xu, M. Hu,      Mater., 2021, 11, 2100053.\n    J. Chen, Y. Yang, et al., Science, 2014, 345, 295–298.          25 N. Wijeyasinghe, A. Regoutz, F. Eisner, T. Du, L. Tsetseris,\n 2 Y. Rong, Y. Hu, A. Mei, H. Tan, M. I. Saidaminov, S. I. Seok,      Y. H. Lin, H. Faber, P. Pattanasattayavong,  J. Li, F. Yan,\n  M. D. McGehee, E. H. Sargent and H. Han, Science, 2018, 361,       et al., Adv. Funct. Mater., 2017, 27, 1701818.\n   eaat8235.\n\n\n\nThis journal is © The Royal Society of Chemistry 2023                                      Sustainable Energy Fuels, 2023, 7, 1067–1076  | 1075",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Sustainable Energy & Fuels                                                                     Paper\n\n\n26 N. Arora, M. I. Dar, A. Hinderhofer, N. Pellet, F. Schreiber,  37 T. A. P. Phan, N. P. Nguyen, P. H. Nguyen, T. K. Le, T. Van\n    S. M. Zakeeruddin and M. Gr¨atzel, Science, 2017, 358, 768–     Huynh, T. Lund, D.-H. Tsai, T.-C. Wei, P. T. Nguyen, et al.,\n   771.                                                               Appl. Surf. Sci., 2020, 509, 144878.\n27 S. Hull and D. Keen, Phys. Rev. B: Condens. Matter Mater.  38 K. W. Jung, M. R. Sohn, H. M. Lee, I. S. Yang, S. Do Sung,\n   Phys., 1999, 59, 750.                                                                  J. Kim, E. W.-G. Diau and W.  I. Lee, Sustainable Energy\n28 D. Smith and V. Saunders, Acta Crystallogr., Sect. B: Struct.       Fuels, 2018, 2, 294–302.\n    Crystallogr. Cryst. Chem., 1982, 38, 907–909.                39 I. Chung, B. Lee, J. He, R. P. Chang and M. G. Kanatzidis,\n29 A.  Crovetto,  A.  Hajijafarassar,  O.  Hansen,  B.  Seger,      Nature, 2012, 485, 486–489.\n     I. Chorkendorﬀand P. C. Vesborg, Chem. Mater., 2020, 32,  40 M. O. Reese, S. A. Gevorgyan, M. Jørgensen, E. Bundgaard,\n   3385–3395.                                                              S.  R.  Kurtz, D.  S.  Ginley, D. C. Olson, M.  T.  Lloyd,\n30 S. Ning, H. Lin, Y. Tong, X. Zhang, Q. Lin, Y. Zhang, J. Long      P. Morvillo, E. A. Katz, et al., Sol. Energy Mater. Sol. Cells,\n   and X. Wang, Appl. Catal., B, 2017, 204, 1–10.                   2011, 95, 1253–1267.\n31 S. Gaarenstroom and N. Winograd, J. Chem. Phys., 1977, 67,  41 A. Bou, A. Pockett, D. Raptis, T. Watson, M. J. Carnie and\n   3500–3506.                                                                               J. Bisquert, J. Phys. Chem. Lett., 2020, 11, 8654–8659.\n32 J. S. McCloy, C. Leslie, T. Kaspar, W. Jiang and R. K. Bordia, J.  42 Y. Seo,  S. R. Ha,  S. Yoon,  S. M. Jeong, H. Choi and\n   Appl. Phys., 2012, 111, 07E149.                                D.-W. Kang, J. Power Sources, 2020, 453, 227903.\n33 M. Monte,  G. Munuera, D.  Costa,  J.  C. Conesa and  43 A. K. Baranwal, H. Masutani, H. Sugita, H. Kanda, S. Kanaya,\n   A.  Mart´ınez-Arias,  Phys. Chem. Chem.  Phys.,  2015,  17,     N. Shibayama, Y. Sanehira, M. Ikegami, Y. Numata and\n   29995–30004.                                                  K. Yamada, Nano Convergence, 2017, 4, 1–14.\n34 D.-H. Nam, B. J. Taitt and K.-S. Choi, ACS Catal., 2018, 8,  44 S. Hosseini and M. Adelifard, J. Electron. Mater., 2020, 49,\n   1197–1206.                                                 5790–5800.\n35 G. Tumen-Ulzii, T. Matsushima, D. Klotz, M. R. Leyden,  45 K. W. Jung, M. R. Sohn, H. M. Lee, I. S. Yang, S. D. Sung,\n   P. Wang,  C.  Qin,  J.-W.  Lee,  S.-J.  Lee,  Y. Yang and         J. Kim, E. Wei-Guang Diau and W.  I. Lee, Sustainable\n   C. Adachi, Commun. Mater., 2020, 1, 1–7.                       Energy Fuels, 2018, 2, 294–302.\n36 A. Kulkarni, F. ¨Unlü, N. Pant, J. Kaur, C. Bohr, A. K. Jena,  46 V. Pecunia, Y. Yuan, J. Zhao, K. Xia, Y. Wang, S. Duhm,\n    S. ¨Oz, M. Yanagida, Y. Shirai and M. Ikegami, Sol. RRL,      L. Portilla and F. Li, Nano-Micro Lett., 2020, 12, 27.\n   2021, 5, 2100077.\n\n\n\n\n\n1076  | Sustainable Energy Fuels, 2023, 7, 1067–1076                                       This journal is © The Royal Society of Chemistry 2023",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "04a41bc71d58292498f1a01fcf7959a3",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            42.0,
+            135.0,
+            141.0,
+            155.0
+          ]
+        }
+      ],
+      "file": "garbage/page1_04a41bc71d58292498f1a01fcf7959a3.png",
+      "is_garbage": true
+    },
+    {
+      "id": "da85b60fb352ffe55b7e9be03c9de899",
+      "page": 2,
+      "pages": [
+        2
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            61.06,
+            566.93,
+            534.22,
+            700.67
+          ]
+        }
+      ],
+      "file": "extracted_images/page2_da85b60fb352ffe55b7e9be03c9de899.jpeg",
+      "is_garbage": false
+    },
+    {
+      "id": "56be5b5995dbbd5bbb76d525ebdf3c34",
+      "page": 3,
+      "pages": [
+        3
+      ],
+      "placements": [
+        {
+          "page": 3,
+          "bbox": [
+            56.86,
+            474.12,
+            538.41,
+            700.67
+          ]
+        }
+      ],
+      "file": "extracted_images/page3_56be5b5995dbbd5bbb76d525ebdf3c34.jpeg",
+      "is_garbage": false
+    },
+    {
+      "id": "5d81233b78ff737ddffd3f1ce148eb33",
+      "page": 4,
+      "pages": [
+        4
+      ],
+      "placements": [
+        {
+          "page": 4,
+          "bbox": [
+            55.1,
+            50.57,
+            279.33,
+            304.39
+          ]
+        }
+      ],
+      "file": "extracted_images/page4_5d81233b78ff737ddffd3f1ce148eb33.jpeg",
+      "is_garbage": false
+    },
+    {
+      "id": "7be5e44aebda0a3fa4f4113636fae06c",
+      "page": 4,
+      "pages": [
+        4
+      ],
+      "placements": [
+        {
+          "page": 4,
+          "bbox": [
+            314.3,
+            525.49,
+            541.7,
+            700.67
+          ]
+        }
+      ],
+      "file": "extracted_images/page4_7be5e44aebda0a3fa4f4113636fae06c.jpeg",
+      "is_garbage": false
+    },
+    {
+      "id": "ebcb686ce4f9712e9e9e42e5f7fe51b9",
+      "page": 5,
+      "pages": [
+        5
+      ],
+      "placements": [
+        {
+          "page": 5,
+          "bbox": [
+            322.81,
+            50.57,
+            533.25,
+            220.03
+          ]
+        }
+      ],
+      "file": "extracted_images/page5_ebcb686ce4f9712e9e9e42e5f7fe51b9.jpeg",
+      "is_garbage": false
+    },
+    {
+      "id": "eebbc580f89ddd0c1db0ded1bfa43652",
+      "page": 5,
+      "pages": [
+        5
+      ],
+      "placements": [
+        {
+          "page": 5,
+          "bbox": [
+            56.47,
+            352.18,
+            277.96,
+            700.73
+          ]
+        }
+      ],
+      "file": "extracted_images/page5_eebbc580f89ddd0c1db0ded1bfa43652.jpeg",
+      "is_garbage": false
+    },
+    {
+      "id": "ea9abc2ad77c60b0e9556fe1c1639d4d",
+      "page": 6,
+      "pages": [
+        6
+      ],
+      "placements": [
+        {
+          "page": 6,
+          "bbox": [
+            54.14,
+            50.57,
+            280.29,
+            224.11
+          ]
+        }
+      ],
+      "file": "extracted_images/page6_ea9abc2ad77c60b0e9556fe1c1639d4d.jpeg",
+      "is_garbage": false
+    },
+    {
+      "id": "c50d16b354c4b578b0160889be75e770",
+      "page": 6,
+      "pages": [
+        6
+      ],
+      "placements": [
+        {
+          "page": 6,
+          "bbox": [
+            330.69,
+            300.59,
+            525.37,
+            459.67
+          ]
+        }
+      ],
+      "file": "extracted_images/page6_c50d16b354c4b578b0160889be75e770.jpeg",
+      "is_garbage": false
+    },
+    {
+      "id": "ef4aa657f711afa1262a476cbeafd95c",
+      "page": 7,
+      "pages": [
+        7
+      ],
+      "placements": [
+        {
+          "page": 7,
+          "bbox": [
+            69.22,
+            50.57,
+            265.21,
+            212.66
+          ]
+        }
+      ],
+      "file": "extracted_images/page7_ef4aa657f711afa1262a476cbeafd95c.jpeg",
+      "is_garbage": false
+    },
+    {
+      "id": "947f0ffdd42188c2ca72ab7c044a2466",
+      "page": 7,
+      "pages": [
+        7
+      ],
+      "placements": [
+        {
+          "page": 7,
+          "bbox": [
+            66.44,
+            462.73,
+            528.84,
+            700.67
+          ]
+        }
+      ],
+      "file": "extracted_images/page7_947f0ffdd42188c2ca72ab7c044a2466.jpeg",
+      "is_garbage": false
+    }
+  ]
+}

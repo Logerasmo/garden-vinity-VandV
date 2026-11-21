@@ -1,0 +1,588 @@
+{
+  "publication_id": "P056",
+  "source_file": "P056.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Efficient Nanocrystal Photovoltaics with PTAA as Hole Transport Layer",
+    "author": "Ao Xu; Qichuan Huang; Kaiying Luo; Donghuan Qin; Wei Xu; Dan Wang; Lintao Hou",
+    "subject": "The power conversion efficiency (PCE) of solution-processed CdTe nanocrystals (NCs) solar cells has been significantly promoted in recent years due to the optimization of device design by advanced interface engineering techniques. However, further development of CdTe NC solar cells is still limited by the low open-circuit voltage (Voc) (mostly in range of 0.5–0.7 V), which is mainly attributed to the charge recombination at the CdTe/electrode interface. Herein, we demonstrate a high-efficiency CdTe NCs solar cell by using organic polymer poly[bis(4–phenyl)(2,4,6–trimethylphenyl)amine] (PTAA) as the hole transport layer (HTL) to decrease the interface recombination and enhance the Voc. The solar cell with the architecture of ITO/ZnO/CdS/CdSe/CdTe/PTAA/Au was fabricated via a layer-by-layer solution process. Experimental results show that PTAA offers better back contact for reducing interface resistance than the device without HTL. It is found that a dipole layer is produced between the CdTe NC thin film and the back contact electrode; thus the built–in electric field (Vbi) is reinforced, allowing more efficient carrier separation. By introducing the PTAA HTL in the device, the open–circuit voltage, short-circuit current density and the fill factor are simultaneously improved, leading to a high PCE of 6.95%, which is increased by 30% compared to that of the control device without HTL (5.3%). This work suggests that the widely used PTAA is preferred as the excellent HTL for achieving highly efficient CdTe NC solar cells.",
+    "keywords": "CdTe; nanocrystal; solar cells; hole transfer materials; PTAA",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "creationDate": "D:20220903190527+08'00'",
+    "modDate": "D:20220903131605+02'00'",
+    "DOI": "10.3390/nano12173067",
+    "year": 2022,
+    "authors": [
+      "Ao Xu",
+      "Qichuan Huang",
+      "Kaiying Luo",
+      "Donghuan Qin",
+      "Wei Xu",
+      "Dan Wang",
+      "Lintao Hou"
+    ]
+  },
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "      nanomaterials\n\n\n\nCommunication\nEfﬁcient Nanocrystal Photovoltaics with PTAA as Hole\nTransport Layer\n\nAo Xu 1, Qichuan Huang 1, Kaiying Luo 1, Donghuan Qin 1,*    , Wei Xu 1    , Dan Wang 1 and Lintao Hou 2\n\n\n                                            1   State Key Laboratory of Luminescent Materials & Devices, Institute of Polymer Optoelectronic\n                                       Materials & Devices, South China University of Technology, Guangzhou 510640, China\n                                            2  Guangdong Provincial Key Laboratory of Optical Fiber Sensing and Communications, Guangzhou Key\n                                     Laboratory of Vacuum Coating Technologies and New Energy Materials, Siyuan Laboratory,\n                                  Department of Physics, Jinan University, Guangzhou 510632, China\n                                     *   Correspondence: qindh@scut.edu.cn; Tel.: +86-020-8711-4346\n\n\n                                Abstract: The power conversion efﬁciency (PCE) of solution-processed CdTe nanocrystals (NCs) solar\n                                      cells has been signiﬁcantly promoted in recent years due to the optimization of device design by ad-\n                            vanced interface engineering techniques. However, further development of CdTe NC solar cells is still\n                                 limited by the low open-circuit voltage (Voc) (mostly in range of 0.5–0.7 V), which is mainly attributed\n                                  to the charge recombination at the CdTe/electrode interface. Herein, we demonstrate a high-efﬁciency\n                         CdTe NCs solar cell by using organic polymer poly[bis(4–phenyl)(2,4,6–trimethylphenyl)amine]\n                           (PTAA) as the hole transport layer (HTL) to decrease the interface recombination and enhance the Voc.\n                          The solar cell with the architecture of ITO/ZnO/CdS/CdSe/CdTe/PTAA/Au was fabricated via a\n                                 layer-by-layer solution process. Experimental results show that PTAA offers better back contact for\n                              reducing interface resistance than the device without HTL. It is found that a dipole layer is produced\n                            between the CdTe NC thin ﬁlm and the back contact electrode; thus the built–in electric ﬁeld (Vbi) is\n                                 reinforced, allowing more efﬁcient carrier separation. By introducing the PTAA HTL in the device,\n                                the open–circuit voltage, short-circuit current density and the ﬁll factor are simultaneously improved,\n                              leading to a high PCE of 6.95%, which is increased by 30% compared to that of the control device\nCitation: Xu, A.; Huang, Q.; Luo, K.;    without HTL (5.3%). This work suggests that the widely used PTAA is preferred as the excellent HTL\nQin, D.; Xu, W.; Wang, D.; Hou, L.       for achieving highly efﬁcient CdTe NC solar cells.\nEfﬁcient Nanocrystal Photovoltaics\nwith PTAA as Hole Transport Layer.    Keywords: CdTe; nanocrystal; solar cells; hole transfer materials; PTAA\nNanomaterials 2022, 12, 3067. https://\n\ndoi.org/10.3390/nano12173067\n\n\nAcademic Editor: Elias Stathatos\n                                   1. Introduction\nReceived: 1 August 2022\n                                     Recently, solution-processed inorganic thin film solar cells with semiconductor nanocrystalsAccepted: 1 September 2022\nPublished: 3 September 2022        (NCs) as the active layer have attracted much attention for their low-cost photovoltaic\n                             applications [1–3]. Compared to the traditional inorganic thin ﬁlm prepared by thermal\nPublisher’s Note: MDPI stays neutral  vacuum evaporation, the low ingredient and power consumption along with excellent\nwith regard to jurisdictional claims in   compatibility with an industrial roll-to-roll fabrication process makes solution-processed\npublished maps and institutional afﬁl-  NC solar cells more promising for large scale manufacturing [4–6]. Among all kinds of NC\niations.\n                              solar cells, CdTe NC solar cells have received intensive research interest because of their\n                              ideal bandgap (~1.5 eV), endurance to ambient conditions and mature synthesis process\n                               for high quality NC production [7–10]. A power conversion efﬁciency (PCE) of ~12% [11]\nCopyright: © 2022 by the authors.   has been obtained with a conventional device structure and 9.2% with an inverted device\nLicensee MDPI, Basel,  Switzerland.   architecture of ITO/ZnO/CdS/CdSe/CdTe/P-TPA/Au using solution-processed CdTe\nThis article is an open access article  NC thin ﬁlm as the active layer [12]. To further improve the efﬁciency of CdTe NC solar\ndistributed  under  the  terms  and    cells, the device structure design and interface optimization are still challenging because of\nconditions of the Creative Commons   the low doped concentration and high valence band of CdTe NC ﬁlm [13]. Traditionally,\nAttribution (CC BY) license (https://   depositing a thin layer of Cu or Cu salt on the CdTe NC thin ﬁlm can increase the hole\ncreativecommons.org/licenses/by/    density and reduce contact resistance, which have been applied successfully to CdTe thin\n4.0/).                   ﬁlm solar cells prepared by vacuum technique [14,15]. However, it is difﬁcult to steadily\n\n\n\n\n\nNanomaterials 2022, 12, 3067. https://doi.org/10.3390/nano12173067                           https://www.mdpi.com/journal/nanomaterials",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "6f52dcd65bcbc64691c972bfe28d289f",
+        "59c116537ecf25f8d7692dabbf2060fb",
+        "62efa0313b674db8d12560bbe65e7581",
+        "bdad99135e250503119f6f098d743bd0",
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                     2 of 11\n\n\n\n                            obtain Cu doped ﬁlm for the crystal boundaries in CdTe NC thin ﬁlm. A large amount of\n                    Cu can diffuse easily along the CdTe NC grain boundary into the cell junction and form\n                          recombination centers and shunt paths, limiting the cell performance [15]. In the case of\n                              solution processed inorganic thin ﬁlm solar cells, inserting a hole transport/interfacial layer\n                         between the active layer and the contact electrode has been widely adopted [16]. Thanks to\n                            the good conductivities, suitable band alignment and low reactivity, the small molecule 2,\n                                 2′,7,7′–tetrakis (N,N–di–p–methoxy–phenyl-amine)–9,9′–spirobiﬂuorene (Spiro–OMeTAD)\n                            or the conjugated polymer poly[bis(4–phenyl)(2,4,6–trimethylphenyl)amine] (PTAA), have\n                         been widely used as the hole transport layer (HTL) to build high-efﬁciency perovskite\n                              solar cells (PSC) [17–22]. By doping bis (triﬂuoromethane) sulfonamide lithium salt (Li-\n                            TFSI) and 4-tert-butylpyridine (t-BP) into HTL, the hole mobility, conductivity and carriers\n                             extraction efﬁciency of PSC are further improved [23–25]. As the CdTe NC has similar\n                            electronic/chemical properties as the perovskite, the performance of CdTe NC solar cells\n                    may be improved by inserting an organic HTL between the CdTe NC and the contact\n                              electrode. Although PTAA has been used successfully in PSCs as HTL, it has not been\n                           explored for CdTe NC solar cells. In previous reports, the effects of the interactions between\n                   HTL and CdTe NC ﬁlms have been studied. The type of molecule, precursor concentration\n                        and post-treatment of HTL are crucial to device performance. It has been demonstrated that\n                           only suitable HTLs can reduce carrier recombination and increase device performance [26].\n                       Depending on the electronic band structure of CdTe NC thin ﬁlm (with valance band\n                            ~5.3 eV and work function of ~5.2 eV), the insertion of an HTL layer with the HOMO level\n                           ~5.3 eV can efﬁciently enhance hole collecting efﬁciency and form an ohmic contact by\n                        band alignment engineering between the back contact electrode and the CdTe NC thin ﬁlm.\n                             In 2015, Yang et al. ﬁrst developed a commercially available Spiro as the HTL for CdTe NC\n                              solar cells [27]. It was found that the surface potential between CdTe and HTL is 80 mV\n                       more positive than that of Spiro. A dipole layer can be formed between CdTe and HTL and\n                               reinforces the built-in ﬁeld (Vbi), leading to a higher Voc in this case. By optimizing the Spiro\n                       HTL, a PCE as high as 8.34% was obtained for CdTe NC solar cells [28]. Later on, a cross-\n                             linkable conjugated polymer poly(diphenylsilane–co–4–vinyl–triphenylamine) (Si-TPA)\n                       was adopted as HTL for CdTe NC solar cells. A high PCE of 8.34% was obtained due to low\n                              contact resistance as a result of good energy level matching [29]. After surface modiﬁcations\n                             of interface in both cathode and anode, the recombination at interfaces can be greatly\n                            decreased, and a PCE of as high as 9.2% was obtained [12]. Although Spiro-OMeTAD is\n                        one of the most efﬁcient HTLs for PSCs, it must be chemically doped with Li salt or other\n                          composites to obtain an optimal hole collecting efﬁciency and conductivity. The dopant\n                              will badly inﬂuence the stability of solar cells since Li+ or other metal ions may diffuse\n                               into the active layer as the recombining center [30–32]. Searching for a candidate to replace\n                       Spiro-OMeTAD is a promising way to solve the problem. Among all the alternatives, PTAA,\n                          a conjugated polymer, shows similar HOMO and LUMO level as that of Spiro-OMeTAD.\n                   PTAA has been successfully applied in PSC as HTL in recent years [33]. However, there\n                            are still no reports on the application of this HTL to CdTe NC solar cells. Herein, we\n                              ﬁrst introduce PTAA as HTL into CdTe NC solar cells and a photovoltaic device with the\n                          conﬁguration of ITO/ZnO/CdS(w/o)/CdSe/CdTe/HTL/Au is successfully fabricated.\n                                       It was found that the PTAA concentration and annealing temperature have a signiﬁcant\n                                effect on the device performance. The optimized device shows an open circuit voltage\n                               (Voc), short circuit current density (Jsc), ﬁll factor (FF) and power conversion efﬁciency\n                         (PCE) of 0. 71 V, 23.11 mA/cm2, 50.83% and 6.95%, respectively, which is a signiﬁcant\n                        improvement compared to the control device without it (PCE = 5.3%). Moreover, the NCs\n                              solar cells (uncapped) show excellent stability with less than 3% decay during 30 days\n                              of measurement.\n\n                                   2. Experiment\n\n                                 Device Fabrication: CdS NC, CdSe NC, CdTe NC and ZnO precursors were prepared\n                          based on previously reported methods [34–37]. PTAA (CAS: 1333317-99-9) was purchased",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                     3 of 11\n\n\n\n                        from Derthon Optoelectronic Materials Science Technology Co., Ltd. (Shenzhen, China)\n                       and used as received. In a typical device fabrication process, as shown in Figure 1, ZnO\n                           precursor was spin–coated on the ITO substrates at a speed of 3000 rpm for 20 s under\n                         ambient conditions. After that, the sample was annealed at 200 ◦C for 10 min to form\n                          a ZnO thin ﬁlm, and then annealed at 400 ◦C for 10 min to eliminate the impurities.\n                            Subsequently, CdS, CdSe and CdTe NC thin ﬁlms were deposited through layer-by-layer\n                            spin-coating process under ambient conditions. Details can be found in the previous\n                          published literature [34,35]. As for the fabrication of PTAA HTL, PTAA was dissolved in\n                           chlorobenzene with a concentration of 3, 5 and 7 mg/mL. The PTAA solution was dropped\n                           onto CdTe NC ﬁlm and spun at 2000 rpm for 20 s. Then the sample was annealed at 120 ◦C\n                              for 10 min. An 80 nm thick gold electrode with an active area of 0.16 cm2 was deposited\n                             via vacuum thermal evaporation through a shadow mask (Figure S1).\n\n\n\n\n\n                              Figure 1. A schematic of NC solar cell fabrication process.\n\n                                      Characterization: UV-vis absorption characterization was carried out using a Shimadzu\n                          3600 UV-vis-NIR spectrophotometer. The electrochemical cyclic voltammetry was con-\n                         ducted using a CHI660E Electrochemical Workstation. Atomic force microscopy (AFM)\n                           imagines were obtained using a NanoScope NS3A system (Veeco, San Jose, CA, USA). X-ray\n                            photoelectron spectra (XPS) were measured using Thermo Fisher Scientiﬁc’s K-ALPHA+.\n                        The SCLC measurement and J–V characteristics under dark and 100 mW·cm−2 (AM 1.5 G)\n                             illumination condition were performed using a solar simulator (Oriel model 91192). EQE\n                        measurements were recorded utilizing a spectral response/quantum efﬁciency measure-\n                       ment testing system (QE–R3011, Enlitech, Kaohsiung, Taiwan). The C–V characteristic of\n                            the device was measured by an impedance analyzer (HP-4192A, Hewlett Packard, Palo\n                              Alto, CA, USA) under a dark environment at 1000 Hz from −1.0 to 1.0 V.\n\n                                   3. Results\n\n                               Figure 2a shows the absorption spectrum of PTAA, which has a strong single ab-\n                            sorption peak at 421 nm, indicating a bandgap of about 2.94 eV. The cyclic voltam-\n                        metry curve of PTAA in chlorobenzene solution is presented in Figure 2b. Based on\n                     EHOMO = −(Eox.,onset + 4.4 eV) and the oxidation potential (Eox.,onset) of PTAA (0.8 eV),\n                            the highest occupied molecular orbital (HOMO) of −5.20 eV for PTAA was obtained\n                          with the corresponding lowest occupied molecular orbital (LUMO) level of −2.26 eV. The\n                HOMO value of PTAA was close to the work function of CdTe NC thin ﬁlm (~5.17 eV [12]),\n                       making PTAA promising for compatible band alignment between CdTe NC ﬁlm and\n                             contact electrode.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. A schematic of NC solar cell fabrication process.",
+          "figure_bbox": [
+            47.41,
+            251.07,
+            547.58,
+            449.85
+          ],
+          "bbox": [
+            166.39,
+            458.28,
+            395.41,
+            467.33
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. A schematic of NC solar cell fabrication process.",
+          "bbox": [
+            47.41,
+            251.07,
+            547.58,
+            449.85
+          ],
+          "file": "extracted_images/page3_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                     4 of 11\n\n\n\n\n\n                              Figure 2.  (a) UV−vis absorption spectrum of PTAA in chlorobenzene solution; and (b) cyclic\n                            voltammetry curve of PTAA in chlorobenzene solution.\n\n                   A smooth and compact interface could help decrease defects at the semiconduc-\n                           tor/metal contacts and ensure efﬁcient carrier extraction. To optimize the interface mor-\n                         phology of the semiconductor/back contact electrode in our NC devices, the PTAA layer\n                         with different experimental conditions (using PTAA precursor with different concentra-\n                               tions) was deposited onto ITO/CdTe NC (two layers) and annealed at 110 ◦C for 10 min\n                        under ambient condition. From Figure S2, we could see that the contact angle of PTAA\n                              solution on CdTe NC thin ﬁlm becomes small, indicating a good wetting condition of PTAA\n                              solution on CdTe NC thin ﬁlm. AFM surface morphology of different samples are shown in\n                            Figure 3a–d. All samples show a very smooth surface with root-mean-squares (RMS) value\n                        below 12 nm (the corresponding RMS values are 6.64 nm, 11.2 nm, 6.71 nm and 5.67 nm,\n                                respectively, for 0, 3, 5 and 7 mg/mL PTAA precursors). It is noted that even at high PTAA\n                             concentration, the RMS value is low, which implies the high quality PTAA ﬁlm formed on\n                            the CdTe NC surface.\n                            The thickness of HTL is important for optimizing the architecture parameters of solar\n                                   cells.  If the HTL is too thin, it is difﬁcult to form an effective junction when coupling\n                         with the light absorption layer. As a result, the HTL is less effective for promoting car-\n                                 rier extraction rate. On the other hand, if the HTL is too thick, the parasitic resistance\n                             of the device will increase and thus harm the device performance. We further tested the\n                         performance of the device with different thicknesses of PTAA. All the devices with the\n                       same architecture of ITO/ZnO/CdSe/CdTe/HTL/Au were prepared at the same condi-\n                              tions except that the HTL thickness used different concentrations of PTAA solution. The\n                             structure of the control device A was ITO/CdSe/CdTe/Au. The structure of device B,\n                  C and D was ITO/CdSe/CdTe/PTAA/Au where the PTAA concentration was 3, 5 and\n                          7 mg/mL, respectively. The structure of devices E, F and G was ITO/CdSe/CdTe/PTAA\n                                (5 mg/mL)/Au where the PTAA annealing temperature was 100, 120 and 140 ◦C, Device H\n                      was ITO/ZnO/CdS/CdSe/CdTe/Au and Device I is ITO/ZnO/CdS/CdSe/CdTe/PTAA\n                                (5 mg/mL) with 120 ◦C annealing/Au, respectively. Figure 4a exhibits the current density–\n                             voltage (J–V) curves of the NC solar cells with or without PTAA HTL, and Figure 4b shows\n                            the J–V curves of devices with different PTAA HTL annealing temperatures. The device\n                         performance is summarized in Table 1. The control device without HTL showed a Voc\n                             of 0.58 V, short circuit current density (Jsc) of 14.61 mA·cm−2 and a ﬁll factor (FF) of 0.42,\n                            delivering a low PCE of 3.58%. In contrast, with the PTAA concentration increase from\n                          3 to 7 mg mL, device performances were effectively enhanced. At the PTAA concentration\n                             of 5 mg/mL, we obtained the champion device which showed a Jsc of 21.06 mA·cm−2, a\n                          high Voc of 0.68 V and a FF of 0.37, resulting in a high PCE of 5.41%. Obviously, the Jsc\n                       and Voc of devices with PTAA HTL are simultaneously improved. The PCE of a device\n                         with PTAA is over 50% higher than the control device. From Table 1, one can see that the",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. (a) UV−vis absorption spectrum of PTAA in chlorobenzene solution; and (b) cyclic\nvoltammetry curve of PTAA in chlorobenzene solution.",
+          "figure_bbox": [
+            72.15,
+            92.86,
+            522.84,
+            278.15
+          ],
+          "bbox": [
+            166.14,
+            286.05,
+            559.28,
+            308.82
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. (a) UV−vis absorption spectrum of PTAA in chlorobenzene solution; and (b) cyclic\nvoltammetry curve of PTAA in chlorobenzene solution.",
+          "bbox": [
+            72.15,
+            92.86,
+            522.84,
+            278.15
+          ],
+          "file": "extracted_images/page4_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                     5 of 11\n\n\n\n                        improvement of efﬁciency in NC solar cells with PTAA HTL is mainly attributed to the\n                             increase in Voc (from 0.58 to ~0.68 V) and Jsc (from 14.61 to 21.06 mA/cm2). As a result of\n                             the high-quality diode, the photo-induced electron-hole pair could be effectively separated\n                        by the built-in electric ﬁeld (Vbi). Combining the data shown in Figure 4a and Table 1, it can\n                         be seen that the optimized PTAA solution concentration is located at 3~5 mg/mL. Lower\n                            concentration of PTAA may result in inadequate coverage of the CdTe thin ﬁlm surface,\n                       and higher concentration of PTAA may lead to large parasitic resistance which increases\n                            the Rs of the device.\n\n\n\n\n\n                              Figure 3. Atomic force microscopy (AFM) of PTAA on ITO/ZnO/CdS/CdSe/CdTe with different\n                                 concentrations: (a) without PTAA; (b) 3 mg mL−1 PTAA; (c) 5 mg mL−1 PTAA; (d) 7 mg mL−1 PTAA.\n\n\n\n\n\n                              Figure 4. J–V characteristics of ITO/ZnO/CdSe/CdTe/PTAA/Au devices with (a) different PTAA\n                                concentrations and (b) annealing temperatures.\n\n                                 In the previous reports, it has been found that the HTL annealing temperature also\n                          has a great effect on the device performance. In this part, all the devices have the same\n                               architecture of ITO/ZnO/CdSe/CdTe/HTL/Au with the same thickness of HTL while the\n                           annealing temperature is different (from 25 ◦C to 140 ◦C). The J–V curves of devices with\n                               different annealing temperatures under AM 1.5 G illumination condition are presented in\n                           Figure 4b, while the device parameters are listed in Table 1. It is shown that the PCE of",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. Atomic force microscopy (AFM) of PTAA on ITO/ZnO/CdS/CdSe/CdTe with different\nconcentrations: (a) without PTAA; (b) 3 mg mL⁻¹ PTAA; (c) 5 mg mL⁻¹ PTAA; (d) 7 mg mL⁻¹ PTAA.",
+          "figure_bbox": [
+            164.39,
+            199.05,
+            514.69,
+            458.57
+          ],
+          "bbox": [
+            166.39,
+            465.0,
+            559.27,
+            486.85
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. J–V characteristics of ITO/ZnO/CdSe/CdTe/PTAA/Au devices with (a) different PTAA\nconcentrations and (b) annealing temperatures.",
+          "figure_bbox": [
+            63.42,
+            495.6,
+            531.58,
+            671.14
+          ],
+          "bbox": [
+            166.39,
+            679.46,
+            559.63,
+            701.44
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. Atomic force microscopy (AFM) of PTAA on ITO/ZnO/CdS/CdSe/CdTe with different\nconcentrations: (a) without PTAA; (b) 3 mg mL⁻¹ PTAA; (c) 5 mg mL⁻¹ PTAA; (d) 7 mg mL⁻¹ PTAA.",
+          "bbox": [
+            164.39,
+            199.05,
+            514.69,
+            458.57
+          ],
+          "file": "extracted_images/page5_figure-3_1.png"
+        },
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. J–V characteristics of ITO/ZnO/CdSe/CdTe/PTAA/Au devices with (a) different PTAA\nconcentrations and (b) annealing temperatures.",
+          "bbox": [
+            63.42,
+            495.6,
+            531.58,
+            671.14
+          ],
+          "file": "extracted_images/page5_figure-4_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                     6 of 11\n\n\n                            devices increases with the increase of annealing temperature from 25 ◦C to 120 ◦C and starts\n                              to drop when the annealing temperature exceeds 120 ◦C. The champion device is obtained\n                     when annealing at 120 ◦C. The optimized device shows a Jsc of 22.33 mA/cm2, a Voc of\n                              0.69 V, an FF of 37.17% and a high PCE of 5.70%. The optimal PCE is 30% higher than the\n                              control device. For devices annealed at low temperature, a serious interface recombination\n                                     is expected since the HTL does not fully passivate the CdTe NC thin ﬁlm surface, and the\n                    HTL has abundant intrinsic defects. On the contrary, when the HTL annealing temperature\n                                     is too high, the oxidation of PTAA may take place, leading to a larger Rs and lower PCE. It\n                                     is noted that the FF of devices with HTL is somewhat lower than that of a device without\n                       HTL. We speculate that although the introduction of PTAA can reduce the interface carriers\n                            recombination, the low hole concentration of PTAA leads to large contact resistance, which\n                            decreases the FF of the device. The FF of the device can be further improved by doping the\n                   PTAA with inorganic salt as similar results have been obtained in the case of PSCs with\n                            Spiro as HTL.\n\n                             Table 1. Summarized photovoltaic parameters from J–V curves of CdTe NC solar cells prepared\n                           under different conditions.\n\n                                 Device        VOC (V)       JSC (mA cm−2)       FF (%)        PCE (%)\n\n                        A                 0.58               14.61              42.28               3.58\n                               B                 0.67               20.32              36.87               5.00\n                          C                 0.68               21.06              37.40               5.41\n                        D                 0.70               21.54              35.38               5.29\n                               E                 0.71               19.26              39.26               5.40\n                                  F                 0.69               22.33              37.17               5.70\n                        G                 0.60               19.35              36.44               4.25\n                      H                 0.62               15.41              55.96               5.34\n                                                        I                  0.68               21.47              47.81               6.95\n\n\n                                 In order to further optimize the electron/hole transfer balance and improve the NC\n                            device performance, we fabricated bilayer CdS electron transport layer–based (ETL) devices\n                          with the conﬁguration of ITO/ZnO/CdS/CdSe/CdTe/HTL(w/o)/Au, which consists of\n                         one layer of CdS NC, two layers of CdSe NC and ﬁve layers of CdTe NC. Figure 5a shows\n                            the J–V curves of NC solar cells under AM 1.5 G, with the corresponding EQE spectrum\n                        and J–V under dark presented in Figure 5b,c. The control device without HTL shows a Voc\n                             of 0.62 V, Jsc of 15.41 mA cm−2 and FF of 0.56, delivering a PCE of 5.34%. In contrast, the\n                            device with PTAA shows a Voc of 0.69 V, Jsc of 21.47 mA cm−2 and FF of 0.48, delivering a\n                     much higher PCE of 6.95%. The PCE is increased by 35% when HTL is introduced. From\n                             the EQE spectra (Figure 5b), one can gain more insights into how the Jsc varies as a function\n                              of the wavelength of incident light. The device with HTL annealing at optimal temperature\n                             of 120 ◦C exhibits a higher EQE value almost in the whole wavelength, suggesting the\n                        improved carrier collecting efﬁciency due to the reduced interface defects between the\n                      CdTe NC layer and the Au electrode. When the EQE curves are integrated with the\n                     AM1.5G spectrum, current densities of 15.14 mA/cm2 and 22.32 mA/cm2 are obtained\n                        from measured EQE curves, respectively, which is consistent with our J–V measurement\n                            (Figure 5a). The dark J–V characteristics of NC solar cells are shown in Figure 5c. At\n                            reverse bias, the leakage current is decreased almost one-fold compared to the device\n                           without HTL, indicating the importance of CdS ETL and PTAA HTL for further optimizing\n                           device performance.\n                            To understand the origin of the improved Jsc for devices with HTL, the hole-only\n                           devices with ITO/CdTe (200 nm)/PTAA (20 nm, w/o)/Au conﬁguration are fabricated.\n                       The hole mobility is measured by space charge limited current (SCLC). The hole mobility\n                              of NC ﬁlms are calculated based on the Mott–Gurney law [38]:\n\n                                                         9     (V −Vbi −Vs)2\n                                                                                J = 8ε0εrµp       L3",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. Summarized photovoltaic parameters from J–V curves of CdTe NC solar cells prepared\nunder different conditions.",
+          "bbox": [
+            166.39,
+            312.8,
+            559.28,
+            432.49
+          ],
+          "rows": [
+            [
+              "Device",
+              "VOC (V)",
+              "JSC (mA cm⁻²)",
+              "FF (%)",
+              "PCE (%)"
+            ],
+            [
+              "A",
+              "0.58",
+              "14.61",
+              "42.28",
+              "3.58"
+            ],
+            [
+              "B",
+              "0.67",
+              "20.32",
+              "36.87",
+              "5.00"
+            ],
+            [
+              "C",
+              "0.68",
+              "21.06",
+              "37.40",
+              "5.41"
+            ],
+            [
+              "D",
+              "0.70",
+              "21.54",
+              "35.38",
+              "5.29"
+            ],
+            [
+              "E",
+              "0.71",
+              "19.26",
+              "39.26",
+              "5.40"
+            ],
+            [
+              "F",
+              "0.69",
+              "22.33",
+              "37.17",
+              "5.70"
+            ],
+            [
+              "G",
+              "0.60",
+              "19.35",
+              "36.44",
+              "4.25"
+            ],
+            [
+              "H",
+              "0.62",
+              "15.41",
+              "55.96",
+              "5.34"
+            ],
+            [
+              "I",
+              "0.68",
+              "21.47",
+              "47.81",
+              "6.95"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. Summarized photovoltaic parameters from J–V curves of CdTe NC solar cells prepared\nunder different conditions.",
+          "bbox": [
+            166.1,
+            283.1,
+            559.28,
+            305.11
+          ]
+        }
+      ],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                     7 of 11\n\n\n\n                       where L is the thickness of the NC/PTAA layer, ε0 is the permittivity of free space, εr\n                                    is the relative dielectric constant of CdTe (9.8), µp is the hole mobility, V is the applied\n                              voltage, and Vs is the voltage drop due to contact resistance, while Vbi is the built-in voltage.\n                      From Figure 6a,b, the mobility for a device with and without PTAA are 7.76 × 10−4 and\n                              3.07 × 10−4 cm2/Vs, respectively. The µp is increased by a factor of 2–3 with the presence\n                              of HTL. The higher mobility for the device with PTAA implies that hole carrier transport is\n                          improved, and thus a high Jsc is expected for NC devices with optimal HTL thickness and\n                           annealing temperature.\n\n\n\n\n\n                              Figure 5. (a) J–V curves of ITO/ZnO/CdSe/CdTe/PTAA(w/o)/Au. (b) Corresponding EQE spectra.\n                                       (c) Dark J–V characteristic curves.\n\n\n\n\n\n                              Figure 6. SCLC measurements of holy−only devices: (a) without; and (b) with PTAA (device\n                                   structure: ITO/CdTe (200 nm)/PTAA/Au.\n\n                             To explain the functional mechanism of interaction between PTAA and the CdTe NC\n                                 layer, ITO/CdTe NCs (2 layers)/PTAA (2 nm, annealing at 120 ◦C) samples are fabricated\n                       and investigated by X-ray photoelectron spectroscopy (XPS) spectra. Figure 7a shows the\n                      XPS narrow scan of Cd 3d, Te 3d and N 1s for thin ﬁlms with and without PTAA HTL. The\n                           binding energies of the Cd 3d, Te 3d and N 1s are summarized in Table 2. Figure S3 shows\n                            the full scan spectra of the thin ﬁlm. The presence of an N 1s signal is attributed to the\n                          elements of PTAA [39]. Compared to the control sample without PTAA HTL (The peak\n                              location are 405.72 eV and 412.60 eV, respectively), one can see that the binding energies of\n                    Cd 3d5/2 and Cd 3d3/2 are located at 405.13 eV and 412.01 eV, respectively, for the sample\n                          with PTAA HTL. The binding energies of the Cd 3d core level with PTAA coverage show a\n                              0.59 eV higher than the control sample. We speculated that the existence of Cd/N bonding\n                          should attract electron from Cd to N, and a dipole layer can be formed between the CdTe\n                 NC layer and HTL. Therefore, the binding energies of the Cd 3d is increased. Similar results\n                        were reported in the previous work with Spiro as HTL [40,41]. As the direction of the\n                            dipole moment is aligned with the native Vbi, the new Vbi in solar cells will be reinforced,\n                        which facilitates hole transport/separation on the surface of CdTe NC and contributes to\n                          a higher Voc (Figure 5a). To conﬁrm the improved built-in electric ﬁeld of CdTe NC solar",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. (a) J–V curves of ITO/ZnO/CdSe/CdTe/PTAA(w/o)/Au. (b) Corresponding EQE spectra.\n(c) Dark J–V characteristic curves.",
+          "figure_bbox": [
+            65.04,
+            200.48,
+            529.96,
+            318.71
+          ],
+          "bbox": [
+            166.1,
+            327.13,
+            560.84,
+            349.01
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. SCLC measurements of holy−only devices: (a) without; and (b) with PTAA (device\nstructure: ITO/CdTe (200 nm)/PTAA/Au.",
+          "figure_bbox": [
+            92.86,
+            355.3,
+            502.14,
+            519.44
+          ],
+          "bbox": [
+            166.39,
+            526.96,
+            559.27,
+            549.74
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. (a) J–V curves of ITO/ZnO/CdSe/CdTe/PTAA(w/o)/Au. (b) Corresponding EQE spectra.\n(c) Dark J–V characteristic curves.",
+          "bbox": [
+            65.04,
+            200.48,
+            529.96,
+            318.71
+          ],
+          "file": "extracted_images/page7_figure-5_1.png"
+        },
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. SCLC measurements of holy−only devices: (a) without; and (b) with PTAA (device\nstructure: ITO/CdTe (200 nm)/PTAA/Au.",
+          "bbox": [
+            92.86,
+            355.3,
+            502.14,
+            519.44
+          ],
+          "file": "extracted_images/page7_figure-6_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                     8 of 11\n\n\n\n                                  cells with PTAA HTL, capacitance–voltage analysis is carried out with the increase of bias\n                            voltage at a constant frequency of 1000 Hz. According to the Mott–Schottky equation [42]:\n\n                                                                2\n                                               C−2 =            (Vbi −V)\n                                                        A2qε0εNA\n\n                        where A is the device area, ε is the relative dielectric constant (10.6), ε0 is the permittivity of\n                       vacuum, Vbi the built-in potential, and NA is the net acceptor concentration. The C−2-V\n                           curves are presented in Figure 7b, and the Vbi can be extracted at a forward bias from\n                            the slope (the extrapolated intersection with the x axis). The Vbi of the NC device with\n                   PTAA is 0.69 V, while this value is only 0.62 V for the control devices, which agrees well\n                         with their Voc values from the J–V curves. Based on the experiments results, the band\n                          alignment and interaction between CdTe NC and PTAA are shown in Figure 7c. We\n                            speculate that when PTAA is deposited on the ITO/ZnO/CdSe/CdTe substrate, a dipole\n                             layer is formed between the CdTe NC layer and PTAA (by forming a Cd-N bond). A\n                              similar result has been found in the case of CdTe NC solar cells with Spiro as HTL. As the\n                              direction of the dipole ﬁeld (from CdTe to HTL) is the same as the built-in potential (from\n                   ZnO to CdTe), the overall built–in ﬁeld will be reinforced, leading to high Voc. Similar\n                             to the effects of P-TPA HTL [12], the PTAA should passivate the interface of CdTe NC\n                              layer and reduce electron/hole recombination at the CdTe/Au interface, resulting in better\n                           device performance.\n\n\n\n\n\n                              Figure 7. (a) The XPS spectra of Cd 3d peaks; (b) Mott–Schottky C−V curve of devices; (c) schematic\n                                 of energy levels inﬂuenced by a dipole layer (PTAA) at the CdTe/Au interface.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Figure 7. (a) The XPS spectra of Cd 3d peaks; (b) Mott–Schottky C−V curve of devices; (c) schematic\nof energy levels inﬂuenced by a dipole layer (PTAA) at the CdTe/Au interface.",
+          "figure_bbox": [
+            66.76,
+            354.1,
+            528.24,
+            741.29
+          ],
+          "bbox": [
+            166.39,
+            752.16,
+            559.28,
+            774.93
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 7",
+          "caption": "Figure 7. (a) The XPS spectra of Cd 3d peaks; (b) Mott–Schottky C−V curve of devices; (c) schematic\nof energy levels inﬂuenced by a dipole layer (PTAA) at the CdTe/Au interface.",
+          "bbox": [
+            66.76,
+            354.1,
+            528.24,
+            741.29
+          ],
+          "file": "extracted_images/page8_figure-7_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                     9 of 11\n\n\n\n\n                             Table 2. Binding energy of N, P and Cd elements in CdTe and CdTe/PTAA ﬁlms.\n\n                              Thin Film       N 1s           P 2p         Cd 3d3/2        Cd 3d5/2\n\n                               CdTe                      -                133.12             412.01             405.13\n                          CdTe/PTAA          399.82             133.71             412.60             405.72\n\n\n                                   4. Conclusions\n\n                                 In conclusion, we have demonstrated a commercial polymer PTAA as a good alterna-\n                                tive of HTLs in solution–processed CdTe NC solar cells. By optimizing the HTL thickness\n                       and annealing temperature, the open circuit voltage, ﬁll factor and short circuit current of\n                 NC solar cells are effectively promoted, resulting in a high PCE of 6.95%, which is increased\n                        by 30% when comparing to a control device without PTAA. The improvement in binding\n                          energy of Cd 3d and Vbi suggests that a dipole layer is formed between CdTe and PTAA,\n                        which increases carrier collection efﬁciency and reduces interface recombination. This work\n                            presents a new way for further improving the performance of a solution-processed NC\n                           device by incorporating a suitable conjugated polymer as the HTL.\n\n\n                           Supplementary Materials: The following supporting information can be downloaded at:\n                            https://www.mdpi.com/article/10.3390/nano12173067/s1. Figure S1: The photo of a real CdTe\n                                  solar cell; Figure S2: The contact angle of PTAA on the CdTe ﬁlm; Figure S3: The XPS full spectra of\n                         CdTe and CdTe/PTAA ﬁlms.\n\n                           Author Contributions: D.Q. and A.X. conceived and designed the experiments; A.X. and Q.H.\n                           performed the experiment; A.X. and K.L. analyzed the data; L.H., D.W. and W.X. contributed to\n                               reagents/materials/analysis tools; D.Q., A.X. and L.H. wrote the paper. All authors have read and\n                             agreed to the published version of the manuscript.\n\n                            Funding: This research received no external funding.\n\n                          Acknowledgments: We thank the ﬁnancial support of the National Natural Science Foundation of\n                           China (Nos. 91333206, 61774077, 61274062, 21174042 and 11204106), National Science Foundation\n                                  for Distinguished Young Scholars of China (Grant no. 51225301), Key Projects of Joint Fund of Basic\n                          and Applied Basic Research Fund of Guangdong Province (2019B1515120073, 2019B090921002), the\n                          Guangzhou Science and Technology Plan Project and the Fundamental Research Funds for the Central\n                                  Universities.\n\n                             Conﬂicts of Interest: The authors declare no conﬂict of interest.\n\nReferences\n\n1.     Jin, G.; Wei, H.; Cheng, Z.; Sun, H.; Sun, H.; Yang, B. Aqueous-processed polymer/nanocrystal hybrid solar cells with efﬁciency\n     of 5.64%: The impact of device structure, polymer content, and ﬁlm thickness. J. Phys. Chem. C 2017, 121, 2025–2034. [CrossRef]\n2.   Lu, S.; Ma, W.; Jin, G.; Zeng, Q.; Feng, X.; Feng, T.; Liu, H.; Meng, S.; Redfern, S.A.T.; Yang, B. A combined experimental and\n      theoretical investigation of donor and acceptor interface in efﬁcient aqueous-processed polymer/nanocrystal hybrid solar cells.\n      Sci. China-Chem. 2018, 61, 437–443. [CrossRef]\n3.   Xue, H.; Wu, R.; Xie, Y.; Tan, Q.; Qin, D.; Wu, H.; Huang, W. Recent progress on solution-processed CdTe nanocrystals solar cells.\n     Appl. Sci.-Basel 2016, 6, 197. [CrossRef]\n4.    Jin, G.; Chen, N.; Zeng, Q.; Liu, F.; Yuan, W.; Xiang, S.; Feng, T.; Du, X.; Ji, T.; Wang, L.; et al. Aqueous-Processed poly-\n     mer/nanocrystal hybrid solar cells with double-side bulk heterojunction. Adv. Energy Mater. 2018, 8, 1701966. [CrossRef]\n5.   Yang, Z.; Fan, J.Z.; Proppe, A.H.; de Arquer, F.P.G.; Rossouw, D.; Voznyy, O.; Lan, X.; Liu, M.; Walters, G.; Quintero-Bermudez, R.;\n      et al. Mixed-quantum-dot solar cells. Nat. Commun. 2017, 8, 1325. [CrossRef]\n6.   Kim, T.; Firdaus, Y.; Kirmani, A.R.; Liang, R.-Z.; Hu, H.; Liu, M.; El Labban, A.; Hoogland, S.; Beaujuge, P.M.; Sargent, E.H.; et al.\n    Hybrid tandem quantum dot/organic solar cells with enhanced photocurrent and efﬁciency via ink and interlayer engineering.\n    ACS Energy Lett. 2018, 3, 1307–1314. [CrossRef]\n7.    Burst, J.M.; Duenow, J.N.; Albin, D.S.; Colegrove, E.; Reese, M.O.; Aguiar, J.A.; Jiang, C.S.; Patel, M.K.; Al-Jassim, M.M.;\n     Kuciauskas, D.; et al. CdTe solar cells with open-circuit voltage breaking the 1V barrier. Nat. Energy 2016, 1, 16015. [CrossRef]\n8.   Swanson, D.E.; Sites, J.R.; Sampath, W.S. Co-sublimation of CdSexTe1-x layers for CdTe solar cells. Sol. Energy Mater. Sol. Cells\n     2017, 159, 389–394. [CrossRef]\n9.   Kumar, S.G.; Rao, K.S.R.K. Physics and chemistry of CdTe/CdS thin ﬁlm heterojunction photovoltaic devices: Fundamental and\n      critical aspects. Energy Environ. Sci. 2014, 7, 45–102. [CrossRef]",
+      "tables": [
+        {
+          "label": "Table 2",
+          "caption": "Table 2. Binding energy of N, P and Cd elements in CdTe and CdTe/PTAA ﬁlms.",
+          "bbox": [
+            166.39,
+            114.06,
+            559.28,
+            157.04
+          ],
+          "rows": [
+            [
+              "Thin Film",
+              "N 1s",
+              "P 2p",
+              "Cd 3d3/2",
+              "Cd 3d5/2"
+            ],
+            [
+              "CdTe",
+              "-",
+              "133.12",
+              "412.01",
+              "405.13"
+            ],
+            [
+              "CdTe/PTAA",
+              "399.82",
+              "133.71",
+              "412.60",
+              "405.72"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 2",
+          "text": "Table 2. Binding energy of N, P and Cd elements in CdTe and CdTe/PTAA ﬁlms.",
+          "bbox": [
+            166.1,
+            97.32,
+            487.52,
+            106.37
+          ]
+        }
+      ],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                    10 of 11\n\n\n\n10.  Zhang, H.; Kurley, J.M.; Russell, J.C.; Jang, J.; Talapin, D.V. Solution-Processed, ultrathin solar cells from CdCl3—Capped CdTe\n     nanocrystals: The multiple roles of CdCl3-ligands. J. Am. Chem. Soc. 2016, 138, 7464–7467. [CrossRef]\n11.  Panthani, M.G.; Kurley, J.M.; Crisp, R.W.; Dietz, T.C.; Ezzyat, T.; Luther, J.M.; Talapin, D.V. High efﬁciency solution processed\n     sintered CdTe nanocrystal solar cells: The role of interfaces. Nano Lett. 2014, 14, 670–675. [CrossRef] [PubMed]\n12.  Rong, Z.; Guo, X.; Lian, S.; Liu, S.; Qin, D.; Mo, Y.; Xu, W.; Wu, H.; Zhao, H.; Hou, L. Interface engineering for both cathode and\n    anode enables low-cost highly efﬁcient solution-processed CdTe nanocrystal solar cells. Adv. Funct. Mater. 2019, 29, 1904018.\n     [CrossRef]\n13.  Fahrenbruch, A.L. Ohmic contacts and doping of CdTe. Sol. Cells 1987, 21, 399–412. [CrossRef]\n14.   Bastola, E.; Subedi, K.K.; Alfadhili, F.K.; Phillips, A.B.; Heben, M.J.; Ellingson, R.J.; IEEE. Room temperature processed transparent\n    Cu-Zn-S nanocomposites as hole transport materials in CdTe photovoltaics. In Proceedings of the IEEE 46th Photovoltaic\n      Specialists Conference (PVSC), Chicago, IL, USA, 16–21 June 2019; pp. 144–148.\n15.  Demtsu, S.H.; Albin, D.S.; Sites, J.R.; Metzger, W.K.; Duda, A. Cu-related recombination in CdS/CdTe solar cells. Thin Solid Film.\n     2008, 516, 2251–2254. [CrossRef]\n16.  Fakharuddin, A.; Schmidt-Mende, L.; Garcia-Belmonte, G.; Jose, R.; Mora-Sero, I. Interfaces in perovskite solar cells. Adv. Energy\n     Mater. 2017, 7, 1700623. [CrossRef]\n17.  Jeong, M.; Choi, I.W.; Go, E.M.; Cho, Y.; Kim, M.; Lee, B.; Jeong, S.; Jo, Y.; Choi, H.W.; Lee, J.; et al. Stable perovskite solar cells\n     with efﬁciency exceeding 24.8% and 0.3-V voltage loss. Science 2020, 369, 1615–1620. [CrossRef] [PubMed]\n18.  Huang, L.; Hu, Z.; Xu, J.; Zhang, K.; Zhang, J.; Zhang, J.; Zhu, Y. Efﬁcient and stable planar perovskite solar cells with a\n     non-hygroscopic small molecule oxidant doped hole transport layer. Electrochim. Acta 2016, 196, 328–336. [CrossRef]\n19.  Wang, M.; Wang, H.; Li, W.; Hu, X.; Sun, K.; Zang, Z. Defect passivation using ultrathin PTAA layers for efﬁcient and stable\n     perovskite solar cells with a high ﬁll factor and eliminated hysteresis. J. Mater. Chem. A 2019, 7, 26421–26428. [CrossRef]\n20.  Kim, J.H.; Liang, P.-W.; Williams, S.T.; Cho, N.; Chueh, C.-C.; Glaz, M.S.; Ginger, D.S.; Jen, A.K.Y. High-Performance and\n     environmentally stable planar heterojunction perovskite solar cells based on a solution-processed copper-doped nickel oxide\n     hole-transporting layer. Adv. Mater. 2015, 27, 695–701. [CrossRef]\n21.  Jung, J.W.; Chueh, C.-C.; Jen, A.K.Y. A Low-Temperature, Solution-Processable, Cu-doped nickel oxide hole-transporting layer\n     via the combustion method for high-performance thin-ﬁlm perovskite solar cells. Adv. Mater. 2015, 27, 7874–7880. [CrossRef]\n22.  Han, Q.; Hsieh, Y.-T.; Meng, L.; Wu, J.-L.; Sun, P.; Yao, E.-P.; Chang, S.-Y.; Bae, S.-H.; Kato, T.; Bermudez, V.; et al. High-performance\n     perovskite/Cu(In,Ga)Se-2 monolithic tandem solar cells. Science 2018, 361, 904–908. [CrossRef] [PubMed]\n23.  Burschka, J.; Dualeh, A.; Kessler, F.; Baranoff, E.; Cevey-Ha, N.-L.; Yi, C.; Nazeeruddin, M.K.; Graetzel, M. Tris(2-(1H-pyrazol-1-\n      yl)pyridine)cobalt(III) as p-Type dopant for organic semiconductors and its application in highly efﬁcient solid-state dye-sensitized\n      solar cells. J. Am. Chem. Soc. 2011, 133, 18042–18045. [CrossRef] [PubMed]\n24.  Xu, B.; Sheibani, E.; Liu, P.; Zhang, J.; Tian, H.; Vlachopoulos, N.; Boschloo, G.; Kloo, L.; Hagfeldt, A.; Sun, L. Carbazole-\n    Based hole-transport materials for efﬁcient solid-state dye-sensitized solar cells and perovskite solar cells. Adv. Mater. 2014,\n      26, 6629–6634. [CrossRef] [PubMed]\n25.  Wang, Y.-K.; Yuan, Z.-C.; Shi, G.-Z.; Li, Y.-X.; Li, Q.; Hui,  F.; Sun, B.-Q.; Jiang, Z.-Q.; Liao, L.-S. Dopant-Free spiro-\n     triphenylamine/ﬂuorene as hole-transporting material for perovskite solar cells with enhanced efﬁciency and stability. Adv.\n     Funct. Mater. 2016, 26, 1375–1381. [CrossRef]\n26.  Rombach, F.M.; Haque, S.A.; Macdonald, T.J. Lessons learned from spiro-OMeTAD and PTAA in perovskite solar cells. Energy\n     Environ. Sci. 2021, 14, 5161–5190. [CrossRef]\n27.  Du, X.; Chen, Z.; Liu, F.; Zeng, Q.; Jin, G.; Li, F.; Yao, D.; Yang, B. Improvement in open-circuit voltage of thin ﬁlm solar cells from\n     aqueous nanocrystals by interface engineering. ACS Appl. Mater. Interfaces 2016, 8, 900–907. [CrossRef]\n28.   Jiang, Y.; Pan, Y.; Wu, W.; Luo, K.; Rong, Z.; Xie, S.; Zuo, W.; Yu, J.; Zhang, R.; Qin, D.; et al. Hole transfer layer engineering for\n    CdTe nanocrystal photovoltaics with improved efﬁciency. Nanomaterials 2020, 10, 1348. [CrossRef]\n29.  Guo, X.; Rong, Z.; Wang, L.; Liu, S.; Liu, Z.; Luo, K.; Chen, B.; Qin, D.; Ma, Y.; Wu, H.; et al. Surface passivation via acid\n     vapor etching enables efﬁcient and stable solution-processed CdTe nanocrystal solar cells. Sustain. Energy Fuels 2020, 4, 399–406.\n     [CrossRef]\n30.  Cheng, M.; Aitola, K.; Chen, C.; Zhang, F.; Liu, P.; Sveinbjornsson, K.; Hua, Y.; Kloo, L.; Boschloo, G.; Sun, L. Acceptor Donor\n     Acceptor type ionic molecule materials for efﬁcient perovskite solar cells and organic solar cells. Nano Energy 2016, 30, 387–397.\n     [CrossRef]\n31.  Zhang, J.; Zhang, T.; Jiang, L.; Bach, U.; Cheng, Y.-B. 4-tert-Butylpyridine free hole transport materials for efﬁcient perovskite\n      solar cells: A new strategy to enhance the environmental and thermal stability. ACS Energy Lett. 2018, 3, 1677–1682. [CrossRef]\n32.   Seo, J.-Y.; Kim, H.-S.; Akin, S.; Stojanovic, M.; Simon, E.; Fleischer, M.; Hagfeldt, A.; Zakeeruddin, S.M.; Graetzel, M. Novel\n     p-dopant toward highly efﬁcient and stable perovskite solar cells. Energy Environ. Sci. 2018, 11, 2985–2992. [CrossRef]\n33.   Liu, Z.; Krueckemeier, L.; Krogmeier, B.; Klingebiel, B.; Marquez, J.A.; Levcenko, S.; Oez, S.; Mathur, S.; Rau, U.; Unold, T.; et al.\n     Open-Circuit voltages exceeding 1.26 V in planar methylammonium lead iodide perovskite solar cells. ACS Energy Lett. 2019,\n      4, 110–117. [CrossRef]\n34.   Liu, S.; Liu, W.; Heng, J.; Zhou, W.; Chen, Y.; Wen, S.; Qin, D.; Hou, L.; Wang, D.; Xu, H. Solution-Processed efﬁcient nanocrystal\n      solar cells based on CdTe and CdS nanocrystals. Coatings 2018, 8, 26. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 11,
+      "text": "Nanomaterials 2022, 12, 3067                                                                                                    11 of 11\n\n\n\n\n35.   Liu, H.; Tian, Y.; Zhang, Y.; Gao, K.; Lu, K.; Wu, R.; Qin, D.; Wu, H.; Peng, Z.; Hou, L.; et al. Solution processed CdTe/CdSe\n     nanocrystal solar cells with more than 5.5% efﬁciency by using an inverted device structure. J. Mater. Chem. C 2015, 3, 4227–4234.\n     [CrossRef]\n36.  Wen, S.; Li, M.; Yang, J.; Mei, X.; Wu, B.; Liu, X.; Heng, J.; Qin, D.; Hou, L.; Xu, W.; et al. Rationally controlled synthesis of\n     CdSexTe1-x alloy nanocrystals and their application in efﬁcient graded bandgap solar cells. Nanomaterials 2017, 7, 380. [CrossRef]\n37.   Xie, Y.; Tan, Q.; Zhang, Z.; Lu, K.; Li, M.; Xu, W.; Qin, D.; Zhang, Y.; Hou, L.; Wu, H. Improving performance in CdTe/CdSe\n     nanocrystals solar cells by using bulk nano-heterojunctions. J. Mater. Chem. C 2016, 4, 6483. [CrossRef]\n38.  Ciach, R.; Dotsenko, Y.P.; Naumov, V.V.; Shmyryeva, A.N.; Smertenko, P.S. Injection technique for the study of solar cell test\n      structures. Sol. Energy Mater. Sol. Cells 2003, 76, 613–624. [CrossRef]\n39.  Feng, Z.C.; Chou, H.C.; Rohatgi, A.; Lim, G.K.; Wee, A.T.S.; Tan, K.L. Correlations between CdTe/CdS/SnO2/glass solar cell\n     performance and the interface/surface properties. J. Appl. Phys. 1996, 79, 2151–2153. [CrossRef]\n40.  Rong, Y.; Hu, Y.; Mei, A.; Tan, H.; Saidaminov, M.I.; Seok, S.I.; McGehee, M.D.; Sargent, E.H.; Han, H. Challenges for commercial-\n     izing perovskite solar cells. Science 2018, 361, eaat8235. [CrossRef]\n41.  Hawash, Z.; Ono, L.K.; Qi, Y. Recent advances in spiro-MeOTAD hole transport material and its applications in organic-inorganic\n     halide perovskite solar cells. Adv. Mater. Interfaces 2018, 5, 1700623. [CrossRef]\n42.  Zhu, J.; Yang, Y.; Gao, Y.; Qin, D.; Wu, H.; Hou, L.; Huang, W. Enhancement of open-circuit voltage and the ﬁll factor in CdTe\n     nanocrystal solar cells by using interface materials. Nanotechnology 2014, 25, 365203. [CrossRef] [PubMed]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "6f52dcd65bcbc64691c972bfe28d289f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            516.92,
+            55.88,
+            558.47,
+            83.27
+          ]
+        }
+      ],
+      "file": "garbage/page1_6f52dcd65bcbc64691c972bfe28d289f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "59c116537ecf25f8d7692dabbf2060fb",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            517.1,
+            56.07,
+            538.31,
+            76.23
+          ]
+        }
+      ],
+      "file": "garbage/page1_59c116537ecf25f8d7692dabbf2060fb.png",
+      "is_garbage": true
+    },
+    {
+      "id": "62efa0313b674db8d12560bbe65e7581",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            537.1,
+            63.14,
+            558.32,
+            83.27
+          ]
+        }
+      ],
+      "file": "garbage/page1_62efa0313b674db8d12560bbe65e7581.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bdad99135e250503119f6f098d743bd0",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            521.38,
+            65.14,
+            553.92,
+            74.33
+          ]
+        }
+      ],
+      "file": "garbage/page1_bdad99135e250503119f6f098d743bd0.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            35.72,
+            656.88,
+            92.41,
+            676.72
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

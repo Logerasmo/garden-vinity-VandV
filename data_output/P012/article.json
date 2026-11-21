@@ -1,0 +1,533 @@
+{
+  "publication_id": "P012",
+  "source_file": "P012.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.5",
+    "creator": "LaTeX with hyperref package",
+    "producer": "pdfTeX; modified using iTextSharp.LGPLv2.Core 3.7.4.0",
+    "creationDate": "D:20210701044640+05'30'",
+    "modDate": "D:20261119101428+00'00'",
+    "trapped": "False",
+    "title": "Performance improvement of Cu2ZnSn(S,Se)4 thin-film solar cells by optimizing the selenization temperature",
+    "DOI": "10.1063/5.0053633",
+    "year": 2021,
+    "authors": [
+      "Xiaogong Lv",
+      "Chengjun Zhu",
+      "Yanchun Yang",
+      "Ruijian Liu",
+      "Wenliang Fan",
+      "Yiming Wang"
+    ],
+    "author": "Xiaogong Lv; Chengjun Zhu; Yanchun Yang; Ruijian Liu; Wenliang Fan; Yiming Wang"
+  },
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "RESEARCH ARTICLE  | JULY 01 2021\nPerformance improvement of Cu2ZnSn(S,Se)4 thin-film solar\ncells by optimizing the selenization temperature\n\nXiaogong Lv     ; Chengjun Zhu       ; Yanchun Yang; Ruijian Liu; Wenliang Fan; Yiming Wang\n\n\n\nAIP Advances 11, 075205 (2021)\nhttps://doi.org/10.1063/5.0053633\n\n            \n                                                                  View    Export\n                                                                         Online   Citation\n\n\n  Articles You May Be Interested In\n\n   Controllable selenization kinetics via stabilizing Se concentration enables 14.33% CZTSSe solar cells\n\n   Appl. Phys. Lett. (May 2026)\n\n   Tailoring selenization dynamics: How heating rate manipulates nucleation and growth boosts efficiency in\n   kesterite solar cells\n\n    J. Chem. Phys. (January 2025)\n\n  A multiple-selenization process for enhanced reproducibility of Cu2ZnSn(S,Se)4 solar cells\n                                                                                                                                                         19\n   Appl. Phys. Lett. (December 2016)                                                                                                                                                                                                                                                                                                                                                                                                                                                                      November\n                                                                                                                                                                                                                                                                                                                  2026\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    10:14:28",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "5e38ee24a13a74eb1510faddb7f3c05f",
+        "e8a4a850f98883552bd68be9b69f36d6",
+        "e057abd113b1bbd7571ecc59c44e7a76",
+        "b451bca4a1b238ba60dabe292e408835"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": " AIP Advances                                                          ARTICLE          scitation.org/journal/adv\n\n\n Performance improvement of Cu2ZnSn(S,Se)4\n  thin-film solar cells by optimizing the selenization\n temperature\n\n\n\n   Cite as: AIP Advances 11, 075205 (2021); doi: 10.1063/5.0053633\n   Submitted: 9 April 2021 • Accepted: 10 June 2021 •\n   Published Online: 1 July 2021\n\n   Xiaogong Lv,1,2   Chengjun Zhu,1,a)   Yanchun Yang,1 Ruijian Liu,1 Wenliang Fan,2 and Yiming Wang1\n\n   AFFILIATIONS\n\n       1 Key Laboratory of Semiconductor Photovoltaic Technology of Inner Mongolia Autonomous Region, School of Physical Science\n    and Technology, Inner Mongolia University, 235 West Daxue Street, Hohhot 010021, China\n   2Ordos Institute of Technology, Ordos 017000, Inner Mongolia, China\n\n    a)Author to whom correspondence should be addressed: cjzhu@imu.edu.cn\n\n\n  ABSTRACT\n\n    In this work, Cu2ZnSnS4 (CZTS) precursor films were deposited using a water-based solution approach. Subsequently, selenization was         19\n    performed at different temperatures in the range of 480–610 ○C to prepare Cu2ZnSn(S,Se)4 (CZTSSe) absorber-layer films. The effects\n    of the selenization temperature on the crystallinity, structure, morphology, and photoelectric properties of CZTSSe thin films, as well as                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            November\n    the performance of solar cells constructed using these films, were systematically studied. The absorber-layer films selenized at different\n    temperatures all formed pure-phase CZTSSe and had basically the same film thickness. It was found that application of an optimal sel-                  2026\n    enization temperature can enhance the crystallinity, crystal grain size, and mobility and reduce the resistivity of CZTSSe films. Selenization at\n   550 ○C resulted in the largest grain size (∼μm), the highest crystallinity, the highest mobility (4.29 cm2 V−1 s−1), the lowest resistivity (3.13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            10:14:28\n   × 102 Ω cm), the thinner fine-grained layer, a bandgap value of 1.21 eV, and a Cu-poor, Zn-rich elemental composition [Cu/(Zn + Sn)\n   = 0.85 and Zn/Sn = 1.16]. The power-conversion efficiency was improved from 3.04% in a CZTSSe cell device with an absorber layer sel-\n    enized at 480 ○C to 4.69% in a film selenized at 550 ○C. This was mainly due to the improvement of the crystallinity, crystal grain growth,\n   and reduction of the fine-grained layer of the CZTSSe film. These results show that optimizing the selenization temperature is essen-\n     tial for enhancing the performance and the ultimate device efficiency of CZTSSe absorber layers prepared using a water-based solution\n    approach.\n\n  © 2021 Author(s). All article content, except where otherwise noted, is licensed under a Creative Commons Attribution (CC BY) license\n    (http://creativecommons.org/licenses/by/4.0/). https://doi.org/10.1063/5.0053633\n\n\n\n\n      I. INTRODUCTION                                     and—most importantly—have the highest theoretical efficiency of\n                                                               32.2% according to the Shockley–Queisser limit.2–5\n       The last several decades have seen remarkable development          Several approaches have been adopted  for  fabrication  of\n    of Cu(In,Ga)Se2 (CIGS) solar  cells, achieving a 22.6% power-    CZTSSe  solar-cell  devices.  The  molecular-precursor  solution\n    conversion efficiency (PCE).1 However, the rarity and high cost of    approach is preferred because of its simplicity, low cost, controllable\n    In and Ga have increased the need for alternative materials. It is    element ratio, low energy consumption, high output, and easy large-\n    possible to obtain Cu2ZnSn(S,Se)4 (CZTSSe) with a crystal architec-     area production. Using a hydrazine-based processing technique,\n    ture similar to that of CIGS by substituting Zn and Sn for In and   Kim et al. improved the efficiency of CZTSSe devices to a record-\n   Ga in CIGS. Kesterite CZTSSe p-type semiconductor materials have    breaking 12.7%.6 However, the highly toxic and explosive nature of\n   been regarded as some of the most suitable choices for photovoltaic    hydrazine limits its industrial applications. Therefore, there is an\n    applications because they are nontoxic, are composed of elements    urgent need to find an environmentally friendly and less toxic sol-\n    that are abundant, have an excellent visible-light absorption coeffi-    vent to replace hydrazine in the process of preparing CZTSSe solar\n    cient (>104 cm−1), have an adjustable direct bandgap (1.0–1.5 eV),      cells. To date, a variety of low-toxicity and safe substitute organic\n\n\n\n\n\nAIP Advances 11, 075205 (2021); doi: 10.1063/5.0053633                                                                                                             11, 075205-1\n\n© Author(s) 2021",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "94e3734f531ac22e597993670ab3c0df",
+        "be6fc09e4a5d8e95713ffb76918ec8d9",
+        "1893584c396eb6698e5477afa29f712b",
+        "ec7d36f2251dd8cf1c8964434c9aa065"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": " AIP Advances                                                          ARTICLE          scitation.org/journal/adv\n\n\n\n\n    solvents have been found and developed. For example, Xin et al. used   ammonium thioglycolate (3 ml) and deionized water (3 ml). The\n    dimethyl sulfoxide, achieving an efficiency of 11.8%.7 Ethanol and 1-    mixture was then magnetically agitated at room temperature for\n    butylamine,8 CS2 and thioglycolic acid,9 ethanolamine and thiogly-    about 1 h until it became light yellow and transparent. The CZTS\n    colic acid,10 thioglycolic acid and methylamine,11 ethanedithiol and    precursor solution was obtained after centrifuging the mixture at 13\n    ethylenediamine,12 2-methoxyethanol,13 and other solvents have    000 rpm for 3 min.\n    also shown good performance in the preparation of CZTSSe solar\n     cells. However, these solvents are also toxic. It is well known that\n                                                                  B. Formation of the CZTSSe absorber layer    water is the cheapest and most environmentally friendly solvent,\n   and  it does not react with  air. Therefore, water-based solution      An SLG (18 × 18 × 1.1) mm3 sputtered with a Mo layer\n    approaches for preparing CZTSSe solar cells have drawn consider-    (∼400 nm) was spin-coated using a Cu2ZnSnS4 (CZTS) precursor\n    able attention. Tian et al. fabricated a CZTSSe cell having a record     liquid at 3000 rpm for 30 s. Then, a 5-min pre-annealing of the SLG\n   6.62% efficiency,14 confirming the potential of water-based solution    was performed at 300 ○C on a hot plate. A CZTS precursor film with\n    approaches for producing highly efficient CZTSSe solar cells.          an ideal thickness (∼1.5 μm) was fabricated through six repetitions\n       The post-selenization temperature is a critical parameter for     of pre-annealing–spin coating. All the steps were carried out in a\n    controlling the structure, crystallinity, elemental composition, and     glove chamber filled with argon. Finally, selenization of the CZTS\n     electrical and optical properties of CZTSSe absorber films, as well as    precursor film was performed for 10 min at different temperatures\n    the ultimate device efficiency.15,16 Therefore, determining the opti-    (480–610 ○C) in a circular graphite box including Se powder, which\n   mal selenization temperature is crucial for enhancing the perfor-    was placed in a fast thermoprocessing furnace with flowing nitrogen\n   mance of these devices.                                                 to synthesize the CZTSSe film.\n        In this work, CZTS precursor films were synthesized using a\n    water-based solution approach combined with a spin-coating pro-\n                                                                   C. Fabrication of CZTSSe solar cells     cess, and CZTSSe films were then prepared by selenization. Solar-cell\n    devices were then fabricated as per the classical structure (soda-lime         Fabrication  of CZTSSe  devices was accomplished  as per\n    glass [SLG]/Mo/CZTSSe/CdS/i-ZnO/ITO/Al). The influences of the     the conventional  architecture, namely, SLG/Mo/CZTSSe/CdS/i-\n    selenization temperature on the crystallinity, electrical and optical    ZnO/ITO/Al. As a  first step, the CZTSSe film (∼1.5 μm) was\n    properties, morphology, and architecture of CZTSSe films and the     deposited with a CdS buffer layer (∼60 nm) using the chemical-bath\n   main parameters of the solar cells were investigated. The results    approach. One layer of each of i-ZnO (∼70 nm) and ITO (∼250 nm)         19\n   show that optimizing the selenization temperature enables improve-    was then successively deposited via RF and DC sputtering processes.\n   ment of the CZTSSe film quality and the solar-cell performance. This    Through thermal evaporation, an Al mesh electrode (∼2.0 μm) was                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            November\n   work establishes an experimental foundation for the preparation     deposited on top of the ITO layer. The last step was mechanically\n    of high-efficiency CZTSSe cell devices using water-based solution     isolating the sample into nine CZTSSe cell devices (active area:                  2026\n    methods.                                                             0.22 cm2).                                                                                                                                                                                                                                                                                                                          10:14:28\n      II. EXPERIMENTAL METHODS                                                              D. Characterization\n   A. Materials and synthesis of the CZTS precursor                                                     An x-ray diffractometer (MiniFlex 600, Rigaku) was used\n   solution                                                                            to acquire XRD spectra, and an x-ray photoelectron spectrom-\n       The precursor materials SnO (99.9% purity), ZnO (99.99%     eter (Amicus, Kratos) was used to perform XPS analysis. For\n    purity), CuO (99.9% purity), HSCH2COO–NH4 + (70 wt. %), and     collection of scanning electron microscopy (SEM) micrographs,\n    Se (99.9% purity) were procured from Shanghai Aladdin Bio-    an SEM system (S-4800, Hitachi) with an energy-dispersive x-\n   Chem Technology Co. Additionally, NH2CSNH2 (99% purity),     ray (EDAX) spectrometer (QUANTAX 200, Bruker) was used. A\n   CdSO4⋅8/3H2O (99% purity), and NH4OH (25 wt. %) were pro-    UV–visible spectrophotometer (LAMBDA 750, PerkinElmer) was\n    cured from Sinopharm Chemical Reagent Co. All these chemicals    employed for determination of UV–visible spectra. A Hall mea-\n   and reagents can be directly used in commercial production without    surement system (HMS-3000, Ecopia) was used to determine the\n    further purification.                                                 Hall effect in the samples. A solar simulator (7-SCSpec, Sofn)\n       As shown in  Fig.  1, SnO  (2.0 mmol), ZnO  (2.4 mmol),    was used to detect the J–V curves under simulated AM 1.5 G\n   and CuO  (3.52 mmol) were added to a solution mixture  of     illumination.\n\n\n\n\n\n                                                    FIG. 1. Schematic diagram of the CZTSSe solar-cell fabrication process.\n\n\n\n\n\nAIP Advances 11, 075205 (2021); doi: 10.1063/5.0053633                                                                                                             11, 075205-2\n\n© Author(s) 2021",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "FIG. 1. Schematic diagram of the CZTSSe solar-cell fabrication process.",
+          "figure_bbox": [
+            85.54,
+            594.83,
+            509.18,
+            673.47
+          ],
+          "bbox": [
+            193.85,
+            681.58,
+            403.85,
+            689.6
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "FIG. 1. Schematic diagram of the CZTSSe solar-cell fabrication process.",
+          "bbox": [
+            85.54,
+            594.83,
+            509.18,
+            673.47
+          ],
+          "file": "extracted_images/page3_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": " AIP Advances                                                          ARTICLE          scitation.org/journal/adv\n\n\n\n\n      III. RESULTS AND DISCUSSION                                      (2p1/2), and the distance of 1.3 eV between these two peaks indicates\n                                                                         the presence of S2−. The peaks of Se 3d at 53.8 eV indicate Se2−ions.        Figure 2 shows XRD patterns from the CZTS precursor film\n                                                                 These results verified that the synthesized CZTSSe compounds are   and the CZTSSe films prepared at different selenization tempera-\n                                                                            consistent with previous studies.20–22    tures (480–610 ○C). The three dominant XRD peaks appearing at\n    27.10○, 28.40○, and 30.66○were ascribed to the (100), (002), and         Figure 4 shows the top-view and cross-sectional SEM micro-\n                                                                    graphs of the as-deposited CZTS precursor film, as well as simi-    (101) crystalline planes, respectively, in the wurtzite CZTS archi-\n                                                                                       lar images of the CZTSSe films selenized at different temperatures.    tecture [Fig. 2(a)]. The broad and weak diffraction peaks indicate\n                                                           The CZTS precursor film was very smooth, dense, and uniform in    that the CZTS crystal grains were small; the average grain size of\n                                                                          thickness (∼1.5 μm), without pinholes or cracks, indicating a high-    the CZTS precursor film estimated via the Debye–Scherrer formula\n                                                                              quality CZTS nanocrystalline film [Fig. 4(a)]. Larger crystal grains   was about 18 nm. In Fig. 2(b), it can be seen that major diffraction\n                                                              emerged on the surface of the film, but they were discontinuous    peaks appear for all the selenized CZTSSe films at 27.27○, 45.24○, and\n    53.72○. These can be, respectively, ascribed to the (112), (204)/(220),    because the lower selenization temperature resulted in poor crys-\n                                                                                         tallinity [Fig. 4(b)]. Although the CZTSSe crystal grains covered   and (312)/(116) crystalline planes in the kesterite CZTSSe archi-\n                                                                         the surface, there were  still many small grains owing to insuffi-     tecture.17–19 There were no other diffraction peaks in the XRD\n                                                                              cient crystallization [Fig. 4(c)]. The crystal grains further grew to    patterns, indicating that pure-phase CZTSSe was obtained, which\n                                                                         the micrometer level and were evenly distributed, which reduced     is a prerequisite for fabricating CZTSSe devices with high perfor-\n                                                                         the carrier recombination and improved both the conductivity and   mance. After selenization, the films’ structures were transformed\n                                                                       photoconductivity of the absorber layer [Fig. 4(d)].23 Moreover, the   from metastable wurtzite to kesterite, in line with the results of Tian\n                                                                growth of crystal grains also can enhance the diffusion length and     et al.14 When selenized at 550 ○C, the (112) peaks were clearly inten-\n                                                                                lifetime of minority carriers, leading to an increase in short-circuit     sified compared to selenization at a temperature of 480 ○C, and this\n                                                                        current (Jsc).24,25 As the selenization temperature was increased, the   was accompanied by a reduction in the full width at half maximum,\n                                                                          grain size decreased significantly, and small holes appeared on the    indicating larger crystal grains and higher crystallinity. In contrast,\n                                                                                surface, which may have been caused by the decomposition of the    the intensity of the (112) peaks decreased at 610 ○C, revealing that\n                                                         CZTSSe film at high selenization temperatures [Figs. 4(e) and 4(f)].    the crystallinity of the film decreased, perhaps because CZTSSe\n   decomposed at this high temperature. Overall, the CZTSSe film sel-    These small holes formed inside the CZTSSe absorber layer and at\n    enized at 550 ○C had the best crystallinity and the largest crystal     the interface between the absorber layer (CZTSSe) and the buffer\n    grains.                                                                    layer (CdS) will form a recombination center of carriers and led to a         19\n       The XPS-acquired chemical valence states of Cu, Zn, Sn, S,    reduction in Jsc.26 After selenization at different temperatures, the   and Se for the 550 ○C-selenized CZTSSe film are displayed in     thicknesses of the CZTSSe films were about the same (∼1.5 μm),                                     November\n    Fig. 3. The Cu 2p binding energies peaked at 932.0 and 951.9 eV,    and these formed a bilayer architecture comprising an upper layer of                                                                                                                                                                                                                                                                                                                                                                              2026   showing a 19.9 eV difference, indicating Cu+ ions. The Zn 2p     large grains and a lower layer of fine grains [Figs. 4(b)–4(f)]. This was\n    peaks appeared at 1021.8 eV (2p3/2) and 1044.8 eV (2p1/2). The     attributed to the difficulty of selenium vapor diffusion to the bottom    distance of 23.0 eV between these two peaks indicates the presence     of the CZTS precursor film during the selenization process. The pre-                                     10:14:28\n    of Zn2+. The splitting peaks of Sn 3d were located at 485.9 and     vious literature has reported that the fine-grained layer can cause\n    494.3 eV, showing an 8.4 eV difference in energy, which indicates    high series resistance and limit the transport of photogenerated car-\n    Sn4+ ions. The S 2p peaks appeared at 161.9 eV (2p3/2) and 163.2 eV      riers, thereby reducing device performance.17 It can be seen from\n\n\n\n\n\n                             FIG. 2. XRD spectra from (a) the CZTS precursor film and (b) CZTSSe films selenized at 480, 510, 550, 580, and 610 ○C.\n\n\n\n\n\nAIP Advances 11, 075205 (2021); doi: 10.1063/5.0053633                                                                                                             11, 075205-3\n\n© Author(s) 2021",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "FIG. 2. XRD spectra from (a) the CZTS precursor film and (b) CZTSSe films selenized at 480, 510, 550, 580, and 610 ○C.",
+          "figure_bbox": [
+            67.6,
+            492.83,
+            527.11,
+            673.47
+          ],
+          "bbox": [
+            122.52,
+            680.89,
+            475.18,
+            689.6
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "FIG. 2. XRD spectra from (a) the CZTS precursor film and (b) CZTSSe films selenized at 480, 510, 550, 580, and 610 ○C.",
+          "bbox": [
+            67.6,
+            492.83,
+            527.11,
+            673.47
+          ],
+          "file": "extracted_images/page4_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": " AIP Advances                                                          ARTICLE          scitation.org/journal/adv\n\n\n\n\n\n                                FIG. 3. XPS results for (a) Cu 2p, (b) Zn 2p, (c) Sn 3d, (d) S 2p, and (e) Se 3d in the 550 ○C-selenized CZTSSe film.                                     19\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            November\n    Fig. 4 that during the process of increasing the selenization tem-    copper-poor and zinc-rich ratio, is extremely important for fabricat-                  2026\n    perature from 480 to 550 ○C, the thickness of the fine-grained layer     ing high-performance CZTSSe solar cells. For CZTSSe devices, both\n    decreased, while the thickness of the large-grained layer increased.     the open-circuit voltage (Voc) and Jsc are enhanced since a copper-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            10:14:28\n   The sample selenized at 550 ○C had the largest thickness of the large-    poor and zinc-rich ratio can inhibit deep CuZn antisite defects in the\n    grained layer, and it was flat and dense with no holes, which was     film, as well as related defect clusters including CuZn + ZnCu, CuZn\n    conducive to reducing the series resistance and increasing Jsc.       + SnZn, and 2CuZn + SnZn.27 The elemental ratios of the CZTS pre-\n       The elemental compositions of the CZTS precursor film and the     cursor film [Cu/(Zn + Sn) = 0.79 and Zn/Sn = 1.17] and the CZTSSe\n   550 ○C-selenized CZTSSe film, as revealed by EDAX spectroscopy,     film selenized at 550 ○C [Cu/(Zn + Sn) = 0.85 and Zn/Sn = 1.16] were\n    are shown in Table I. The results reveal the successful synthesis of     basically the same as that of the precursor liquid, suggesting that\n    a copper-poor and zinc-rich CZTSSe film, which is highly desir-     these ratios can be effectively controlled with a water-based solution\n    able. Fine regulation of the element ratio, and especially obtaining a    approach.\n\n\n\n\n\n      FIG. 4. Top-view (upper panels) and cross-sectional (lower panels) SEM micrographs of (a) the CZTS precursor film and CZTSSe films selenized at (b) 480 ○C, (c) 510 ○C,\n       (d) 550 ○C, (e) 580 ○C, and (f) 610 ○C.\n\n\n\n\n\nAIP Advances 11, 075205 (2021); doi: 10.1063/5.0053633                                                                                                             11, 075205-4\n\n© Author(s) 2021",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "FIG. 3. XPS results for (a) Cu 2p, (b) Zn 2p, (c) Sn 3d, (d) S 2p, and (e) Se 3d in the 550 ○C-selenized CZTSSe film.",
+          "figure_bbox": [
+            44.92,
+            82.22,
+            549.79,
+            352.26
+          ],
+          "bbox": [
+            130.36,
+            359.68,
+            467.34,
+            368.39
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "FIG. 4. Top-view (upper panels) and cross-sectional (lower panels) SEM micrographs of (a) the CZTS precursor film and CZTSSe films selenized at (b) 480 ○C, (c) 510 ○C,\n(d) 550 ○C, (e) 580 ○C, and (f) 610 ○C.",
+          "figure_bbox": [
+            49.53,
+            537.35,
+            545.17,
+            664.47
+          ],
+          "bbox": [
+            48.09,
+            671.89,
+            542.64,
+            689.6
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "FIG. 3. XPS results for (a) Cu 2p, (b) Zn 2p, (c) Sn 3d, (d) S 2p, and (e) Se 3d in the 550 ○C-selenized CZTSSe film.",
+          "bbox": [
+            44.92,
+            82.22,
+            549.79,
+            352.26
+          ],
+          "file": "extracted_images/page5_figure-3_1.png"
+        },
+        {
+          "label": "Figure 4",
+          "caption": "FIG. 4. Top-view (upper panels) and cross-sectional (lower panels) SEM micrographs of (a) the CZTS precursor film and CZTSSe films selenized at (b) 480 ○C, (c) 510 ○C,\n(d) 550 ○C, (e) 580 ○C, and (f) 610 ○C.",
+          "bbox": [
+            49.53,
+            537.35,
+            545.17,
+            664.47
+          ],
+          "file": "extracted_images/page5_figure-4_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": " AIP Advances                                                          ARTICLE          scitation.org/journal/adv\n\n\n\n\n   TABLE I. Chemical compositions of the CZTS precursor film and the CZTSSe film selenized at 550 ○C.\n\n                                     Composition (at. %)                                  Compositional ratio\n\n    Film               Cu      Zn       Sn        S         Se      Cu/(Zn + Sn)     Zn/Sn     (Cu + Zn + Sn)/(S + Se)\n\n    Precursor              19.33      13.19      11.32      56.15       0            0.79           1.17                 0.78\n    Selenized at 550 ○C      20.56      12.96      11.17      15.08      40.23          0.85           1.16                 0.74\n\n\n\n\n\n                     FIG. 5. UV–visible spectra of (a) the CZTS precursor film and (b) the 550 ○C-selenized CZTSSe film. The insets show plots of (αhυ)2 vs hυ.                          19\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            November\n        Figure 5 shows UV–visible spectra from the CZTS precursor     mobility,32 whereas a poor microstructure reduces mobility. The                  2026\n    film and the 550 ○C-selenized CZTSSe film. As presented in the    high carrier mobility (0.11–4.29 cm2 V−1 s−1) within a 480–550 ○C\n    insets of Figs. 5(a) and 5(b), bandgap calculations were accomplished     selenization temperature range was due to the growth of grains in the                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            10:14:28\n   by extrapolating the linear part of the curve for both films. Com-     films. Carrier mobility was highest when the films were selenized at\n    pared to the CZTS layer (1.50 eV), the CZTSSe film (1.21 eV) exhib-    550 ○C. With higher selenization temperatures, the mobility reduces\n    ited a smaller bandgap. The valence band maximum (VBM) is the     as a result of the decrease in crystal grain size and the appearance\n    anti-bonding state of the Cu d and S p orbitals, and the conduc-     of holes in the film. When the carrier concentration is similar, the\n    tion band minimum (CBM) is the anti-bonding state of the Sn s     microstructure plays a critical role in the resistivity of the CZTSSe\n   and S s orbitals of Cu2ZnSnS4. When large Se atoms (1.98 Å) par-     film. Because crystal-grain development reduces the number of grain\n     tially replace small S atoms (1.84 Å) along with alloying into the\n    host lattice, the VBM moves up and the CBM moves down, result-\n    ing in a decrease in the bandgap value (Eg = CBM −VBM).28–30\n   The replacement of elements was also confirmed by the above ele-\n    mental composition analysis results (Table I). After selenization, the\n   bandgap of the absorber-layer film was reduced from 1.5 to 1.21 eV,\n   which expanded the light-absorption range and increased the carrier\n    concentration.\n        Figure 6 shows the variations in resistivity, carrier mobility, and\n    carrier concentration of CZTSSe films with the selenization tem-\n    perature. Based on these results, the CZTSSe films can be classi-\n    fied as p-type semiconductor materials. The carrier concentration\n   depends on the defect density in the film induced by the elemen-\n     tal ratio.31 As previously noted, the elemental ratios of the selenized\n   CZTSSe films are fundamentally identical to that of the precursor\n    liquid, which results in insignificant variation of their carrier con-\n    centrations. The microstructure is an important factor influencing\n                                                                                        FIG. 6. Resistivity, carrier mobility, and carrier concentration revealed by Hall\n    a film’s carrier mobility. A large-grained and dense microstructure\n                                                                              measurements of CZTSSe films selenized at different temperatures.\n   weakens the grain-boundary scattering effect and promotes carrier\n\n\n\n\n\nAIP Advances 11, 075205 (2021); doi: 10.1063/5.0053633                                                                                                             11, 075205-5\n\n© Author(s) 2021",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "FIG. 5. UV–visible spectra of (a) the CZTS precursor film and (b) the 550 ○C-selenized CZTSSe film. The insets show plots of (αhυ)² vs hυ.",
+          "figure_bbox": [
+            67.6,
+            179.05,
+            527.11,
+            351.41
+          ],
+          "bbox": [
+            96.58,
+            357.66,
+            501.12,
+            368.98
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "FIG. 6. Resistivity, carrier mobility, and carrier concentration revealed by Hall\nmeasurements of CZTSSe films selenized at different temperatures.",
+          "figure_bbox": [
+            307.32,
+            501.09,
+            549.4,
+            661.93
+          ],
+          "bbox": [
+            310.09,
+            669.99,
+            546.62,
+            687.01
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "FIG. 5. UV–visible spectra of (a) the CZTS precursor film and (b) the 550 ○C-selenized CZTSSe film. The insets show plots of (αhυ)² vs hυ.",
+          "bbox": [
+            67.6,
+            179.05,
+            527.11,
+            351.41
+          ],
+          "file": "extracted_images/page6_figure-5_1.png"
+        },
+        {
+          "label": "Figure 6",
+          "caption": "FIG. 6. Resistivity, carrier mobility, and carrier concentration revealed by Hall\nmeasurements of CZTSSe films selenized at different temperatures.",
+          "bbox": [
+            307.32,
+            501.09,
+            549.4,
+            661.93
+          ],
+          "file": "extracted_images/page6_figure-6_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": " AIP Advances                                                          ARTICLE          scitation.org/journal/adv\n\n\n\n\n    boundaries, the carriers can move more freely along their paths,33\n    resulting in lower resistivity. The CZTSSe film selenized at 550 ○C\n   had the lowest resistivity (3.13 × 102 Ω cm) due to its dense and\n    large-grained microstructure.\n       The I–V curve analysis showed that optimizing the seleniza-\n    tion temperature enables enhancement of the CZTSSe film’s con-\n    ductivity. Figure 7 shows the I–V curves of CZTSSe films selenized\n    at various temperatures. As the selenization temperature increases\n   from 480 to 550 ○C, the current density also increases (1.6 × 10−3 to\n    18.35 × 10−3 mA) at 2.0 V, and it reaches its maximum at 550 ○C. As\n    the selenization temperature is increased further, the current density\n    begins to decrease again. These results are consistent with the Hall\n    measurements.\n        Figure 8 shows J–V curves of CZTSSe cell devices with films\n    selenized at 480, 550, and 610 ○C under standard AM 1.5G illumi-\n    nation. Table II illustrates the fill factor (FF), Voc, Jsc, and PCE of\n    the cell devices. The cell device with films selenized at 550 ○C had\n    the highest PCE (4.69%), with an FF value of 36.58%, a Voc value\n    of 0.36 V, and a Jsc value of 31.20 mA/cm2. Compared to the device       FIG. 8. J–V curves of CZTSSe solar cells with films selenized at 480, 550, and\n    with films selenized at 480 ○C, its Jsc and PCE were 36% and 54%      610 ○C under AM 1.5G illumination. (Inset) Schematic structure of the cell devices.\n    higher, respectively; they were also higher than those of the device\n    with films selenized at 610 ○C. The FF and Voc values of the solar-cell    TABLE II. Photovoltaic parameters of CZTSSe cell devices with films selenized at\n    devices with films selenized at 480, 550, and 610 ○C were basically the      480, 550, and 610 ○C.\n    same. Therefore, the higher PCE of the device with films selenized at\n   550 ○C was mainly due to its higher Jsc value. The thickness of the     Selenization                         Jsc                        Active\n    absorber-layer film, the grain size, the thickness of the fine-grained    temperature (○C) Voc (V) (mA/cm2) FF (%) PCE (%) area (cm2)\n     layer, and the interface defects between the absorber layer and the                                                                                                 19\n                                                                480                0.34     22.95    33.97    3.04      0.22    buffer layer will all affect the Jsc value of the solar cell.\n                                                                550                0.36     31.20    36.58    4.69      0.22       From the above characterization and analysis, it can be said that                                                                610                0.36     26.43    37.55    4.09      0.22                                                    November    the thickness of CZTSSe absorber layers selenized at different tem-\n    peratures is basically the same, and a pure CZTSSe phase is formed                                                                                                                                                                                                 2026\n    without any secondary phase. In addition, the manufacturing pro-\n                                                          As the grain size decreased and the holes appeared in the CZTSSe\n    cess for the device is also the same. Therefore, the improvement of                                                                             film selenized at 610 ○C, Jsc of the cell device with films selenized at                                     10:14:28    the crystallinity, the growth of the crystal grains, and the reduction\n                                                                610 ○C was less than that of the cell device with films selenized at\n    of the fine-grained layer were the main contributors to the increase\n                                                                550 ○C.    in the Jsc value of the cell device with films selenized at 550 ○C\n   compared to that of the cell device with films selenized at 480 ○C.\n                                                                           IV. CONCLUSIONS\n\n                                                                          In summary, a simple, environmentally friendly, and low-cost\n                                                                      water-based solution method was adopted to fabricate kesterite\n                                                         CZTSSe absorber layers and solar cells. The effects of different sel-\n                                                                          enization temperatures (480–610 ○C) on the structure, morphology,\n                                                                      composition, and photoelectric properties of the CZTSSe absorber-\n                                                                               layer films were studied. The results show that the properties of\n                                                                           these CZTSSe films depend greatly on the selenization temperature.\n                                                                  Applying an optimal selenization temperature can improve the qual-\n                                                                                              ities of the films. The CZTSSe film selenized at 550 ○C was found\n                                                                            to have the best crystallinity, the largest grain size (∼μm), the thin-\n                                                                     ner fine-grained layer, the highest mobility (4.29 cm2 V−1 s−1), and\n                                                                         the lowest resistivity (3.13 × 102 Ω cm). Importantly, an increase\n                                                                            in the value of Jsc in the solar-cell device with a film selenized at\n                                                                550 ○C led to a higher PCE (4.69%) compared to that of the device\n                                                                     with films selenized at 480 ○C (3.04%). These results show that the\n                                                                       optimization of the selenization temperature is critical for fabricat-\n                                                                        ing high-efficiency solar cells using a water-based solution approach.\n                                                                     In the future, we will continue to optimize the selenization process to\n      FIG. 7. I–V curves of CZTSSe films selenized at different temperatures. (Inset)\n                                                                    reduce or even eliminate the fine-grained layer in the absorber film,\n      Schematic illustration of the equipment used for the I–V measurements.\n                                                             and we will use cation doping to further suppress the body defect\n\n\n\n\n\nAIP Advances 11, 075205 (2021); doi: 10.1063/5.0053633                                                                                                             11, 075205-6\n\n© Author(s) 2021",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "FIG. 7. I–V curves of CZTSSe films selenized at different temperatures. (Inset)\nSchematic illustration of the equipment used for the I–V measurements.",
+          "figure_bbox": [
+            45.38,
+            483.52,
+            287.34,
+            661.88
+          ],
+          "bbox": [
+            48.09,
+            669.99,
+            284.62,
+            687.01
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 8",
+          "text": "FIG. 8. J–V curves of CZTSSe solar cells with films selenized at 480, 550, and\n610 ○C under AM 1.5G illumination. (Inset) Schematic structure of the cell devices.",
+          "figure_bbox": [
+            307.38,
+            82.22,
+            549.34,
+            267.54
+          ],
+          "bbox": [
+            310.09,
+            275.65,
+            546.62,
+            292.67
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 7",
+          "caption": "FIG. 7. I–V curves of CZTSSe films selenized at different temperatures. (Inset)\nSchematic illustration of the equipment used for the I–V measurements.",
+          "bbox": [
+            45.38,
+            483.52,
+            287.34,
+            661.88
+          ],
+          "file": "extracted_images/page7_figure-7_1.png"
+        },
+        {
+          "label": "Figure 8",
+          "caption": "FIG. 8. J–V curves of CZTSSe solar cells with films selenized at 480, 550, and\n610 ○C under AM 1.5G illumination. (Inset) Schematic structure of the cell devices.",
+          "bbox": [
+            307.38,
+            82.22,
+            549.34,
+            267.54
+          ],
+          "file": "extracted_images/page7_figure-8_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": " AIP Advances                                                          ARTICLE          scitation.org/journal/adv\n\n\n\n\n    concentration of the absorber layer for improvement of the Jsc and     12Y. F. Qi, Q. W. Tian, Y. N. Meng, D. X. Kou, Z.  J. Zhou, W. H. Zhou,\n    Voc values of these solar cells.                                         and S. X. Wu, “Elemental precursor solution processed (Cu1−xAgx)2ZnSn(S,Se)4\n                                                                                        photovoltaic devices with over 10% efficiency,” ACS Appl. Mater. Interfaces 9,\n                                                                            21243–21250 (2017).\n  ACKNOWLEDGMENTS                                                   13S.-H. Wu, C.-W. Chang, H.-J. Chen, C.-F. Shih, Y.-Y. Wang, C.-C. Li, and S.-W.\n                                                                             Chan, “High-efficiency Cu2ZnSn(S,Se)4 solar cells fabricated through a low-cost\n        This study was financially supported by the National Natu-      solution process and a two-step heat treatment,” Prog. Photovoltaics 25, 58–66\n     ral Science Foundation of China (Grant No. 62064010), the Nat-      (2017).\n    ural Science Foundation of Inner Mongolia Autonomous Region     14Q. W. Tian, L. J. Huang, W. G. Zhao, Y. C. Yang, G. Wang, and D. C. Pan,\n    (Grant  Nos. 2020MS05004 and 2019MS01022),  the  Scientific     “Metal sulfide precursor aqueous solutions for fabrication of Cu2ZnSn(S,Se)4 thin\n    Research Foundation of Ordos Institute of Technology (Grant Nos.      film solar cells,” Green Chem. 17, 1269–1275 (2015).\n                                                                                        15Z.-Y. Xiao, B. Yao, Y.-F. Li, Z.-H. Ding, Z.-M. Gao, H.-F. Zhao, L.-G. Zhang,   KYZD2019004 and KYYB2018010), and the Scientific Research\n                                                                                           Z.-Z. Zhang, Y.-R. Sui, and G. Wang, “Influencing mechanism of the  sel-\n    Foundation of the Higher Education Institutions of Inner Mongolia                                                                                         enization  temperature and  time on  the power  conversion  efficiency  of\n   Autonomous Region of China (Grant No. NJZY16379).                  Cu2ZnSn(S,Se)4-based solar cells,” ACS Appl. Mater. Interfaces 8, 17334–17342\n                                                                                           (2016).\n                                                                                             16S. A. Vanalakar, S. W. Shin, G. L. Agawane, M. P. Suryawanshi, K. V. Gurav,\n  DATA AVAILABILITY                                                          P. S. Patil, and J. H. Kim, “Effect of post-annealing atmosphere on the grain-size\n                                                                         and surface morphological properties of pulsed laser deposited CZTS thin films,”\n       The data that support the findings of this study are available     Ceram. Int. 40, 15097–15103 (2014).\n    within the article.                                                         17Q. H. Yi,  J. Wu,  J. Zhao, H. Wang,  J. P. Hu, X. Dai, and G. H. Zou,\n                                                                             “Tuning bandgap of p-type Cu2Zn(Sn,Ge)(S,Se)4 semiconductor thin films via\n                                                                              aqueous polymer-assisted deposition,” ACS Appl. Mater. Interfaces 9, 1602–1608\n  REFERENCES                                                                  (2017).\n                                                                       18W. Li, X. L. Liu, H. T. Cui, S.  J. Huang, and X.  J. Hao, “The role of Ag\n     1P. Jackson, R. Wuerz, D. Hariskos, E. Lotter, W. Witte, and M. Powalla, “Effects      in (Ag,Cu)2ZnSnS4 thin film for solar cell application,” J. Alloys Compd. 625,\n     of heavy alkali elements in Cu(In,Ga)Se2 solar cells with efficiencies up to 22.6%,”     277–283 (2015).\n     Phys. Status Solidi RRL 10, 583–586 (2016).                                        19Y. C. Yang, X. J. Kang, L. J. Huang, S. Wei, and D. C. Pan, “Facile and low-\n    2Q. Yu, J. J. Shi, L. B. Guo, B. W. Duan, Y. H. Luo, H. J. Wu, D. M. Li, and      cost sodium-doping method for high-efficiency Cu2ZnSnSe4 thin film solar cells,”\n    Q.  B.  Meng,  “Eliminating  multi-layer  crystallization  of  Cu2ZnSn(S,Se)4         J. Phys. Chem. C 119, 22797–22802 (2015).\n     absorber by controlling back interface reaction,” Nano Energy 76, 105042     20Q. Yan, S. Y. Cheng, X. Yu, H. J. Jia, J. J. Fu, C. X. Zhang, Q. Zheng, and         19\n     (2020).                                                                                           S. X. Wu, “Mechanism of current shunting in flexible Cu2Zn1−xCdxSn(S,Se)4 solar\n    3G. A. Ren, D. M. Zhuang, M. Zhao, Y. W. Wei, Y. X. Wu, X. C. Li, X. Y. Lyu,       cells,” Sol. RRL 4, 1900410 (2019).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            November    C. Wang, and Y. X. Li, “CZTSSe solar cell with an efficiency of 10.19% based on     21X. G. Lv, Q. Liu, C. J. Zhu, and Z. P. Wang, “Characterization of Cu2ZnSn(S,Se)4\n     absorbers with homogeneous composition and structure using a novel two-step      film by selenizing Cu2ZnSnS4 precursor film from co-sputtering process,” Mater.                  2026\n     annealing process,” Sol. Energy 207, 651–658 (2020).                                      Lett. 180, 68–71 (2016).\n    4Y. C. Du, Q. W. Tian, J. Huang, Y. C. Zhao, X. H. Chang, A. Zhang, and S. H.     22X. G. Lv, C.  J. Zhu, H. M. Hao, R.  J. Liu, Y. M. Wang, and  J. Z. Wang,   Wu, “Heterovalent Ga3+ doping in solution-processed Cu2ZnSn(S,Se)4 solar cells     “Improving  the performance  of  low-cost  water-based  solution-synthesised                                     10:14:28\n     for better optoelectronic performance,” Sustainable Energy Fuels 4, 1621–1629     Cu2ZnSn1−xGex(S,Se)4 absorber thin films by germanium doping,” Ceram. Int.\n     (2020).                                                                              46, 25638–25645 (2020).\n      5J. J. Li, H. X. Wang, M. Luo, J. Tang, C. Chen, W. Liu, F. F. Liu, Y. Sun, J. B. Han,    23W.  J. Yin, Y. L. Wu,  S. H. Wei, R. Noufi, M. M. Al-Jassim, and Y. F.\n    and Y. Zhang, “10% efficiency Cu2ZnSn(S,Se)4 thin film solar cells fabricated by     Yan, “Engineering grain boundaries in Cu2ZnSnSe4 for better cell performance:\n    magnetron sputtering with enlarged depletion region width,” Sol. Energy Mater.   A first-principle study,” Adv. Energy Mater. 4, 1300712 (2014).\n     Sol. Cells 149, 242–249 (2016).                                                    24Y. J. Wu, Y. R. Sui, W. J. He, F. C. Zeng, Z. W. Wang, F. Y. Wang, B. Yao, and\n      6J. Kim, H. Hiroi, T. K. Todorov, O. Gunawan, M. Kuwahara, T. Gokmen, D. Nair,      L. L. Yang, “Substitution of Ag for Cu in Cu2ZnSn(S,Se)4: Toward wide band gap\n    M. Hopstaken, B. Shin, Y. S. Lee, W. Wang, H. Sugimoto, and D. B. Mitzi, “High     absorbers with low antisite defects for thin film solar cells,” Nanomaterials 10, 96\n     efficiency Cu2ZnSn(S,Se)4 solar cells by applying a double In2S3/CdS emitter,”      (2020).\n    Adv. Mater. 26, 7427–7431 (2014).                                               25C. Yan, K. W. Sun, J. L. Huang, S. Johnston, F. Y. Liu, B. Puthen, B. P. Veettil,\n    7H. Xin, S. M. Vorpahl, A. D. Collord, I. L. Braly, A. R. Uhl, B. W. Krueger, D. S.     K. L. Sun, A. B. Pu, F. Z. Zhou, J. A. Stride, M. A. Green, and X. J. Hao, “Beyond\n     Ginger, and H. W. Hillhouse, “Lithium-doping inverts the nanoscale electric field    11% efficient sulfide kesterite Cu2ZnxCd1−xSnS4 solar cell: Effects of cadmium\n     at the grain boundaries in Cu2ZnSn(S,Se)4 and increases photovoltaic efficiency,”      alloying,” ACS Energy Lett. 2, 930–936 (2017).\n     Phys. Chem. Chem. Phys. 17, 23859 (2015).                                          26L. Meng, B. Yao, Y. F. Li, Z. H. Ding, Z. Y. Xiao, K. S. Liu, and G. Wang,\n    8Y. L. Wang, Y. C. Du, L. L. Meng, Y. S. Li, Z. Li, and Q. W. Tian, “Solution-      “Significantly enhancing back contact adhesion and improving  stability  of\n     processed method for high-performance Cu2ZnSn(S,Se)4 thin film solar cells and     Cu2(Zn,Cd)Sn(S,Se)4 solar cell by a rational carbon doping strategy,” J. Alloys\n      its characteristics,” Opt. Mater. 98, 109485 (2019).                           Compd. 710, 403–408 (2017).\n     9Y.-F. Qi, D.-X. Kou, W.-H. Zhou, Z.-J. Zhou, Q.-W. Tian, Y.-N. Meng, X.-S. Liu,      27S. Y. Ma, H. K. Li, J. Hong, H. Wang, X. S. Lu, Y. Chen, L. Sun, F. Y. Yue,\n     Z.-L. Du, and S.-X. Wu, “Engineering of interface band bending and defects elim-        J. W. Tomm, J. H. Chu, and S. Y. Chen, “Origin of band-tail and deep-donor states\n     ination via Ag-graded active layer for efficient (Cu,Ag)2ZnSn(S,Se)4 solar cells,”      in Cu2ZnSnS4 solar cells and their suppression through Sn-poor composition,”\n    Energy Environ. Sci. 10, 2401–2410 (2017).                                                               J. Phys. Chem. Lett. 10, 7929–7936 (2019).\n     10S.-D. Kim, Y.-K. Park, C.-H. Bu, and D. Jung, “One-pot preparation of a      28S. Y. Chen, A. Walsh, J. H. Yang, X. G. Gong, L. Sun, P. X. Yang, J. H. Chu,\n    TiO2/Cu2ZnSnS4 heterojunction and its photocatalytic activity,” Bull. Korean     and S. H. Wei, “Compositional dependence of structural and electronic proper-\n    Chem. Soc. 37, 1071–1075 (2016).                                                              ties of Cu2ZnSn(S,Se)4 alloys for thin film solar cells,” Phys. Rev. B 83, 125201\n     11Y. M. Wang, Y. C. Yang, C. J. Zhu, H. M. Luan, R. J. Liu, L. Wang, C. X. Zhao,      (2011).\n    and X. G. Lv, “Boosting the electrical properties of Cu2ZnSn(S,Se)4 solar cells via     29M. Jamiati, B. Khoshnevisan, and M. Mohammadi, “Effect of Se dopping on\n    low amounts of Mg substituting Zn,” ACS Appl. Energy Mater. 3, 11177–11182      the structural and electronic properties, charge redistribution and efficiency of the\n     (2020).                                                               Cu2ZnSnS4 solar cells,” Energy Sources, Part A 39, 2181–2186 (2017).\n\n\n\n\n\nAIP Advances 11, 075205 (2021); doi: 10.1063/5.0053633                                                                                                             11, 075205-7\n\n© Author(s) 2021",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": " AIP Advances                                                          ARTICLE          scitation.org/journal/adv\n\n\n\n\n    30M. L. Jiang, Q. Tao, F. Lan, C. G. Bottenfield, X. Z. Yan, and G. Y. Li, “Effects of     32M. Paul, M. Dhanasekar, and S. V. Bhat, “Silver doped h-MoO3 nanorods for\n    Se vapor annealing on water-based solution-processed Cu2ZnSn(S,Se)4 thin-film      sonophotocatalytic degradation of organic pollutants in ambient sunlight,” Appl.\n     solar cells,” J. Photonics Energy 5, 053096 (2015).                                        Surf. Sci. 418, 113–118 (2017).\n     31B. Long, S. Cheng, Q. Zheng, J. Yu, and H. Jia, “Effects of sulfurization time     33D. B. Khadka, S. Kim, and  J. Kim, “Ge-alloyed CZTSe thin film solar cell\n    and H2S concentration on electrical properties of Cu2ZnSnS4 films prepared by     using molecular precursor adopting spray pyrolysis approach,” RSC Adv. 6,\n     sol–gel method,” Mater. Res. Bull. 73, 140–144 (2016).                           37621–37627 (2016).\n\n\n\n\n\n                                                                                                                                                                                       19\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            November\n                                                                                                                                                                                                                                                                                                                                                                              2026\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            10:14:28\n\n\n\n\n\nAIP Advances 11, 075205 (2021); doi: 10.1063/5.0053633                                                                                                             11, 075205-8\n\n© Author(s) 2021",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "5e38ee24a13a74eb1510faddb7f3c05f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            0.0,
+            0.0,
+            116.02,
+            791.4
+          ]
+        }
+      ],
+      "file": "garbage/page1_5e38ee24a13a74eb1510faddb7f3c05f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "e8a4a850f98883552bd68be9b69f36d6",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            168.22,
+            119.69,
+            175.18,
+            126.25
+          ]
+        },
+        {
+          "page": 1,
+          "bbox": [
+            246.53,
+            119.69,
+            253.49,
+            126.25
+          ]
+        }
+      ],
+      "file": "garbage/page1_e8a4a850f98883552bd68be9b69f36d6.png",
+      "is_garbage": true
+    },
+    {
+      "id": "e057abd113b1bbd7571ecc59c44e7a76",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            121.0,
+            133.0,
+            207.0,
+            149.0
+          ]
+        }
+      ],
+      "file": "garbage/page1_e057abd113b1bbd7571ecc59c44e7a76.png",
+      "is_garbage": true
+    },
+    {
+      "id": "b451bca4a1b238ba60dabe292e408835",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            130.0,
+            595.56,
+            564.0,
+            712.0
+          ]
+        }
+      ],
+      "file": "garbage/page1_b451bca4a1b238ba60dabe292e408835.jpeg",
+      "is_garbage": true
+    },
+    {
+      "id": "94e3734f531ac22e597993670ab3c0df",
+      "page": 2,
+      "pages": [
+        2
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            530.84,
+            185.11,
+            549.32,
+            203.58
+          ]
+        }
+      ],
+      "file": "garbage/page2_94e3734f531ac22e597993670ab3c0df.png",
+      "is_garbage": true
+    },
+    {
+      "id": "be6fc09e4a5d8e95713ffb76918ec8d9",
+      "page": 2,
+      "pages": [
+        2
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            443.15,
+            185.81,
+            461.39,
+            203.57
+          ]
+        }
+      ],
+      "file": "garbage/page2_be6fc09e4a5d8e95713ffb76918ec8d9.png",
+      "is_garbage": true
+    },
+    {
+      "id": "1893584c396eb6698e5477afa29f712b",
+      "page": 2,
+      "pages": [
+        2
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            490.62,
+            186.59,
+            503.82,
+            200.98
+          ]
+        }
+      ],
+      "file": "garbage/page2_1893584c396eb6698e5477afa29f712b.png",
+      "is_garbage": true
+    },
+    {
+      "id": "ec7d36f2251dd8cf1c8964434c9aa065",
+      "page": 2,
+      "pages": [
+        2
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            112.45,
+            231.51,
+            122.89,
+            241.95
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            206.74,
+            231.51,
+            217.18,
+            241.95
+          ]
+        }
+      ],
+      "file": "garbage/page2_ec7d36f2251dd8cf1c8964434c9aa065.png",
+      "is_garbage": true
+    }
+  ]
+}

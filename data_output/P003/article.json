@@ -1,0 +1,264 @@
+{
+  "publication_id": "P003",
+  "source_file": "P003.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.3",
+    "title": "Solution growth of chalcopyrite Cu(In 1− x Ga x )Se 2 single crystals for high open-circuit voltage photovoltaic device",
+    "creator": "Arbortext Advanced Print Publisher 11.2.5077/W-x64",
+    "producer": "Acrobat Distiller 10.0.0 (Windows)",
+    "creationDate": "D:20220113084947+05'30'",
+    "modDate": "D:20220113084947+05'30'",
+    "DOI": "10.1515/htmp-2021-0047",
+    "year": 2021,
+    "authors": [
+      "Akira Nagaoka",
+      "Yusuke Shigeeda",
+      "Kensuke Nishioka",
+      "Taizo Masuda",
+      "Kenji Yoshino"
+    ],
+    "author": "Akira Nagaoka; Yusuke Shigeeda; Kensuke Nishioka; Taizo Masuda; Kenji Yoshino"
+  },
+  "page_count": 7,
+  "pages": [
+    {
+      "page": 1,
+      "text": "                                                                 High Temperature Materials and Processes 2021; 40: 439–445\n\n\nResearch Article\n\nAkira Nagaoka, Yusuke Shigeeda, Kensuke Nishioka, Taizo Masuda, and Kenji Yoshino*\nSolution growth of chalcopyrite Cu(In1−xGax)Se2\nsingle crystals for high open-circuit voltage\nphotovoltaic device\n\n\n\nhttps://doi.org/10.1515/htmp-2021-0047                         (Idemitsu Kosan) demonstrated a polycrystalline thin-ﬁlm\nreceived September 27, 2021; accepted November 15, 2021       PV device with the highest conversion eﬃciency of 23.35%\n                                                                                 [1]. The commercial modules have already oﬀered stable con-\nAbstract: I–III–VI2 Chalcopyrite Cu(In1−xGax)Se2 (CIGS)\n                                                             version eﬃciencies in the range of 17–19% [2]. However, it ishas attracted attention as absorbing layer in photovoltaic\n                                                         diﬃcult to obtain higher eﬃciency on a module scale due to(PV) device. In this study, we investigated the funda-\n                                                           the diﬃculty in controlling the manufacturing process onmental properties of CIGS single crystals, and fabricated\n                                                               large area substrate. Recently, wide bandgap I–III–VI2 chal-single crystal-based PV device. CIGS single crystals without\n                                                               copyrite compounds have been the focus of intense study forsecondary phase were successfully grown by In-solvent\n                                                         developing wide-gap top cells in tandem structure cells.traveling heater method (THM). The conversion of conduc-\n                                                          Grain boundary, which is typically carrier traps in PVtion type from n- to p-type can be observed above 0.3 of\n                                                           device, plays a signiﬁcant role in the device conversionGa ratio x because of high acceptor defect concentration.\n                                                  eﬃciency in CIGS device. A local built-in potential existsPV device based on high-quality CIGS bulk single crystal\n                                               on grain boundaries of CIGS, which is caused by positivedemonstrates high open-circuit voltage of 0.765 V with the\n                                                      charges trapped at grain boundary. The potential barriereﬃciency of 12.6%.\n                                                  can attract electrons and repulse holes and thus help in\nKeywords: Cu(In1−xGax)Se2, photovoltaic, open-circuit voltage,   the collection of minority carriers [3]. It is known that\nsingle crystal, solution growth                       when the Ga content is above 28%, the conversion eﬃ-\n                                                        ciency decreases due to the lack of potential at grain\n                                                 boundary  [4]. However, experimental evidence about\n1 Introduction                               whether the potential barrier at the grain boundary bene-\n                                                           ﬁts the PV device performance is still not clear. Single-\n                                                                  crystal CIGS device is needed as counterpart to investigate\nThe I–III–VI2 chalcopyrite compounds have received much\n                                                          the reliable properties at grain boundary in polycrystalline\nattention due to its various energy application over the past\n                                                              device. In recent years, single-crystal CIGS PV device grown\nfew decades. Especially, Cu(In1−xGax)Se2 (CIGS) have been\n                                                  by molecular beam epitaxy has demonstrated a high con-\nwell known for its potential in the development of high-eﬃ-\n                                                           version eﬃciency of 20% due to NaF doping, KF post-\nciency and low-cost photovoltaic (PV) device. The bandgap\n                                                           deposition treatment, and Ga compositional grading [5].\nenergy can be changed from 0.9 eV for CuInSe2 (CIS) to\n                                                      There have been few recent fundamental studies on the\n1.68 eV for CuGaSe2 (CGS) by the ratio of In and Ga, which\n                                                     growth and characterization of CIGS single crystal because\nis suitable for PV absorber material. Recently, Solar Frontier\n                                                         thin-ﬁlm PV device has become the mainstream of current\n                                                              research. Indeed, the ﬁrst of CIGS solar cell was based on a\n                                                CIS single crystal and achieved 12% eﬃciency [6]. Consid-\n* Corresponding author: Kenji Yoshino, Department of Applied\nPhysics and Electronic Engineering, University of Miyazaki, Miyazaki   ering the abovementioned results, the investigations of\n889-2192, Japan, e-mail: t0b114u@cc.miyazaki-u.ac.jp            both the properties of single-crystal and polycrystalline\nAkira Nagaoka, Kensuke Nishioka: Research Center for Sustainable  CIGS are required for further improvement in eﬃciency.\nEnergy & Environmental Engineering, University of Miyazaki,         Especially, single-crystal CIGS device will be helpful to\nMiyazaki 889-2192, Japan\n                                                            reveal the correlation between PV properties and grain\nYusuke Shigeeda: Department of Applied Physics and Electronic\n                                                     boundary.Engineering, University of Miyazaki, Miyazaki 889-2192, Japan\nTaizo Masuda: Carbon Neutral Development Division, Toyota Motor    We will return to the starting point and investigate\nCorporation, Shizuoka 410-1193, Japan                         the bulk single crystals for insights that lead to even\n\n\n  Open Access. © 2021 Akira Nagaoka et al., published by De Gruyter.               This work is licensed under the Creative Commons Attribution 4.0\nInternational License.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "440    Akira Nagaoka et al.\n\n\n\nhigher eﬃciency. It is generally diﬃcult to grow high-     X is deﬁned as the mol% of the CIGS solute in the In\nquality single crystals of the I–III–VI2 chalcopyrite com-   solution in this study:\npounds. This is because most compounds undergo peri-\n                                                                        CIGS [mol ]\ntectic and/or solid phase transitions during the cooling       X [mol%] =                  × 100.      (1)\n                                                                   CIGS [mol ] + In [mol ]\nprocess. CIGS single crystals can be grown by the tra-\nveling heater method (THM) based on a solution growth  The mixture of CIGS and In with X = 80 mol% from equa-\ntechnique [7,8]. Some of the advantages of the THM   tion (1) was loaded into a carbon-coated quartz ampoule\ngrowth are that the growth temperature is lower than  with 2 mm wall thickness and 10 mm inner diameter. The\nmelt growth technology and larger crystals can be grown  ampoule was ﬂame-sealed oﬀunder high vacuum of\ncompared to traditional solution growth. We investigated   10−6 Torr and then inserted into the THM furnace. The\nthe fundamental properties of CIGS single crystals, and  THM furnace has three coil heaters (upper, main, and\nfabricated single crystal-based PV device.                bottom) for controlling temperature gradient [10,11]. The\n                                                   upper heater temperature of 800°C was used to prevent a\n                                                   Se deﬁciency in the grown CIGS crystal. The Se species\n                                                       evaporated from liquid zone condensed on the cold wall\n2 Materials and methods                   of the ampoule without heating the upper part, thereby\n                                                       reducing the Se mole fraction in the crystal. For the THM\nFeed polycrystalline of Cu(In1−xGax)Se2 (x = 0–0.5) was   growth, the main heater temperature (growth tempera-\nsynthesized by using a melting reaction [9]. Cu (99.999%),   ture) was 850°C which is 50°C higher than the liquids’\nIn (99.9999%), Ga (99.9999%), and Se (99.999%) shots   temperature, and temperature gradient between the main\ncorresponding to each Ga ratio of x were used as starting  and bottom heaters (the supersaturation region for single\nmaterials. Prior to growth, Cu, In, and Ga were chemically   crystal growth) was about 40°C·cm−1. This temperature gra-\netched with HCl solution for 60 s and then rinsed in ultra-   dient can control the length of solution zone. The growth\npure 18 MΩ water. The ingots (15 g) with nominal compo-  speed was 4–5 mm per day for 10 days. CIGS single crystals\nsitions were synthesized by mixing the described amounts  were cooled at the rate of 500°C·h−1 from 700°C after crystal\nof elements in a carbon-coated 2 mm wall thickness quartz   growth. The sample wafers were cut from the middle of the\nampoule with 9 mm inner diameter under high vacuum of  CIGS ingots and polished with 0.5 µm Al2O3 paste, and\n10−6 Torr and then ﬂame-sealed oﬀ. In a vertical furnace,   ﬁnally rinsed with deionized water.\nthe sealed ampoule was heated at 200°C·h−1 to 650°C and      The structural properties were measured by X-ray\nheld at this temperature for 24 h to react the constituents   diﬀraction (XRD; X’Pert PRO, Panalytical) and Raman\nand prevent explosion from the Se overpressure. Then, the   spectroscopy (HORIBA T64000). The tube voltage, tube\nsealed ampoule was heated at 100°C·h−1 to 1,100°C and held   current, and step width for XRD were measured as 40 kV,\nat this temperature for 24 h to complete the reaction and  40 mA, and 0.01°, respectively, using a Cu Kα radiation\nensure homogenization. The ampoule was then removed   source. The 532 nm laser excitation source was used in\nfrom the furnace and allowed to cool rapidly in air.         the Raman measurements and focused on the sample by\n\n\n\n\n\nFigure 1: Photographs of CIGS single crystals with Ga content x = (a) 0.2 and (b) 0.5. (c) XRD of the cutting plane perpendicular to growth\ndirection (= c-axis). Inset picture is CIGS wafer (x = 0.5).",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1: Photographs of CIGS single crystals with Ga content x = (a) 0.2 and (b) 0.5. (c) XRD of the cutting plane perpendicular to growth\ndirection (= c-axis). Inset picture is CIGS wafer (x = 0.5).",
+          "figure_bbox": [
+            91.26,
+            544.07,
+            515.24,
+            698.98
+          ],
+          "bbox": [
+            62.36,
+            709.12,
+            544.15,
+            728.29
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1: Photographs of CIGS single crystals with Ga content x = (a) 0.2 and (b) 0.5. (c) XRD of the cutting plane perpendicular to growth\ndirection (= c-axis). Inset picture is CIGS wafer (x = 0.5).",
+          "bbox": [
+            91.26,
+            544.07,
+            515.24,
+            698.98
+          ],
+          "file": "extracted_images/page2_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "                                                          Solution growth of chalcopyrite Cu(In1−xGax)Se2 single crystals   441\n\n\n\n                                                              at 300 K. An ohmic contact was made from In for n-type\n                                                          or Au for p-type conduction. Contacts, each with a dia-\n                                                    meter of 1 mm and thickness of approximately 200 nm,\n                                                  were evaporated onto the corners of the samples for elec-\n                                                                      trical measurements.\n                                                         For PV device fabrication, CIGS wafers with diameter\n                                                             of 10 mm and thickness of 0.5 mm were etched by 5% Br2/\n                                                  methanol solution for 5 min followed by RF sputtering\n                                                         deposition for  all layers at room temperature in Ar.\n                                                                     First, a blanket Mo (or Au) layer of 500 nm was deposited\n                                                       as the back-contact. The pn junction was formed by sput-\n                                                             tering 50–100 nm of CdS buﬀer at 50 W followed by an\n                                                                 intrinsic layer of 100 nm of ZnO (i-ZnO) and a transparent\n                                                     conducting oxide (TCO) layer of 200 nm of Al-doped ZnO\n                                                    (AZO: 2 wt% Al2O3 in ZnO). A grid of 1,500 nm Al was\n                                                       deposited at 150 W. An annealing treatment at 300°C in\nFigure 2: Powder XRD patterns of CIGS single crystals (Ga content   an ambient of ﬂowing 96% Ar–4% H2 for 10 min was\nx = 0.1–0.5).                                              applied after device fabrication. Device characterization\n                                                       included 1-sun current density–voltage (J–V) measure-\n                                               ment in a home-built system and capacitance–voltage (CV)\nan objective lens with a numerical aperture of 0.55. The\n                                                              at 1 MHz with 30 mV AC voltage over the DC bias range of\nlaser power on the sample was 100 mW. The spectra were\n                                                  −2 to 0.5 V.\ncalibrated based on 520 cm−1 of Si peak.\n   The average composition of the samples was ana-\nlyzed using scanning electron microscopy (SEM; SU-\n3500 Hitachi) and energy-dispersive X-ray spectroscopy 3 Results and discussion\n(EDS). The conventional ZAF (atomic number, absorption,\nand ﬂuorescence) corrections were performed for EDS.\n                                                         In our previous study [10], CIGS single crystal (x = 0.2)\n   The electrical properties were obtained by Hall eﬀect\n                                              was obtained by THM growth. It is successful to grow CIGS\nmeasurements (ResiTest8300; TOYO Corporation), oper-\n                                                             single crystals with various Ga fraction (x = 0.1–0.5) in this\nated in a 0.45 T magnetic ﬁeld in van der Pauw geometry\n\n\n\n\n\nFigure 3: Raman spectra of CIGS single crystals (Ga content          Figure 4: Average compositions of each CIGS single crystal wafer\nx = 0–0.5).                                                   (Ga content x = 0–0.5) by EDS measurement.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2: Powder XRD patterns of CIGS single crystals (Ga content\nx = 0.1–0.5).",
+          "figure_bbox": [
+            49.76,
+            67.9,
+            287.51,
+            270.72
+          ],
+          "bbox": [
+            51.02,
+            280.86,
+            283.36,
+            300.03
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3: Raman spectra of CIGS single crystals (Ga content\nx = 0–0.5).",
+          "figure_bbox": [
+            65.01,
+            492.19,
+            272.26,
+            698.98
+          ],
+          "bbox": [
+            51.02,
+            709.12,
+            261.25,
+            728.29
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4: Average compositions of each CIGS single crystal wafer\n(Ga content x = 0–0.5) by EDS measurement.",
+          "figure_bbox": [
+            311.62,
+            478.42,
+            518.87,
+            698.98
+          ],
+          "bbox": [
+            297.64,
+            709.16,
+            526.8,
+            728.29
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2: Powder XRD patterns of CIGS single crystals (Ga content\nx = 0.1–0.5).",
+          "bbox": [
+            49.76,
+            67.9,
+            287.51,
+            270.72
+          ],
+          "file": "extracted_images/page3_figure-2_1.png"
+        },
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3: Raman spectra of CIGS single crystals (Ga content\nx = 0–0.5).",
+          "bbox": [
+            65.01,
+            492.19,
+            272.26,
+            698.98
+          ],
+          "file": "extracted_images/page3_figure-3_2.png"
+        },
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4: Average compositions of each CIGS single crystal wafer\n(Ga content x = 0–0.5) by EDS measurement.",
+          "bbox": [
+            311.62,
+            478.42,
+            518.87,
+            698.98
+          ],
+          "file": "extracted_images/page3_figure-4_3.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "442    Akira Nagaoka et al.\n\n\n\n\n\nFigure 5: Electrical properties of (a) resistivity, (b) carrier concentration, and (c) mobility by Hall eﬀect measurement. Circle and square\nsymbols represent n-type and p-type, respectively.\n\n\nstudy. Photographs of CIGS single crystal (x = 0.2 and 0.5)  where the 008 reﬂect plane can be observed by XRD in\ningots are shown in Figure 1(a) and (b). The dimensions of   Figure 1(c). The [001] crystallographic orientation can be\nsingle crystal ingot are 10 mm in diameter and 30 mm in  observed in wafer samples without grain boundaries by\nlength including zone solution region. CIGS single crystals   visually inspecting. The powder XRD patterns of CIGS\nwere cut perpendicular to growth direction (= c-axis),   single crystal at 300 K are shown in Figure 2, and exhibit\n\n\n\n\n\nFigure 6: Properties of PV device based on CIGS single crystal. (a) Device structure, (b) J–V curve, (c) EQE spectrum, and (d) the net acceptor\nconcentration versus depletion width W from CV measurement. The value of depletion width W at 0 V bias is 210 nm. The p-type conversion\nof CIGS (x = 0.2) single crystal absorbing layer was carried out by Se-annealing.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5: Electrical properties of (a) resistivity, (b) carrier concentration, and (c) mobility by Hall eﬀect measurement. Circle and square\nsymbols represent n-type and p-type, respectively.",
+          "figure_bbox": [
+            60.36,
+            67.9,
+            549.6,
+            220.66
+          ],
+          "bbox": [
+            62.36,
+            230.8,
+            539.55,
+            249.84
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6: Properties of PV device based on CIGS single crystal. (a) Device structure, (b) J–V curve, (c) EQE spectrum, and (d) the net acceptor\nconcentration versus depletion width W from CV measurement. The value of depletion width W at 0 V bias is 210 nm. The p-type conversion\nof CIGS (x = 0.2) single crystal absorbing layer was carried out by Se-annealing.",
+          "figure_bbox": [
+            90.3,
+            369.28,
+            516.32,
+            700.85
+          ],
+          "bbox": [
+            62.42,
+            710.94,
+            544.23,
+            741.1
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5: Electrical properties of (a) resistivity, (b) carrier concentration, and (c) mobility by Hall eﬀect measurement. Circle and square\nsymbols represent n-type and p-type, respectively.",
+          "bbox": [
+            60.36,
+            67.9,
+            549.6,
+            220.66
+          ],
+          "file": "extracted_images/page4_figure-5_1.png"
+        },
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6: Properties of PV device based on CIGS single crystal. (a) Device structure, (b) J–V curve, (c) EQE spectrum, and (d) the net acceptor\nconcentration versus depletion width W from CV measurement. The value of depletion width W at 0 V bias is 210 nm. The p-type conversion\nof CIGS (x = 0.2) single crystal absorbing layer was carried out by Se-annealing.",
+          "bbox": [
+            90.3,
+            369.28,
+            516.32,
+            700.85
+          ],
+          "file": "extracted_images/page4_figure-6_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "                                                          Solution growth of chalcopyrite Cu(In1−xGax)Se2 single crystals   443\n\n\n\nmajor peaks corresponding to diﬀraction lines of the chal-   device structure is shown in Figure 6(a). It is diﬃcult\ncopyrite structure of CIGS (ICDD data # 00-040-1487   for p-type CIGS above x = 0.3 as absorbing layer to\nCuInSe2 and ICDD data #00-035-1102 CuIn0.5Ga0.5Se2). No  work PV device due to low carrier concentration and\ndistinct peaks of secondary phases are observed in the   high resistivity [5]. The p-type conversion of CIGS (x = 0.2)\nXRD pattern. The diﬀraction peaks from 112, 220, and 312  was carried out by Se-annealing under high vacuum at 750°C\nplanes were observed clearly in all samples indicating the   for 24 h, which indicates hole concentration of 1016–1017 cm−3,\nformation of CIGS phase. The peak shift to higher angle   resistivity of 1–50 Ω·cm, and hole mobility of 35–80 cm2·V−1·s−1.\nbeing proportional to the compositional x value, especially  A typical J–V curve of the CIGS PV device under simulated\n112 peak position, can be observed following Vegard’s law.  AM1.5 irradiation (100 mW cm−2) is shown in Figure 6(b). The\n   The combination of XRD and Raman spectroscopy is  eﬃciency of the obtained device was 12.6%. The short-circuit\na useful tool for the investigation of secondary phases   current density (Jsc) of 27.5 mA·cm−2, an open circuit, voltage\nbecause the XRD peaks of CIGS especially overlap well   (Voc) of 0.765 V, ﬁll factor (FF) of 0.61, series resistance (RS)\nwith those of Cu2Se. No secondary phases, such as Cu2Se   of 8.7 Ω·cm2, and shunt resistance (RSH) of 167 Ω·cm2 were\nat 260 cm−1 [12,13], were observed in Raman measure-   obtained.\nment by 532 nm excitation source, as shown in Figure 3.       Considering the loss of Jsc, the external quantum eﬃ-\nA typical Raman peak of CIGS was observed with peak   ciency (EQE) shows an overall low value in Figure 6(c) indi-\nshift between 175 cm−1 for CIS and 185 cm−1 for CGS corre-   cating that the recombination loss is large. Especially small\nsponding well to data for CIGS in the literature [12,13],  EQE in the long wavelength region is deduced to be incom-\nindicating that single-phase CIGS was obtained for all   plete collection of carriers generated in CIGS. In addition,\nsamples. This peak is the A1 symmetry mode resulting   the EQE with a small short wavelength region is deduced\nfrom the motion of Se atom with the Cu and In (Ga) atoms.   to be light absorption by the CdS (∼490 nm) and/or ZnO\n    Figure 4 shows the average compositions of CIGS   (∼370 nm) layers [16]. The values of RS and RSH in this study\nsingle crystal wafers from EDS mapping at the scale of   are poorer than epitaxial CIGS device with RS = 1.3 Ω·cm2 and\nseveral hundred micrometers, where the uncertainty is  RSH = 26,000 Ω·cm2 [5], which may result in small FF value.\nless than 1%. It can be clearly seen that the composition      The bandgap value of CIGS (x = 0.2) is estimated to\nis homogeneous on the wafer.                         be 1.216 eV from EQE spectrum (derivative of EQE with\n   The electrical properties such as (a) resistivity, (b) car-   respect to wavelength). Thus, the Voc loss in this study is\nrier concentration, and (c) mobility were determined by Hall   estimated to be 0.451 V. The Voc value of CIGS single-\neﬀect measurements at 300 K as shown in Figure 5. The   crystal PV is higher than that of 0.740–0.750 V for CIGS\nconversion of conduction type from n- to p-type can be   (not alloying with S) thin-ﬁlm device with 20% eﬃciency\nobserved above 0.3 of Ga ratio x in Figure 5(a).  It has   [17]. The net acceptor concentration in depletion region\nbeen shown that the lowest formation energy is Cu vacancy   of single-crystal device was obtained from CV measure-\n(VCu = acceptor) in CIS and CGS through ﬁrst-principle cal-  ment as a function of depletion width W in Figure 6(d),\nculations, which leads to p-type conduction [14,15]. The In  which is based on Mott–Schottky plot (C−2 versus bias\n(Ga) on Cu antisite defects (InCu and GaCu = donor) are low   voltage) [18]. U-shape characteristic in CV proﬁle can\nin formation for n-type conduction, where the formation  be observed due to diﬀerent factors such as Ohmic prop-\nenergy of GaCu is larger than that of InCu [15]. It is assumed   erties at back contact and the presence of deep level\nthat InCu causes n-type conduction in CIGS (x = 0–0.2)   defects [18]. The eﬀect of the back-diode can show up\nsingle crystal under In-rich growth condition. CGS shows  under forward bias because of low Ohmic property at\nstrong p-type conduction with hole concentration of 1018 to  back contact which causes measured capacitance to be\n1020 cm−3 by VCu and Cu on Ga antisite defects (CuGa) under   artiﬁcially reduced leading to an apparent increase in the\nwider range of Ga-poor/rich condition and higher donor   acceptor concentration under a forward bias [19]. Under\nformation energy than CIS [15], which may lead to the  high reverse bias, the apparent increase in carrier con-\nconversion from n- to p-type above x = 0.3 in CIGS. The   centration at the non-Ohmic back contact can be due to\nself-compensation results in lower carrier concentration   reasons such as the presence of deep acceptor levels,\nand higher resistivity increasing Ga content. The mobility  a Schottky contact, or actual increased p-type doping at\nslightly decreased with increasing Ga content in CIGS   the back contact. An apparent contribution to the acceptor\nsingle crystal because the impact of impurity scattering   concentration from a Schottky contact can occur when\nmay be dominant by high defect concentration in CGS.     trap levels are populated under reverse bias because of\n    Single crystal-based PV device was fabricated by   increase in band bending but are otherwise above the\nusing CIGS (x = 0.2) sample as absorbing layer, and  Fermi level and thus unoccupied under normal conditions,",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "444    Akira Nagaoka et al.\n\n\n\nresulting in the right branch of the U-shape in Figure 6(d)  Data availability statement: The raw/processed data of\n[18]. The net acceptor concentration of 1016 cm−3 in   these ﬁndings can be shared by contacting the corre-\nCIGS single-crystal PV device is thus best estimated  sponding author.\nfrom bottom of the U-shaped CV proﬁle in the small\nbias region. Even though further improvement of back\ncontact is required for higher eﬃciency, we demonstrated  References\nhigh Voc value as potential for CIGS single-crystal-based\nPV device.                                                                    [1]  Nakamura, M., K. Yamaguchi, Y. Kimoto, Y. Yasaki, T. Kato, and\n                                                                        H. Sugimoto. Cd-Free Cu(In,Ga)(Se,S)2 thin-ﬁlm solar cell with\n                                                                       record eﬃciency of 23.35%. IEEE Journal of Photovoltaics,\n                                                                               Vol. 9, 2019, pp. 1863–1867.\n                                                                           [2]  Green, M. A., E. D. Dunlop, J. Hohl-Ebinger, M. Yoshita,\n4 Conclusion                                                N. Kopidakis, and X. Hao. Solar cell eﬃciency tables (Version\n                                                                             58). Progress in Photovoltaics, Vol. 29, 2021, pp. 657–667.\nWe have experimentally studied the growth and basic    [3]   Jiang, C.-S., R. Nouﬁ, J. A. AbuShama, K. Ramanathan,\n                                                                        H. R. Moutinho, J. Pankow, et al. Local build-in potential on\nproperties of Cu(In1−xGax)Se2 (x = 0–0.5) single crystal                                                                          grain boundary of Cu(In,Ga)Se2 thin ﬁlms. Applied Physics\nfor higher eﬃciency PV device. Large size CIGS single         Letters, Vol. 84, 2004, pp. 3477–3479.\ncrystals were successfully grown by the In-solution THM.   [4]   Jiang, C.-S., R. Nouﬁ, K. Ramanathan, J. A. AbuShama,\nNo secondary phases were observed from XRD and Raman        H. R. Moutinho, and M. M. Al-Jassim. Does the local built-in\nspectroscopy measurements. The conversion of conduc-         potential on grain boundaries of Cu(In,Ga)Se2 thin ﬁlms ben-\n                                                                      eﬁt photovoltaic performance of the device? Applied Physics\ntion type from n- to p-type can be observed above 0.3 of\n                                                                                  Letters, Vol. 85, 2004, pp. 2625–2627.\nGa ratio x because CGS shows strong p-type conduction                                                                              [5]   Nishinaga, J., T. Nagai, T. Sugaya, H. Shibata, and S. Niki.\nwith higher hole concentration by VCu and CuGa defects         Single-crystal Cu(In,Ga)Se2 solar cells grown on GaAs sub-\nand higher donor formation energy than CIS. PV device         strates. Applied Physics Express, Vol. 11, 2018, id. 082302.\nbased on high-quality CIGS bulk single crystal demon-   [6]  Shay, J. L., S. Wagner, and H. M. Kasper. Eﬃcient CuInSe2/CdS\nstrates high Voc of 0.765 V with the eﬃciency of 12.6%.         solar cells. Applied Physics Letters, Vol. 27, 1975, pp. 89–91.\n                                                                             [7]  Miyake, H. and K. Sugiyama. THM growth and properties of\nImprovements in the CIGS/CdS interface as n-type doping\n                                                                   CuInSe2 single crystals. Journal of Crystal Growth, Vol. 125,\nin the buﬀer layer and Ohmic property at back contact are        1992, pp. 548–552.\nour ongoing work.                                                  [8]  Miyake, H., T. Haginoya, and K. Sugiyama. Phase relations in\n                                                                      the CuGaxIn1−xSe2-In pseudobinary system. Japanese Journal\nAcknowledgements: This work was supported by the         of Applied Physics, Vol. 36, 1997, pp. 785–786.\n                                                                          [9]  Yoshino, K., H. Yokoyama, K. Maeda, and T. Ikari. Crystal\nJSPS KAKENHI Grant Number JP20K15221 and 2020 Young\n                                                                  growth and photoluminescence of CuInXGa1−XSe2 alloys.\nResearcher Award from Kenjiro Takayanagi Foundation.                                                                           Journal of Crystal Growth, Vol. 211, 2000, pp. 476–479.\n                                                                         [10] Nagaoka, A., Y. Nose, H. Miyake, M. A. Scarpulla, and\nFunding information: This work was funded by the Japan         K. Yoshino. Solution growth of chalcopyrite compounds single\nSociety for the Promotion of Science (JSPS) and Kenjiro         crystal. Renewable Energy, Vol. 79, 2015, pp. 127–130.\nTakayanagi Foundation.                                               [11]  Nagaoka, A., K. Yoshino, H. Taniguchi, T. Taniyama, and\n                                                                        H. Miyake. Preparation of Cu2ZnSnS4 single crystals from Sn\n                                                                             solutions. Journal of Crystal Growth, Vol. 341, 2012, pp. 38–41.\nAuthor contributions: Akira Nagaoka: conceptualization,   [12]  Rincon, C. and F. J. Ramírez. Lattice vibrations of CuInSe2 and\ndata curation, formal analysis, funding acquisition, investi-       CuGaSe2 by Raman microspectrometry. Journal of Applied\ngation, methodology, validation, visualization, and writing –        Physics, Vol. 72, 1992, pp. 4321–4324.\noriginal draft; Yusuke Shigeeda: data curation, formal ana-   [13]  Witte, W., R. Kniese, and M. Powalla. Raman investigations of\n                                                                       Cu(In,Ga)Se2 thin ﬁlms with various copper contents. Thinlysis, and investigation; Kensuke Nishioka: conceptualiza-\n                                                                           Solid Films, Vol. 517, 2008, pp. 867–869.\ntion, supervision, and writing – review and editing; Taizo                                                                         [14] Zhang, S. B., S. H. Wei, A. Zunger, and H. Katayama-Yoshida.\nMasuda: formal analysis and writing – review and editing;        Defect physics of the CuInSe2 chalcopyrite semiconductor.\nKenji Yoshino: conceptualization, supervision, and writing –        Physical Review B, Vol. 57, 1998, pp. 9642–9656.\nreview and editing.                                                     [15]  Bekaert, J., R. Saniz, B. Partoens, and D. Lamoen. Native point\n                                                                         defects in CuIn1−xGaxSe2: hybrid density functional calcula-\n                                                                            tions predict the origin of p- and n-type conductivity. Physical\nConﬂict of interest: No conﬂict of interest exits in the\n                                                                     Chemistry Chemical Physics, Vol. 16, 2014, pp. 22299–22308.\nsubmission of this manuscript, and manuscript is approved   [16] Luque, A. and S. Hegedus. Handbook of photovoltaic science and\nby all authors for publication.                                          engineering, Wiley, New York, USA, 2003, pp. 568.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "                                                          Solution growth of chalcopyrite Cu(In1−xGax)Se2 single crystals   445\n\n\n\n[17]  Chirilӑ, A., P. Reinhard, F. Pianezzi, P. Bloesch, A. R. Uhl,           back contact, and absorber thickness on capacitance–voltage\n     C. Fella, et al. Potassium-induced surface modiﬁcation of Cu         proﬁling of CdTe thin-ﬁlm solar cells. Solar Energy Materials\n     (In,Ga)Se2 thin ﬁlms for high-eﬃciency solar cells. Nature          and Solar Cells, Vol. 100, 2012, pp. 126–131.\n     Materials, Vol. 12, 2013, pp. 1107–111.                            [19] Niemegeers, A. and M. Burgelman. Eﬀect of the Au/CdTe back\n[18]  Li, J. V., A. F. Halverson, O. V. Sulima, S. Bansal, J. M. Burst,         contact on IV and CV characteristics of Au/CdTe/CdS/TCO solar\n      T. M. Barnes, et al. Theoretical analysis of eﬀects of deep level,          cells. Journal of Applied Physics, Vol. 81, 1997, pp. 2881–2886.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": []
+}

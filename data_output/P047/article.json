@@ -1,0 +1,426 @@
+{
+  "publication_id": "P047",
+  "source_file": "P047.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Hysteresis Analysis of Hole-Transport-Material-Free Monolithic Perovskite Solar Cells with Carbon Counter Electrode by Current Density–Voltage and Impedance Spectra Measurements",
+    "author": "Syed Afaq Ali Shah; Muhammad Hassan Sayyad; Jinghua Sun; Zhongyi Guo",
+    "subject": "Due to the tremendous increase in power conversion efficiency (PCE) of organic–inorganic perovskite solar cells (PSCs), this technology has attracted much attention. Despite being the fastest-growing photovoltaic technology to date, bottlenecks such as current density–voltage (J–V) hysteresis have significantly limited further development. Current density measurements performed with different sweep scan speeds exhibit hysteresis and the photovoltaic parameters extracted from the current density–voltage measurements for both scan directions become questionable. A current density–voltage measurement protocol needs to be established which can be used to achieve reproducible results and to compare devices made in different laboratories. In this work, we report a hysteresis analysis of a hole-transport-material-free (HTM-free) carbon-counter-electrode-based PSC conducted by current density–voltage and impedance spectra measurements. The effect of sweep scan direction and time delay was examined on the J–V characteristics of the device. The hysteresis was observed to be strongly sweep scan direction and time delay dependent and decreased as the delay increased. The J–V analysis conducted in the reverse sweep scan direction at a lower sweep time delay of 0.2 s revealed very large increases in the short circuit current density and the power conversion efficiency of 57.7% and 56.1%, respectively, compared with the values obtained during the forward scan under the same conditions. Impedance spectroscopy (IS) investigations were carried out and the effects of sweep scan speed, time delay, and frequency were analyzed. The hysteresis was observed to be strongly sweep scan direction, sweep time delay, and frequency dependent. The correlation between J–V and IS data is provided. The wealth of photovoltaic and impendence spectroscopic data reported in this work on the hysteresis study of the HTM-free PSC may help in establishing a current density–voltage measurement protocol, identifying components and interfaces causing the hysteresis, and modeling of PSCs, eventually benefiting device performance and long-term stability.",
+    "keywords": "hysteresis; monolithic perovskite solar cell; hole transport material free; CH3NH3PbI3; current–voltage measurement protocol; impedance spectroscopy",
+    "creator": "LaTeX with hyperref package",
+    "producer": "pdfTeX-1.40.18",
+    "creationDate": "D:20201228104144+08'00'",
+    "modDate": "D:20201228105111+08'00'",
+    "DOI": "10.3390/nano11010048",
+    "year": 2020,
+    "authors": [
+      "Syed Afaq Ali Shah",
+      "Muhammad Hassan Sayyad",
+      "Jinghua Sun",
+      "Zhongyi Guo"
+    ]
+  },
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "      nanomaterials\n\n\n\nArticle\nHysteresis Analysis of Hole-Transport-Material-Free\nMonolithic Perovskite Solar Cells with Carbon Counter\nElectrode by Current Density–Voltage and Impedance\nSpectra Measurements\n\nSyed Afaq Ali Shah 1, Muhammad Hassan Sayyad 2, Jinghua Sun 1  and Zhongyi Guo 1,3,*\n\n\n                                            1   School of Electrical Engineering & Intelligentization, Dongguan University of Technology, Dongguan 523808,\n                                      China; ali.shah82@hotmail.com (S.A.A.S.); sunjh@dgut.edu.cn (J.S.)\n                                            2  Advanced Photovoltaic Research Labs (APRL), Faculty of Engineering Sciences, Ghulam Ishaq Khan Institute\n                                         of Engineering Sciences and Technology, Topi, District Swabi, Khyber Pakhtunkhwa 23640, Pakistan;\n                                     sayyad@giki.edu.pk\n                                            3   School of Computer and Information, Hefei University of Technology, Hefei 230009, China\n                                     *   Correspondence: guozhongyi@hfut.edu.cn; Tel.: +86-186-5515-1981\n\n\n                                Abstract: Due to the tremendous increase in power conversion efﬁciency (PCE) of organic–inorganic\n                               perovskite solar cells (PSCs), this technology has attracted much attention.  Despite being the\n                                fastest-growing photovoltaic technology to date, bottlenecks such as current density–voltage (J–V)\n                                  hysteresis have signiﬁcantly limited further development. Current density measurements performed\n                            with different sweep scan speeds exhibit hysteresis and the photovoltaic parameters extracted\n                           from the current density–voltage measurements for both scan directions become questionable. A\n                                current density–voltage measurement protocol needs to be established which can be used to achieve\n                                reproducible results and to compare devices made in different laboratories. In this work, we report a\n                                  hysteresis analysis of a hole-transport-material-free (HTM-free) carbon-counter-electrode-based PSC\nCitation: Shah, S.A.A.; Sayyad, M.H.;\nSun, J.; Guo, Z. Hysteresis Analysis of   conducted by current density–voltage and impedance spectra measurements. The effect of sweep\nHole-Transport-Material-Free         scan direction and time delay was examined on the J–V characteristics of the device. The hysteresis\nMonolithic Perovskite Solar Cells     was observed to be strongly sweep scan direction and time delay dependent and decreased as the\nwith Carbon Counter Electrode by      delay increased. The J–V analysis conducted in the reverse sweep scan direction at a lower sweep\nCurrent Density–Voltage and         time delay of 0.2 s revealed very large increases in the short circuit current density and the power\nImpedance Spectra Measurements.      conversion efﬁciency of 57.7% and 56.1%, respectively, compared with the values obtained during the\nNanomaterials 2021, 11, 48.           forward scan under the same conditions. Impedance spectroscopy (IS) investigations were carried\nhttps://dx.doi.org/10.3390/         out and the effects of sweep scan speed, time delay, and frequency were analyzed. The hysteresis\nnano11010048\n                        was observed to be strongly sweep scan direction, sweep time delay, and frequency dependent.\n                          The correlation between J–V and IS data is provided. The wealth of photovoltaic and impendence\nReceived: 20 December 2020\n                                spectroscopic data reported in this work on the hysteresis study of the HTM-free PSC may help in\nAccepted: 23 December 2020\n                                  establishing a current density–voltage measurement protocol, identifying components and interfacesPublished: 27 December 2020\n                              causing the hysteresis, and modeling of PSCs, eventually beneﬁting device performance and long-\nPublisher’s Note: MDPI stays neu-    term stability.\n\ntral with regard to jurisdictional claims\nin published maps and institutional    Keywords: hysteresis; monolithic perovskite solar cell; hole transport material free; CH3NH3PbI3;\nafﬁliations.                       current–voltage measurement protocol; impedance spectroscopy\n\n\n\n\n\nCopyright: © 2020 by the authors. Li-\n                                   1. Introduction\ncensee MDPI, Basel, Switzerland. This\narticle is an open access article distributed      Organic–inorganic lead halide perovskites have attracted considerable attention due\nunder the terms and conditions of the    to their many excellent advantages, such as direct bandgap, bandgap tunability, high\nCreative Commons Attribution (CC BY)   absorption coefﬁcient, high carrier mobility, long carrier diffusion length, solution pro-\nlicense (https://creativecommons.org/    cessability, and lower cost [1–6]. Due to these advantages, perovskite solar cells (PSCs)\nlicenses/by/4.0/).              employing these materials have taken the photovoltaic (PV) community by storm and the\n\n\n\n\n\nNanomaterials 2021, 11, 48. https://dx.doi.org/10.3390/nano11010048                          https://www.mdpi.com/journal/nanomaterials",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "6f52dcd65bcbc64691c972bfe28d289f",
+        "5797106393d6b0568cd6338d4996337f",
+        "80f61060f2d1cb6feeb461b85bc99628",
+        "ac2195fdf59a9df60cf07ffe81b1c038",
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Nanomaterials 2021, 11, 48                                                                                                        2 of 9\n\n\n\n                       power conversion efﬁciency (PCE) of these devices has drastically improved from 3.8% in\n                          2009 [7] to 25.2% in 2020 [8], which is comparable to silicon solar cell technology.\n                               Despite obvious advantages of PSCs, the use of an expensive spiro-MeOTAD as\n                          a hole transport or electron-blocking layer, deposition of gold as a counter electrode\n                       by thermal evaporation under high-vacuum conditions, and short-term stability are the\n                               real challenges for mass manufacturing of this technology for commercialization. Hole-\n                               transport-material-free (HTM-free) PSCs have been identiﬁed as a low-cost, high-efﬁciency,\n                       and stable technology having the potential for large-scale mass production [9]. HTM-free\n                        PSCs were ﬁrst revealed by Etgar et al., [10] demonstrating that perovskite could behave as\n                          a hole transport layer (HTL) as well as an absorber layer at the same time. The absence\n                              of HTM simpliﬁes the fabrication process of PSCs, lowers the cell cost, and enhances the\n                                 stability performance of the device [10]. An excellent review of HTM-free monolithic\n                            perovskite solar cells has been provided by Etgar [11]. Advancements in metal cathode\n                       and hole-conductor-free perovskite solar cells for low cost and high stability have been\n                          reviewed recently by Maniarasu et al., [12]. To further lower the fabrication cost, recently,\n                             several low-cost materials, such as carbon and graphene, with similar work functions\n                            as Au have been proposed to replace the Au electrode. The glass/FTO/c-TiO2/mp-\n                      TiO2/CH3NH3PbI3/mp-ZrO2/C type is the most commonly used HTM-free perovskite\n                              solar cell structure, as shown in Figure 1, in which c-TiO2 is a compact layer of titanium\n                             oxide, mp-TiO2 is a mesoporous titanium oxide layer, mp-ZrO2 is a mesoporous zirconia\n                           dioxide spacer layer, and CH3NH3PbI3 is the light-absorbing perovskite layer. In order\n                              to obtain higher efﬁciencies and optimize the performance, deep understanding of this\n                            low-cost carbon-based HTM-free perovskite solar cell is required [11]. In this architecture,\n                      CH3NH3PBI3 behaves as a hole transport layer (HTL) as well as an absorber layer at the\n                        same time [13]. The absence of HTM simpliﬁes and lowers the manufacturing cost of PSCs,\n                        which is fundamental for commercializing this technology.\n\n\n\n\n\n                              Figure 1. Structure of monolithic hole-transport-material-free (HTM-free) perovskite solar cell (PSC).\n\n                               Despite the fact that numerous achievements have been obtained to commercialize\n                          PSCs, one of the major barriers is photocurrent hysteresis, leading to over- or underesti-\n                          mating device performance and reducing operational stability [14,15]. Perovskite materials\n                             are composed of various kinds of ions, and the migration of these different ionic species\n                          through PSCs is a potential barrier for efﬁcient and stable solar power conversion in PSCs.\n                          Ion migration frequently causes current density–voltage (J–V) hysteresis and reduced\n                            operational stability [16–20]. Therefore, analysis and suppressing of J–V hysteresis and\n                           degradation in PSCs have drawn much attention. An excellent review of short lifetime and\n                              hysteresis behavior of current–voltage characteristics of PSCs has been provided by Dhar-\n                       madasa et al. [21]. The hysteretic behavior has been studied intensively [17,18,22] and ion\n                            migration has been identiﬁed as one of the relevant origins of hysteresis in PSCs [17,23,24].\n                          Morphological change, ionic migration within the cell, ferroelectric polarization by the\n                              rotating methylammonia (MA) cations, trapping/detrapping of charges, capacitive charge\n                           accumulation/space charges, chemical degradation, and light-doping have been proposed\n                            as candidate mechanisms for hysteresis in PSCs [20,21,25–30]. A computational model\n                      was developed to investigate the dominant physical phenomenon related to hysteresis in\n                         J–V characteristics of PSCs [30]. This study investigated the relative contributions of ion\n                           migration and charge trapping, which are two of the major contender mechanisms that\n                          could potentially cause hysteresis in the J–V curve. In this study, it was shown that the\n                             best match with the experimentally observed hysteresis is obtained when the combined",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. Structure of monolithic hole-transport-material-free (HTM-free) perovskite solar cell (PSC).",
+          "figure_bbox": [
+            165.72,
+            423.29,
+            314.2,
+            498.22
+          ],
+          "bbox": [
+            167.26,
+            504.93,
+            559.1,
+            513.95
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. Structure of monolithic hole-transport-material-free (HTM-free) perovskite solar cell (PSC).",
+          "bbox": [
+            165.72,
+            423.29,
+            314.2,
+            498.22
+          ],
+          "file": "extracted_images/page2_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Nanomaterials 2021, 11, 48                                                                                                        3 of 9\n\n\n\n                            contribution of both ion migration and charge trapping is considered. In most of the\n                                earlier computational and experimental studies, the focus has been on either the origin\n                             of hysteresis or its suppression. The degree of migration of different ionic species in per-\n                            ovskite ﬁlms depends on the voltage scan rates [17], directions (forward-to-reverse or\n                            reverse-to-forward bias scans) [31], ranges [23,32], and temperature [33]. The hysteresis\n                      phenomena result in the overstatement of the performance of PSCs during reverse scan,\n                        which starts from the bias higher than open circuit voltage and sweeps to a voltage below\n                              zero. The study, elimination, and application of current–voltage hysteresis in PSCs are\n                               subjects of recent interest [14,15,34]. No well-deﬁned J–V measurement protocol exists and\n                       more experimental data measured under different sweep conditions are required which\n                          could help in developing the protocol.\n                                 In this work, we report for the ﬁrst time a hysteresis study on the current–voltage\n                               characteristics and impedance spectra of a hole-transport-material (HTM)-free hybrid\n                            organic–inorganic low-cost monolithic perovskite solar cell under light and dark, respec-\n                                   tively. The study of the effects of sweep direction, sweep time delay, and frequency on the\n                               hysteresis of an HTM-free carbon-counter-electrode-based PSC by current density–voltage\n                        measurements is undertaken in this research to provide insight into the reduction of hys-\n                                  teresis and to obtain data to help in developing a J–V measurement protocol and the causes\n                             of hysteresis. To understand the dynamics of hysteresis, the effects of sweep direction,\n                          time delay, and frequency were also analyzed on the impedance spectra of the device.\n                        Impedance spectroscopy investigations were carried out employing the series and parallel\n                        measurement models. The effects of sweep scan direction, time delay, and frequency were\n                           analyzed on the parallel capacitance–bias voltage (CP–V), capacitance–voltage (Cs–V), and\n                             resistance–voltage (Rs–V) characteristics of the device.\n\n                                   2. Materials and Methods\n\n                               For the fabrication of the device, a printed glass/FTO/c-TiO2/m-TiO2/m-ZrO2/carbon\n                           monolithic electrode procured from Solaronix SA (Aubonne, Switzerland) was heated at\n                          400 ◦C for 30 min and then allowed to cool down to room temperature. Then, on the bare\n                             substrate area, a polyimide adhesive mask was applied in order to prevent spreading of\n                            the solution, which was to be deposited in the next step. A premixed organometal halide\n                            perovskite precursor solution (CH3NH3PbI3) prepared by mixing lead iodide, methylam-\n                    monium iodide, and 5-aminovaleric acid hydroiodide in γ-butyrolactone as a solvent\n                      was also procured from Solaronix SA (Aubonne, Switzerland). The perovskite inﬁltration\n                      was achieved by drop-casting 5.6 µL of perovskite precursor solution (Solaronix) onto the\n                          carbon layer by using a micropipette. Drying the device at 60 ◦C in the dark for 1 h, the\n                            perovskite layer was grown. The device effective area was 1.0 cm2.\n                           The photovoltaic and impedance spectroscopic measurements were performed by\n                          using the Keithley 4200 semiconductor characterization system (Keithley Instruments,\n                            Cleveland, OH, USA) equipped with a digital capacitance meter (model 4210-CVU) under\n                          dark and AM 1.5 simulated illumination (OAI TriSOL, AM 1.5G Class AAA, Milpitas, CA,\n                     USA) conditions. By using the Newport Oriel PV reference cell system (Model 91150V),\n                       power calibration was performed and irradiance was set at 100 mW.cm−2. The delay-\n                         dependent J–V measurements were made using the dual sweep voltage from −1 to 1 with\n                          a 0.01 V step for the delay values of 0.2, 0.4, 0.6, 0.8, and 1.0 s. The delay-independent\n                        impedance spectra were recorded by applying a 30 mV AC signal from 5 to 30 kHz at a\n                          time delay of 0.2 s. The delay-dependent studies were made at a constant frequency of\n                          5 kHz and delays of 0.2, 0.4, 0.6, 0.8, and 1.0 s. All the measurements were performed\n                          keeping the room temperature constant at 25 ◦C and the relative humidity at 30%.\n\n                                   3. Results and Discussion\n                                   3.1. Hysteresis in Photocurrent Density–Voltage Characteristics\n\n                               Figure 2 shows the J–V hysteresis measured on the carbon-based HTM-free mono-\n                                   lithic TiO2/CH3NH3PbI3 heterojunction perovskite solar cell under standard AM 1.5 G",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Nanomaterials 2021, 11, 48                                                                                                        4 of 9\n\n\n                            illumination (100 mW.cm−2), and the corresponding photovoltaic parameters extracted\n                        from the J–V curves are summarized in Table 1. The hysteresis index (HI) was calculated\n                        by Equation (1) [35]:\n                                                    PCERS −PCEFS\n                                              HI =                                                      (1)\n                                                        PCERS\n\n\n\n\n\n                              Figure 2. Current density–voltage (J–V) hysteresis characteristics of the device measured under\n                              standard AM 1.5G illumination (100 mW.cm−2) at forward scan (FS: scan direction from −1 to 1 V)\n                          and reverse scan (RS: scan direction from 1 to −1 V) at different time delays.\n\n\n                             Table 1. Sweep voltage scan direction and sweep-time-delay-dependent photovoltaic parameters of\n                                the TiO2/CH3NH3PbI3 heterojunction HTM-free monolithic perovskite solar cell.\n\n                            Delay (s)    SD        JSC (mA.cm−2)    VOC (mV)    FF (%)     η (%)      HI\n\n                                        0.2        FS               16.3             800          43.9         5.7         0.36\n                                        0.2       RS               25.7             850          40.0         8.9\n\n                                        0.4        FS               17.4             820          45.0         6.4         0.27\n                                        0.4       RS               24.8             860          41.2         8.8\n\n                                        0.6        FS               18.3             830          44.4         6.8         0.22\n                                        0.6       RS               23.8             880          41.7         8.7\n\n                                        0.8        FS               18.7             840          43.6         6.9         0.20\n                                        0.8       RS               23.5             880          41.9         8.7\n\n                                        1.0        FS               18.5             850          45.7         7.1         0.18\n                                        1.0       RS               22.9             880          43.2         8.7\n\n\n                               For the same voltage range, measuring J–V curves in perovskite solar cells may result\n                              in different current patterns depending on the measurement conditions. Usually, voltage\n                        sweeping scan directions and time delay or scan rates are critically inﬂuential. High-\n                          performance solar devices and modules exhibit a very strong capacitive character limiting\n                             the speed of transient responses. Measuring the J–V curve to quickly can thus introduce a\n                            signiﬁcant error due to its internal capacitances; therefore, determination of the optimal\n                           delay needs to be addressed [36]. As can be seen from Figure 2 and Table 1, the measured\n                         J–V curves are both scan direction and delay dependent. For lower time delays or faster\n                          scan rates, large hysteresis is exhibited. In the J–V measurement made in the reverse\n                       sweep scan at a lower delay of 0.2 s, the short circuit current density, open circuit voltage,\n                       and power conversion efﬁciency were observed to be higher by 57.7%, 6.3%, and 56.1%,\n                                respectively, than the values obtained during the forward scan under the same conditions.\n                       The J–V hysteresis analysis performed at a longer delay of 1 s revealed the short circuit\n                            current density, open circuit voltage, and power conversion efﬁciency to be higher by\n                            23.8%, 3.5%, and 22.5%, respectively, in the reverse scan direction than the values obtained\n                          during the forward scan under the same conditions. The decrease in the ﬁll factor was",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. Sweep voltage scan direction and sweep-time-delay-dependent photovoltaic parameters of\nthe TiO2/CH3NH3PbI3 heterojunction HTM-free monolithic perovskite solar cell.",
+          "bbox": [
+            167.26,
+            408.9,
+            559.28,
+            559.75
+          ],
+          "rows": [
+            [
+              "Delay (s)",
+              "SD",
+              "JSC (mA.cm⁻²)",
+              "VOC (mV)",
+              "FF (%)",
+              "η (%)",
+              "HI"
+            ],
+            [
+              "0.2\n0.2",
+              "FS\nRS",
+              "16.3\n25.7",
+              "800\n850",
+              "43.9\n40.0",
+              "5.7\n8.9",
+              "0.36"
+            ],
+            [
+              "0.4\n0.4",
+              "FS\nRS",
+              "17.4\n24.8",
+              "820\n860",
+              "45.0\n41.2",
+              "6.4\n8.8",
+              "0.27"
+            ],
+            [
+              "0.6\n0.6",
+              "FS\nRS",
+              "18.3\n23.8",
+              "830\n880",
+              "44.4\n41.7",
+              "6.8\n8.7",
+              "0.22"
+            ],
+            [
+              "0.8\n0.8",
+              "FS\nRS",
+              "18.7\n23.5",
+              "840\n880",
+              "43.6\n41.9",
+              "6.9\n8.7",
+              "0.20"
+            ],
+            [
+              "1.0\n1.0",
+              "FS\nRS",
+              "18.5\n22.9",
+              "850\n880",
+              "45.7\n43.2",
+              "7.1\n8.7",
+              "0.18"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. Current density–voltage (J–V) hysteresis characteristics of the device measured under\nstandard AM 1.5G illumination (100 mW.cm⁻²) at forward scan (FS: scan direction from −1 to 1 V)\nand reverse scan (RS: scan direction from 1 to −1 V) at different time delays.",
+          "figure_bbox": [
+            165.26,
+            133.39,
+            415.0,
+            321.77
+          ],
+          "bbox": [
+            167.26,
+            328.07,
+            560.17,
+            362.9
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. Sweep voltage scan direction and sweep-time-delay-dependent photovoltaic parameters of\nthe TiO2/CH3NH3PbI3 heterojunction HTM-free monolithic perovskite solar cell.",
+          "bbox": [
+            166.97,
+            379.34,
+            559.28,
+            402.96
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. Current density–voltage (J–V) hysteresis characteristics of the device measured under\nstandard AM 1.5G illumination (100 mW.cm⁻²) at forward scan (FS: scan direction from −1 to 1 V)\nand reverse scan (RS: scan direction from 1 to −1 V) at different time delays.",
+          "bbox": [
+            165.26,
+            133.39,
+            415.0,
+            321.77
+          ],
+          "file": "extracted_images/page4_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Nanomaterials 2021, 11, 48                                                                                                        5 of 9\n\n\n\n                          observed when increasing the sweep delay time. The J–V analysis conducted with the\n                             reverse sweep scan time delays of 0.2 and 1 s revealed a decrease of ﬁll factor by 8.9% and\n                            5.5%, respectively.\n                         As can be seen from Figure 2 and Table 1, as the delay increased from 0.2 to 1 s, the\n                              hysteresis was suppressed and the corresponding hysteresis index reduced from 0.36 to\n                                  0.18, respectively, as a result of relaxation of the measured currents at each applied voltage,\n                        and the difference between parameters extracted from the measurements made for forward\n                       and reverse scan directions decreased. When performing measurements on solar cells at\n                                faster scan rates or sweep time delays longer than 1.0 s, almost the exact same J–V curve\n                    may be obtained regardless of the scan direction. However, achieving this steady state\n                                    is not that easy for PSCs where hysteretic-like features arise, as noticed in this work and\n                                 earlier studies [22,37,38].\n\n                                   3.2. Impedance Spectroscopy\n\n                           Impedance spectroscopy  (IS)  is a very mature,  widely used,  reliable, and\n                          well-understood characterization technique for investigating, acquiring, validating, and\n                             quantitatively interpreting impedances of solid-state devices and electrochemical sys-\n                        tems [39]. However, using this characterization technique for photovoltaic devices with\n                        complex architectures, such as PSCs, presents new challenges related to the interfacial\n                           degradation [40], unusual material properties [39], and testing of the simulated data [41].\n                        The sweep voltage scan direction, time delay, and frequency all effect the device dynamics\n                        which can then be quantitatively interpreted from the impedance spectra [42]. Therefore,\n                              to understand the evolution of hysteresis in perovskite solar cells, gain insight into charge\n                           trapping/detrapping phenomena, and optimize various components and interfaces for its\n                               stable and optimized performance, a study of the sweep voltage scan direction, time delay,\n                       and frequency-dependent impedance spectra is necessary. In this work, sweep voltage\n                           scan direction, time delay, and frequency-dependent impedance spectroscopy was used\n                              to investigate the parallel capacitance–voltage (CP–V), series capacitance–voltage (CS–V),\n                        and series resistance–voltage (RS–V) characteristics of a glass/FTO/c-TiO2/mp-TiO2/mp-\n                            ZrO2/carbon-electrode-based HTM-free PSC. To the best of our knowledge, this is the only\n                      work reporting the sweep voltage scan direction, time delay, and frequency-dependent\n                        impedance spectroscopy of the aforementioned parameters of an HTM-free PSC. These\n                           data can be of utmost importance as the only available reference point for understanding\n                            current anomalies and optimizing hysteretic behavior in HTM-free PSCs for large-scale\n                              fabrication and commercial applications.\n\n                                   3.2.1. Hysteresis in Capacitance–Voltage (CP–V) Characteristics\n                                Despite the dramatic enhancement in the power conversion efﬁciency of PSCs, many\n                           ambiguities regarding their operating modes still remain [43]. Capacitance plays a key\n                               role in deciding various control mechanisms in the device and is also responsible for\n                          undesired effects such as current hysteresis. Therefore, to better understand the nature\n                             of charge distribution in the device and provide insight into the kinetics of the charging\n                            processes and their effect on device parameters, capacitive responses must be analyzed\n                       and addressed. The observed hysteretic effect in the dark current originates from the\n                         slow capacitive mechanisms. Figure 3 displays the parallel capacitance–voltage (CP–V)\n                           curves of the device. The strong sweep voltage, sweep voltage scan direction, time delay,\n                       and frequency dependence of capacitance was observed at higher values of applied bias.\n                     As can be seen from Figure 3, for higher reverse bias voltage, the capacitance remains\n                        unchanged but exhibits strong bias dependency towards the forward scan direction. This\n                            strong bias voltage dependency of the parallel capacitance of HTM-free PSCs is attributed\n                              to a variety of factors including, but not limited to, traps states, device interfaces, density\n                             of states, limitations on minority carrier density, blocking of charge due to slow charge\n                             injection/extraction dynamics at electrodes, charge dynamics, migration of ions, and so\n                              forth [44–48].",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Nanomaterials 2021, 11, 48                                                                                                        6 of 9\n\n\n\n             70                                          70\n                                                                                                   0.2 s (FS)                          05 kHz (FS)\n             65       10 kHz (FS)                             65       0.4 s (FS)\n                                                                                                   0.6 s (FS)                     (nF)          20 kHz (FS)                                                     (nF)\n             60       30 kHz (FS)                             60       0.8 s (FS)\n                                                                                                   1.0 s (FS)                          05 kHz (RS)\n             55       10 kHz (RS)                             55       0.2 s (RS)                                                                                                   0.4 s (RS)                          20 kHz (RS)\n                                                                                                   0.6 s (RS)\n             50       30 kHz (RS)                             50                                                         capacitance                                                                                                                                                                                                                                      capacitance           0.8 s (RS)\n                                                                                                   1.0 s (RS)\n             40                                                                                                                                                              Parallel 40                                         Parallel 45                                          45\n                      -1.0   -0.5    0.0    0.5    1.0                        -1.0   -0.5    0.0    0.5    1.0\n                             Voltage (V)                                        Voltage (V)\n\n\n                                      (a)                                                    (b)\n\n     Figure 3. Parallel capacitance–voltage (CP–V) curves recorded on the device in the dark at forward scan (FS: scan direction\n    from −1 to 1 V) and reverse scan (RS: scan direction from 1 to −1 V) (a) at different frequencies and a time delay of 0.2 s,\n    and (b) at different time delays and a frequency of 5 kHz.\n\n                         As can be seen from Figure 3, the hysteresis was observed to be strongly sweep bias\n                              voltage, sweep scan direction, sweep time delay, and frequency dependent. It can be seen\n                        from Figure 3a that with the increase in frequency, the capacitance decreased both for\n                            the forward and reverse scan directions, and the hysteresis was suppressed. When the\n                           time delay increased, the capacitance increased and the hysteresis was suppressed. In the\n                           time-dependent J–V and CP–V curves, the hysteresis exhibited the same trend and revealed\n                            suppression.\n\n                                   3.2.2. Hysteresis Series Capacitance–Voltage (CS–V) and Series Resistance–Voltage (RS–V)\n                              Characteristics\n                           The frequency-dependent series capacitance–voltage (CS–V) and series resistance–\n                            voltage (RS–V) curves recorded on the device are shown Figure 4.  The time-delay-\n                        dependent series capacitance–voltage (CS–V) and series resistance–voltage (RS–V) char-\n                                 acteristics are displayed in Figure 5. The hysteresis was observed to be strongly sweep\n                              bias voltage, sweep scan direction, sweep time delay, and frequency dependent. A strong\n                            voltage dependency was observed for capacitance and resistance at higher values of volt-\n                         age bias. When the applied bias was low, both the resistance and capacitance remained\n                         unchanged, as can be seen in Figures 4 and 5. However, at higher applied bias, the spec-\n                                tra exhibited strong voltage dependency. As it has been previously described [49], at\n                           zero applied bias, the device is fully depleted, but as the forward bias reaches around\n                               0.5 V, the depletion width shrinks causing an increase in the cell capacitance. Similar\n                           time-delay-dependent C–V behavior has been reported in PSCs fabricated using expensive\n                            hole transport materials [50].",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. Parallel capacitance–voltage (CP–V) curves recorded on the device in the dark at forward scan (FS: scan direction\nfrom −1 to 1 V) and reverse scan (RS: scan direction from 1 to −1 V) (a) at different frequencies and a time delay of 0.2 s,\nand (b) at different time delays and a frequency of 5 kHz.",
+          "bbox": [
+            57.26,
+            288.09,
+            539.14,
+            322.82
+          ]
+        }
+      ],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Nanomaterials 2021, 11, 48                                                                                                        7 of 9\n\n\n\n               0.5                 05 kHz (FS)                     250      05 kHz (FS)\n                                    10 kHz (FS)                                     10 kHz (FS)\n                                    20 kHz (FS)                                     20 kHz (FS)                   (F)               0.4                 30 kHz (FS)                                                                            ( 200      30 kHz (FS)\n                                    05 kHz (RS)                                    05 kHz (RS)\n               0.3                 10 kHz (RS)                    150      10 kHz (RS)\n                                    20 kHz (RS)                                    20 kHz (RS)\n                                    30 kHz (RS)                                    30 kHz (RS)               0.2                                                                                                                                                                                                resistance 100                                                        capacitance\n\n               0.1                                          50                                                                                                                                                                Series                              Series\n               0.0                                           0\n                      -1.0   -0.5    0.0    0.5    1.0                        -1.0   -0.5    0.0    0.5    1.0\n                              Voltage (V)                                        Voltage (V)\n\n     Figure 4. Series capacitance–voltage (CS–V) and series resistance–voltage (RS–V) curves recorded on the device in the\n     dark at forward scan (FS: scan direction from −1 to 1 V) and reverse scan (RS: scan direction from 1 to −1 V) at different\n     frequencies and a time delay of 0.2 s.\n\n\n               1.0          0.2 s (FS)                            250        0.2 s (FS)\n                                  0.4 s (FS)                                                         0.4 s (FS)\n                                  0.6 s (FS)                                                         0.6 s (FS)                   (F) 0.8                                                       ()                                  0.8 s (FS)                                                         0.8 s (FS)                                                        200                                  1.0 s (FS)                                                         1.0 s (FS)\n               0.6          0.2 s (RS)                                                        0.2 s (RS)\n                                  0.4 s (RS)                                                        0.4 s (RS)\n               0.4          0.6 s (RS)                            150        0.6 s (RS)                                                       capacitance               0.8 s (RS)                                                                                                                                resistance             0.8 s (RS)\n               0.2          1.0 s (RS)                                                        1.0 s (RS)\n                                                        100                                                                                                                                                                Series                              Series 0.0\n\n                      -1.0   -0.5    0.0    0.5    1.0                        -1.0   -0.5    0.0    0.5    1.0\n                             Voltage (V)                                        Voltage (V)\n\n     Figure 5. Series capacitance–voltage (CS–V) and series resistance–voltage (RS–V) curves recorded on the device in the dark\n      at forward scan (FS: scan direction from −1 to 1 V) and reverse scan (RS: scan direction from 1 to −1 V) at different time\n     delays and a frequency of 5 kHz.\n\n                                   4. Conclusions\n\n                                  Hysteresis in a hole-transport-material-free perovskite solar cell with a carbon counter\n                              electrode was analyzed using current–voltage and impedance spectroscopic measurements.\n                       The effects of sweep voltage, sweep scan direction, step time delay, and frequency were\n                            analyzed. The trapping/detrapping and capacitive currents were found as the dominant\n                       phenomena contributing to hysteresis. The hysteresis was suppressed and the correspond-\n                           ing hysteresis index reduced from 0.36 to 0.18, respectively, as the delay increased from\n                               0.2 to 1 s as a result of relaxation for the measured currents at each applied voltage. It is\n                         proposed that by reducing traps and increasing the sweep step delay, hysteresis can be de-\n                              creased. The hysteresis in the current density–voltage curves and impedance spectroscopy\n                               of the device is correlated. The current density–voltage and impendence spectroscopic data\n                            reported in this work on the hysteresis study of an HTM-free perovskite solar cell may help\n                              in establishing a current density–voltage measurement protocol, identifying components\n                       and interfaces causing hysteresis, and modeling of solar cells.\n\n\n                           Author Contributions: Writing—Original Draft Preparation, S.A.A.S. and M.H.S.; Writing—Review\n                          and Editing, J.S. and Z.G. All authors have read and agreed to the published version of the manuscript.\n\n                            Funding: We acknowledge the ﬁnancial support extended by Dongguan University of Technology,\n                            China and also by the HEC Pakistan and US National Academy of Sciences, under the PAK-US Science\n                          and Technology Cooperative Program, Phase-V, project number 5-530/PAK-US/HEC/2013/193.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. Series capacitance–voltage (CS–V) and series resistance–voltage (RS–V) curves recorded on the device in the\ndark at forward scan (FS: scan direction from −1 to 1 V) and reverse scan (RS: scan direction from 1 to −1 V) at different\nfrequencies and a time delay of 0.2 s.",
+          "figure_bbox": [
+            87.87,
+            87.32,
+            506.46,
+            237.89
+          ],
+          "bbox": [
+            57.26,
+            249.83,
+            538.02,
+            284.66
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. Series capacitance–voltage (CS–V) and series resistance–voltage (RS–V) curves recorded on the device in the dark\nat forward scan (FS: scan direction from −1 to 1 V) and reverse scan (RS: scan direction from 1 to −1 V) at different time\ndelays and a frequency of 5 kHz.",
+          "figure_bbox": [
+            87.52,
+            303.59,
+            505.87,
+            456.31
+          ],
+          "bbox": [
+            57.26,
+            468.62,
+            538.27,
+            503.35
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. Series capacitance–voltage (CS–V) and series resistance–voltage (RS–V) curves recorded on the device in the\ndark at forward scan (FS: scan direction from −1 to 1 V) and reverse scan (RS: scan direction from 1 to −1 V) at different\nfrequencies and a time delay of 0.2 s.",
+          "bbox": [
+            87.87,
+            87.32,
+            506.46,
+            237.89
+          ],
+          "file": "extracted_images/page7_figure-4_1.png"
+        },
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. Series capacitance–voltage (CS–V) and series resistance–voltage (RS–V) curves recorded on the device in the dark\nat forward scan (FS: scan direction from −1 to 1 V) and reverse scan (RS: scan direction from 1 to −1 V) at different time\ndelays and a frequency of 5 kHz.",
+          "bbox": [
+            87.52,
+            303.59,
+            505.87,
+            456.31
+          ],
+          "file": "extracted_images/page7_figure-5_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Nanomaterials 2021, 11, 48                                                                                                        8 of 9\n\n\n\n                                 Institutional Review Board Statement: Not applicable.\n\n                           Informed Consent Statement: Not applicable.\n\n                           Data Availability Statement: Data sharing not applicable.\n\n                             Conﬂicts of Interest: The authors declare no conﬂict of interest.\n\nReferences\n\n1.   Shah, S.A.A.; Sayyad, M.H.; Khan, K.; Guo, K.; Shen, F.; Sun, J.; Tareen, A.K.; Gong, Y.; Guo, Z. Progress towards High-Efﬁciency\n    and Stable Tin-Based Perovskite Solar Cells. Energies 2020, 13, 5092. [CrossRef]\n2.    Etgar, L.; Gao, P.; Xue, Z.; Peng, Q.; Chandiran, A.K.; Liu, B.; Nazeeruddin, K.; Grätzel, M. Mesoscopic CH3NH3PbI3/TiO2\n     heterojunction solar cells. J. Am. Chem. Soc. 2012, 134, 17396–17399. [CrossRef] [PubMed]\n3.   Haque, S.; Mendes, M.J.; Sanchez-Sobrado, O.; Águas, H.; Fortunato, E.; Martins, R. Photonic-structured TiO2 for high-efﬁciency,\n     ﬂexible and stable Perovskite solar cells. Nano Energy 2019, 59, 91–101. [CrossRef]\n4.   Kojima, A.; Ikegami, M.; Teshima, K.; Miyasaka, T. Highly luminescent lead bromide perovskite nanoparticles synthesized with\n     porous alumina media. Chem. Lett. 2012, 41, 397–399. [CrossRef]\n5.   Kagan, C.; Mitzi, D.; Dimitrakopoulos, C. Organic-inorganic hybrid materials as semiconducting channels in thin-ﬁlm ﬁeld-effect\n      transistors. Science 1999, 286, 945–947. [CrossRef]\n6.   Tumen-Ulzii, G.; Matsushima, T.; Klotz, D.; Leyden, M.R.; Wang, P.; Qin, C.; Lee, J.-W.; Lee, S.-J.; Yang, Y.; Adachi, C. Hysteresis-\n      less and stable perovskite solar cells with a self-assembled monolayer. Commun. Mater. 2020, 1, 31. [CrossRef]\n7.   Kojima, A.; Teshima, K.; Shirai, Y.; Miyasaka, T. Organometal halide perovskites as visible-light sensitizers for photovoltaic cells.\n        J. Am. Chem. Soc. 2009, 131, 6050–6051. [CrossRef]\n8.    Best Research-Cell Efﬁciency Chart. Available online: https://www.nrel.gov/pv/cell-efﬁciency.html (accessed on 29 October\n      2020).\n9.   Wei, Z.; Zheng, X.; Chen, H.; Long, X.; Wang, Z.; Yang, S. A multifunctional C+ epoxy/Ag-paint cathode enables efﬁcient and\n      stable operation of perovskite solar cells in watery environments. J. Mater. Chem. A 2015, 3, 16430–16434. [CrossRef]\n10.   Etgar, L. Hole Transport Material (HTM) Free Perovskite Solar Cell. In Hole Conductor Free Perovskite-Based Solar Cells; Springer:\n    Cham, Switzerland, 2016; pp. 9–24.\n11.   Etgar, L. Hole-transport material-free perovskite-based solar cells. MRS Bull. 2015, 40, 674–680. [CrossRef]\n12.  Maniarasu, S.; Korukonda, T.B.; Manjunath, V.; Ramasamy, E.; Ramesh, M.; Veerappan, G. Recent advancement in metal cathode\n    and hole-conductor-free perovskite solar cells for low-cost and high stability: A route towards commercialization. Renew. Sustain.\n     Energy Rev. 2018, 82, 845–857. [CrossRef]\n13.   Lin, L.; Jiang, L.; Qiu, Y.; Yu, Y. Modeling and analysis of HTM-free perovskite solar cells based on ZnO electron transport layer.\n      Superlattices Microstruct. 2017, 104, 167–177. [CrossRef]\n14.   Liu, P.; Wang, W.; Liu, S.; Yang, H.; Shao, Z. Fundamental Understanding of Photocurrent Hysteresis in Perovskite Solar Cells.\n     Adv. Energy Mater. 2019, 9, 1803017. [CrossRef]\n15.  Yang, C.; Shan, X.; Xie, T. Insights of Hysteresis Behaviors in Perovskite Solar Cells from a Mixed Drift-Diffusion Model Coupled\n     with Recombination. Photonics 2020, 7, 47. [CrossRef]\n16.  Eames, C.; Frost, J.M.; Barnes, P.R.F.; O’Regan, B.C.; Walsh, A.; Islam, M.S. Ionic transport in hybrid lead iodide perovskite solar\n       cells. Nat. Commun. 2015, 6, 7497. [CrossRef]\n17.   Tress, W.; Marinova, N.; Moehl, T.; Zakeeruddin, S.M.; Nazeeruddin, M.K.; Grätzel, M. Understanding the rate-dependent J–V\n      hysteresis, slow time component, and aging in CH3NH3PbI3 perovskite solar cells: The role of a compensated electric ﬁeld.\n     Energy Environ. Sci. 2015, 8, 995–1004. [CrossRef]\n18.  Meloni, S.; Moehl, T.; Tress, W.; Franckeviˇcius, M.; Saliba, M.; Lee, Y.H.; Gao, P.; Nazeeruddin, M.K.; Zakeeruddin, S.M.;\n     Rothlisberger, U.; et al. Ionic polarization-induced current-voltage hysteresis in CH3NH3PbX3 perovskite solar cells. Nat.\n    Commun. 2016, 7, 10334. [CrossRef]\n19.  Meng, L.; You, J.; Yang, Y. Addressing the stability issue of perovskite solar cells for commercial applications. Nat. Commun. 2018,\n      9, 5256. [CrossRef]\n20.  Weber, S.A.L.; Hermes, I.M.; Turren-Cruz, S.-H.; Gort, C.; Bergmann, V.W.; Gilson, L.; Hagfeldt, A.; Graetzel, M.; Tress, W.; Berger,\n     R. How the formation of interfacial charge causes hysteresis in perovskite solar cells. Energy Environ. Sci. 2018, 11, 2404–2413.\n     [CrossRef]\n21.  Dharmadasa, I.M.; Rahaq, Y.; Alam, A.E. Perovskite solar cells: Short lifetime and hysteresis behaviour of current–voltage\n      characteristics. J. Mater. Sci. Mater. Electron. 2019, 30, 12851–12859. [CrossRef]\n22.   Snaith, H.J.; Abate, A.; Ball, J.M.; Eperon, G.E.; Leijtens, T.; Noel, N.K.; Stranks, S.D.; Wang, J.T.-W.; Wojciechowski, K.; Zhang, W.\n    Anomalous Hysteresis in Perovskite Solar Cells. J. Phys. Chem. Lett. 2014, 5, 1511–1515. [CrossRef]\n23.  Wu, F.; Bahrami, B.; Chen, K.; Mabrouk, S.; Pathak, R.; Tong, Y.; Li, X.; Zhang, T.; Jian, R.; Qiao, Q. Bias-Dependent Normal and\n     Inverted J–V Hysteresis in Perovskite Solar Cells. ACS Appl. Mater. Interfaces 2018, 10, 25604–25613. [CrossRef] [PubMed]\n24.   Tress, W. Metal Halide Perovskites as Mixed Electronic–Ionic Conductors: Challenges and Opportunities—From Hysteresis to\n     Memristivity. J. Phys. Chem. Lett. 2017, 8, 3106–3114. [CrossRef] [PubMed]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Nanomaterials 2021, 11, 48                                                                                                        9 of 9\n\n\n\n25.  Chen, B.; Yang, M.; Priya, S.; Zhu, K. Origin of J–V Hysteresis in Perovskite Solar Cells. J. Phys. Chem. Lett. 2016, 7, 905–917.\n     [CrossRef] [PubMed]\n26.   Habisreutinger, S.N.; Noel, N.K.; Snaith, H.J. Hysteresis Index: A Figure without Merit for Quantifying Hysteresis in Perovskite\n     Solar Cells. ACS Energy Lett. 2018, 3, 2472–2476. [CrossRef]\n27.  Calado, P.; Telford, A.M.; Bryant, D.; Li, X.; Nelson, J.; O’Regan, B.C.; Barnes, P.R.F. Evidence for ion migration in hybrid\n     perovskite solar cells with minimal hysteresis. Nat. Commun. 2016, 7, 13831. [CrossRef]\n28.  Zhou, Y.; Huang, F.; Cheng, Y.-B.; Gray-Weale, A. Numerical analysis of a hysteresis model in perovskite solar cells. Comput.\n     Mater. Sci. 2017, 126, 22–28. [CrossRef]\n29.  Ravishankar, S.; Gharibzadeh, S.; Roldán-Carmona, C.; Grancini, G.; Lee, Y.; Ralaiarisoa, M.; Asiri, A.M.; Koch, N.; Bisquert, J.;\n     Nazeeruddin, M.K. Inﬂuence of Charge Transport Layers on Open-Circuit Voltage and Hysteresis in Perovskite Solar Cells. Joule\n     2018, 2, 788–798. [CrossRef]\n30.  Imran, H.; Butt, N.Z. Investigation of dominant hysteresis phenomenon in perovskite solar cell. In Proceedings of the 2016 IEEE\n     43rd Photovoltaic Specialists Conference (PVSC), Portland, OR, USA, 5–10 June 2016; pp. 776–780.\n31.  Nemnes, G.A.; Besleaga, C.; Tomulescu, A.G.; Palici, A.; Pintilie, L.; Manolescu, A.; Pintilie, I. How measurement protocols\n     inﬂuence the dynamic J-V characteristics of perovskite solar cells: Theory and experiment. Sol. Energy 2018, 173, 976–983.\n     [CrossRef]\n32.   Jiang, Y.; Feng, Y.; Sun, X.; Qin, R.; Ma, H. Identifying inverted-hysteresis behavior of CH3NH3PbI3−xClx planar hybrid\n     perovskite solar cells based on external bias precondition. J. Phys. D Appl. Phys. 2019, 52, 385501. [CrossRef]\n33.  Zou, Y.; Holmes, R.J. Temperature-Dependent Bias Poling and Hysteresis in Planar Organo-Metal Halide Perovskite Photovoltaic\n      Cells. Adv. Energy Mater. 2016, 6, 1501994. [CrossRef]\n34.  Kang, D.-H.; Park, N.-G. On the Current–Voltage Hysteresis in Perovskite Solar Cells: Dependence on Perovskite Composition\n    and Methods to Remove Hysteresis. Adv. Mater. 2019, 31, e1805214. [CrossRef] [PubMed]\n35.  Wang, M.; Lei, Y.; Xu, Y.; Han, L.; Ci, Z.; Jin, Z. The J–V Hysteresis Behavior and Solutions in Perovskite Solar Cells. Sol. RRL 2020,\n      4, 2000586. [CrossRef]\n36.  Herman, M.; Jankovec, M.; Topiˇc, M. Optimal I–V Curve Scan Time of Solar Cells and Modules in Light of Irradiance Level. Int. J.\n     Photoenergy 2012, 2012, 151452. [CrossRef]\n37.  Kim, H.-S.; Park, N.-G. Parameters Affecting I–V Hysteresis of CH3NH3PbI3 Perovskite Solar Cells: Effects of Perovskite Crystal\n     Size and Mesoporous TiO2 Layer. J. Phys. Chem. Lett. 2014, 5, 2927–2934. [CrossRef] [PubMed]\n38.  Unger, E.L.; Hoke, E.T.; Bailie, C.D.; Nguyen, W.H.; Bowring, A.R.; Heumüller, T.; Christoforod, M.G.; McGehee, M.D. Hysteresis\n    and transient behavior in current–voltage measurements of hybrid-perovskite absorber solar cells. Energy Environ. Sci. 2014, 7,\n     3690–3698. [CrossRef]\n39.  Von Hauff, E. Impedance Spectroscopy for Emerging Photovoltaics. J. Phys. Chem. C 2019, 123, 11329–11346. [CrossRef]\n40.  Guerrero, A.; You, J.; Aranda, C.; Kang, Y.S.; Garcia-Belmonte, G.; Zhou, H.; Bisquert, J.; Yang, Y. Interfacial Degradation of Planar\n    Lead Halide Perovskite Solar Cells. ACS Nano 2016, 10, 218–224. [CrossRef]\n41.  Nandal, V.; Nair, P.R. Anomalous Scaling Exponents in the Capacitance–Voltage Characteristics of Perovskite Thin Film Devices.\n        J. Phys. Chem. C 2018, 122, 27935–27940. [CrossRef]\n42.  Braña, A.F.; Forniés, E.; López, N.; García, B.J. High Efﬁciency Si Solar Cells Characterization Using Impedance Spectroscopy\n     Analysis. J. Phys. Conf. Ser. 2015, 647, 012069. [CrossRef]\n43.  Panigrahi, S.; Jana, S.; Calmeiro, T.; Nunes, D.; Martins, R.; Fortunato, E. Imaging the Anomalous Charge Distribution Inside\n    CsPbBr3 Perovskite Quantum Dots Sensitized Solar Cells. ACS Nano 2017, 11, 10214–10221. [CrossRef]\n44.  Garcia-Belmonte, G.; Munar, A.; Barea, E.M.; Bisquert, J.; Ugarte, I.; Pacios, R. Charge carrier mobility and lifetime of organic bulk\n     heterojunctions analyzed by impedance spectroscopy. Org. Electron. 2008, 9, 847–851. [CrossRef]\n45.  Mora-Seró, I.; Garcia-Belmonte, G.; Boix, P.P.; Vázquez, M.A.; Bisquert, J. Impedance spectroscopy characterisation of highly\n     efﬁcient silicon solar cells under different light illumination intensities. Energy Environ. Sci. 2009, 2, 678–686. [CrossRef]\n46.   Benetti, D.; Dembele, K.T.; Benavides, J.; Zhao, H.; Cloutier, S.; Concina, I.; Vomiero, A.; Rosei, F. Functionalized multi-wall\n     carbon nanotubes/TiO2 composites as efﬁcient photoanodes for dye sensitized solar cells. J. Mater. Chem. C 2016, 4, 3555–3562.\n     [CrossRef]\n47.   Lee, H.; Lee, C.; Song, H.-J. Inﬂuence of Electrical Traps on the Current Density Degradation of Inverted Perovskite Solar Cells.\n      Materials 2019, 12, 1644. [CrossRef]\n48.  Chen, B.; Yang, M.; Zheng, X.; Wu, C.; Li, W.; Yan, Y.; Bisquert, J.; Garcia-Belmonte, G.; Zhu, K.; Priya, S. Impact of Capacitive\n      Effect and Ion Migration on the Hysteretic Behavior of Perovskite Solar Cells. J. Phys. Chem. Lett. 2015, 6, 4693–4700. [CrossRef]\n49.  Dharmadasa, I.M.; Rahaq, Y.; Ojo, A.A.; Alanazi, T.I. Perovskite solar cells: A deep analysis using current–voltage and capacitance–\n     voltage techniques. J. Mater. Sci. Mater. Electron. 2019, 30, 1227–1235. [CrossRef]\n50.  Almora, O.; Aranda, C.; Mas-Marzá, E.; Garcia-Belmonte, G. On Mott-Schottky analysis interpretation of capacitance measure-\n    ments in organometal perovskite solar cells. Appl. Phys. Lett. 2016, 109, 173903. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "6f52dcd65bcbc64691c972bfe28d289f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            516.92,
+            53.0,
+            558.47,
+            80.39
+          ]
+        }
+      ],
+      "file": "garbage/page1_6f52dcd65bcbc64691c972bfe28d289f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "5797106393d6b0568cd6338d4996337f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            517.1,
+            53.19,
+            538.31,
+            73.35
+          ]
+        }
+      ],
+      "file": "garbage/page1_5797106393d6b0568cd6338d4996337f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "80f61060f2d1cb6feeb461b85bc99628",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            537.1,
+            60.26,
+            558.32,
+            80.39
+          ]
+        }
+      ],
+      "file": "garbage/page1_80f61060f2d1cb6feeb461b85bc99628.png",
+      "is_garbage": true
+    },
+    {
+      "id": "ac2195fdf59a9df60cf07ffe81b1c038",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            521.38,
+            62.26,
+            553.92,
+            71.45
+          ]
+        }
+      ],
+      "file": "garbage/page1_ac2195fdf59a9df60cf07ffe81b1c038.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            36.0,
+            669.52,
+            92.69,
+            689.36
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

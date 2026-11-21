@@ -1,0 +1,405 @@
+{
+  "publication_id": "P040",
+  "source_file": "P040.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Vapor-Phase Incorporation of Ge in CZTSe Absorbers for Improved Stability of High-Efficiency Kesterite Solar Cells",
+    "author": "David Nowak; Talat Khonsor; Devendra Pareek; Levent Gütay",
+    "subject": "We report an approach to incorporate Ge into Cu2ZnSnSe4 using GeSe vapor during the selenization step of alloyed metallic precursors. The vapor incorporation slowly begins at T  480 C and peaks at 530 C, resulting in a Ge-based composition shift inside the previously formed kesterite layer. We initially observe the formation of a Ge-rich surface layer that merges into a homogeneous distribution of the incorporated element during the further dwelling stage of the annealing. This approach is very versatile and could be used in many similar fabrication processes for incorporating Ge into CZTSe-absorber layers. Because the vapor-based composition shift in the layer happens after the formation of the absorber film towards the end of the fabrication process, most process parameters and the precursor structure may not need any significant re-optimization. The careful integration of this step could help to reduce Sn-related deep defects and accompanying VOC losses. The best CZTGSe-power-conversion efficiency obtained in this series is 10.4 % (with EG = 1.22 eV, FF = 54%, JSC = 36 mA/cm2, VOC = 540 mV, VOCdef,SQ = 417 mV). These results demonstrate the potential of this approach for Ge incorporation into kesterite absorbers.",
+    "keywords": "CZTGSe; kesterite solar cell; vapor-phase incorporation; accelerated aging study; stability",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "creationDate": "D:20220127205841+08'00'",
+    "modDate": "D:20220127140506+01'00'",
+    "DOI": "10.3390/app12031376",
+    "year": 2022,
+    "authors": [
+      "David Nowak",
+      "Talat Khonsor",
+      "Devendra Pareek",
+      "Levent Gütay"
+    ]
+  },
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "text": "     applied\n     sciences\n\n\nArticle\nVapor-Phase Incorporation of Ge in CZTSe Absorbers for\nImproved Stability of High-Efﬁciency Kesterite Solar Cells\n\nDavid Nowak *,†    , Talat Khonsor †, Devendra Pareek and Levent Gütay\n\n\n\n                                        Institute of Physics—Ultrafast Nanoscale Dynamics (UND), Carl von Ossietzky University of Oldenburg,\n                                D-26129 Oldenburg, Germany; talat.khonsor@uol.de (T.K.); devendra.pareek@uol.de (D.P.);\n                                   levent.guetay@uol.de (L.G.)\n                                     * Correspondence: david.nowak@uni-oldenburg.de\n                                 † These authors contributed equally to this work.\n\n\n                             Featured Application: Controlled incorporation of Ge in kesterites via vapor phase source.\n\n\n                                Abstract: We report an approach to incorporate Ge into Cu2ZnSnSe4 using GeSe vapor during the\n                                  selenization step of alloyed metallic precursors. The vapor incorporation slowly begins at T ≈480 ◦C\n                          and peaks at 530 ◦C, resulting in a Ge-based composition shift inside the previously formed kesterite\n                                     layer. We initially observe the formation of a Ge-rich surface layer that merges into a homogeneous\n                                 distribution of the incorporated element during the further dwelling stage of the annealing. This\n                             approach is very versatile and could be used in many similar fabrication processes for incorporating\n                       Ge into CZTSe-absorber layers. Because the vapor-based composition shift in the layer happens\n                                   after the formation of the absorber ﬁlm towards the end of the fabrication process, most process\n                             parameters and the precursor structure may not need any signiﬁcant re-optimization. The careful\n                                 integration of this step could help to reduce Sn-related deep defects and accompanying VOC losses.\n                          The best CZTGSe-power-conversion efﬁciency obtained in this series is 10.4 % (with EG = 1.22 eV,\n                          FF = 54%, JSC = 36 mA/cm2, VOC = 540 mV, VOCdef,SQ = 417 mV). These results demonstrate the\nCitation: Nowak, D.; Khonsor, T.;       potential of this approach for Ge incorporation into kesterite absorbers.\n\nPareek, D.; Gütay, L. Vapor-Phase\n\nIncorporation of Ge in CZTSe        Keywords: CZTGSe; kesterite solar cell; vapor-phase incorporation; accelerated aging study; stability\nAbsorbers for Improved Stability of\n\nHigh-Efﬁciency Kesterite Solar Cells.\n\nAppl. Sci. 2022, 12, 1376. https://\ndoi.org/10.3390/app12031376          1. Introduction\n\nAcademic Editor: Samira Kheliﬁ         Ge incorporation into the kesterite (Cu2ZnSnSe4) system in order to form Cu2Zn(Sn,Ge)Se4\n                        (CZTGSe) material is considered to be a promising approach for obtaining photovoltaic ab-\nReceived: 1 December 2021\n                               sorbers with a higher and tunable band gap in the range of 1.0 eV to 1.5 eV [1,2]. In addition, GeAccepted: 21 January 2022\nPublished: 27 January 2022              is known to occupy the Sn sites, possibly reducing or passivating Sn-related deep defects, i.e.,\n                              VSn, SnZn and CuSn, which are assumed to be a major cause of high VOC deficits in kesterite [3–7].\nPublisher’s Note: MDPI stays neutral  Commonly reported approaches for Ge incorporation into kesterites are based on the inclusion\nwith regard to jurisdictional claims in   of Ge in the precursor layer, which can be grown by spray coating, electrodeposition and sput-\npublished maps and institutional afﬁl-   tering [2,8–10]. It has been reported that such approaches can lead to the localized incorporation\niations.\n                              of Ge [6], significant variation in grain size [8] and inferior device performance, which can be\n                         improved by ambient storage [2]. However, most of the reported processes have in common\n                                that they are based on processes that were previously optimized for a Ge-free-material system.\nCopyright: © 2022 by the authors.  As a consequence of adding Ge to the precursor, the entire alloy configuration, distribution of\nLicensee MDPI, Basel,  Switzerland.   elements, and overall composition ratios in the precursor are changed, altering the reaction\nThis article is an open access article   pathway for the kesterite-phase formation. In such a case, a well-optimized process for Ge-\ndistributed  under  the  terms  and    free-kesterite growth may need further optimization steps for Ge incorporation. The precursor\nconditions of the Creative Commons   structure and further process parameters may need a full re-optimization or even significant\nAttribution (CC BY) license (https://   modifications to avoid the formation of other secondary phases and further undesirable defects.\ncreativecommons.org/licenses/by/        Here we report an approach in which we avoid the aforementioned problems by using\n4.0/).                     an alternative method to incorporate Ge into the layer after the high-temperature phase of\n\n\n\n\n\nAppl. Sci. 2022, 12, 1376. https://doi.org/10.3390/app12031376                                      https://www.mdpi.com/journal/applsci",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "6f52dcd65bcbc64691c972bfe28d289f",
+        "59c116537ecf25f8d7692dabbf2060fb",
+        "62efa0313b674db8d12560bbe65e7581",
+        "bdad99135e250503119f6f098d743bd0",
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Appl. Sci. 2022, 12, 1376                                                                                                         2 of 10\n\n\n\n                             the selenization process, thereby maintaining the previously optimized precursor structure\n                        and the main formation pathway identical to the Ge-free growth process. In brief, the Ge is\n                            incorporated into the already-formed kesterite-absorber layer via the vapor phase during\n                            the high-temperature phase of the selenization process. During this step the composition\n                             of the layer is usually shifted from Cu-rich to Cu-poor [11,12]. Since the main kesterite\n                          phase formation route is unaltered, the process offers high reproducibility in terms of layer\n                       morphology and targeted ﬁnal-layer composition. The Ge-based devices show slightly\n                          lower efﬁciencies and could reach the range of 10%, which is slightly below the as-grown\n                             efﬁciencies of Ge-free devices. However, investigations into long-term device stability\n                             indicate an improvement of the long-term performance by adding Ge to kesterite solar\n                                    cells.\n\n                                   2. Materials and Methods\n\n                          CZTSe and CZTGSe absorbers were prepared by the one-step selenization of stacked\n                            elemental and alloyed precursor layers (Zn/Cu-Sn/Zn). The samples were produced on 3\n               mm soda-lime glass (SLG) coated with two 250 nm Mo layers and treated with Ar plasma\n                                 (in a von Ardenne cluster tool) for 3 min before being cut into the desired size of 25 mm by\n                           25 mm, and one more minute of direct treatment (and without leaving the vacuum) before\n                             sputtering the metallic-precursor layer (von Ardenne cluster tool). The Ar-plasma-etching\n                              steps were performed in order to remove oxides and organic residues from the surface. The\n                             substrates were provided by ZSW (Zentrum für Sonnenenergie und Wasserstofforschung\n                          Baden-Württemberg) as well as Manz AG. The Zn/Cu-Sn/Zn precursor stack was prepared\n                       by using the sputter durations of 324 s, 1625 s, and 44 s, respectively. The sputtering\n                              rates were estimated from a sputtering process of long duration over a large area and\n                        were approximately 23.7 µgs−1cm−2 for Zn and 11.1 µgs−1cm−2 for the Cu-Sn layer of\n                            the mixed target [13]. Annealing was performed in a semi-closed graphite susceptor\n                                   (a.k.a. graphite box) inside a conventional quartz-glass tube furnace (Carbolite Eurotherm\n                         2416CG, 2416P8) by following the same process parameters as previously reported for our\n                             Ge-free-reference process, i.e., pump and purge cycles under N2, 10 mbar base pressure,\n                          a heating ramp of 10 ◦C/min, 20 min dwelling time upon reaching a temperature of\n                           530 ◦C [12,14]. Two identical graphite boxes were used to maintain one “clean” box for the\n                             Ge-free-reference process. The graphite boxes could hold two samples for simultaneous\n                            processing, and had pockets on each side of the samples for the even distribution of Se\n                                 pellets, Sn wire, and Ge ﬂakes. The amount and purities of the added reactants were\n                          210 ± 2 mg of Se pellets (Mateck, 5N purity), 37.0 ± 0.4 mg of Sn wire (AlfaAesar, 4N\n                               purity, i.e., 10.0 ± 0.1 cm wire with 0.25 mm diameter) and, depending on the desired\n                     Ge addition, between 0 mg (reference process) and 110 ± 5 mg of Ge ﬂakes (AlfaAesar,\n                    5N purity). The reference process for synthesizing Ge-free absorbers is described in more\n                                detail elsewhere [11–13]. In brief, the Cu-rich and alloyed precursor layer (Zn/Cu-Sn/Zn)\n                                    is annealed in presence of elemental Sn wire and Se pellets in a semi-closed graphite box.\n                        During the high-temperature stage of the annealing process (i.e., at T = 530 ◦C), SnSe2−x\n                         vapor (from the selenized Sn wire) incorporates into the layer, which then shifts towards\n                          a Cu-poor composition. This reference process was adapted in order to incorporate Ge\n                              into the absorber layer. Adding Ge (in addition to the Sn wire) to the presented approach\n                      was expected to yield a similar composition shift towards a Cu-poor composition due to\n                            the simultaneous supply of GeSe2−x and SnSe2−x vapor to the sample surface. GeSe2−x\n                          has a higher vapor pressure [15–18] (see Figure S1), and can thus reach the samples earlier\n                             (already at lower temperatures) than SnSe2−x. The resulting absorbers were approximately\n                                 (1.5 ± 0.5) µm in thickness.\n                           The fabricated CZTSe and CZTGSe absorbers were subsequently coated with a CdS-\n                              buffer layer by chemical-bath deposition (solution containing cadmium acetate, ammonia,\n                       and thiourea [14,19]) for 10 min at 70 ◦C resulting in an approximately 50 nm CdS layer.\n                          75 nm of i-ZnO and 500 nm of Al:ZnO (RF-sputtered, von Ardenne cluster tool) were\n                       added afterwards to ﬁnish the solar-cell device, as shown in Figure 1. No anti-reﬂective",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Appl. Sci. 2022, 12, 1376                                                                                                         3 of 10\n\n\n\n                            coating or metallic contact grid was applied to any of the samples presented here. Sample\n                             contacting was performed by exposing the Mo layer and placing two Indium dots for the\n                         back contacting. The front contacting was established by carefully placing probe heads\n                                directly on the ZnO. Each sample was divided into nine smaller cells by mechanical scribing,\n                              resulting in laboratory-scale cells of approximately 5 mm by 5 mm.\n\n\n\n\n\n                              Figure 1. Sample preparation steps: (a) Sputtering of Zn and Cu-Sn, (b) precursor stack annealed\n                            under Se atmosphere with Sn wire and Ge pieces, (c) performed temperature proﬁle, (d) (simpliﬁed)\n                                 reaction scheme, and (e) the solar-cell ﬁnishing steps.\n\n                           The ﬁnal absorber compositions were determined by cross-calibrated (except for Ge\n                             content) energy-dispersive X-ray spectroscopy (EDX) measurements (FEI Helios 600i). An\n                           averaging of three independent and randomly positioned measurements was performed\n                          per sample. EDX surface mappings and EDX cross-section mappings of cleaved samples\n                         were performed for analysis of the elemental distribution. Shallow-angle-focused ion-beam\n                             milling was performed on some samples to investigate the depth-resolved element distri-\n                            butions (FEI Helios 600i), which is described in more detail in [11]. Raman measurements\n                         were performed with the laser wavelengths 532 nm and 457 nm (LabRAM Aramis Horiba).\n                         IV measurements under standard test conditions on each solar cell were performed using\n                         an AAA-class sun simulator (Photo Emission Tech Inc., USA). External-quantum-efﬁciency\n                        (EQE) measurements were taken at room temperature with a spectral range of 300 nm\n                              to 1400 nm (Bentham TMc300 Monochromator, lamps from Bentham instruments Ltd.,\n                      ILD 75E QH chop, Xenon and Quartz-Halogen, Stanford research systems SR 830 DSP\n                              lock-in ampliﬁer). The band gap EG of the absorber was extracted by performing a linear\n                            extrapolation of EQE2 over the energy E. Urbach energies EU were obtained by linearly\n                              ﬁtting ln(EQE) as a function of the E of the exponential tail below the band gap edge [20,21].\n                       The presented values for the VOC deﬁcit are given relative to the Shockley–Queisser limit\n                           according to the empiric Equation (1) [2,22,23]\n\n                                                         EG\n                                                 VOCde f SQ ≈0.928 ×   −0.176V −VOC,                         (1)\n                                                                        q\n\n                       where EG is the band gap extracted from EQE, q is the elementary charge and VOC is\n                            the open-circuit voltage obtained from IV measurements. Accelerated-aging tests were\n                         performed in a climate chamber (Weiss Umwelttechnik GmbH, type SC 600/70) at a\n                           temperature of 85 ◦C and relative humidity of 20%. The samples were placed in petri dishes\n                          covered with lids to protect the samples from any possible water-droplet condensation in\n                            the chamber.\n\n                                   3. Results and Discussion\n\n                           The effective incorporation of Ge into the kesterite absorber is shown in Figure 2 by\n                            the EDX results along with the EQE spectra and the EG values extracted from them. By\n                          varying the added Ge amount, CZTGSe-absorber layers with Ge/(Ge + Sn) ratios in the\n                          range of 0.0 to 0.86 were synthesized. For better viewing, only a few selected EQE spectra",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. Sample preparation steps: (a) Sputtering of Zn and Cu-Sn, (b) precursor stack annealed\nunder Se atmosphere with Sn wire and Ge pieces, (c) performed temperature proﬁle, (d) (simpliﬁed)\nreaction scheme, and (e) the solar-cell ﬁnishing steps.",
+          "figure_bbox": [
+            86.94,
+            168.46,
+            508.06,
+            310.22
+          ],
+          "bbox": [
+            166.39,
+            318.64,
+            560.17,
+            353.34
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. Sample preparation steps: (a) Sputtering of Zn and Cu-Sn, (b) precursor stack annealed\nunder Se atmosphere with Sn wire and Ge pieces, (c) performed temperature proﬁle, (d) (simpliﬁed)\nreaction scheme, and (e) the solar-cell ﬁnishing steps.",
+          "bbox": [
+            86.94,
+            168.46,
+            508.06,
+            310.22
+          ],
+          "file": "extracted_images/page3_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Appl. Sci. 2022, 12, 1376                                                                                                         4 of 10\n\n\n\n                           covering the discussed range are shown in Figure 2a; band gap values extracted from the\n                                   full set of available EQE spectra are shown in Figure 2b as a function of the Ge content.\n\n\n\n\n\n                              Figure 2. (a) EQE spectra for selected samples and (b) extracted band gaps over Ge/(Ge + Sn) ratio\n                             determined from EDX measurements. The estimated uncertainty in values is ± 0.01 for Ge/(Ge + Sn)\n                                    ratio for samples up to Ge/(Ge + Sn) = 0.43 and ± 0.04 for the masked data (excluded samples with\n                         Ge/(Ge + Sn) ≥0.67). The band gap values have an uncertainty around 1 meV, estimated based on\n                                the ﬁtting function.\n\n                       We ﬁnd a clear shift in the absorber band gap towards higher energies with increasing\n                     Ge content, showing the expected linear behavior for the samples with Ge/(Ge + Sn) <\n                                0.67. The slope of this relation amounts to (0.600 ± 0.014) eV per Ge/(Ge + Sn), which is\n                              close to the value of 0.52 reported in the literature for other growth techniques [1,2]. For\n                           higher Ge contents, i.e., ≥0.67, further increased Ge content in the layer does not lead to\n                             the expected band gap rise, indicating that the incorporation of Ge into the kesterite crystal\n                    may have reached a saturation point, above which the further addition of Ge may rather\n                           lead to condensation, secondary phases, or crystal defects. In this region, major losses,\n                        which are predominant in the high wavelength part of the presented EQE spectra, are\n                                 visible, indicating the presence of transport issues, increased recombination, and reduced\n                               collection lengths [2].\n                           The morphology of the samples was inﬂuenced by the added Ge content as shown\n                              in Figure 3. The morphology of the reference sample shows sharp grains with sizes of\n                           approximately 2 µm. Samples with added Ge show a clear trend towards larger grains and\n                                less sharp edges. The most extreme sample with Ge/(Ge + Sn) = 0.86 shows grain sizes\n                             of approximately 5–6 µm. With increased grain size the density of the grain boundaries\n                              decreases, which could inﬂuence the recombination behavior. Overall, the possible effects\n                              of grain size are assumed to be overlapped by other effects (e.g., secondary phases, strain,\n                                      etc.); therefore, within this study no conclusions were drawn about the possible inﬂuence\n                              of grain size on the device performance.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. (a) EQE spectra for selected samples and (b) extracted band gaps over Ge/(Ge + Sn) ratio\ndetermined from EDX measurements. The estimated uncertainty in values is ± 0.01 for Ge/(Ge + Sn)\nratio for samples up to Ge/(Ge + Sn) = 0.43 and ± 0.04 for the masked data (excluded samples with\nGe/(Ge + Sn) ≥0.67). The band gap values have an uncertainty around 1 meV, estimated based on\nthe ﬁtting function.",
+          "figure_bbox": [
+            164.39,
+            131.14,
+            535.11,
+            393.38
+          ],
+          "bbox": [
+            166.39,
+            399.81,
+            560.17,
+            460.15
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. (a) EQE spectra for selected samples and (b) extracted band gaps over Ge/(Ge + Sn) ratio\ndetermined from EDX measurements. The estimated uncertainty in values is ± 0.01 for Ge/(Ge + Sn)\nratio for samples up to Ge/(Ge + Sn) = 0.43 and ± 0.04 for the masked data (excluded samples with\nGe/(Ge + Sn) ≥0.67). The band gap values have an uncertainty around 1 meV, estimated based on\nthe ﬁtting function.",
+          "bbox": [
+            164.39,
+            131.14,
+            535.11,
+            393.38
+          ],
+          "file": "extracted_images/page4_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Appl. Sci. 2022, 12, 1376                                                                                                         5 of 10\n\n\n\n\n\n                              Figure 3. SEM pictures showing the morphology of samples with varied Ge/(Ge + Sn) ratios.\n\n                           The SEM top-view images in Figure 3 show the formation of rod-shaped particles on\n                           top of the samples with Ge/(Ge + Sn) ≥0.67. Using Raman measurements on the surface,\n                            these particles were identiﬁed as SnSe. For the performance of a depth-dependent phase\n                              analysis, a shallow-angle cross section was created using focused ion-beam milling [24].\n                       The Raman and EDX measurements of the wedge-shaped cross section revealed that the\n                         SnSe secondary phase was occurring throughout the full depth of the absorber layer (see\n                           Figure S2). Interestingly, the sample with Ge/(Ge + Sn) ratio of 0.86 did not show clear\n                         SnSe secondary phases; however, large voids between the grains were observed, possibly\n                              indicating an evaporation of volatile secondary phases formed in the process (e.g., SnSe2−x\n                       and GeSe2−x).\n                               Considering sample homogeneity, morphology and EQE characteristics, the developed\n                           process therefore seems suitable for synthesizing CZTGSe-absorber layers with low to\n                           intermediate amounts of Ge (i.e., Ge/(Ge + Sn) ≤0.43), which appears to be more than\n                              sufﬁcient to cover the composition range for highest expected device performance reported\n                               in the literature [2,8,25]. The discussion in the following section is therefore focused on the\n                          samples with Ge/(Ge + Sn) ≤0.43.\n                              According to our previous work on Ge-free-kesterite devices [11,12], the CZTSe phase\n                         forms below a temperature of 400 ◦C in the presence of secondary phases (e.g., ZnSe\n                       and Cu2Se). At higher temperatures, the SnSe2−x vapor from the supplied Sn wire in the\n                            graphite susceptor incorporates into the layer, leading to further growth of the CZTSe\n                          phase by reacting with ZnSe and Cu2Se, leading to a composition shift (Cu-rich to Cu-poor).\n                         To understand the formation path and the composition shift in the Ge-containing process, a\n                                series of interrupted-annealing experiments was performed. The selenization process was\n                            interrupted at different temperatures by quenching with nitrogen gas. Raman and EDX\n                            analyses were carried out on the samples and the results are summarized in Figure 4a,b.\n                      Up to 400 ◦C, the process is expected to behave identical to our reference Ge-free\n                                kesterite process. No signiﬁcant amount of Ge was found in the layer (Ge/(Ge + Sn) < 0.02)\n                       and the A1 mode is centered at wavenumbers below 196 cm−1, indicating no presence\n                             of Ge in the CZTSe phase [26]. After reaching the annealing temperature of 480 ◦C, the\n                              ﬁrst indications of Ge incorporation were observed. Raman shows a shift of the A1 mode\n                        from 194.6 cm−1 at 430 ◦C to 196.3 cm−1 at 480 ◦C and the EDX measurements show a\n                                ratio of Ge/(Ge + Sn) ≈0.06. Once the temperature reaches 500 ◦C, Raman peaks related\n                              to secondary phases disappear (as described above for the reference process [11,12], here\n                      shown Cu2-xSe at 263 cm−1 [27,28]), the A1 mode shifts further to 196.8 cm−1 and the Ge\n                           content (from EDX) further increases (Ge/(Ge + Sn) ≈0.07). At 530 ◦C, the largest A1\n                     mode shift of 201.7 cm−1 is observed, which would correspond to a Ge content of Ge/(Ge\n                     + Sn) ≈0.56 (see Figure S3). However, the corresponding Ge content observed from\n                   EDX measurements only amounted to Ge/(Ge + Sn) ≈0.24. The possible reason for this\n                             signiﬁcant discrepancy could be a higher Ge concentration at the surface region of the layer",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. SEM pictures showing the morphology of samples with varied Ge/(Ge + Sn) ratios.",
+          "figure_bbox": [
+            163.89,
+            55.26,
+            561.78,
+            266.78
+          ],
+          "bbox": [
+            166.39,
+            273.21,
+            535.29,
+            282.27
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. SEM pictures showing the morphology of samples with varied Ge/(Ge + Sn) ratios.",
+          "bbox": [
+            163.89,
+            55.26,
+            561.78,
+            266.78
+          ],
+          "file": "extracted_images/page5_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Appl. Sci. 2022, 12, 1376                                                                                                         6 of 10\n\n\n\n                            detected by Raman, which is more surface sensitive than EDX [8]. For the samples with a\n                          dwell time of 10 min and longer, the A1 mode shifts back towards lower wavenumbers,\n                                          i.e., 199.4 ± 0.3 cm−1, and the peak position matches again with the EDX measured Ge\n                            concentration (Ge/(Ge + Sn) ≈0.30) (see Figure S3). To investigate the possibility of a\n                           composition gradient in the sample from the interruption experiment, we performed cross-\n                              sectional EDX mappings of the sample corresponding to 530 ◦C (quenched), and 530 ◦C\n                          with 20 min of dwell time (normal procedure). Figure 4c shows the Sn and Ge distribution\n                             across the depth of these samples, exhibiting higher accumulation of Ge on the surface of\n                             the layer for the interrupted sample (Figure 4c, left hand side). The sample with dwell time\n                       shows intermixed Ge and Sn throughout the depth of the absorber (Figure 4c, right hand\n                                side). This result conﬁrms the previously discussed observation from Raman and EDX\n                       and illustrates the formation and decay of an initial front-surface Ge gradient during this\n                              process. We note that the Sn content in the layer stays constant throughout all the samples.\n                       The overall composition shifted from a Cu-rich start to a Cu-poor (& Zn-rich) absorber\n                          during the process due to GeSe incorporation (see Figure S4).\n\n\n\n\n\n                              Figure 4. (a) Raman spectra and (b) atomic percentages of Sn and Ge for the samples prepared from\n                               interrupted-annealing experiments, quenched at temperatures of 300 ◦C, 350 ◦C, 400 ◦C, 450 ◦C,\n                             480 ◦C, 500 ◦C, 530 ◦C and for samples with Tmax of 530 ◦C including a dwelling step of 10 min, 20\n                         min and 30 min duration. (c) The cross-section EDX mappings show the distribution of Sn and Ge for\n                            samples without and with a dwelling step.\n\n                           The ex-situ Raman and EDX measurements suggest that the Ge incorporation into\n                               kesterite does not signiﬁcantly inﬂuence the reported formation path of the kesterite\n                         phase [11,12]. In the case of Ge incorporation, the Cu-rich to Cu-poor composition shift\n                            occurs at a slightly lower temperature (480 ◦C to 530 ◦C) due to the higher vapor pressure\n                              of GeSe2−x as compared to SnSe2−x (see Figure S1). This means that up to this temperature\n                            the process is unaltered and all reaction steps and pre-steps of the kesterite formation are\n                           not inﬂuenced.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. (a) Raman spectra and (b) atomic percentages of Sn and Ge for the samples prepared from\ninterrupted-annealing experiments, quenched at temperatures of 300 ◦C, 350 ◦C, 400 ◦C, 450 ◦C,\n480 ◦C, 500 ◦C, 530 ◦C and for samples with Tmax of 530 ◦C including a dwelling step of 10 min, 20\nmin and 30 min duration. (c) The cross-section EDX mappings show the distribution of Sn and Ge for\nsamples without and with a dwelling step.",
+          "figure_bbox": [
+            164.39,
+            294.32,
+            418.47,
+            609.36
+          ],
+          "bbox": [
+            166.39,
+            615.8,
+            560.4,
+            676.14
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. (a) Raman spectra and (b) atomic percentages of Sn and Ge for the samples prepared from\ninterrupted-annealing experiments, quenched at temperatures of 300 ◦C, 350 ◦C, 400 ◦C, 450 ◦C,\n480 ◦C, 500 ◦C, 530 ◦C and for samples with Tmax of 530 ◦C including a dwelling step of 10 min, 20\nmin and 30 min duration. (c) The cross-section EDX mappings show the distribution of Sn and Ge for\nsamples without and with a dwelling step.",
+          "bbox": [
+            164.39,
+            294.32,
+            418.47,
+            609.36
+          ],
+          "file": "extracted_images/page6_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Appl. Sci. 2022, 12, 1376                                                                                                         7 of 10\n\n\n\n                      We note that XRD measurements of selected samples further conﬁrms that no signif-\n                              icant Ge incorporation is observed until 450 ◦C. XRD measurements show no signature\n                          peaks corresponding to the SnSe2−x and GeSe2−x phases (Figure S5 and description).\n                            To measure the PV device characteristics, all the samples were coated with CdS and\n                   TCO layers to fabricate the solar cells. A summary of IV parameters and EQE analysis for\n                          samples with Ge/(Ge + Sn) ≤0.43 is given in Figure 5.\n\n\n\n\n\n                              Figure 5. Device properties for CZTGSe-based solar cells with varying Ge content: VOC and VOC\n                                 deﬁcit, calculated relative to the Shockley-Queisser limit on the left axis; ï, EU, JSC and FF on the\n                                  right axis. Trend lines provided as a guide for the eyes.\n\n                         As expected, the open-circuit voltage VOC is increased, and the short-circuit current\n                               JSC drops due to the increased band gap (see Figure 2). However, the VOC deﬁcit follows\n                            the trend of the Voc, showing that the increased band gap of the absorber is only partially\n                           converted into an open-circuit voltage gain. The magnitude of the VOC deﬁcit, commonly\n                              attributed to Sn-related deep defects, remains unaffected by the approach in our study.\n                            The Urbach energy EU, extracted from the EQE spectra, describes the magnitude of the\n                       band tailing and is considered as an indicator of crystal quality [29,30]. A clear difference\n                        between EU of the reference and Ge-containing samples is visible. This can be explained\n                       by an increase in the general crystal disorder by adding an extra element to the crystal\n                              structure in the case of Ge-containing kesterite.\n                           The ﬁll factor FF of all CZTGSe devices was found to be lower than the reference\n                        CZTSe. A possible reason for this could be the non-adapted solar-cell-device-processing\n                               steps. These were only optimized for the Ge-free kesterite and simpliﬁed for a facile\n                          procedure that contains no treatments besides the main steps (i.e., no air annealing, no\n                             etching, etc.). In the case of Ge-containing kesterite, additional steps such as etching\n                           or pre-treatment for the buffer-layer deposition might be necessary to improve the CdS\n                         homogeneity and quality of the interface in order to overcome the loss in the observed ﬁll\n                                 factors. The noticeable scattering of the data shown in Figure 5 is due to process variations",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. Device properties for CZTGSe-based solar cells with varying Ge content: VOC and VOC\ndeﬁcit, calculated relative to the Shockley-Queisser limit on the left axis; ï, EU, JSC and FF on the\nright axis. Trend lines provided as a guide for the eyes.",
+          "figure_bbox": [
+            164.39,
+            181.35,
+            429.51,
+            505.99
+          ],
+          "bbox": [
+            166.39,
+            512.29,
+            559.27,
+            547.12
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. Device properties for CZTGSe-based solar cells with varying Ge content: VOC and VOC\ndeﬁcit, calculated relative to the Shockley-Queisser limit on the left axis; ï, EU, JSC and FF on the\nright axis. Trend lines provided as a guide for the eyes.",
+          "bbox": [
+            164.39,
+            181.35,
+            429.51,
+            505.99
+          ],
+          "file": "extracted_images/page7_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Appl. Sci. 2022, 12, 1376                                                                                                         8 of 10\n\n\n\n                           over a longer time range (months), different substrate batches and different CdS deposition\n                             batches. The overall PCE η for CZTGSe cells is lower than the Ge-free-CZTSe reference,\n                             yet still shows one of the highest reported efﬁciencies of 10.4%, with a Ge/(Ge + Sn) ratio\n                             of 0.32 (EG = 1.22 eV). The IV curves of the corresponding sample are shown in Figure\n                              S6. IV curves for the ﬁve different Ge ranges introduced in the context of Figure 3 are\n                        compared in Figure S7. In addition to the IV and EQE measurements of freshly fabricated\n                              devices, a time-stability analysis was performed using an accelerated-aging procedure. A\n                                total of 12 CZTSe solar cells and 12 CZTGSe solar cells with Ge/(Ge + Sn) ≈0.30 ± 0.02\n                        were kept in a controlled climate chamber at 85 ◦C for a total duration of 1000 h. Since\n                            the devices were not encapsulated, the relative humidity RH was maintained at 20% [31].\n                        To rule out the mechanical stress by repeated sample measurements and to obtain more\n                                 reliable data on the inﬂuence of handling, the best, the worst and one intermediate cell per\n                         sample was only measured initially and after the completion of the entire aging duration of\n                          1000 h. These were found not to differ from the presented values and are also included in\n                            the corresponding boxplots at 0 h and 1000 h. The evolution of the sample efﬁciencies is\n                        summarized in Figure 6.\n\n\n\n\n\n                              Figure 6. Accelerated aging results for non-encapsulated CZTSe references and CZTGSe solar cells.\n\n                                 In the accelerated-aging results, which compare the CZTSe and CZTGSe samples in\n                           terms of device efﬁciency, a distinct difference is visible. The CZTSe samples suffered from\n                          a quick drop in efﬁciency after the ﬁrst 24 h of accelerated aging in the climate chamber\n                       (mean of 10.4% to approximately 7.0%). A slow but incomplete recovery of the efﬁciency\n                     up to 8.2% took place after the initial drop. The CZTGSe samples, on the other hand,\n                          did not feature the initial drop but also slowly improved their efﬁciency as the aging\n                           progressed from 6.5% to 8.4%. After 100 h of accelerated aging, the mean efﬁciency slightly\n                          overtook the reference. These results indicate that the long-term stability of the kesterite\n                           absorber can be improved by Ge incorporation, which needs more careful attention in\n                             future investigations.\n\n                                   4. Conclusions\n\n                      We have introduced a facile process for Ge incorporation in kesterite absorbers. The\n                           process involves the supply of GeSe2−x vapor during the selenization/annealing step of",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. Accelerated aging results for non-encapsulated CZTSe references and CZTGSe solar cells.",
+          "figure_bbox": [
+            164.39,
+            306.88,
+            440.07,
+            576.32
+          ],
+          "bbox": [
+            166.39,
+            582.75,
+            558.91,
+            591.8
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. Accelerated aging results for non-encapsulated CZTSe references and CZTGSe solar cells.",
+          "bbox": [
+            164.39,
+            306.88,
+            440.07,
+            576.32
+          ],
+          "file": "extracted_images/page8_figure-6_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Appl. Sci. 2022, 12, 1376                                                                                                         9 of 10\n\n\n\n                             kesterite-absorber preparation. The main advantage of this process is its versatile adapt-\n                                   ability, allowing for the reuse of the existing reference process based on a pre-optimized\n                             precursor-alloy conﬁguration, thereby preserving the main reaction path of the Ge-free\n                           process (up to 450 ◦C). The straightforward evaluation of as-grown CZTGSe solar cells\n                       showed promising efﬁciencies of > 10 %, but no direct improvement relative to the reference\n                      CZTSe devices was achieved. However, an accelerated-aging test at 85 ◦C revealed that\n                           Ge-containing devices may perform superior to their Ge-free counterparts in terms of\n                                    stability.\n\n\n                           Supplementary Materials: The following supporting information can be downloaded at: https:\n                            //www.mdpi.com/article/10.3390/app12031376/s1, Figure S1: Vapor pressure curves for relevant\n                            compounds.; Figure S2: Depth dependent EDX mapping of the samples.; Figure S3: Raman A1 peak\n                                position vs. Ge/(Ge + Sn) ratio for the samples; Figure S4: Cu/(Ge + Sn) ratio development for\n                               various samples.; Figure S5: X-ray diffractogram of the selected samples; Figure S6: PCE IV curves for\n                            sample with the best efﬁciency from this study.; Figure S7: IV curves of the Ge-incorporated samples.\n\n                           Author Contributions: Conceptualization, D.N., D.P. and L.G.; Methodology, D.N. and T.K.; Software,\n                               D.N.; Validation, D.N., T.K., D.P. and L.G.; Formal Analysis, D.N. and T.K..; Investigation, D.N. and\n                                   T.K.; Resources, L.G.; Data Curation, D.N. and T.K.; Writing—Original Draft Preparation, D.N.;\n                           Writing—Review & Editing, D.N., T.K., D.P. and L.G.; Visualization, D.N. and T.K.; Supervision, L.G.;\n                                   Project Administration, L.G.; Funding Acquisition, D.P. and L.G. All authors have read and agreed to\n                                the published version of the manuscript.\n\n                            Funding: This project has received funding from the European Union’s Horizon 2020 research and\n                              innovation program under grant agreement No. 952982 (“Custom-Art”). David Nowak thanks the\n                              Nagelschneider Stiftung for the scholarship. Talat Khonsor was gratefully funded by the Hans-Böckler\n                                  Stifung.\n\n                           Data Availability Statement: Raw data is available at https://zenodo.org/communities/custom-\n                             art?page=1&size=20 (accessed on 17 January 2022).\n\n                          Acknowledgments: The authors thank Erik Ahlswede and coworkers (ZSW Stuttgart) for kindly\n                              providing Mo-coated SLG substrates. We also thank the Manz A.G. for providing SLG substrates as\n                                  well. We also thank our colleague Sarah Bredemeier for performing XRD measurements.\n\n                             Conﬂicts of Interest: The authors declare no conﬂict of interest.\n\nReferences\n\n1.   Khadka, D.B.; Kim, J. Band Gap Engineering of Alloyed Cu2ZnGexSn1–xQ4 (Q = S,Se) Films for Solar Cell. J. Phys. Chem. C 2015,\n     119, 1706–1713. [CrossRef]\n2.    Collord, A.D.; Hillhouse, H.W. Germanium Alloyed Kesterite Solar Cells with Low Voltage Deﬁcits. Chem. Mater. 2016, 28,\n     2067–2073. [CrossRef]\n3.   Gershon, T.; Gokmen, T.; Gunawan, O.; Haight, R.; Guha, S.; Shin, B. Understanding the relationship between Cu2ZnSn(S,Se)4\n     material properties and device performance. MRS Commun. 2014, 4, 159–170. [CrossRef]\n4.   Kim, S.; Park, J.-S.; Walsh, A. Identiﬁcation of Killer Defects in Kesterite Thin-Film Solar Cells. ACS Energy Lett. 2018, 3, 496–500.\n     [CrossRef]\n5.   Chen, S.; Walsh, A.; Gong, X.-G.; Wei, S.-H. Classiﬁcation of Lattice Defects in the Kesterite Cu2ZnSnS4 and Cu2ZnSnSe4\n     Earth-Abundant Solar Cell Absorbers. Adv. Mater. 2013, 25, 1522–1539. [CrossRef]\n6.   Márquez, J.; Stange, H.; Hages, C.J.; Schaefer, N.; Levcenko, S.; Giraldo, S.; Saucedo, E.; Schwarzburg, K.; Abou-Ras, D.; Redinger,\n      A.; et al. Chemistry and Dynamics of Ge in Kesterite: Toward Band-Gap-Graded Absorbers. Chem. Mater. 2017, 29, 9399–9406.\n     [CrossRef]\n7.    González-Castillo, J.R.; Pulgarin, F.A.; Rodriguez, E.; Vigil-Galán, O.; Courel-Piedrahita, M.; Andrade-Arvizu, J.A. Inﬂuence of Ge\n     content on Cu2Zn(SnGe)Se4 physical properties deposited by sequential thermal evaporation technique. Mater. Sci. Semicond.\n      Process. 2018, 83, 96–101. [CrossRef]\n8.   Andrade-Arvizu, J.; Fonoll-Rubio, R.; Sánchez, Y.; Becerril-Romero, I.; Malerba, C.; Valentini, M.; Calvo-Barrio, L.; Izquierdo-Roca,\n       V.; Placidi, M.; Vigil-Galán, O.; et al. Rear Band gap Grading Strategies on Sn–Ge-Alloyed Kesterite Solar Cells. ACS Appl. Energy\n     Mater. 2020, 3, 10362–10375. [CrossRef]\n9.   Guo, Q.; Ford, G.M.; Yang, W.-C.; Hages, C.; Hillhouse, H.W.; Agrawal, R. Enhancing the performance of CZTSSe solar cells with\n    Ge alloying. Sol. Energy Mater. Sol. Cells 2012, 105, 132–136. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Appl. Sci. 2022, 12, 1376                                                                                                        10 of 10\n\n\n\n\n10.   Lv, X.; Zhu, C.; Hao, H.; Liu, R.; Wang, Y.; Wang, J. Improving the performance of low-cost water-based solution-synthesised\n     Cu2ZnSn1-xGex(S,Se)4 absorber thin ﬁlms by germanium doping. Ceram. Int. 2020, 46, 25638–25645. [CrossRef]\n11.   Pareek, D.; Taskesen, T.; Márquez, J.A.; Stange, H.; Levcenco, S.; Simsek, I.; Nowak, D.; Pfeiffelmann, T.; Chen, W.; Stroth, C.; et al.\n     Reaction Pathway for Efﬁcient Cu 2 ZnSnSe 4 Solar Cells from Alloyed Cu-Sn Precursor via a Cu-Rich Selenization Stage. Sol.\n    RRL 2020, 4, 2000124. [CrossRef]\n12.   Taskesen, T.; Pareek, D.; Nowak, D.; Kogler, W.; Schnabel, T.; Ahlswede, E.; Gütay, L. Potential of CZTSe Solar Cells Fabricated by\n    an Alloy-Based Processing Strategy. Z. Naturforsch. A 2019, 74, 673–682. [CrossRef]\n13.  Nowak, D.; Taskesen, T.; Pareek, D.; Pfeiffelmann, T.; Mikolajczak, U.; Gütay, L. Tuning of Precursor Composition and Formation\n    Pathway of Kesterite Absorbers Using an In-Process Composition Shift: A Path toward Higher Efﬁciencies? Sol. RRL 2021, 5,\n     2100237. [CrossRef]\n14.  Taskesen, T.; Steininger, V.; Chen, W.; Ohland, J.; Mikolajczak, U.; Pareek, D.; Parisi, J.; Gütay, L. Resilient and reproducible\n     processing for CZTSe solar cells in the range of 10%. Prog. Photovoltaics: Res. Appl. 2018, 26, 1003–1006. [CrossRef]\n15.  Honig, R.E. Vapor Pressure Data for the More Common Elements. R. C. A. Rev. 1957, 18, 195–204.\n16.  Robert, E.V.; de Wild, J.; Dale, P. Reaction chemistry of group IV containing copper chalcogenide semiconductors Cu2MX3\n    (M = Sn, Ge and X = S, Se). J. Alloy. Compd. 2017, 695, 1307–1316. [CrossRef]\n17.  Xue, D.-J.; Liu, S.-C.; Dai, C.-M.; Chen, S.; He, C.; Zhao, L.; Hu, J.-S.; Wan, L.-J. GeSe Thin-Film Solar Cells Fabricated by\n     Self-Regulated Rapid Thermal Sublimation. J. Am. Chem. Soc. 2017, 139, 958–965. [CrossRef]\n18.   Irene, E.A.; Wiedemeier, H. ChemInform Abstract: The Sublimation Kinetics of Gese Single Crystals. Chem. Inf. 1975, 6, 182–192.\n     [CrossRef]\n19.  Taskesen, T.; Neerken, J.; Schoneberg, J.; Pareek, D.; Steininger, V.; Parisi, J.; Gütay, L. Device Characteristics of an 11.4% CZTSe\n     Solar Cell Fabricated from Sputtered Precursors. Adv. Energy Mater. 2018, 8, 1703295. [CrossRef]\n20.  Hassanien, A.; Akl, A.A. Effect of Se addition on optical and electrical properties of chalcogenide CdSSe thin ﬁlms. Superlattices\n      Microstruct. 2016, 89, 153–169. [CrossRef]\n21.  Urbach, F. The Long-Wavelength Edge of Photographic Sensitivity and of the Electronic Absorption of Solids. Phys. Rev. (Series I)\n     1953, 92, 1324. [CrossRef]\n22.  Bourdais, S.; Choné, C.; Delatouche, B.; Jacob, A.; Larramona, G.; Moisan, C.; Lafond, A.; Donatini, F.; Rey, G.; Siebentritt, S.;\n      et al. Is the Cu/Zn Disorder the Main Culprit for the Voltage Deﬁcit in Kesterite Solar Cells? Adv. Energy Mater. 2016, 6, 1502276.\n     [CrossRef]\n23.  Rey, G.; Weiss, T.; Sendler, J.; Finger, A.; Spindler, C.; Werner, F.; Melchiorre, M.; Hála, M.; Guennou, M.; Siebentritt, S. Ordering\n      kesterite improves solar cells: A low temperature post-deposition annealing study. Sol. Energy Mater. Sol. Cells 2016, 151, 131–138.\n     [CrossRef]\n24.   Stroth, C.; Sayed, M.H.; Schuster, M.; Ohland, J.; Hammer-Riedel, I.; Hammer, M.S.; Wellmann, P.; Parisi, J.; Gütay, L. Depth-\n     resolved and temperature dependent analysis of phase formation processes in Cu–Zn–Sn–Se ﬁlms on ZnO substrates. J. Mater.\n      Sci. Mater. Electron. 2017, 28, 7730–7738. [CrossRef]\n25.  Giraldo, S.; Jehl, Z.; Placidi, M.; Izquierdo-Roca, V.; Pérez-Rodríguez, A.; Saucedo, E. Progress and Perspectives of Thin Film\n      Kesterite Photovoltaic Technology: A Critical Review. Adv. Mater. 2019, 31, e1806692. [CrossRef]\n26.  Chen, G.; Wang, W.; Chen, S.; Whang, Z.; Huang, Z.; Zhang, B.; Kong, X. Bandgap engineering of Cu2ZnSn1-xGexS(e)4 by\n     adjusting Sn-Ge ratios for almost full solar spectrum absorption. J. Alloy. Compd. 2017, 718, 236–245. [CrossRef]\n27.  Xue, C.; Papadimitriou, D.; Raptis, Y.S.; Richter, W.; Esser, N.; Siebentritt, S.; Lux-Steiner, M.C. Micro-Raman Study of Orientation\n      Effects of CuxSe-Crystallites on Cu-rich CuGaSe2 Thin Films. J. Appl. Phys. 2004, 96, 1963–1966. [CrossRef]\n28.   Ishii, M.; Shibata, K.; Nozaki, H. Anion Distributions and Phase Transitions in CuS1-xSex(x = 0-1) Studied by Raman Spectroscopy.\n        J. Solid State Chem. 1993, 105, 504–511. [CrossRef]\n29.  Hages, C.J.; Carter, N.J.; Agrawal, R. Generalized quantum efﬁciency analysis for non-ideal solar cells: Case of Cu2ZnSnSe4. J.\n     Appl. Phys. 2016, 119, 014505. [CrossRef]\n30.   Jean, J.; Mahony, T.S.; Bozyigit, D.; Sponseller, M.; Holovský, J.; Bawendi, M.G.; Bulovi´c, V. Radiative Efﬁciency Limit with Band\n      Tailing Exceeds 30% for Quantum Dot Solar Cells. ACS Energy Lett. 2017, 2, 2616–2624. [CrossRef]\n31.  Larramona, G.; Chone, C.; Meissner, D.; Ernits, K.; Bras, P.; Ren, Y.; Salinas, R.M.; Rodríguez-Villatoro, J.L.; Vermang, B.;\n     Brammertz, G. Stability, reliability, upscaling and possible technological applications of kesterite solar cells. J. Physics: Energy\n     2020, 2, 024009. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "6f52dcd65bcbc64691c972bfe28d289f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            516.92,
+            55.85,
+            558.47,
+            83.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_6f52dcd65bcbc64691c972bfe28d289f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "59c116537ecf25f8d7692dabbf2060fb",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            517.1,
+            56.04,
+            538.31,
+            76.2
+          ]
+        }
+      ],
+      "file": "garbage/page1_59c116537ecf25f8d7692dabbf2060fb.png",
+      "is_garbage": true
+    },
+    {
+      "id": "62efa0313b674db8d12560bbe65e7581",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            537.1,
+            63.11,
+            558.32,
+            83.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_62efa0313b674db8d12560bbe65e7581.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bdad99135e250503119f6f098d743bd0",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            521.38,
+            65.1,
+            553.92,
+            74.3
+          ]
+        }
+      ],
+      "file": "garbage/page1_bdad99135e250503119f6f098d743bd0.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            35.72,
+            656.88,
+            92.41,
+            676.72
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

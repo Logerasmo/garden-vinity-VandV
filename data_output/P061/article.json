@@ -1,0 +1,325 @@
+{
+  "publication_id": "P061",
+  "source_file": "P061.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.6",
+    "creator": "pdftk-java 3.3.3",
+    "producer": "itext-paulo-155 (itextpdf.sf.net - lowagie.com)",
+    "creationDate": "D:20260619000546+10'00'",
+    "modDate": "D:20260619000546+10'00'",
+    "title": "Synergetic Regulation of Oriented Crystallization and Interfacial Passivation Enables 19.1% Efficient Wide‐Bandgap Perovskite Solar Cells",
+    "DOI": "10.1002/aenm.202201509",
+    "year": 2022,
+    "authors": [
+      "Yue Yu",
+      "Rui Liu",
+      "Chang Liu",
+      "Xiao‐Lei Shi",
+      "Hua Yu",
+      "Zhi‐Gang Chen"
+    ],
+    "author": "Yue Yu; Rui Liu; Chang Liu; Xiao‐Lei Shi; Hua Yu; Zhi‐Gang Chen"
+  },
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "text": "This may be the author’s version of a work that was submitted/accepted\nfor publication in the following source:\n\nYu, Yue, Liu, Rui, Liu, Chang, Shi, Xiao-Lei, Yu, Hua, & Chen, Zhi-Gang\n(2022)\nSynergetic Regulation of Oriented Crystallization and Interfacial Passiva-\ntion Enables 19.1% Efﬁcient Wide-Bandgap Perovskite Solar Cells.\nAdvanced Energy Materials, 12(33), Article number: 2201509.\n\nThis ﬁle was downloaded from: https://eprints.qut.edu.au/233945/\n\n\n\n© 2022 The Authors\n\n\nThis work is covered by copyright. Unless the document is being made available under a\n\nCreative Commons Licence, you must assume that re-use is limited to personal use and\n\nthat permission from the copyright owner must be obtained for all other uses. If the docu-\n\nment is available under a Creative Commons License (or other speciﬁed license) then refer\n\nto the Licence for details of permitted re-use.  It is a condition of access that users recog-\n\nnise and abide by the legal requirements associated with these rights.  If you believe that\n\nthis work infringes copyright please provide details by email to qut.copyright@qut.edu.au\n\n\nLicense: Creative Commons: Attribution-Noncommercial-No Derivative\nWorks 4.0\n\n\n\nNotice: Please note that this document may not be the Version of Record\n(i.e. published version) of the work. Author manuscript versions (as Sub-\nmitted for peer review or as Accepted for publication after peer review) can\nbe identiﬁed by an absence of publisher branding and/or typeset appear-\nance. If there is any doubt, please refer to the published source.\n\nhttps://doi.org/10.1002/aenm.202201509",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "d4d00ea4c34c9df3bcdbbbce15c233e7"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Research Article\n\n                                                                                                              www.advenergymat.de\n\nSynergetic Regulation of Oriented Crystallization and\nInterfacial Passivation Enables 19.1% Efficient Wide-\nBandgap Perovskite Solar Cells\n\nYue Yu, Rui Liu, Chang Liu, Xiao-Lei Shi, Hua Yu,* and Zhi-Gang Chen*\n\n\n                                                                    show promising applications in building-\nWide-bandgap (WBG) perovskite solar cells (PSCs) suffer from severe voltage      integrated photovoltaics and Internet of\nloss, which significantly limits the enhancement of photovoltaic performance.      Things.[4] Despite their numerous studies,\n                                                WBG PSCs still suffer from severe open-Here, 4-fluoro-phenylethylammonium iodide (FPEAI) is used as a dual-\n                                                                                                  circuit voltage loss (Vloss) and instability.functional agent for oriented crystallization and comprehensive passivation                                                                                     Extensive investigations indicate that the\nof WBG PSCs. The additive of FPEAI promotes crystals to grow along with         rigorous Vloss is attributed to high-density\nthe (100) orientation with improved crystallinity and to spontaneously form         defects and photoinduced phase  segre-\nRuddlesden–Popper 2D perovskite on the grain boundary and surface of 3D         gation.[5] The  polycrystalline  perovskite\ncrystals, which can passivate defects and protect the perovskite film from          films prepared by solution methods have\n                                                                    numerous  defects  at  grain  boundaries,moisture erosion as well as suppressed ion migration. In addition, the 2D/3D\n                                                                                           surface, and perovskite bulk,[6] which act\nheterostructure induces a matched energy-level alignment, which mitigates                                                                                     as trapping sites that cause strong nonra-\nthe detrimental interfacial charge recombination at the interface of the 3D           diative recombination. The nonradiative\nperovskite and hole transport layer. Consequently, the modified WBG PSCs        recombination decreases the steady-state\nexhibit an improved open-circuit voltage to 1.3 V and a fill factor of 77.8%,         charge density and reduces the splitting of\n                                                                                 quasi-Fermi levels, finally leading to a rela-leading to a remarkable power conversion efficiency of 19.1% with negligible\n                                                                                                      tively large Vloss.[7] Besides, surface defectshysteresis. Furthermore, the WBG PSCs maintain 85% of the original effi-                                                                                                   at grain boundary provide channels for\nciency after 1000 h in air, demonstrating outstanding humidity stability. This       moisture invasion as well as ion migra-\nwork indicates that FPEAI can be used as a dual-functional agent to signifi-          tion, resulting in detrimental stability.[8]\ncantly enhance the efficiency of WBG PSCs.                                         Various   strategies   including   addi-\n                                                                                                    tive   engineering,[9]  composition  engi-\n                                                                                                    neering,[10]  solvent  engineering,[11]  and\n1. Introduction                                                  interface engineering,[5b] are effectively employed to fabricate\n                                                                     high-efficiency WBG PSCs. Among them, using additives in\nWide-bandgap (WBG)  perovskite  solar  cells  (PSCs)  have    perovskite precursors is a common method to fabricate high-\nengaged much  attention  in  the  field  of  semitransparent    quality WBG PSCs. The functions of additives are mainly to\ndevices,[1] tandem  cells,[2] and  indoor  photovoltaics,[3] and   improve the film  quality,[12] passivate  defects,[13] and inhibit\n                                                          phase segregation.[14] For example, Yan and co-workers reported\n                                                                      that lead thiocyanate additive can availably increase the grain\nY. Yu, R. Liu, C. Liu, H. Yu\nInstitute of Photovoltaic                                                size to 1 µm and enhance the crystallinity of WBG perovskite\nSouthwest Petroleum University                                                  films.[11] Recently, 2D/3D heterostructure formed by interfacial\nChengdu 610500, China                                              passivation attracts great attention for WBG PSCs with high\nE-mail: 201899010017@swpu.edu.cn, 17198328@qq.com               power conversion efficiency (PCE) and superior stability.[5a,15]\nX.-L. Shi, Z.-G. Chen                               A 2D/3D heterostructure, formed by depositing large organic\nSchool of Chemistry and Physics                                                                   cation onto 3D WBG perovskite, can efficaciously passivateQueensland University of Technology\nBrisbane, Queensland 4001, Australia                                 the surface defect,[16] block ion migration,[17] and enhance the\nE-mail: zhigang.chen@qut.edu.au                                           stability of WBG PSCs.[18] Furthermore, the optimized energy-\n    The ORCID identification number(s) for the author(s) of this article    level arrangement of the 2D/3D heterostructure can decrease\n     can be found under https://doi.org/10.1002/aenm.202201509.        the Vloss.[5a,19] To date, most of the reported studies focus on\n© 2022 The Authors. Advanced Energy Materials published by Wiley-      one single strategy to modify either perovskite crystallization or\nVCH GmbH. This is an open access article under the terms of the Crea-     interface passivation, or others. Therefore, it is of great interest\ntive Commons Attribution-NonCommercial-NoDerivs License, which        to develop synergetic strategies to regulate the crystallization\npermits use and distribution in any medium, provided the original work    and defect passivation for achieving highly efficient WBG PSCs.\nis properly cited, the use is non-commercial and no modifications or                                                              In this study, we introduce a dual-functional agent of 4-fluoro-adaptations are made.\n                                                      phenylethylammonium iodide (FPEAI) to achieve synergetic\nDOI: 10.1002/aenm.202201509                                modulation of perovskite  crystallization and comprehensive\n\n\nAdv. Energy Mater. 2022, 12, 2201509        2201509  (1 of 9)         © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "cde2017ee1dd0136c9ae78f4cb37ddd3"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "www.advancedsciencenews.com                                                                                  www.advenergymat.de\n\n\ndefect passivation. FPEAI is used as an additive in the pre-      Top-view scanning electron microscopy (SEM) measurement\ncursor to promote preferential growth in (100) orientation with   was conducted to investigate the surface topography. As shown\nimproved crystallinity. The large FPEAI material is also found    in Figure 2a,b, the films have dense and pinhole-free mor-\nto be concentrated near the glass side, that is, at the buried    phology. With adding FPEAI, the grain size of samples becomes\ninterface. The FPEAI interface passivation results in reduced    smaller. Figure 2e shows the corresponding size distribution of\ndefect density and mitigated nonradiative recombination, along    the two samples. As can be seen, the average grain size of the\nwith a formed 2D/3D heterostructure. With the synergistic   Control film is ≈248 nm, whereas the Additive film is decreased\nadvantage of the proposed strategy, the as-prepared WBG PSCs    to 175 nm. This observation implies that the FPEAI influences\nshow a remarkable PCE of 19.07% with an enhanced open-cir-    the crystal growth mode. After FPEAI interface treatment, the\ncuit voltage (VOC) of 1.30 V and fill factor (FF) of 77.8%, accom-   3D WBG perovskite film was covered by the in situ fabricated\npanied by a relatively minimal Vloss. Moreover, the as-prepared   2D perovskite as shown in Figure 2c,d. An obvious grain-coars-\nWBG PSCs maintain 85% of the initial efficiency at relative   ening process can be seen and should be attributed to the ther-\nhumidity ≈30% in the air for 1000 h aging, indicating excellent   modynamically spontaneous Ostwald ripening process.[21] The\nhumidity stability.                                A&P film exhibits a flatter surface than the Passivation film,\n                                                      and the density of grain boundary is relatively reduced, which\n                                                          can be explained by the cross-sectional SEM (Figure 2f). The\n2. Results and Discussion                               atomic force microscopy (AFM) (seen in Figure S2 in the Sup-\n                                                                porting Information) images show a reduced root-mean-square\nThe  composition  of WBG  perovskite  in  this  work   is    surface roughness (RMS), demonstrating the smoother mor-\nCs0.2FA0.8Pb(I0.7Br0.3)3,  deposited  by  a  one-step  method.[20]   phology of the synergetic strategy. To confirm the presence of\nIts optical bandgap (Eg) is ≈1.75 eV, as shown in Figure S1 in   2D Ruddlesden–Popper (RP) perovskite, transmission electron\nthe Supporting Information. For the FPEAI-added sample, 1.5   microscopy (TEM) was used to analyze the A&P perovskite\nmol% FAI was substituted by FPEAI in the perovskite pre-    film. Figure 2g shows a chunk of the A&P sample scratched\ncursor. The FPEAI/IPA solution was spun cast onto the WBG   from the substrate. One of the typical regions is magnified\nperovskite film to obtain the passivated film. For simplicity, the   and the corresponding highlighted regions I (perovskite grain)\nfilms of pristine Cs0.2FA0.8Pb(I0.7Br0.3)3, FPEAI-added Cs0.2FA0.8   and II (grain boundary) are shown in Figure 2h,i. As can be\nPb(I0.7Br0.3)3, FPEAI interface treatment for pristine Cs0.2FA0.8P    seen, the d-spacing of region I can be measured to be 3.08 Å,\nb(I0.7Br0.3)3, and synergetic strategy are named as Control, Addi-   matched with the (200) crystal plane of the 3D WBG perovskite.\ntive, Passivation, and A&P, respectively. The schematic illus-   The region II shows a larger d-spacing at the grain boundary to\ntration of the perovskite film deposition process is depicted in   be 4.1 Å, which is consistent with the (004) plane of FPEA2PbI4\nFigure 1. As can be seen, the synergetic mechanism of FPEAI is    (Table S1, Supporting Information). These results suggest that\nto modulate crystallization and in-situ form 2D/3D heterostruc-    the observed 2D perovskites are formed at the grain boundary\nture perovskite, as deduced by the following studies.              or the upper surface, which can effectively passivate the defect.\n\n\n\n\n\nFigure 1.  Schematics showing the perovskite film deposition process.\n\n\nAdv. Energy Mater. 2022, 12, 2201509        2201509  (2 of 9)         © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1.  Schematics showing the perovskite film deposition process.",
+          "figure_bbox": [
+            48.22,
+            461.26,
+            544.21,
+            703.58
+          ],
+          "bbox": [
+            48.18,
+            708.58,
+            280.01,
+            718.13
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1.  Schematics showing the perovskite film deposition process.",
+          "bbox": [
+            48.22,
+            461.26,
+            544.21,
+            703.58
+          ],
+          "file": "extracted_images/page3_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "www.advancedsciencenews.com                                                                                  www.advenergymat.de\n\n\n\n\n\nFigure 2.  Top-view SEM images of perovskite film: a) Control, b) Additive, c) Passivation, d) A&P. e) Grain size distribution of Control and A&P films.\nf) Cross-view SEM image of A&P perovskite film. g) TEM images of A&P perovskite film. The highlighted TEM of h) area Ι and i) area II.\n\nMoreover, such 2D perovskites act as a protective barrier against   FPEA+ into the WBG perovskite. Increasing the FPEAI con-\nmoisture and suppress ion migration.                             centration of 5 mol% has not induced a larger peak shift but\n  The effect of FPEAI on the film crystallization was character-    facilitates the formation of a diffraction peak at 5.2°, which can\nized by X-ray diffraction (XRD). As seen in Figure 3a, compared   be assigned to be from FPEA2PbI4 (Figure S3, Supporting Infor-\nto the Control film, the Additive film delivers a high ratio of (100)    mation). Especially after 10 mol% addition, the peak intensity\nplane, indicating that the incorporation of FPEAI promotes the    of 5.2° and 10.8° is more obvious. The reason is that FPEAI\npreferred (100) orientation.[22] As the FPEAI content increases   with the large spacer is not enough to form 2D perovskite when\nfurther (Figure 3b), a significant increase can be observed in   added in a small amount and does not enter the 3D perovskite\nthe peak intensities of the (100) and (200) reflection, especially    lattice while FPEAI with the large spacer exists at or near the\nthe (100) peak, which further proves the preferred orientation of    grain boundary.[24] Given the different diffusivity and van der\ncrystalline grains towards the (100) direction after adding FPEAI.   Waals interactions between FA+ and FPEA+, the FPEA+ is pro-\nThe enhancement of preferred orientation along the (100) plane   posed to form both on the surface and within the grain bounda-\nalso indicates that the addition of FPEAI functionalizes specific    ries via self-assembly to form 2D/3D perovskite structures with\ncrystal planes, thereby changing the surface energy during the    increasing the FPEAI concentration.[25] Steady-state photolumi-\ncrystal growth.[23] Surprisingly, the magnified (200) peak posi-   nescence (PL) measurements were also performed on FPEA-\ntion is slightly shifted toward a lower degree (Figure 3c), which   based 2D perovskite illuminating from the perovskite side and\nindicates a unit cell expansion in the perovskite lattice induced    the glass side, and the results are plotted in Figure S4 in the\nby the incorporation of the larger alkylammonium cation of   Supporting Information. As can be seen, for the Control and\n\n\nAdv. Energy Mater. 2022, 12, 2201509        2201509  (3 of 9)        © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2.  Top-view SEM images of perovskite film: a) Control, b) Additive, c) Passivation, d) A&P. e) Grain size distribution of Control and A&P films.\nf) Cross-view SEM image of A&P perovskite film. g) TEM images of A&P perovskite film. The highlighted TEM of h) area Ι and i) area II.",
+          "figure_bbox": [
+            51.06,
+            68.87,
+            547.06,
+            484.11
+          ],
+          "bbox": [
+            51.02,
+            489.11,
+            549.16,
+            508.32
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2.  Top-view SEM images of perovskite film: a) Control, b) Additive, c) Passivation, d) A&P. e) Grain size distribution of Control and A&P films.\nf) Cross-view SEM image of A&P perovskite film. g) TEM images of A&P perovskite film. The highlighted TEM of h) area Ι and i) area II.",
+          "bbox": [
+            51.06,
+            68.87,
+            547.06,
+            484.11
+          ],
+          "file": "extracted_images/page4_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "www.advancedsciencenews.com                                                                                  www.advenergymat.de\n\n\n\n\n\nFigure 3.  a) XRD patterns of perovskites films. b) XRD patterns with different content of FPEAI addition. c) The zoom-in of (200) peak. XPS spectra\nof d) F 1s, e) C 1s, and f) Pb 4f.\n\n1.5 mol% FPEAI added samples, no difference can be found in     To clarify the reaction mechanism between the FPEAI and\nthe PL spectra whether illuminated from the glass or perovskite  WBG perovskite and further confirm the existence of FPEAI,\nside. Interestingly, with FPEAI incorporation, when illuminated    X-ray photoelectron spectroscopy (XPS) was carried out on\nfrom the glass side, a peak at 508 nm can be observed. This    the Control, Additive, Passivation, and A&P perovskite films.\npeak becomes more prominent with increasing FPEAI concen-   Figure 3d shows the F1s peak that is observed at 687 eV in\ntration. Such differences indicate that the quasi-2D FPEA incor-    the perovskite films (except for the Control film). In the C1s\nporated perovskites exit at or near the perovskite/SnO2 inter-    spectra (Figure 3e), there are three peaks at 288.7, 286.5, and\nface. It should be mentioned that higher FPEAI contents result    284.8eV, which belong to the CO, CN, and CC bonds,\nin incomplete PbI2 transformation, which reflects differences in    respectively. The CN and CC bond are attributed to the\nperovskite crystallization kinetics.[26] After FPEAI interface pas-   FA+ and FPEA+ cations. The emerged CO bond is attributed\nsivation, the diffraction peak of 2D perovskite for A&P film is    to the surface degradation invaded by the adsorbed oxygen/\nmuch stronger than the Passivation sample, suggesting that the   moisture when exposed to the ambient condition. Obviously,\nsynergetic effect of FPEAI has a positive effect on the formation    the stronger intensity of the CO bond exhibits the poor sta-\nof 2D perovskite.[27] PL measurement was also used to confirm     bility, and further indicates that it is prone to degradation and\nthe 2D perovskite. As seen in Figure S5 (Supporting Informa-    attacked by water or oxygen. The CO bond disappears in\ntion), the PL emission of 2D perovskite is only observed when  A&P perovskite film, revealing the improved moisture stability\nexcited from the 2D/3D perovskite film side, demonstrating the   with the synergetic strategy. The chemical reaction between\n2D perovskite is not in the bulk of 3D perovskite, but is con-    the uncoordinated Pb2+ and FPEAI  is shown in Figure  3f.\ncentrated at the interface between 3D perovskite and hole-trans-   The Pb4f peak shifts toward lower binding energy, ascribed to\nporting layer.                                                    the electron-donating nature of FPEAI (considered as Lewis\n\n\nAdv. Energy Mater. 2022, 12, 2201509        2201509  (4 of 9)         © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3.  a) XRD patterns of perovskites films. b) XRD patterns with different content of FPEAI addition. c) The zoom-in of (200) peak. XPS spectra\nof d) F 1s, e) C 1s, and f) Pb 4f.",
+          "figure_bbox": [
+            48.22,
+            68.87,
+            544.22,
+            458.43
+          ],
+          "bbox": [
+            48.19,
+            463.43,
+            546.23,
+            482.47
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3.  a) XRD patterns of perovskites films. b) XRD patterns with different content of FPEAI addition. c) The zoom-in of (200) peak. XPS spectra\nof d) F 1s, e) C 1s, and f) Pb 4f.",
+          "bbox": [
+            48.22,
+            68.87,
+            544.22,
+            458.43
+          ],
+          "file": "extracted_images/page5_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "www.advancedsciencenews.com                                                                                  www.advenergymat.de\n\n\n\n\n\nFigure 4.  a) TRPL spectra of the Control and A&P films. Hole-only SCLC curves: b) Control, c) A&P. d) Mott–Schottky plots of both devices. e) Light\nintensity dependence diagram. f) Nyquist plots. g) UPS spectra of the secondary electron cutoff spectrum. h) The valence band maximum (VBM) of\nthe films. i) Energy-level diagram of the device.\n\nbase), which is an interaction between uncoordinated Pb2+ and    indicating the effects of synergetic regulation of oriented crys-\nF ions.[28]                                                                tallization and interfacial passivation for FPEAI on defect pas-\n  Time-resolved  photoluminescence  (TRPL) was  used  to    sivation can be well elaborated. Mott–Schottky plot was carried\nevaluate the non-radiative recombination of the Control and   out to measure the build-in potential (Vbi) by the capacitance-\nA&P perovskite films. As displayed in Figure 4a, the A&P    voltage measurement. The relationship can be defined as\nsample exhibits an average recombination lifetime of 1.59 µs,   1/C2 = 2(Vbi− V)/A2qεε0N,[30] where A is the active region area\nwhereas the Control sample is 0.54 µs, indicating the sup-    of the device, q is the unit charge, ε0 and ε are the vacuum\npressed  non-radiative recombination and  Vloss. The space   and relative dielectric constant, respectively, N is the carrier\ncharge limited current (SCLC) measurement was also per-    density, and V is the applied bias.[31] As shown in Figure 4d,\nformed to quantitatively analyze the trap density for the hole-    the Vbi is 0.95 and 1.04 V for Control and A&P device, respec-\nonly devices, as illustrated in Figure 4b,c. According to the     tively. The enhanced Vbi for the A&P device demonstrates that\nequation of Nt = 2εε0VTFL/qL2, the trap density (Nt) can be    the improved passivation effect and the formed 2D/3D het-\ncalculated. Here q is the elementary charge, L is the thick-    erostructure contribute to a higher driving force for charge\nness of the perovskite film, ε is the relative dielectric con-    separation and promote the photogenerated  carrier  collec-\nstant of perovskite, and ε0 is the vacuum permittivity.[29] The    tion at the perovskite/HTL interface.[32] Therefore, the larger\ntrap-filling limited voltage (VTFL), obtained from the dark J–V    Vbi helps to obtain a higher VOC and remarkable photovoltaic\ncurves, is 0.90 and 0.33 V for the Control and A&P devices,   performance with the synergetic  strategy. The dependence\nand the corresponding Nt is 2.7 × 1016 and 6.5 × 1015 cm−3 for    of VOC on light intensity was measured to obtain an ideality\nthe Control and A&P devices, respectively. The reduced trap    factor (η) to assess the reduced trap density via the synergetic\ndensity is well-matched with the longer carrier recombination,   method. Previous studies proved that η is mainly related to the\n\n\nAdv. Energy Mater. 2022, 12, 2201509        2201509  (5 of 9)        © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4.  a) TRPL spectra of the Control and A&P films. Hole-only SCLC curves: b) Control, c) A&P. d) Mott–Schottky plots of both devices. e) Light\nintensity dependence diagram. f) Nyquist plots. g) UPS spectra of the secondary electron cutoff spectrum. h) The valence band maximum (VBM) of\nthe films. i) Energy-level diagram of the device.",
+          "figure_bbox": [
+            51.06,
+            68.87,
+            547.06,
+            446.07
+          ],
+          "bbox": [
+            51.02,
+            451.07,
+            549.12,
+            479.6
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4.  a) TRPL spectra of the Control and A&P films. Hole-only SCLC curves: b) Control, c) A&P. d) Mott–Schottky plots of both devices. e) Light\nintensity dependence diagram. f) Nyquist plots. g) UPS spectra of the secondary electron cutoff spectrum. h) The valence band maximum (VBM) of\nthe films. i) Energy-level diagram of the device.",
+          "bbox": [
+            51.06,
+            68.87,
+            547.06,
+            446.07
+          ],
+          "file": "extracted_images/page6_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "www.advancedsciencenews.com                                                                                  www.advenergymat.de\n\n\nbulk and interfacial recombination, whereas a value of 1 indi-   which can effectively suppress the nonradiative recombination\ncates dominant trap-assisted Shockley–Read–Hall recombina-   and reduce the Vloss.\ntion.[33] As shown in Figure 4e, the η for the A&P device is     To evaluate the effect of synergetic strategy on the photo-\n1.34, whereas the η for the Control device is 1.72, indicating    voltaic performance, solar  cells in the stack of ITO/SnO2/\nthe reduced trap-assisted recombination, which is consistent   perovskite/spiro-OMeTAD/Ag were fabricated, Figure 5a and\nwith the SCLC and TRPL results. To further reveal the carrier    Table S2 (Supporting Information) depict the J–V curves and\ndynamics, electrical impedance spectroscopy (EIS) was con-    photovoltaic parameters of the champion devices. The Con-\nducted to evaluate the related transport and recombination    trol device shows a PCE of 16.21% with a VOC of 1.18 V, JSC of\nresistances in WBG PSCs. Figure 4f illustrates the Nyquist    18.76 mA cm−2, and FF of 72.74%. The Additive device delivers\nplot of both devices under a dark condition with a bias voltage   a PCE of 17.60% with a slightly improved VOC to 1.22 V, and an\nof 1 V, inset is the equivalent circuit model. The fitted circuit    increased FF to 76.99%. The Passivation device has a PCE of\nmodel consists of three parts. The resistance (Rs) is caused   17.88% with a high VOC of 1.29 V. Significantly, the VOC and FF\nby some layers, such as the ITO layer.[34] The low-frequency    for the A&P are improved to 1.30 V and 77.80%, and the small\nregion is related to the recombination resistance (Rrec) and the    increase in JSC to 18.90 mA cm−2 is attributed to the minor\nrecombination chemical capacitance (Crec) feature in the PSCs.    shift of the UV–vis spectra (see in Figure S6 in the Supporting\nAccording to the fitting results, the A&P device shows a higher    Information), which leads to an excellent PCE of 19.07%. In\nRrec than that of the Control device, indicating the fast charge    addition, we used the hysteresis index (HI) to evaluate the pas-\ntransfer and suppressed carrier recombination.                    sivation effect and suppressed ion migration, which can be\n  Good  interfacial charge  transfer requires a  fine energy-    calculated as HI=(PCERS−PCEFS)/PCERS.[36] From Figure 5b\nlevel alignment. We use ultraviolet photoelectron spectrom-   and Table 1, the A&P device delivers a HI of 0.9%, while the\netry (UPS) measurement to determine the work function and   Control device is 2.2%, which demonstrate the reduced hyster-\nenergy band structure after the synergetic strategy. From the    esis by the synergetic strategy. The external quantum efficiency\nsecondary electron cutoff spectrum (Figure 4g), we calculate   (EQE) was tested in Figure 5c, and the integrated JSC is 18.22\nthe work functions are 4.7 and 4.5 eV for the Control and A&P   and 18.03 mA cm−2, respectively. Moreover, Figure 5d exhibits\nfilms. There is no change in the Fermi edge region (Figure 4h).   a steady output of the A&P device under the maximum power\nAccording to the UPS  results, the position of the valence    point (MPP), a stabilized PCE of 18.56% is obtained. On a large-\nband (EV) for Control and A&P perovskite is 6.24 and 6.04 eV,    area device of 1 cm2 shown in Figure 5e, VOC of 1.31 V (1.29 V),\nrespectively. Combined with the reported energy-level of the    JSC of 18.58 mA cm−2 (18.61 mA cm−2), FF of 61.54% (61.32%),\nspiro-OMeTAD,[35] the corresponding energy-level alignment is   and PCE of 15.01% (14.97%) can be obtained, indicating the\nillustrated in Figure 4i, in which the EV for the A&P perovskite    potential for up-scaling PSCs of such synergetic strategy. This\ncan well-match the hole transport layer and facilitate efficient   remarkable photovoltaic property is mainly attributed to the\nhole transport from the perovskite to the hole-transport-layer,   improvement of VOC and FF, especially the key role of reducing\n\n\n\n\n\nFigure 5.  a) J–V curves of the optimal PSCs. b) J–V curves of Control and A&P devices. c) EQE curves. d) Steady-state PCE measurement at maximum\npower point for A&P device. e) J–V curves of the A&P device with large-area of 1 cm2. f) Normalized PCE under a relative humidity of 30%±10% without\nencapsulation. Inset is the water contact angle of the Control and A&P perovskite film.\n\n\nAdv. Energy Mater. 2022, 12, 2201509        2201509  (6 of 9)         © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5.  a) J–V curves of the optimal PSCs. b) J–V curves of Control and A&P devices. c) EQE curves. d) Steady-state PCE measurement at maximum\npower point for A&P device. e) J–V curves of the A&P device with large-area of 1 cm². f) Normalized PCE under a relative humidity of 30%±10% without\nencapsulation. Inset is the water contact angle of the Control and A&P perovskite film.",
+          "figure_bbox": [
+            48.22,
+            429.5,
+            544.21,
+            686.58
+          ],
+          "bbox": [
+            48.17,
+            691.58,
+            546.26,
+            720.12
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5.  a) J–V curves of the optimal PSCs. b) J–V curves of Control and A&P devices. c) EQE curves. d) Steady-state PCE measurement at maximum\npower point for A&P device. e) J–V curves of the A&P device with large-area of 1 cm². f) Normalized PCE under a relative humidity of 30%±10% without\nencapsulation. Inset is the water contact angle of the Control and A&P perovskite film.",
+          "bbox": [
+            48.22,
+            429.5,
+            544.21,
+            686.58
+          ],
+          "file": "extracted_images/page7_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "www.advancedsciencenews.com                                                                                  www.advenergymat.de\n\n\nTable 1.  Photovoltaic parameters of the best fabricated WBG PSCs.\n\nSamples                         VOC [V]                     JSC [mA cm−2]               FF [%]                PCE [%]                     HIc) [%]\nControl-FSa)                           1.15 (1.19)d)                 18.73 (18.4)d)               73.37 (71.53)d)               15.85 (16.0)d)                    2.2\nControl-RSb)                               1.18                        18.76                       72.74                        16.21\nA&P-FS                              1.30 (1.31)d)                18.89 (18.5)d)               76.70 (75.53)d)               18.88 (18.4)d)                    0.9\n\nA&P-RS                                  1.30                       18.90                       77.80                       19.07\n\na)Forward scan; b)reverse scan; c)HI = (PCERS−PCEFS)/PCERS; d)Average PCE with standard deviations from 30 devices.\n\nVloss for the modified WBG PSCs. Importantly, the A&P devices   Spiro-OMeTAD (99.8%) was obtained from Lumtech. 4-tert-butylpyridine\nexhibit remarkable producibility with an average VOC of 1.31 V,    (tBP, >96%), lead  (II) iodide (PbI2, 99.99%), lead bromide (PbBr2,\n                                                                     99.99%), cesium iodide (CsI, 99.99%), formamidinium iodide (FAI,whereas the Control devices only show 1.19 V (Figure S7, Sup-\n                                                                    ≥99.5%), and 4-fluoro-phenylethylammonium iodide (FPEAI, ≥99.5%)\nporting Information), demonstrating a significantly reduced                                                                  were ordered from Xi’an Polymer Light Technology Corp. All the solvents\nVOC deficit for the WBG PSCs.                                    were purchased from Sigma Aldrich.\n   Defects  at  grain boundary  or  surface  of  polycrystalline        Fabrication of WBG PSCs: Indium-doped tin oxide (ITO) glasses were\nperovskite films act as channels for water and oxygen intru-    precleaned with detergent, acetone, and ethanol for 15 min each. The\nsion and ion migration, resulting in poor stability. We further    cleaned ITO was treated with UV ozone (UVO) for 15 min to remove the\ndemonstrate the effect of this strategy on stability. Figure 5f    organic residue and improve the wettability. The SnO2 dispersion was\n                                                                              (diluted at 1:3 with deionized water) deposited on the ITO substrate at a\ndisplays the water contact angle of the Control and A&P perov-                                                                                rate of 4000 r.p.m. for 20 s, followed by annealing at 180 °C for 20 min.\nskite films. The A&P perovskite film exhibits a larger contact   The SnO2/ITO/glass substrates were treated with UVO for 15 min and\nangle of 79.41°, more than twice the Control film (35.80°). The    then transferred to the N2 glove box. For the Cs0.2FA0.8Pb(I0.7Br0.3)3\nincreased contact angle indicates that such synergistic strategy    composition, 52.0 mg CsI, 137.6 mg FAI, 253.6 mg PbI2 and 165.2 mg\ncan effectively enhance the film stability and prevent the corro-    PbBr2 were dissolved in dimethylsulfoxide (DMSO)/dimethylformamide\nsion of moisture and oxygen, which is due to the improved crys-   (DMF) mixed solvent (1:3 v/v). To synthesize the Additive perovskite,\n                                                                                    1.5 mol% FAI was substituted by FPEAI. The films were deposited attallization and formed 2D/3D heterostructure hydrophobic bar-                                                                    1000 r.p.m. for 10 s and 4000 r.p.m. for 30 s. 100 µL chlorobenzene was\nrier. To verify the enhanced moisture stability, the operational                                                                dropped on the film after 30 s. Then the film was annealed at 100 °C\nstability is tested under a relative humidity of 30%±10% without     for 30 min. For FPEAI treatment, the FPEAI/IPA solution was spin-\nencapsulation at room temperature. A&P devices retain 85%    coated onto the perovskite surface at 4000 r.p.m. for 30 s. Subsequently,\nof their original PCEs after 1000 h, whilst the Control devices    72.3 mg spiro-OMeTAD, 17.5 µL of LiTFSI (520 mg mL−1 in acetonitrile),\nmaintain 70% under the same conditions. This result indicates   and 29 µL tBP were dissolved in 1 mL chlorobenzene, then the solution\n                                                            was spin-coated onto the perovskite film at 4000 r.p.m. for 30 s. Finally,the improved moisture stability with this proposed synergetic\n                                                                     100 nm Ag was thermal evaporated onto the spiro-OMeTAD layer, the\nstrategy via modulating the crystallinity and defect passivation.                                                                                active area of the device is determined by a shadow mask of 0.14 cm2.\n                                                                                     Characterizations: The crystallographic characterizations were tested by\n                                                                              X-ray diffraction (XRD) using PANalytical B.V. X-ray diffractometer with\n3. Conclusion                                          Cu Kα radiation under operating conditions of 40 kV and 40 mA. The                                                                morphology of the films was observed by SEM (FEI INSPECT F50, U.S.A.).\nIn this work, we report a synergetic strategy to simultaneously   AFM images were obtained by AFM (KEYSIGHT Technologies 7500).\n                                                 TEM was performed by FEI Tecnai G2 F20. XPS and UPS were taken with\nimprove the  crystallinity and passivate the defects  at grain                                                               an XPS/UPS system (Thermo scientific, Al Kα radiation). The UV–vis\nboundary and interface by using alkylammonium salt 4-fluoro-    spectra were measured using a UV-3600 spectrophotometer (Shimadzu\nphenylethylammonium  iodide (FPEAI)  as a  dual-functional    Corporation). PL and TRPL were performed with an FLS980 (Edinburgh\nagent. In this synergistic strategy, the FPEAI modulates the    Instruments Ltd). Current density–voltage (J–V) curves of WBG PSCs\ncrystallization of 3D WBG perovskite film and reduces trap den-    were performed using a Keithley 2400 Source Meter under standard AM\n                                                                      1.5G illumination (100 mW cm−2, SS-F5-3A). The corresponding EQEsity, and suppresses nonradiative recombination, leading to a\n                                                                 spectrum was measured by a PVE300 photovoltaic system.\nremarkable PCE up to 19.07% with significantly enhanced VOC to\n1.30 V and FF to 77.8%. On a large-area device of 1 cm2, a PCE of\n15.01% with a high VOC of 1.29 V can be achieved, indicating the\npotential for scale-up PSCs. Furthermore, the 2D perovskite at   Supporting Information\nthe grain boundary and surface endows the cells with enhanced                                                                     Supporting Information is available from the Wiley Online Library or\nhydrophobic property and long-term stability. As a result, the    from the author.\nmodified devices retained 85% of their initial efficiencies under\na relative humidity of 30% for 1000 h. Our study provides new\ninsight into high-efficiency and stabilized WBG PSCs.\n                                            Acknowledgements\n\n                                                                        This work was  financially supported by  the Sichuan  Science and\n4. Experimental Section                                      Technology Program (2021YFH0090).                                                         Open access publishing  facilitated by Queensland  University  of\n  Raw Materials: All the materials and chemicals were used without    Technology, as part of the Wiley - Queensland University of Technology\nfurther purification. SnO2 nanoparticle was purchased from Alfa Aesar.    agreement via the Council of Australian University Librarians.\n\nAdv. Energy Mater. 2022, 12, 2201509        2201509  (7 of 9)         © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1.  Photovoltaic parameters of the best fabricated WBG PSCs.",
+          "bbox": [
+            51.02,
+            69.35,
+            274.84,
+            78.89
+          ]
+        }
+      ],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "www.advancedsciencenews.com                                                                                  www.advenergymat.de\n\nConflict of Interest                                                       Z. K. Liu, A. Amassian, S. Y. Jin, K. Zhao, S. Z. Liu, Nano Lett. 2019,\n                                                                                           19, 7181; b) Q. Yao, Q. F. Xue, Z. C. Li, K. C. Zhang, T. Zhang, N. Li,\nThe authors declare no conflict of interest.                                          S. H. Yang, C. J. Brabec, H. L. Yip, Y. Cao, Adv. Mater. 2020, 32, 2000571;\n                                                                                      c) S. Gharibzadeh, B. A. Nejand, M. Jakoby, T. Abzieher, D. Hauschild,\n                                                                                        S. Moghadamzadeh,  J.  A. Schwenzer,  P.  Brenner,  R. Schmager,\nData Availability Statement                                           A.  A.  Haghighirad,  L.  Weinhardt,  U. Lemmer,  B.  S.  Richards,                                                                                                                               I. A. Howard, U. W. Paetzold, Adv. Energy Mater. 2019, 9, 1803699.\nThe data that support the findings of this study are available from the     [16] R. J. Stoddard, A. Rajagopal, R. L. Palmer, I. L. Braly, A. K. Y. Jen,\ncorresponding author upon reasonable request.                           H. W. Hillhouse, ACS Energy Lett. 2018, 3, 1261.\n                                                                                                 [17] C. Chen, Z. Song, C. Xiao, R. A. Awni, C. Yao, N. Shrestha, C. Li,\n                                                                                      S. S. Bista, Y. Zhang, L. Chen, R.  J. Ellingson, C.-S. Jiang, M. Al-\nKeywords                                                                            [18] Jassim,Z.  P. Wang,G. Fang,Q.Y.Q.Yan,Lin,ACSF.EnergyP. Chmiel,Lett. 2020,N. 5,Sakai,2560.L. M. Herz,\ninterfacial passivation, oriented crystallization, stability, wide-bandgap       H. J. Snaith, Nat. Energy 2017, 2, 17135.\nperovskites                                                                               [19] C. Chen, Z. N. Song, C.  X.  Xiao, D. W. Zhao, N. Shrestha,\n                                                                               C. W. Li, G. Yang, F. Yao, X. L. Zheng, R. J. Ellingson, C. S. Jiang,\n                                                Received: May 2, 2022       M. Al-Jassim, K. Zhu, G. J. Fang, Y. F. Yan, Nano Energy 2019, 61,\n                                                Revised: June 21, 2022          141.\n                                       Published online: July 19, 2022     [20] Y. Yu, R. Liu, C. Liu, T. Hou, Q. Wu, M. Zhang, H. Yu, Sol. RRL 2022,\n                                                                                          6, 2200021.\n                                                                                            [21] G. Yang, Z. W. Ren, K. Liu, M. C. Qin, W. Y. Deng, H. K. Zhang,\n                                                                  H. B. Wang,  J. W. Liang, F. H. Ye, Q. Liang, H. Yin, Y. X. Chen,\n  [1] a) S. Rahmany, L. Etgar, ACS Energy Lett. 2020, 5, 1519; b) L. G. Yuan,           Y. L. Zhuang, S. Q. Li, B. W. Gao, J. B. Wang, T. T. Shi, X. Wang,\n     Z. W. Wang, R. M. Duan,  P. Huang, K. C. Zhang, Q.  Y. Chen,         X. H. Lu, H. B. Wu, J. H. Hou, D. Y. Lei, S. K. So, Y. Yang, G. J. Fang,\n    N. K. Allam, Y. Zhou, B. Song, Y. F. Li, J. Mater. Chem. A 2018, 6, 19696.        G. Li, Nat. Photonics 2021, 15, 681.\n  [2]  J. H. Tong, Q. Jiang, F. Zhang, S. B. Kang, D. H. Kim, K. Zhu, ACS     [22] a) X. Zheng, Y. Hou, C. Bao,  J. Yin, F. Yuan, Z. Huang, K. Song,\n     Energy Lett. 2021, 6, 232.                                                                               J. Liu, J. Troughton, N. Gasparini, C. Zhou, Y. Lin, D.-J. Xue, B. Chen,\n  [3] M. H. Ann, J. Kim, M. Kim, G. Alosaimi, D. Kim, N. Y. Ha, J. Seidel,         A. K. Johnston, N. Wei, M. N. Hedhili, M. Wei, A. Y. Alsalloum,\n    N. Park, J. S. Yun, J. H. Kim, Nano Energy 2020, 68, 104321.                     P.  Maity,  B.  Turedi,  C.  Yang,  D.  Baran,  T.  D.  Anthopoulos,\n  [4] Z. N. Song, C. Chen, C. W. Li, R. A. Awni, D. W. Zhao, Y. F. Yan,           Y. Han, Z.-H. Lu, O.  F. Mohammed,  F. Gao,  E. H. Sargent,\n    Semicond. Sci. Technol. 2019, 34, 093001.                              O. M. Bakr, Nat. Energy 2020, 5, 131; b) D. S. Lee, J. S. Yun, J. Kim,\n  [5] a) T. Bu, J. Li, Q. Lin, D. P. McMeekin, J. Sun, M. Wang, W. Chen,         A. M. Soufiani, S. Chen, Y. Cho, X. Deng, J. Seidel, S. Lim, S. Huang,\n     X. Wen, W. Mao, C. R. McNeill, W. Huang, X.-L. Zhang,  J. Zhong,         A. W. Y. Ho-Baillie, ACS Energy Lett. 2018, 3, 647.\n      Y.-B. Cheng, U. Bach,  F. Huang, Nano Energy 2020, 75, 104917;     [23] a) B. J. Foley, J. Girard, B. A. Sorenson, A. Z. Chen, J. S. Niezgoda,\n     b) C. Chen, J. W. Liang, J. J. Zhang, X. X. Liu, X. X. Yin, H. S. Cui,       M. R. Alpert, A. F. Harper, D. M. Smilgies, P. Clancy, W. A. Saidi,\n    H. B. Wang, C. Wang, Z. F. Li, J. B. Gong, Q. Q. Lin, W. J. Ke, C. Tao,              J. J. Choi, J. Mater. Chem. A 2017, 5, 113; b) Y. Wang, Z. Li, P. Zhang,\n     B. Da, Z. J. Ding, X. D. Xiao, G. J. Fang, Nano Energy 2021, 90, 106608.           Y. Pan, Y. Zhang, Q. Cai, S. R. P. Silva,  J. Liu, G. Zhang, X. Sun,\n  [6] L. Fu, H. Li, L. Wang, R. Y. Yin, B. Li, L. W. Yin, Energy Environ. Sci.         Z. Yan, Nano Energy 2021, 87, 106147.\n    2020, 13, 4017.                                                                  [24] M. Wang, Y. Yin, W. Cai, J. Liu, Y. Han, Y. Feng, Q. Dong, Y. Wang,\n  [7] B. Chen, P. N. Rudd, S. Yang, Y. B. Yuan, J. S. Huang, Chem. Soc.              J. Bian, Y. Shi, Adv. Funct. Mater. 2021, 32, 2108567.\n     Rev. 2019, 48, 3842.                                                          [25] N.  Li, Z. Zhu, C.-C. Chueh, H. Liu, B. Peng, A. Petrone, X.  Li,\n  [8] G. B. Wu, R. Liang, M. Z. Ge, G. X. Sun, Y. Zhang, G. C. Xing, Adv.          L. Wang, A. K. Y. Jen, Adv. Energy Mater. 2017, 7, 1601307.\n     Mater. 2022, 34, 2105635.                                                    [26] a)  J. Lu, L. Jiang, W. Li, F. Li, N. K. Pai, A. D. Scully, C.-M. Tsai,\n  [9] a) J. Kim, M. I. Saidaminov, H. R. Tan, Y. C. Zhao, Y. Kim, J. Choi,        U. Bach, A. N. Simonov, Y.-B. Cheng, L. Spiccia, Adv. Energy Mater.\n       J. W. Jo,  J. Fan, R. Quintero-Bermudez, Z. Y. Yang, L. N. Quan,         2017, 7, 1700444; b) X. Wang, S. Qiu,  J. Feng, Y. Tong, F. Zhou,\n    M. Y. Wei, O. Voznyy, E. H. Sargent, Adv. Mater. 2018, 30, 1706275;       Q. Li, L. Song, S. Chen, K.-H. Wu, P. Su, S. Ye, F. Hou, S. X. Dou,\n    b) Y. Zhou, F. Wang, Y. Cao,  J. P. Wang, H. H. Fang, M. A. Loi,       H. K. Liu, G. Q. (Max) Lu, C. Sun, J. Liu, J. Liang, Adv. Mater. 2020,\n    N. Zhao, C. P. Wong, Adv. Energy Mater. 2017, 7, 1701048.                    32, 2004382.\n[10] a) K. A. Bush, K. Frohna, R. Prasanna, R. E. Beal,  T. Leijtens,     [27] K.  T. Cho, G. Grancini,  Y. Lee,  E. Oveisi,  J. Ryu, O. Almora,\n     S. A. Swifter, M. D. McGehee, ACS Energy Lett. 2018, 3, 428; b)       M. Tschumi, P. A. Schouwink, G. Seo, S. Heo,  J. Park,  J. Jang,\n      Y. Zhou, Y. H. Jia, H. H. Fang, M. A. Loi, F. Y. Xie, L. Gong, M. C. Qin,          S. Paek, G. Garcia-Belmonte, M. K. Nazeeruddin, Energy Environ.\n     X. H. Lu, C. P. Wong, N. Zhao, Adv. Funct. Mater. 2018, 28, 1803130.            Sci. 2018, 11, 952.\n [11] Y.  Yu,  C.  L. Wang,  C.  R.  Grice, N.  Shrestha, D. W. Zhao,     [28] a)  J. M. Xia, C. Liang, S. L. Mei, H. Gu, B. C. He, Z. P. Zhang,\n    W. Q. Liao, L. Guan, R. A. Awni, W. W. Meng, A. J. Cimaroli, K. Zhu,           T. H. Liu, K. Y. Wang, S. S. Wang, S. Chen, Y. Q. Cai, G. C. Xing,\n     R. J. Ellingson, Y. F. Yan, ACS Energy Lett. 2017, 2, 1177.                                  J. Mater. Chem. A 2021,  9, 2919; b) Z. Wu, M. Jiang, Z.  Liu,\n[12] a) S. Liu, Y.  J. Guan, Y. S. Sheng, Y. Hu, Y. G. Rong, A. Y. Mei,         A. Jamshaid, L. K. Ono, Y. Qi, Adv. Energy Mater. 2020, 10, 1903696.\n    H. W. Han, Adv. Energy Mater. 2020, 10, 1902492; b) F. Gao, Y. Zhao,     [29] X. Jiang, J. Zhang, X. Liu, Z. Wang, X. Guo, C. Li, Angew. Chem., Int.\n     X. W. Zhang, J. B. You, Adv. Energy Mater. 2020, 10, 1902650.                Ed. Engl. 2022, 61, 202115663.\n[13] N. K. Noel, A. Abate, S. D. Stranks, E. S. Parrott, V. M. Burlakov,     [30] O. Almora, C. Aranda, E. Mas-Marza, G. Garcia-Belmonte, Appl.\n     A. Goriely, H. J. Snaith, ACS Nano 2014, 8, 9815.                             Phys. Lett. 2016, 109, 173903.\n[14] S. Bai, P. M. Da, C. Li, Z. P. Wang, Z. C. Yuan, F. Fu, M. Kawecki,      [31] Y.-W. Jang,  S. Lee, K. M. Yeom, K. Jeong, K. Choi, M. Choi,\n     X.  J.  Liu, N. Sakai,  J.  T. W. Wang,  S. Huettner,  S. Buecheler,              J. H. Noh, Nat. Energy 2021, 6, 63.\n    M. Fahlman, F. Gao, H. J. Snaith, Nature 2019, 571, 245.                   [32] T. Q. Niu, Y. M. Xie, Q. F. Xue, S. N. Xun, Q. Yao, F. C. Zhen,\n [15] a) T. Q. Niu, J. Lu, X. G. Jia, Z. Xu, M. C. Tang, D. Barrit, N. Y. Yuan,       W. B. Yan, H. Li, J. L. Bredas, H. L. Yip, Y. Cao, Adv. Energy Mater.\n       J. N. Ding, X. Zhang, Y. Y. Fan, T. Luo, Y. L. Zhang, D. M. Smilgies,        2022, 12, 2102973.\n\n\nAdv. Energy Mater. 2022, 12, 2201509        2201509  (8 of 9)         © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "www.advancedsciencenews.com                                                                                  www.advenergymat.de\n\n\n [33] P. Caprioglio, C. M. Wolff, O. J. Sandberg, A. Armin, B. Rech, S. Albrecht,     [35] Y.  Cai,   J.  Cui, M.  Chen, M. M.  Zhang,  Y.  Han,  F.  Qian,\n    D. Neher, M. Stolterfoht, Adv. Energy Mater. 2020, 10, 2000502.              H. Zhao, S. M. Yang, Z. Yang, H. T. Bian, T. Wang, K. P. Guo,\n[34] a) L. K. Ono, S. R. Raga, S. H. Wang, Y. Kato, Y. B. Qi, J. Mater.       M. L. Cai, S. Y. Dai, Z. K. Liu, S. Z. Liu, Adv. Funct. Mater. 2021, 31,\n    Chem. A 2015, 3, 9074; b) L. Yan, Q. Xue, M. Liu, Z. Zhu, J. Tian,        2005776.\n     Z. Li, Z. Chen, Z. Chen, H. Yan, H.-L. Yip, Y. Cao, Adv. Mater. 2018,     [36] D. Y. Son, S. G. Kim, J. Y. Seo, S. H. Lee, H. Shin, D. Lee, N. G. Park,\n     30, 1802509.                                                                                                 J. Am. Chem. Soc. 2018, 140, 1358.\n\n\n\n\n\nAdv. Energy Mater. 2022, 12, 2201509        2201509  (9 of 9)        © 2022 The Authors. Advanced Energy Materials published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "d4d00ea4c34c9df3bcdbbbce15c233e7",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            117.91,
+            125.48,
+            287.99,
+            192.69
+          ]
+        }
+      ],
+      "file": "garbage/page1_d4d00ea4c34c9df3bcdbbbce15c233e7.png",
+      "is_garbage": true
+    },
+    {
+      "id": "cde2017ee1dd0136c9ae78f4cb37ddd3",
+      "page": 2,
+      "pages": [
+        2
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            519.28,
+            0.0,
+            595.28,
+            15.0
+          ]
+        }
+      ],
+      "file": "garbage/page2_cde2017ee1dd0136c9ae78f4cb37ddd3.png",
+      "is_garbage": true
+    }
+  ]
+}

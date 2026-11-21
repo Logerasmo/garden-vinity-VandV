@@ -1,0 +1,446 @@
+{
+  "publication_id": "P039",
+  "source_file": "P039.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Seed Layer Optimisation for Ultra-Thin Sb2Se3 Solar Cells on TiO2 by Vapour Transport Deposition",
+    "author": "Remigijus Juškėnas; Arnas Naujokaitis; Audrius Drabavičius; Vidas Pakštas; Deividas Vainauskas; Rokas Kondrotas",
+    "subject": "Antimony selenide (Sb2Se3) material has drawn considerable attention as an Earth-abundant and non-toxic photovoltaic absorber. The power conversion efficiency of Sb2Se3-based solar cells increased from less than 2% to over 10% in a decade. Different deposition methods were implemented to synthesize Sb2Se3 thin films, and various device structures were tested. In search of a more environmentally friendly device composition, the common CdS buffer layer is being replaced with oxides. It was identified that on oxide substrates such as TiO2 using vacuum-based close-space deposition methods, an intermediate deposition step was required to produce high-quality thin films. However, little or no investigation was carried out using another very successful vacuum deposition approach in Sb2Se3 technology called vapour transport deposition (VTD). In this work, we present optimized VTD process conditions to achieve compact, pinhole-free, ultra-thin (<400 nm) Sb2Se3 absorber layers. Three process steps were designed to first deposit the seed layer, then anneal it and, at the final stage, deposit a complete Sb2Se3 absorber. Fabricated solar cells using absorbers as thin as 400 nm generated a short-circuit current density over 30 mA/cm2, which demonstrates both the very high absorption capabilities of Sb2Se3 material and the prospects for ultra-thin solar cell application.",
+    "keywords": "Sb2Se3; thin film solar cells; VTD; seed layer",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "creationDate": "D:20221124152406+08'00'",
+    "modDate": "D:20221124090120+01'00'",
+    "DOI": "10.3390/ma15238356",
+    "year": 2022,
+    "authors": [
+      "Remigijus Juškėnas",
+      "Arnas Naujokaitis",
+      "Audrius Drabavičius",
+      "Vidas Pakštas",
+      "Deividas Vainauskas",
+      "Rokas Kondrotas"
+    ]
+  },
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "text": "    materials\n\n\n\nArticle\nSeed Layer Optimisation for Ultra-Thin Sb2Se3 Solar Cells on\nTiO2 by Vapour Transport Deposition\n\nRemigijus Jušk˙enas, Arnas Naujokaitis, Audrius Drabaviˇcius, Vidas Pakštas, Deividas Vainauskas\nand Rokas Kondrotas *\n\n\n\n                                 Center for Physical Sciences and Technology, Sauletekio Ave. 3, 10257 Vilnius, Lithuania\n                                     * Correspondence: rokas.kondrotas@ftmc.lt\n\n\n                                Abstract: Antimony selenide (Sb2Se3) material has drawn considerable attention as an Earth-\n                           abundant and non-toxic photovoltaic absorber. The power conversion efﬁciency of Sb2Se3-based\n                                  solar cells increased from less than 2% to over 10% in a decade. Different deposition methods were\n                           implemented to synthesize Sb2Se3 thin ﬁlms, and various device structures were tested. In search of\n                              a more environmentally friendly device composition, the common CdS buffer layer is being replaced\n                             with oxides. It was identiﬁed that on oxide substrates such as TiO2 using vacuum-based close-space\n                                deposition methods, an intermediate deposition step was required to produce high-quality thin ﬁlms.\n                            However, little or no investigation was carried out using another very successful vacuum deposition\n                            approach in Sb2Se3 technology called vapour transport deposition (VTD). In this work, we present\n                             optimized VTD process conditions to achieve compact, pinhole-free, ultra-thin (<400 nm) Sb2Se3\n                               absorber layers. Three process steps were designed to ﬁrst deposit the seed layer, then anneal it and,\n                                    at the ﬁnal stage, deposit a complete Sb2Se3 absorber. Fabricated solar cells using absorbers as thin as\n                              400 nm generated a short-circuit current density over 30 mA/cm2, which demonstrates both the very\nCitation: Jušk˙enas, R.; Naujokaitis,\n                             high absorption capabilities of Sb2Se3 material and the prospects for ultra-thin solar cell application.\nA.; Drabaviˇcius, A.; Pakštas, V.;\n\nVainauskas, D.; Kondrotas, R. Seed\n                           Keywords: Sb2Se3; thin ﬁlm solar cells; VTD; seed layerLayer Optimisation for Ultra-Thin\n\nSb2Se3 Solar Cells on TiO2 by Vapour\n\nTransport Deposition. Materials 2022,\n\n15, 8356. https://doi.org/10.3390/\nma15238356                         1. Introduction\n                                Photovoltaic technology is considered one of the best strategies to achieve environ-\nAcademic Editors: Pangiota Petrou,\n                           mentally benign energy production. Thin-ﬁlm solar cells have advantages over common\nVlassios Likodimos and\n                             silicon-based solar cells such as being lightweight and having low production costs. TheSpiros Gardelis\n                        most advanced thin-ﬁlm solar cell technologies, such as CIGSe (copper indium gallium\nReceived: 21 October 2022            diselenide), CdTe (cadmium telluride) and perovskites have reached PCE (power conver-\nAccepted: 21 November 2022         sion efﬁciency) records higher than 22% [1,2]. However, there are major drawbacks to the\nPublished: 24 November 2022       mentioned technologies: the price and scarcity of indium and the toxicity of cadmium do\nPublisher’s Note: MDPI stays neutral   not make them environmentally or cost-friendly, and perovskite solar cells still have an\nwith regard to jurisdictional claims in   unresolved issue with thermodynamic stability under ambient conditions [3]. Antimony\npublished maps and institutional afﬁl-   selenide (Sb2Se3) has emerged as an alternative material for solar cell absorbers because of\niations.                                its high absorption coefﬁcient (>105 cm−1), a suitable band gap of 1.1–1.3 eV and p-type con-\n                              ductivity under Se-rich conditions [4]. In addition, Sb2Se3 is a non-toxic, environmentally\n                            benign, highly stable compound made up of Earth-abundant elements [4].\n                            Over the past decade, the PCE of Sb2Se3 solar cells has increased from <2% to 10.1% [5].\nCopyright: © 2022 by the authors.   Various synthesis methods and buffer layers have been tried out to optimize the structure\nLicensee MDPI, Basel,  Switzerland.   of Sb2Se3 solar cells and improve their performance [6–8]. While the highest PCE was\nThis article is an open access article   achieved using CdS, the toxicity issue of Cd incentivized a search for alternative buffer\ndistributed  under  the  terms  and\n                                 layers. Since oxide materials such as ZnO, SnO2, and TiO2 are free from toxic elements, they\nconditions of the Creative Commons\n                        proved to be suitable partner layers and have been successfully implemented in Sb2Se3\nAttribution (CC BY) license (https://\n                              solar cells [8–11]. Among all oxide buffer layers, the highest PCE has been demonstrated\ncreativecommons.org/licenses/by/\n                          using TiO2 [12]. However, because of the inert nature and strong Ti–O bond in TiO2, the4.0/).\n\n\n\n\n\nMaterials 2022, 15, 8356. https://doi.org/10.3390/ma15238356                                     https://www.mdpi.com/journal/materials",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "6f52dcd65bcbc64691c972bfe28d289f",
+        "59c116537ecf25f8d7692dabbf2060fb",
+        "62efa0313b674db8d12560bbe65e7581",
+        "bdad99135e250503119f6f098d743bd0",
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Materials 2022, 15, 8356                                                                                                         2 of 10\n\n\n\n                           deposition of the Sb2Se3 ﬁlms on TiO2 is more complicated. For example, using the CSS\n                               (close space sublimation) or RTE (rapid thermal evaporation) methods to deposit Sb2Se3\n                       on TiO2 required a multiple-stage deposition process [13] (unlike on the CdS) [14]. The\n                            challenge is that the nucleation energy barrier on TiO2 is larger than on other substrates,\n                        which can lead to a high density of pinholes and/or a non-planar ﬁlm morphology. It was\n                           recognized that a seed layer is necessary to produce high-quality Sb2Se3 thin ﬁlms on TiO2\n                              substrates. Using the CSS approach, Hutter et al. introduced a low-source-temperature\n                                   (Tsrc = 350 ◦C) step to deposit the seed layer [15]. This allowed the achievement of the\n                              pinhole-free absorber, and >6% of PCE devices were demonstrated. Using the CSS approach,\n                        Krautmann et al. expanded the study on the seed layer’s effect on grain orientation, defects,\n                        and solar cell performance [16]. They showed that the seed layer was crucial for promoting\n                           favourable grain orientation and increasing PCE. Using an RTE, Li et al. introduced an\n                             additional seeds-screening step to induce the growth of grains with only (hkl); where  l̸ = 0\n                             orientation and in optimized device structure, a 7.62% PCE was achieved [13]. However,\n                           only very few (if any) reports about the formation of seed layer or Sb2Se3 absorber on TiO2\n                          using vapour transport deposition (VTD) have been published. VTD is an industrially\n                              scalable deposition method which has been proven to be very successful in the fabrication\n                             of high-efﬁciency Sb2Se3 solar cells on the CdS buffer layer [17]. However, a multiple-\n                            stage deposition process is more difﬁcult to realize in a VTD setup because of equipment\n                              limitations where slower temperature ramps are used and the substrate temperature is\n                             controlled indirectly [18].\n                                 In this work, we present an optimized three-step deposition protocol to obtain high-\n                               quality, compact, and pinholes-free Sb2Se3 thin ﬁlms on TiO2 substrates using the VTD\n                         method. Various experimental parameters were changed to obtain the desired properties of\n                            the seed layer and the ﬁnal Sb2Se3 absorber. Since a high temperature difference between\n                            the source and substrate could be fulﬁlled in the VTD setup, compact, pinholes-free seed\n                              layers were achieved already at a thickness of <100 nm. This allowed producing absorbers\n                             as thin as 400 nm and fabricating ultra-thin solar cells which generated an over 30 mA/cm2\n                               short-circuit current density. The effect of absorber thickness on Sb2Se3 solar cell perfor-\n                      mance was studied, and the champion cell achieved 4.8% PCE. The results of this work\n                          provide a technological pathway for seed layer formation and reveal the VTD method’s\n                          high potential for fabricating ultra-thin Sb2Se3 solar cells.\n\n                                   2. Materials and Methods\n\n                             TEC15-type FTO was used as a substrate (GreatCell Solar Materials, Queanbeyan,\n                               Australia), which, before buffer layer deposition, was cleaned with detergent followed by\n                              ultrasonication in ethanol and deionized water for 5 min each. A compact 20–30 nm layer\n                             of titanium dioxide (TiO2) with an anatase structure was deposited at 465 ◦C via spray\n                             pyrolysis from a solution composed of acetylacetone (200 µL) and titanium isopropoxide\n                             (300 µL) dispersed in ethanol (4.5 mL).\n                                Sb2Se3 thin ﬁlms were deposited using a three-zone tube furnace to realize a vapour\n                             transport deposition (VTD) approach (Supplementary Materials, Figure S1). Sb2Se3 powder\n                          (99.99% Shanghai Xinglu Chemical Co., Shanghai, China) was used as source material.\n                        About 2 g of powder was weighed which was enough to keep approximately 3.2 cm2 area of\n                       powder in the ceramic crucible and run at least ﬁve consecutive depositions. Source powder\n                      was placed in the centre of heating zone 2, whereas the substrate was located at varying\n                             distances outside of heating zone 1 (Supplementary Materials, Figure S1). The pressure in\n                             the tube was achieved using rotary pump and during deposition process was in 0.6–1.2 Pa\n                            range. The top temperature of heating zones 1 and 3 was ﬁxed at 420 ◦C with a ramp rate\n                              of 20 ◦C/min, and only zone 2’s heating parameters were varied (Figure S2). Samples were\n                            positioned on the graphite support in an almost vertical position (80 degrees) with respect to\n                             the tube axis (Supplementary Materials, Figure S1). The range of tested heating parameters\n                             of zone 2 as well as the optimum are shown in Figure S2 of Supplementary Materials. In",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Materials 2022, 15, 8356                                                                                                         3 of 10\n\n\n\n                                  brief, it comprised three stages: (i) deposition of the seed layer; (ii) annealing of the seed\n                                layer; and (iii) deposition of the absorber.\n                                 Solar cells were formed by thermally evaporating gold on top of the Sb2Se3 ab-\n                            sorber through a mask in the vacuum chamber of VAKSIS PVD Vapor-5S_Th (Vaksis\n                 R&D and Engineering, Ankara, Turkey). The ﬁnal solar cell structure was superstrate\n                        (FTO/TiO2/Sb2Se3/Au) with a cell size of 12.5 mm2 deﬁned by gold contact area. Gold\n                              electrodes were covered with either silver or carbon paste to protect cells from puncturing\n                     when contacting for I–V measurements.\n                            The surface morphology and elemental composition of thin ﬁlms were carried out in a\n                         dual-beam system of a scanning electron microscope FEI Helios Nanolab 650 (Eindhoven,\n                       The Netherlands) equipped with an EDX spectrometer from Oxford Instruments. Cross-\n                              sections were made with a 30 keV Ga ions beam.\n                               Film structure measurements were performed using a SmartLab diffractometer (Rigaku,\n                          Tokyo, Japan) equipped with a 9 kW rotating Cu anode X-ray tube. X-ray diffractograms\n                         were recorded in the Bragg–Brentano scanning geometry with a 0.02◦step size. Crystalline\n                          phases were identiﬁed by using the diffraction database PDF4+. The diffractometer was\n                              tested and calibrated using a certiﬁed standard LaB6 SRM 660b powder.\n                           The current-voltage (I-V) characteristics of Sb2Se3 solar cells were measured under\n                           standard test conditions (AM 1.5G, 100 mW/cm−2) using a Newport Oriel Class AAA solar\n                              simulator. Keithley 2400 was used as a source meter to record I-V characteristics.\n                                Capacitance-voltage (C-V) characteristics were calculated from voltage-dependent\n                        impedance measurements using potentiostat-galvanostat Autolab PGSTAT302 (Metrohm\n                     AG, Herisau, Switzerland) in 1–100 kHz frequency range and at 10 mV voltage steps.\n                           Capacitance was calculated from the imaginary part of the measured impedance.\n                                Sb2Se3 thin-ﬁlm absorbance was measured using double-beam JASCO V-670 UV-VIS\n                           spectrophotometer (Pfungstadt, Germany) in 300 – 1500 nm range at room temperature.\n\n                                   3. Results\n                                   3.1. Optimization of the Seed Layer\n\n                          As was found by other authors, the seed layer is a critical step in obtaining high-quality\n                           Sb2Se3 thin ﬁlms and increasing deposition reproducibility on the TiO2 buffer layer [19].\n                            Therefore, we ﬁrst examine how VTD deposition parameters affect the properties of the\n                          seed layer. We varied source temperatures (Tsrc), ramp rates, substrate heating zone\n                            distance (d), and annealing duration to ﬁnd optimal conditions for seed layer deposition.\n                      Key criteria for the seed layer are:  (i) full coverage of the substrate surface; (ii) high\n                                 crystallinity; and (iii) favourable grain orientation (i.e., hkl, where   l̸ = 0). To obtain\n                          high surface coverage, it is important to keep a large temperature difference between\n                           source and substrate temperatures because it promotes high-density nucleation. For this\n                             reason, we used a large graphite support, which acted as a heat sink and enabled a\n                         slow increase in Tsub. On contrary, Tsrc followed the heating zone temperature proﬁle\n                       where the fastest ramp was applied because of the low heat capacity and the mass of the\n                              crucible (Supplementary Materials, Figure S2). In this way, a large temperature difference\n                                    is achieved between Tsrc and Tsub.  It is important to note that the sample’s distance\n                        from the heating zone will also inﬂuence Tsub signiﬁcantly and is often used to control\n                            the substrate temperature in the VTD setup [14]. We also found that among the tested\n                           deposition parameters, d was one of the most important ones. The change in Tsrc in the\n                             ﬁrst deposition stage mainly affected the thickness of the seed layer and, to some extent,\n                            grain orientation (Figure S3). However, when using low Tsrc, the deposition of the seed\n                             layer was much more sensitive to pressure ﬂuctuations; therefore, we chose a higher end\n                             of Tsrc for further study. Keeping all other deposition parameters ﬁxed, we focused our\n                          study on structural seed layer properties with respect to d only. We varied d from −6 to\n                       +4 cm, where 0 cm indicates that the sample was placed right at the edge of the heating\n                           zone, and negative (positive) values denote how much samples were introduced inside\n                              (outside) the heating zone (higher/lower Tsub) (Figure S1). The variation in the seed layer",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Materials 2022, 15, 8356                                                                                                         4 of 10\n\n\n\n                       morphology as a function of d is presented in Figure 1. Note that at d = −6 cm, the seed\n                             layer started to re-evaporate because Tsub was too high, and no seed layer was present\n                               at the end of the annealing step. We found that, in all cases, we obtained compact and\n                             pinhole-free seed layers. When d < 0 cm, the layers were composed of rather large round\n                            grains and size distribution was dispersed (Figure 2a). This is indicative of the ripening\n                                  effect when smaller grains are consumed to grow larger ones, therefore leading to a broader\n                              size distribution [20]. As d was increased to positive values, grains became smaller and\n                       had narrower size distributions (Figure 2b,c). This can be expected because when Tsub is\n                            reduced, the adatom diffusion length on the surface decreases, which leads to the formation\n                              of smaller grains [16]. Note that at d = +4 cm, the shape of the grains changed completely\n                         from round to elongated. As will be shown later, this coincided with a substantial change\n                             in grain orientation (Figure 3b). Note that the thickness of the seed layer depended on d\n                          only when d > 0 cm (Figure S4), which signiﬁed that the growth rate gradually decreased\n                             as the sample was moved outside of the heating zone. This occurred because more Sb2Se3\n                        vapour condensed on the quartz walls and less reached the substrate when it was moved\n                      away from the heating zone. Changing the distance to positive values, therefore, had a\n                           two-fold effect: a decrease in substrate temperature and a reduced deposition rate.\n\n\n\n\n\n                              Figure 1. Top-view (a,b,d–f) SEM micrograph of Sb2Se3 seed layer deposited at different sample\n                              heating zone distances indicated in the image.  (c) SEM image of FTO/TiO2/Sb2Se3-seed layer\n                                 structure cross-section deposited at d = −2 cm.\n\n                                Sb2Se3 seed layer phase composition and grain crystallographic orientation was stud-\n                             ied using XRD. All peaks were assigned to the orthorhombic phase of Sb2Se3 (PDF #01-089-\n                            0821) and FTO (PDF #00-041-1445) whose reﬂections originated from the substrate. Phase\n                           composition did not depend on the sample heating zone distance (Figure 3a). However, the\n                                  full width at half maximum (FWHM) did correlate with the distance: FWHM decreased\n                             exponentially as the distance changed from positive to negative (Figure 3b). This is a conse-\n                         quence of gradually increasing substrate temperature when the sample is positioned inside\n                             the heating zone. This also means that the crystalline quality of the seed layer improved as\n                               Tsub was increased, although it started to saturate at d < 0 cm. Note that while grain size\n                           estimated from SEM was increasing when d was changed to −4 cm, the FWHM of XRD\n                         peaks did not change substantially from 0 to −4 cm. This shows that grain size is not an\n                             indication of crystalline quality. XRD peak FWHM is related to the size of the crystalline\n                         domain, which is often wrongly directly compared with the grain size.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. Top-view (a,b,d–f) SEM micrograph of Sb2Se3 seed layer deposited at different sample\nheating zone distances indicated in the image. (c) SEM image of FTO/TiO2/Sb2Se3-seed layer\nstructure cross-section deposited at d = −2 cm.",
+          "figure_bbox": [
+            71.54,
+            315.45,
+            523.45,
+            542.82
+          ],
+          "bbox": [
+            166.39,
+            553.36,
+            559.45,
+            588.05
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. Top-view (a,b,d–f) SEM micrograph of Sb2Se3 seed layer deposited at different sample\nheating zone distances indicated in the image. (c) SEM image of FTO/TiO2/Sb2Se3-seed layer\nstructure cross-section deposited at d = −2 cm.",
+          "bbox": [
+            71.54,
+            315.45,
+            523.45,
+            542.82
+          ],
+          "file": "extracted_images/page4_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Materials 2022, 15, 8356                                                                                                         5 of 10\n\n\n\n\n\n                              Figure 2. Grain size distribution in Sb2Se3 seed layers deposited at (a) −4 cm, (b) 0 cm, and (c) +4 cm\n                                distances between zone edge and sample. Grain volume was calculated by multiplying seed layer\n                                thickness with measured grain surface area estimated from SEM image.\n\n\n\n\n\n                              Figure 3. (a) XRD patterns of Sb2Se3 seed layer deposited at different sample heating zone distances.\n                               All XRD peaks were assigned to orthorhombic Sb2Se3 phase (PDF 01-089-0821) and SnO2 (PDF\n                                 00-041-1445). (b) FWHM and ratio of (020) + (120) peak area to (221) + (211) as a function of sample\n                               heating zone distance.\n\n                              Grain orientation was estimated by taking the ratio of the peak area of the most\n                              intensive XRD peaks of planes that are orientated with a ribbon axis parallel to the surface,\n                                            i.e., (020) and (120), and planes where the ribbon axis is at a certain angle, such as (211) and\n                                 (221). Note that the Voigt function was used for ﬁtting XRD peaks and calculating the peak\n                             area and FWHM. We found that grain orientation did not depend heavily on the distance in\n                             the −4–+2 cm range, but a stark change occurred at +4 cm. It also coincided with a change\n                             in grain shape (Figure 1f); therefore, the elongated nanorod-like shape of the grains was\n                             indicative of a ribbon parallel to the surface orientation and was also observed by other\n                            authors [14,16,21]. This shows that under low deposition rates and substrate temperatures,\n                             grains tend to orient themselves in a way that maximizes the van der Waals surface area.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. Grain size distribution in Sb2Se3 seed layers deposited at (a) −4 cm, (b) 0 cm, and (c) +4 cm\ndistances between zone edge and sample. Grain volume was calculated by multiplying seed layer\nthickness with measured grain surface area estimated from SEM image.",
+          "figure_bbox": [
+            164.39,
+            92.86,
+            507.27,
+            369.88
+          ],
+          "bbox": [
+            166.39,
+            375.41,
+            559.46,
+            411.01
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. (a) XRD patterns of Sb2Se3 seed layer deposited at different sample heating zone distances.\nAll XRD peaks were assigned to orthorhombic Sb2Se3 phase (PDF 01-089-0821) and SnO2 (PDF\n00-041-1445). (b) FWHM and ratio of (020) + (120) peak area to (221) + (211) as a function of sample\nheating zone distance.",
+          "figure_bbox": [
+            95.75,
+            419.29,
+            499.25,
+            574.19
+          ],
+          "bbox": [
+            166.04,
+            582.62,
+            560.85,
+            630.14
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. Grain size distribution in Sb2Se3 seed layers deposited at (a) −4 cm, (b) 0 cm, and (c) +4 cm\ndistances between zone edge and sample. Grain volume was calculated by multiplying seed layer\nthickness with measured grain surface area estimated from SEM image.",
+          "bbox": [
+            164.39,
+            92.86,
+            507.27,
+            369.88
+          ],
+          "file": "extracted_images/page5_figure-2_1.png"
+        },
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. (a) XRD patterns of Sb2Se3 seed layer deposited at different sample heating zone distances.\nAll XRD peaks were assigned to orthorhombic Sb2Se3 phase (PDF 01-089-0821) and SnO2 (PDF\n00-041-1445). (b) FWHM and ratio of (020) + (120) peak area to (221) + (211) as a function of sample\nheating zone distance.",
+          "bbox": [
+            95.75,
+            419.29,
+            499.25,
+            574.19
+          ],
+          "file": "extracted_images/page5_figure-3_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Materials 2022, 15, 8356                                                                                                         6 of 10\n\n\n\n                            Based on the criteria for the seed layer, we found that the optimal d was in the\n                       −4–0 cm range. In this region, deposited seed layers were compact, fully covered the\n                              substrate surface, were of high crystalline quality (in terms of FWHM) and had favourable\n                            grain orientations. For the Sb2Se3 absorber deposition, we selected −2 cm as the optimal\n                              distance. The reason is that, at −4 cm, there is a higher risk of seed layer re-evaporation,\n                        whereas at 0 cm, it required a longer annealing step duration to increase Tsub for the\n                           absorber deposition.\n\n                                   3.2. Solar Cell Fabrication and Performance\n\n                           Having identiﬁed optimal seed layer deposition conditions, the complete Sb2Se3\n                            absorber was grown on the top of the seed layer in the last deposition process step (Figure\n                                S2a). This included ramping the Tsrc up to 520–525 ◦C and maintaining it for a ﬁxed period.\n                        The top annealing temperature duration varied from 1 to 4 min, which resulted in the ﬁnal\n                            absorber’s thickness being in the 400–800 nm range. Note that thickness variation did not\n                            follow deposition time linearly (Figure 4a), and as can be seen, the growth rate was higher\n                               in the ﬁrst few minutes and then started to decline. We believe this was related to the initial\n                                   Tsrc overshoot (Figure S2), which always occurs with the resistive-type furnaces when a\n                           high-temperature ramp rate is used. The surface morphology of the Sb2Se3 layer did not\n                       depend on the deposition time (Figure S5) and remained almost the same, as shown in\n                            the inset of Figure 4a. The phase composition of the absorber was the same as that of the\n                          seed layer—orthorhombic Sb2Se3. The grain orientation did not change signiﬁcantly with\n                            absorber thickness, although (hkl,  l̸ = 0) planes were more prominent than in the seed layer\n                             (Figure 4b). Chemical composition was slightly deposition-time-dependent. The longer the\n                            deposition time, the more an Sb-rich composition was observed (Table S2). However, the\n                            trend was very small (<1 at. %); therefore, we do not expect it to have a signiﬁcant inﬂuence\n                       on solar cell performance. Overall, the structural properties of the Sb2Se3 absorber were\n                          almost identical, except for thickness. This then allowed us to study how the thickness of\n                            the absorber rather than structural characteristics affected the solar cell performance.\n\n\n\n\n\n                              Figure 4. (a) An average absorber thickness determined from cross-sectional SEM images as a function\n                                  of deposition time in the last process step. Inset—top-view SEM image of Sb2Se3 absorber deposited\n                                   at 3 min. (b) XRD patterns of Sb2Se3 absorbers grown at different deposition times. All XRD peaks\n                           were assigned to orthorhombic Sb2Se3 phase (PDF 01-089-0821) and SnO2 (PDF 00-041-1445).\n\n                           The ﬁnal solar cell structure was FTO/TiO2/Sb2Se3/Au (Figure 5a, inset). J-V curves\n                             of the champion cells for each case are depicted in Figure 5a, and average performance\n                          parameters are listed in Table 1. We see that power conversion efﬁciency (PCE) varied in\n                            the 3.4–4.6 % range and was rather dispersed within a sample. The largest variation was\n                          observed in short-circuit current density, JSC (Table 1). We speculate that it was related to\n                            the uneven surface oxidation, which is typical effect when using low-vacuum conditions",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. (a) An average absorber thickness determined from cross-sectional SEM images as a function\nof deposition time in the last process step. Inset—top-view SEM image of Sb2Se3 absorber deposited\nat 3 min. (b) XRD patterns of Sb2Se3 absorbers grown at different deposition times. All XRD peaks\nwere assigned to orthorhombic Sb2Se3 phase (PDF 01-089-0821) and SnO2 (PDF 00-041-1445).",
+          "figure_bbox": [
+            76.56,
+            453.83,
+            518.44,
+            636.64
+          ],
+          "bbox": [
+            166.02,
+            645.07,
+            559.28,
+            694.34
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. (a) An average absorber thickness determined from cross-sectional SEM images as a function\nof deposition time in the last process step. Inset—top-view SEM image of Sb2Se3 absorber deposited\nat 3 min. (b) XRD patterns of Sb2Se3 absorbers grown at different deposition times. All XRD peaks\nwere assigned to orthorhombic Sb2Se3 phase (PDF 01-089-0821) and SnO2 (PDF 00-041-1445).",
+          "bbox": [
+            76.56,
+            453.83,
+            518.44,
+            636.64
+          ],
+          "file": "extracted_images/page6_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Materials 2022, 15, 8356                                                                                                         7 of 10\n\n\n\n                          such as in the VTD process [22]. In another batch of fabricated solar cells under very similar\n                             conditions, we applied surface etching using a dilute (NH4)2S solution. This not only\n                         reduced scattering in solar cell parameters but also increased the ﬁll factor (FF) (Table S1).\n                    On the other hand, the peak-performing cells all showed rather similar solar cell parameters\n                         with a record efﬁciency of 4.9% (Table 1). There are very few studies where Sb2Se3 solar\n                                   cells are deposited on Cd-free buffer layers using the VTD approach indicating a non-trivial\n                            deposition protocol on oxide buffer layers. Using the same deposition method (VTD) on\n                           double-oxide buffer layers (SnO2/TiO2), Wang et al. demonstrated 4.7% PCE, which was\n                          boosted to 5.8% using SbCl3 surface treatment [23]. A surprising observation was that the\n                           generated JSC did not depend on the absorber thickness, even when it was increased two\n                              times. Neglecting limited charge carrier diffusion length, usually, the thicker the absorber,\n                            the more photons are absorbed and converted to electron–hole pairs, leading to increased\n                                 JSC. For example, to absorb all solar radiation above the bandgap, 1.5–2 µm-thickness\n                            absorbers are required for well-established thin-ﬁlm solar cell technologies such as Cu(In,\n                          Ga)Se2 [24] and Cu2SnZnSe4 [25], and even higher thicknesses are needed for CdTe [26].\n                            In the case of the Sb2Se3 absorber, a JSC over 30 mA/cm2 was generated using layers as\n                             thin as 0.4 µm and without any intentional light-management solutions. The measured\n                          absorbance of Sb2Se3 ﬁlms showed that even in the thinnest sample, 99% of incident\n                             radiation was absorbed at a 950 nm wavelength and below (Figure 5c). This demonstrates\n                            the high absorption capabilities of Sb2Se3 and its potential application in ultra-thin solar\n                                    cells. Using the experimentally measured absorption coefﬁcient of Sb2Se3, we calculated\n                            the theoretical limit of JSC at a speciﬁc absorber thickness using an idealized p–n junction\n                              (Table 1). The sample with an absorber thickness of 0.4 µm generated 86% of the theoretical\n                                 JSC, and this is not considering reﬂection losses from a glass substrate. However, with\n                        an increasing absorber thickness, JSC did not improve, which suggests that collection\n                            efﬁciency decreased accordingly. Carrier mobility and carrier lifetime are rather low in\n                           Sb2Se3 [27], leading to a short carrier diffusion length. Once absorber thickness exceeds\n                               carrier diffusion length, carriers recombine before reaching contacts and current is lost as\n                               heat. Another limiting factor in our solar cells was a low open-circuit voltage (VOC), which\n                      was in the 290–300 mV range. For state-of-the-art Sb2Se3 solar cells, the VOC is >400 mV.\n                            In our case, a Fermi-level pinning is suspected at the Sb2Se3–TiO2 interface because the\n                               built-in voltage (Vbi) determined from C-V measurements (Figure 5d) was the same as\n                            the VOC. The Vbi is equal to the Fermi-level difference of n- and p-type semiconductors\n                            before forming a heterojunction, and from the data available in the literature, the Vbi is\n                          expected to be somewhere from 450 to 650 mV, depending on the doping level in Sb2Se3\n                       and the approach used for the synthesis of TiO2 [28,29]. Therefore, we suggest that the\n                       low Vbi (which also limited VOC) was because of Fermi-level pinning likely caused by\n                               interface defects. The measured J-V curves under dark conditions also indicated that severe\n                           recombination was present in the device. For a state-of-the-art Sb2Se3 device, dark currents\n                         under negative bias usually fall below 10−2 mA/cm2, whereas the dark saturation current\n                            density (J0) is below 10−3 mA/cm2 [30,31]. In the samples under study, J0 was in the\n                          1 × 10−2–4 × 10−2 mA/cm2 interval (Figure 5b). Such a high dark saturation current is\n                        an indication of a high recombination rate that can originate from the interface and bulk\n                                defects. We believe that interface defects were the primary source for high J0 because of the\n                         pinned VOC.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Materials 2022, 15, 8356                                                                                                         8 of 10\n\n\n\n\n\n                              Figure 5. Light (a) and dark (b) J-V curves of champion Sb2Se3 solar cells fabricated at various\n                              deposition times. (c) Absorbance spectra of Sb2Se3 solar cells synthesized at different deposition\n                                 times. (d) C-V and 1/C2 curves measured at 100 kHz frequency under dark conditions of the Sb2Se3\n                                  solar cell with an absorber thickness of 490 nm.\n\n\n                             Table 1. Device performance parameters and absorber thickness of Sb2Se3 solar cells fabricated\n                                   at different deposition durations. Provided parameters are averages with an error estimated as\n                              standard deviation.\n\n                              Deposition       JSC,                                            Thickness,   Limit JSC,\n                                                    VOC, mV       FF, %      PCE, %                            Time     mA/cm2                              nm      mA/cm2\n\n                                 1 min      29.4 ± 1.6     286 ± 6      47.8 ± 0.8     4.0 ± 0.25\n                                                                                              400 ± 32        36.5\n                             Peak cell        31.6         282           48.6          4.33\n\n                                 2 min      27.2 ± 3.9     282 ± 8      47 ± 1.0      3.6 ± 0.6\n                                                                                              557 ± 33        38.1\n                             Peak cell        30.5         289           47.9          4.23\n\n                                 3 min      30.2 ± 1.8     316 ± 7      48.4 ± 0.5     4.6 ± 0.2\n                                                                                              697 ± 47        39.1\n                             Peak cell        32.6         311           47.8          4.86\n\n                                 4 min      24.5 ± 3.4     292 ± 2      47.6 ± 0.5     3.4 ± 0.45\n                                                                                              800 ± 27        39.7\n                             Peak cell        29.4         292           47.2          4.05\n\n\n                                   4. Conclusions\n\n                                 In this work, we use the vapour transport deposition method (VTD) to fabricate\n                           Sb2Se3 solar cells. One of the main advantages of this method is that the growth rate\n                          can be controlled across a wide range, which enables us to obtain very thin, but compact,\n                           conformal and pinhole-free ﬁlms. Additionally, because of the lower growth rate and great\n                             distance between the source and substrate, the high substrate temperature is not required\n                              in contrast to close-space sublimation or rapid thermal annealing approaches. This makes\n                   VTD compatible with ﬂexible organic substrates. Herein we demonstrated that solar cells\n                          can be fabricated using an optimized three-step deposition protocol as thin as 0.4 µm Sb2Se3",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. Device performance parameters and absorber thickness of Sb2Se3 solar cells fabricated\nat different deposition durations. Provided parameters are averages with an error estimated as\nstandard deviation.",
+          "bbox": [
+            166.39,
+            511.54,
+            559.28,
+            645.63
+          ],
+          "rows": [
+            [
+              "Deposition\nTime",
+              "JSC,\nmA/cm²",
+              "VOC, mV",
+              "FF, %",
+              "PCE, %",
+              "Thickness,\nnm",
+              "Limit JSC,\nmA/cm²"
+            ],
+            [
+              "1 min\nPeak cell",
+              "29.4 ± 1.6\n31.6",
+              "286 ± 6\n282",
+              "47.8 ± 0.8\n48.6",
+              "4.0 ± 0.25\n4.33",
+              "400 ± 32",
+              "36.5"
+            ],
+            [
+              "2 min\nPeak cell",
+              "27.2 ± 3.9\n30.5",
+              "282 ± 8\n289",
+              "47 ± 1.0\n47.9",
+              "3.6 ± 0.6\n4.23",
+              "557 ± 33",
+              "38.1"
+            ],
+            [
+              "3 min\nPeak cell",
+              "30.2 ± 1.8\n32.6",
+              "316 ± 7\n311",
+              "48.4 ± 0.5\n47.8",
+              "4.6 ± 0.2\n4.86",
+              "697 ± 47",
+              "39.1"
+            ],
+            [
+              "4 min\nPeak cell",
+              "24.5 ± 3.4\n29.4",
+              "292 ± 2\n292",
+              "47.6 ± 0.5\n47.2",
+              "3.4 ± 0.45\n4.05",
+              "800 ± 27",
+              "39.7"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. Light (a) and dark (b) J-V curves of champion Sb2Se3 solar cells fabricated at various\ndeposition times. (c) Absorbance spectra of Sb2Se3 solar cells synthesized at different deposition\ntimes. (d) C-V and 1/C² curves measured at 100 kHz frequency under dark conditions of the Sb2Se3\nsolar cell with an absorber thickness of 490 nm.",
+          "figure_bbox": [
+            103.38,
+            92.86,
+            491.61,
+            396.49
+          ],
+          "bbox": [
+            166.39,
+            404.78,
+            559.28,
+            452.43
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. Device performance parameters and absorber thickness of Sb2Se3 solar cells fabricated\nat different deposition durations. Provided parameters are averages with an error estimated as\nstandard deviation.",
+          "bbox": [
+            166.1,
+            469.15,
+            559.28,
+            503.85
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. Light (a) and dark (b) J-V curves of champion Sb2Se3 solar cells fabricated at various\ndeposition times. (c) Absorbance spectra of Sb2Se3 solar cells synthesized at different deposition\ntimes. (d) C-V and 1/C² curves measured at 100 kHz frequency under dark conditions of the Sb2Se3\nsolar cell with an absorber thickness of 490 nm.",
+          "bbox": [
+            103.38,
+            92.86,
+            491.61,
+            396.49
+          ],
+          "file": "extracted_images/page8_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Materials 2022, 15, 8356                                                                                                         9 of 10\n\n\n\n                       and showed that short-circuit current density over 30 mA/cm2 was reached. This shows a\n                            high-absorption coefﬁcient and the potential of Sb2Se3 for ultra-thin solar cell applications.\n\n                           Supplementary Materials: The following supporting information can be downloaded at: https:\n                            //www.mdpi.com/article/10.3390/ma15238356/s1. Supplementary ﬁles include one document with\n                              Figure S1 (schematic representation of VTD setup); Figure S2 (heating proﬁles during deposition\n                                 process); Figure S3 (SEM and XRD of seed layers); Figure S4 (SEM cross-sectional images of seed\n                                     layers); Figure S5 (SEM top-view and cross-sectional images of Sb2Se3 solar cells); Table S1 (solar cell\n                                parameters); Table S2 (chemical composition of Sb2Se3 absorber) and raw ﬁles of XRD, I-Vs and SEM.\n\n                           Author Contributions: Conceptualization, R.K. and R.J.; Methodology, R.K.; Validation, R.K., A.N.\n                          and A.D.; Formal Analysis, R.K. and A.N.; Investigation, R.K., A.N., A.D., V.P. and D.V.; Resources,\n                                         R.J.; Data Curation, R.K., A.D. and A.N.; Writing—Original Draft Preparation, R.K., A.N. and A.D.;\n                          Writing—Review and Editing, R.K., R.J. and A.D.; Visualization, A.N.; Supervision, R.K.; Project\n                              Administration, R.K.; Funding Acquisition, R.K. and R.J. All authors have read and agreed to the\n                              published version of the manuscript.\n\n                            Funding: This research received no external funding.\n\n                                 Institutional Review Board Statement: Not applicable.\n\n                           Informed Consent Statement: Not applicable.\n\n                           Data Availability Statement: Data are contained within the article or supplementary material. The\n                              data presented in this study are available in the supplementary ﬁle.\n\n                          Acknowledgments: The authors thank L. Staiši¯unas for conducting CV measurements.\n\n                             Conﬂicts of Interest: The authors declare no conﬂict of interest.\n\nReferences\n\n1.   Nakamura, M.; Yamaguchi, K.; Kimoto, Y.; Yasaki, Y.; Kato, T.; Sugimoto, H. Cd-Free Cu(In, Ga)(Se, S)2 Thin-Film Solar Cell with\n     Record Efﬁciency of 23.35%. IEEE J. Photovolt. 2019, 9, 1863–1867. [CrossRef]\n2.   Green, M.; Dunlop, E.; Hohl-Ebinger, J.; Yoshita, M.; Kopidakis, N.; Hao, X. Solar cell efﬁciency tables (version 57). Prog. Photovolt.\n      Res. Appl. 2021, 29, 3–15. [CrossRef]\n3.   Sharma, R.; Sharma, A.; Agarwal, S.; Dhaka, M.S. Stability and efﬁciency issues, solutions and advancements in perovskite solar\n       cells: A review. Sol. Energy 2022, 244, 516–535. [CrossRef]\n4.   Zhou, Y.; Wang, L.; Chen, S.; Qin, S.; Liu, X.; Chen, J.; Xue, D.-J.; Luo, M.; Cao, Y.; Cheng, Y.; et al. Thin-ﬁlm Sb2Se3 photovoltaics\n     with oriented one-dimensional ribbons and benign grain boundaries. Nat. Photonics 2015, 9, 409–415. [CrossRef]\n5.   Duan, Z.; Liang, X.; Feng, Y.; Ma, H.; Liang, B.; Wang, Y.; Luo, S.; Wang, S.; Schropp, R.E.I.; Mai, Y.; et al. Sb2Se3 Thin-Film\n     Solar Cells Exceeding 10% Power Conversion Efﬁciency Enabled by Injection Vapor Deposition Technology. Adv. Mater. 2022,\n      34, 2202969. [CrossRef]\n6.   Mamta; Maurya, K.K.; Singh, V.N. Inﬂuence of buffer layers on antimony selenide based solar cell. Opt. Mater. 2022, 126, 112240.\n     [CrossRef]\n7.    Spalatu, N.; Katerski, A. Effect of TiO2 Annealing Conditions on the Performance of Antimony Selenide Thin Film Solar Cell.\n     Master’s Thesis, Tallinn University of Technology, Tallinn, Estonia, 2021.\n8.    Fleck, N. The Role of Surfaces, Interfaces and Oxides in Antimony Selenide Photovoltaics; University of Liverpool: Liverpool, UK, 2021.\n9.   Zhang, Z.; Hu, M.; Jia, T.; Du, J.; Chen, C.; Wang, C.; Liu, Z.; Shi, T.; Tang, J.; Leng, Y. Suppressing the Trapping Process by\n      Interfacial Charge Extraction in Antimony Selenide Heterojunctions. ACS Energy Lett. 2021, 6, 1740–1748. [CrossRef]\n10.  Luo, Y.-D.; Chen, M.-d.; Tang, R.; Azam, M.; Chen, S.; Zheng, Z.-H.; Su, Z.-H.; Fan, P.; Ma, H.-L.; Liang, G.-X. Energy band\n     alignment for Cd-free antimony triselenide substrate structured solar cells by Co-sputtering ZnSnO buffer layer. Sol. Energy\n     Mater. Sol. Cells 2022, 240, 111721. [CrossRef]\n11.  Guo, H.; Chen, Z.; Wang, X.; Cang, Q.; Ma, C.; Jia, X.; Yuan, N.; Ding, J. Signiﬁcant increase in efﬁciency and limited toxicity of a\n      solar cell based on Sb2Se3 with SnO2 as a buffer layer. J. Mater. Chem. C 2019, 7, 14350–14356. [CrossRef]\n12.  Hobson, T.D.C.; Phillips, L.J.; Hutter, O.S.; Shiel, H.; Swallow, J.E.N.; Savory, C.N.; Nayak, P.K.; Mariotti, S.; Das, B.; Bowen,\n      L.; et al. Isotype Heterojunction Solar Cells Using n-Type Sb2Se3 Thin Films. Chem. Mater. 2020, 32, 2621–2630. [CrossRef]\n13.   Li, K.; Chen, C.; Lu, S.; Wang, C.; Wang, S.; Lu, Y.; Tang, J. Orientation Engineering in Low-Dimensional Crystal-Structural\n     Materials via Seed Screening. Adv. Mater. 2019, 31, 1903914. [CrossRef] [PubMed]\n14.  Kondrotas, R.; Zhang, J.; Wang, C.; Tang, J. Growth mechanism of Sb2Se3 thin ﬁlms for photovoltaic application by vapor\n     transport deposition. Sol. Energy Mater. Sol. Cells 2019, 199, 16–23. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Materials 2022, 15, 8356                                                                                                        10 of 10\n\n\n\n\n15.   Hutter, O.S.; Phillips, L.J.; Yates, P.J.; Major, J.D.; Durose, K. CSS Antimony Selenide Film Morphology and High Efﬁciency PV\n     Devices. In Proceedings of the 2018 IEEE 7th World Conference on Photovoltaic Energy Conversion (WCPEC) (A Joint Conference\n     of 45th IEEE PVSC, 28th PVSEC & 34th EU PVSEC), Waikoloa, HI, USA, 10–15 June 2018; pp. 27–31.\n16.   Spalatu, N.; Krautmann, R.; Katerski, A.; Karber, E.; Josepson, R.; Hiie, J.; Acik, I.O.; Krunks, M. Screening and optimization of\n     processing temperature for Sb2Se3 thin ﬁlm growth protocol: Interrelation between grain structure, interface intermixing and\n      solar cell performance. Sol. Energy Mater. Sol. Cells 2021, 225, 111045. [CrossRef]\n17.  Wang, W.; Cao, Z.; Wu, L.; Chen, G.; Ao, J.; Luo, J.; Zhang, Y. Interface Etching Leads to the Inversion of the Conduction Band\n      Offset between the CdS/Sb2Se3 Heterojunction and High-Efﬁcient Sb2Se3 Solar Cells. ACS Appl. Energy Mater. 2022, 5, 2531–2541.\n     [CrossRef]\n18.  Wen, X.; Chen, C.; Lu, S.; Li, K.; Kondrotas, R.; Zhao, Y.; Chen, W.; Gao, L.; Wang, C.; Zhang, J.; et al. Vapor transport deposition\n     of antimony selenide thin ﬁlm solar cells with 7.6% efﬁciency. Nat. Commun. 2018, 9, 2179. [CrossRef] [PubMed]\n19.  Chen, C.; Zhao, Y.; Lu, S.; Li, K.; Li, Y.; Yang, B.; Chen, W.; Wang, L.; Li, D.; Deng, H. Accelerated optimization of TiO2/Sb2Se3\n     thin ﬁlm solar cells by high-throughput combinatorial approach. Adv. Energy Mater. 2017, 7, 1700866. [CrossRef]\n20.  Zhang, H.; Yuan, S.; Deng, H.; Ishaq, M.; Yang, X.; Hou, T.; Shah, U.A.; Song, H.; Tang, J. Controllable orientations for Sb2S3 solar\n      cells by vertical VTD method. Prog. Photovolt. Res. Appl. 2020, 28, 823–832. [CrossRef]\n21.   Lei, H.; Chen, J.; Tan, Z.; Fang, G. Review of Recent Progress in Antimony Chalcogenide-Based Solar Cells: Materials and Devices.\n      Sol. RRL 2019, 3, 1900026. [CrossRef]\n22.  Wang, C.; Lu, S.; Li, S.; Wang, S.; Lin, X.; Zhang, J.; Kondrotas, R.; Li, K.; Chen, C.; Tang, J. Efﬁciency improvement of ﬂexible\n     Sb2Se3 solar cells with non-toxic buffer layer via interface engineering. Nano Energy 2020, 71, 104577. [CrossRef]\n23.  Wang, W.; Yao, L.; Dong, J.; Wu, L.; Cao, Z.; Hui, L.; Chen, G.; Luo, J.; Zhang, Y. Interface Modiﬁcation Uncovers the Potential\n     Application of SnO2/TiO2 Double Electron Transport Layer in Efﬁcient Cadmium-Free Sb2Se3 Devices. Adv. Mater. Interfaces\n     2022, 9, 2102464. [CrossRef]\n24.  Heriche, H.; Rouabah, Z.; Bouarissa, N. High-efﬁciency CIGS solar cells with optimization of layers thickness and doping. Optik\n     2016, 127, 11751–11757. [CrossRef]\n25.  Bouarissa, A.; Gueddim, A.; Bouarissa, N.; Maghraoui-Meherezi, H. Modeling of ZnO/MoS2/CZTS photovoltaic solar cell\n     through window, buffer and absorber layers optimization. Mater. Sci. Eng. B 2021, 263, 114816. [CrossRef]\n26.  Gupta, A.; Parikh, V.; Compaan, A.D. High efﬁciency ultra-thin sputtered CdTe solar cells. Sol. Energy Mater. Sol. Cells 2006, 90,\n     2263–2271. [CrossRef]\n27.  Wang, K.; Chen, C.; Liao, H.; Wang, S.; Tang, J.; Beard, M.C.; Yang, Y. Both Free and Trapped Carriers Contribute to Photocurrent\n     of Sb2Se3 Solar Cells. J. Phys. Chem. Lett. 2019, 10, 4881–4887. [CrossRef] [PubMed]\n28.  Kashiwaya, S.; Morasch, J.; Streibel, V.; Toupance, T.; Jaegermann, W.; Klein, A. The Work Function of TiO2. Surfaces 2018, 1, 73–89.\n     [CrossRef]\n29.   Shiel, H.; Hutter, O.S.; Phillips, L.J.; Swallow, J.E.N.; Jones, L.A.H.; Featherstone, T.J.; Smiles, M.J.; Thakur, P.K.; Lee, T.-L.; Dhanak,\n      V.R.; et al. Natural Band Alignments and Band Offsets of Sb2Se3 Solar Cells. ACS Appl. Energy Mater. 2020, 3, 11617–11626.\n     [CrossRef]\n30.  Zhao, Y.; Wang, S.; Che, B.; Li, C.; Chen, X.; Chen, H.; Tang, R.; Wang, X.; Chen, G.; Wang, T. Regulating Deposition Kinetics via A\n    Novel Additive-assisted Chemical Bath Deposition Technology Enables 10.57%-efﬁcient Sb2Se3 Solar Cells. Energy Environ. Sci.\n     2022. [CrossRef]\n31.  Shen, K.; Ou, C.; Huang, T.; Zhu, H.; Li, J.; Li, Z.; Mai, Y. Mechanisms and modiﬁcation of nonlinear shunt leakage in Sb2Se3 thin\n    ﬁlm solar cells. Sol. Energy Mater. Sol. Cells 2018, 186, 58–65. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "6f52dcd65bcbc64691c972bfe28d289f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            516.92,
+            56.15,
+            558.47,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_6f52dcd65bcbc64691c972bfe28d289f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "59c116537ecf25f8d7692dabbf2060fb",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            517.1,
+            56.34,
+            538.31,
+            76.49
+          ]
+        }
+      ],
+      "file": "garbage/page1_59c116537ecf25f8d7692dabbf2060fb.png",
+      "is_garbage": true
+    },
+    {
+      "id": "62efa0313b674db8d12560bbe65e7581",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            537.1,
+            63.4,
+            558.32,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_62efa0313b674db8d12560bbe65e7581.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bdad99135e250503119f6f098d743bd0",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            521.38,
+            65.4,
+            553.92,
+            74.6
+          ]
+        }
+      ],
+      "file": "garbage/page1_bdad99135e250503119f6f098d743bd0.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            35.72,
+            656.88,
+            92.41,
+            676.72
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

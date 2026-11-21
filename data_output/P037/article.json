@@ -1,0 +1,1031 @@
+{
+  "publication_id": "P037",
+  "source_file": "P037.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Inkjet-Printed Electron Transport Layers for Perovskite Solar Cells",
+    "author": "Dongli Lu; Wei Zhang; Lars Kloo; Liubov Belova",
+    "subject": "Inkjet printing emerged as an alternative deposition method to spin coating in the field of perovskite solar cells (PSCs) with the potential of scalable, low-cost, and no-waste manufacturing. In this study, the materials TiO2, SrTiO3, and SnO2 were inkjet-printed as electron transport layers (ETLs), and the PSC performance based on these ETLs was optimized by adjusting the ink preparation methods and printing processes. For the mesoporous ETLs inkjet-printed from TiO2 and SrTiO3 nanoparticle inks, the selection of solvents for dispersing nanoparticles was found to be important and a cosolvent system is beneficial for the film formation. Meanwhile, to overcome the low current density and severe hysteresis in SrTiO3-based devices, mixed mesoporous SrTiO3/TiO2 ETLs were also investigated. In addition, inkjet-printed SnO2 thin films were fabricated by using a cosolvent system and the effect of the SnO2 ink concentrations on the device performance was investigated. In comparison with PSCs based on TiO2 and SrTiO3 ETLs, the SnO2-based devices offer an optimal power conversion efficiency (PCE) of 17.37% in combination with a low hysteresis. This work expands the range of suitable ETL materials for inkjet-printed PSCs and promotes the commercial applications of inkjet printing techniques in PSC manufacturing.",
+    "keywords": "inkjet printing; electron transport layers; perovskite solar cells; TiO2; SrTiO3; SnO2; cosolvent system",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "creationDate": "D:20211214144259+08'00'",
+    "modDate": "D:20211216124752+01'00'",
+    "DOI": "10.3390/ma14247525",
+    "year": 2021,
+    "authors": [
+      "Dongli Lu",
+      "Wei Zhang",
+      "Lars Kloo",
+      "Liubov Belova"
+    ]
+  },
+  "page_count": 17,
+  "pages": [
+    {
+      "page": 1,
+      "text": "    materials\n\n\n\nArticle\nInkjet-Printed Electron Transport Layers for Perovskite\nSolar Cells\n\nDongli Lu 1, Wei Zhang 2, Lars Kloo 2 and Liubov Belova 1,*\n\n\n                                            1  Department of Materials Science and Engineering, KTH Royal Institute of Technology,\n                                     SE-10044 Stockholm, Sweden; donglil@kth.se\n                                            2  Department of Chemistry, Applied Physical Chemistry, KTH Royal Institute of Technology,\n                                     SE-10044 Stockholm, Sweden; wzha@kth.se (W.Z.); larsa@kth.se (L.K.)\n                                     *   Correspondence: lyuba@kth.se\n\n\n                                Abstract: Inkjet printing emerged as an alternative deposition method to spin coating in the ﬁeld of\n                               perovskite solar cells (PSCs) with the potential of scalable, low-cost, and no-waste manufacturing.\n                                In this study, the materials TiO2, SrTiO3, and SnO2 were inkjet-printed as electron transport layers\n                                 (ETLs), and the PSC performance based on these ETLs was optimized by adjusting the ink preparation\n                          methods and printing processes. For the mesoporous ETLs inkjet-printed from TiO2 and SrTiO3\n                               nanoparticle inks, the selection of solvents for dispersing nanoparticles was found to be important\n                          and a cosolvent system is beneﬁcial for the ﬁlm formation. Meanwhile, to overcome the low current\n                               density and severe hysteresis in SrTiO3-based devices, mixed mesoporous SrTiO3/TiO2 ETLs were\n                                 also investigated. In addition, inkjet-printed SnO2 thin ﬁlms were fabricated by using a cosolvent\n                            system and the effect of the SnO2 ink concentrations on the device performance was investigated.\n                                In comparison with PSCs based on TiO2 and SrTiO3 ETLs, the SnO2-based devices offer an optimal\n                          power conversion efﬁciency (PCE) of 17.37% in combination with a low hysteresis. This work expands\n                                the range of suitable ETL materials for inkjet-printed PSCs and promotes the commercial applications\n                                 of inkjet printing techniques in PSC manufacturing.\n\nCitation: Lu, D.; Zhang, W.; Kloo, L.;\nBelova, L. Inkjet-Printed Electron      Keywords: inkjet printing; electron transport layers; perovskite solar cells; TiO2; SrTiO3; SnO2;\nTransport Layers for Perovskite Solar    cosolvent system\nCells. Materials 2021, 14, 7525.\n\nhttps://doi.org/10.3390/ma14247525\n\n\nAcademic Editor: Fabrice Goubard      1. Introduction\n\n                                 Electron transport layers (ETLs), which effectively collect photo-generated electrons\nReceived: 25 October 2021\n                         from the light-absorbing perovskite material and transport these electrons to the conductive\nAccepted: 2 December 2021\n                             contact layer, are critical for fabricating efﬁcient perovskite solar cells (PSCs). TiO2 is thePublished: 8 December 2021\n                        most widely used electron transport material in the community of PSCs because of its\n                            chemical robustness, abundance, low cost, and good chemical and thermal stability, as wellPublisher’s Note: MDPI stays neutral\nwith regard to jurisdictional claims in   as good conduction band alignment with the perovskite [1,2]. A bilayer ETL consisting\npublished maps and institutional afﬁl-   of a compact TiO2 (c-TiO2) ﬁlm and a mesoporous TiO2 (mp-TiO2) layer is preferred for\niations.                      highly efﬁcient PSCs [3,4]. Such a morphology was shown to offer a power conversion\n                             efﬁciency (PCE) exceeding 25% [5–7]. However, concerns regarding performance degrada-\n                              tion of TiO2-based devices under long-time UV illumination [8] together with hysteresis\n                       and recombination problems caused by inefﬁcient charge transfer at the TiO2/perovskite\n                                interface [1,9] remain. Although much effort was devoted to overcoming these issues and to\nCopyright: © 2021 by the authors.\n                          promoting the device performance to new levels by employing doping [10], graphene/TiO2Licensee MDPI,  Basel,  Switzerland.\nThis article is an open access article   composites [11,12], surface passivation [13], and interface engineering [14,15], the phe-\ndistributed  under  the  terms  and  nomenon of scan-direction hysteresis when using TiO2 ETLs in PSCs is still difﬁcult to\nconditions of the Creative Commons   suppress [16]. Investigation of alternative electron transport materials may be a more\nAttribution (CC BY) license (https://   effective strategy than tedious optimization efforts involving TiO2.\n\ncreativecommons.org/licenses/by/\n\n4.0/).\n\n\n\n\n\nMaterials 2021, 14, 7525. https://doi.org/10.3390/ma14247525                                     https://www.mdpi.com/journal/materials",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "6f52dcd65bcbc64691c972bfe28d289f",
+        "59c116537ecf25f8d7692dabbf2060fb",
+        "62efa0313b674db8d12560bbe65e7581",
+        "bdad99135e250503119f6f098d743bd0",
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Materials 2021, 14, 7525                                                                                                         2 of 17\n\n\n\n                               SrTiO3 is one of those alternative electron transport materials. As compared to that\n                             of TiO2, SrTiO3 exhibits a similar band gap of 3.2 eV and, despite its slightly higher\n                          conduction band energy level, good band alignment with the perovskite material. This is\n                             beneﬁcial for a high open-circuit voltage (VOC) of SrTiO3-based PSCs [17]. The high electron\n                             mobility (5–8 cm2/(V·s)) of the materials may promote charge transport and help to reduce\n                           recombination losses [18]. There were already some reports focused on the applications of\n                           SrTiO3 ETLs in PSCs. It was an early stage reported that devices employing commercial\n                           SrTiO3 nanoparticles (average diameter ≤100 nm)) exhibited higher VOC and lower short-\n                                 circuit current density (JSC) than PSCs based on TiO2 because of the large particle size of\n                            the SrTiO3 nanoparticles [17]. Later, graphene/SrTiO3 composites [19] and TiO2/SrTiO3\n                          composites [20,21] were applied as ETLs to compensate for the low current density and\n                                retain the advantage of the high open-circuit voltage. Afterwards, PSCs based on a compact\n                          SrTiO3 ETL with a smaller particle size showed an improved stability and enhanced\n                             electron transport in the SrTiO3 ETL [18]. With the help of doping [8] and mixtures with\n                           another ETL [22], both the photovoltaic performance and stability of SrTiO3-based PSCs\n                        were improved.\n                          SnO2 is considered to represent a promising alternative electron transport mate-\n                                   rial compared to TiO2 because of its favorable electrical and chemical properties [23–25].\n                                     Its high electron mobility (100–200 cm2/(V·s)) and deep conduction band facilitate electron\n                             extraction and transport [26]. SnO2 also exhibits a wide bandgap (3.8 eV) and extensive\n                                 stability [27,28] under UV illumination. After SnO2 was directly used as the ETL in a\n                           planar PSC in 2015 [25], to further improve the photovoltaic performance and stability of\n                          SnO2-based PSCs, efforts were made to adjust the electrical properties and to passivate the\n                          ETL/perovskite interface, such as employing mesoporous SnO2 [9,29,30], doping [31–35],\n                          a gradient interlayer [16], titanium (IV) chloride (TiCl4) treatment [36], or graphene [37].\n                           The inkjet technology offers a solution to the emerging demands of additive pattern-\n                           ing of functional multilayers and device components. The technology offers mask-free,\n                                cost-effective, and direct patterning processes, which are easily scalable to meter format.\n                             Therefore, the inkjet printing method shows a large potential for the up-scaling manufac-\n                            turing of perovskite solar cells associated with less material consumption and negligibly\n                            small waste, in contrast to the conventionally employed spin-coating method. Inkjet print-\n                           ing was applied to fabricate functional layers relevant to PSCs, such as carrier transport\n                             layers [38–40], electrodes [41], and perovskite absorbers [42–46]. In this work, we focus\n                       on the inkjet-printed ETLs for PSCs. TiO2 ETLs were intensively investigated but not for\n                              inkjet-printed ETLs used in PSCs. Huckaba et al. fabricated inkjet-printed mp-TiO2 for\n                        PSCs and the champion cell offered a PCE of 18.29% [38]. Recently, Bufﬁere et al. reported\n                               that PSCs with inkjet-printed c-TiO2 ETLs exhibited a PCE of 13.7% [39]. High-performance\n                       SnO2 ETLs are usually prepared by spin coating [47], atomic layer deposition [48], elec-\n                            tron beam evaporation [49] or dual-fuel combustion [50] methods, while there are few\n                             reports [40] focused on inkjet-printed SnO2. For the application of inkjet-printed SnO2 in\n                          PSCs, there is as far as we know only one recent report by Rohnacher et al., in which their\n                              best device displayed an efﬁciency of 18.8% [40]. To the best of our knowledge, there is no\n                            publication on inkjet-printed SrTiO3 ETL based PSCs. As mentioned before, the intrinsic\n                              properties of TiO2, such as the low mobility and instability under UV illumination, limit the\n                             photovoltaic performance of TiO2-based PSCs. Therefore, further research on inkjet-printed\n                       ETLs is still necessary for improving PCEs of inkjet-printed PSCs, and thus to make them\n                          comparable with or even superior to the spin-coated alternatives, and eventually promote\n                            the commercialization of inkjet-printed PSCs. Investigations of inkjet-printed SrTiO3 and\n                       SnO2 could expand the selection range of inkjet-printed ETLs for PSCs and pave the way\n                               for fully inkjet-printed and efﬁcient PSCs.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Materials 2021, 14, 7525                                                                                                         3 of 17\n\n\n\n\n                                  In this study, we present inkjet printing processes for different ETLs for the application\n                              in PSCs by optimizing the ink design, the ﬁlm uniformity and the device performance of\n                            devices based on these printed functional layers. The importance of the solvents used for\n                             dispersing TiO2 and SrTiO3 nanoparticles is investigated, and cosolvent systems are found\n                              to contribute to uniform ﬁlm formation of mesoporous TiO2 and SrTiO3 ETLs. SrTiO3-\n                         based PSCs show higher PCE than TiO2-based devices. However, they suffer from lower\n                            current density and severe scan-direction hysteresis. Subsequently, TiO2 nanoparticles\n                             are introduced into the mesoporous SrTiO3 (mp-SrTiO3) layer to solve these issues by\n                           optimizing the TiO2 nanoparticle concentration in the SrTiO3 ink. The cosolvent system is\n                              also applied to print SnO2 ETLs and the effects of the precursor ink concentration on the\n                           device performance of SnO2-based PSCs are studied. Finally, an optimal PCE of 17.37%\n                                     is achieved.\n\n                                   2. Materials and Methods\n                                   2.1. Materials\n\n                                  All reagents and solvents were purchased and used as received without further puriﬁ-\n                                cation. Titanium (IV) isopropoxide (Ti(OCH(CH3)2)4, 97%) and titanium (IV) oxide powder\n                              (TiO2, ≥99.5%, 21 nm) were purchased from Sigma–Aldrich (Darmstadt, Germany). Stron-\n                         tium titanate nanoparticles (SrTiO3, 99.95%, 100 nm) were obtained from US Research\n                          Nanomaterials (Houston, TX, USA). Tin (IV) oxide (15% in H2O colloidal dispersion) was\n                         purchased from Alfa Aesar (Kandel, Germany). Lead iodide (PbI2, 99.99%) and lead bro-\n                       mide (PbBr2, >98.0%) were purchased from TCI (Tokyo, Japan). Formamidinium iodide\n                              (FAI, CH(NH2)2I, >98%) and methylammonium bromide (MABr, CH3NH3Br, >98%) were\n                           obtained commercially. Spiro-OMeTAD (99.8%) was purchased from Borun New Mate-\n                                   rial Technology (Ningbo, China). Bis(triﬂuoromethane)sulfonimide lithium salt (LiTFSI,\n                             99.95%), FK209 (Co(III) TFSI salt, 98%) and 4-tert-butylpyridine (TBP, 98%) were purchased\n                         from Sigma–Aldrich (Darmstadt, Germany).\n\n                                   2.2. Set-Up of Inkjet Printer\n\n                       An inkjet station was constructed and used as a drop-on-demand inkjet printer in our\n                                  lab. This system was designed for printheads from XaarJet to achieve ﬂexible inkjet printing.\n                             In this work, XJ126/50 (126 active nozzles with a drop volume of 50 pL) printheads were\n                        used for printing TiO2 nanoparticle inks and XJ126/80 (126 active nozzles with a drop\n                       volume of 80 pL) printheads for other inks. More details about the technical information\n                             of the two printheads are shown in Table S1. The ejection voltage for all inks was set to\n                          20 V and the printing frequency to 283.46 Hz. In this work, the inkjet printing of electron\n                             transport layers was operated under ambient conditions.\n\n                                   2.3. Device Fabrication\n                                 Before cleaning, ﬂuorine-doped tin oxide (FTO) glass substrates (14 Ω/sq, Pilkington\n                       TEC) were cut into pieces with the size of 25 × 15 mm. One edge of each piece was\n                           etched with Zn powder and 2M HCl aqueous solution. Subsequently, these substrates\n                        were successively sonicated in a detergent solution (5% deconex in water), deionized\n                             water, acetone, and 2-propanol for 15 min. The clean substrates were stored in 2-propanol\n                             before use.\n                                 Before inkjet printing, the substrates were placed on a preheated printing stage at 60 ◦C.\n                 A compact TiO2 layer was inkjet-printed from a 0.125 M solution of titanium isopropoxide\n                             dissolved in 2-isopropoxyethanol, and then annealed at 450 ◦C for 45 min. On the top of the\n                         compact TiO2 layer, the mesoporous TiO2 layer was also inkjet-printed with an ink made\n                       by dispersing TiO2 nanoparticles in a mixture of ethanol and ethylene glycol (9/1, v/v).\n                             After printing, the substrate was annealed at 500 ◦C for 45 min. For SrTiO3-based devices,\n                            the compact TiO2 layer was fabricated using the same procedure as for the TiO2 based\n                              devices. The mesoporous SrTiO3 layer was inkjet-printed with a suspension ink of SrTiO3\n                             nanoparticles dispersed in a mixed solvent (ethanol/ethylene glycol = 9/1, v/v). Thereafter,",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Materials 2021, 14, 7525                                                                                                         4 of 17\n\n\n                            the ﬁlm was annealed at 500 ◦C for 45 min. The inkjet-printed mp-SrTiO3/TiO2 ETL was\n                           prepared based on the same ink preparation and printing procedure as for the SrTiO3 ETL,\n                            except that a small amount of TiO2 was added into the SrTiO3-based inks. For SnO2-based\n                             devices, a single SnO2 ETL was used instead of the bilayer ETLs. The single layer was\n                              inkjet-printed using inks of diluted 15% tin oxide colloidal dispersion in a mixture of\n                           deionized water and ethylene glycol (9/1, v/v). A small amount of Triton X100 was added\n                              to adjust the surface tension of the SnO2 inks. Afterwards, the printed SnO2 ﬁlm was\n                          annealed in a furnace at 220 ◦C for 1 h.\n                               For reference TiO2-based devices, the fabrication procedure of the bilayer TiO2 ETLs in\n                             the literature [51] was followed. The compact TiO2 layer was deposited by spray pyrolysis\n                               at 450 ◦C with a solution of 0.2 M titanium (IV) isopropoxide and 2 M acetylacetone in\n                            isopropyl alcohol. Thereafter, the diluted TiO2 nanoparticle solution (Dyesol DSL 30NR-T,\n                          TiO2 paste/absolute ethanol = 1/5.5) was spin-coated at 4500 rpm for 30 s. The substrate\n                      was immediately transferred to a hotplate at 80 ◦C for 15 min and annealed at 500 ◦C for\n                          30 min.\n                               For the preparation of the perovskite precursors and the deposition of the perovskite\n                                 layers, we followed the procedure described in the literature [51]. The perovskite precursor\n                      was prepared by dissolving 1.1 M PbI2, 1 M FAI, 0.2 M PbBr2 and 0.2 M MABr in a mixed\n                            solvent (N,N-dimethylformamide/dimethyl sulfoxide = 4/1, v/v). Seventy-ﬁve µL of\n                            the perovskite precursor was spread onto the substrate and spin-coated at 4500 rpm for\n                          30 s, and subsequently 125 µL of chlorobenzene was sprayed onto the perovskite ﬁlm\n                          during 15 s. The resulting perovskite ﬁlm was immediately dried on a hotplate at 100 ◦C\n                              for 30 min. A hole transport layer was spin-coated at 4000 rpm for 30 s using a solution\n                              consisting of 70 mM Spiro-OMeTAD, 20 mM LiTFSI, 200 mM TBP, and 2 mM FK 209 Co(III)\n                          TFSI in chlorobenzene. An 80 nm Au electrode was deposited under vacuum by thermal\n                           evaporation (Edwards Auto 306). The ﬁnal devices are displayed in Figure S1.\n\n                                   2.4. Characterization\n\n                     XRD traces of the TiO2 compact layers were recorded by a grazing incidence X-ray\n                             diffractometer (Siemens D5000, Siemens, Munich, Germany) employing Cu Kα radiation\n                              (λ = 1.5406 Å). The morphology of the printed ﬁlms, the cross-section images and the\n                            thickness of devices were studied by a combined focused ion beam/scanning electron\n                           microscope (FIB/SEM, FEI Nova 600 Nanolab, FEI Company, Eindhoven, The Netherlands).\n                       The working area of the solar cells was deﬁned by a mask of 0.126 cm2 and the active\n                            area was illuminated under an AM 1.5G solar simulator (Newport 91160-1000) with an\n                             incident light density of 100 mW/cm2. Photocurrent density-voltage (J-V) characteristics\n                        were collected by a Keithley 2400 source-measure unit.\n\n                                   3. Results and Discussion\n\n                                  Bilayer TiO2 electron transport layers improve the device performance according to\n                           previous studies [3,4]. In this work, we applied the bilayer structure for different ETL\n                              materials consisting of a compact blocking layer and a mesoporous scaffold layer, as shown\n                              in Figure 1. Although considerable attempts were made to print the mesoporous TiO2\n                     ETL for perovskite solar cells and dye-sensitized solar cells [38,52–55], less attention was\n                          paid to inkjet printing of other ETL materials, such as SrTiO3 and SnO2. In this work,\n                    we deposited the bilayer TiO2 ETLs by inkjet printing and optimized the printing processes\n                        by monitoring the photovoltaic performance of the inkjet-printed devices, and thereafter\n                            applied the optimized printing procedure for inkjet printing of mp-SrTiO3 and SnO2 ETLs.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Materials 2021, 14, 7525                                                                                                         5 of 17\n\n\n\n\n\n                              Figure 1. Architecture of (a) mp-TiO2- and (b) mp-SrTiO3-based PSC devices.\n\n                   A c-TiO2 layer may effectively work as a hole blocking layer, which helps to reduce\n                           recombination losses and thus to improve photovoltaic performance, and thus commonly\n                         used in high performance PSCs [3,4,56,57]. Figure 2 shows that a uniform and pinhole-free\n                            c-TiO2 layer with a thickness of 50 nm can be successfully deposited by inkjet printing,\n                       and that the compact TiO2 layer crystallized with an anatase crystal structure.\n\n\n\n\n\n            Figure 2. (a) Top view; (b) cross section SEM images; and (c) XRD pattern of an inkjet-printed c-TiO2 layer.\n\n                   A major challenge for inkjet printing of high-quality thin ﬁlms is to eliminate the\n                               ‘coffee-ring’ effect, which often occurs when the solvent of a drop containing dispersed\n                              solids evaporates and the nonvolatile solid components assemble at the periphery of\n                            the drop due to the outward capillary ﬂow and pinned contact line [58,59]. To suppress\n                            the coffee-ring effect and control the ﬁlm morphology, intense efforts were made in the\n                                literature and different approaches were proposed, such as solvent composition engineer-\n                           ing [60,61], contact line depinning [59,62], evaporation temperature adjustment [63,64],\n                       and particle modiﬁcation [65]. For inkjet printing, the optimization of the ink properties\n                                    is the most common strategy to improve the ﬁlm uniformity. Therefore, the selection of\n                             solvents for the solutions, and especially for nanoparticle dispersions, is crucial. The em-\n                            phasis was focused on the physicochemical properties of the solvents, such as the viscosity\n                        and surface tension [66,67], which control the ink printability, ﬁlm formation, and clogging\n                             mitigation of the nozzles within the printhead. A cosolvent system is widely used to control\n                             the morphology because of the inward Marangoni ﬂow induced by the surface-tension gra-\n                              dients [53,54]. In the present work, we optimized the solvent composition for nanoparticle\n                          suspensions aimed at high device performance. The viscosity and surface tension of the\n                             inks were in the range of 1–25 mPa·s and 20–50 mN·m−1. Table 1 and Figure 3 demonstrate\n                             the effect of the solvent 2-isopropoxyethanol (IPE) and the mixed solvent ethanol: ethylene",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. Architecture of (a) mp-TiO2- and (b) mp-SrTiO3-based PSC devices.",
+          "figure_bbox": [
+            165.26,
+            93.49,
+            510.63,
+            240.25
+          ],
+          "bbox": [
+            167.26,
+            246.69,
+            473.04,
+            256.92
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. (a) Top view; (b) cross section SEM images; and (c) XRD pattern of an inkjet-printed c-TiO2 layer.",
+          "figure_bbox": [
+            70.87,
+            342.77,
+            524.31,
+            529.82
+          ],
+          "bbox": [
+            87.03,
+            539.36,
+            508.25,
+            550.16
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. Architecture of (a) mp-TiO2- and (b) mp-SrTiO3-based PSC devices.",
+          "bbox": [
+            165.26,
+            93.49,
+            510.63,
+            240.25
+          ],
+          "file": "extracted_images/page5_figure-1_1.png"
+        },
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. (a) Top view; (b) cross section SEM images; and (c) XRD pattern of an inkjet-printed c-TiO2 layer.",
+          "bbox": [
+            70.87,
+            342.77,
+            524.31,
+            529.82
+          ],
+          "file": "extracted_images/page5_figure-2_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Materials 2021, 14, 7525                                                                                                         6 of 17\n\n\n\n                             glycol (EtOH:EG = 9:1, v:v), used for dispersing TiO2 nanoparticles, on the photovoltaic\n                          performance of TiO2-based devices. For each set of solvents, 12 devices were manufactured.\n                        The average and champion photovoltaic parameters, including VOC, JSC, ﬁll factor (FF) and\n                         PCE, are listed in Table 1 and the statistical distribution is illustrated in Figure 3. The series\n                              resistance (Rs) and shunt resistance (Rsh) are also estimated from the inverse of the slope\n                             of the J-V curves at the region of the Voc and the Jsc, respectively. Although Device S1\n                           displayed a higher champion PCE than Device S2 (Figure S2), Device S2 offered a slightly\n                           higher average PCE of 10.97%, as compared to 10.64% of Device S1. From Figure 4a,b,\n                            the difference in the drying mechanics of the solvent IPE and EtOH:EG leads to also a\n                              difference in the microstructure (Figure S3) of the resulting mp-TiO2 ﬁlm. A thicker ETL\n                          could allow more perovskite to be absorbed to absorb more incident light but may also\n                            lead to a larger series resistance causing Device S1 to exhibit a higher JSC and a lower FF\n                          than Device S2. With a higher TiO2 nanoparticle ink concentration, Device S3 showed an\n                              increase in JSC and a decrease in FF due to the formation of a thicker mesoporous TiO2 layer,\n                             as compared to Device S2. Eventually, as seen in Figure 3, although there is no considerable\n                               difference in PCE between Device S1, S2, and S3, Device S3 showed the best reproducibility\n                            ascribed to the microstructure of mp-TiO2(Figure 4c) inkjet-printed with TiO2 inks based\n                       on the mixed solvent EtOH:EG.\n\n\n\n\n\n     Figure 3.  (a) PCE, (b) VOC, (c) JSC, and (d) FF of PSCs based on mp-TiO2 and mp-SrTiO3 ETLs inkjet-printed from\n     nanoparticle inks with IPE or EtOH:EG as solvents. Data are obtained from 12 devices for each type of PSC. (Boxplots,\n     red + signs represent outliers).",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. (a) PCE, (b) VOC, (c) JSC, and (d) FF of PSCs based on mp-TiO2 and mp-SrTiO3 ETLs inkjet-printed from\nnanoparticle inks with IPE or EtOH:EG as solvents. Data are obtained from 12 devices for each type of PSC. (Boxplots,\nred + signs represent outliers).",
+          "figure_bbox": [
+            93.64,
+            330.02,
+            497.37,
+            653.66
+          ],
+          "bbox": [
+            57.26,
+            663.23,
+            539.14,
+            698.06
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. (a) PCE, (b) VOC, (c) JSC, and (d) FF of PSCs based on mp-TiO2 and mp-SrTiO3 ETLs inkjet-printed from\nnanoparticle inks with IPE or EtOH:EG as solvents. Data are obtained from 12 devices for each type of PSC. (Boxplots,\nred + signs represent outliers).",
+          "bbox": [
+            93.64,
+            330.02,
+            497.37,
+            653.66
+          ],
+          "file": "extracted_images/page6_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Materials 2021, 14, 7525                                                                                                         7 of 17\n\n\n\n\n\n      Figure 4. Cross-section SEM images of Device (a) S1, (b) S2, (c) S3, (d) S4, (e) S5, and (f) a spin-coated, TiO2-based PSC.\n\n     Table 1. Photovoltaic parameters from the current density-voltage (J-V) characteristics of mp-TiO2- and mp-SrTiO3-based\n     PSCs. Each average value is based on 12 devices.\n\n           Ink                                                                    JSC                    Rs       Rsh\n                       Solvent             PCE (%)     VOC (V)                   FF       Concentration                                                 (mA/cm2)               (Ω·cm2)   (kΩ·cm2)\n  S1    0.25M TiO2       IPE       average    10.64 ± 2.21    0.99 ± 0.11    20.06 ± 0.20   0.53 ± 0.07\n                               champion      12.60           1.04          19.83          0.61          7.8         2.0\n  S2    0.25M TiO2    EtOH:EG    average    10.97 ± 0.84    1.01 ± 0.01    18.83 ± 0.26   0.57 ± 0.04\n                               champion      11.94           1.04          18.95          0.61          8.0         0.9\n  S3    0.35M TiO2    EtOH:EG    average    11.26 ± 0.49    1.02 ± 0.01    19.30 ± 0.36   0.57 ± 0.01\n                               champion      12.42           1.05          19.63          0.60          7.7         2.0\n  S4   0.25M SrTiO3      IPE       average     9.54 ± 1.07    1.05 ± 0.05    17.08 ± 0.57   0.53 ± 0.03\n                               champion      10.76           1.08          17.48          0.57         12         0.4\n  S5   0.25M SrTiO3   EtOH:EG    average    11.25 ± 1.30    1.06 ± 0.07    18.99 ± 0.63   0.56 ± 0.03\n                               champion      12.41           1.08          20.06          0.57         16         1.0\n\n                               Furthermore, we fabricated SrTiO3-based Device S4 and Device S5 by inkjet printing\n                               of SrTiO3 nanoparticle inks with IPE and EtOH:EG as solvents, respectively. From Figure 3,\n                                            it can be noted that Device S5 exhibits a higher efﬁciency with substantial improvements in\n                                     all photovoltaic parameters, as compared to that of Device S4. A capping layer of perovskite\n                        on top of the ETL is beneﬁcial for the improved performance because direct contact between\n                      ETL and the hole transport layer thereby is avoided, and thus recombination losses reduced.\n                     As seen in Figure 4d,e, the more porous structure of the mp-SrTiO3 ﬁlms in Device S4\n                             (Figure S3) results in a thinner capping perovskite layer, thereby causing more pronounced\n                           recombination losses and consequently accounting for the lower device performance.\n                               Figure 3 also demonstrates that the photovoltaic performance of the SrTiO3-based\n                          Device S5 is comparable to that of TiO2-based devices. The VOC of SrTiO3-based solar cells\n                                     is higher than that of the TiO2-based counterparts. A reason for the higher photovoltages\n                                    is that a higher conduction band edge energy level and a smaller band edge offset of the\n                          SrTiO3 (Figure 5) will result in a higher VOC [17,18]. Another reason is that a capping\n                            perovskite layer is clearly observed in SrTiO3-based devices (Figure 4d,e) but not in TiO2-\n                         based devices (Figure 4b,c), thereby reducing the direct shunt loss path and yielding a\n                           higher VOC. The lower JSC obtained from SrTiO3-based devices as compared to that of\n                          TiO2-based devices is because of the limited loading of perovskite, caused by the smaller\n                                effective surface area of mp-SrTiO3 owing to the larger SrTiO3 nanoparticles [17,68].",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. Photovoltaic parameters from the current density-voltage (J-V) characteristics of mp-TiO2- and mp-SrTiO3-based\nPSCs. Each average value is based on 12 devices.",
+          "bbox": [
+            36.0,
+            311.56,
+            559.28,
+            432.22
+          ],
+          "rows": [
+            [
+              "Ink\nConcentration",
+              "Solvent",
+              "PCE (%)",
+              "VOC (V)",
+              "JSC\n(mA/cm²)",
+              "FF",
+              "Rs\n(Ω·cm²)",
+              "Rsh\n(kΩ·cm²)"
+            ],
+            [
+              "S1\n0.25M TiO2",
+              "IPE\naverage\nchampion",
+              "10.64 ± 2.21\n12.60",
+              "0.99 ± 0.11\n1.04",
+              "20.06 ± 0.20\n19.83",
+              "0.53 ± 0.07\n0.61",
+              "7.8",
+              "2.0"
+            ],
+            [
+              "S2\n0.25M TiO2",
+              "EtOH:EG\naverage\nchampion",
+              "10.97 ± 0.84\n11.94",
+              "1.01 ± 0.01\n1.04",
+              "18.83 ± 0.26\n18.95",
+              "0.57 ± 0.04\n0.61",
+              "8.0",
+              "0.9"
+            ],
+            [
+              "S3\n0.35M TiO2",
+              "EtOH:EG\naverage\nchampion",
+              "11.26 ± 0.49\n12.42",
+              "1.02 ± 0.01\n1.05",
+              "19.30 ± 0.36\n19.63",
+              "0.57 ± 0.01\n0.60",
+              "7.7",
+              "2.0"
+            ],
+            [
+              "S4\n0.25M SrTiO3",
+              "IPE\naverage\nchampion",
+              "9.54 ± 1.07\n10.76",
+              "1.05 ± 0.05\n1.08",
+              "17.08 ± 0.57\n17.48",
+              "0.53 ± 0.03\n0.57",
+              "12",
+              "0.4"
+            ],
+            [
+              "S5\n0.25M SrTiO3",
+              "EtOH:EG\naverage\nchampion",
+              "11.25 ± 1.30\n12.41",
+              "1.06 ± 0.07\n1.08",
+              "18.99 ± 0.63\n20.06",
+              "0.56 ± 0.03\n0.57",
+              "16",
+              "1.0"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. Cross-section SEM images of Device (a) S1, (b) S2, (c) S3, (d) S4, (e) S5, and (f) a spin-coated, TiO2-based PSC.",
+          "figure_bbox": [
+            48.66,
+            93.49,
+            547.38,
+            246.64
+          ],
+          "bbox": [
+            62.9,
+            257.22,
+            532.37,
+            267.46
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. Photovoltaic parameters from the current density-voltage (J-V) characteristics of mp-TiO2- and mp-SrTiO3-based\nPSCs. Each average value is based on 12 devices.",
+          "bbox": [
+            56.96,
+            281.93,
+            538.02,
+            303.87
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. Cross-section SEM images of Device (a) S1, (b) S2, (c) S3, (d) S4, (e) S5, and (f) a spin-coated, TiO2-based PSC.",
+          "bbox": [
+            48.66,
+            93.49,
+            547.38,
+            246.64
+          ],
+          "file": "extracted_images/page7_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Materials 2021, 14, 7525                                                                                                         8 of 17\n\n\n\n\n\n                              Figure 5. Schematics of the energy levels of (a) mp-TiO2- and (b) mp-SrTiO3-based PSCs.\n\n                           The photovoltaic performance of mp-SrTiO3-based PSCs was further optimized.\n                     As seen in Table 2 and Figure 6, with lower concentrations of SrTiO3 in the nanopar-\n                                     ticle inks, the performance of mp-SrTiO3-based PSCs is improved with higher VOC, JSC and\n                             FF. The main reason can be attributed to the ink concentrations which inﬂuence the thick-\n                           ness and microstructure of the inkjet-printed mp-SrTiO3 layer (Figure 7). Furthermore,\n                               inkjet-printed SrTiO3-based devices based on a 0.15 M SrTiO3 ink showed a PCE of 14.56%.\n                         Higher VOC is obtained for PSCs manufactured from 0.15 M SrTiO3 inks as compared to\n                               that of TiO2-based devices, as mentioned before. However, the recorded JSC is much lower\n                              since SrTiO3 nanoparticles with a large size express a smaller effective surface area, which\n                                limits the overall interfacial area between the perovskite layer and the ETL [20]. Therefore,\n                                this can result in an inefﬁcient charge transfer in SrTiO3-based devices accounting for\n                            the pronounced scan-direction hysteresis observed, as shown in Figure 8, and the large\n                               difference in the overall performance for the two opposite scan directions. This dependence\n                       on the scan direction is much more pronounced in devices made from 0.15 M SrTiO3 inks\n                          than in TiO2-based ones. Another reason could be that SrTiO3-based cells demonstrate a\n                               larger Rs than TiO2-based ones. A higher Rs causes larger charge loss at high bias voltages\n                       and results in an inefﬁcient charge transfer in the forward scan direction. In addition,\n                             the resulting SrTiO3 ETL (Figure 7c) printed from 0.15 M SrTiO3 inks is quite thin at some\n                               positions, which may cause the direct contact between the compact layer and the perovskite\n                              layer and then lead to recombination losses, thereby resulting in the pronounced hysteresis\n                              in SrTiO3-based PSCs.\n\n     Table 2. Photovoltaic parameters from J-V characteristics of mp-SrTiO3-based PSCs inkjet-printed with inks of different\n     concentrations. Each average value is based on 9 devices.\n\n                                                                       JSC                                         Rsh   Sample                 PCE (%)      VOC (V)                      FF        Rs (Ω·cm2)                                                        (mA/cm2)                                 (kΩ·cm2)\n\n 0.35M SrTiO3     average       9.81 ± 1.34      1.03 ± 0.02     17.51 ± 1.05     0.54 ± 0.03\n                champion         12.04            1.07            18.99            0.59            11               0.6\n 0.25M SrTiO3     average      10.33 ± 1.28     1.04 ± 0.03     18.06 ± 1.00     0.55 ± 0.05\n                champion         11.98            1.07            17.79            0.63            11               3.3\n 0.15M SrTiO3     average      12.75 ± 0.97     1.07 ± 0.01     18.77 ± 0.84     0.63 ± 0.03\n                champion         14.56            1.08            20.16            0.67              9.7               5.0",
+      "tables": [
+        {
+          "label": "Table 2",
+          "caption": "Table 2. Photovoltaic parameters from J-V characteristics of mp-SrTiO3-based PSCs inkjet-printed with inks of different\nconcentrations. Each average value is based on 9 devices.",
+          "bbox": [
+            36.0,
+            577.45,
+            559.28,
+            675.23
+          ],
+          "rows": [
+            [
+              "Sample",
+              "PCE (%)",
+              "VOC (V)",
+              "JSC\n(mA/cm²)",
+              "FF",
+              "Rs (Ω·cm²)",
+              "Rsh\n(kΩ·cm²)"
+            ],
+            [
+              "0.35M SrTiO3",
+              "9.81 ± 1.34\naverage\nchampion\n12.04",
+              "1.03 ± 0.02\n1.07",
+              "17.51 ± 1.05\n18.99",
+              "0.54 ± 0.03\n0.59",
+              "11",
+              "0.6"
+            ],
+            [
+              "0.25M SrTiO3",
+              "10.33 ± 1.28\naverage\nchampion\n11.98",
+              "1.04 ± 0.03\n1.07",
+              "18.06 ± 1.00\n17.79",
+              "0.55 ± 0.05\n0.63",
+              "11",
+              "3.3"
+            ],
+            [
+              "0.15M SrTiO3",
+              "12.75 ± 0.97\naverage\nchampion\n14.56",
+              "1.07 ± 0.01\n1.08",
+              "18.77 ± 0.84\n20.16",
+              "0.63 ± 0.03\n0.67",
+              "9.7",
+              "5.0"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. Schematics of the energy levels of (a) mp-TiO2- and (b) mp-SrTiO3-based PSCs.",
+          "figure_bbox": [
+            165.26,
+            93.49,
+            523.25,
+            245.11
+          ],
+          "bbox": [
+            167.26,
+            251.54,
+            518.74,
+            261.78
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 2",
+          "text": "Table 2. Photovoltaic parameters from J-V characteristics of mp-SrTiO3-based PSCs inkjet-printed with inks of different\nconcentrations. Each average value is based on 9 devices.",
+          "bbox": [
+            56.96,
+            547.76,
+            538.02,
+            569.76
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. Schematics of the energy levels of (a) mp-TiO2- and (b) mp-SrTiO3-based PSCs.",
+          "bbox": [
+            165.26,
+            93.49,
+            523.25,
+            245.11
+          ],
+          "file": "extracted_images/page8_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Materials 2021, 14, 7525                                                                                                         9 of 17\n\n\n\n\n\n     Figure 6. (a) PCE, (b) VOC, (c) JSC, and (d) FF of PSCs based on mp-SrTiO3 ETLs inkjet-printed with SrTiO3 nanoparticle\n     inks of different concentrations. Data are obtained from 9 devices of each type.\n\n\n\n\n\n     Figure 7. Cross-section SEM images of SrTiO3-based PSCs inkjet-printed using (a) 0.35 M, (b) 0.25 M, and (c) 0.15 M inks.\n\n\n\n\n\n                              Figure 8. Reverse and forward scan J-V curves of mp-TiO2- and mp-SrTiO3-based PSCs.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. (a) PCE, (b) VOC, (c) JSC, and (d) FF of PSCs based on mp-SrTiO3 ETLs inkjet-printed with SrTiO3 nanoparticle\ninks of different concentrations. Data are obtained from 9 devices of each type.",
+          "figure_bbox": [
+            113.4,
+            93.49,
+            477.75,
+            386.1
+          ],
+          "bbox": [
+            57.26,
+            396.6,
+            538.02,
+            418.6
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Figure 7. Cross-section SEM images of SrTiO3-based PSCs inkjet-printed using (a) 0.35 M, (b) 0.25 M, and (c) 0.15 M inks.",
+          "figure_bbox": [
+            71.31,
+            430.87,
+            525.32,
+            515.19
+          ],
+          "bbox": [
+            58.26,
+            525.31,
+            537.01,
+            535.54
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 8",
+          "text": "Figure 8. Reverse and forward scan J-V curves of mp-TiO2- and mp-SrTiO3-based PSCs.",
+          "figure_bbox": [
+            165.26,
+            546.62,
+            437.31,
+            759.37
+          ],
+          "bbox": [
+            167.26,
+            769.67,
+            515.54,
+            779.98
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. (a) PCE, (b) VOC, (c) JSC, and (d) FF of PSCs based on mp-SrTiO3 ETLs inkjet-printed with SrTiO3 nanoparticle\ninks of different concentrations. Data are obtained from 9 devices of each type.",
+          "bbox": [
+            113.4,
+            93.49,
+            477.75,
+            386.1
+          ],
+          "file": "extracted_images/page9_figure-6_1.png"
+        },
+        {
+          "label": "Figure 7",
+          "caption": "Figure 7. Cross-section SEM images of SrTiO3-based PSCs inkjet-printed using (a) 0.35 M, (b) 0.25 M, and (c) 0.15 M inks.",
+          "bbox": [
+            71.31,
+            430.87,
+            525.32,
+            515.19
+          ],
+          "file": "extracted_images/page9_figure-7_2.png"
+        },
+        {
+          "label": "Figure 8",
+          "caption": "Figure 8. Reverse and forward scan J-V curves of mp-TiO2- and mp-SrTiO3-based PSCs.",
+          "bbox": [
+            165.26,
+            546.62,
+            437.31,
+            759.37
+          ],
+          "file": "extracted_images/page9_figure-8_3.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Materials 2021, 14, 7525                                                                                                        10 of 17\n\n\n\n                             To increase the JSC and suppress the hysteresis observed in SrTiO3-based PSCs, a small\n                       amount of TiO2 nanoparticles was added to the SrTiO3 nanoparticle inks to generate a\n                       mixed mesoporous SrTiO3/TiO2 ETL [21]. From Table 3 and Figure 9, the photovoltaic\n                          performance of SrTiO3/TiO2-based PSCs is improved as compared to SrTiO3-based PSCs,\n                        and the devices display a highest PCE of 15.73% with VOC = 1.11V, JSC = 20.99 mA/cm2 and\n                        FF = 0.68 (TiO2 concentration is 10 wt.% with respect to SrTiO3). The VOC shows a negligible\n                            change, while both JSC and FF increase and then decrease with TiO2 concentration ranging\n                         from 0 to 20%. Firstly, with introducing the smaller TiO2 nanoparticles to the SrTiO3 ETL,\n                             the interfacial area between the perovskite layer and the ETL will increase, and thus the JSC\n                                    is expected to increase. The smaller TiO2 nanoparticles could also ﬁll the pores between\n                             the larger SrTiO3 nanoparticles and as well at the surface of the mesoporous ETL, which is\n                            beneﬁcial for increasing the FF. With the TiO2 concentration further increased from 10% to\n                         20%, the electrical resistance of the SrTiO3/TiO2 ETL will increase, resulting in a decrease\n                              in JSC and FF.\n\n\n\n\n\n     Figure 9. TiO2 concentration-dependent photovoltaic parameters (a) PCE, (b) VOC, (c) JSC, and (d) FF for mp-SrTiO3/TiO2-\n     based PSCs. Red boxes and blue boxes represent data from reverse and forward scan directions, respectively.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 9",
+          "text": "Figure 9. TiO2 concentration-dependent photovoltaic parameters (a) PCE, (b) VOC, (c) JSC, and (d) FF for mp-SrTiO3/TiO2-\nbased PSCs. Red boxes and blue boxes represent data from reverse and forward scan directions, respectively.",
+          "figure_bbox": [
+            63.06,
+            275.7,
+            528.04,
+            647.66
+          ],
+          "bbox": [
+            57.26,
+            655.77,
+            539.5,
+            677.68
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 9",
+          "caption": "Figure 9. TiO2 concentration-dependent photovoltaic parameters (a) PCE, (b) VOC, (c) JSC, and (d) FF for mp-SrTiO3/TiO2-\nbased PSCs. Red boxes and blue boxes represent data from reverse and forward scan directions, respectively.",
+          "bbox": [
+            63.06,
+            275.7,
+            528.04,
+            647.66
+          ],
+          "file": "extracted_images/page10_figure-9_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 11,
+      "text": "Materials 2021, 14, 7525                                                                                                        11 of 17\n\n\n\n\n     Table 3. Average photovoltaic parameters for mp-SrTiO3/TiO2-based PSCs inkjet-printed with inks of different TiO2\n     concentrations. Each average value is based on 5 devices.\n\n                       Scan                                          JSC                                      Rsh     Sample                   PCE (%)     VOC (V)                     FF       Rs (Ω·cm2)                       Direction                              (mA/cm2)                              (kΩ·cm2)\n\n  SrTiO3/0% TiO2       reverse      13.31 ± 0.65    1.11 ± 0.02    20.33 ± 0.30    0.59 ± 0.03\n                      forward       8.54 ± 0.90     1.03 ± 0.03    20.06 ± 0.32    0.41 ± 0.03\n                    champion        14.46           1.12           20.38           0.63            9.7              2.0\n  SrTiO3/5% TiO2       reverse      14.37 ± 0.70    1.11 ± 0.01    21.00 ± 0.25    0.62 ± 0.03\n                      forward      11.39 ± 0.26    1.06 ± 0.02    21.10 ± 0.19    0.51 ± 0.01\n                    champion        15.23           1.10           21.09           0.65            8.3              1.4\n  SrTiO3/10% TiO2       reverse      15.34 ± 0.70    1.11 ± 0.00    21.11 ± 0.17    0.66 ± 0.03\n                      forward      11.73 ± 0.61    1.05 ± 0.02    21.09 ± 0.16    0.53 ± 0.03\n                    champion        15.73           1.10           20.99           0.68            7.0              2.5\n  SrTiO3/15% TiO2       reverse      15.07 ± 0.45    1.11 ± 0.00    20.94 ± 0.39    0.65 ± 0.01\n                      forward      12.05 ± 0.42    1.06 ± 0.01    20.98 ± 0.38    0.54 ± 0.02\n                    champion        15.86           1.11           21.36           0.67            7.3              3.3\n  SrTiO3/20% TiO2       reverse      13.93 ± 0.72    1.10 ± 0.01    20.62 ± 0.25    0.61 ± 0.03\n                      forward      11.12 ± 0.69    1.06 ± 0.02    20.64 ± 0.12    0.51 ± 0.02\n                    champion        14.80           1.11           20.99           0.64            8.7              1.0\n\n\n                           The main objective of the formulating nanoparticle mixtures, the severe hysteresis\n                          problem, is indeed found to become suppressed for the mixed SrTiO3/TiO2-based PSCs,\n                            as shown in Table 4 and Figure 10. A hysteresis index is normally used to describe the\n                          performance difference between the reverse and forward scan direction and is deﬁned by\n\n                                                          PCE|reverse −PCE| f orward\n                                           HI =                                                             (1)\n                                                                  PCE|reverse\n\n                        where PCE|reverse and PCE| f orward represent the power conversion efﬁciency from the\n                            reverse and forward scan directions, respectively. The hysteresis index decreases by 34%\n                     when the TiO2 concentration is increased from 0% to 10%, and the charge-transfer ability\n                              of the mp-SrTiO3/TiO2 ETL apparently is improved.\n\n     Table 4. Average hysteresis index for mp-SrTiO3/TiO2-based PSCs inkjet-printed with inks of different TiO2 concentrations.\n\n     Sample        SrTiO3/0% TiO2    SrTiO3/5% TiO2    SrTiO3/10% TiO2    SrTiO3/15% TiO2    SrTiO3/20% TiO2\n\n   Hysteresis index            0.36                  0.21                  0.24                  0.20                  0.20\n\n\n\n\n\n                              Figure 10. Reverse and forward scan J-V curves of champion cells of mp-SrTiO3/TiO2-based PSCs\n                                  inkjet-printed with inks of different TiO2 concentrations.",
+      "tables": [
+        {
+          "label": "Table 3",
+          "caption": "Table 3. Average photovoltaic parameters for mp-SrTiO3/TiO2-based PSCs inkjet-printed with inks of different TiO2\nconcentrations. Each average value is based on 5 devices.",
+          "bbox": [
+            36.0,
+            127.51,
+            559.28,
+            323.91
+          ],
+          "rows": [
+            [
+              "Sample",
+              "Scan\nDirection",
+              "PCE (%)",
+              "VOC (V)",
+              "JSC\n(mA/cm²)",
+              "FF",
+              "Rs (Ω·cm²)",
+              "Rsh\n(kΩ·cm²)"
+            ],
+            [
+              "SrTiO3/0% TiO2",
+              "reverse\nforward\nchampion",
+              "13.31 ± 0.65\n8.54 ± 0.90\n14.46",
+              "1.11 ± 0.02\n1.03 ± 0.03\n1.12",
+              "20.33 ± 0.30\n20.06 ± 0.32\n20.38",
+              "0.59 ± 0.03\n0.41 ± 0.03\n0.63",
+              "9.7",
+              "2.0"
+            ],
+            [
+              "SrTiO3/5% TiO2",
+              "reverse\nforward\nchampion",
+              "14.37 ± 0.70\n11.39 ± 0.26\n15.23",
+              "1.11 ± 0.01\n1.06 ± 0.02\n1.10",
+              "21.00 ± 0.25\n21.10 ± 0.19\n21.09",
+              "0.62 ± 0.03\n0.51 ± 0.01\n0.65",
+              "8.3",
+              "1.4"
+            ],
+            [
+              "SrTiO3/10% TiO2",
+              "reverse\nforward\nchampion",
+              "15.34 ± 0.70\n11.73 ± 0.61\n15.73",
+              "1.11 ± 0.00\n1.05 ± 0.02\n1.10",
+              "21.11 ± 0.17\n21.09 ± 0.16\n20.99",
+              "0.66 ± 0.03\n0.53 ± 0.03\n0.68",
+              "7.0",
+              "2.5"
+            ],
+            [
+              "SrTiO3/15% TiO2",
+              "reverse\nforward\nchampion",
+              "15.07 ± 0.45\n12.05 ± 0.42\n15.86",
+              "1.11 ± 0.00\n1.06 ± 0.01\n1.11",
+              "20.94 ± 0.39\n20.98 ± 0.38\n21.36",
+              "0.65 ± 0.01\n0.54 ± 0.02\n0.67",
+              "7.3",
+              "3.3"
+            ],
+            [
+              "SrTiO3/20% TiO2",
+              "reverse\nforward\nchampion",
+              "13.93 ± 0.72\n11.12 ± 0.69\n14.80",
+              "1.10 ± 0.01\n1.06 ± 0.02\n1.11",
+              "20.62 ± 0.25\n20.64 ± 0.12\n20.99",
+              "0.61 ± 0.03\n0.51 ± 0.02\n0.64",
+              "8.7",
+              "1.0"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        },
+        {
+          "label": "Table 4",
+          "caption": "Table 4. Average hysteresis index for mp-SrTiO3/TiO2-based PSCs inkjet-printed with inks of different TiO2 concentrations.",
+          "bbox": [
+            36.0,
+            515.39,
+            559.28,
+            547.41
+          ],
+          "rows": [
+            [
+              "Sample",
+              "SrTiO3/0% TiO2",
+              "SrTiO3/5% TiO2",
+              "SrTiO3/10% TiO2",
+              "SrTiO3/15% TiO2",
+              "SrTiO3/20% TiO2"
+            ],
+            [
+              "Hysteresis index",
+              "0.36",
+              "0.21",
+              "0.24",
+              "0.20",
+              "0.20"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 3",
+          "text": "Table 3. Average photovoltaic parameters for mp-SrTiO3/TiO2-based PSCs inkjet-printed with inks of different TiO2\nconcentrations. Each average value is based on 5 devices.",
+          "bbox": [
+            56.96,
+            97.95,
+            537.52,
+            119.82
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 4",
+          "text": "Table 4. Average hysteresis index for mp-SrTiO3/TiO2-based PSCs inkjet-printed with inks of different TiO2 concentrations.",
+          "bbox": [
+            56.96,
+            498.65,
+            538.02,
+            509.42
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 10",
+          "text": "Figure 10. Reverse and forward scan J-V curves of champion cells of mp-SrTiO3/TiO2-based PSCs\ninkjet-printed with inks of different TiO2 concentrations.",
+          "figure_bbox": [
+            165.26,
+            564.74,
+            398.34,
+            749.89
+          ],
+          "bbox": [
+            167.26,
+            759.98,
+            559.28,
+            783.7
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 10",
+          "caption": "Figure 10. Reverse and forward scan J-V curves of champion cells of mp-SrTiO3/TiO2-based PSCs\ninkjet-printed with inks of different TiO2 concentrations.",
+          "bbox": [
+            165.26,
+            564.74,
+            398.34,
+            749.89
+          ],
+          "file": "extracted_images/page11_figure-10_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 12,
+      "text": "Materials 2021, 14, 7525                                                                                                        12 of 17\n\n\n\n                               Furthermore, we fabricated PSCs based on an inkjet-printed SnO2 ETL layer with a\n                           conﬁguration as illustrated in Figure 11. Also in this system, we used a cosolvent system for\n                             printing the SnO2 thin ﬁlms from the commercial SnO2 colloidal dispersion. Water works\n                             as the main solvent, and ethylene glycol and Triton are used to control the drying properties\n                        and to adjust the viscosity and surface tension for high-quality printing results. The details\n                                for preparing the SnO2 ink are described in the experimental section. The top SEM image of\n                             the inkjet-printed SnO2 thin ﬁlm is shown in Figure S4. By optimizing the SnO2 thickness\n                          through changes of the ink concentration, we obtained a best performing cell with a PCE of\n                          17.37% with a VOC of 1.10V, JSC of 21.13 mA/cm2, and FF of 0.75, and the J-V characteristics\n                              are shown in Figure 12a. We also recorded the steady-state current density of the champion\n                                  cell at the maximum power point Vmpp = 0.925 V. As seen in Figure 12b, a steady-state\n                             current density of 21.05 mA/cm2 and a stabilized PCE of 17.30% were obtained, which agree\n                           well with the JSC and PCE extracted from the J-V experiments. The average photovoltaic\n                          parameters of PSCs based on SnO2 ETLs printed with inks of different concentrations are\n                       shown in Table 5. When the SnO2 ink concentration is increased from 0.375% to 3%, the PCE\n                             (Figure S5) of SnO2-based PSCs decreases continuously. As seen in the cross-sectional SEM\n                         images in Figure 13, the SnO2 thickness increases from 30 nm to 130 nm when the ink\n                            concentration is increased from 0.375% to 3%. Too thick SnO2 ﬁlms result in large sheet\n                                resistances, hampering charge transfer, thereby leading to lower PCEs.\n\n\n\n\n\n                              Figure 11. Schematics of (a) energy levels and (b) conﬁguration of SnO2-based PSCs.\n\n\n\n\n\n     Figure 12. (a) J-V curves (solid and dashed lines represent data from reverse and forward scan, respectively), and (b)\n     steady-state current density (at a bias of 0.925 V) and PCE of champion cell of PSCs based on inkjet-printed SnO2 ETLs.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 11",
+          "text": "Figure 11. Schematics of (a) energy levels and (b) conﬁguration of SnO2-based PSCs.",
+          "figure_bbox": [
+            165.26,
+            345.17,
+            510.14,
+            525.92
+          ],
+          "bbox": [
+            167.26,
+            532.35,
+            501.98,
+            542.59
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 12",
+          "text": "Figure 12. (a) J-V curves (solid and dashed lines represent data from reverse and forward scan, respectively), and (b)\nsteady-state current density (at a bias of 0.925 V) and PCE of champion cell of PSCs based on inkjet-printed SnO2 ETLs.",
+          "figure_bbox": [
+            59.65,
+            557.97,
+            530.17,
+            733.22
+          ],
+          "bbox": [
+            57.26,
+            743.07,
+            538.91,
+            766.83
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 11",
+          "caption": "Figure 11. Schematics of (a) energy levels and (b) conﬁguration of SnO2-based PSCs.",
+          "bbox": [
+            165.26,
+            345.17,
+            510.14,
+            525.92
+          ],
+          "file": "extracted_images/page12_figure-11_1.png"
+        },
+        {
+          "label": "Figure 12",
+          "caption": "Figure 12. (a) J-V curves (solid and dashed lines represent data from reverse and forward scan, respectively), and (b)\nsteady-state current density (at a bias of 0.925 V) and PCE of champion cell of PSCs based on inkjet-printed SnO2 ETLs.",
+          "bbox": [
+            59.65,
+            557.97,
+            530.17,
+            733.22
+          ],
+          "file": "extracted_images/page12_figure-12_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 13,
+      "text": "Materials 2021, 14, 7525                                                                                                        13 of 17\n\n\n\n\n     Table 5. Photovoltaic parameters for PSCs based on inkjet-printed SnO2 ETLs prepared from different ink concentrations.\n     Averages are based on different number of cells, as indicated in second column.\n\n          Numbers      Scan                                            JSC                                        Rs        Rsh\n   Cells                         PCE (%)      VOC (V)                     FF       HysteresisIndex            of Devices    Direction                              (mA/cm2)                                   (Ω·cm2)   (kΩ·cm2)\n  0.375%       14          reverse      16.61 ± 0.70    1.10 ± 0.01    20.85 ± 0.26    0.73 ± 0.02       0.16 ± 0.03\n                         forward      13.93 ± 0.66    1.02 ± 0.01    21.01 ± 0.24    0.65 ± 0.03\n                      champion        17.37           1.10           21.13           0.75                                 4.9          5.0\n  0.75%        7          reverse      15.57 ± 0.66    1.06 ± 0.00    20.42 ± 0.36    0.72 ± 0.02       0.21 ± 0.02\n                         forward      12.29 ± 0.45    0.94 ± 0.01    20.42 ± 0.45    0.64 ± 0.02\n                      champion        16.53           1.06           20.96           0.74                                 5.7          2.5\n   1.5%         8          reverse      11.30 ± 0.77    0.95 ± 0.03    18.81 ± 0.46    0.63 ± 0.03       0.13 ± 0.04\n                         forward      9.85 ± 0.48     0.85 ± 0.02    18.73 ± 0.56    0.62 ± 0.03\n                      champion        12.59           0.99           19.58           0.65                                 9.5          1.1\n   3%         7          reverse      10.32 ± 0.81    0.91 ± 0.04    17.82 ± 0.45    0.64 ± 0.05       0.06 ± 0.03\n                         forward      9.73 ± 0.63     0.85 ± 0.03    17.72 ± 0.52    0.65 ± 0.04\n                      champion        11.70           0.94           18.25           0.68                                 8.5          2.0\n\n\n\n\n\n     Figure 13. Cross-sectional SEM images for PSCs based on inkjet-printed SnO2 ETLs prepared from (a) 0.375%, (b) 0.75%,\n      (c) 1.5%, and (d) 3% precursor inks.\n\n                         As compared to that of TiO2- and SrTiO3-based PSCs, the SnO2-based congeners\n                      show less hysteresis, as well as better performance because of the superior electrical\n                             properties of the SnO2 material, such as high electron mobility [26]. Therefore, highly\n                               efﬁcient perovskite solar cells based on inkjet-printed SnO2 ETLs should be attainable after\n                          a thorough optimization.\n\n                                   4. Conclusions\n\n                                 In this work, we developed the inkjet printing processes for TiO2, SrTiO3, and SnO2\n                           ETLs. By optimizing the PSC performance based on the printed ETLs, the drying properties\n                             of cosolvent inks are beneﬁcial for uniform ﬁlm formation of the mesoporous TiO2 and\n                           SrTiO3 ETLs. Although SrTiO3-based PSCs perform better than TiO2-based ones, the former\n                            devices suffer from low current density and severe scan-direction hysteresis. PSCs based\n                        on the mixed mesoporous SrTiO3/TiO2 ETL can mitigate these problems and offer a higher\n                    PCE than the SrTiO3-only based devices. Furthermore, the strategy using cosolvent inks\n                      was also applied for inkjet printing of SnO2 ETLs. The best performing SnO2-based PSCs\n                           displayed an optimal PCE of 17.37% and low scan-direction hysteresis. In summary,\n                            the printing processes for different ETL materials were developed and will be used for\n                                fully inkjet-printed PSCs in our future work.\n\n\n                           Supplementary Materials: The following are available online at https://www.mdpi.com/article/10\n                             .3390/ma14247525/s1, Figure S1: Device geometry of perovskite solar cells, Figure S2: J-V curves\n                                 of champion PSCs based on mp-TiO2 and mp-SrTiO3 ETLs inkjet-printed from nanoparticle inks\n                             with IPE or EtOH:EG as solvents, Figure S3: SEM images of mesoporous layers inkjet-printed from",
+      "tables": [
+        {
+          "label": "Table 5",
+          "caption": "Table 5. Photovoltaic parameters for PSCs based on inkjet-printed SnO2 ETLs prepared from different ink concentrations.\nAverages are based on different number of cells, as indicated in second column.",
+          "bbox": [
+            36.0,
+            127.51,
+            559.28,
+            252.32
+          ],
+          "rows": [
+            [
+              "Cells",
+              "Numbers\nof Devices",
+              "Scan\nDirection",
+              "PCE (%)",
+              "VOC (V)",
+              "JSC\n(mA/cm²)",
+              "FF",
+              "HysteresisIndex",
+              "Rs\n(Ω·cm²)",
+              "Rsh\n(kΩ·cm²)"
+            ],
+            [
+              "0.375%",
+              "14",
+              "reverse\nforward\nchampion",
+              "16.61 ± 0.70\n13.93 ± 0.66\n17.37",
+              "1.10 ± 0.01\n1.02 ± 0.01\n1.10",
+              "20.85 ± 0.26\n21.01 ± 0.24\n21.13",
+              "0.73 ± 0.02\n0.65 ± 0.03\n0.75",
+              "0.16 ± 0.03",
+              "4.9",
+              "5.0"
+            ],
+            [
+              "0.75%",
+              "7",
+              "reverse\nforward\nchampion",
+              "15.57 ± 0.66\n12.29 ± 0.45\n16.53",
+              "1.06 ± 0.00\n0.94 ± 0.01\n1.06",
+              "20.42 ± 0.36\n20.42 ± 0.45\n20.96",
+              "0.72 ± 0.02\n0.64 ± 0.02\n0.74",
+              "0.21 ± 0.02",
+              "5.7",
+              "2.5"
+            ],
+            [
+              "1.5%",
+              "8",
+              "reverse\nforward\nchampion",
+              "11.30 ± 0.77\n9.85 ± 0.48\n12.59",
+              "0.95 ± 0.03\n0.85 ± 0.02\n0.99",
+              "18.81 ± 0.46\n18.73 ± 0.56\n19.58",
+              "0.63 ± 0.03\n0.62 ± 0.03\n0.65",
+              "0.13 ± 0.04",
+              "9.5",
+              "1.1"
+            ],
+            [
+              "3%",
+              "7",
+              "reverse\nforward\nchampion",
+              "10.32 ± 0.81\n9.73 ± 0.63\n11.70",
+              "0.91 ± 0.04\n0.85 ± 0.03\n0.94",
+              "17.82 ± 0.45\n17.72 ± 0.52\n18.25",
+              "0.64 ± 0.05\n0.65 ± 0.04\n0.68",
+              "0.06 ± 0.03",
+              "8.5",
+              "2.0"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 5",
+          "text": "Table 5. Photovoltaic parameters for PSCs based on inkjet-printed SnO2 ETLs prepared from different ink concentrations.\nAverages are based on different number of cells, as indicated in second column.",
+          "bbox": [
+            56.91,
+            97.95,
+            539.59,
+            119.82
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 13",
+          "text": "Figure 13. Cross-sectional SEM images for PSCs based on inkjet-printed SnO2 ETLs prepared from (a) 0.375%, (b) 0.75%,\n(c) 1.5%, and (d) 3% precursor inks.",
+          "figure_bbox": [
+            69.34,
+            270.08,
+            524.86,
+            455.78
+          ],
+          "bbox": [
+            56.96,
+            463.55,
+            539.14,
+            485.43
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 13",
+          "caption": "Figure 13. Cross-sectional SEM images for PSCs based on inkjet-printed SnO2 ETLs prepared from (a) 0.375%, (b) 0.75%,\n(c) 1.5%, and (d) 3% precursor inks.",
+          "bbox": [
+            69.34,
+            270.08,
+            524.86,
+            455.78
+          ],
+          "file": "extracted_images/page13_figure-13_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 14,
+      "text": "Materials 2021, 14, 7525                                                                                                        14 of 17\n\n\n\n\n                                     (a) TiO2 inks with the solvent IPE, (b) TiO2 inks with the solvent EtOH:EG, (c) SrTiO3 inks with the\n                                solvent IPE, and (d) SrTiO3 inks with the solvent EtOH:EG, Figure S4: SEM image of inkjet-printed\n                          SnO2 thin ﬁlm, Figure S5: J-V curves of champion PSCs based on inkjet-printed SnO2 ETLs prepared\n                           from 0.375%, 0.75%, 1.5%, and 3% precursor inks, Table S1: Technical information of the printhead\n                            XJ126/50 and XJ126/80. These parameters are obtained from the Xaar126 data sheet.\n\n                           Author Contributions: Conceptualization, D.L. and L.B.; methodology, D.L. and W.Z.; validation,\n                              D.L. and W.Z.; formal analysis, D.L.; investigation, D.L., W.Z. and L.B.; resources, L.K. and L.B.;\n                              data curation, D.L.; writing—original draft preparation, D.L.; writing—review and editing, D.L.,\n                               W.Z., L.K. and L.B.; visualization, D.L.; supervision, L.B. and L.K.; project administration, L.B.;\n                            funding acquisition, D.L. and L.B. All authors have read and agreed to the published version of\n                                the manuscript.\n\n                            Funding: This research was funded by the China Scholarship Council (CSC), the Swedish Research\n                              Council (VR), grant number 2017-04875, and the Carl Trygger Foundation.\n\n                                 Institutional Review Board Statement: Not applicable.\n\n                           Informed Consent Statement: Not applicable.\n\n                           Data Availability Statement: The data presented in this study are available on request from the\n                              corresponding author.\n\n                          Acknowledgments: Authors acknowledge Resource Center for Coordination of Electron Microscopy\n                                    at KTH and Anastasia Riazanova (Dept. of Fibre and Polymer Technology) for the help with part of\n                     SEM analysis.\n\n                             Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design\n                                 of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript,\n                               or in the decision to publish the results.\n\nReferences\n\n1.    Tavakoli, M.M.; Giordano, F.; Zakeeruddin, S.M.; Grätzel, M. Mesoscopic Oxide Double Layer as Electron Speciﬁc Contact for\n     Highly Efﬁcient and UV Stable Perovskite Photovoltaics. Nano Lett. 2018, 18, 2428–2434. [CrossRef]\n2.    Lee, Y.; Paek, S.; Cho, K.T.; Oveisi, E.; Gao, P.; Lee, S.; Park, J.-S.; Zhang, Y.; Humphry-Baker, R.; Asiri, A.M.; et al. Enhanced\n     charge collection with passivation of the tin oxide layer in planar perovskite solar cells. J. Mater. Chem. A 2017, 5, 12729–12734.\n     [CrossRef]\n3.    Jeon, N.J.; Noh, J.H.; Kim, Y.C.; Yang, W.S.; Ryu, S.; Seok, S.I. Solvent engineering for high-performance inorganic–organic hybrid\n     perovskite solar cells. Nat. Mater. 2014, 13, 897–903. [CrossRef] [PubMed]\n4.    Jeong, I.; Park, Y.H.; Bae, S.; Park, M.; Jeong, H.; Lee, P.; Ko, M.J. Solution-Processed Ultrathin TiO2 Compact Layer Hybridized\n     with Mesoporous TiO2 for High-Performance Perovskite Solar Cells. ACS Appl. Mater. Interfaces 2017, 9, 36865–36874. [CrossRef]\n5.    Jung, E.H.; Jeon, N.J.; Park, E.Y.; Moon, C.S.; Shin, T.J.; Yang, T.-Y.; Noh, J.H.; Seo, J. Efﬁcient, stable and scalable perovskite solar\n      cells using poly(3-hexylthiophene). Nat. Cell Biol. 2019, 567, 511–515. [CrossRef]\n6.   Kim, M.; Kim, G.-H.; Lee, T.K.; Choi, I.W.; Choi, H.W.; Jo, Y.; Yoon, Y.J.; Kim, J.W.; Lee, J.; Huh, D.; et al. Methylammonium\n     Chloride Induces Intermediate Phase Stabilization for Efﬁcient Perovskite Solar Cells. Joule 2019, 3, 2179–2192. [CrossRef]\n7.   NREL. Best Research-Cell Efﬁciency Chart. Available online: https://www.nrel.gov/pv/cell-efﬁciency.html (accessed on\n     12 January 2021).\n8.    Tsvetkov, N.; Moon, B.C.; Lee, J.Y.; Kang, J.K. Controlled Synthesis of Nanocrystalline Nb:SrTiO3 Electron Transport Layers for\n     Robust Interfaces and Stable High Photovoltaic Energy Conversion Efﬁciency in Perovskite Halide Solar Cells. ACS Appl. Energy\n     Mater. 2020, 3, 344–351. [CrossRef]\n9.    Yi, H.; Wang, D.; Mahmud, M.A.; Haque, F.; Upama, M.B.; Xu, C.; Duan, L.; Uddin, A. Bilayer SnO2 as Electron Transport Layer\n      for Highly Efﬁcient Perovskite Solar Cells. ACS Appl. Energy Mater. 2018, 1, 6027–6039. [CrossRef]\n10.  Giordano, F.; Abate, A.; Baena, J.-P.C.; Saliba, M.; Matsui, T.; Im, S.H.; Zakeeruddin, S.M.; Nazeeruddin, M.K.; Hagfeldt, A.;\n     Graetzel, M. Enhanced electronic properties in mesoporous TiO2 via lithium doping for high-efﬁciency perovskite solar cells.\n     Nat. Commun. 2016, 7, 10379. [CrossRef] [PubMed]\n11.  Chen, L.; Zhou, Y.; Tu, W.; Li, Z.; Bao, C.; Dai, H.; Yu, T.; Liu, J.; Zou, Z. Enhanced photovoltaic performance of a dye-sensitized\n      solar cell using graphene–TiO2 photoanode prepared by a novel in situ simultaneous reduction-hydrolysis technique. Nanoscale\n     2013, 5, 3481–3485. [CrossRef]\n12.  Wang, J.T.-W.; Ball, J.M.; Barea, E.M.; Abate, A.; Alexander-Webber, J.A.; Huang, J.; Saliba, M.; Mora-Sero, I.; Bisquert, J.;\n     Snaith, H.J.; et al. Low-Temperature Processed Electron Collection Layers of Graphene/TiO2 Nanocomposites in Thin Film\n     Perovskite Solar Cells. Nano Lett. 2014, 14, 724–730. [CrossRef] [PubMed]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 15,
+      "text": "Materials 2021, 14, 7525                                                                                                        15 of 17\n\n\n\n\n13.  Wojciechowski, K.; Stranks, S.D.; Abate, A.; Sadoughi, G.; Sadhanala, A.; Kopidakis, N.; Rumbles, G.; Li, C.-Z.; Friend, R.H.;\n      Jen, A.K.-Y.; et al. Heterojunction Modiﬁcation for Highly Efﬁcient Organic–Inorganic Perovskite Solar Cells. ACS Nano 2014, 8,\n     12701–12709. [CrossRef] [PubMed]\n14.   Li, T.; Rui, Y.; Zhang, X.; Shi, J.; Wang, X.; Wang, Y.; Yang, J.; Zhang, Q. Anatase TiO2 nanorod arrays as high-performance\n      elec-tron transport layers for perovskite solar cells. J. Alloys Compd. 2020, 849, 156629. [CrossRef]\n15.  Choi, J.; Song, S.; Hörantner, M.T.; Snaith, H.J.; Park, T. Well-Deﬁned Nanostructured, Single-Crystalline TiO2 Electron Transport\n     Layer for Efﬁcient Planar Perovskite Solar Cells. ACS Nano 2016, 10, 6029–6036. [CrossRef] [PubMed]\n16.  Hou, Y.; Chen, X.; Yang, S.; Li, C.; Zhao, H.; Yang, H.G. A Band-Edge Potential Gradient Heterostructure to Enhance Electron\n     Extraction Efﬁciency of the Electron Transport Layer in High-Performance Perovskite Solar Cells. Adv. Funct. Mater. 2017,\n      27, 1700878. [CrossRef]\n17.   Bera, A.; Wu, K.W.; Sheikh, A.; Alarousu, E.; Mohammed, O.F.; Wu, T. Perovskite Oxide SrTiO3 as an Efﬁcient Electron Transporter\n      for Hybrid Perovskite Solar Cells. J. Phys. Chem. C 2014, 118, 28494–28501. [CrossRef]\n18.  Neophytou, M.; de Bastiani, M.; Gasparini, N.; Aydin, E.; Ugur, E.; Seitkhan, A.; Moruzzi, F.; Choaie, Y.; Ramadan, A.J.;\n     Troughton, J.R.; et al. Enhancing the Charge Extraction and Stability of Perovskite Solar Cells Using Strontium Titanate (SrTiO3)\n     Electron Transport Layer. ACS Appl. Energy Mater. 2019, 2, 8090–8097. [CrossRef]\n19.  Wang, C.; Tang, Y.; Hu, Y.; Huang, L.; Fu, J.; Jin, J.; Shi, W.; Wang, L.; Yang, W. Graphene/SrTiO3nanocomposites used as an\n      effective electron-transporting layer for high-performance perovskite solar cells. RSC Adv. 2015, 5, 52041–52047. [CrossRef]\n20.  Hu, Y.; Wang, C.; Tang, Y.; Huang, L.; Fu, J.; Shi, W.; Wang, L.; Yang, W. Three-dimensional self-branching anatase TiO2 nanorods\n     with the improved carrier collection for SrTiO3-based perovskite solar cells. J. Alloys Compd. 2016, 679, 32–38. [CrossRef]\n21.  Okamoto, Y.; Fukui, R.; Fukazawa, M.; Suzuki, Y. SrTiO3/TiO2 composite electron transport layer for perovskite solar cells.\n     Mater. Lett. 2017, 187, 111–113. [CrossRef]\n22.  Mahmoudi, T.; Wang, Y.; Hahn, Y.-B. SrTiO3/Al2O3-Graphene Electron Transport Layer for Highly Stable and Efﬁcient Com-\n     posites-Based Perovskite Solar Cells with 20.6% Efﬁciency. Adv. Energy Mater. 2020, 10, 1903369. [CrossRef]\n23.  Yeom, E.J.; Shin, S.S.; Yang, W.S.; Lee, S.J.; Yin, W.; Kim, D.; Noh, J.H.; Ahn, T.K.; Seok, S.I. Controllable synthesis of single\n      crystalline Sn-based oxides and their application in perovskite solar cells. J. Mater. Chem. A 2017, 5, 79–86. [CrossRef]\n24.   Jiang, Q.; Zhao, Y.; Zhang, X.; Yang, X.; Chen, Y.; Chu, Z.; Ye, Q.; Li, X.; Yin, Z.; You, J. Surface passivation of perovskite ﬁlm for\n     efﬁcient solar cells. Nat. Photonics 2019, 13, 460–466. [CrossRef]\n25.  Ke, W.; Fang, G.; Liu, Q.; Xiong, L.; Qin, P.; Tao, H.; Wang, J.; Lei, H.; Li, B.; Wan, J.; et al. Low-Temperature Solution-Processed Tin\n    Oxide as an Alternative Electron Transporting Layer for Efﬁcient Perovskite Solar Cells. J. Am. Chem. Soc. 2015, 137, 6730–6733.\n     [CrossRef] [PubMed]\n26.   Jiang, Q.; Zhang, L.; Wang, H.; Yang, X.; Meng, J.; Liu, H.; Yin, Z.; Wu, J.; Zhang, X.; You, J. Enhanced electron extraction using\n    SnO2 for high-efﬁciency planar-structure HC(NH2)2PbI3-based perovskite solar cells. Nat. Energy 2017, 2, 16177. [CrossRef]\n27.  Anaraki, E.H.; Kermanpur, A.; Steier, L.; Domanski, K.; Matsui, T.; Tress, W.; Saliba, M.; Abate, A.; Grätzel, M.; Hagfeldt, A.; et al.\n     Highly efﬁcient and stable planar perovskite solar cells by solution-processed tin oxide. Energy Environ. Sci. 2016, 9, 3128–3134.\n     [CrossRef]\n28.  Zhu, Z.; Bai, Y.; Liu, X.; Chueh, C.-C.; Yang, S.; Jen, A.K.-Y. Enhanced Efﬁciency and Stability of Inverted Perovskite Solar\n     Cells Using Highly Crystalline SnO2 Nanocrystals as the Robust Electron-Transporting Layer. Adv. Mater. 2016, 28, 6478–6484.\n     [CrossRef] [PubMed]\n29.  Xiong, L.; Qin, M.; Chen, C.; Wen, J.; Yang, G.; Guo, Y.; Ma, J.; Zhang, Q.; Qin, P.; Li, S.; et al. Fully High-Temperature-Processed\n    SnO2 as Blocking Layer and Scaffold for Efﬁcient, Stable, and Hysteresis-Free Mesoporous Perovskite Solar Cells. Adv. Funct.\n     Mater. 2018, 28, 1706276. [CrossRef]\n30.   Li, Y.; Zhu, J.; Huang, Y.; Liu, F.; Lv, M.; Chen, S.; Hu, L.; Tang, J.; Yao, J.; Dai, S. Mesoporous SnO2 nanoparticle ﬁlms as\n     elec-tron-transporting material in perovskite solar cells. RSC Adv. 2015, 5, 28424–28429. [CrossRef]\n31.  Ren, X.; Yang, D.; Yang, Z.; Feng, J.; Zhu, X.; Niu, J.; Liu, Y.; Zhao, W.; Liu, S.F. Solution-Processed Nb:SnO2 Electron Transport\n     Layer for Efﬁcient Planar Perovskite Solar Cells. ACS Appl. Mater. Interfaces 2017, 9, 2421–2429. [CrossRef]\n32.  Yang, G.; Lei, H.; Tao, H.; Zheng, X.; Ma, J.; Liu, Q.; Ke, W.; Chen, Z.; Xiong, L.; Qin, P.; et al. Reducing Hysteresis and Enhancing\n     Performance of Perovskite Solar Cells Using Low-Temperature Processed Y-Doped SnO2Nanosheets as Electron Selective Layers.\n     Small 2017, 13, 1601769. [CrossRef] [PubMed]\n33.  Roose, B.; Johansen, C.M.; Dupraz, K.; Jaouen, T.; Aebi, P.; Steiner, U.; Abate, A. A Ga-doped SnO2 mesoporous contact for UV\n      stable highly efﬁcient perovskite solar cells. J. Mater. Chem. A 2018, 6, 1850–1857. [CrossRef]\n34.   Jung, E.H.; Chen, B.; Bertens, K.; Vafaie, M.; Teale, S.; Proppe, A.H.; Hou, Y.; Zhu, T.; Zheng, C.; Sargent, E.H. Bifunctional Surface\n     Engineering on SnO2 Reduces Energy Loss in Perovskite Solar Cells. ACS Energy Lett. 2020, 5, 2796–2801. [CrossRef]\n35.  Zhang, M.; Wu, F.; Chi, D.; Shi, K.; Huang, S. High-efﬁciency perovskite solar cells with poly(vinylpyrrolidone)-doped SnO2 as\n    an electron transport layer. Mater. Adv. 2020, 1, 617–624. [CrossRef]\n36.  Huang, X.; Hu, Z.; Xu, J.; Wang, P.; Wang, L.; Zhang, J.; Zhu, Y. Low-temperature processed SnO2 compact layer by incorporating\n    TiO2 layer toward efﬁcient planar heterojunction perovskite solar cells. Sol. Energy Mater. Sol. Cells 2017, 164, 87–92. [CrossRef]\n37.  Zhao, X.; Tao, L.; Li, H.; Huang, W.; Sun, P.; Liu, J.; Liu, S.; Sun, Q.; Cui, Z.; Sun, L.; et al. Efﬁcient Planar Perovskite Solar Cells\n     with Improved Fill Factor via Interface Engineering with Graphene. Nano Lett. 2018, 18, 2442–2449. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 16,
+      "text": "Materials 2021, 14, 7525                                                                                                        16 of 17\n\n\n\n\n38.  Huckaba, A.J.; Lee, Y.; Xia, R.; Paek, S.; Bassetto, V.C.; Oveisi, E.; Lesch, A.; Kinge, S.; Dyson, P.J.; Girault, H.; et al. Inkjet-Printed\n    Mesoporous TiO2 and Perovskite Layers for High Efﬁciency Perovskite Solar Cells. Energy Technol. 2019, 7, 317–324. [CrossRef]\n39.   Bufﬁere, M.; Ali, K.; Fares, E.; Samara, A.; Shetty, A.R.; Al Hassan, O.; Belaidi, A. Inkjet-Printed Compact TiO 2 Electron Transport\n     Layer for Perovskite Solar Cells. Energy Technol. 2020, 8, 2000330. [CrossRef]\n40.  Rohnacher, V.; Ullrich, F.; Eggers, H.; Schackmar, F.; Hell, S.; Salazar, A.; Huck, C.; Hernandez-Sosa, G.; Paetzold, U.W.;\n     Jaegermann, W.; et al. Analytical Study of Solution-Processed Tin Oxide as Electron Transport Layer in Printed Perovskite Solar\n      Cells. Adv. Mater. Technol. 2021, 6, 2000282. [CrossRef]\n41.   Xie, M.; Lu, H.; Zhang, L.; Wang, J.; Luo, Q.; Lin, J.; Ba, L.; Liu, H.; Shen, W.; Shi, L.; et al. Fully Solution-Processed Semi-\n     Transparent Perovskite Solar Cells with Ink-Jet Printed Silver Nanowires Top Electrode. Sol. RRL 2018, 2, 1700184. [CrossRef]\n42.   Li, S.-G.; Jiang, K.-J.; Su, M.-J.; Cui, X.-P.; Huang, J.-H.; Zhang, Q.-Q.; Zhou, X.-Q.; Yang, L.-M.; Song, Y.-L. Inkjet printing of\n    CH3NH3PbI3 on a mesoscopic TiO2 ﬁlm for highly efﬁcient perovskite solar cells. J. Mater. Chem. A 2015, 3, 9092–9097. [CrossRef]\n43.  Gheno, A.; Huang, Y.; Bouclé, J.; Ratier, B.; Rolland, A.; Even, J.; Vedraine, S. Toward Highly Efﬁcient Inkjet-Printed Perovskite\n     Solar Cells Fully Processed Under Ambient Conditions and at Low Temperature. Sol. RRL 2018, 2, 1800191. [CrossRef]\n44.  Mathies, F.; Eggers, H.; Richards, B.S.; Hernandez-Sosa, G.; Lemmer, U.; Paetzold, U.W. Inkjet-Printed Triple Cation Perovskite\n     Solar Cells. ACS Appl. Energy Mater. 2018, 1, 1834–1839. [CrossRef]\n45.  Eggers, H.; Schackmar, F.; Abzieher, T.; Sun, Q.; Lemmer, U.; Vaynzof, Y.; Richards, B.; Hernandez-Sosa, G.; Paetzold, U.W.\n     Inkjet-Printed Micrometer-Thick Perovskite Solar Cells with Large Columnar Grains. Adv. Energy Mater. 2020, 10, 1903184.\n     [CrossRef]\n46.  Schackmar, F.; Eggers, H.; Frericks, M.; Richards, B.S.; Lemmer, U.; Hernandez-Sosa, G.; Paetzold, U.W. Perovskite Solar Cells\n     with All-Inkjet-Printed Absorber and Charge Transport Layers. Adv. Mater. Technol. 2021, 6, 2000271. [CrossRef]\n47.   Jung, K.-H.; Seo, J.-Y.; Lee, S.; Shin, H.; Park, N.-G. Solution-processed SnO2thin ﬁlm for a hysteresis-free planar perovskite solar\n      cell with a power conversion efﬁciency of 19.2%. J. Mater. Chem. A 2017, 5, 24790–24803. [CrossRef]\n48.  Wang, C.; Zhao, D.; Grice, C.R.; Liao, W.; Yu, Y.; Cimaroli, A.; Shrestha, N.; Roland, P.J.; Chen, J.; Yu, Z.; et al. Low-temperature\n     plasma-enhanced atomic layer deposition of tin oxide electron selective layers for highly efﬁcient planar perovskite solar cells.\n        J. Mater. Chem. A 2016, 4, 12080–12087. [CrossRef]\n49.  Ma, J.; Zheng, X.; Lei, H.; Ke, W.; Chen, C.; Chen, Z.; Yang, G.; Fang, G. Highly Efﬁcient and Stable Planar Perovskite Solar Cells\n     with Large-Scale Manufacture of E-Beam Evaporated SnO2 Toward Commercialization. Sol. RRL 2017, 1, 1700118. [CrossRef]\n50.   Liu, X.; Tsai, K.-W.; Zhu, Z.; Sun, Y.; Chueh, C.-C.; Jen, A.K.-Y. A Low-Temperature, Solution Processable Tin Oxide Electron-\n     Transporting Layer Prepared by the Dual-Fuel Combustion Method for Efﬁcient Perovskite Solar Cells. Adv. Mater. Interfaces\n     2016, 3, 1600122. [CrossRef]\n51.  Zhang, W.; Liu, P.; Sadollahkhani, A.; Li, Y.; Zhang, B.; Zhang, F.; Safdari, M.; Hao, Y.; Hua, Y.; Kloo, L. Investigation of\n     Tri-phenylamine (TPA)-Based Metal Complexes and Their Application in Perovskite Solar Cells. ACS Omega 2017, 2, 9231–9240.\n     [CrossRef]\n52.  Bernacka-Wojcik, I.; Wojcik, P.J.; Aguas, H.; Fortunato, E.; Martins, R. Inkjet printed highly porous TiO 2 ﬁlms for improved\n      electrical properties of photoanode. J. Colloid Interface Sci. 2016, 465, 208–214. [CrossRef]\n53.  Cherrington, R.; Hughes, D.J.; Senthilarasu, S.; Goodship, V. Inkjet-Printed TiO2Nanoparticles from Aqueous Solutions for\n     Dye-Sensitized Solar Cells (DSSCs). Energy Technol. 2015, 3, 866–870. [CrossRef]\n54.  Oh, Y.; Yoon, H.G.; Lee, S.-N.; Kim, H.-K.; Kim, J. Inkjet-Printing of TiO2Co-Solvent Ink: From Uniform Ink-Droplet to TiO2\n     Photoelectrode for Dye-Sensitized Solar Cells. J. Electrochem. Soc. 2011, 159, B34–B38. [CrossRef]\n55.  Kunugi, Y.; Shimoyama, Y.; Umezu, S. Fabrication of Dye-sensitized Solar Cells Using Electrostatic Inkjet Printing. J. Photopolym.\n      Sci. Technol. 2013, 26, 383–385. [CrossRef]\n56.  Peng, B.; Jungmann, G.; Jäger, C.; Haarer, D.; Schmidt, H.-W.; Thelakkat, M. Systematic investigation of the role of compact TiO2\n     layer in solid state dye-sensitized TiO2 solar cells. Co-Ord. Chem. Rev. 2004, 248, 1479–1489. [CrossRef]\n57.  Wu, Y.; Yang, X.; Chen, H.; Zhang, K.; Qin, C.; Liu, J.; Peng, W.; Islam, A.; Bi, E.; Ye, F.; et al. Highly compact TiO2 layer for\n     efﬁcient hole-blocking in perovskite solar cells. Appl. Phys. Express 2014, 7, 052301. [CrossRef]\n58.  Deegan, R.D.; Bakajin, O.; Dupont, T.F.; Huber, G.; Nagel, S.R.; Witten, T.A. Capillary ﬂow as the cause of ring stains from dried\n     liquid drops. Nature 1997, 389, 827. [CrossRef]\n59.   Li, Y.-F.; Sheng, Y.-J.; Tsao, H.-K. Evaporation Stains: Suppressing the Coffee-Ring Effect by Contact Angle Hysteresis. Langmuir\n     2013, 29, 7802–7811. [CrossRef] [PubMed]\n60.  Kim, D.; Jeong, S.; Park, B.K.; Moon, J. Direct writing of silver conductive patterns: Improvement of ﬁlm morphology and\n     conductance by controlling solvent compositions. Appl. Phys. Lett. 2006, 89, 264101. [CrossRef]\n61.  Park, J.; Moon, J. Control of Colloidal Particle Deposit Patterns within Picoliter Droplets Ejected by Ink-Jet Printing. Langmuir\n     2006, 22, 3506–3513. [CrossRef]\n62.  Sun, D.; Chen, C.; Zhang, J.; Wu, X.; Chen, H.; Guo, T. High performance inkjet-printed metal oxide thin ﬁlm transistors via\n     addition of insulating polymer with proper molecular weight. Appl. Phys. Lett. 2018, 112, 012102. [CrossRef]\n63.  Soltman, D.; Subramanian, V. Inkjet-Printed Line Morphologies and Temperature Control of the Coffee Ring Effect. Langmuir\n     2008, 24, 2224–2231. [CrossRef]\n64.   Li, Y.; Yang, Q.; Li, M.; Song, Y. Rate-dependent interface capture beyond the coffee-ring effect. Sci. Rep. 2016, 6, 24628. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 17,
+      "text": "Materials 2021, 14, 7525                                                                                                        17 of 17\n\n\n\n\n65.  Yunker, P.J.; Still, T.; Lohr, M.A.; Yodh, A.G. Suppression of the coffee-ring effect by shape-dependent capillary interactions.\n     Nat. Cell Biol. 2011, 476, 308–311. [CrossRef] [PubMed]\n66.  Tang, Z.; Fang, K.; Bukhari, M.N.; Song, Y.; Zhang, K. Effects of Viscosity and Surface Tension of a Reactive Dye Ink on Droplet\n     Formation. Langmuir 2020, 36, 9481–9488. [CrossRef] [PubMed]\n67.  Zhu, Z.; Zhang, J.; Guo, D.; Ning, H.; Zhou, S.; Liang, Z.; Yao, R.; Wang, Y.; Lu, X.; Peng, J. Functional Metal Oxide Ink Systems\n      for Drop-on-Demand Printed Thin-Film Transistors. Langmuir 2020, 36, 8655–8667. [CrossRef] [PubMed]\n68.  Phoon, B.L.; Lai, C.W.; Pan, G.-T.; Yang, T.C.-K.; Juan, J.C. One-pot hydrothermal synthesis of strontium titanate nanoparticles\n     photoelectrode using electrophoretic deposition for enhancing photoelectrochemical water splitting. Ceram.  Int. 2018, 44,\n     9923–9933. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "6f52dcd65bcbc64691c972bfe28d289f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            516.92,
+            53.0,
+            558.47,
+            80.39
+          ]
+        }
+      ],
+      "file": "garbage/page1_6f52dcd65bcbc64691c972bfe28d289f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "59c116537ecf25f8d7692dabbf2060fb",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            517.1,
+            53.19,
+            538.31,
+            73.35
+          ]
+        }
+      ],
+      "file": "garbage/page1_59c116537ecf25f8d7692dabbf2060fb.png",
+      "is_garbage": true
+    },
+    {
+      "id": "62efa0313b674db8d12560bbe65e7581",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            537.1,
+            60.26,
+            558.32,
+            80.39
+          ]
+        }
+      ],
+      "file": "garbage/page1_62efa0313b674db8d12560bbe65e7581.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bdad99135e250503119f6f098d743bd0",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            521.38,
+            62.26,
+            553.92,
+            71.45
+          ]
+        }
+      ],
+      "file": "garbage/page1_bdad99135e250503119f6f098d743bd0.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            36.0,
+            658.1,
+            92.69,
+            677.94
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

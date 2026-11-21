@@ -1,0 +1,601 @@
+{
+  "publication_id": "P015",
+  "source_file": "P015.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "MOCVD of II-VI HRT/Emitters for Voc Improvements to CdTe Solar Cells",
+    "author": "Andrew J. Clayton; Ali Abbas; Peter J. Siderfin; Stephen Jones; Ana Teloeken; Ochai Oklobia; John M. Walls; Stuart J. C. Irvine",
+    "subject": "CdTe solar cells were produced using metal organic chemical vapour deposition (MOCVD), which employed a (Zn,Al)S (AZS) high resistant transparent (HRT) layer at the transparent conducting oxide (TCO)/Cd(Zn)S emitter interface, to enable the higher annealing temperature of 440 C to be employed in the chlorine heat treatment (CHT) process. The AZS HRT remained intact with conformal coverage over the TCO after performing the high CHT annealing, confirmed by cross-section scanning transmission electron microscopy coupled with energy-dispersive X-ray spectroscopy (STEM-EDX) characterisation, which also revealed the Cd(Zn)S emitter layer having been consumed by the CdTe absorber via interdiffusion. The more aggressive CHT resulted in large CdTe grains. The combination of AZS HRT and aggressive CHT increased open circuit voltage (Voc) and improved solar cell performance.",
+    "keywords": "MOCVD; CdTe; photovoltaics; STEM-EDX",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "creationDate": "D:20220216170515+08'00'",
+    "modDate": "D:20220216100920+01'00'",
+    "DOI": "10.3390/coatings12020261",
+    "year": 2022,
+    "authors": [
+      "Andrew J. Clayton",
+      "Ali Abbas",
+      "Peter J. Siderfin",
+      "Stephen Jones",
+      "Ana Teloeken",
+      "Ochai Oklobia",
+      "John M. Walls",
+      "Stuart J. C. Irvine"
+    ]
+  },
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "    coatings\n\n\n\nArticle\nMOCVD of II-VI HRT/Emitters for Voc Improvements to CdTe\nSolar Cells\n\nAndrew J. Clayton 1, Ali Abbas 2, Peter J. Siderﬁn 1, Stephen Jones 1    , Ana Teloeken 1,\nOchai Oklobia 1, John M. Walls 2 and Stuart J. C. Irvine 1,*\n\n\n                                            1   Centre for Solar Energy Research, Swansea University, OpTIC Centre, Ffordd William Morgan,\n                                                 St. Asaph Business Park, Denbighshire LL17 0JD, UK; Andrew.J.Clayton@Swansea.ac.uk (A.J.C.);\n                                      p.j.siderﬁn@swansea.ac.uk (P.J.S.); stephen.jones@swansea.ac.uk (S.J.); acteloeken@hotmail.com (A.T.);\n                                    Ochai.Oklobia@swansea.ac.uk (O.O.)\n                                            2   Centre for Renewable Energy Systems Technology, Wolfson School of Mechanical, Electrical and\n                                   Manufacturing Engineering, Loughborough University, Loughborough, Leicestershire LE11 3TU, UK;\n                                       a.abbas@lboro.ac.uk (A.A.); J.M.Walls@lboro.ac.uk (J.M.W.)\n                                     *   Correspondence: S.J.C.Irvine@Swansea.ac.uk; Tel.: +44-1745-535-234\n\n\n                                Abstract: CdTe solar cells were produced using metal organic chemical vapour deposition (MOCVD),\n                           which employed a (Zn,Al)S (AZS) high resistant transparent (HRT) layer at the transparent conducting\n                              oxide (TCO)/Cd(Zn)S emitter interface, to enable the higher annealing temperature of 440 ◦C to be\n                           employed in the chlorine heat treatment (CHT) process. The AZS HRT remained intact with conformal\n                              coverage over the TCO after performing the high CHT annealing, conﬁrmed by cross-section scanning\n                               transmission electron microscopy coupled with energy-dispersive X-ray spectroscopy (STEM-EDX)\n                                  characterisation, which also revealed the Cd(Zn)S emitter layer having been consumed by the\n                         CdTe absorber via interdiffusion. The more aggressive CHT resulted in large CdTe grains. The\n                            combination of AZS HRT and aggressive CHT increased open circuit voltage (Voc) and improved\n                                  solar cell performance.\n\nCitation: Clayton, A.J.; Abbas, A.;\n                           Keywords: MOCVD; CdTe; photovoltaics; STEM-EDX\nSiderﬁn, P.J.; Jones, S.; Teloeken, A.;\n\nOklobia, O.; Walls, J.M.; Irvine, S.J.C.\n\nMOCVD of II-VI HRT/Emitters for\n\nVoc Improvements to CdTe Solar\nCells. Coatings 2022, 12, 261. https://    1. Introduction\ndoi.org/10.3390/coatings12020261        The rapid rise in photovoltaic (PV) solar energy over the past decade has been largely\nAcademic Editor: Alessandro Latini    driven by the supply of crystalline silicon PV modules. The total installed PV capacity in\n                          2019 exceeded 600 GW with additional capacity of over 100 GW added in 2020 alone [1].\nReceived: 15 December 2021        Alongside the exponential growth of silicon PV, there has been a similar growth in thin\nAccepted: 8 February 2022        ﬁlm PV, but this started from a much lower base which has left thin ﬁlm PV with a total\nPublished: 16 February 2022        market share of less than 10% [2]. This now mainly comprises thin ﬁlm cadmium telluride\nPublisher’s Note: MDPI stays neutral   (CdTe) and copper indium gallium diselenide (CIGS) with the larger share attributed to\nwith regard to jurisdictional claims in   CdTe. Progressive improvements in the solar conversion efﬁciency of thin ﬁlm PV have\npublished maps and institutional afﬁl-  narrowed the gap with crystalline silicon, which has a world best cell efﬁciency of 26.7%,\niations.                      with current world record CdTe solar cells having 22.1% efﬁciency under standard air mass\n                            conditions (AM1.5) [3]. Despite this impressive progress, there is still a way to go with\n                          a theoretical limit for single junction CdTe cells of around 30% and a practical prospect\n                              for >25% efﬁciency [4]. The next step in CdTe cell efﬁciency will depend on changing\nCopyright: © 2022 by the authors.   the acceptor doping from copper to arsenic which has demonstrated improvement by\nLicensee MDPI, Basel,  Switzerland.  more than a factor of 10 in acceptor concentration [5–9]. Some of this pioneering work\nThis article is an open access article   on increasing the acceptor concentration has used metal organic chemical vapour deposi-\ndistributed  under  the  terms  and\n                              tion (MOCVD) to establish doping mechanisms that have then been replicated by more\nconditions of the Creative Commons\n                      commonly used sublimation and physical vapour transport techniques [9,10]. To realise\nAttribution (CC BY) license (https://\n                             the beneﬁts of higher acceptor doping concentrations, it will become necessary to develop\ncreativecommons.org/licenses/by/\n                               different emitters than the currently used CdS, SnO2 and (Mg,Zn)O. The emitter needs to4.0/).\n\n\n\n\n\nCoatings 2022, 12, 261. https://doi.org/10.3390/coatings12020261                                   https://www.mdpi.com/journal/coatings",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "6f52dcd65bcbc64691c972bfe28d289f",
+        "59c116537ecf25f8d7692dabbf2060fb",
+        "62efa0313b674db8d12560bbe65e7581",
+        "bdad99135e250503119f6f098d743bd0",
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Coatings 2022, 12, 261                                                                                                           2 of 11\n\n\n\n                        have a slight positive conduction band offset with the absorber, to minimise interfacial\n                           recombination and donor doping at a concentration signiﬁcantly higher than the acceptor\n                            concentration in the absorber layer [4]. The latter is to ensure that the depletion region is\n                               largely in the absorber layer, away from the defective hetero-interface. For CdTe solar cells,\n                             the substrate (referred to as a superstrate) becomes the window to admit solar radiation so\n                             the front contact is a transparent conducting oxide (TCO) such as ﬂuorine-doped tin oxide\n                         (FTO) [11,12]. This is sometimes buffered with a high-resistance transparent layer (HRT)\n                              to avoid shunting through to the CdTe layer to the back contact. The issue here is that the\n                    FTO has a rough, faceted surface, so achieving a conformal coverage of a 30–50 nm thick\n                   HRT layer requires excellent nucleation and growth of the ﬁlm. This has enabled thinner\n                     CdS emitter layers resulting in less parasitic absorption at wavelength <500 nm [13].\n                                             It has previously been shown that an (Al,Zn)S (AZS) layer, grown by MOCVD, can\n                            enable a thinner (Cd,Zn)S emitter layer without sacriﬁcing the key performance parameters\n                             of ﬁll factor (FF) and open circuit voltage (Voc) [14]. It was also found that the Al doping\n                     made the AZS ﬁlm more chemically resilient. This enabled a higher temperature, post-\n                          growth, chlorine heat treatment (CHT) that is used to achieve larger CdTe grains with\n                       more randomised texture. The chlorine complex formation with impurities that reside at\n                             grain boundaries resulting in defect passivation also became more efﬁcient. These beneﬁts\n                            require the AZS layer to have extremely good conformal coverage of the rough FTO\n                             transparent conductor and to survive the aggressive (agg.) CHT. The authors reported [14]\n                             the low electron afﬁnity of AZS creates a positive conduction band discontinuity (CBD) by\n                              correlating experimental current-density—voltage (J-V) curves with solar cell capacitance\n                           simulations (SCAPS) [15]. Both experimental and SCAPS J-V curves showed a second\n                              rectiﬁcation when the Cd(Zn)S emitter layer was omitted from the sample to produce an\n                      AZS/CdTe interface. Solar cell performances were not as high without the Cd(Zn)S emitter,\n                          but the J-V curves suggested that after post-growth CHT, an AZS layer remained in the\n                           device structure and warranted further investigation.\n                              Scanning transmission electron microscope (STEM) images of cross-sections through\n                            the FTO/AZS/CdZnS/CdTe layer structure are used to study nucleation and growth\n                             of the MOCVD grown layers and subsequent changes resulting from different CHT\n                            conditions [16,17]. An in-line MOCVD process was used to deposit the AZS ﬁlms over\n                         FTO/glass superstrates 10 cm2 in area. The vapour pressures of the chemical precursors\n                        were an order of magnitude greater than similar processes for the conventional horizontal\n                MOCVD process [18]. Injection of the precursors was directly over the superstrate at an\n                            angle of 60 degrees off-normal to the superstrate surface. This resulted in a high supersatu-\n                             ration of precursor vapour over the superstrate surface creating optimum conditions for\n                          high nucleation density across the faceted polycrystalline FTO layer [17]. STEM, coupled\n                          with energy-dispersive X-ray spectroscopy (STEM-EDX), was employed to investigate the\n                            device structure and elemental compositions by characterising cross-sections of solar cells\n                          having undergone different CHT conditions, and the ﬁndings are provided in this report.\n\n                                   2. Materials and Methods\n\n                           The AZS ﬁlms were deposited using an in-line MOCVD system using diethylzinc\n                          (DEZn), ditertiarybutyl sulphide (DtBS) and trimethylaluminium (TMAl) as metalorganic\n                           precursors for Zn, S and Al, respectively. A nitrogen carrier gas was used to transport\n                            the chemical vapour at a total ﬂow of 250 standard cubic centimetres per minute (sccm)\n                          with precursor partial pressures (atmospheres) of 3.7 × 10−3 atm for DtBS, 1.8 × 10−3 atm\n                              for DEZn and 9.2 × 10−4 atm for TMAl, which represented an injection ratio of 4:2:1 for\n                             S:Zn:Al. The substrate was NSG TEC10 with area of 10 cm2, which had FTO with sheet\n                               resistance of 10 ohms per square (ohms/sq). The surface temperature was 400 ◦C and was\n                           placed on a linear stage which moved at a speed of 5.4 cm/min during deposition.\n                           The subsequent CdS/Cd(Zn)S/CdTe:As layer depositions and CHT process were\n                             carried out on a conventional horizontally conﬁgured MOCVD reactor, with a hydrogen\n                                carrier gas and growth temperatures of 315 ◦C for the CdS nucleation layer using dimethyl",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Coatings 2022, 12, 261                                                                                                           3 of 11\n\n\n                      cadmium (DMCd) and DtBS, 360 ◦C for the Cd(Zn)S emitter using DMCd, DEZn and DtBS\n                        and 390 ◦C for the arsenic-doped CdTe:As absorber layer using DMCd, diisopropyltelluride\n                            (DiPTe) and trisdimethylaminoarsenic (TDMAAs). The CHT was carried out by depositing\n                        CdCl2 at 200 ◦C using DMCd and tertiarybutylchloride (t-BuCl), followed by an anneal at\n                          standard (std.) temperature of 420 ◦C for 10 min, or using an aggressive (agg.) anneal at\n                           440 ◦C for 10 min. Devices that did not have the CHT process were completed without the\n                        CdCl2 layer and anneal. All devices received a ﬁnal anneal in air at 170 ◦C for 90 min [17].\n                       Gold (Au) contacts with area of 0.25 cm2 were deposited under vacuum using a thermal\n                             evaporator. Front contacts were established by removing the layers around the edge of the\n                           device down to the FTO and silver (Ag) paint was applied to increase conductivity.\n                       STEM (Philips, Eindhoven, The Netherlands) was carried out using an FEI Tecnai F20\n                             instrument. Bright and dark ﬁeld images were collected using a Gatan STEM detector. Cou-\n                           pled to the STEM was an Oxford Instruments X-Max 80 mm2 windowless EDX spectrometer.\n                 A silicon drift detector (Oxford Instruments, Oxford, UK) was used with the STEM in-\n                          strument for high spatial resolution EDX elemental mapping. Current-density—Voltage\n                               (J-V) measurements were carried out using an Abet Technologies Ltd. solar simulator\n                             (Milford, CT, USA) with light density output of 100 mW/cm2 at air mass (AM1.5) and\n                              calibrated using a shunted RR-1004 Rera Solutions GaAs reference cell. The voltage sweep\n                      was carried out using a Keithly 2400 source meter with J-V parameters recorded using\n                           in-house programming with Visual Basic software (Microsoft Visual Basic 6.0).\n\n                                   3. Results and Discussion\n                                 All the device samples consisted of a 3 micron (µm) CdTe absorber layer with\n                          100 nanometre (nm) Cd(Zn)S emitter layer deposited on to a 50 nm CdS nucleation layer.\n                        The Zn(Al)S (AZS) layer was either 50 nm or 100 nm, as detailed further in this report, and\n                       was deposited as the ﬁrst layer on NSG TEC10 substrates, which consisted of ﬂuorine-doped\n                                tin oxide (FTO) on soda-lime glass produced by NSG Pilkington. The device structure is\n                            represented in Figure 1a, with energy band diagrams for device stacks with Figure 1b and\n                          without Figure 1c the AZS layer.\n                           The CdTe absorber layer was doped with arsenic (As) to give p-type conductivity\n                         with acceptor concentrations (Na) of 1 × 1016 cm−3 as reported in earlier work [6]. CdTe\n                              solar cells are stable in air but can suffer from issues associated with the acceptor dopant,\n                        which is typically copper (Cu). It has the tendency to diffuse towards the emitter and create\n                         micro shorts. Doping the CdTe absorber with As for the acceptor dopant improves solar\n                                   cell stability whilst maintaining high solar conversion efﬁciencies [9].\n                           The beneﬁts obtained by the ﬁnal CHT of thin ﬁlm CdTe solar cells are crucial to\n                          high PV performance through grain boundary passivation and grain enlargement [19].\n                       The thin ﬁlm CdTe solar cell structure needs to endure a high-temperature anneal with\n                             chlorine diffusing through the CdTe layer from the back surface via the grain boundaries.\n                         Grain enlargement is essential for reducing grain boundary density, where high rates of\n                           minority carrier recombination can occur. This can be observed in Figure 2, which shows\n                               cross-sectional STEM images for a device where CHT was carried out at 420 ◦C and another\n                          with CHT at 440 ◦C. The increase in grain size is signiﬁcant, which extends from the back\n                      CdTe surface to the absorber/emitter interface in the case of the latter. This correlates\n                         with previous work [14] showing cross-sectional scanning electron microscope (SEM)\n                           images. Each time the CHT anneal temperature was increased, the grains became more\n                         columnar with reduced density of smaller grains at the emitter interface, which correlates\n                         with previous reports [20,21]. The CdTe grain for the sample annealed at 420 ◦C varied\n                        from small 0.4 micron (µm) wide grains residing close to the emitter interface, to wider\n                               0.6–1.0 µm grains towards the back CdTe surface from which chlorine is diffused during\n                            the CHT anneal. The CdTe grains for the sample annealed at 440 ◦C became consistently\n                              larger at 1.0–1.5 µm and extended further through the absorber layer to 2 µm in length in\n                       some areas.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Coatings 2022, 12, 261                                                                                                           4 of 11\n\n\n\n\n\n                                                                 (a)\n\n\n\n\n\n                             (b)                                                                   (c)\n\n                              Figure 1. Schematic of (a) the CdTe device stack for each sample produced in the study; (b) en-\n                             ergy bands of FTO/AZS/Cd(Zn)S/CdTe:As/Au device stack showing work function (WF) and\n                                  electron afﬁnity (EA); (c) energy bands of FTO/Cd(Zn)S/CdTe:As/Au device stack showing reduced\n                             conduction band discontinuity (CBD) with AZS omitted from the structure.\n\n\n\n\n\n                                               (a)                                  (b)\n\n                              Figure 2. Cross-sectional STEM of (a) CdTe device with CHT at 420 ◦C and (b) CdTe device with\n                    CHT at 440 ◦C.\n\n                   A previous report [14] showed that an AZS HRT was more resistive to HCl etching\n                          than ZnO. The AZS HRT thus allowed more agg. CHT to be employed on the CdTe solar\n                                  cells with improvements to Voc. Without the AZS layer there was signiﬁcant delamination\n                                at the TCO/emitter interface, which was notably observed from the glass side of the sample\n                          with the presence of multiple patterns forming with the black CdTe and interdiffused layers\n                        coming away from the FTO/glass as previously reported [14]. The CHT results in changes",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. Schematic of (a) the CdTe device stack for each sample produced in the study; (b) en-\nergy bands of FTO/AZS/Cd(Zn)S/CdTe:As/Au device stack showing work function (WF) and\nelectron afﬁnity (EA); (c) energy bands of FTO/Cd(Zn)S/CdTe:As/Au device stack showing reduced\nconduction band discontinuity (CBD) with AZS omitted from the structure.",
+          "figure_bbox": [
+            33.45,
+            55.12,
+            561.78,
+            417.99
+          ],
+          "bbox": [
+            166.39,
+            427.22,
+            560.76,
+            474.74
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. Cross-sectional STEM of (a) CdTe device with CHT at 420 ◦C and (b) CdTe device with\nCHT at 440 ◦C.",
+          "figure_bbox": [
+            165.53,
+            483.52,
+            495.04,
+            662.38
+          ],
+          "bbox": [
+            166.39,
+            666.81,
+            559.28,
+            691.19
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. Schematic of (a) the CdTe device stack for each sample produced in the study; (b) en-\nergy bands of FTO/AZS/Cd(Zn)S/CdTe:As/Au device stack showing work function (WF) and\nelectron afﬁnity (EA); (c) energy bands of FTO/Cd(Zn)S/CdTe:As/Au device stack showing reduced\nconduction band discontinuity (CBD) with AZS omitted from the structure.",
+          "bbox": [
+            33.45,
+            55.12,
+            561.78,
+            417.99
+          ],
+          "file": "extracted_images/page4_figure-1_1.png"
+        },
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. Cross-sectional STEM of (a) CdTe device with CHT at 420 ◦C and (b) CdTe device with\nCHT at 440 ◦C.",
+          "bbox": [
+            165.53,
+            483.52,
+            495.04,
+            662.38
+          ],
+          "file": "extracted_images/page4_figure-2_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Coatings 2022, 12, 261                                                                                                           5 of 11\n\n\n\n                              to the solar cell structure, which include interdiffusion between the emitter and the CdTe\n                           absorber layers [16,17].\n                           The presence of the AZS HRT has had a beneﬁcial effect on the Voc and has acted as\n                          a chemical barrier during the agg. CHT process. J-V parameters (Table 1) demonstrate a\n                              correlation between the AZS HRT and CHT process, with higher annealing temperatures\n                         improving FF, alongside lower series resistance (Rs).  J-V curves (Figure 3) show the\n                        improvement to Voc with inclusion of the AZS HRT layer and the increase in CHT anneal\n                           temperature. Comparison is made to a baseline device sample with no AZS HRT layer\n                          having received a std. CHT process.\n\n\n                             Table 1. J-V parameters with standard deviation of FTO/AZS/CdS/Cd(Zn)S/CdTe:As solar cell\n                              devices with different degrees of CHT processing; comparison to a baseline solar cell device with\n                      AZS layer omitted.\n\n          AZS     CdS    Cd(Zn)S   CdTe:As   CHT     T ◦C      No.      PCE            Jsc         Voc        FF\n  Sample             (nm)     (nm)      (nm)      (nm)       (◦C)      (min)      Cells       (%)     (mA/cm2)    (mV)        (%)\n\n  Baseline          -         50        100       3000       420        10         8       14.1 ± 0.2    24.3 ± 0.4    760 ± 0     76.5 ± 2.1\n\n     a         50        50        100       3000             -               -         3        1.4 ± 0.4     9.4 ± 1.6    500 ± 10    28.9 ± 3.0\n\n     b         50        50        100       3000       420        10         3        6.3 ± 2.7    23.1 ± 3.5   610 ± 10    38.3 ± 11.7\n\n      c         50        50        100       3000       440        10         8        9.7 ± 1.6    25.5 ± 0.8   700 ± 10    54.3 ± 8.0\n\n    d        100        50        100       3000       440        10        12      14.3 ± 0.4    24.1 ± 0.6   824 ± 10    71.8 ± 1.7\n\n\n\n\n\n                              Figure 3. J-V curves of FTO/AZS/CdS/Cd(Zn)S/CdTe:As solar cell devices with different CHT\n                             anneal temperatures, showing comparison to a baseline FTO/CdS/Cd(Zn)S/CdTe:As solar cell\n                               device with no AZS HRT and std. CHT processing.\n\n                   A thicker 100 nm AZS resulted in higher Voc relative to the device having the same\n                  CHT process but with a 50 nm AZS HRT. The STEM-EDX for both these devices (Figure 4)\n                      showed a strong presence of ZnS at the TCO interface. The AZS HRT layer remaining\n                               at the CdTe interface provided a positive CBD, which was a contributing factor to the\n                             increased Voc and overall improvement in J-V parameters in a previous report [14], showing\n                            the energy band diagram for equivalent CdTe device stacks. This was attributed to the\n                       low electron afﬁnity of AZS of 3.9 eV and the positive CBD of +0.5 eV when interfacing\n                         with CdTe, which has electron afﬁnity equal to 4.4 eV. AZS was even shown to act as\n                        an emitter in the absence of Cd(Zn)S, although J-V curves were susceptible to a second\n                               rectiﬁcation. The presence of the Cd(Zn)S emitter prior to CHT reduced this CBD, which\n                          has an electron afﬁnity of 4.2 eV to create a smaller +0.2 eV band offset for Cd(Zn)S/CdTe,",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. J-V parameters with standard deviation of FTO/AZS/CdS/Cd(Zn)S/CdTe:As solar cell\ndevices with different degrees of CHT processing; comparison to a baseline solar cell device with\nAZS layer omitted.",
+          "bbox": [
+            35.72,
+            267.84,
+            558.99,
+            363.4
+          ],
+          "rows": [
+            [
+              "Sample",
+              "AZS\n(nm)",
+              "CdS\n(nm)",
+              "Cd(Zn)S\n(nm)",
+              "CdTe:As\n(nm)",
+              "CHT\n(◦C)",
+              "T ◦C\n(min)",
+              "No.\nCells",
+              "PCE\n(%)",
+              "Jsc\n(mA/cm²)",
+              "Voc\n(mV)",
+              "FF\n(%)"
+            ],
+            [
+              "Baseline",
+              "-",
+              "50",
+              "100",
+              "3000",
+              "420",
+              "10",
+              "8",
+              "14.1 ± 0.2",
+              "24.3 ± 0.4",
+              "760 ± 0",
+              "76.5 ± 2.1"
+            ],
+            [
+              "a",
+              "50",
+              "50",
+              "100",
+              "3000",
+              "-",
+              "-",
+              "3",
+              "1.4 ± 0.4",
+              "9.4 ± 1.6",
+              "500 ± 10",
+              "28.9 ± 3.0"
+            ],
+            [
+              "b",
+              "50",
+              "50",
+              "100",
+              "3000",
+              "420",
+              "10",
+              "3",
+              "6.3 ± 2.7",
+              "23.1 ± 3.5",
+              "610 ± 10",
+              "38.3 ± 11.7"
+            ],
+            [
+              "c",
+              "50",
+              "50",
+              "100",
+              "3000",
+              "440",
+              "10",
+              "8",
+              "9.7 ± 1.6",
+              "25.5 ± 0.8",
+              "700 ± 10",
+              "54.3 ± 8.0"
+            ],
+            [
+              "d",
+              "100",
+              "50",
+              "100",
+              "3000",
+              "440",
+              "10",
+              "12",
+              "14.3 ± 0.4",
+              "24.1 ± 0.6",
+              "824 ± 10",
+              "71.8 ± 1.7"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. J-V parameters with standard deviation of FTO/AZS/CdS/Cd(Zn)S/CdTe:As solar cell\ndevices with different degrees of CHT processing; comparison to a baseline solar cell device with\nAZS layer omitted.",
+          "bbox": [
+            166.04,
+            223.33,
+            559.28,
+            258.16
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. J-V curves of FTO/AZS/CdS/Cd(Zn)S/CdTe:As solar cell devices with different CHT\nanneal temperatures, showing comparison to a baseline FTO/CdS/Cd(Zn)S/CdTe:As solar cell\ndevice with no AZS HRT and std. CHT processing.",
+          "figure_bbox": [
+            164.39,
+            376.88,
+            483.0,
+            590.62
+          ],
+          "bbox": [
+            166.39,
+            596.92,
+            559.56,
+            631.76
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. J-V curves of FTO/AZS/CdS/Cd(Zn)S/CdTe:As solar cell devices with different CHT\nanneal temperatures, showing comparison to a baseline FTO/CdS/Cd(Zn)S/CdTe:As solar cell\ndevice with no AZS HRT and std. CHT processing.",
+          "bbox": [
+            164.39,
+            376.88,
+            483.0,
+            590.62
+          ],
+          "file": "extracted_images/page5_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Coatings 2022, 12, 261                                                                                                           6 of 11\n\n\n\n                           Figure 1b,c, compared to the +0.5 eV band offset at the AZS/CdTe interface. However,\n                            the AZS/Cd(Zn)S interface introduces another +0.3 eV band offset (Figure 1b) creating\n                           another barrier for minority carrier collection. The agg. CHT also resulted in larger grains,\n                          another contributing factor for increased Voc with less minority carrier recombination at\n                            the grain boundaries.\n\n\n\n\n\n                              Figure 4.  Cross section STEM image with elemental EDX maps for Cd,  S, Zn and Cl in\n                         FTO/AZS/CdS/Cd(Zn)S/CdTe:As solar cell device cross-sections taken alongside STEM images\n                            with different degrees of CHT processing; (a) device sample receiving no CHT, (b) device sample\n                            with std. CHT at 420 ◦C, (c) device sample with agg. CHT at 440 ◦C, and (d) device sample with\n                                 thicker 100 nm AZS HRT with agg. CHT at 440 ◦C.\n\n                               Figure 4 shows EDX elemental maps of the AZS/CdS/Cd(Zn)S/CdTe device cross-\n                             sections having undergone different levels of CHT. The images show different levels of\n                              interdiffusion of the Cd(Zn)S emitter and the impact on the HRT/emitter layer structure,\n                       which in this case consisted of a 50 nm AZS HRT with 150 nm combined CdS/Cd(Zn)S\n                             emitter layer. Previous work [22,23] showed that the Cd(Zn)S emitter composition prior to\n                             the CHT process was Cd0.3Zn0.7S, which changes to be closer to Cd0.4Zn0.6S after the CHT\n                           process via interdiffusion, with the CdS nucleation layer intermixing with the Cd(Zn)S\n                            emitter [22]. The images of the untreated device sample (a) show a bright deﬁned layer\n                         above the FTO layer (dark region) which corresponds to a ZnS layer, as can be seen from\n                            the EDX images. The concentration of Al was below the detectable limit of the EDX\n                             spectrometer, which had spatial resolution < 5 nm. It may also have been the case that the\n                              Al, being highly mobile, had diffused out of the device structure during the CHT process.\n                      Above the ZnS layer, a narrow dark layer (Zn proﬁle) can be seen, corresponding to the\n                      CdS layer which is clearly shown in the Cd and S proﬁles. The Cd(Zn)S layer is revealed in",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4.\nCross section STEM image with elemental EDX maps for Cd, S, Zn and Cl in\nFTO/AZS/CdS/Cd(Zn)S/CdTe:As solar cell device cross-sections taken alongside STEM images\nwith different degrees of CHT processing; (a) device sample receiving no CHT, (b) device sample\nwith std. CHT at 420 ◦C, (c) device sample with agg. CHT at 440 ◦C, and (d) device sample with\nthicker 100 nm AZS HRT with agg. CHT at 440 ◦C.",
+          "figure_bbox": [
+            79.24,
+            169.54,
+            513.59,
+            508.94
+          ],
+          "bbox": [
+            166.02,
+            517.37,
+            559.28,
+            577.7
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4.\nCross section STEM image with elemental EDX maps for Cd, S, Zn and Cl in\nFTO/AZS/CdS/Cd(Zn)S/CdTe:As solar cell device cross-sections taken alongside STEM images\nwith different degrees of CHT processing; (a) device sample receiving no CHT, (b) device sample\nwith std. CHT at 420 ◦C, (c) device sample with agg. CHT at 440 ◦C, and (d) device sample with\nthicker 100 nm AZS HRT with agg. CHT at 440 ◦C.",
+          "bbox": [
+            79.24,
+            169.54,
+            513.59,
+            508.94
+          ],
+          "file": "extracted_images/page6_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Coatings 2022, 12, 261                                                                                                           7 of 11\n\n\n\n                                     all three Cd, S and Zn EDX images. The CdS and Cd(Zn)S layers together form the emitter\n                              in this device.\n                                After std. CHT (420 ◦C) for device sample (b), the HRT/emitter proﬁle broadens\n                       due to interdiffusion, with less-deﬁned layers in the EDX images although the CdS layer\n                         can still be seen by comparing the Cd, S and Zn EDX images. When the CHT becomes\n                       more aggressive (sample (c)), the HRT/emitter region narrows as it becomes substantially\n                             interdiffused with the CdTe absorber. The only remaining layer that is still visible in the\n                   EDX images is the ZnS HRT layer, conﬁrming the robustness of this layer to agg. CHT.\n                        STEM-EDX of device sample (d), which had a 100 nm AZS HRT layer and was\n                             subjected to a CHT at 440 ◦C, shows that after the agg. post-growth treatment, interdiffusion\n                          has driven some S from the CdS/Cd(Zn)S emitter all the way to the back CdTe surface (S\n                             proﬁle, sample (d)). This has been observed for devices with an ultra-thin 0.5 µm thick\n                      CdTe absorber [22] using std. 420 ◦C CHT conditions. The Cl proﬁle reveals that it has\n                            diffused though the whole device structure with some remnant of the deposited CdCl2\n                              layer on the surface. Accumulation can be seen at the TCO interface.\n                            The extent of interdiffusion of the HRT/emitter region is further illustrated with STEM-\n                   EDX line scans through the device structure. Figure 5 compares the untreated device (a),\n                      shown in Figure 5a, with sample (d), shown in Figure 5b, having had agg. CHT at 440 ◦C.\n\n\n\n\n\n                                                                         (a)\n\n\n\n\n\n                                                                   (b)\n\n                              Figure 5. Elemental EDX line scans through the device stack of (a) FTO/AZS/CdS/Cd(Zn)S/CdTe:As\n                                  solar cell device with no CHT process; and (b) equivalent device structure having undergone aggres-\n                                 sive CHT.\n\n                           The untreated CdTe device sample in Figure 5a clearly shows the deﬁned layers of\n                            the HRT/emitter structure from the FTO surface with ZnS/CdS/Cd(Zn)S prior to any\n                              interdiffusion [22,23]. No Al in the AZS is again detectable due to dopant concentration\n                          being less than 1 At.% and below the detectable limit of the instrument. Figure 5b shows\n                            the HRT/emitter after agg. CHT, which narrows signiﬁcantly after interdiffusion and",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. Elemental EDX line scans through the device stack of (a) FTO/AZS/CdS/Cd(Zn)S/CdTe:As\nsolar cell device with no CHT process; and (b) equivalent device structure having undergone aggres-\nsive CHT.",
+          "figure_bbox": [
+            164.95,
+            333.74,
+            487.08,
+            661.51
+          ],
+          "bbox": [
+            166.39,
+            668.77,
+            560.77,
+            703.47
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. Elemental EDX line scans through the device stack of (a) FTO/AZS/CdS/Cd(Zn)S/CdTe:As\nsolar cell device with no CHT process; and (b) equivalent device structure having undergone aggres-\nsive CHT.",
+          "bbox": [
+            164.95,
+            333.74,
+            487.08,
+            661.51
+          ],
+          "file": "extracted_images/page7_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Coatings 2022, 12, 261                                                                                                           8 of 11\n\n\n\n                        shows a prominent Zn peak at the TCO interface. Despite the interdiffusion of the emitter,\n                            Figures 4 and 5 show that a ZnS layer remained intact and maintained an interface layer\n                          with the FTO.\n                            To further understand the role that the AZS HRT layer had on Voc, dark J-V curves\n                        were used to calculate the reverse saturation current-density (J0) and ideality factor (n),\n                        which are related to Voc in the following equation:\n\n                                                nKT        Jl\n                                                                Voc =      ln   + 1                                     (1)\n                                                                    q        J0\n\n                           The thermal voltage is represented by KT/q and an ideal diode would have n = 1\n                          with only radiative recombination contribution. When minority carrier recombination also\n                              occurs, the value of n increases, with typical value between 1 and 2. Jl is the light-generated\n                             current-density and can be assumed to be equivalent to Jsc. Plots were made (Figure 6) of\n                            the dark J-V curves with ln (JD) over a voltage (V) range 0.55–0.7 V.\n\n\n\n\n\n                              Figure 6. Plot of ln (JD-V) curve to extract the reverse saturation current-density (J0) and ideality\n                                  factor (n).\n\n                           The straight lines from the ln (JD-V) plot for samples (c) and (d), which had AZS\n                             thicknesses of 50 nm and 100 nm, respectively, were used to generate the J0 with gradient\n                              of q/nKT, which can be represented by α. The value of n was extracted from the gradient\n                           using the following equation:\n                                                     q/KT\n                                                       n =                                                 (2)\n                                                                α\n                    A baseline device sample, which had no AZS HRT layer, was also plotted with device\n                         samples (c) and (d) for comparison. Figure 6 is representative of the data for all cells\n                        measured for each device sample. The average J0 and n extracted from the dark J-V curves\n                             are shown in Table 2. In terms of the diode quality, n is highest for device sample (d),\n                          improving for sample (c) and being closest to an ideal diode for the baseline, which has no\n                    AZS HRT layer. This does not reﬂect the light-generated J-V data, in which the Voc was\n                              greatest for sample (d). The average J0 data were similar between samples (c) and (d), but\n                        were an order of magnitude better for the baseline device sample.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. Plot of ln (JD-V) curve to extract the reverse saturation current-density (J0) and ideality\nfactor (n).",
+          "figure_bbox": [
+            79.47,
+            282.54,
+            515.53,
+            551.21
+          ],
+          "bbox": [
+            166.39,
+            559.5,
+            559.63,
+            581.51
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. Plot of ln (JD-V) curve to extract the reverse saturation current-density (J0) and ideality\nfactor (n).",
+          "bbox": [
+            79.47,
+            282.54,
+            515.53,
+            551.21
+          ],
+          "file": "extracted_images/page8_figure-6_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Coatings 2022, 12, 261                                                                                                           9 of 11\n\n\n\n                             Table 2. Average reverse saturation current-density (J0) and ideality factor (n) extrapolated from dark\n                                J-V curves for device samples (c) and (d) with comparison to an equivalent device (Baseline) without\n                           an AZS HRT layer.\n\n           AZS               Cd(Zn)S    CdTe:As             T ◦C       No.              Mean J0  Sample           CdS (nm)                  CHT (◦C)                    Mean n\n              (nm)                 (nm)       (nm)                  (min)       Cells                (mA/cm2)\n  Baseline           -          50         100        3000        420         10         8        1.4 ± 0.1     7.2 × 10−9\n      c          50         50         100        3000        440         10         8        1.5 ± 0.2     2.4 × 10−7\n    d         100         50         100        3000        440         10         12        1.7 ± 0.0     9.2 × 10−8\n\n\n                           The data in Table 2 suggest that the device structure produces a poorer diode when\n                             the AZS HRT is included, which should lead to greater minority carrier recombination and\n                          a reduced Voc. The high energy barrier in the conduction band caused by the AZS may be\n                             detrimental under dark conditions. However, under light conditions, the generated carriers\n                    may be saturated at the absorber/emitter interface, driving the drift across this energy\n                           spike into the depletion region, where carriers can then be collected. The energy spike\n                              in the conduction band creates a larger energy difference between the electron-hole pairs\n                           generated under the light conditions, keeping the n-type and p-type carriers separate and\n                           reducing recombination. This would lead to the higher Voc observed in the J-V performance\n                                for device samples with an AZS HRT. Without the energy spike in the conduction band, the\n                               difference in energy of electron-hole pairs is smaller, which may lead to more recombination\n                       and a lower Voc for the baseline device sample. This may explain the improvement in\n                            Voc under light conditions when an AZS HRT is included in the device, although further\n                              investigation would be required.\n\n                                   4. Conclusions\n                        STEM-EDX showed that an agg. CHT process at 440 ◦C was essential for achieving\n                             large CdTe grains and complete consumption of the emitter to leave the AZS HRT and\n                         produce a deﬁned HRT/absorber interface region. EDX proﬁles of a device with agg. CHT\n                      showed that the S proﬁle reached the back CdTe surface, with Cl diffusing down to the\n                      TCO, where it accumulated. The higher annealing temperature during the CHT process\n                             resulted in an increase in Voc relative to a standard CHT process at 420 ◦C. An AZS HRT\n                             layer 100 nm thick improved Voc relative to using a 50 nm AZS layer. The large positive\n                  CBD in the conduction band with the inclusion of the AZS HRT increases the energy\n                              difference of electron-hole pairs to reduce recombination and improve Voc. Investigation\n                               into the dark J-V characteristics for device samples (c) and (d), both having undergone agg.\n                  CHT post growth, showed that the inclusion of an AZS HRT layer increased the reverse\n                             saturation current-density and ideality factor in comparison to a baseline device sample\n                           without an AZS HRT layer. This infers that minority recombination was greater for devices\n                         with AZS, which did not correlate with the J-V parameters under light conditions. The\n                           energy difference between electron-hole pairs was greater for the device samples with AZS,\n                           reducing the probability of recombination. This resulted in higher Voc for device samples\n                         with AZS relative to the baseline device sample (no AZS), where the energy difference\n                         between electron-hole pairs was closer, giving more probability of recombination reducing\n                            the Voc. The energy barrier caused by inclusion of the AZS layer had a detrimental effect\n                       on the diode quality. However, the greater energy provided under light conditions led to\n                             saturation of generated carriers in this region. This drove the PV drift across the depletion\n                            region where the carriers were collected, leading to the observed increase in J-V parameters.\n\n\n                           Author Contributions: Funding acquisition and supervision, S.J.C.I. and J.M.W.; investigation, P.J.S.,\n                                            S.J. and A.T.; methodology, A.J.C., P.J.S., S.J. and O.O.; characterisation, P.J.S., S.J., O.O. and A.A.; data\n                                  curation, A.J.C.; writing—original draft preparation, S.J.C.I. and A.J.C.; writing—review and editing,\n                                        all authors. All authors have read and agreed to the published version of the manuscript.",
+      "tables": [
+        {
+          "label": "Table 2",
+          "caption": "Table 2. Average reverse saturation current-density (J0) and ideality factor (n) extrapolated from dark\nJ-V curves for device samples (c) and (d) with comparison to an equivalent device (Baseline) without\nan AZS HRT layer.",
+          "bbox": [
+            35.72,
+            141.69,
+            558.99,
+            217.44
+          ],
+          "rows": [
+            [
+              "Sample",
+              "AZS\n(nm)",
+              "CdS (nm)",
+              "Cd(Zn)S\n(nm)",
+              "CdTe:As\n(nm)",
+              "CHT (◦C)",
+              "T ◦C\n(min)",
+              "No.\nCells",
+              "Mean n",
+              "Mean J0\n(mA/cm²)"
+            ],
+            [
+              "Baseline",
+              "-",
+              "50",
+              "100",
+              "3000",
+              "420",
+              "10",
+              "8",
+              "1.4 ± 0.1",
+              "7.2 × 10⁻⁹"
+            ],
+            [
+              "c",
+              "50",
+              "50",
+              "100",
+              "3000",
+              "440",
+              "10",
+              "8",
+              "1.5 ± 0.2",
+              "2.4 × 10⁻⁷"
+            ],
+            [
+              "d",
+              "100",
+              "50",
+              "100",
+              "3000",
+              "440",
+              "10",
+              "12",
+              "1.7 ± 0.0",
+              "9.2 × 10⁻⁸"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 2",
+          "text": "Table 2. Average reverse saturation current-density (J0) and ideality factor (n) extrapolated from dark\nJ-V curves for device samples (c) and (d) with comparison to an equivalent device (Baseline) without\nan AZS HRT layer.",
+          "bbox": [
+            166.1,
+            97.31,
+            559.52,
+            132.01
+          ]
+        }
+      ],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Coatings 2022, 12, 261                                                                                                          10 of 11\n\n\n\n\n                            Funding: This work was funded by the Europe Regional Development Fund (ERDF) through\n                               the Welsh European Funding Ofﬁce (WEFO) on the 2nd Solar Photovoltaic Academic Research\n                           Consortium (SPARC II) project, case number 81133, and the Engineering and Physical Sciences\n                              Research Council (EPSRC) funded project EP/W000555/1.\n\n                                 Institutional Review Board Statement: Not applicable.\n\n                           Informed Consent Statement: Not applicable.\n\n                           Data Availability Statement: Data used in this publication are archived at DOI:10.5281/zenodo.5784060.\n\n                             Conﬂicts of Interest: The authors declare no conﬂict of interest.\n\nReferences\n\n1.   Photovoltaic Report, Freiburg, 16 September 2020. Available online: https://www.ise.fraunhofer.de/content/dam/ise/de/\n     documents/publications/studies/Photovoltaics-Report.pdf (accessed on 29 November 2021).\n2.    Crystalline Silicon PV Market by Type (Mono-Crystalline and Multi-Crystalline) and End-User (Residential and Com-\n     mercial, Utility-Scale)—Global Opportunity Analysis and Industry Forecasts, 2014–2022. Available online: https://www.\n     alliedmarketresearch.com/crystalline-silicon-photovoltaic-pv-market (accessed on 13 December 2021).\n3.   Green, M.A.; Dunlop, E.D.; Hohl-Ebinger, I.; Yoshita, M.; Kopidakis, N.; Hao, X. Solar Cell Efﬁciency Tables (Version 58). Prog.\n      Photovolt. Res. Appl. 2021, 29, 657–667. [CrossRef]\n4.   Ablekim, T.; Colegrove, E.; Metzger, W.K. Interface Engineering for 25% CdTe Solar Cells. ACS Appl. Energy Mater. 2018, 10,\n     5135–5139. [CrossRef]\n5.    Irvine, S.J.C.; Barrioz, V.; Lamb, D.; Jones, E.W.; Rowlands-Jones, R.L. MOCVD of thin ﬁlm photovoltaic solar cells—Next-\n     generation production technology? J. Cryst. Growth 2008, 310, 5198–5203. [CrossRef]\n6.   Kartopu, G.; Oklobia, O.; Turkay, D.; Diercks, D.R.; Gorman, B.P.; Barrioz, V.; Campbell, S.; Major, J.D.; Al Turkestani, M.K.; Yerci,\n       S.; et al. Study of thin ﬁlm poly-crystalline CdTe solar cells presenting high acceptor concentrations achieved by in-situ arsenic\n     doping. Sol. Energy Mater. Sol. Cells 2019, 194, 259–267. [CrossRef]\n7.   Perrenoud, J.; Kranz, L.; Gretener, C.; Pianezzi, F.; Nishiwaki, S.; Buecheler, S.; Tiwari, A.N. A comprehensive picture of Cu\n     doping in CdTe solar cells. J. Appl. Phys. 2013, 114, 174505. [CrossRef]\n8.   Yang, J.H.; Yin, W.J.; Park, J.S.; Burst, J.; Metzger, W.K.; Gessert, T.; Barnes, T.; Wei, S.H. Enhanced p-type dopability of P and As in\n    CdTe using non-equilibrium thermal processing. J. Appl. Phys. 2015, 118, 025102. [CrossRef]\n9.   Metzger, W.K.; Grover, S.; Lu, D.; Colegrove, E.; Moseley, J.; Perkins, C.L.; Li, X.; Mallick, R.; Zhang, W.; Malik, R.; et al. Exceeding\n    20% efﬁciency with in situ group V doping in polycrystalline CdTe solar cells. Nat. Energy 2019, 4, 837–845. [CrossRef]\n10.  Grover, S.; Li, X.; Lu, D.; Mallick, R.; Xiong, G.; Gloeckler, M. Comparison of P, As & Sb doped Polycrystalline CdTe Solar Cells. In\n     Proceedings of the IEEE 46th Photovoltaic Specialists Conference (PVSC), Chicago, IL, USA, 16–21 June 2019. [CrossRef]\n11.   Proscia, J.; Gordon, R.G. Properties of ﬂuorine-doped tin oxide ﬁlms produced by atmospheric pressure chemical vapor deposition\n     from tetramethyltin, bromotriﬂuoromethane and oxygen. Thin Solid Films 1992, 214, 175–187. [CrossRef]\n12.   Bittau, F.; Potamialis, C.; Togay, M.; Abbas, A.; Isherwood, P.J.M.; Bowers, J.W.; Walls, J.M. Analysis and optimisation of the\n    glass/TCO/MZO stack for thin ﬁlm CdTe solar cells. Sol. Energy Mater. Sol. Cells 2018, 187, 15–22. [CrossRef]\n13.  Kephart, J.M.; McCamy, J.W.; Mab, Z.; Ganjoo, A.; Alamgir, F.M.; Sampath, W.S. Band alignment of front contact layers for\n     high-efﬁciency CdTe solar cells. Sol. Energy Mater. Sol. Cells 2016, 157, 266–275. [CrossRef]\n14.  Clayton, A.J.; Oklobia, O.; Siderﬁn, P.J.; Jones, S.; Kartopu, G.; Teloeken, A.C.; Lamb, D.A.; Irvine, S.J.C. In-line MOCVD of\n    Aluminium Alloyed Zinc Sulﬁde: A path to high performance CdTe Solar cells. In Proceedings of the 35th EUPVSEC, Brussels,\n     Belgium, 24–27 September 2018.\n15.  Burgelman, M.; Verschraegen, J.; Degrave, S.; Nollet, P. Analysis of CdTe solar cells in relation to materials issues. Thin Solid Films\n     2005, 480–481, 392–398.\n16.  Munshi, A.H.; Kephart, J.M.; Abbas, A.; Danielson, A.; Gḗlinasc, G.; Beaudry, J.-N.; Barth, K.L.; Walls, J.M.; Sampath, W.S. Effect\n      of CdCl2 passivation treatment on microstructure and performance of CdSeTe/CdTe thin-ﬁlm photovoltaic devices. Sol. Energy\n     Mater. Sol. Cells 2018, 186, 259–265. [CrossRef]\n17.  Kartopu, G.; Taylor, A.A.; Clayton, A.J.; Barrioz, V.; Lamb, D.A.; Irvine, S.J.C. CdCl2 treatment related diffusion phenomena in\n    Cd1−xZnxS/CdTe solar cells. J. Appl. Phys. 2014, 115, 104505. [CrossRef]\n18.   Barrioz, V.; Kartopu, G.; Irvine, S.J.C.; Monir, S.; Yang, X. Material utilization when depositing CdTe layers by inline AP-MOCVD.\n        J. Cryst. Growth 2012, 354, 81–85. [CrossRef]\n19.  Rugen-Hankey, S.L.; Clayton, A.J.; Barrioz, V.; Kartopu, G.; Irvine, S.J.C.; McGettrick, J.D.; Hammond, D. Improvement to thin\n    ﬁlm CdTe solar cells with controlled back surface oxidation. Sol. Energy Mater. Sol. Cells 2015, 136, 213–217. [CrossRef]\n20.  Durose, K.; Cousins, M.A.; Boyle, D.S.; Beier, J.; Bonnet, D. Grain boundaries and impurities in CdTe/CdS solar cells. Thin Solid\n     Films 2002, 403–404, 396–404. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 11,
+      "text": "Coatings 2022, 12, 261                                                                                                          11 of 11\n\n\n\n\n21.  Vatavu, S.; Zhao, H.; Padma, V.; Rudaraju, R.; Morel, D.L.; Ga¸sin, P.; Caraman, I.; Ferekides, C.S. Photoluminescence studies of\n    CdTe ﬁlms and junctions. Thin Solid Films 2007, 515, 6107–6111. [CrossRef]\n22.  Clayton, A.J.; Baker, M.A.; Babar, S.; Grilli, R.; Gibson, P.N.; Kartopu, G.; Lamb, D.A.; Barrioz, V.; Irvine, S.J.C. Effects of Cd1-xZnxS\n      alloy composition and post-deposition air anneal on ultra-thin CdTe solar cells produced by MOCVD. Mater. Chem. Phys. 2017,\n     192, 244–252. [CrossRef]\n23.  Kartopu, G.; Clayton, A.J.; Brooks, W.S.M.; Hodgson, S.D.; Barrioz, V.; Maertens, A.; Lamb, D.A.; Irvine, S.J.C. Effect of window\n     layer composition in Cd1-xZnxS/CdTe solar cells. Prog. Photovolt. Res. Appl. 2014, 22, 18–23. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "6f52dcd65bcbc64691c972bfe28d289f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            516.92,
+            56.15,
+            558.47,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_6f52dcd65bcbc64691c972bfe28d289f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "59c116537ecf25f8d7692dabbf2060fb",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            517.1,
+            56.34,
+            538.31,
+            76.49
+          ]
+        }
+      ],
+      "file": "garbage/page1_59c116537ecf25f8d7692dabbf2060fb.png",
+      "is_garbage": true
+    },
+    {
+      "id": "62efa0313b674db8d12560bbe65e7581",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            537.1,
+            63.4,
+            558.32,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_62efa0313b674db8d12560bbe65e7581.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bdad99135e250503119f6f098d743bd0",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            521.38,
+            65.4,
+            553.92,
+            74.6
+          ]
+        }
+      ],
+      "file": "garbage/page1_bdad99135e250503119f6f098d743bd0.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            35.72,
+            656.88,
+            92.41,
+            676.72
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

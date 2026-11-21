@@ -1,0 +1,936 @@
+{
+  "publication_id": "P025",
+  "source_file": "P025.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "Constructing Heterostructure through Bidentate Coordination toward Operationally Stable Inverted Perovskite Solar Cells",
+    "author": "Caiyi Zhang; Ting Guo; Luis K. Ono; Shuai Yuan; Tianhao Wu; Hengyuan Wang; Jiahao Zhang; Xiaomin Liu; Xiaomin Huo; Congyang Zhang; Chenfeng Ding; Tongtong Li; Yanbo Wang; Liyuan Han; Yabing Qi",
+    "subject": "Solar RRL 2023.7:2300253",
+    "keywords": "bidentate coordination, halogen bonding, I2, ion migration, perovskite solar cells",
+    "creator": "Arbortext Advanced Print Publisher 9.1.405/W Unicode",
+    "producer": "Acrobat Distiller 10.0.0 (Windows); modified using iTextSharp 5.5.13 ©2000-2018 iText Group NV (AGPL-version)",
+    "creationDate": "D:20230710003027-04'00'",
+    "modDate": "D:20261119023915-08'00'",
+    "DOI": "10.1002/solr.202300253",
+    "year": 2023,
+    "authors": [
+      "Caiyi Zhang",
+      "Ting Guo",
+      "Luis K. Ono",
+      "Shuai Yuan",
+      "Tianhao Wu",
+      "Hengyuan Wang",
+      "Jiahao Zhang",
+      "Xiaomin Liu",
+      "Xiaomin Huo",
+      "Congyang Zhang",
+      "Chenfeng Ding",
+      "Tongtong Li",
+      "Yanbo Wang",
+      "Liyuan Han",
+      "Yabing Qi"
+    ]
+  },
+  "page_count": 7,
+  "pages": [
+    {
+      "page": 1,
+      "text": "RESEARCH ARTICLE\n\n                                                                                                                            www.solar-rrl.com\n\nConstructing Heterostructure through Bidentate\nCoordination toward Operationally Stable Inverted\nPerovskite Solar Cells\n\nCaiyi Zhang, Ting Guo, Luis K. Ono, Shuai Yuan, Tianhao Wu, Hengyuan Wang,\nJiahao Zhang, Xiaomin Liu, Xiaomin Huo, Congyang Zhang, Chenfeng Ding,\nTongtong Li, Yanbo Wang, Liyuan Han,* and Yabing Qi*\n\n\n\n                                                                             sequence of hole transport layer (p), intrin-\nIt has been reported that one of the inﬂuencing factors leading to stability issues       sic perovskite layer (i), and electron trans-\nin iodine-containing perovskite solar cells is the iodine loss from the perovskite      port layer  (n), exhibit  attractive features\n                                                                            such  as  low-temperature  processability,layer. Herein, bidentate coordination is used with undercoordinated I  of the\n                                                                                           negligible  hysteresis, promising  stability\nperovskite surface to construct the stable perovskite-based heterostructure. This\n                                                                        due to the undoped charge transport layer\nstrong halogen bonding effectively inhibits interfacial migration of I  into         and compatibility with tandem as well as\nfunctional layers such as C60 and Ag. Moreover, passivation of the undercoor-      ﬂexible  devices.[3]  Recently,  the  perfor-\ndinated I  suppresses the release of I2 and further delays the formation of voids     mance of the inverted PSCs has seen sub-\nat the perovskite surface. The resulting inverted perovskite solar cell exhibits a       stantial improvement mainly due to the\n                                                                            development  of the efﬁcient  perovskite-\npower conversion efﬁciency of 22.59% and the unencapsulated device maintains\n                                                                              based   heterojunction.[4]  For  example,\n96.15% of its initial value after continuous operation for 500 h under illumination.                                                              Zhu et al. constructed the surface hetero-\n                                                                                      junction  by  applying  3-(Aminomethyl)\n                                                                                      pyridine (3-APy) to react with the surface\n                                                              FAþ of perovskite to reduce  its surface\n1. Introduction                                                   potential ﬂuctuations leading to n-type doping of the surface\n                                                                    region, thus obtaining a PCE over 25%.[5] Xu et al. developed\nMetal halide perovskite solar  cells (PSCs) have been widely   a porous insulator contact at the buried heterojunction to effec-\nstudied as a promising alternative photovoltaic technology due    tively reduce the nonradiative recombination without sacriﬁcing\nto their outstanding optoelectronic properties, such as high    the series resistance and achieved high Voc and FF with a certi-\nabsorption coefﬁcient, low exciton binding energy, and long car-   ﬁed PCE of 24.7%.[6] Moreover, researchers are also making sig-\nrier diffusion length.[1] During the past decade, the progressive   niﬁcant progress in enhancing the PCE of perovskite modules via\nincrease in power conversion efﬁciency (PCE) from 3.8% to   improving the uniformity of perovskite and other active layers.[7]\n25.7% has been witnessed.[2] Among the device structures, the   In contrast, the instability of PSCs under operational conditions\ninverted  (p-i-n  structure)  PSCs,  following  the  deposition     still poses a severe challenge to the commercialization of PSCs.\n                                                       The weak bonding nature of perovskite makes the soft crystal\n                                                                                 lattice to degrade easily on the perovskite surface.[8] As a result,C. Zhang, Y. Wang, L. Han\nState Key Laboratory of Metal Matrix Composites                       the perovskite components will diffuse and corrode the other\nShanghai Jiao Tong University                                         functional layers including transport layer as well as electrodes.[9]\nShanghai 200240, China                                    The activation energy of I   is small according to the theoretical\nE-mail: han.liyuan@sjtu.edu.cn                                              calculations.[10] Consequently, I  can easily migrate and generate\nC. Zhang, T. Guo, L. K. Ono, S. Yuan, T. Wu, H. Wang, J. Zhang, X. Liu,     I2, especially on the surface due to half of the chemical bond com-\nX. Huo, C. Zhang, C. Ding, T. Li, Y. B. Qi                                                            pared with the bulk.[11] This is accelerated under operational con-Energy Materials and Surface Sciences Unit (EMSSU)\nOkinawa Institute of Science and Technology Graduate University (OIST)    ditions such as illumination and electric ﬁelds.[12] So far, the\nOkinawa 904-0495, Japan                                             insertion of physical blocking layers is a promising strategy to\nE-mail: yabing.qi@oist.jp                                                inhibit I  migration at the surface.[13] However, under long-term\n   The ORCID identiﬁcation number(s) for the author(s) of this article    illumination and  electric ﬁelds, iodine ions tend to diffuse\n   can be found under https://doi.org/10.1002/solr.202300253.         through these physical blocking layers, thus promoting the deg-\n                                                                  radation of the device. An additional instability factor arises from© 2023 The Authors. Solar RRL published by Wiley-VCH GmbH. This is an\nopen access article under the terms of the Creative Commons Attribution-    the generation of I2 that induces the degradation of perovskite.[14]\nNonCommercial-NoDerivs License, which permits use and distribution in   However, it is challenging to inhibit both the I2 release and I\nany medium, provided the original work is properly cited, the use is non-    invasion.\ncommercial and no modiﬁcations or adaptations are made.                                                          Halogen bonding has recently been employed in PSCs for\nDOI: 10.1002/solr.202300253                                          interfacial toughening, crystallization manipulation, and trap\n\n\nSol. RRL 2023, 7, 2300253                  2300253 (1 of 7)            © 2023 The Authors. Solar RRL published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "cde2017ee1dd0136c9ae78f4cb37ddd3",
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2023,\n                                                                                                                                                                                                                        15,\n\npassivation.[15] In addition, increasing the strength of halogen    perovskite (Figure 1b). However, IPFB and 1,4-DITFB tend tobonding can improve the performance and stability of devices.[16]   adsorb at the perovskite surface via a monodentate coordination                                               Downloaded\n  Here, 1,2-diiodotetraﬂuorobenzene (1,2-DITFB) is selected to    (Figure 1a), which can be easily broken owing to the low binding                   from\nform the bidentate coordination bond with undercoordinated    strength.[17] To solve this issue without sacriﬁcing the halogen\nI   of the perovskite surface, thus obtaining strong halogen   bonding, 1,2-DITFB was selected to form the bidentate coordina-\nbonding according to the density functional theory (DFT) calcu-    tion with perovskite. To conﬁrm this, we used the DFT calcula-\nlations and nuclear magnetic resonance (NMR) measurements.    tions to study the adsorption mode for the 1,2-DITFB on an\nThe stable perovskite/1,2-DITFB heterostructure is beneﬁcial in    I-terminated (001) perovskite surface.[15e,f] The energy for the\ninhibiting the I  invasion into C60 and Ag via chemical bond    bidentate coordination  (-251.15 eV)  is lower compared with\n(Figure 1a). Moreover, 1,2-DITFB could passivate the undercoor-    the monodentate coordination  (  250.65 eV),  indicating  that\ndinated I  on the perovskite surface, hence suppressing the   1,2-DITFB  is more  likely to be absorbed on the surface of\nrelease of I2 and further delaying the formation of voids at    perovskite  via  the  bidentate mode  (Figure  S1, Supporting\nthe perovskite surface during operational conditions. As a result,    Information). After the structure optimization of the perovskite/\n1,2-DITFB-based inverted PSCs exhibited a PCE of 22.59% and   designated molecules  (Figure  S2, Supporting  Information),\nthe unencapsulated devices maintained 96.15% of initial efﬁ-    there is obvious charge density accumulation between σ-hole                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 https://onlinelibrary.wiley.com/doi/10.1002/solr.202300253,\nciency after 500 h aging under operational conditions at N2.      from the selected molecules and I  from perovskite, which con-\n                                                   ﬁrms the presence of halogen–halogen bonds in those complexes                       Wiley\n                                                                 (Figure 1a).[16a] However, there are two I atoms involved in the                            Online\n                                                                                of                                                                        halogen                                                                           bonding                                                                                                 in the 1,2-DITFB                                                                                                                         case,                                                                                                                 while only2. Results and Discussion                               formation\n                                                        one I atom                                                                                                is                                                                               involved                                                                                          in the formation                                                                                                               of halogen                                                                                                      bonding                                                                                                                               in                                 Library\nFluorinated analogs have been demonstrated to be effective for   both the IPFB and 1,4-DITFB case (Figure 1a). This also indicates         on\nenhancing halogen bonding strength, such as the commonly    that 1,2-DITFB forms the bidentate coordination with perovskite\nused iodopenta-ﬂuorobenzene (IPFB) and 1,4-DITFB mole-    in contrast with the monodentate coordination in that of IPFB                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          [19/11/2026].\ncules.[15b,g] This is ascribed to the positive electrostatic potentials   and 1,4-DITFB. The side and top view for bidentate coordination              See\n(σ-hole) at the I atom side of the molecules, which could act as    in 1,2-DITFB and  perovskite  are  displayed  in  Figure  S3,              the\nLewis  acid and coordinate with the  I   (Lewis  base) from   Supporting Information. To explore the effect of the bidentate                       Terms\n                                                                                                                                                                                                                        and\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Conditions\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                         Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                                 Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                         rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                 use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 governed\n                                                                                                                                                by\nFigure 1. a) Schematic of the device structure, the coordination mode between the perovskite and selected molecules (IPFB, 1,4-DITFB, and 1,2-DITFB),              the\nand the corresponding charge transfer density difference plots from DFT calculations. The contour value for the isodensity plot is 0.0002. The positive\ncharge density regions are highlighted in yellow, and the negative ones in blue. b) The electrostatic potentials of the selected molecules. The color bar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 applicablefrom red to blue represents the increase in electropositivity. c) The absolute work of separation (Wsep) values for the selected molecules and perovskite\n(I-terminated) surface from the DFT calculation. d) Change of 19 F NMR chemical shift for selected molecules after the addition of PbI2 and FAI.                                               Creative\nSol. RRL 2023, 7, 2300253                  2300253 (2 of 7)            © 2023 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. a) Schematic of the device structure, the coordination mode between the perovskite and selected molecules (IPFB, 1,4-DITFB, and 1,2-DITFB),\nand the corresponding charge transfer density difference plots from DFT calculations. The contour value for the isodensity plot is 0.0002. The positive\ncharge density regions are highlighted in yellow, and the negative ones in blue. b) The electrostatic potentials of the selected molecules. The color bar\nfrom red to blue represents the increase in electropositivity. c) The absolute work of separation (Wsep) values for the selected molecules and perovskite\n(I-terminated) surface from the DFT calculation. d) Change of ¹⁹ F NMR chemical shift for selected molecules after the addition of PbI2 and FAI.",
+          "figure_bbox": [
+            51.12,
+            368.43,
+            540.81,
+            662.53
+          ],
+          "bbox": [
+            48.02,
+            669.5,
+            544.06,
+            718.89
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. a) Schematic of the device structure, the coordination mode between the perovskite and selected molecules (IPFB, 1,4-DITFB, and 1,2-DITFB),\nand the corresponding charge transfer density difference plots from DFT calculations. The contour value for the isodensity plot is 0.0002. The positive\ncharge density regions are highlighted in yellow, and the negative ones in blue. b) The electrostatic potentials of the selected molecules. The color bar\nfrom red to blue represents the increase in electropositivity. c) The absolute work of separation (Wsep) values for the selected molecules and perovskite\n(I-terminated) surface from the DFT calculation. d) Change of ¹⁹ F NMR chemical shift for selected molecules after the addition of PbI2 and FAI.",
+          "bbox": [
+            51.12,
+            368.43,
+            540.81,
+            662.53
+          ],
+          "file": "extracted_images/page2_figure-1_1.png"
+        }
+      ],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2023,\n                                                                                                                                                                                                                       15,\n\ncoordination on the adhesion strength, DFT calculations were    of I  via chemical bond. Furthermore, 1,2-DITFB was employedemployed  to  obtain  the work  of  separation  (Wsep).[15f,18]    at the surface of perovskite to investigate the effect of bidentate                                           Downloaded\nThe  absolute Wsep  value  of  perovskite  with  1,2-DITFB    coordination on the stability and efﬁciency of the surface heter-                 from\n(0.192 J m  2)  was  about  three  times   that  with  IPFB    ojunction and the devices. On the basis of the scanning electron\n(0.0638 J m  2) or 1,4-DITFB (0.067 J m  2) (Figure 1c), which   microscopy (SEM), X-Ray diffraction (XRD), and ultraviolet–\ncould be ascribed to the bidentate coordination in the  1,2-    visible (UV–vis) absorption spectroscopy results (Figure S5–S7,\nDITFB case. To further illustrate the effect of the bidentate mode   Supporting Information), the additional molecular layer (IPFB,\non the strength of the halogen bonding, NMR measurements   1,4-DITFB, or 1,2-DITFB) spin-coated on the perovskite sample\nwere employed to characterize the interaction between IPFB,    only leads to negligible change to the morphology, crystallinity,\n1,4-DITFB, 1,2-DITFB, and the perovskite. To indicate the halo-   and bandgap of the perovskite ﬁlm.\ngen bonding, we ﬁrst only mix the PbI2 with selected molecules.     The effect of bidentate coordination on I  migration in the\nCompared with the pristine molecules, the chemical shifts of F in    solar cell device under operational conditions is investigated.\n1,2-DITFB (0.561 ppm) mixed with the PbI2 are much larger than   To directly detect I  migration, the Ag electrodes of the device\nthat of the IPFB (0.408 ppm) or 1,4-DITFB (0.354 ppm) mixed   were peeled off by carbon tape (Figure 2a).[19] As a result, thewith the PbI2 (Figure S4, Supporting Information), which is    surface of perovskite/C60 and the Ag electrodes could be obtained                                                                                                                                                                                                                                                           https://onlinelibrary.wiley.com/doi/10.1002/solr.202300253,\nrelated to the bidentate mode                             in 1,2-DITFB and is consistent with    (Figure S8, Supporting Information). Obvious I signals could be                     Wiley                               [16a,21b]the DFT calculations.       To further conﬁrm the halogen    detected in the Ag electrodes for the control device after opera-\nbonding between the molecules and perovskite, we further    tional aging, indicating  I   diffusion toward the Ag cathode                          Online\nadd FAI into the mixture of PbI2 and molecules. Similarly,    (Figure 2b). In contrast, the I signal in the Ag electrodes from                              Library\nthe chemical shifts of the F in 1,2-DITFB (1.062 ppm) mixed with    the 1,2-DITFB device was the smallest compared with the         on\nthe FAI and PbI2 are much larger than  that of the IPFB    control, IPFB, and 1,4-DITFB device, implying that 1,2-DITFB\n(0.741 ppm) or 1,4-DITFB (0.680 ppm) mixed with the FAI   suppresses I  diffusion effectively. Moreover, the integrated areaand PbI2 (Figure 1d and S4, Supporting Information).              ratio of aged control and aged 1,2-DITFB on I 3d5/2 peak was                                                       [19/11/2026].\n  Due to the coordination with I  from perovskite and selected   found to be 6.39. In addition, a similar phenomenon was also             See\nmolecules, this halogen bonding is expected to passivate the   observed   at  the  surface  of  perovskite/C60  (Figure  S9,             the\nundercoordinated I  traps and suppress the interfacial migration   Supporting  Information). To  further  verify  this  point,  the                     Terms\n                                                                                                                                                                                                                       and\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Conditions\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                               on\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                              Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Library\n                                                                                                                                                                                                                       for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                               of\n                                                                                                                                                                                                                                                                                               use;\n                                                                                                                                               OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              articles\n                                                                                                                                                                                                                       are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              governed\n                                                                                                                                               by\n                                                                                                                                                                                                                       the\nFigure 2. a) Schematic diagrams of the peeling-off process of the Ag electrodes from the devices and corresponding photos. b) XPS spectra of the I 3d\ncore level of the aged Ag electrodes surface from the device without treatment (orange), with IPFB (black), with 1,4-DITFB (blue), and 1,2-DITFB (red).c) EDX mapping and d) the corresponding weight percentage of iodine in the aged Ag electrodes surface from the device without treatment (orange) and                                           applicable\nwith 1,2-DITFB (red).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Creative\nSol. RRL 2023, 7, 2300253                  2300253 (3 of 7)            © 2023 The Authors. Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. a) Schematic diagrams of the peeling-off process of the Ag electrodes from the devices and corresponding photos. b) XPS spectra of the I 3d\ncore level of the aged Ag electrodes surface from the device without treatment (orange), with IPFB (black), with 1,4-DITFB (blue), and 1,2-DITFB (red).\nc) EDX mapping and d) the corresponding weight percentage of iodine in the aged Ag electrodes surface from the device without treatment (orange) and\nwith 1,2-DITFB (red).",
+          "figure_bbox": [
+            54.47,
+            375.63,
+            543.53,
+            670.64
+          ],
+          "bbox": [
+            51.02,
+            677.6,
+            547.06,
+            715.71
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. a) Schematic diagrams of the peeling-off process of the Ag electrodes from the devices and corresponding photos. b) XPS spectra of the I 3d\ncore level of the aged Ag electrodes surface from the device without treatment (orange), with IPFB (black), with 1,4-DITFB (blue), and 1,2-DITFB (red).\nc) EDX mapping and d) the corresponding weight percentage of iodine in the aged Ag electrodes surface from the device without treatment (orange) and\nwith 1,2-DITFB (red).",
+          "bbox": [
+            54.47,
+            375.63,
+            543.53,
+            670.64
+          ],
+          "file": "extracted_images/page3_figure-2_1.png"
+        }
+      ],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2023,\n                                                                                                                                                                                                                        15,\n\nexposed Ag  electrodes from  the  device  without and  with    I contacts Ag electrode, AgI (semiconductor) is formed leading to1,2-DITFB are measured with SEM-EDX. From the mapping   lower conductivity, which could induce energy level mismatch                                               Downloaded\nand point ID spectrum, the I weight ratio (wt%) of the exposed   and decrease the device  performance.[9c,20] Besides eroding                   from\nAg electrodes in the fresh device is 0.0% (Figure S10 and S11,    the other functional layer (C60, Ag), the undercoordinated I\nSupporting Information). After aging under operational condi-    is  likely  to degrade the perovskite layer  via the generation\ntions, the exposed Ag electrodes in the control device show a    of I2.[9b] During the operation, the undercoordinated I  on the\nstronger I signal than that of the 1,2-DITFB device (Figure 2c).    surface of perovskite captures a hole to form a neutral I atom.\nIn addition, the corresponding mapping spectrum in the exposed   Furthermore, two I atoms diffuse and combine to generate\nAg electrodes in the control device (1.4%) exhibits a higher     I2.[14c] To verify this, we adopted UV–vis spectroscopy to charac-\nI content compared with the 1,2-DITFB treated device (0.2%)    terize the formation of I2 in the control and 1,2-DITFB treated\n(Figure S12, Supporting Information). The point ID proﬁle in   ﬁlms. An absorption band at 500 nm corresponds to the complex\nthe exposed Ag electrodes showed a similar trend (Figure 2d   between  toluene and  I2.[9b,14c]  After exposing  the  toluene-\nand S13, Supporting Information). These results indicate that   submersed ﬁlms to light for 48 h, we observed a faster release\nthe stronger halogen bonding in 1,2-DITFB via bidentate coordi-    of I2 from the control ﬁlm compared with the sample withnation suppresses more effectively the I invasion into other func-    the 1,2-DITFB treatment in Figure 3d.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  https://onlinelibrary.wiley.com/doi/10.1002/solr.202300253,\ntional layers.                                           Owing to the passivation of the undercoordinated I  on the                       Wiley\n  We also conducted Kelvin probe force microscopy (KPFM) to    surface of perovskite, the suppression of I2 in 1,2-DITFB could\ninvestigate the electrical properties of the exposed C60 layer.    further inhibit the formation of voids on the surface of perovskite                            Online\nThe contact  potential difference (CPD)  of aged perovskite/    (Figure 3e,f), consistent with previous reports.[21] These voids                                 Library\n1,2-DITFB/C60 was similar to that of the fresh sample, but   hinder the extraction of charge carriers and act as a reservoir         on\nthe CPD of the aged perovskite/C60 is 98 mV lower than that    for I2 to further trigger the degradation of the perovskite.[14a,b,d,22]\nof the fresh sample (Figure 3a–c), where the corresponding   To conﬁrm  this, we conducted photoluminescence (PL)  toAFM image is shown in Figure S14, Supporting Information.    characterize  the  nonradiative  recombination  of  perovskite.                                                             [19/11/2026].\nIn addition, the CPD distribution of the aged samples is analyzed   The fresh ﬁlm treated with 1,2-DITFB showed stronger PL inten-              See\nin Figure S15, Supporting Information; the aged sample with    sity than that of the control ﬁlm, indicating less nonradiative              the\n1,2-DITFB showed a narrower distribution compared with the   recombination  and  a  lower  concentration  of  trap  states                       Terms\naged sample without the 1,2-DITFB treatment, indicating the    (Figure  S16,  Supporting  Information).  This  observation  is              and\nhomogeneous surface of C60 in the device with the 1,2-DITFB    consistent with the lower current leakage in the device treatedtreatment. In addition, previous works show that when migrated   with 1,2-DITFB (3.051  10  9 mA cm  2) than the control device                                               Conditions\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                         Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                                 Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                         rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                 use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 governed\n                                                                                                                                                by\n                                                                                                                                                                                                                        the\nFigure 3. Surface potential mapping of the perovskite/C60 ﬁlm from the device without treatment a) before aging and b) after aging, and c) with 1,2-DITFB\nafter aging. d) UV–vis absorbance spectra for the toluene solution collected from the control and 1,2-DITFB treated vials after light soaking. The band at                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 applicable500 nm corresponds to the complex (toluene reacted with I2). The corresponding morphology of the perovskite/C60 from the device e) without treatment\nand f) with 1,2-DITFB after aging.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Creative\nSol. RRL 2023, 7, 2300253                  2300253 (4 of 7)            © 2023 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. Surface potential mapping of the perovskite/C60 ﬁlm from the device without treatment a) before aging and b) after aging, and c) with 1,2-DITFB\nafter aging. d) UV–vis absorbance spectra for the toluene solution collected from the control and 1,2-DITFB treated vials after light soaking. The band at\n500 nm corresponds to the complex (toluene reacted with I2). The corresponding morphology of the perovskite/C60 from the device e) without treatment\nand f) with 1,2-DITFB after aging.",
+          "figure_bbox": [
+            67.39,
+            414.18,
+            524.54,
+            672.17
+          ],
+          "bbox": [
+            48.02,
+            678.79,
+            544.05,
+            717.24
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. Surface potential mapping of the perovskite/C60 ﬁlm from the device without treatment a) before aging and b) after aging, and c) with 1,2-DITFB\nafter aging. d) UV–vis absorbance spectra for the toluene solution collected from the control and 1,2-DITFB treated vials after light soaking. The band at\n500 nm corresponds to the complex (toluene reacted with I2). The corresponding morphology of the perovskite/C60 from the device e) without treatment\nand f) with 1,2-DITFB after aging.",
+          "bbox": [
+            67.39,
+            414.18,
+            524.54,
+            672.17
+          ],
+          "file": "extracted_images/page4_figure-3_1.png"
+        }
+      ],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2023,\n                                                                                                                                                                                                                       15,\n\n(1.221  10 8mA cm  2) in dark J–V measurements (Figure S17,    protocols (Figure S19, Supporting Information).[13a] A bias closeSupporting Information). After aging, the PL intensity barely    to the voltage at the maximum power point (MPP) was applied to                                           Downloaded\nchanges for the ﬁlm treated with 1,2-DITFB, whereas the control    the corresponding PSCs in the N2-ﬁlled chamber with 5% rela-                 from\nﬁlm shows  a  signiﬁcant  decrease and  the  recombination    tive humidity for tracking the power output. The device temper-\nbecomes severer due to voids. On the basis of these results,    ature (25 °C) was monitored using a thermocouple during the\nwe can conclude that a stabilized heterostructure of perovskite/    operation. Only 78.18% of the initial PCE was retained in control\n1,2-DITFB is formed.                                   PSCs  after tracking  for 208 h, while PSCs with 1,2-DITFB\n  We fabricated PSCs with and without a perovskite/1,2-DITFB    retained 96.15% of their initial PCE under operational conditions\nheterostructure. The cross-sectional SEM images of these PSCs    for 500 h (Figure  4d). The enhanced long-term operational\nare shown in Figure 4a (the PSC with a perovskite/1,2-DITFB    stability is assigned to the stabilized heterostructure via bidentate\nheterostructure) and Figure S18, Supporting Information (the    coordination in perovskite/1,2-DITFB, which inhibits the  I\ncontrol PSC without a perovskite/1,2-DITFB heterostructure).    interfacial migration and I2 release.\nThe current density–voltage (J–V) curves of cells with different\nheterostructures are presented in Figure 4b. The target deviceexhibited a PCE of 22.59% empowered by a high open-circuit   3. Conclusion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             https://onlinelibrary.wiley.com/doi/10.1002/solr.202300253,\nvoltage (Voc) of 1.17 V, a short-circuit current density (Jsc) of                                                                                                                                                                                                   Wiley24.09 mA cm  2, and a ﬁll factor (FF) of 79.97%, whereas the con-   In  summary,  1,2-DITFB  molecules  based  on  IPFB  and\ntrol device showed a PCE of 21.50% with a Voc of 1.5 V, a Jsc of   1,4-DITFB were found to form a stronger halogen bonding with                          Online\n24.00 mA cm  2, and a FF of 78.02%. The improved Voc and FF    the undercoordinated I   at the surface of the perovskite ﬁlm                              Library\nare ascribed to the undercoordinated I  passivation. Both control   owing to the bidentate coordination. As a result, the constructed         on\nand target devices exhibited high external quantum efﬁciency val-    stable heterostructure of perovskite/1,2-DITFB is proven to more\nues (Figure 4c), consistent with their similar Jsc from J–V curves.    effectively suppress the I  migration compared with that ofOperational  stability measurements are important for PSCs   perovskite/IPFB or perovskite/1,4-DITFB. Therefore, the pris-                                                       [19/11/2026].\nbecause light illumination and a number of other external factors    tine electrical properties of C60 and Ag electrodes could be main-             See\ncan accelerate the degradation of the soft perovskite interface.    tained after operational aging. Moreover, this halogen bonding             the\nThe home-designed test system with heater and thermocouple   reduces the undercoordinated  I   defects  of  the  perovskite                     Terms\nis employed to conduct accelerated aging, according to the    surface,  thus  suppressing  the  nonradiative  recombination             and\nInternational Summit on Organic Photovoltaic Stability (ISOS)   and  I2  release.  The  reduced  I2  in  perovskite/1,2-DITFB                                           Conditions\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                               on\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                              Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Library\n                                                                                                                                                                                                                       for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                               of\n                                                                                                                                                                                                                                                                                               use;\n                                                                                                                                               OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              articles\n                                                                                                                                                                                                                       are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              governed\n                                                                                                                                               by\n                                                                                                                                                                                                                       the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             applicableFigure 4. a) Cross-sectional SEM image of the device with 1,2-DITFB. b) J–V curves and c) EQE curves of the control and 1,2-DITFB devices.\nd) Operational stability of the unencapsulated PSCs at N2 measured under room temperature (25 °C) at a ﬁxed bias.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Creative\nSol. RRL 2023, 7, 2300253                  2300253 (5 of 7)            © 2023 The Authors. Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. a) Cross-sectional SEM image of the device with 1,2-DITFB. b) J–V curves and c) EQE curves of the control and 1,2-DITFB devices.\nd) Operational stability of the unencapsulated PSCs at N2 measured under room temperature (25 °C) at a ﬁxed bias.",
+          "figure_bbox": [
+            113.94,
+            394.51,
+            484.06,
+            692.07
+          ],
+          "bbox": [
+            51.02,
+            698.63,
+            547.03,
+            718.43
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. a) Cross-sectional SEM image of the device with 1,2-DITFB. b) J–V curves and c) EQE curves of the control and 1,2-DITFB devices.\nd) Operational stability of the unencapsulated PSCs at N2 measured under room temperature (25 °C) at a ﬁxed bias.",
+          "bbox": [
+            113.94,
+            394.51,
+            484.06,
+            692.07
+          ],
+          "file": "extracted_images/page5_figure-4_1.png"
+        }
+      ],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2023,\n                                                                                                                                                                                                                        15,\n\nheterostructure inhibits the formation of voids when the devices       [1] a) M. A. Green, A. Ho-Baillie, H. J. Snaith, Nat. Photonics 2014, 8, 506;are under  operational  conditions. Therefore, the champion         b)  S.  D.  Stranks,  G.  E.  Eperon,  G.  Grancini,  C.  Menelaou,                                               Downloaded\ndevice based on 1,2-DITFB exhibited a PCE of 22.59% and       M. J. P. Alcocer, T. Leijtens, L. M. Herz, A. Petrozza, H. J. Snaith,                   from\nthe corresponding unencapsulated device maintained 96.15%         Science 2013, 342, 341; c) A. Miyata, A. Mitioglu, P. Plochocka,\nof their initial PCE after 500 h continuous operation aging under       O.  Portugall,   J.  T. W.  Wang,  S.  D.  Stranks,  H.   J.  Snaith,\nthe illumination. This study provides a new way to regulate the         R. J. Nicholas, Nat. Phys. 2015, 11, 582.\n                                                                                                 [2] a) A. Kojima, K. Teshima, Y. Shirai, T. Miyasaka, J. Am. Chem. Soc.\nstrength of halogen bonding between perovskite and molecules\n                                                                            2009, 131, 6050; b) Best Research-Cell Efﬁciency Chart | Photovoltaic\nvia bidentate mode.\n                                                                         Research     |  NREL   https://www.nrel.gov/pv/cell-efﬁciency.html\n                                                                               (accessed: March 2023).\n                                                                                                 [3] a) F. Ma, Y. Zhao, J. Li, X. Zhang, H. Gu, J. You, J. Energy Chem. 2021,\nSupporting Information                                                                                  52, 393; b) C. Chen, J. Liang, J. Zhang, X. Liu, X. Yin, H. Cui, H. Wang,\nSupporting Information is available from the Wiley Online Library or from         C. Wang, Z. Li, J. Gong, Q. Lin, W. Ke, C. Tao, B. Da, Z. Ding, X. Xiao,\nthe author.                                                              G. Fang, Nano Energy 2021, 90, 106608; c) A. Y. Alsalloum, B. Turedi,\n                                                                                   K. Almasabi, X. Zheng, R. Naphade, S. D. Stranks, O. F. Mohammed,\n                                                                   O. M. Bakr, Energy Environ. Sci. 2021, 14, 2263; d) S. Yang, J. Dai,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 https://onlinelibrary.wiley.com/doi/10.1002/solr.202300253,\nAcknowledgements                                                     Z. Yu, Y. Shao, Y. Zhou, X. Xiao, X. C. Zeng,  J. Huang,  J. Am.\n                                                                 Chem. Soc. 2019, 141, 5781;  e) W. Chen,  Y. Zhou, G. Chen,                       Wiley\nL.H.    thanks the National                        Natural                               Science Foundation                                                      of China                                                      (12074245\n                                                                                      Y. Wu, B. Tu, F.-Z. Liu, L. Huang, A. M. C. Ng, A. B. Djuriši´c,                            Onlineand U21A20171)              and the                      JSPS KAKENHI                                        grant (21H02040).                                                     Y.W.                                                            thanks                                                                                Z. He, Adv. Energy Mater. 2019, 9, 1803872.\nthe National Natural Science Foundation of China (52102281). C.Z. thanks                                                                                                 [4] a) C. Li, X. Wang, E. Bi, F. Jiang, S. M. Park, Y. Li, L. Chen, Z. Wang,                                 Librarythe Zhiyuan honors program of Shanghai Jiao Tong University. This work\n                                                                                            L. Zeng, H. Chen, Y. Liu, C. R. Grice, A. Abudulimu, J. Chung, Y. Xian,         on\nwas also supported by funding from the Energy Materials and Surface\n                                                                                       T. Zhu, H. Lai, B. Chen, R. J. Ellingson, F. Fu, D. S. Ginger, Z. Song,Sciences Unit  of the Okinawa  Institute  of Science and Technology\nGraduate University, the OIST R&D Cluster Research Program, and the          E. H. Sargent, Y. Yan, Science 2023, 379, 690; b) P. Chen, Y. Xiao, L. Li,OIST Proof of Concept (POC) Program. The authors thank the OIST          L. Zhao, M. Yu, S. Li, J. Hu, B. Liu, Y. Yang, D. Luo, C.-H. Hou, X. Guo,                                                             [19/11/2026].\nMicro/Nanofabrication Section and Imaging Section for the support.                   J.-J. Shyue, Z.-H. Lu, Q. Gong, H. J. Snaith, R. Zhu, Adv. Mater. 2023,              See\n                                                                                  35, 2 206345; c) Z. Li, B. Li, X. Wu, S. A. Sheppard, S. Zhang, D. Gao,              the\n                                                                    N.  J. Long, Z. Zhu, Science 2022, 376, 416; d) X. Zheng, Y. Hou,                       Terms\nConﬂict of Interest                                                     C. Bao,  J. Yin, F. Yuan, Z. Huang, K. Song,  J. Liu,  J. Troughton,              and\n                                                                    N. Gasparini, C. Zhou, Y. Lin, D.-J. Xue, B. Chen, A. K. Johnston,\nThe authors declare no conﬂict of interest.                                N.  Wei, M. N.  Hedhili, M.  Wei,  A.  Y.  Alsalloum,  P.  Maity,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Conditions\n                                                                                 B.  Turedi,  C.  Yang,  D.  Baran,  T.  D.  Anthopoulos,  Y.  Han,\n                                                                               Z.-H. Lu, O. F. Mohammed, F. Gao, E. H. Sargent, O. M. Bakr,\nAuthor Contributions                                               Nat. Energy 2020,  5, 131;  e)  S. Wu,  J. Zhang, Z.  Li, D.  Liu,\n                                                            M.  Qin,  S. H.  Cheung,  X.  Lu,  D.  Lei,  S.  K.  So,  Z.  Zhu,\nY.B.Q. and L.H. supervised this research project. Caiyi Zhang conceived\n                                                                                A. K. Y. Jen, Joule 2020, 4, 1248; f) F. Li, X. Deng, F. Qi, Z. Li,the idea. Caiyi Zhang and Y.B.Q. designed the experiments, performed the\ndata analysis, and wrote the draft manuscript. Caiyi Zhang, L.H., Y.B.Q.,        D. Liu, D. Shen, M. Qin, S. Wu, F. Lin, S.-H. Jang,  J. Zhang,\nS.Y., and Y.W. participated in the discussion about the experimental         X. Lu, D. Lei, C.-S. Lee, Z. Zhu, A. K. Y. Jen,  J. Am. Chem. Soc.\ndetails. Caiyi Zhang conducted the solar cell fabrication and performed        2020, 142, 20134; g) W.-Q. Wu, Z. Yang, P. N. Rudd, Y. Shao,\nthe characterizations. T.G. helped with the DFT calculation. L.K.O. pro-         X. Dai, H. Wei,  J. Zhao, Y. Fang, Q. Wang, Y.  Liu, Y. Deng,\nvided support for the measurements including XPS, dark J–V, UV–vis,         X. Xiao, Y. Feng,  J. Huang, Science Advances 2019, 5, eaav8925;\nand stability. T.W. and H.W. provided support for the KPFM measure-         h) D. Y. Luo, W. Q. Yang, Z. P. Wang, A. Sadhanala, Q. Hu,\nments. J.Z., X.L., and X.H. provided support for the sample preparation.         R. Su, R. Shivanna, G. F. Trindade, J. F. Watts, Z. J. Xu, T. H. Liu,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        (https://onlinelibrary.wiley.com/terms-and-conditions)\nCongyang Zhang and C.D. provided support for the NMR measurements.         K. Chen, F. J. Ye, P. Wu, L. C. Zhao, J. Wu, Y. G. Tu, Y. F. Zhang,         on\nS.Y. provided support for the analysis of the NMR results. T.L. provided\n                                                                                   X. Y. Yang, W. Zhang, R. H. Friend, Q. H. Gong, H.  J. Snaith,                       Wileysupport for the SEM measurements. All authors contributed to revising\n                                                                                 R. Zhu, Science 2018, 360, 1442;  i) S. Zhang, F. Ye, X. Wang,\nthe article.                                                                                 R. Chen, H. Zhang, L. Zhan, X. Jiang, Y. Li, X.  Ji, S. Liu, M. Yu,                            Online\n                                                                                        F.                                                                               Yu,                                                                                             Y. Zhang,                                                                                                   R. Wu,                                                                                                         Z. Liu, Z. Ning,                                                                                                           D. Neher,                                                                                                                                                       L.                                                                                                                Han,                                                                                                                                                      Y.\n                                                                                                                                                               Lin,                                 Library                                                                  H.                                                                                       Tian,                                                                     W. Chen,                                                                           M. Stolterfoht,                                                                                                                                     L. Zhang,                                                                                                                W.-H.                                                                                                                       Zhu,                                                                                                                                                     Y.                                                                                                               Wu,\nData Availability Statement                                                                                                                                                                    for                                                                                   Science  2023,  380,  404;   j)  R.  Azmi,  E.  Ugur,  A.  Seitkhan,\n                                                                                                                                                                                                                                                                                                                                                                         rulesThe data that support the ﬁndings of this study are available in the          F. Aljamaan, A. S. Subbiah, J. Liu, G. T. Harrison, M. I. Nugraha,                                                                                                                                                of\nsupplementary material of this article.                                M.  K.  Eswaran, M.  Babics,  Y.  Chen,  F.  Xu,  T.  G.  Allen,                   use;\n                                                                                A.   U.   Rehman,    C.-L.   Wang,    T.   D.   Anthopoulos,         OA\n                                                                        U.  Schwingenschlögl, M. De  Bastiani,  E.  Aydin,  S. De  Wolf,\nKeywords                                                                     Science 2022, 376, 73.                                                                                                                                                                                                          articles\n                                                                                                 [5] Q. Jiang,  J. Tong, Y. Xian, R. A. Kerner, S. P. Dunﬁeld, C. Xiao,              are\nbidentate coordination, halogen bonding, I2, ion migration, perovskite\nsolar cells                                                                       R.  A.  Scheidt,  D.  Kuciauskas,  X.  Wang, M.  P.  Hautzinger,                                                                                 R. Tirawat, M. C. Beard, D. P. Fenning,  J.  J. Berry, B. W. Larson,                                     governed\n                                                Received: April 4, 2023          Y. Yan, K. Zhu, Nature 2022, 611, 278.                                   by\n                                                                                                                                                                                                                        the\n                                                 Revised: May 25, 2023       [6] W. Peng, K. Mao, F. Cai, H. Meng, Z. Zhu, T. Li, S. Yuan, Z. Xu,\n                                      Published online: June 14, 2023         X. Feng, J. Xu, M. D. McGehee, J. Xu, Science 2023, 379, 683.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 applicable                                                                                                 [7] a) T. Bu, L. K. Ono, J. Li, J. Su, G. Tong, W. Zhang, Y. Liu, J. Zhang,\n                                                                                                                             J. Chang, S. Kazaoui, F. Huang, Y.-B. Cheng, Y. B. Qi, Nat. Energy                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Creative\nSol. RRL 2023, 7, 2300253                  2300253 (6 of 7)            © 2023 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         License",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2023,\n                                                                                                                                                                                                                       15,\n\n    2022, 7, 528; b) Z. Yang, W. Zhang, S. Wu, H. Zhu, Z. Liu, Z. Liu,          L.  Aspitarte,  K. Sharma,  P.  K. Madhu,  A.  B.  Morales-Vilches,     Z.  Jiang, R. Chen,  J. Zhou, Q. Lu, Z. Xiao,  L.  Shi, H. Chen,         P. K. Nayak, S. Bai, F. Gao, C. R. M. Grovenor, M. B. Johnston,                                           Downloaded\n     L. K. Ono, S. Zhang, Y. Zhang, Y. B. Qi, L. Han, W. Chen, Sci.              J. G. Labram,  J. R. Durrant,  J. M. Ball, B. Wenger, B. Stannowski,                 from\n     Adv. 2021,  7, eabg3749; c) T. Bu,  J.  Li, H.  Li, C. Tian,  J. Su,       H. J. Snaith, Science 2020, 369, 96; d) S. G. Motti, D. Meggiolaro,\n    G. Tong,  L.  K. Ono, C. Wang, Z.  Lin, N.  Chai,  X.-L. Zhang,         A.  J. Barker, E. Mosconi, C. A. R. Perini,  J. M. Ball, M. Gandini,\n       J. Chang,  J.  Lu,  J. Zhong, W. Huang,  Y.  B.  Qi,  Y.-B. Cheng,       M.  Kim,  F. De  Angelis,  A.  Petrozza,  Nat.  Photonics  2019,\n     F. Huang, Science 2021, 372, 1327; d) S. Chen, X. Dai, S. Xu,         13, 532.\n    H. Jiao, L. Zhao, J. Huang, Science 2021, 373, 902; e) N. Li, J. Liu,     [15] a)  E. Ochoa-Martinez,   J.  V.  Mili´c,  Nat.  Energy  2021,  6,  858;\n     C. Li, Y. Li,  J.  Jia, Y. Wu, H. Yu, B. Yuan, B. Cao, ACS Sustain.         b) M. A. Ruiz-Preciado, D.  J. Kubicki, A. Hofstetter, L. McGovern,\n    Chem. Eng. 2020, 8, 7020; f) N. Li, F. Xu, Z. Qiu, J. Liu, X. Wan,       M.  H.   Futscher,   A.  Ummadisingu,   R.  Gershoni-Poranne,\n     X. Zhu, H. Yu, C. Li, Y. Liu, B. Cao, J. Power Sources 2019, 426, 188.          S. M. Zakeeruddin, B. Ehrler, L. Emsley,  J. V.  Mili´c, M. Grätzel,\n  [8] a) Y. Wang, T. Wu, J. Barbaud, W. Kong, D. Cui, H. Chen, X. Yang,              J. Am. Chem. Soc. 2020, 142, 1645; c) S. Bi, H. Wang,  J. Zhou,\n     L. Han, Science 2019, 365, 687; b) X. Li, W. Zhang, X. Guo, C. Lu,          S. You, Y. Zhang, X. Shi, Z. Tang, H. Zhou,  J. Mater. Chem. A\n       J. Wei, J. Fang, Science 2022, 375, 434.                                   2019, 7, 6840; d) L. Canil, T. Cramer, B. Fraboni, D. Ricciarelli,\n  [9] a) E. B. Bi, H. Chen, F. X. Xie, Y. Z. Wu, W. Chen, Y. J. Su, A. Islam,        D. Meggiolaro, A. Singh, M. Liu, M. Rusu, C. M. Wolff, N. Phung,\n    M. Gratzel, X. D. Yang, L. Y. Han, Nat. Commun. 2017, 8, 7;       Q. Wang, D. Neher, T. Unold, P. Vivo, A. Gagliardi, F. De Angelis,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         https://onlinelibrary.wiley.com/doi/10.1002/solr.202300253,\n     b)  A.  Krishna,  H.  Zhang,  Z.  Zhou,  T.  Gallet,  M.  Dankl,         A. Abate, Energy Environ.  Sci. 2021, 14, 1429; e) C. M. Wolff,\n    O.  Ouellette,  F.  T. Eickemeyer,  F. Fu,  S. Sanchez, M. Mensi,          L.  Canil, C. Rehermann, N. Ngoc Linh,  F. Zu, M.  Ralaiarisoa,                     Wiley\n     S. M. Zakeeruddin, U. Rothlisberger, G. N. Manjunatha Reddy,         P.  Caprioglio,  L.  Fiedler, M.  Stolterfoht,  S.  Kogikoski,  I.  Bald,                          Online     A. Redinger, M. Grätzel, A. Hagfeldt, Energy Environ. Sci. 2021, 14,        N. Koch, E. L. Unger, T. Dittrich, A. Abate, D. Neher, ACS Nano\n    5552; c) Y. Kato, L. K. Ono, M. V. Lee, S. H. Wang, S. R. Raga,        2020,  14,  1445;   f)  Z.  Dai,   S.   K.   Yadavalli,  M.  Chen,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Library\n     Y. B. Qi, Adv. Mater. Interfaces 2015, 2, 6.                                  A. Abbaspourtamijani, Y. Qi, N. P. Padture, Science 2021, 372,         on\n[10] a) C. Eames, J. M. Frost, P. R. F. Barnes, B. C. O’Regan, A. Walsh,         618;  g)  A.  Abate, M.  Saliba, D.   J. Hollman,  S. D.  Stranks,\n    M. S. Islam, Nat. Commun. 2015, 6, 7497; b) J. M. Azpiroz, E. Mosconi,         K. Wojciechowski, R. Avolio, G. Grancini, A. Petrozza, H. J. Snaith,        J. Bisquert, F. De Angelis, Energy Environ. Sci. 2015, 8, 2118.             Nano Lett. 2014, 14, 3247; h) P. Metrangolo, L. Canil, A. Abate,                                                       [19/11/2026].\n[11] W. K. Zhu, S. R. Wang, X. Zhang, A. L. Wang, C. Wu, F. Hao, Small        G. Terraneo, G. Cavallo, Angew. Chem.  Int. Ed. Engl. 2022, 61,             See\n    2022, 18, 2105783.                                                   202114793; i) M. L. Ball,  J. V. Mili´c, Y.-L. Loo, Chem. Mat. 2022,             the\n[12] a) P. V. Kamat, M. Kuno, Acc. Chem. Res. 2021, 54, 520; b) D. Lin,         34, 2495.                                                                                                                                                         Terms\n     T. Shi, H. Xie, F. Wan, X. Ren, K. Liu, Y. Zhao, L. Ke, Y. Lin,     [16] a) X. Fu, T. He, S. Zhang, X. Lei, Y. Jiang, D. Wang, P. Sun, D. Zhao,             and\n     Y. Gao, X. Xu, W. Xie, P. Liu, Y. Yuan, Adv. Energy Mater. 2021,         H.-Y. Hsu, X. Li, M. Wang, M. Yuan, Chem 2021, 7, 3131; b) D. Zhang,\n     11, 2002552; c) H. C. Zai, Y. Ma, Q. Chen, H. P. Zhou,  J. Energy         P. Jiang, D. Li, S. Li, J. Qi, X. Wang, Y. Hu, Y. Rong, A. Mei, H. Han,    Chem. 2021, 63, 528.                                                              Sol. RRL 2022, 6, 2100851.                                                                                                                                                                                                                                  Conditions\n[13] a) T. Wu, L. K. Ono, R. Yoshioka, C. Ding, C. Zhang, S. Mariotti,     [17] a) E. Li, C. Liu, H. Lin, X. Xu, S. Liu, S. Zhang, M. Yu, X.-M. Cao, Y. Wu,\n       J. Zhang, K. Mitrofanov, X.  Liu, H. Segawa, R. Kabe,  L. Han,        W.-H. Zhu, Adv. Funct. Mater. 2021, 31, 2103847; b) H. Zhang, Y. Wu,\n     Y. B. Qi, Energy Environ. Sci. 2022, 15, 4612.; b) H. P. Zeng, L. Li,         C. Shen, E. Li, C. Yan, W. Zhang, H. Tian, L. Han, W. H. Zhu, Adv.\n     F. X. Liu, M. Li, S.  J. Zhang, X. Zheng, L. Luo, S. You, Y. Zhao,         Energy Mater. 2019, 9, 1803573.\n     R.  Guo,  Z. M.  Gong,  R.  Huang,  Z.  Li,  T. Wang,  Y.  Cui,     [18] Y. Qi, L. G. Hector, Phys. Rev. B 2004, 69, 235401.\n     Y. G. Rong, X. Li, Adv. Energy Mater. 2022, 12, 2102820; c)  J. Xu,     [19]  J. Y. Ning, Y. N. Zhu, Z. Hu, Y. H. Shi, M. Ali, J. P. He, Y. W. He,\n       J. Xi, H. Dong, N. Ahn, Z. L. Zhu, J. B. Chen, P. Z. Li, X. Y. Zhu,          F. Yan, S. H. Yang, J. S. Miao, H. Meng, Adv. Funct. Mater. 2020,\n       J. F. Dai, Z. Y. Hu, B. Jiao, X. Hou, J. R. Li, Z. X. Wu, Nano Energy         30, 2000837.\n    2021, 88, 106286; d) Y. Ma, Y. Cheng, X. Xu, M.  Li, C. Zhang,     [20]  J.  Li, Q. Dong, N.  Li,  L. Wang, Adv. Energy Mater. 2017,  7,\n     S. H. Cheung, Z. Zeng, D. Shen, Y.-M. Xie, K. L. Chiu, F. Lin,        1602922.\n     S. K. So,  C.-S. Lee, S.-W. Tsang, Adv. Funct. Mater. 2021, 31,     [21] a) F. Fu, S. Pisoni, Q. Jeangros,  J. Sastre-Pellicer, M. Kawecki,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  (https://onlinelibrary.wiley.com/terms-and-conditions)\n    2006802; e) Q. Cao, Y.  Li, H. Zhang,  J. Yang,  J. Han, T. Xu,         A.  Paracchino,  T. Moser,   J.  Werner,  C.  Andres,  L. Duchene,         on\n     S.       Wang,                  Z.  Wang,                               B.                               Gao,                                                                  J.                                         Zhao,                                                        X.                                                                            Li,                                                                  X.                                                      Ma,         P.                                                                                                  Fiala, M.                                                                                         Rawlence,                                                                                                                    S.  Nicolay,                                                                                                                        C.                                                                                                                                                                  Ballif,                                                                                                                                    A.                                                                                                                   N.                                                                                                                                                        Tiwari,                     Wiley                                                                     Sci.                                                           Adv.                                                                                            Energy                                                                                                            Environ.     S. M.          Zakeeruddin,                   W. E. I.                               Sha,                                       X. Li,                                 M.                                                 Graetzel,                                                              2021,                                                                                       S. Buecheler,                                                                                                                                       Sci. 2019,                                                                                                                              12,                                                                                                                       3074;                                                                                                                                 b)                                                                                                                                       C. Zhang,\n     7, eabg0633.                                                                 X. Shen, M. Chen, Y. Zhao, X. Lin, Z. Qin, Y. Wang, L. Han, Adv.                                                                                                                                                                                                                                                                                                                                                                                                                                              Online\n[14] a) S. Wang, Y. Jiang, Emilio  J. Juarez-Perez, Nat. Energy 2016, 2,         Energy Mater. 2023, 13, 2203250.\n    16195; b) S. Chen, X. Xiao, H. Gu,  J. Huang, Sci. Adv. 2021, 7,     [22] N. Aristidou, I. Sanchez-Molina, T. Chotchuangchutchaval, M. Brown,                              Library\n    eabe8130; c) Y.-H. Lin, N. Sakai, P. Da,  J. Wu, H. C. Sansom,          L. Martinez, T. Rath, S. A. Haque, Angew. Chem. Int. Ed. 2015, 54,             for\n     A.   J. Ramadan,  S. Mahesh,   J.  Liu,  R.  D.   J.  Oliver,   J.  Lim,        8208.                                                                                                                                                                  rules\n                                                                                                                                               of\n                                                                                                                                                                                                                                                                                               use;\n                                                                                                                                               OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              articles\n                                                                                                                                                                                                                       are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              governed\n                                                                                                                                               by\n                                                                                                                                                                                                                       the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             applicable\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Creative\nSol. RRL 2023, 7, 2300253                  2300253 (7 of 7)            © 2023 The Authors. Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      License",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+        "117873320dae92b9740101d3daa20e0a",
+        "adbcb2bdb1de20819c1d392fde4cef6a",
+        "3ad964d5915aa5379cf9c2c0df752177",
+        "27234108a5289819306af0e8c349783c",
+        "1ac4015a6de6141a3590dd44ca90f8cc",
+        "89d51f99f89f26e3f83ea29bbf858c0d",
+        "3d30006aa0959e47a5c2383c7392e287"
+      ],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "cde2017ee1dd0136c9ae78f4cb37ddd3",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            519.39,
+            0.0,
+            595.39,
+            15.0
+          ]
+        }
+      ],
+      "file": "garbage/page1_cde2017ee1dd0136c9ae78f4cb37ddd3.png",
+      "is_garbage": true
+    },
+    {
+      "id": "b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            525.65,
+            16.57,
+            539.19,
+            23.17
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            522.65,
+            16.57,
+            536.18,
+            23.17
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            525.65,
+            16.57,
+            539.19,
+            23.17
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            522.65,
+            16.57,
+            536.18,
+            23.17
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            525.65,
+            16.57,
+            539.19,
+            23.17
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            522.65,
+            16.57,
+            536.18,
+            23.17
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            525.65,
+            16.57,
+            539.19,
+            23.17
+          ]
+        }
+      ],
+      "file": "garbage/page1_b200b6f4e7443c6a2fd98c94c37daadcd84338376dab6d9f0ea8c8c056c89758.png",
+      "is_garbage": true
+    },
+    {
+      "id": "adbcb2bdb1de20819c1d392fde4cef6a",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            500.71,
+            19.71,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            497.71,
+            19.71,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            500.71,
+            19.71,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            497.71,
+            19.71,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            500.71,
+            19.71,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            497.71,
+            19.71,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            500.71,
+            19.71,
+            539.82,
+            33.48
+          ]
+        }
+      ],
+      "file": "garbage/page1_adbcb2bdb1de20819c1d392fde4cef6a.png",
+      "is_garbage": true
+    },
+    {
+      "id": "3ad964d5915aa5379cf9c2c0df752177",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            525.95,
+            19.71,
+            538.18,
+            22.12
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            522.94,
+            19.71,
+            535.18,
+            22.12
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            525.95,
+            19.71,
+            538.18,
+            22.12
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            522.94,
+            19.71,
+            535.18,
+            22.12
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            525.95,
+            19.71,
+            538.18,
+            22.12
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            522.94,
+            19.71,
+            535.18,
+            22.12
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            525.95,
+            19.71,
+            538.18,
+            22.12
+          ]
+        }
+      ],
+      "file": "garbage/page1_3ad964d5915aa5379cf9c2c0df752177.png",
+      "is_garbage": true
+    },
+    {
+      "id": "27234108a5289819306af0e8c349783c",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            502.47,
+            31.03,
+            523.76,
+            39.46
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            499.47,
+            31.03,
+            520.76,
+            39.46
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            502.47,
+            31.03,
+            523.76,
+            39.46
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            499.47,
+            31.03,
+            520.76,
+            39.46
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            502.47,
+            31.03,
+            523.76,
+            39.46
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            499.47,
+            31.03,
+            520.76,
+            39.46
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            502.47,
+            31.03,
+            523.76,
+            39.46
+          ]
+        }
+      ],
+      "file": "garbage/page1_27234108a5289819306af0e8c349783c.png",
+      "is_garbage": true
+    },
+    {
+      "id": "1ac4015a6de6141a3590dd44ca90f8cc",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            501.89,
+            31.03,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            498.89,
+            31.03,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            501.89,
+            31.03,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            498.89,
+            31.03,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            501.89,
+            31.03,
+            539.82,
+            33.48
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            498.89,
+            31.03,
+            536.82,
+            33.48
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            501.89,
+            31.03,
+            539.82,
+            33.48
+          ]
+        }
+      ],
+      "file": "garbage/page1_1ac4015a6de6141a3590dd44ca90f8cc.png",
+      "is_garbage": true
+    },
+    {
+      "id": "89d51f99f89f26e3f83ea29bbf858c0d",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            503.6,
+            31.03,
+            505.53,
+            33.48
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            500.59,
+            31.03,
+            502.52,
+            33.48
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            503.6,
+            31.03,
+            505.53,
+            33.48
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            500.59,
+            31.03,
+            502.52,
+            33.48
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            503.6,
+            31.03,
+            505.53,
+            33.48
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            500.59,
+            31.03,
+            502.52,
+            33.48
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            503.6,
+            31.03,
+            505.53,
+            33.48
+          ]
+        }
+      ],
+      "file": "garbage/page1_89d51f99f89f26e3f83ea29bbf858c0d.png",
+      "is_garbage": true
+    },
+    {
+      "id": "3d30006aa0959e47a5c2383c7392e287",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            520.71,
+            31.03,
+            522.64,
+            33.48
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            517.7,
+            31.03,
+            519.64,
+            33.48
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            520.71,
+            31.03,
+            522.64,
+            33.48
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            517.7,
+            31.03,
+            519.64,
+            33.48
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            520.71,
+            31.03,
+            522.64,
+            33.48
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            517.7,
+            31.03,
+            519.64,
+            33.48
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            520.71,
+            31.03,
+            522.64,
+            33.48
+          ]
+        }
+      ],
+      "file": "garbage/page1_3d30006aa0959e47a5c2383c7392e287.png",
+      "is_garbage": true
+    },
+    {
+      "id": "117873320dae92b9740101d3daa20e0a",
+      "page": 2,
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        }
+      ],
+      "file": "garbage/page2_117873320dae92b9740101d3daa20e0a.png",
+      "is_garbage": true
+    }
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "publication_id": "P048",
+  "source_file": "P048.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Investigation of the Performance of Perovskite Solar Cells with ZnO-Covered PC61BM Electron Transport Layer",
+    "author": "Ting-Chun Chang; Chen-Yi Liao; Ching-Ting Lee; Hsin-Ying Lee",
+    "subject": "Due to its high carrier mobility and electron transmission, the phenyl-C61-butyric acid methyl ester (PC61BM) is usually used as an electron transport layer (ETL) in perovskite solar cell (PSC) configurations. However, PC61BM films suffer from poor coverage on perovskite active layers because of their low solubility and weak adhesive ability. In this work, to overcome the above-mentioned shortcomings, 30 nm thick PC61BM ETLs with different concentrations were modeled. Using a 30 nm thick PC61BM ETL with a concentration of 50 mg/mL, the obtained performance values of the PSCs were as follows: an open-circuit voltage (Voc) of 0.87 V, a short-circuit current density (Jsc) of 20.44 mA/cm2, a fill factor (FF) of 70.52%, and a power conversion efficiency (PCE) of 12.54%. However, undesired fine cracks present on the PC61BM surface degraded the performance of the resulting PSCs. To further improve performance, multiple different thicknesses of ZnO interface layers were deposited on the PC61BM ETLs to release the fine cracks using a thermal evaporator. In addition to the pavement of fine cracks, the ZnO interface layer could also function as a hole-blocking layer due to its larger highest occupied molecular orbital (HOMO) energy level. Consequently, the PCE was improved to 14.62% by inserting a 20 nm thick ZnO interface layer in the PSCs.",
+    "keywords": "perovskite solar cells; PC61BM electron transport layer; ZnO interface layer; time-resolved photoluminescence spectroscopy",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "creationDate": "D:20230718160420+08'00'",
+    "modDate": "D:20230718100936+02'00'",
+    "DOI": "10.3390/ma16145061",
+    "year": 2023,
+    "authors": [
+      "Ting-Chun Chang",
+      "Chen-Yi Liao",
+      "Ching-Ting Lee",
+      "Hsin-Ying Lee"
+    ]
+  },
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "    materials\n\n\n\nArticle\nInvestigation of the Performance of Perovskite Solar Cells with\nZnO-Covered PC61BM Electron Transport Layer\n\nTing-Chun Chang 1, Chen-Yi Liao 1, Ching-Ting Lee 1,2  and Hsin-Ying Lee 1,*\n\n\n                                            1  Department of Photonics, National Cheng Kung University, Tainan 701, Taiwan;\n                                     l78111508@gs.ncku.edu.tw (T.-C.C.); t104360451@ntut.org.tw (C.-Y.L.); ctlee@ee.ncku.edu.tw (C.-T.L.)\n                                            2  Department of Electrical Engineering, Yuan Ze University, Taoyuan 320, Taiwan\n                                     *   Correspondence: hylee@ee.ncku.edu.tw; Tel.: +886-6-2082368\n\n\n                                Abstract: Due to its high carrier mobility and electron transmission, the phenyl-C61-butyric acid\n                            methyl ester (PC61BM) is usually used as an electron transport layer (ETL) in perovskite solar cell\n                             (PSC) conﬁgurations. However, PC61BM ﬁlms suffer from poor coverage on perovskite active layers\n                             because of their low solubility and weak adhesive ability. In this work, to overcome the above-\n                           mentioned shortcomings, 30 nm thick PC61BM ETLs with different concentrations were modeled.\n                           Using a 30 nm thick PC61BM ETL with a concentration of 50 mg/mL, the obtained performance\n                              values of the PSCs were as follows: an open-circuit voltage (Voc) of 0.87 V, a short-circuit current\n                                density (Jsc) of 20.44 mA/cm2, a ﬁll factor (FF) of 70.52%, and a power conversion efﬁciency (PCE) of\n                               12.54%. However, undesired ﬁne cracks present on the PC61BM surface degraded the performance of\n                                the resulting PSCs. To further improve performance, multiple different thicknesses of ZnO interface\n                                 layers were deposited on the PC61BM ETLs to release the ﬁne cracks using a thermal evaporator. In\n                                addition to the pavement of ﬁne cracks, the ZnO interface layer could also function as a hole-blocking\n                                 layer due to its larger highest occupied molecular orbital (HOMO) energy level. Consequently, the\n                       PCE was improved to 14.62% by inserting a 20 nm thick ZnO interface layer in the PSCs.\n\n\n                           Keywords: perovskite solar cells; PC61BM electron transport layer; ZnO interface layer; time-resolved\n                             photoluminescence spectroscopy\n\nCitation: Chang, T.-C.; Liao, C.-Y.;\n\nLee, C.-T.; Lee, H.-Y. Investigation of\n\nthe Performance of Perovskite Solar\nCells with ZnO-Covered PC61BM       1. Introduction\nElectron Transport Layer. Materials\n                                 In the modern era, fossil-energy-based environmental pollution caused by the pro-\n2023, 16, 5061. https://doi.org/\n                             cesses of industrial development and production has posed serious problems worldwide.\n10.3390/ma16145061\n                             Therefore, research on clean, pollution-free, sustainable energy has drawn rapidly increas-\nAcademic Editors: Jordi Faraudo,      ing attention [1]. Among the possible alternative energies, solar energy is undoubtedly\nNikolas J. Podraza and Dameng Liu    the most valued energy source, and it might completely replace fossil energy in order\nReceived: 21 June 2023              to mitigate environmental pollution in the future [2]. There are several kinds of solar\nRevised: 13 July 2023                  cells, such as organic solar cells [3,4], inorganic solar cells [5,6], perovskite solar cells\nAccepted: 14 July 2023             (PSCs) [7–12], and so on. Nevertheless, in view of their advantages in terms of inexpen-\nPublished: 18 July 2023             siveness, good ﬂexibility, high carrier mobility, long carrier diffusion length, and high\n                           performance, organic–inorganic halide perovskite solar cells have become the most promis-\n                            ing and attractive candidates for alternative energy sources [13,14].Over the past few years,\n                             the power conversion efﬁciency (PCE) of perovskite solar cells has increased from 3.8% to\nCopyright: © 2023 by the authors.   25.5%, which is very close to the current PCE of crystalline silicon (c-Si) solar cells [15].\nLicensee MDPI, Basel,  Switzerland.        Recently, due to their advantages such as high carrier mobility and outstanding charge\nThis article is an open access article   transport properties [16,17], phenyl-C61-butyric acid methyl ester (PC61BM) ﬁlms have\ndistributed  under  the  terms  and   been widely used as electron transport layers (ETLs) in p-i-n perovskite solar cells. The\nconditions of the Creative Commons   incorporation of an appropriate ETL material will not only improve electron transportation\nAttribution (CC BY) license (https://\n                         between the cathode and the perovskite active layer but also suppress the carrier recombi-\ncreativecommons.org/licenses/by/\n                            nation in solar cells [18]. Moreover, because PC61BM ﬁlms can be easily deposited using the\n4.0/).\n\n\n\n\n\nMaterials 2023, 16, 5061. https://doi.org/10.3390/ma16145061                                     https://www.mdpi.com/journal/materials",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "6f52dcd65bcbc64691c972bfe28d289f",
+        "59c116537ecf25f8d7692dabbf2060fb",
+        "62efa0313b674db8d12560bbe65e7581",
+        "bdad99135e250503119f6f098d743bd0",
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Materials 2023, 16, 5061                                                                                                         2 of 13\n\n\n\n                             spin-coating technique and a low annealing temperature, their associated manufacturing\n                              cost is signiﬁcantly lower than that of comparable materials [19]. Therefore, traditional\n                           titanium dioxide (TiO2) ETLs have been gradually replaced by PC61BM ETL because the\n                          manufacture of TiO2 ETLs requires high temperatures for sintering [20,21]. However, due\n                                      its low solubility and weak adhesive ability, PC61BM not only covers the perovskite active\n                              layer incompletely but also renders the resulting ﬁlm easily prone to generating undesired\n                       ﬁne surface cracks when it is coated on the perovskite active layer [22]. Several methods\n                        have been used to overcome the shortcomings of using PC61BM ﬁlms as coatings [23,24].\n                   Among these methods, the method consisting of the sandwiching of the zinc oxide (ZnO)\n                              interface layer not only ﬁlled the ﬁne cracks on the surface of the PC61BM ETL but also\n                         ensured that the energy levels between the PC61BM ETL and silver (Ag) cathode were\n                              closely matched, thus reducing energy loss during carrier transportation. Moreover, the\n                   ZnO interface layer functioned as a hole-blocking layer owing to its larger highest occu-\n                           pied molecular orbital (HOMO) energy level [25–27]. In this work, to determine a suitable\n                      PC61BM ETL for use in perovskite solar cells, PC61BM solutions with various concentrations\n                        were mixed and investigated. Furthermore, ZnO interface layers of various thicknesses\n                        were deposited on the PC61BM ETL to study the features of the passivated ﬁne cracks\n                       on the surface of the PC61BM ETL. As a result, perovskite solar cells were fabricated to\n                              investigate their related performance and compared.\n\n                                   2. Materials and Methods\n                                   2.1. Materials\n\n                                  In this work, indium-tin-oxide (ITO)-coated glass substrate, poly(3,4-ethylenedioxythio\n                             phene):poly(styrenesulfonate) (PEDOT:PSS) conductive solution (1.3–1.7 wt%), Methylam-\n                    monium iodide (CH3NH3I, MAI, Uni-onward Corp., New Taipei City, Taiwan) powder\n                             (98%), and PC61BM powder (99.5%) were purchased from Uni-onward Corp., New Taipei\n                                City, Taiwan. Vanadium target was purchased from Admat Inc., Norristown, PA, USA.\n                        Lead iodide (PbI2) powder (99%) and ZnO powder (99%) were purchased from Alfa Aesar,\n                              Haverhill, MA, USA. Isobutyl alcohol (IBA) solvent (99%), dimethylsulfox (DMSO) solvent\n                              (99.9%), γ-butyrolactone (GBL) solvent (99%), and chlorobenzene (CB) solvent (99.8%) were\n                         purchased from Sigma-Aldrich, St. Louis, MI, USA.\n\n                                   2.2. Manufacture\n\n                              Three-dimensional schematic conﬁgurations and a corresponding energy level dia-\n                      gram of the perovskite solar cell with PC61BM ETL and ZnO interface layer are shown\n                             in Figure 1a,b, respectively. At ﬁrst, the 260 nm thick ITO-coated glass substrates were\n                         soaked in acetone, methanol, and deionized water and then cleaned using an ultrasonic\n                            cleaner for 5 min. Using a vanadium target, a 20 nm thick vanadium oxide (VOx) ﬁlm\n                      was deposited on the ITO anode electrode as an interface modiﬁcation layer (IML) along\n                          with an electron-blocking layer using a radio frequency magnetron-sputtering system. The\n                    VOx IML enabled a greater degree of energy level matching between the work function\n                             of the ITO anode electrode and the highest occupied molecular orbital (HOMO) of the\n                      PEDOT:PSS hole transport layer (HTL) [28]. Next, a 50 nm thick IBA doped PEDOT:PSS\n                         (PEDOT:PSS:IBA, 1 mL:0.1 mL) HTL was spin-coated on the VOx IML and annealed in\n                          a N2 ambient atmosphere at 120 ◦C for 15 min. MAI (0.395 g) and PbI2 (1.157 g) were\n                       mixed into DMSO solvent (1 mL) and GBL solvent (1 mL) to form a methylammonium\n                           lead iodide (CH3NH3PbI3, MAPbI3) perovskite solution. The perovskite solution was\n                          then spun on the PEDOT:PSS:IBA HTL via spin coating and annealed in a N2 ambient\n                         atmosphere at 90 ◦C for 20 min to form a 300 nm thick MAPbI3 active layer. Subsequently,\n                              to obtain various-concentration-developed PC61BM ETLs, the PC61BM material solutions\n                        were prepared by mixing CB (1 mL) with PC61BM (30, 50, and 70 mg), respectively. The\n                           various prepared PC61BM solutions were then spun on the MAPbI3 active layers and\n                           annealed in a N2 ambient atmosphere at 90 ◦C for 5 min to form a 30 nm thick PC61BM ETL.\n                                 Finally, ZnO interface layers of various thicknesses (10, 20, and 30 nm) and a 100 nm thick",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Materials 2023, 16, 5061                                                                                                         3 of 13\n\n\n\n                   Ag cathode electrode were sequentially evaporated on the PC61BM ETL using a thermal\n                             evaporator. In this study, the thicknesses of the individual layers of the resulting PSCs were\n                        conﬁrmed using Alpha-Step (Alpha-Step D-300, KLA, Milpitas, CA, USA). Figure 1c shows\n                            the ﬁeld emission scanning electron microscopy (FE-SEM, AURIGA, ZEISS, Oberkochen,\n                       Germany) cross-section images of the PSCs with a 20 nm thick ZnO interface layer. The\n                        measurement results of the thicknesses of the individual layers in the PSCs from the SEM\n                              cross-section images corresponded to the measurement results obtained using alpha step.\n                            Accordingly, the accuracy of the thicknesses of the resulting PSCs could be veriﬁed using\n                            the two different kinds of analysis mentioned above.\n\n\n\n\n\n                              Figure 1. (a) Three-dimensional schematic conﬁguration, (b) energy level diagram of perovskite solar\n                                      cells with PC61BM electron transport layer and ZnO interface layer, and (c) SEM cross-section image\n                                 of PSCs with 20 nm thick ZnO interface layer.\n\n                                 In this study, each parameter with various PC61BM concentrations and various ZnO\n                            thicknesses of the PSCs had been manufactured for over ﬁve rounds. Six pieces of the\n                     PSC samples were constructed each round, and six independent devices were resided on\n                          each piece of the PSC samples. In total, there were over 180 devices for each fabrication\n                           condition for the PSCs. Moreover, every PSC was measured to conﬁrm the fabrication\n                           parameters. Furthermore, the yield rate of our fabrication was around 95%; thus, most of\n                             the PSCs we produced under the same parameters had similar performance. The statistical\n                           data also illustrated the good reproducibility of our fabrication parameters.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. (a) Three-dimensional schematic conﬁguration, (b) energy level diagram of perovskite solar\ncells with PC61BM electron transport layer and ZnO interface layer, and (c) SEM cross-section image\nof PSCs with 20 nm thick ZnO interface layer.",
+          "figure_bbox": [
+            74.19,
+            213.03,
+            520.81,
+            621.42
+          ],
+          "bbox": [
+            166.39,
+            630.15,
+            559.45,
+            664.84
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. (a) Three-dimensional schematic conﬁguration, (b) energy level diagram of perovskite solar\ncells with PC61BM electron transport layer and ZnO interface layer, and (c) SEM cross-section image\nof PSCs with 20 nm thick ZnO interface layer.",
+          "bbox": [
+            74.19,
+            213.03,
+            520.81,
+            621.42
+          ],
+          "file": "extracted_images/page3_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Materials 2023, 16, 5061                                                                                                         4 of 13\n\n\n\n                           The optical transmission of the various-concentration-formed PC61BM ETLs was\n                        measured using a UV–Visible–NIR spectrophotometer (U-4100, HITACHI, Tokyo, Japan).\n                       The surface morphologies of the PC61BM and ZnO ﬁlms were observed using FE-SEM.\n                       The current density–voltage (J-V) characteristics of the various perovskite solar cells were\n                        measured using a Keithley 2400 (Keithley Instruments, Cleveland, OH, USA) under an\n                     AM1.5G solar simulator (100 mW/cm2) (Forter Technology Corp., Taichung, Taiwan).\n                       The external quantum efﬁciency (EQE) spectra of the various perovskite solar cells were\n                        measured using an Xe lamp source with 150 W of power and a monochromator (QE-3000,\n                               Zolix, Beijing, China).\n\n                                   3. Results\n\n                                 Figure 2 provides the SEM images of the MAPbI3 ﬁlms and the various-concentration-\n                        formed PC61BM ETLs/MAPbI3 active layers. As shown in Figure 2a, the MAPbI3 active\n                             layer spun on the PEDOT:PSS:IBA HTL exhibited a uniform surface. According to the\n                   SEM image shown in Figure 2b, since only some PC61BM material regions were observed,\n                                          it could be deduced that the PC61BM ETL with a concentration of 30 mg/mL did not\n                               fully cover the MAPbI3 active layer owing to its poor adhesion. All the area that circled\n                       by red line in Figure 2b represents the covered area of PC61BM material as the PC61BM\n                            concentration of 30 mg/mL. In Figure 2c, when the concentration of the PC61BM material\n                            increased to 50 mg/mL, the PC61BM ETL uniformly and completely covered the MAPbI3\n                               active layer. However, upon further increasing the concentration of the PC61BM material to\n                          70 mg/mL, many cracks and pinholes were observed, as shown in Figure 2d. In general,\n                       due to the strong Van der Waals forces between the molecules of the PC61BM fullerene\n                              derivative, the distance between the PC61BM molecules decreased with an increase in the\n                     PC61BM concentration [29]. Therefore, the probability of the aggregation of the PC61BM\n                          molecules was further enhanced [30]. Consequently, cracks and pinholes were easily\n                           generated and clearly observable on the surface of the PC61BM ETL with a concentration\n                             of 70 mg/mL. According to the SEM images shown in Figure 2, the surface morphology\n                             of the PC61BM ETL was seriously affected by its own concentration. Due to the uniform\n                           coverage over the MAPbI3 active layer and the lack of cracks and pinholes, it was deduced\n                              that 50 mg/mL was the optimal concentration of the PC61BM ETL.\n\n\n\n\n\n                              Figure 2. SEM images of (a) MAPbI3 ﬁlms and PC61BM/MAPbI3 ﬁlms with various PC61BM\n                                concentrations of (b) 30, (c) 50, and (d) 70 mg/mL.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. SEM images of (a) MAPbI3 ﬁlms and PC61BM/MAPbI3 ﬁlms with various PC61BM\nconcentrations of (b) 30, (c) 50, and (d) 70 mg/mL.",
+          "figure_bbox": [
+            167.12,
+            491.64,
+            525.44,
+            737.78
+          ],
+          "bbox": [
+            166.39,
+            746.18,
+            559.28,
+            768.05
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. SEM images of (a) MAPbI3 ﬁlms and PC61BM/MAPbI3 ﬁlms with various PC61BM\nconcentrations of (b) 30, (c) 50, and (d) 70 mg/mL.",
+          "bbox": [
+            167.12,
+            491.64,
+            525.44,
+            737.78
+          ],
+          "file": "extracted_images/page4_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Materials 2023, 16, 5061                                                                                                         5 of 13\n\n\n\n                              Photoluminescence (PL) spectroscopy using a He-Cd laser source with a wavelength\n                             of 325 nm (Kimmon Koha Corp., Tokyo, Japan) and time-resolved photoluminescence\n                        (TRPL) spectroscopy using a laser diode source with a wavelength of 375 nm (LDH-P-C\n                             375, PicoQuant, Berlin, Germany) were used to explore the carrier recombination and\n                            the separation in the boundary between the MAPbI3 active layer and the PC61BM ETL.\n                           Figure 3a shows the PL spectra of the MAPbI3 active layer and the various-concentration-\n                        formed PC61BM ETLs/MAPbI3 active layers. As shown in Figure 3a, the MAPbI3 active\n                             layer presented the strongest PL peak intensity at the wavelength of 770 nm. On the\n                            other hand, the PL peak intensity of the resulting PC61BM ETLs/MAPbI3 active layers\n                             signiﬁcantly dropped. This phenomenon was attributed to the fact that the electron–hole\n                              pairs excited using the He-Cd laser were generated in the MAPbI3 active layer and that the\n                               optically generated electrons could quickly transmit to the PC61BM ETL. Consequently, the\n                           recombination probability of electrons and holes in the MAPbI3 active layer was reduced,\n                        which caused the peak PL intensity of the MAPbI3 active layer to decrease. To conﬁrm that\n                             the PL spectra at the wavelength of 770 nm emitted by the MAPbI3 active layer had not been\n                          absorbed by the PC61BM ETL, the transmittance values of various-concentration-formed\n                      PC61BM ETLs were measured; they are shown in the inset ﬁgure in Figure 3a. It was highly\n                            evident that all the PC61BM ETLs with various concentrations experienced highly smooth\n                          changes in transmittance from the wavelength of 300 nm to 1000 nm. The transmittance at\n                             the wavelength of 770 nm did not exhibit a signiﬁcant change. This phenomenon indicated\n                              that the reduction in the peak PL intensity at the wavelength of 770 nm in the PC61BM\n                      ETL/MAPbI3 active layer was not caused by the absorption of the PC61BM ETL.\n\n                                                   (a)     MAPbI3          PC61BM/MAPbI3         100  (b)         MAPbI3      PC61BM/MAPbI3\n\n                                                                                                    100                                                                                                    90                  PC61BM concentration                            PC61BM concentration                                                                                                                                                                                           (a.u.)                                                                                                                                30 mg/mL                                                                                                    (%) 8070                             30 mg/mL\n                                                                                                    60                                                                                                    50                             50 mg/mL                     -1                                50 mg/mL                                                                          (a.u.)           40                                                                                                    30 PC61BM concentration                     70 mg/mL        10                                 70 mg/mL\n                                                                                                            30                                                                                          mg/mL\n                                                                                                            50                                                                                          mg/mL                                                                                                                                                                                                                                                                                                                                                                                                                                               Transmittance 2010\n                                                                                                            70                                                                                          mg/mL                                                                                                                            intensity\n                                                                                                      0\n                                                                                                      300   400   500   600   700   800   900  1000\n                                                                                        Wavelength (nm)\n                                                                                                                                                                                                 -2                                                                                                               intensity                                                       10\n                         PL                                                                                                                                                                                                                                                                                                                        Normalized    -3\n                                                                                              10\n                                     600    650    700    750    800    850    900       0    10   20   30   40   50   60   70   80\n                                        Wavelength (nm)                           Time (ns)\n\n                              Figure 3. (a) PL spectra and (b) TRPL spectra of MAPbI3 active layer and various-concentration-\n                           formed PC61BM ETLs/MAPbI3 active layers. The inset ﬁgure in Figure 3a shows transmission spectra\n                                 of various-concentration-formed PC61BM ETLs.\n\n                               Figure 3b shows the TRPL spectra of the MAPbI3 active layer and the various-\n                           concentration-formed PC61BM ETLs/MAPbI3 active layers. The TRPL spectra were ﬁtted\n                           using the following exponential equation (Formula (1)) [31]:\n\n                                                                                    I = A × exp −t                                       (1)\n                                                                    τ\n\n                       where I denotes light intensity, A is the maximum light intensity, t is time, and τ denotes\n                                carrier lifetime. The carrier lifetime is the interval time when the light intensity decreases\n                              to 1/e of the maximum light intensity. The carrier lifetimes of the PC61BM ETL/MAPbI3\n                               active layer with PC61BM concentrations of 30, 50, and 70 mg/mL were 2.00 ns, 1.51 ns, and\n                              1.55 ns, respectively. The carrier lifetime of the MAPbI3 active layer was 2.41 ns, which was\n                           longer than the carrier lifetimes of all the PC61BM ETLs/MAPbI3 active layer structures.\n                           This result demonstrated that the PC61BM ETL could effectively transfer the electrons\n                         from the MAPbI3 active layer [32–34]. The shortest carrier lifetime of the various PC61BM\n                      ETLs/MAPbI3 active layers was yielded when a PC61BM concentration of 50 mg/mL was",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. (a) PL spectra and (b) TRPL spectra of MAPbI3 active layer and various-concentration-\nformed PC61BM ETLs/MAPbI3 active layers. The inset ﬁgure in Figure 3a shows transmission spectra\nof various-concentration-formed PC61BM ETLs.",
+          "figure_bbox": [
+            165.59,
+            380.28,
+            558.06,
+            527.69
+          ],
+          "bbox": [
+            166.39,
+            537.2,
+            560.77,
+            573.08
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. (a) PL spectra and (b) TRPL spectra of MAPbI3 active layer and various-concentration-\nformed PC61BM ETLs/MAPbI3 active layers. The inset ﬁgure in Figure 3a shows transmission spectra\nof various-concentration-formed PC61BM ETLs.",
+          "bbox": [
+            165.59,
+            380.28,
+            558.06,
+            527.69
+          ],
+          "file": "extracted_images/page5_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Materials 2023, 16, 5061                                                                                                         6 of 13\n\n\n\n                            used, which was also quite well ﬁxed the above-mentioned measurement results of the PL\n                             spectra and SEM images.\n                               Figure 4a,b illustrate the current density–voltage (J-V) and dark current density–\n                            voltage performances of the PSCs using the various-concentration-formed PC61BM ETLs\n                          without ZnO interface layer covered. The open-circuit voltage (Voc), short-circuit current\n                            density (Jsc), ﬁll factor (FF), and power conversion efﬁciency (PCE) of the resulting PSCs\n                             are listed in Table 1. It was found that the best characteristics of the PSCs, including a Voc\n                             of 0.87 V, a Jsc of 20.44 mA/cm2, an FF of 70.52%, and a PCE of 12.54%, were obtained\n                     when using the PC61BM ETL with a concentration of 50 mg/mL. Since the best coverage\n                       on the MAPbI3 surface was achieved using the PC61BM ETL with a concentration of 50\n                     mg/mL, the carrier recombination probability was reduced, which resulted in the lowest\n                          dark current density. As shown in Figure 2b, since the PC61BM ETL with the concentration\n                             of 30 mg/mL exhibited poor adhesion, it did not completely cover the MAPbI3 active\n                                layer, which precluded the function of the PC61BM ETL and degraded the features of\n                            the MAPbI3 active layer due to the direct contact between the Ag cathode electrode and\n                            the MAPbI3 active layer [35]. Therefore, the carrier recombination rate was inevitably\n                              increased, while the electrical conductivity was reduced. These results not only reduced the\n                                        Jsc and FF but also increased the dark current density. When the concentration of PC61BM\n                      was increased from 50 mg/mL to 70 mg/mL, the number of cracks increased due to the\n                            excessive aggregation of the PC61BM molecules, as shown in Figure 2d. The increased\n                      number of cracks increased the possibility of carrier recombination and affected electron\n                            transmission capacity. Consequently, compared to the PC61BM concentration of 50 mg/mL,\n                             the performance of the PSCs with a PC61BM concentration of 70 mg/mL was inferior. The\n                             external quantum efﬁciency (EQE) was an important characteristic parameter of the PSCs.\n                           Figure 4c shows the EQE and the integrated Jsc as a function of wavelength (300–800 nm)\n                                for the PSCs using the various-concentration-formed PC61BM ETLs. As shown in Figure 4c,\n                            the PSCs using the PC61BM ETL with a concentration of 50 mg/mL achieved the highest\n                       EQE. The trend of the EQE results also presented a signiﬁcant improvement on the above-\n                        mentioned Jsc measurement trend of the PSCs using the various-concentration-formed\n                      PC61BM ETLs. This was due to the fact that the best adhesion and coverage of the PC61BM\n                     ETL (50 mg/mL) was achieved on the MAPbI3 active layer, which decreased the number\n                              of cracks and pinholes on the PC61BM surface and led to a reduced carrier recombination\n                               possibility and an increase in EQE. Moreover, according to the EQE results, the integrated\n                                        Jsc values of the PSCs using the PC61BM ETLs with concentrations of 30, 50, and 70 mg/mL\n                        were 18.22, 19.89, and 19.00 mA/cm2, respectively. The values and trends of the integrated\n                                       Jsc were all similar to the Jsc obtained from the J-V curve, thus verifying the Jsc from our\n                             perovskite solar cells and that the optimal concentration of the PC61BM ETL was 50 mg/mL.\n                             Based on the above-mentioned experimental results, the best PSC performance was\n                            obtained using the PC61BM ETL with a concentration of 50 mg/mL. However, the PC61BM\n                        ﬁlms still suffered from the shortcomings of low solubility and poor adhesion. To further\n                           observe the surface morphology of the PC61BM ETL/MAPbI3 active layer structure formed\n                           using 50 mg/mL, the SEM image shown in Figure 2c was extended, with the result shown\n                              in Figure 5a. It is worth noting that there were some ﬁne cracks on the PC61BM surface. To\n                         overcome this problem and further improve the resulting PSCs, in this work, ZnO interface\n                             layers of various thicknesses were deposited on the PC61BM ETLs with a concentration\n                             of 50 mg/mL using a thermal evaporator. The morphologies of the 10, 20, and 30 nm\n                             thick ZnO interface layers/PC61BM ETL/MAPbI3 active layer structures were observed\n                          using SEM, with the resulting images shown in Figure 5b–d, respectively. As seen in the\n                   SEM image shown in Figure 5b, although the passivation function of the 10 nm thick ZnO\n                               interface layer was achieved, there were still a few areas that were not covered by the 10 nm\n                             thick ZnO interface layer. According to the images shown in Figure 5c,d, few ﬁne cracks\n                          could be observed on the surface when the thicknesses of the ZnO interface layer were 20\n                  nm and 30 nm. Therefore, as the thickness of the ZnO interface layer surpassed 20 nm, the",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Materials 2023, 16, 5061                                                                                                         7 of 13\n\n\n\n                       ﬁne cracks on the PC61BM ETL vanished completely, which was expected to enhance the\n                                carrier transportation ability and improve the performance of the resulting PSCs.\n                                 Figure 6a,b show the PL spectra and the TRPL spectra of the MAPbI3 active layer itself,\n                             the PC61BM ETL/MAPbI3 active layer formed using 50 mg/mL, and the 20 nm thick ZnO\n                              interface layer/PC61BM ETL/MAPbI3 active layer structures formed using 50 mg/mL,\n                               respectively. Among the PL spectra, the spectrum corresponding to the 20 nm thick ZnO\n                               interface layer exhibited the lowest PL intensity. This result was attributed to the following\n                        phenomena: the ﬁne cracks on the PC61BM surface were passivated by the ZnO interface\n                                layer, and the electrons could be quickly transmitted from the MAPbI3 active layer and\n                          passed through the PC61BM ETL to the ZnO interface layer, which could reduce the carrier\n                           recombination possibility and thus lower the PL emission intensity [36,37]. Figure 6b shows\n                              that the carrier lifetime of the ZnO/PC61BM/MAPbI3 structure was 1.15 ns, which was\n                    much shorter than that of 2.41 ns for the MAPbI3 active layer alone and 1.51 ns for the\n                      PC61BM/MAPbI3 structure. Based on the TRPL results, the carrier lifetimes of the different\n                             structures demonstrate the beneﬁts offered by the ZnO interface layer. They also show\n                              that the ZnO interface layer can prevent carrier recombination and shorten the carrier\n                            transmission time. Based on the results regarding the SEM images, PL spectra, and TRPL\n                               spectra, it was certiﬁed that the performance and structures of the PSCs could beneﬁt from\n                            the use of an ZnO interface layer.\n\n                      25                           2) 10-1\n                                 (a)                                                              (b)\n           2)\n                                                                                                                                                      -2 PC61BM with different concentration\n                      20                                                10        30 mg/mL                                                                                                                                            (mA/cm                                                                                  50 mg/mL                                      (mA/cm                                                                                                           -3       70 mg/mL                      15                                                10\n                                                                                                                                                                   density\n                      10 PC61BM with different concentration                 10-4                                            density\n                              30 mg/mL\n                                                                                                                                                      -5                      5      50 mg/mL                                                                         current 10\n                              70 mg/mL                                            Current                      0                                                             Dark 10-6\n                            0.0       0.2       0.4       0.6       0.8       1.0       0.0       0.1       0.2       0.3       0.4       0.5\n                                  Voltage (V)                                  Voltage (V)\n\n\n                                                         2)\n                                           (%) 100 PC61BM with different concentration     (c)  22                                                                                   20                                                                                   18 (mA/cm                                         80\n                                                                                   16                                                                                                                                               efficiency                                           14                                         60                                                                                   12 density\n                                                                                   10\n                                         40                                                                                   8                                                                                                    quantum                                                                                                                                                                                                                                current                                            EQE  Jsc             6\n                                         20                            30 mg/mL   4\n                                                                       50 mg/mL                                                                                   2\n                                                                       70 mg/mL                                                                                                                  External  0                                       0                                          300     400     500     600     700     800     Integrate\n                                         Wavelength (nm)\n\n\n                              Figure 4. (a) Current density–voltage, (b) dark current density–voltage, and (c) external quantum\n                               efﬁciency spectra and integrated Jsc characteristics of PSCs with PC61BM ETL formed using various\n                        PC61BM concentrations.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. (a) Current density–voltage, (b) dark current density–voltage, and (c) external quantum\nefﬁciency spectra and integrated Jsc characteristics of PSCs with PC61BM ETL formed using various\nPC61BM concentrations.",
+          "figure_bbox": [
+            190.36,
+            512.97,
+            404.92,
+            680.27
+          ],
+          "bbox": [
+            166.39,
+            692.23,
+            559.28,
+            728.12
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. (a) Current density–voltage, (b) dark current density–voltage, and (c) external quantum\nefﬁciency spectra and integrated Jsc characteristics of PSCs with PC61BM ETL formed using various\nPC61BM concentrations.",
+          "bbox": [
+            190.36,
+            512.97,
+            404.92,
+            680.27
+          ],
+          "file": "extracted_images/page7_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Materials 2023, 16, 5061                                                                                                         8 of 13\n\n\n\n                             Table 1. Characteristics of PSCs with PC61BM ETL formed using various PC61BM concentrations.\n\n                          PC61BM                                                                                                               Integrated\n                                Concentra-        Voc                 Jsc           FF         PCE\n                                                                                                                                                      Jsc                                      tion            (V)        (mA/cm2)        (%)           (%)\n                                                                                               (mA/cm2)\n                             (mg/mL)\n\n                                   30              0.85            18.79           67.81           10.83           18.22\n                                   50              0.87            20.44           70.52           12.54           19.89\n                                   70              0.86            19.28           69.48           11.52           19.00\n\n\n\n\n\n                              Figure 5. SEM images of (a) PC61BM/MAPbI3 and ZnO/PC61BM/MAPbI3 with various ZnO\n                                thicknesses of (b) 10, (c) 20, and (d) 30 nm.\n\n                                                   (a)                                                 100  (b)                  MAPbI3\n                                     MAPbI3                                                                                                             PC61BM/MAPbI3                                       PC61BM/MAPbI3                                                             (a.u.)                                                                                                             ZnO/PC61BM/MAPbI3\n\n                                                                                             10                                                                           (a.u.)     ZnO/PC61BM/MAPbI3                                                                             intensity     -1\n\n\n                                                                                                                                                                                                -2                                                                                                                Intensity                                                      10\n                                                                                                                                                                                                                                                                                                                     Normalized\n                                                                                             10-3\n                                      600    650    700    750     800    850     900       0    10    20    30    40    50    60    70    80\n                                       Wavelength (nm)                           Time (ns)\n\n                              Figure 6.  (a) PL spectra and (b) TRPL spectra of MAPbI3, PC61BM/MAPbI3, and 20 nm thick\n                       ZnO/PC61BM/MAPbI3 structures.\n\n                               Figure 7a,b illustrate the current density–voltage and dark current density–voltage\n                         performance of the PSCs with PC61BM ETL formed using 50 mg/mL and ZnO interface\n                             layers of various thicknesses. The related performance values of the resulting PSCs are\n                                listed in Table 2.  It was found that the performances of the PSCs were improved by\n                             inserting the ZnO interface layer. This was because the coverage of the ZnO interface\n                              layer could effectively passivate the ﬁne cracks on the PC61BM surface and prevent carrier",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. Characteristics of PSCs with PC61BM ETL formed using various PC61BM concentrations.",
+          "bbox": [
+            166.39,
+            114.06,
+            559.28,
+            200.87
+          ],
+          "rows": [
+            [
+              "PC61BM\nConcentra-\ntion\n(mg/mL)",
+              "Voc\n(V)",
+              "Jsc\n(mA/cm²)",
+              "FF\n(%)",
+              "PCE\n(%)",
+              "Integrated\nJsc\n(mA/cm²)"
+            ],
+            [
+              "30",
+              "0.85",
+              "18.79",
+              "67.81",
+              "10.83",
+              "18.22"
+            ],
+            [
+              "50",
+              "0.87",
+              "20.44",
+              "70.52",
+              "12.54",
+              "19.89"
+            ],
+            [
+              "70",
+              "0.86",
+              "19.28",
+              "69.48",
+              "11.52",
+              "19.00"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. Characteristics of PSCs with PC61BM ETL formed using various PC61BM concentrations.",
+          "bbox": [
+            166.1,
+            97.32,
+            551.65,
+            107.55
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. SEM images of (a) PC61BM/MAPbI3 and ZnO/PC61BM/MAPbI3 with various ZnO\nthicknesses of (b) 10, (c) 20, and (d) 30 nm.",
+          "figure_bbox": [
+            165.96,
+            212.27,
+            546.76,
+            481.71
+          ],
+          "bbox": [
+            166.39,
+            490.35,
+            559.27,
+            512.22
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. (a) PL spectra and (b) TRPL spectra of MAPbI3, PC61BM/MAPbI3, and 20 nm thick\nZnO/PC61BM/MAPbI3 structures.",
+          "figure_bbox": [
+            165.32,
+            520.53,
+            554.7,
+            668.25
+          ],
+          "bbox": [
+            166.39,
+            677.07,
+            559.52,
+            700.7
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. SEM images of (a) PC61BM/MAPbI3 and ZnO/PC61BM/MAPbI3 with various ZnO\nthicknesses of (b) 10, (c) 20, and (d) 30 nm.",
+          "bbox": [
+            165.96,
+            212.27,
+            546.76,
+            481.71
+          ],
+          "file": "extracted_images/page8_figure-5_1.png"
+        },
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. (a) PL spectra and (b) TRPL spectra of MAPbI3, PC61BM/MAPbI3, and 20 nm thick\nZnO/PC61BM/MAPbI3 structures.",
+          "bbox": [
+            165.32,
+            520.53,
+            554.7,
+            668.25
+          ],
+          "file": "extracted_images/page8_figure-6_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Materials 2023, 16, 5061                                                                                                         9 of 13\n\n\n\n                           recombination. Moreover, the ZnO interface layer increased the degree to which the\n                          energy levels between the PC61BM ETL and the Ag cathode matched, thus improving the\n                         performance of the resulting PSCs. As shown in Figure 5, improved passivation features\n                        were exhibited when the 20 nm thick ZnO interface layer was used in comparison to the\n                             layer with a thickness of 10 nm. Consequently, the best performance was obtained when\n                            the 20 nm thick ZnO interface layer was used, yielding a PCE of 14.62%, a Voc of 0.88 V, a\n                                        Jsc of 22.57 mA/cm2, and an FF of 73.61%. However, as the thickness of the ZnO interface\n                             layer was increased to 30 nm, the PCE of the perovskite solar cells decreased to 14.42%.\n                            This was attributed to the fact that the series resistance (Rs) of the PSCs with the 30 nm thick\n                   ZnO layer (as calculated from the J-V curve in Figure 7a) was increased from 6.02 Ω-cm2\n                             to 6.30 Ω-cm2 in comparison to the PSCs with the 20 nm thick ZnO layer, which caused\n                            the deteriorating of carrier transmission. Figure 7c shows the EQE and integrated Jsc as a\n                             function of wavelength (300—800 nm) for the PSCs with the PC61BM ETL formed using 50\n                  mg/mL and with ZnO interface layers of various thicknesses. The trend of EQE results\n                             also constituted a signiﬁcant improvement from the above-mentioned Jsc measurement\n                           trend of the PSCs using the PC61BM ETL formed using 50 mg/mL and the ZnO interface\n                              layers of various thicknesses. This was attributed to the fact that the coverage of the ZnO\n                              interface layer and the series resistance affected the electron transport ability at the same\n                             time, which made the Jsc and EQE of the PSCs with the 20 nm thick ZnO interface layer\n                              larger than the one with the 10 nm thick and 30 nm thick ZnO interface layers. Moreover,\n                            the integrated Jsc values of the PSCs using the ZnO interface layer with thicknesses of 0,\n                               10, 20, and 30 nm were 19.89, 20.33, 21.26, and 20.75 mA/cm2, respectively. The values\n                       and trends of the integrated Jsc of the PSCs using the ZnO interface layer with various\n                             thicknesses were all similar to those of the Jsc obtained from the J-V curve. The calculation\n                               results also proved that the optimal thickness of the ZnO interface layer was 20 nm. Thus,\n                        adding a ZnO interface layer with a suitable thickness can improve the performance of\n                            the resulting PSCs. The performance of the PSCs with a 20 nm thick ZnO interface layer\n                      was superior to that of the PSCs without a ZnO interface layer, and the associated PCE\n                            increased from 12.54% to 14.62%. The improved performance was attributed to the fact\n                              that the optimized ZnO interface layer could effectively retouch the PC61BM ETL surface\n                              to passivate the ﬁne cracks and reduce the carrier recombination rate.\n                                      Finally, the reverse scan and forward scan of the J-V curve for the PSCs without and\n                          with a 20 nm thick ZnO interface layer were measured and shown in Figure 8. The device\n                               characteristics are listed in Table 3. According to the results, the Voc, Jsc, and FF of the\n                              resulting PSCs were increased during the reverse scan. This was because the deﬁciencies\n                        between the layers would trap the ionic charges and enhance or deteriorate the built-in\n                          ﬁeld (EB) during the reverse scan and forward scan, respectively, leading to the difference\n                               in the device performance [38]. Furthermore, based on the forward scan and reverse scan of\n                            the J-V curve for the solar cells, the hysteresis index (HI) of the device could be calculated,\n                        which represented the interface quality of the device. The hysteresis index was calculated\n                           using Formula (2), as follows:\n\n                                                                            PCEreverse −PCEforward                                                Hysteresis index(HI) =                                                (2)\n                                                                                  PCEreverse\n\n                       where PCEreverse is the power conversion efﬁciency of the PSCs during a reverse scan\n                         (V ≥Voc to V ≤0), and PCEforward is the PCE of the PSCs during a forward scan (V ≤0\n                             to V ≥Voc). In this work, along with the covering of the ZnO interface layer, the cracks\n                        and pinholes on the PC61BM ETL were retouched, and the interface quality was improved,\n                            thereby decreasing the hysteresis index. Compared with the PSCs without a ZnO interface\n                                 layer, the hysteresis index of the PSCs using the 20 nm thick ZnO interface layer decreased\n                         from 7.52% to 4.88%. This result also veriﬁed the passivation function of the ZnO interface\n                              layer [39].",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Materials 2023, 16, 5061                                                                                                        10 of 13\n\n\n\n                                                  2) 10-1\n                                       30                                                            (b)      ZnO with different thickness\n                      2)     (a)                                                              0 nm\n                                       25                                            10-2                 10 nm                                                                                                                                                                         (mA/cm                                                                                                        20 nm\n                                                                                                                                                                             -3                 30 nm                                                                           (mA/cm 20                                            10\n                                       15                                                                                                             density\n                                                                                   10-4                                                                                        density     ZnO with different thickness\n                                       10          0 nm\n                                                                                                                                                                             -5                                                  10 nm                                                                                                                                                                                                                  current 10\n                                        5         20 nm                                                                                        Current           30 nm                                                                   -6                                        0                                                              Dark 10\n                                                0.0       0.2       0.4       0.6       0.8       1.0        0.0       0.1       0.2       0.3       0.4       0.5\n                                              Voltage (V)                              Voltage (V)\n\n\n\n                                                                       2)\n                                                                (%)100 ZnO with different thickness                22\n                                                                                                        20                                                                                 (c)                                                           80                                          18 (mA/cm\n                                                                                                        16\n                                                                                                        14                                                                                                                                                                                                                    efficiency 60                                                                                                        12 density\n                                                                                                        10\n                                                           40                  EQE  Jsc          8                                                                                                                                                     quantum                                      0 nm   6   current\n                                                           20                                  10 nm   4\n                                                                                               20 nm\n                                                                                                       2\n                                                                                               30 nm                                                                                                                                                                          External  0                                          0\n                                                            300     400     500     600     700     800                                                                                                                                                                                                                                                                                                                                                                       Integrate\n                                                       Wavelength (nm)\n\n                              Figure 7. (a) Current density–voltage, (b) dark current density–voltage, and (c) external quantum\n                               efﬁciency and integrated Jsc characteristics of PSCs with various ZnO interface layer thicknesses.\n\n                             Table 2. Characteristics of PSCs with various ZnO interface layer thicknesses.\n\n                        ZnO                                                                      Integrated\n                                                Voc                 Jsc           FF         PCE\n                               Thickness                                                                                             Jsc                                                    (V)        (mA/cm2)        (%)           (%)\n                                (nm)                                                            (mA/cm2)\n\n                                    0              0.87            20.44           70.52           12.54           19.89\n                                   10              0.88            21.62           72.74           13.84           20.33\n                                   20              0.88            22.57           73.61           14.62           21.26\n                                   30              0.88            22.29           73.51           14.42           20.75\n\n                               25\n                 2)\n\n                               20\n                                                          (mA/cm\n                               15\n\n\n                               10                                                                    density\n\n                                5  Forward Reverse\n                                                    w/o ZnO interface layer                                                                    Current                     with ZnO interface layer\n                                0\n                                      0.0       0.2       0.4       0.6       0.8       1.0\n                                        Voltage (V)\n\n                              Figure 8. J-V curve during reverse scan and forward scan of PSCs without and with 20 nm thick ZnO\n                                  interface layer.",
+      "tables": [
+        {
+          "label": "Table 2",
+          "caption": "Table 2. Characteristics of PSCs with various ZnO interface layer thicknesses.",
+          "bbox": [
+            166.39,
+            470.76,
+            559.28,
+            557.57
+          ],
+          "rows": [
+            [
+              "ZnO\nThickness\n(nm)",
+              "Voc\n(V)",
+              "Jsc\n(mA/cm²)",
+              "FF\n(%)",
+              "PCE\n(%)",
+              "Integrated\nJsc\n(mA/cm²)"
+            ],
+            [
+              "0",
+              "0.87",
+              "20.44",
+              "70.52",
+              "12.54",
+              "19.89"
+            ],
+            [
+              "10",
+              "0.88",
+              "21.62",
+              "72.74",
+              "13.84",
+              "20.33"
+            ],
+            [
+              "20",
+              "0.88",
+              "22.57",
+              "73.61",
+              "14.62",
+              "21.26"
+            ],
+            [
+              "30",
+              "0.88",
+              "22.29",
+              "73.51",
+              "14.42",
+              "20.75"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Figure 7. (a) Current density–voltage, (b) dark current density–voltage, and (c) external quantum\nefﬁciency and integrated Jsc characteristics of PSCs with various ZnO interface layer thicknesses.",
+          "figure_bbox": [
+            253.69,
+            260.51,
+            466.46,
+            414.35
+          ],
+          "bbox": [
+            166.39,
+            423.6,
+            559.28,
+            446.82
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 2",
+          "text": "Table 2. Characteristics of PSCs with various ZnO interface layer thicknesses.",
+          "bbox": [
+            166.1,
+            454.02,
+            472.6,
+            463.07
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 8",
+          "text": "Figure 8. J-V curve during reverse scan and forward scan of PSCs without and with 20 nm thick ZnO\ninterface layer.",
+          "figure_bbox": [
+            166.93,
+            567.82,
+            411.53,
+            754.32
+          ],
+          "bbox": [
+            166.39,
+            763.57,
+            559.28,
+            785.44
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 7",
+          "caption": "Figure 7. (a) Current density–voltage, (b) dark current density–voltage, and (c) external quantum\nefﬁciency and integrated Jsc characteristics of PSCs with various ZnO interface layer thicknesses.",
+          "bbox": [
+            253.69,
+            260.51,
+            466.46,
+            414.35
+          ],
+          "file": "extracted_images/page10_figure-7_1.png"
+        },
+        {
+          "label": "Figure 8",
+          "caption": "Figure 8. J-V curve during reverse scan and forward scan of PSCs without and with 20 nm thick ZnO\ninterface layer.",
+          "bbox": [
+            166.93,
+            567.82,
+            411.53,
+            754.32
+          ],
+          "file": "extracted_images/page10_figure-8_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 11,
+      "text": "Materials 2023, 16, 5061                                                                                                        11 of 13\n\n\n\n\n                             Table 3. Characteristics and hysteresis index of PSCs without and with 20 nm thick ZnO interface\n                                 layer during reverse scan and forward scan.\n\n                                     Structure          Voc             Jsc         FF      PCE      Hysteresis Index\n                               (Scan Direction)        (V)      (mA/cm2)      (%)        (%)            (%)\n\n                                Without ZnO\n                                                             0.87         20.44         70.52        12.54\n                                  (Forward)                                                                      7.52\n                                Without ZnO\n                                                             0.89         21.43         71.10        13.56\n                                      (Reverse)\n                             With 20 nm ZnO\n                                                             0.88         22.57         73.61        14.62\n                                  (Forward)                                                                      4.88\n                             With 20 nm ZnO\n                                                             0.89         23.29         74.14        15.37\n                                      (Reverse)\n\n\n                                   4. Conclusions\n\n                                 In summary, using various-concentration-formed PC61BM ETLs to cover the MAPbI3\n                              active layers in the PSCs, it was found that the best performance could be obtained using\n                            the PC61BM ETL with a concentration of 50 mg/mL. According to the SEM images, the\n                     PC61BM ETL with the concentration of 50 mg/mL could uniformly and completely cover\n                            the MAPbI3 active layer and did not present cracks and pinholes on the surface. The\n                     PL and TRPL results also demonstrated that the PC61BM ETL with the concentration of\n                          50 mg/mL had the best electron transportation ability and the lowest carrier recombination\n                               probability. However, the performance of the PSCs still suffered due to the appearance of\n                      some ﬁne cracks on the PC61BM ETL surface. Therefore, to achieve further performance\n                        improvements of the PSCs by precluding the formation of ﬁne cracks, the ZnO interface\n                             layer was deposited on the PC61BM ETL using a thermal evaporator. The additional\n                   ZnO interface layer not only effectively passivated the ﬁne cracks on the surface but also\n                        improved the degree to which the energy levels between the PC61BM ETL and the Ag\n                          cathode matched, thus improving the performance of the PSCs. Consequently, the PSCs\n                          with the 20 nm thick ZnO interface layer presented the best performance because they had\n                          a superior passivation function compared with that of the PSCs with other ZnO interface\n                             layer thicknesses. The power conversion efﬁciency of the resulting PSCs increased from\n                         12.54% to 14.62%. Moreover, the hysteresis index of the PSCs with the 20 nm thick ZnO\n                              interface layer decreased from 7.52% to 4.88% compared with that of the PSC without a\n                   ZnO interface layer. This ﬁnding proved that the covering of ZnO interface layers could\n                          indeed passivate the ﬁne cracks on the PC61BM ETL and promote its carrier transportation\n                                   ability. According to the experimental results, optimizing the PC61BM ETL and the ZnO\n                               interface layer can effectively improve the performance of PSCs.\n\n\n                           Author Contributions: Conceptualization, C.-T.L. and H.-Y.L.; data curation, T.-C.C., C.-Y.L. and H.-Y.L.;\n                              funding acquisition, C.-T.L. and H.-Y.L.; investigation, T.-C.C., C.-Y.L. and H.-Y.L.; writing—original draft,\n                                   T.-C.C.; writing—review and editing, C.-T.L. and H.-Y.L. All authors have read and agreed to the\n                              published version of the manuscript.\n\n                            Funding: This research was funded by the National Science and Technology Council (NSTC), Re-\n                               public of China under Contract No. MOST-108-2221-E-006-196-MY3, MOST-111-2221-E-006-045,\n                             MOST-111-2221-E-006-229-MY3, and NSTC 111-2923-E-155-001.\n\n                                 Institutional Review Board Statement: Not applicable.\n\n                           Informed Consent Statement: Not applicable.\n\n                           Data Availability Statement: The data presented in this study are available on request from the\n                             corresponding author.\n\n                             Conﬂicts of Interest: The authors declare no conﬂict of interest.",
+      "tables": [
+        {
+          "label": "Table 3",
+          "caption": "Table 3. Characteristics and hysteresis index of PSCs without and with 20 nm thick ZnO interface\nlayer during reverse scan and forward scan.",
+          "bbox": [
+            166.39,
+            126.88,
+            559.28,
+            246.57
+          ],
+          "rows": [
+            [
+              "Structure\n(Scan Direction)",
+              "Voc\n(V)",
+              "Jsc\n(mA/cm²)",
+              "FF\n(%)",
+              "PCE\n(%)",
+              "Hysteresis Index\n(%)"
+            ],
+            [
+              "Without ZnO\n(Forward)",
+              "0.87",
+              "20.44",
+              "70.52",
+              "12.54",
+              "7.52"
+            ],
+            [
+              "Without ZnO\n(Reverse)",
+              "0.89",
+              "21.43",
+              "71.10",
+              "13.56",
+              ""
+            ],
+            [
+              "With 20 nm ZnO\n(Forward)",
+              "0.88",
+              "22.57",
+              "73.61",
+              "14.62",
+              "4.88"
+            ],
+            [
+              "With 20 nm ZnO\n(Reverse)",
+              "0.89",
+              "23.29",
+              "74.14",
+              "15.37",
+              ""
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 3",
+          "text": "Table 3. Characteristics and hysteresis index of PSCs without and with 20 nm thick ZnO interface\nlayer during reverse scan and forward scan.",
+          "bbox": [
+            166.1,
+            97.32,
+            559.27,
+            119.19
+          ]
+        }
+      ],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 12,
+      "text": "Materials 2023, 16, 5061                                                                                                        12 of 13\n\n\n\nReferences\n\n1.   Barnham, K.W.J.; Mazzer, M.; Clive, B. Resolving the energy crisis: Nuclear or photovoltaics. Nat. Mater. 2006, 5, 161–164.\n     [CrossRef]\n2.    Azar, C.; Lindgren, K.; Andersson, B.A. Global energy scenarios meeting stringent CO2 constraints-cost-effective fuel choices in\n     the transportation sector. Energy Policy 2003, 31, 961–976. [CrossRef]\n3.   Fukuda, K.; Yu, K.; Someya, T. The future of ﬂexible organic solar cells. Adv. Energy Mater. 2020, 10, 2000765. [CrossRef]\n4.    Lee, H.Y.; Huang, H.L.; Lee, C.T. Performance enhancement of inverted polymer solar cells using roughened Al-doped ZnO\n    nanorod array. Appl. Phys. Express 2012, 5, 122302. [CrossRef]\n5.   Ryu, K.; Lee, Y.J.; Ju, M.; Choi, H.; Kim, B.; Lee, J.; Oh, W.; Choi, K.; Balaji, N.; Yi, J. Optimal indium tin oxide layer as antireﬂection\n     coating for crystalline silicon solar cell with shallow emitter. Thin Solid Films 2012, 521, 50–53. [CrossRef]\n6.   Ren, Q.; Li, S.; Zhu, S.; Ren, H.; Yao, X.; Wei, C.; Yan, B.; Zhao, Y.; Zhang, X. High near-infrared wavelength response planar\n     silicon-heterojunction solar cells. Sol. Energy Mater. Sol. Cells 2018, 185, 124–129. [CrossRef]\n7.   Yuan, T.; Li, J.; Wang, S. Composited ﬁlm of poly(3,4-ethylenedioxythiophene) and graphene oxide as hole transport layer in\n     perovskite solar cells. Polymers 2021, 13, 3895. [CrossRef]\n8.    Liu, G.Z.; Du, C.S.; Wu, J.Y.; Liu, B.T.; Wu, T.M.; Huang, C.F.; Lee, R.H. Enhanced photovoltaic properties of perovskite solar cells\n    by employing bathocuproine/hydrophobic polymer ﬁlms as hole-blocking/electron-transporting interfacial layers. Polymers\n     2021, 13, 42. [CrossRef]\n9.   Xu, Y.; Niu, Q.; Zhang, L.; Yuan, C.; Ma, Y.; Hua, W.; Zeng, W.; Min, Y.; Huang, J.; Xia, R. Highly efﬁcient perovskite solar cell\n     based on PVK hole transport layer. Polymers 2022, 14, 2249. [CrossRef]\n10.   Larciprete, R.; Agresti, A.; Pescetelli, S.; Pazniak, H.; Liedl, A.; Lacovig, P.; Lizzit, D.; Tosi, E.; Lizzit, S.; Carlo, A.D. Mixed cation\n     halide perovskite under environmental and physical stress. Materials 2021, 14, 3954. [CrossRef]\n11.   Kirui, J.K.; Olaleru, S.A.; Jhamba, L.; Wamwangi, D.; Roro, K.; Shnier, A.; Erasmus, R.; Mwakikunga, B. Elucidating the trajectory\n      of the charge transfer mechanism and recombination process of hybrid perovskite solar cells. Materials 2021, 14, 2698. [CrossRef]\n12.   Afzal, A.M.; Bae, I.G.; Aggarwal, Y.; Park, J.; Jeong, H.R.; Choi, E.H.; Park, B. Highly efﬁcient self-powered perovskite photodiode\n     with an electron-blocking hole-transport NiOx layer. Sci. Rep. 2021, 11, 169. [CrossRef] [PubMed]\n13.  Xing, G.; Mathews, N.; Sun, S.; Lim, S.S.; Lam, Y.M.; Graẗzel, M.; Mhaisalkar, S.; Sum, T.C. Long-range balanced electron-and\n     hole-transport lengths in organic-inorganic CH3NH3PbI3. Science 2013, 342, 344–347. [CrossRef]\n14.   Li, L.; Jacobs, D.L.; Che, Y.; Huang, H.; Bunes, B.R.; Yang, X.; Zang, L. Poly(3-hexylthiophene) nanoﬁber networks for enhancing\n     the morphology stability of polymer solar cells. Org. Electron. 2013, 14, 1383–1390. [CrossRef]\n15.  Wang, H.; Wang, Y.; Xuan, Z.; Chen, T.; Zhang, J.; Hao, X.; Wu, L.; Constantinou, I.; Zhao, D. Progress in perovskite solar cells\n     towards commercialization—A review. Materials 2021, 14, 6569. [CrossRef]\n16.  Kamaraki, C.; Zachariadis, A.; Kapnopoulos, C.; Mekeridis, E.; Gravalidis, C.; Laskarakis, A.; Logothetidis, S. Efﬁcient ﬂexible\n     printed perovskite solar cells based on lead acetate precursor. Sol. Energy 2018, 176, 406–411. [CrossRef]\n17.  Chen, C.; Zhai, Y.; Li, F.; Tan, F.; Yue, G.; Zhang, W.; Wang, M. High efﬁciency CH3NH3PbI3:CdS perovskite solar cells with\n     CuInS2 as the hole transporting layer. J. Power Sources 2017, 341, 396–403. [CrossRef]\n18.   Liu, Z.; Xie, X.; Liu, G.; Lee, E.C. High-performance metal-oxide-free perovskite solar cells based on organic electron transport\n     layer and cathode. Org. Electron. 2019, 64, 195–201. [CrossRef]\n19.  Fu, Y.; Song, Q.; Lin, T.; Wang, Y.; Sun, X.; Su, Z.; Chu, B.; Jin, F.; Zhao, H.; Li, W.; et al. High performance photomultiplication\n     perovskite photodetectors with PC60BM and NPB as the interlayers. Org. Electron. 2017, 51, 200–206. [CrossRef]\n20.  Kim, B.J.; Kim, D.H.; Lee, Y.Y.; Shin, H.W.; Han, G.S.; Hong, J.S.; Mahmood, K.; Ahn, T.K.; Joo, Y.C.; Hong, K.S.; et al. Highly\n     efﬁcient and bending durable perovskite solar cells: Toward a wearable power source. Energy Environ. Sci. 2015, 8, 916–921.\n     [CrossRef]\n21.   Tao, C.; Neutzner, S.; Colella, L.; Marras, S.; Kandada, A.R.S.; Gandini, M.; Bastiani, M.D.; Pace, G.; Manna, L.; Caironi, M.; et al.\n    17.6% stabilized efﬁciency in low-temperature processed planar perovskite solar cells. Energy Environ. Sci. 2015, 8, 2365–2370.\n     [CrossRef]\n22.   Lee, K.; Ryu, J.; Yu, H.; Yun, J.; Lee, J.; Jang, J. Enhanced efﬁciency and air-stability of NiOx-based perovskite solar cells via PCBM\n     electron transport layer modiﬁcation with Triton X-100. Nanoscale 2017, 9, 16249–16255. [CrossRef] [PubMed]\n23.   Jiu, T.; Li, Y.; Li, Y. New method for the synthesis of a highly-conjugated acene material and its application in perovskite solar\n       cells. Mater. Chem. Front. 2017, 1, 2261–2264. [CrossRef]\n24.  Kuang, C.; Tang, G.; Jiu, T.; Yang, H.; Liu, H.; Li, B.; Luo, W.; Li, X.; Zhang, W.; Lu, F.; et al. Highly efﬁcient electron transport\n     obtained by doping PCBM with graphdiyne in planar-heterojunction perovskite solar cells. Nano Lett. 2015, 15, 2756–2762.\n     [CrossRef]\n25.   Tsai, J.H.; Tsai, M.C.; Sung, C.Y.; Huang, P.T. Signiﬁcant increase in current density of inverted polymer solar cells by induced-\n      crystallization of sol-gel ZnO embedded with ZnO-NP. Org. Electron. 2020, 86, 105891. [CrossRef]\n26.  Luo, J.; Wang, Y.; Zhang, Q. Progress in perovskite solar cells based on ZnO nanostructures. Sol. Energy 2018, 163, 289–306.\n     [CrossRef]\n27.  You, J.; Meng, L.; Song, T.B.; Guo, T.F.; Yang, Y.M.; Chang, W.H.; Hong, Z.; Chen, H.; Zhou, H.; Chen, Q.; et al. Improved air\n      stability of perovskite solar cells via solution-processed metal oxide transport layers. Nat. Nanotechnol. 2016, 11, 75–81. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 13,
+      "text": "Materials 2023, 16, 5061                                                                                                        13 of 13\n\n\n\n\n28.  Yeh, T.H.; Lee, H.Y.; Lee, C.T. Performance improvement of perovskite solar cells using vanadium oxide interface modiﬁcation\n      layer. J. Alloys Compd. 2020, 822, 153620. [CrossRef]\n29.  Götz, A.W.; Rodríguez, J.I.; Castillo-Alvarado, F.L.; Trujillo-González, D.E. Van der Waals effects on structure and optical\n     propertiesin organic photovoltaics. Int. J. Quantum Chem. 2019, 119, e25883. [CrossRef]\n30.  Sutthana, S.; Hongsith, K.; Ruankham, P.; Wongratanaphisan, D.; Gardchareon, A.; Phadungdhitidhada, S.; Boonyawan, D.;\n    Kumnorkaew, P.; Tuantranont, A.; Choopun, S. Interface modiﬁcation of CH3NH3PbI3/PCBM by pre-heat treatment for efﬁciency\n     enhancement of perovskite solar cells. Curr. Appl. Phys. 2007, 17, 488–494. [CrossRef]\n31.  Baranowski, M.; Kudrawiec, R.; Syperek, M.; Misiewicz, J.; Sarmiento, T.; Harris, J.S. Time-resolved photoluminescence studies of\n     annealed 1.3-µm GaInNAsSb quantum wells. Nanoscale Res. Lett. 2014, 9, 81. [CrossRef] [PubMed]\n32.  Chen, P.S.; Lee, T.H.; Lai, L.W.; Lee, C.T. Schottky mechanism for Ni/Au contact with chlorine-treated n-type GaN layer. J. Appl.\n     Phys. 2007, 101, 024507. [CrossRef]\n33.   Lai, L.W.; Lee, C.T. Investigation of optical and electrical properties of ZnO thin ﬁlms. Mater. Chem. Phys. 2008, 110, 393–396.\n     [CrossRef]\n34.  Huang, J.; Yu, X.; Xie, J.; Li, C.Z.; Zhang, Y.; Xu, D.; Tang, Z.; Cui, C.; Yang, D. Fulleropyrrolidinium iodide as an efﬁcient electron\n     transport layer for air-stable planar perovskite solar cells. ACS Appl. Mater. Interfaces 2016, 8, 34612–34619. [CrossRef]\n35.  Svanstrom, S.; Jacobsson, T.J.; Boschloo, G.; Johansson, E.M.J.; Rensmo, H.; Cappel, U.B. Degradation mechanism of silver metal\n     deposited on lead halide perovskites. ACS Appl. Mater. Interfaces 2020, 12, 7212–7221. [CrossRef] [PubMed]\n36.  Park, S.; Jang, W.; Wang, D.H. Alignment of cascaded band-gap via PCBM/ZnO hybrid interlayers for efﬁcient perovskite\n     photovoltaic cells. Macromol. Res. 2018, 26, 472–476. [CrossRef]\n37.   Lee, H.J.; Na, S.I. Investigation of PCBM/ZnO and C60/BCP-based electron transport layer for high-performance p-i-n perovskite\n      solar cells. J. Alloys Compd. 2022, 921, 166007. [CrossRef]\n38.  Habisreutinger, S.N.; Noel, N.K.; Snaith, H.J. Hysteresis index: A ﬁgure without merit for quantifying hysteresis in perovskite\n      solar cells. ACS Energy Lett. 2018, 3, 2472–2476. [CrossRef]\n39.   Jiang, H.; Jiang, G.; Xing, W.; Xiong, W.; Zhang, X.; Wang, B.; Zhang, H.; Zheng, Y. High current density and low hysteresis effect\n      of planar perovskite solar cells via PCBM-doping and interfacial improvement. ACS Appl. Mater. Interfaces 2018, 10, 29954–29964.\n     [CrossRef]\n\n\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "6f52dcd65bcbc64691c972bfe28d289f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            516.92,
+            56.15,
+            558.47,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_6f52dcd65bcbc64691c972bfe28d289f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "59c116537ecf25f8d7692dabbf2060fb",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            517.1,
+            56.34,
+            538.31,
+            76.49
+          ]
+        }
+      ],
+      "file": "garbage/page1_59c116537ecf25f8d7692dabbf2060fb.png",
+      "is_garbage": true
+    },
+    {
+      "id": "62efa0313b674db8d12560bbe65e7581",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            537.1,
+            63.4,
+            558.32,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_62efa0313b674db8d12560bbe65e7581.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bdad99135e250503119f6f098d743bd0",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            521.38,
+            65.4,
+            553.92,
+            74.6
+          ]
+        }
+      ],
+      "file": "garbage/page1_bdad99135e250503119f6f098d743bd0.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            35.72,
+            656.88,
+            92.41,
+            676.72
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

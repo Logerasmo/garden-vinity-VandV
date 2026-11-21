@@ -3,8 +3,8 @@ from pathlib import Path
 from io import BytesIO
 from PIL import Image
 
-GARBAGE_PROMT = Path("garbage_filter_promt.txt").read_text(encoding="utf-8")
-GLOABAL_IMAGE_PROMT = Path("extraction_prompt.txt").read_text(encoding="utf-8")
+GARBAGE_PROMT = Path(__file__).with_name("garbage_filter_promt.txt").read_text(encoding="utf-8")
+GLOABAL_IMAGE_PROMT = Path(__file__).with_name("extraction_prompt.txt").read_text(encoding="utf-8")
 
 client = Client(host="http://127.0.0.1:11435")
 

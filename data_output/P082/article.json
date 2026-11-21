@@ -1,0 +1,475 @@
+{
+  "publication_id": "P082",
+  "source_file": "P082.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Mechanism of improvement of efficiency of Cu2ZnSn(S,Se)4 solar cells by optimization of deposition temperature of CdS buffer layer",
+    "author": "Chunkai Wang; Bin Yao; Yongfeng Li; Zhanhui Ding; Ding Ma; Ting Wang; JiaYong Zhang; Dongxu Zhang; Yue Liu; Ruijian Liu",
+    "subject": "Solar Energy, 262 (2023) 111847. doi:10.1016/j.solener.2023.111847",
+    "keywords": "CZTSSe,Solar cells,CdS,Deposition temperature,Carrier recombination",
+    "creator": "Elsevier",
+    "producer": "Acrobat Distiller 8.1.0 (Windows)",
+    "creationDate": "D:20230824191243Z",
+    "modDate": "D:20230824213450Z",
+    "DOI": "10.1016/j.solener.2023.111847",
+    "year": 2023,
+    "authors": [
+      "Chunkai Wang",
+      "Bin Yao",
+      "Yongfeng Li",
+      "Zhanhui Ding",
+      "Ding Ma",
+      "Ting Wang",
+      "JiaYong Zhang",
+      "Dongxu Zhang",
+      "Yue Liu",
+      "Ruijian Liu"
+    ]
+  },
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "text": "                                                                Solar Energy 262 (2023) 111847\n\n                                                 Contents lists available at ScienceDirect\n                                   Solar Energy\n\n\n                                           journal homepage: www.elsevier.com/locate/solener\n\n\nMechanism of improvement of efficiency of Cu2ZnSn(S,Se)4 solar cells by\noptimization of deposition temperature of CdS buffer layer\nChunkai Wang a,b, Bin Yao a,b,*, Yongfeng Li a,*, Zhanhui Ding a, Ding Ma a,b, Ting Wang a,b,\nJiaYong Zhang a,b, Dongxu Zhang a,b, Yue Liu a,b, Ruijian Liu c,*\na State Key Laboratory of Superhard Material, and college of Physics, Jilin University, Changchun 130012, China\nb Key Laboratory of Physics and Technology for Advanced Batteries (Ministry of Education), College of Physics, Jilin University, Changchun 130012, China\nc Key Laboratory of Semiconductor Photovoltaic at Universities of Inner Mongolia Autonomous Region, School of Physical Science and Technology, Inner Mongolia\nUniversity, Hohhot 010021, China\n\n\nA R T I C L E  I N F O                  A B S T R A C T\n\nKeywords:                                  The physical properties of CdS buffer layers and the interface quality between CdS layer and Cu2ZnSn(S,Se)4\nCZTSSe                                       (CZTSSe) absorber have a significant impact on the performance of CZTSSe solar cells. In the present work, five\nSolar cells                                         types of CZTSSe solar cells with conventional structure (denoted as CdS-x-cells, x = 55, 60, 65, 70 and 75) were\nCdS                                                   fabricated by using CdS prepared at deposition temperatures of 55, 60, 65, 70 and 75 ℃, respectively, as bufferDeposition temperature                                                       layer, and influence mechanism of the deposition temperature of CdS layers on power conversion efficiencyCarrier recombination\n                                             (PCE) of the CdS-x-cells was investigated. It is found that the PCE of the CdS-x-cells increases from 8.52% to\n                                         10.36% as the deposition temperature rises from 55 to 60 ℃ but falls from 10.36% to 7.14% from 60 to 75 ℃.\n                                         The analysis on the photovoltaic and electrical parameters indicates that the increase in PCE is predominantly\n                                                derived from the decreased reverse saturated current density (J0), followed by the decreased series resistance\n                                                   (RS) and increased shunt resistance (RSh). The decreased PCE with the further increasing deposition temperature\n                                                                 is mainly contributed from the increased J0, followed by the decreased RSh and photogenerated current density\n                                                            (JL). The influence mechanism of deposition temperature of the CdS layer on PCE is suggested via quantitatively\n                                                    analysis of influence of electrical, optical properties and crystal quality of CdS prepared at various deposition\n                                               temperatures on JL and electrical parameters of CdS-x-cells. This work is helpful for improvement of PCE of\n                                         CZTSSe solar cells by modification of properties of buffer layer.\n\n\n1. Introduction                                                                built-in field, which can be expected to be resolved by improvement of\n                                                                                 crystal quality of CdS and optimization of optical and electrical prop­\n   Given its excellent photoelectric properties and plentiful ingredients      erties of CdS.\nfound on earth, kesterite CZTSSe has received a lot of consideration [1]       Chemical bath deposition (CBD) is typically employed to prepare the\nand  is anticipated to be a viable alternative to CuInGaSe2 (CIGSe)    CdS  buffer  layers  in  conventional  structure CZTSSe  solar  cells\nabsorber material utilized in the manufacture of thin film solar cells. Up     [11,12,13] as a result of its advantages of simple process, low cost and\nto now, the world record for the power conversion efficiency (PCE) of     reproducibility [14,15]. In order to optimize the optical and electrical\nCZTSSe solar cells has reached 13.9% [2]. Nonetheless, this PCE is     properties of CdS and improve its crystal quality, CdS films are prepared\nsignificantly lower than the Shockley–Queisser (SQ) limit efficiency    by tuning deposition parameters of CBD, such as deposition tempera­\n(33%) [3] and the best PCE of CIGS solar cell (23.35%) [4]. Many re­     ture, the pH value of the reaction solution [16,17], the concentration of\nsearches  have  demonstrated  that  the  principal  reasons  limiting    cadmium salt and thiourea [18,19]. Deposition temperature, one of\nimprovement of PCE of CZTSSe solar cells are higher carrier recombi­     these parameters, has been given considerable focus since it could vastly\nnation in CZTSSe bulk and at the CZTSSe/CdS interface as well as lower     affect the physical properties of CdS films. For example, Liu and Li et al.\nseparation ability of carrier. They are related to band alignment and    found that raising the deposition temperature could enhance the crys­\ncrystal quality of the CZTSSe/CdS interface [5,6,7,8,9,10], as well as      tallization quality of the CdS film and reduce its bandgap [21,20]. M A.\n\n\n * Corresponding authors at: State Key Laboratory of Superhard Material, and college of Physics, Jilin University, Changchun 130012, China (B. Yao).\n    E-mail addresses: binyao@jlu.edu.cn (B. Yao), liyongfeng@jlu.edu.cn (Y. Li), ruijian-liu@imu.edu.cn (R. Liu).\nhttps://doi.org/10.1016/j.solener.2023.111847\nReceived 28 April 2023; Received in revised form 28 June 2023; Accepted 4 July 2023\nAvailable online 18 July 2023\n0038-092X/© 2023 International Solar Energy Society. Published by Elsevier Ltd. All rights reserved.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "250b796fb32c3f979d647ab3b55ead77",
+        "679f771a6dffcf906aca92bb2ff2130b",
+        "bfa175d573e0ddd1e16e734356d2c308"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "C. Wang et al.                                                                                                                                            Solar Energy 262 (2023) 111847\n\nContreras et al. studied the trend of change of CdS grain size with     fabricated: SLG/Mo/CZTSSe/CdS/i-ZnO/ITO/Ag.\ndeposition temperature [22]. According to Zhou et al., as the tempera­\nture rises, the CdS films’ transmittance decreases [23]. And the con­     2.3. Characterization\nductivities of CdS are related to the deposition temperature closely too\n[24,25]. Nevertheless, to our knowledge, it seems that there are few       By using a DX-2700 X-ray diffractometer with Cu Kα radiation (λ =\nstudies about the influence mechanism of deposition temperature of CdS    1.5406 Å), X-ray diffraction (XRD) data was obtained. The morphologies\non the device performance. Accordingly, it is essential and urgent to    and composition of CdS films were obtained by Regulus 8100 field-\ncomprehend the effect of deposition temperature of CdS on the perfor­     emission scanning electron microscopy (SEM) with a Bruker XFlash\nmance of CZTSSe solar cells, which is necessary to improve device     energy-dispersive X-ray spectroscopy (EDS) system. The optical prop­\nperformance by optimizing the properties of CdS buffer layer.                erties of CdS films were measured by UV-2800(A) Ultraviolet–visible\n   In current work, the CdS buffer layer was fabricated via CBD at     spectrophotometer.  The  electrical  properties  of CdS  films  were\ndiverse deposition temperatures to explore the effect of deposition    measured by an automated Hall effect system in a Van der Pauw\ntemperature of CdS buffer layer on the performance of CZTSSe solar     configuration. By using a Keithley 2400 source meter under simulated\ncells. It’s discovered that when the deposition temperature rises from 55   AM 1.5G solar illumination, the current density −voltage (J −V) curves\nto 60 ◦C, the PCE of device rises from 8.52% to 10.36%, but falls from     of devices were obtained. External quantum efficiency (EQE) spectra in\n10.36% to 7.14% as the temperature climbs from 60 to 75 ◦C. More     the range of 300 to 1400 nm were obtained by a Zolix SCS100 QE system\ninterestingly, by using quantitative analysis of relationship between    equipped with a 150 W xenon light source. The capacitance −  voltage\nphotovoltaic and electrical parameters of CZTSSe solar cells and prop­    (C −  V) curves were obtained by Keithley 4200-SCS instrument under\nerties of CdS buffer layer prepared at various deposition temperatures,    dark condition.\nthe influence mechanism of the deposition temperature of CdS buffer\nlayer on device performance was suggested.                               3. Results and discussion\n\n2. Experimental details                                                     In order to analyze the impact of CdS deposition temperature on\n                                                                         photovoltaic (PV) performance of CZTSSe solar cells, five groups of\n2.1. Materials                                                  CZTSSe solar cells with CdS buffer layers deposited at 55, 60, 65, 70 and\n                                                            75 ℃ were fabricated and denoted as CdS-x-cell (x = 55, 60, 65, 70 and\n   The chemicals are all being used directly without any additional     75). The statistics box charts of their PCE, fill factor (FF), open-circuit\nprocessing. Chemicals including SnCl2⋅2H2O (99%, Alfa Aesar), ZnCl2     voltage (VOC) and short-circuit current density (JSC) were shown in\n(99.99%, Aladdin), CuCl (analytical grade (AR), Sinopharm Chemical     Fig. 1. As shown in Fig. 1(a), the statistical average of the PCE increases\nReagent Co. Ltd.), thiourea (99%, Aladdin), DMSO (99.9%, Aladdin),     as temperature rises from 55 to 60 ℃ and falls from 60 to 75 ℃. This\nCdSO4⋅8/3H2O (99.99%, Aladdin), NH4OH (AR, Sinopharm Chemical     indicates that, in the current work, the optimum CdS deposition tem­\nReagent Co. Ltd.).                                                       perature for improvement PCE of device is 60 ◦C.\n                                                              To clarify the influence mechanism of CdS deposition temperature on\n2.2. Thin film and device fabrication                                      the device performance through quantitative analysis, solar cells with\n                                                                        the highest PCE were selected from each group of CdS-x-cell devices as\n   The pellucid and colorless precursor solution was obtained by dis­    samples and denoted as h-CdS-x-cell. Fig. 2 illustrates the J − V char­\nsolving SnCl2⋅2H2O, ZnCl2, CuCl, thiourea in DMSO with magnetic      acteristic curves of the h-CdS-x-cells, from which the associated PV pa­\nstirring for 5 h at room temperature. The Cu/(Zn + Sn) and Zn/Sn are     rameters were  extracted and presented  in Table  1. The  electric\n~0.71 and ~1.19, respectively. The precursor solution was spin-coated     parameters (shunt resistance (RSh), series resistance (RS), reverse satu­\non a Mo-coated soda lime glass (SLG), the wet film was instantly sintered     rated current density (J0) and diode ideal factor (A)) and photo­\non a hot plate at 430 ℃ for 3 min in the glove box containing N2     generated current density (JL) were computed by means of fitting J-V\n(99.999%). In a bid to achieve precursor films with the envisioned     curves with the program written by Dr. Liu based on solar cell theory\nthickness of 1 μm, the process of spin-coating and sintering was repeated     [26], [27], as presented in Table 2. The PV parameters of h-CdS-x-cells\n8 times. After that, putting Se granule (≈500 mg) and the precursor films     presented in Table 1 show similar deposition temperature dependent\n(four for one batch) into a graphite box and placing the graphite box in    change feature shown in Fig. 1. The PCE of the h-CdS-60-cell reaches\nrapid heating furnace tube for selenization.                          10.36% with the VOC of 432.42 mV, the JSC of 37.05 mA⋅cm−2 and the FF\n   After that, clean SLG sheets were placed on the sample rack together     of 64.68%, confirming that 60 ℃ is the optimal deposition temperature\nwith the CZTSSe absorbers, then they were rinsed with deionized water     of CdS buffer layer for improving the device performances.\nto clean their surface. The CdS buffer layer was fabricated by CBD. First,       By using PV parameters of Table 1 and the method of calculation\n200 mL deionized water and 0.0768 g CdSO4 powder (CdSO4⋅8/3H2O)     suggested in the previous work [28], the contribution percentage of\nwere mixed together in a beaker. After that, adding 12.5 mL NH4OH into     variety of VOC, JSC and FF to changed PCE were calculated and listed in\nthe mixture and stirring for 10 min. After soaking the clean SLG sheets     Table 3. In Table 3, ΔPCE(VOC), ΔPCE(JSC) and ΔPCE(FF) represent the\nand CZTSSe films in the solution, 0.11 g thiourea was added to the re­     differences in PCE between h-CdS-x-cells induced by VOC, JSC and FF,\naction solution and stir fully until dissolved. Finally, putting the beaker     respectively. ηPCE(VOC), ηPCE(JSC) and ηPCE(FF) represent the contri­\nin a pre-heated water bath pot, so that the solution was reacted at     bution percentage of change of VOC, JSC and FF to the change of PCE\ndifferent temperatures, respectively. The CdS buffer layers of about 50    between h-CdS-x-cells, respectively. The ηPCE(VOC), ηPCE(JSC) and\nnm thickness were deposited at 55, 60, 65, 70 and 75 ℃. The thickness    ηPCE(FF)  is 56.51%, −31.77% and 75.26%,  respectively,  to  the\nof CdS films was controlled via observing color change of the sample     increased PCE from h-CdS-55-cell to h-CdS-60-cell, and is −31.77%,\nduring deposition process. After that, dry the gotten films by putting    −3.80% and −64.43%, respectively, to the decreased PCE from h-CdS-\nthem in a 40 ◦C oven for 60 s. The i-ZnO (~50 nm) and indium tin oxide     60-cell to h-CdS-75-cell. These results indicate that the increased or\n(ITO) (~200 nm) layers were deposited by using radio frequency sput­     decreased PCE dominantly results from change of FF, followed by\ntering and direct current sputtering, respectively. Then, using thermal    change of VOC, and lastly by change of JSC.\nevaporation method, the 500 nm-thick Ag collection grids were depos­           It’s generally acknowledged that FF is connected to RSh, JL, (A, J0)\nited. Finally, all devices were mechanically scribed into nine small cells,    and RS. By using the method of calculation suggested in the earlier\neach of which had an active area of 0.19 cm2. Therefore, typical CZTSSe     research [10] as well as JL and electrical parameters listed in Table 2, we\nsolar  cells with the following conventional structure were  finally    computed the differences in FF between h-CdS-x-cells induced by the\n\n                                                                        2",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "C. Wang et al.                                                                                                                                            Solar Energy 262 (2023) 111847\n\n\n\n\n\n                            Fig. 1. Statistics box charts of (a) PCE, (b) FF, (c) VOC, (d) JSC of CdS-x-cells (x = 55, 60, 65, 70 and 75).\n\n                                                                        Table 1\n                                                            PV Parameters of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75) (Average value of\n                                                               PCE are mentioned in parentheses).\n                                                                                Sample          PCE (%)         VOC (mV)       JSC (mA⋅cm−2)      FF (%)\n                                                                                               h-CdS-55-cell      8.52 (7.17)       387.36        39.39              55.86\n                                                                                               h-CdS-60-cell      10.36 (9.57)      432.42        37.05              64.68\n                                                                                               h-CdS-65-cell      9.75 (8.40)       429.97        38.13              59.47\n                                                                                               h-CdS-70-cell      7.98 (7.31)       391.49        38.71              52.64\n                                                                                               h-CdS-75-cell      7.14 (5.87)       384.24        36.53              50.85\n\n\n                                                                        Table 2\n                                                                                          Electric Parameters and JL of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75).\n                                                                                Sample        RSh          RS        A       J0               JL\n                                                                                                    (Ω⋅cm2)      (Ω⋅cm2)            (mA⋅cm−2)     (mA⋅cm−2)\n                                                                                         h-CdS-55-     465.14       1.16         1.80    9.25 × 10−3    39.39\n                                                                                                                  cell\n                                                                                         h-CdS-60-     529.46       0.98         1.45    3.28 × 10−4    37.05\n                                                                                                                  cell\n                                                                                         h-CdS-65-     553.05       0.94         1.96    7.58 × 10−3    38.17\n                                                                                                                  cell\n                                                                                         h-CdS-70-     205.88       0.96         2.37    6.11 × 10−2    38.79Fig. 2. J–V characteristics of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75)                                                                                                                  cell\nmeasured under AM 1.5 simulated sunlight.                                           h-CdS-75-     216.77       0.89         2.44    7.68 × 10−2    36.53\n                                                                                                                  cell\nchange of just one of RSh, JL, (A, J0), and RS, which are denoted as △FF\n(x) (x = RSh, JL, (A, J0), and RS), respectively, to assess the effect of the                                                                               respectively, to the improved FF from h-CdS-55-cell to h-CdS-60-cell,change of RSh, JL, (A, J0), and RS on FF quantitatively, and the results of                                                              and −9.57%, 0.27%, −95.53% and 4.84%, respectively, to the reducedcalculation are presented in Table 4. By using △FF(x), the contribution                                                              FF from h-CdS-60-cell to h-CdS-75-cell. These results imply that thepercentages of the RSh, JL, (A, J0), and RS to changed FF, which are                                                                 change of FF originates primarily as a consequence of change of the (A,denoted as ηFF(RSh), ηFF(JL), ηFF(A, J0), ηFF(RS), respectively, were                                                                                      J0).calculated and listed in Table 4. Table 4 illustrates that ηFF(RSh), ηFF                                                                                                         It is commonly known that the JL, electrical parameters and bandgap(JL), ηFF(A,  J0), ηFF(RS)  is 1.34%, 3.02%, 80.31% and 15.32%,\n\n                                                                        3",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Fig. 1. Statistics box charts of (a) PCE, (b) FF, (c) VOC, (d) JSC of CdS-x-cells (x = 55, 60, 65, 70 and 75).",
+          "figure_bbox": [
+            111.05,
+            53.45,
+            484.23,
+            377.36
+          ],
+          "bbox": [
+            127.11,
+            381.98,
+            472.4,
+            393.95
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Fig. 2. J–V characteristics of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75)\nmeasured under AM 1.5 simulated sunlight.",
+          "figure_bbox": [
+            38.82,
+            412.14,
+            287.45,
+            620.86
+          ],
+          "bbox": [
+            37.59,
+            625.48,
+            290.78,
+            646.78
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Fig. 1. Statistics box charts of (a) PCE, (b) FF, (c) VOC, (d) JSC of CdS-x-cells (x = 55, 60, 65, 70 and 75).",
+          "bbox": [
+            111.05,
+            53.45,
+            484.23,
+            377.36
+          ],
+          "file": "extracted_images/page3_figure-1_1.png"
+        },
+        {
+          "label": "Figure 2",
+          "caption": "Fig. 2. J–V characteristics of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75)\nmeasured under AM 1.5 simulated sunlight.",
+          "bbox": [
+            38.82,
+            412.14,
+            287.45,
+            620.86
+          ],
+          "file": "extracted_images/page3_figure-2_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "C. Wang et al.                                                                                                                                            Solar Energy 262 (2023) 111847\n\nTable 3                                                                   contribution percentage of change of RSh, JL, and (A, J0) is calculated to\nThe differences in PCE between h-CdS-x-cells induced by VOC, JSC and FF and    be 0.25%, −5.54%, 105.29%, respectively, to the improvement of VOC\ntheir contribution percentages.                                         from h-CdS-55-cell to h-CdS-60-cell, and to be −3.15%, −1.49%,\n  Cell        ΔPCE     ηPCE     ΔPCE     ηPCE     ΔPCE     ηPCE       −95.37%, respectively, to the reduction of VOC from h-CdS-60-cell to h-\n  couples       (VOC)      (VOC)        (JSC)        (JSC)        (FF)       (FF)          CdS-75-cell. The contribution percentage of change of RSh, RS, JL, and\n             [%]       [%]       [%]      [%]       [%]      [%]          (A, J0) is calculated to be 0.46%, 0.68%, −101.68%, 0.54%, respec­\n  h-CdS-55-      1.04       56.51    −0.58     −31.77      1.38      75.26        tively, to decreased JSC from h-CdS-55-cell to h-CdS-60-cell, and to be\n     cell –                                                       −14.28%, 2.16%, −79.47%, −8.42%, respectively, to the reduction of\n    h-CdS-                                                                   JSC from h-CdS-60-cell to h-CdS-75-cell. These results indicate that the    60-cell\n                                                                   primary cause of increased VOC is decreased (A, J0), however, the variety\n  h-CdS-60-    −1.02     −31.77    −0.12      −3.80    −2.08    −64.43        of JSC is dominantly due to the change of JL.\n     cell –                                                                According to the above calculated results of contribution percentage    h-CdS-\n    75-cell                                                                     of PV parameters to PCE as well as the above calculated results of\n                                                                          contribution percentage of JL and electrical parameters to PV parame­\n                                                                                         ters, the contribution percentage of the variety of RSh, JL, (A, J0) and RS\n(Eg) of CZTSSe can affect VOC and JSC. As shown in Fig. 3(a), in order to     to increased PCE (explanation of the method see in section 5 of Sup­\ndetermine how the Eg of absorbers in the five h-CdS-x-cells affected VOC    porting information for detail) from h-CdS-55-cell to h-CdS-60-cell is\nand JSC, EQE measurements were carried out for the five h-CdS-x-cells.     estimated to be 1.30%, –33.16%, 120.11% and 11.75%, respectively.\nAnd as shown in Fig. 3(b), the Eg of the CZTSSe absorbers was calculated    The contribution percentage of change of RSh, JL, (A, J0) and RS to\nby extrapolating the linear part of [hν⋅ln(1-EQE)]2 versus hν curves (hν    reduced PCE from h-CdS-60-cell to h-CdS-75-cell is estimated to be −\nis the photo energy) to the intercept on horizontal axis [29,30]. From    7.71%, −3.32%, −92.17%, and 3.20%, respectively. The decrease in J0\nFig. 3(b), Eg of CZTSSe absorbers are approximately equal and do not      is the primary cause of the enhancement of PCE, which is followed by\nvary with deposition temperature. This indicates that JL and electrical    reduced RS and increased RSh. This is agreement with the statistics box\nparameters are the primary causes of the variation in VOC and JSC of five     charts of electrical parameters shown in Fig. S5. The rise in J0 is the\nh-CdS-x-cells.                                                               principal cause of the drop of PCE, which is followed by decreased RSh\n   According to single diode model with RS and RSh of solar cell, the    and JL.\nrelation of JL and electrical parameters with VOC and JSC is described by        In the present work, difference in device structure between the CdS-\nthe following:                                                                     x-cells comes mainly from difference in CdS buffer layer induced by\nVOC           [   (qVOC )   ]                                                different deposition temperature. So, differences in JL and electrical\n  = JL −J0 exp                −1                                        (1)     parameters between the CdS-x-cells should result from differences in the              AKTRSh\n                                                                  morphology, crystal quality, optical and electrical properties of CdS\n     RS                 [   (qRSJsc )   ]                                     buffer layer.\n(1 +          )Jsc = JL −J0 exp                     −1                               (2)       As shown in Fig. 4, in order to explore the impact of deposition                    AKT     RSh\n                                                                      temperatures of CdS buffer layer on its crystallization characteristics,\nwhere q, k and T is electron charge, Boltzmann constant and Kelvin   SEM measurement was carried out for CdS films with a 50 nm thickness\ntemperature, respectively. According to the method of calculation sug­     deposited on CZTSSe at 55, 60, 70 and 75 ℃, respectively. The CZTSSe\ngested in the earlier research [31] and the data listed in Table 2, the     are covered fully by CdS film with nanostructure. It can be seen in Fig. 4\n\nTable 4\nThe differences in FF between h-CdS-x-cells induced by the change of only one of RSh, JL, (A, J0), and RS and their contribution percentages.\n  Cell couples             ΔFF(RSh)           ηFF(RSh)           ΔFF(JL)           ηFF(JL)          ΔFF(A, J0)           ηFF(A, J0)          ΔFF(RS)           ηFF(RS)\n                       [%]             [%]             [%]            [%]            [%]               [%]              [%]             [%]\n  h-CdS-55-cell -             0.11               1.34             0.24              3.02                6.47               80.31             1.23              15.32\n    h-CdS-60-cell\n  h-CdS-60-cell -          −1.16            −9.57             0.03              0.27            −11.54            −95.53             0.58               4.84\n    h-CdS-75-cell\n\n\n\n\n\n                            Fig. 3. (a) EQE curves and (b) h ν⋅ln(1-EQE)2 vs h ν plots of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75).\n\n                                                                        4",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Fig. 3. (a) EQE curves and (b) h ν⋅ln(1-EQE)² vs h ν plots of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75).",
+          "figure_bbox": [
+            104.87,
+            566.12,
+            490.47,
+            728.18
+          ],
+          "bbox": [
+            125.01,
+            732.2,
+            474.44,
+            744.52
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Fig. 3. (a) EQE curves and (b) h ν⋅ln(1-EQE)² vs h ν plots of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75).",
+          "bbox": [
+            104.87,
+            566.12,
+            490.47,
+            728.18
+          ],
+          "file": "extracted_images/page4_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "C. Wang et al.                                                                                                                                            Solar Energy 262 (2023) 111847\n\n\n\n\n\n                Fig. 4. SEM images of surface morphology of CdS films grown on CZTSSe at temperatures of (a) 55, (b) 60, (c) 70 and (d) 75 ℃.\n\nthat two larger particles are observed on CdS film shown in Fig. 4(d) but     27.25◦is fitted with Gaussian mode for the five samples, and the fitting\nnot in Fig. 4(a)-(c). They may be CdS or Cd(OH)2 [20], formation of     results are listed in Table 5. As shown in Fig. 5(g)-(k), it is found that the\nwhich is attributed to cluster-by-cluster reaction induced by the rapid    peak is well fitted by three sub-peaks. The strong peak located at 27.25◦\nincrease in the concentration of Cd and S ions in the solution at higher      is due to kesterite CZTSSe. The peak at left side of the strong peak\ndeposition temperature. In order to confirm structure of the particles,     located at about 26.86◦is assigned to diffraction angles of the (111)\nXRD measurement was performed for the CdS films deposited on CZTSSe     plane of the cubic phase or the (002) plane of the hexagonal phase of\nat 55, 60, 65, 70 and 75 ℃, as shown in Fig. 5. In order to form a contrast    CdS [32], since the difference in the interplanar crystal spacing between\nbetter, CZTSSe without CdS was also involved in the XRD measurement     the (111) plane of the cubic phase and the (002) plane of the hexagonal\nas a control, as shown in Fig. 5(f). From Fig. 5(f), only one strong and    phase is too small to distinguish whether it is due to cubic phase or the\nweak XRD peaks are observed at 27.25◦and 28.41◦, respectively, for    hexagonal phase [32]. This confirms that these particles consist of CdS\nCZTSSe film, which are due to diffraction of (112) and (103) planes of     nanocrystal. In addition, the peak at right side of the strong peak located\nCZTSSe. However, for the CZTSSe films with CdS, a shoulder is observed     at 27.37◦, which is between diffraction angles of (111) plane of ZnS\nat the left side of the strong peak, except for the two peaks of CZTSSe. In    (JCPDS card no. 05–0566) and ZnSe (JCPDS card no. 37–1463). Many\norder to determine peak position of the shoulder, diffraction peak near     literatures have demonstrated that a small amount of secondary phases\n                                                                                                is easily formed in CZTSSe film due to that composition range of single\n                                                                   phase of kesterite CZTSSe  is very small and composition prepared\n                                                             CZTSSe film deviate from this range easily, and the secondary phase is\n                                                                          often Zn(S,Se) [33], [34,35]. So, it is deduced that the peak located at\n                                                                   27.37◦is ascribed to diffraction of the (111) plane of Zn(S,Se). This\n                                                            means that there is second phase in the absorber. The formation of the\n                                                                         Zn(S,Se) implies that the composition of the CZTSSe absorber deviates\n                                                                from stoichiometric ratio of single kesterite phase of CZTSSe [33].\n\n                                                                        Table 5\n                                                         XRD results of CdS films deposited on CZTSSe at temperatures of 55, 60, 65, 70\n                                                                     and 75 ℃.\n                                                                                                Deposition             CdS            CZTSSe            Zn(S,Se)\n                                                                                            temperature                                                                                                        2θ    FWHM   2θ    FWHM   2θ    FWHM                                                                                (℃)                                                                                                                                            (◦)        (◦)         (◦)        (◦)         (◦)        (◦)\nFig. 5. XRD patterns of CdS films deposited on CZTSSe absorber at tempera­               55            26.89    0.51      27.25    0.18      27.37    0.34\ntures of 75 ℃ (a), 70 ℃ (b), 65 ℃ (c), 60 ℃ (d) and 55 ℃ (e). (f) XRD patterns               60            26.88    0.45      27.26    0.18      27.37    0.35\nof CZTSSe without CdS. (g)-(l) fitting of peaks of CdS and CZTSSe. (m) FWHM of              65            26.86    0.43      27.24    0.18      27.37    0.35\nCdS peaks and crystallite sizes of CdS films deposited on CZTSSe at 55, 60, 65,               70            26.85    0.40      27.25    0.19      27.37    0.34                                                                                    75            26.85    0.37      27.25    0.19      27.37    0.3470 and 75 ℃.\n\n                                                                        5",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Fig. 4. SEM images of surface morphology of CdS films grown on CZTSSe at temperatures of (a) 55, (b) 60, (c) 70 and (d) 75 ℃.",
+          "figure_bbox": [
+            99.08,
+            53.45,
+            496.19,
+            353.1
+          ],
+          "bbox": [
+            88.72,
+            357.71,
+            510.79,
+            369.44
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Fig. 5. XRD patterns of CdS films deposited on CZTSSe absorber at tempera­\ntures of 75 ℃ (a), 70 ℃ (b), 65 ℃ (c), 60 ℃ (d) and 55 ℃ (e). (f) XRD patterns\nof CZTSSe without CdS. (g)-(l) fitting of peaks of CdS and CZTSSe. (m) FWHM of\nCdS peaks and crystallite sizes of CdS films deposited on CZTSSe at 55, 60, 65,\n70 and 75 ℃.",
+          "figure_bbox": [
+            304.6,
+            656.52,
+            559.66,
+            694.58
+          ],
+          "bbox": [
+            37.59,
+            694.58,
+            290.78,
+            744.52
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Fig. 4. SEM images of surface morphology of CdS films grown on CZTSSe at temperatures of (a) 55, (b) 60, (c) 70 and (d) 75 ℃.",
+          "bbox": [
+            99.08,
+            53.45,
+            496.19,
+            353.1
+          ],
+          "file": "extracted_images/page5_figure-4_1.png"
+        },
+        {
+          "label": "Figure 5",
+          "caption": "Fig. 5. XRD patterns of CdS films deposited on CZTSSe absorber at tempera­\ntures of 75 ℃ (a), 70 ℃ (b), 65 ℃ (c), 60 ℃ (d) and 55 ℃ (e). (f) XRD patterns\nof CZTSSe without CdS. (g)-(l) fitting of peaks of CdS and CZTSSe. (m) FWHM of\nCdS peaks and crystallite sizes of CdS films deposited on CZTSSe at 55, 60, 65,\n70 and 75 ℃.",
+          "bbox": [
+            304.6,
+            656.52,
+            559.66,
+            694.58
+          ],
+          "file": "extracted_images/page5_figure-5_2.png"
+        }
+      ],
+      "image_ids": [
+        "9fc60aaf071caebded9ee70f3b8f4fb3"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "C. Wang et al.                                                                                                                                            Solar Energy 262 (2023) 111847\n\n   As shown in Table 5, the FWHM and 2θ of the CdS peaks decreases                                                                                (πaB )2       (B )2with the rising deposition temperature. The decreased FWHM is mainly     Eg = E(bulk)g  + Eb    = E(bulk)g  +                                    (5)\nattributed to the increased grain size of CdS. The crystallite sizes of the                R              d\nCdS films prepared at 55, 60, 65, 70 and 75 ℃ were calculated by using\nScherrer formula to be 17.2, 19.5, 20.7, 21.9 and 23.6 nm, respectively,    where Eg is the bandgap of nanometer CdS, Eg(bulk) is bandgap of bulk\n                                                                                    =as shown in Fig. 5(m). The decrease in 2θ is attributed to increased Cd/S     CdS, Eb is the exciton binding energy, aB is the exciton Bohr radius, B\nratio, based on change trend of Cd/S ratios with deposition temperature     Eb(2πaB)2, R is the grain radius (assumed to have a spherical shape) and\nmeasured by EDS shown in Table S4 and literature reported previously    d (d≈2R) is the grain size calculated by using XRD data and Scherrer\n[36,37].                                                                formula. From Fig. 5(m) and Fig. S3(b), the CdS deposited on SLG and\n   To comprehend the  influence mechanism  of CdS  buffer  layer    CZTSSe have similar grain size, so they should both follows Eq. (5). By\ndeposited at different temperatures on device performance, it is critical     using the measured Eg and grain size of CdS deposited on SLG, measured\nto investigate change of optical properties and electrical properties of     grain size of CdS deposited on CZTSSe and formula (5), the Eg of CdS\nCdS films with deposition temperature. Since the CdS deposited on     deposited on CZTSSe at 55, 60, 65, 70, and 75 ℃ are calculated to be\nCZTSSe cannot be used to conduct EDS, UV–visible transmittance     2.50, 2.46, 2.44, 2.43 and 2.41 eV, respectively (see in section 4 of\nspectra and Hall effect measurements, we deposited CdS films on SLG    Supporting information for detail). The Eg of CdS prepared on CZTSSe\nwith same temperatures and time as those for depositing CdS on CZTSSe.      is slightly larger than that of CdS deposited for 1 h on SLG at the same\nHowever, being difference from CdS crystalline films deposited on     deposition temperature based on Fig. S9(b), leading to that the photon\nCZTSSe, the CdS films deposited on SLG are not consisted of continuous    number of passing through CdS prepared on CZTSSe is higher.\nCdS crystals film but discontinuous amorphous CdS nanoparticle film, as        Table 6 displays results of Hall measurement of the CdS films pre­\nshown in Fig. S1 and S2 (see in section 3 of Supporting information for    pared at various deposition temperatures, which indicate that the CdS\ndetail). In order to obtain CdS crystalline films on SLG, we deposited CdS     films are of n-type conduction, and their electron concentration in­\ncrystalline films on SLG for 1 h by CBD at 55, 60, 65, 70 and 75 ℃,     creases and resistivity reduces with increasing deposition temperature.\nrespectively, and performed SEM, EDS,  UV–visible  transmittance    That  is  similar to the  literatures reported previously [43]. From\nspectra and Hall effect measurements. As shown in Fig. S3 and S7, it is    Table S4, the Cd/S ratio measured by EDS increases with rising depo­\nnoticed that the CdS films deposited on SLG for 1 h at 55, 60, 65, 70 and      sition temperature, it means that the amount of intrinsic defect S va­\n75 ℃ are all continuous nanocrystalline films and grain sizes of the CdS    cancy (VS) increases with rising deposition temperature. It is widely\nincrease with increasing depositing temperature. The thickness of CdS     understood that increasing the number of VS will increase the electron\nfilms deposited for 1 h at 55, 60, 65, 70 and 75 ℃ are estimated by SEM     concentration of CdS [37,43]. So, the enhanced electron concentration\nmeasurement of cross-sectional morphologies to be 132, 148, 152, 153     of CdS is due to the increased number of VS. Since CdS work as buffer\nand 158 nm, respectively, as shown in Fig. S8.                              layer in CZTSSe solar cells, in the case of other conditions remain un­\n    Fig. S9(a) shows the UV–visible transmittance spectra of the CdS     changed, its electron concentration increases will increase the band\nfilms grown on SLG at 55, 60, 65, 70 and 75 ℃, respectively. From    bending at CZTSSe/CdS interface and depletion layer width (Wd). The\nFig. S9(a), the CdS films exhibit excellent transmittance in visible range,     increase in Wd will increase JSC, and the increase in band bending will\nbut due to its inherent absorption limit, when the incident wavelength is     increase VOC. As the deposition temperature rises, the enhanced electron\nless than ~ 520 nm, its transmittance drops sharply.                      concentration and crystal quality of the CdS film should be the cause of\n   As a direct bandgap semiconductor, the bandgap (Eg) of CdS and its     the lowered resistance. It’s widely understood that RS of a solar cell is\nabsorption coefficient (α) have the following relationships:                 related to electrical properties of its components and electrodes. For h-\n                                                                               CdS-x-cells, only CdS buffer layer is different and other components and\nαhν = A(hν −Eg)1/2                                                 (3)     electrode are same, moreover, change tendency of the RS of the h-CdS-x-\n                                                                                       cells with deposition temperature is similar to that of resistivity of CdS\nwhere h ν is photon energy, and the relation between α and trans­                                                                            buffer layer as shown in Fig. S6. These demonstrate that the RS ismittance (T) is as follows:                                                                             affected by resistivity of CdS buffer layer.\n    ln(1/T)                                                        As shown in Fig. 6(a), in order to comprehend the mechanism of\nα =                                                                 (4)      d                                                          change of J0 and JL with deposition temperature, C −V characterization\n                                                             on the five h-CdS-x-cells was further carried out. According to semi-\nwhere d is the thickness of the film. By using Fig. S9(a) and Eq. (4),     conductor theory, built-in electric potential (Vbi), the width of deple­\n(αhν)2 ∼hν curves of the five samples are plotted in Fig. S9(b). By     tion region (Wd) as well as ionized charge density of CdS (ND) and\nextending the linear part of the curve to intersect with the X-axis, the Eg    CZTSSe (NA) in depletion region of a p-n heterojunction and its capac­\nof the CdS films deposited on SLG at 55, 60, 65, 70 and 75 ℃ can be     itance (C) have the following relationships [31,50] [51]:\nmeasured to be 2.43, 2.42, 2.39, 2.38 and 2.37 eV, respectively. From         ⎛       ⎞\nFig. S9(c), as the deposition temperature rises, the Eg of CdS films de­         ⎜       ⎟\ncreases,                                                                    2  ⎜      1   ⎟       which                    is similar                          to reported                                   experimental                                                        results                                                          [38,39].                                             ⎜                                                     ⎟                                                         As    NA =                                                                                                                                                  (6)                                             ⎝d(C−2)                                                     ⎠                                                                            qA2cellε1Fig. 5(m)          shows,                 the grain                               size of CdS                                   grows with                                                          rising                                                          deposition                                                                                                                 dV    −  qA2cellε2ND2\ntemperature, so it is deduced that the decrease in Eg is mainly due to the\nincreasing grain size [38,40,41]. While effect of other possibility, for\nexample, oxygen incorporated into CdS, is ignorable (see in section 6 of\nSupporting information for detail).\n   By integrating the product of photon flux density and transmittance     Table 6\nof the CdS films in the wavelength range of 400 to 1100 nm, the photon     Conduction type, electron concentration (ne), resistivity (ρ) and mobility (μ) of\nnumber of passing through the CdS films prepared at 55, 60, 65, 70, and    CdS films prepared at various temperatures.\n75 ℃ are calculated to be 1.84 × 1019, 1.75 × 1019, 1.67 × 1019, 1.62 ×       Temperature (℃)     Type       ne (cm−3)       ρ (Ω⋅cm)     μ (cm2⋅v−1⋅s−1)\n1019 and 1.60 × 1019 (s−1⋅cm−2), respectively. The photon number of                                                                                  55            n        9.53 × 1016      16.9          3.87\npassing through CdS films reduces with rising deposition temperature,             60            n        2.43 × 1017       7.88         3.26\nwhich is attributed to the decreased Eg and transmittance of CdS.                  65            n        4.41 × 1017       8.55         1.65\n    It is well known that Eg of nanocrystalline CdS is affected by its grain             70            n        4.71 × 1017       7.82         1.70\nsize, and the relationship between Eg and grain size is written as [42]:             75            n        6.88 × 1017       5.89         1.54\n\n                                                                        6",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "C. Wang et al.                                                                                                                                            Solar Energy 262 (2023) 111847\n\n\n\n\n\n               Fig. 6. Plots of (a) C vs V and (b) carrier density (NCV) vs the distance to the junction for h-CdS-x-cells (x = 55, 60, 65, 70 and 75).\n\n      Aε1ε2(NA + ND)                                           minimum. It is demonstrated that when the CBO is between −  0.7 andWd =                                                                (7)      (ε1NA + ε2ND)C                                                    0.4 eV, the JL is nearly constant [49]. So, it is concluded that the change\n   √                                                                     of the JL is not related to CBO but the Wd and IA. The IA can be presented\n        2ε1ε2(NA + ND)2(Vbi −V)                                    by the photon number passing through CdS. The experimental results\nWd                        =̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅                                                                     (8)    mentioned above indicate that the Wd increases with increasing tem­         qNAND(ε1NA + ε2ND)\n                                                                        perature while the photon number decreases, resulting in that the JL\n                                                                 change nonlinearly with deposition temperature.where q and Acell is the electron charge and active area of the solar cell,                                                                       According to transport theory of p-n heterojunction with energyrespectively. ε1 and ε2 are dielectric constants of CZTSSe and CdS,                                                              band alignment shown in Fig. 7, J0 is determined by the recombinationrespectively. By using the information in Fig. 6(a), Eq. (6)-(8) as well as\n                                                                              of electron in the diffusion region (J01) and the recombination in thethe electron concentration of CdS prepared at 55, 60, 65, 70 and 75 ℃,\n                                                                         depletion region (J02). For the heterojunction formed by the narrowrespectively, the ionized charge density of CZTSSe (NA), the depletion                                                              bandgap p-type CZTSSe and the wide bandgap n-type CdS, the J01 isregion width (Wd), built-in electric potential (Vbi) of the five h-CdS-x-                                                                         proportional to exp(-Vbi/kT), while the J02 is proportional to Wd. Fromcells are estimated, as shown in Fig. 6(b) and Table 7.\n                                                                     Table 7, Wd increases with increasing deposition temperature, but J0   As presented in Table 7, when the deposition temperature rises, the\n                                                                    does not increase with increasing Wd, as shown in Fig. 8(a). However, asWd increases and NA decreases. The increased Wd is attributed to the                                                           shown in Table 7, the Vbi of the h-CdS-x-cells increases as the depositionincreased electron concentration of CdS films induced by the increased\n                                                                     temperature rises from 55 to 60 ℃ but reduces from 60 to 75 ℃, which isdeposition temperature. Many literatures [44,46,47,45] have demon­\n                                                                        opposite to the change tendency of the J0, as shown in Fig. 8(a).strated that Cd can diffuse into surface of CZTSSe during deposition of\n                                                                   Moreover, as presented in Fig. 8(b), the lnJ0 decreases with increasingCdS on CZTSSe layer and Cd content increases with increasing deposi­\n                                                                             Vbi linearly. These results suggest that change of J0 with the depositiontion temperature. Moreover, Cd doped in CZTSSe can substitute Zn and\n                                                                     temperature of CdS is determined mainly by change of Vbi with depo­so reduce acceptor defects density [48]. Therefore, the decreased NA                                                                                  sition temperature. However, it’s discovered from Fig. 8(b) that the h-should be attributed to increase in Cd content diffused into CZTSSe due\n                                                                          CdS-55-cell does not have smaller J0 even if it has larger Vbi than h-CdS-to increased deposition temperature. The increased Wd implies that the                                                                                  65-cell. This is because of the presence of pinholes on the surface of CdScarrier separation ability of h-CdS-x-cells increases with rising deposi­\n                                                                            buffer layer prepared at 55 ℃, but not on the surface of CdS prepared attion temperature. The results of Table 7 shows that the carrier separation\n                                                            65 ℃, as displayed in Fig. 4. And the pinholes will increase recombi­ability of h-CdS-x-cells increases with increasing deposition tempera­\n                                                                        nation on the surface of the CdS. Therefore, the h-CdS-55-cell has largerture, which implies that its JL also increases with increasing tempera­                                                                           J0 than h-CdS-65-cell is due to that its J0 comes from not only theture. However, this is different from change of measured JL, as presented                                                                          contribution of Vbi but also the pinholes.in Table 2. As a matter of fact, it is well known that JL is determined not                                                                  Assuming there are two CZTSSe solar cells: Cell-1 and Cell-2, the Vbi1only by Wd, but also by strength of incident light illuminating CZTSSe                                                              and Vbi2 represent the Vbi of Cell-1 and Cell-2, respectively. Based on the(IA) and the conduction band offset (CBO) at CZTSSe/CdS interface. In                                                                    semiconductor theory, the variation of Vbi is deduced (see in section 2 oforder to investigate change of the CBO at CZTSSe/CdS interface with\n                                                                Supporting Information for detail):deposition temperature, the performance of h-CdS-x-cells (x = 55, 60,\n65 and 75) were simulated by SCAPS-1D software (see in section 1 of                       [ (ND2 )    (NA2 )]                                                                            qΔVbi = Enc2 −Enc1 + kT  ln    + ln                                (9)Supporting Information for detail). Fig. 7 shows the energy band                             ND1        NA1\nalignments at the CZTSSe/CdS interface. The CBO decreased from a\n“spike”-like 0.051 eV to a “cliff”-like −0.009 eV with increasing depo­    where NDx and Encx represent the electron concentration and conduction\nsition temperature, due to dropping down in level of conduction band    band minimum of CdS of Cell-x (x = 1 and 2), respectively. The NAx is\n                                                                        the hole concentration of CZTSSe of Cell-x (x = 1 and 2), respectively.\n                                                                           Since decreased Eg of CdS results from decrease in its Ec, Enc2 −Enc1 canTable 7\nThe ionized charge density of CZTSSe (NA), the depletion region width (Wd),    be replaced by Eg2 −Eg1. By using Eq. (9), Eg and ND of the CdS as well as\nbuilt-in electric potential (Vbi) of the five h-CdS-x-cells calculated from C-V    NA of CZTSSe in the h-CdS-x-cells, the ΔVbi of two CZTSSe solar cells\ncurves.                                                              with CdS prepared by two adjacent deposition temperatures is calcu­\n                                                                                  lated, as shown in Fig. 9. The change of ΔVbi calculated is similar to that  Sample                   Vbi (V)        Wd (nm)         NA (×1016 cm−3)\n                                                                   measured, indicating that the change of Vbi with deposition temperature\n  h-CdS-55-cell            0.47            142                2.88                     is determined by change of Ec, ND and NA with deposition temperature.  h-CdS-60-cell            0.53            149                2.48\n  h-CdS-65-cell            0.46            176                1.42\n  h-CdS-70-cell            0.42            187                1.13\n  h-CdS-75-cell            0.41            219                0.79\n\n                                                                        7",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Fig. 6. Plots of (a) C vs V and (b) carrier density (NCV) vs the distance to the junction for h-CdS-x-cells (x = 55, 60, 65, 70 and 75).",
+          "figure_bbox": [
+            125.16,
+            53.45,
+            470.11,
+            195.1
+          ],
+          "bbox": [
+            84.13,
+            199.65,
+            515.31,
+            211.63
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 6",
+          "caption": "Fig. 6. Plots of (a) C vs V and (b) carrier density (NCV) vs the distance to the junction for h-CdS-x-cells (x = 55, 60, 65, 70 and 75).",
+          "bbox": [
+            125.16,
+            53.45,
+            470.11,
+            195.1
+          ],
+          "file": "extracted_images/page7_figure-6_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "C. Wang et al.                                                                                                                                            Solar Energy 262 (2023) 111847\n\n\n\n\n\nFig. 7. Energy band alignments at interface of CZTSSe and CdS deposited at (a) 55, (b) 60, (c) 65, (d) 70 and (e) 75 ℃ at thermal equilibrium. (f) The enlarged view\nof the Ec at CZTSSe/CdS interface.\n\n\n\n\n\nFig. 8. (a) Change tendency of the J0 and Vbi of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75) with deposition temperature, (b) lnJ0 vs Vbi plots of the h-CdS-x-cells (x\n= 55, 60, 65, 70 and 75).\n\n4. Conclusions                                                                results mainly from decrease or increase in Vbi, which is determined by\n                                                                      decreased Eg and increased ND of CdS and decreased NA of CZTSSe with\n   The CZTSSe solar cells with conventional structure, CdS-x-cells (x =     increasing deposition temperature. The decreased RS is attributed to\n55, 60,65,70 and 75), were fabricated by using CdS deposited at tem­     decreasd resistivity of CdS due to improvement of crystal quality of CdS\nperatures of 55, 60, 65, 70 and 75 ℃, respectively. It’s found that the     with increment of deposition temperature. JL is determined by Wd and\nPCE of the h-CdS-x-cells rises from 8.52% to 10.36% as the temperature    photon number passing through CdS layer, the former increases with\nincreases from 55 to 60 ℃, but decreases from 10.36% to 7.14% from 60     increasing deposition temperature due to increased ND of CdS, and the\nto 75 ℃.                                                                            latter decreases due to decrease in the Eg and transmittance of CdS.\n    It is deduced by calculation that the increase in PCE from h-CdS-55-        According to above results, it is concluded that influence of deposi­\ncell  to  h-CdS-60-cell comes  predominantly from  contribution  of     tion temperature on PCE comes from the decreased Eg due to increased\ndecreased J0, followed by reduced RS and increased RSh. The decrease in     grain size of CdS, the improved ND due to increased Cd/S ratio, the\nPCE from h-CdS-60-cell to h-CdS-75-cell comes predominantly from     decreased NA due to increase of Cd content diffused into CZTSSe with\nincreased J0, followed by decrease in RSh and JL. Effect of the change of     increasing deposition temperature, and reduced resistivity of CdS due to\nJ0 with deposition temperature on PCE is much larger than that of JL, RS    improvement of its crystal quality.\nand RSh.\n   The increase or decrease in J0 with the deposition temperature\n\n                                                                        8",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Fig. 7. Energy band alignments at interface of CZTSSe and CdS deposited at (a) 55, (b) 60, (c) 65, (d) 70 and (e) 75 ℃ at thermal equilibrium. (f) The enlarged view\nof the Ec at CZTSSe/CdS interface.",
+          "figure_bbox": [
+            40.12,
+            53.45,
+            555.15,
+            319.2
+          ],
+          "bbox": [
+            37.59,
+            323.81,
+            559.75,
+            345.37
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 8",
+          "text": "Fig. 8. (a) Change tendency of the J0 and Vbi of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75) with deposition temperature, (b) lnJ0 vs Vbi plots of the h-CdS-x-cells (x\n= 55, 60, 65, 70 and 75).",
+          "figure_bbox": [
+            123.12,
+            363.33,
+            472.1,
+            535.2
+          ],
+          "bbox": [
+            37.59,
+            539.81,
+            559.75,
+            561.06
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 7",
+          "caption": "Fig. 7. Energy band alignments at interface of CZTSSe and CdS deposited at (a) 55, (b) 60, (c) 65, (d) 70 and (e) 75 ℃ at thermal equilibrium. (f) The enlarged view\nof the Ec at CZTSSe/CdS interface.",
+          "bbox": [
+            40.12,
+            53.45,
+            555.15,
+            319.2
+          ],
+          "file": "extracted_images/page8_figure-7_1.png"
+        },
+        {
+          "label": "Figure 8",
+          "caption": "Fig. 8. (a) Change tendency of the J0 and Vbi of the h-CdS-x-cells (x = 55, 60, 65, 70 and 75) with deposition temperature, (b) lnJ0 vs Vbi plots of the h-CdS-x-cells (x\n= 55, 60, 65, 70 and 75).",
+          "bbox": [
+            123.12,
+            363.33,
+            472.1,
+            535.2
+          ],
+          "file": "extracted_images/page8_figure-8_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "C. Wang et al.                                                                                                                                            Solar Energy 262 (2023) 111847\n\n                                                                                      [10] Zhang, J., Wang, T., Yao, B., Ding, Z., Li, Y., Wang, C., Liu, J., 2021. Doping\n                                                                                           Behavior of Zn in CdS and Its Effect on the Power Conversion Efficiency of the\n                                                                                         Cu2ZnSn(S, Se)4 Solar Cell. J. Phys. Chem. C 125 (49), 27449–27457.\n                                                                                      [11] Platzer-Bj¨orkman, C., Barreau, N., B¨ar, M., Choubrac, L., Grenet, L., Heo, J.,\n                                                                                                Kubart, T., Mittiga, A., Sanchez, Y., Scragg, J., Sinha, S., Valentini, M., 2019. Back\n                                                                                  and front contacts in kesterite solar cells: state-of-the-art and open questions.\n                                                                                                                     J. Phys-Energy. 1 (4), 044005.\n                                                                                      [12]  Li, X., Zhuang, D., Zhang, N., Zhao, M., Yu, X., Liu, P., Wei, Y., Ren, G., 2019.\n                                                                                           Achieving 11.95% efficient Cu2ZnSnSe4 solar cells fabricated by sputtering a\n                                                                                   Cu–Zn–Sn–Se quaternary compound target with a selenization process. J. Mater.\n                                                                               Chem. A 7 (16), 9948–9957.\n                                                                                      [13] Yan, C., Huang, J., Sun, K., Johnston, S., Zhang, Y., Sun, H., Pu, A., He, M., Liu, F.,\n                                                                                                 Eder, K., Yang, L., Cairney, J.M., Ekins-Daukes, N.J., Hameiri, Z., Stride, J.A.,\n                                                                                        Chen, S., Green, M.A., Hao, X., 2018. Cu2ZnSnS4 solar cells with over 10% power\n                                                                                             conversion efficiency enabled by heterojunction heat treatment. Nat. Energy 3 (9),\n                                                                                      764–772.\n                                                                                      [14] Mane, R.S., Lokhande, C.D., 2000. Chemical deposition method for metal\n                                                                                             chalcogenide thin films. Mater. Chem. Phys. 65 (1), 1–31.\n                                                                                      [15] Abou-Ras, D., Kostorz, G., Romeo, A., Rudmann, D., Tiwari, A.N., 2005. Structural\n                                                                                  and chemical investigations of CBD- and PVD-CdS buffer layers and interfaces in\n                                                                                                  Cu(In, Ga)Se2-based thin film solar cells. Thin Solid Films 480–481, 118–123.\n                                                                                      [16] Liu, Q.Q., Shi, J.H., Li, Z.Q., Zhang, D.W., Li, X.D., Sun, Z., Zhang, L.Y., Huang, S.\n                                                                                              M., 2010. Morphological and stoichiometric study of chemical bath deposited CdS\n                                                                                                       films by varying ammonia concentration. Physica B 405 (20), 4360–4365.\n                                                                                      [17] Zhang, L., Jiang, J., Wang, W., Huang, X., Yuan, Q., Hong, R., Cha, L., 2018.\n                                                                                 Growth process and properties of CdS thin films prepared by chemical bath\nFig. 9. Change tendency of the ΔVbi of the h-CdS-x-cells (x = 55, 60, 65, 70 and            deposition at different pH values. J. Mater. Sci-Mater. El. 29 (9), 7637–7643.\n75) prepared at adjacent deposition temperatures.                                  [18] Mahdi, M.A., Hassan, Z., Ng, S.S., Hassan, J.J., Bakhori, S.K.M., 2012. Structural\n                                                                                  and optical properties of nanocrystalline CdS thin films prepared using microwave-\n                                                                                                         assisted chemical bath deposition. Thin Solid Films 520 (9), 3477–3484.\nDeclaration of Competing Interest                                            [19] Ximello-Quiebras, J., Contreraspuente, G., Ruedamorales, G., Vigil, O.,\n                                                                                               Santanarodriguez, G., Moralesacevedo, A., 2006. Properties of CdS thin films\n                                                                                grown by CBD as a function of thiourea concentration. Sol. Energ. Mat. Sol. C. 90\n   The authors declare that they have no known competing financial              (6), 727–732.\ninterests or personal relationships that could have appeared to influence      [20] Wenyi, L., Xun, C., Qiulong, C., Zhibin, Z., 2005. Influence of growth process on the\nthe work reported in this paper.                                                                 structural, optical and electrical properties of CBD-CdS films. Mater. Lett. 59 (1),                                                                                              1–5.\n                                                                                      [21] Liu, F., Lai, Y., Liu, J., Wang, B., Kuang, S., Zhang, Z., Li, J., Liu, Y., 2010.\nAcknowledgements                                                                         Characterization of chemical bath deposited CdS thin films at different deposition\n                                                                                              temperature. J. Alloy. Compd. 493 (1–2), 305–308.\n   This work  is supported by Natural Science Foundation of Jilin      [22] Contreras,Ramanathan,M.A.,K., Romero,2002. OptimizationM.J., To, B.,ofHasoon,CBD CdSF.,processNoufi, inR.,high-efficiencyWard, S.,     Cu(In,\nProvince under grant No. 20220101004JC; and National Natural Sci­           Ga)Se2-based solar cells. Thin Solid Films 403, 204–211.\nence Foundation of China under Grant Nos. 62274077 and 61774075.       [23] Zhou, L., Hu, X., Wu, S., 2013. Effects of deposition temperature on the\n                                                                                        performance of CdS films with chemical bath deposition. Surf. Coat. Tech. 228,\n                                                                                      S171–S174.\nAppendix A. Supplementary data                                             [24] Moualkia, H., Hariech, S., Aida, M.S., 2009. Structural and optical properties of\n                                                                              CdS thin films grown by chemical bath deposition. Thin Solid Films 518 (4),\n   Supplementary data to this article can be found online at https://doi.          1259–1262.                                                                                      [25] Wilson, K.C., Basheer Ahamed, M., 2019. Influence of bath temperature on surface\norg/10.1016/j.solener.2023.111847.                                                    modification and optoelectronic properties of chemical bath deposited CdS thin\n                                                                                                     film nanostructures. Mater. Sci. Eng. B-Adv. 251, 114444.\nReferences                                                                        [26] Zhang, D., Yao, B., Li, Y., Ding, Z., Wang, C., Zhang, J., Wang, T., Ma, D., Liu, Y.,                                                                                        2022. Insight into the role of air-annealing Cu2ZnSnS4 precursor films in improving\n                                                                                                         efficiency of Cu2ZnSn(S, Se)4 solar cells. J. Alloy. Compd. 929, 167308.\n [1] Abu Odeh, A., Al-Douri, Y., Ayub, R.M., Ibraheam, A.S., 2016. Ultrasonic effect on      [27] Zhang, J., Yao, B., Ding, Z., Li, Y., 2022. Performance Degradation in Solution-\n      optical, structural, topographical and morphological studies of Cu2CdSnS4                   Processed Cu2ZnSn(S, Se)4 Solar Cells Based on Different Oxidation States of\n     quaternary alloy nanostructures. J. Alloy. Compd. 686, 883–895.                         Copper Salts. ACS Appl. Energ. Mater. 5 (9), 11740–11747.\n [2] Yin, K., Lou, L., Wang, J., Xu, X., Zhou, J., Shi, J., Li, D., Wu, H., Luo, Y., Meng, Q.,      [28] Wang, T., Yao, B., Li, Y., Ding, Z., Zhang, J., Wang, C., Liu, J., 2022. Improvement\n     2023. Lanthanum-induced synergetic carrier doping of heterojunction to achieve              of Photovoltaic Performance of Cu2ZnSn(S, Se)4 Solar Cells by Modification of Back\n      high-efficiency kesterite solar cells. J. Mater. Chem. A. 11 (17), 9646–9653.                  Electrode Interface with Amorphous Boron Nitride. Adv. Mater. Interfaces 9 (21),\n [3] Wang, W., Shen, H.-L., Jin, J.-L., Li, J.-Z., Ma, Y., 2015. Effect of thermal                  2200393.\n     pretreatment of metal precursor on the properties of Cu2ZnSnS4 films. Chin. Phys.      [29] Lu, X., Xu, B., Qin, X., Chen, Y., Yang, P., Chu, J., Sun, L., 2020. Modification of\n    B 24 (5), 056805.                                                                 Back Contact in Cu2ZnSnS4 Solar Cell by Inserting Al-Doped ZnO Intermediate\n [4] Nakamura, M., Yamaguchi, K., Kimoto, Y., Yasaki, Y., Kato, T., Sugimoto, H., 2019.             Layer. ACS Appl. Mater. Inter. 12 (52), 58060–58071.\n      Cd-free Cu(In, Ga) (Se, S)2 thin-film solar cell with record efficiency of 23.35%.        [30] Zhang, X., Yao, B., Li, Y., Ding, Z., Zhao, H., Zhang, L., Zhang, Z., 2020. Influence of\n     IEEE J. Photovolt. 9 (6), 1863–1867.                                           WSe2 buffer layer at back electrode on performance of Cu2ZnSn(S, Se)4 solar cells.\n [5] Naghavi, N., Hubert, C., Etcheberry, A., Bermudez, V., Hariskos, D., Powalla, M.,              Sol. Energy 199, 128–135.\n      Lincot, D., 2009. Compositional engineering of chemical bath deposited (Zn, Cd)S      [31] Ma, D., Yao, B., Li, Y., Ding, Z., Wang, C., Zhang, J., Wang, T., Liu, J., Zhang, D.,\n      buffer layers for electrodeposited CuIn(S, Se)2 and coevaporated Cu(In, Ga)Se2             2022. Improvement of power conversion efficiency of Cu2ZnSn(S, Se)4 solar cells\n      solar cells. Prog. Photovolt.: Res. Appl. 17 (1), 1–9.                                   by Al doped CdS. Physica B 643, 414083.\n [6] Yin, L., Cheng, G., Feng, Y.e., Li, Z., Yang, C., Xiao, X., 2015. Limitation factors for      [32] Senthil, K., Mangalaraj, D., Narayandass, Sa. K., 2001. Structural and optical\n     the performance of kesterite Cu2ZnSnS4 thin film solar cells studied by defect                 properties of CdS thin films. Appl. Surf. Sci. 169, 476–479.\n      characterization. RSC Adv. 5 (50), 40369–40374.                                    [33] Ahn, S., Jung, S., Gwak, J., Cho, A., Shin, K., Yoon, K., Park, D., Cheong, H., Yun, J.\n [7] Kaur, K., Kumar, N., Kumar, M., 2017. Strategic review of interface carrier                    H., 2010. Determination of band gap energy (Eg) of Cu2ZnSnSe4 thin films: on the\n     recombination in earth abundant Cu–Zn–Sn–S–Se solar cells: current challenges               discrepancies of reported band gap values. Appl. Phys. Lett., 97 (2), 021905.\n     and future prospects. J. Mater. Chem. A 5 (7), 3069–3090.                           [34] Gong, Y., Zhang, Y., Jedlicka, E., Giridharagopal, R., Clark, J.A., Yan, W., Niu, C.,\n [8] Rondiya, S., Rokade, A., Sharma, P., Chaudhary, M., Funde, A., Jadhav, Y.,                  Qiu, R., Jiang, J., Yu, S., Wu, S., Hillhouse, H.W., Ginger, D.S., Huang, W., Xin, H.,\n     Haram, S., Pathan, H., Jadkar, S., 2018. CZTS/CdS: interface properties and band           2020. Sn4+ precursor enables 12.4% efficient kesterite solar cell from DMSO\n     alignment study towards photovoltaic applications. J. Mater. Sci-Mater. El. 29 (5),             solution with open circuit voltage deficit below 0.30 V. SCI. China Mater. 64 (1),\n     4201–4210.                                                                              52-60.\n [9] Shin, D., Saparov, B., Mitzi, D.B., 2017. Defect Engineering in Multinary Earth-        [35] Son, D.-H., Kim, S.-H., Kim, S.-Y., Kim, Y.-I., Sim, J.-H., Park, S.-N., Jeon, D.-H.,\n     Abundant Chalcogenide Photovoltaic Materials. Adv. Energy Mater. 7 (11),               Hwang, D.-K., Sung, S.-J., Kang, J.-K., Yang, K.-J., Kim, D.-H., 2019. Effect of solid-\n     1602366.                                                                    H2S gas reactions on CZTSSe thin film growth and photovoltaic properties of a\n                                                                               12.62% efficiency device. J. Mater. Chem. A 7 (44), 25279–25289.\n\n\n                                                                        9",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 9",
+          "text": "Fig. 9. Change tendency of the ΔVbi of the h-CdS-x-cells (x = 55, 60, 65, 70 and\n75) prepared at adjacent deposition temperatures.",
+          "figure_bbox": [
+            38.82,
+            53.45,
+            287.45,
+            254.28
+          ],
+          "bbox": [
+            37.59,
+            258.84,
+            290.75,
+            280.15
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 9",
+          "caption": "Fig. 9. Change tendency of the ΔVbi of the h-CdS-x-cells (x = 55, 60, 65, 70 and\n75) prepared at adjacent deposition temperatures.",
+          "bbox": [
+            38.82,
+            53.45,
+            287.45,
+            254.28
+          ],
+          "file": "extracted_images/page9_figure-9_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "C. Wang et al.                                                                                                                                            Solar Energy 262 (2023) 111847\n\n[36] Kumar, S., Sharma, P., Sharma, V., 2013. CdS nanofilms: effect of deposition                  Interface Properties of Kesterite Solar Cells. ACS Appl. Mater. Inter. 13 (46),\n     temperature on morphology and optical band gap. Phys. Scripta 88 (4), 045603.           55243–55253.\n[37] Makhdoumi-Kakhaki, Z., Youzbashi, A., Sangpour, P., Naderi, N., Kazemzadeh, A.,      [45] Wei, Y., Zhuang, D., Zhao, M., Zhang, W., Ren, G., Wu, Y., Sun, R., Gong, Q.,\n     2016. Effects of film thickness and stoichiometric on the electrical, optical and              Zhang, L., Zhan, S., Peng, X., Lyu, X., 2018. Beyond 10% efficient CZTSSe thin-film\n     photodetector properties of CdS quantum dots thin films deposited by chemically             solar cells fabricated by a two-step CdS deposition process. Sol. Energ. Mat. Sol. C.\n     bath deposition method at different bath temperature. J. Mater. Sci-Mater. El. 27            180, 19–24.\n      (12), 12931–12939.                                                              [46] Fu, J., Tian, Q., Du, Y., Chang, Q., Guo, Y., Yuan, S., Zheng, Z., Wu, S., Liu, S.(.,\n[38]  Vigil, O., Rodrı̀guez, Y., Zelaya-Angel, O., V`azquez-L`opez, C., Morales-Acevedo, A.,           2022. Rational Design of Heterojunction Interface for Cu2ZnSn(S, Se)4 Solar Cells\n      V`azquez-Luna, J.G., 1998. Properties of CdS thin films chemically deposited in the             to Exceed 12% Efficiency. Sol. RRL 6 (6), 2101032.\n     presence of a magnetic field. Thin Solid Films 322 (1-2), 329–333.                    [47] Hwang, S.K., Park, J.-H., Cheon, K.B., Seo, S.W., Song, J.E., Park, I.J., Ji, S.G.,\n[39]  Vigil, O., Arias-Carbajal, A., Cruz, F., Contreras-Puente, G., Zelaya-Angel, O., 2001.            Park, M.-A., Kim, J.Y., 2020. Improved interfacial properties of electrodeposited\n      Modification of the properties of chemically deposited CdS thin films grown under           Cu2ZnSn(S, Se)4 thin-film solar cells by a facile post-heat treatment process. Prog.\n     magnetic field and variable growing parameters. Mater. Res. Bulletin 36 (3-4),               Photovoltaics 28 (12), 1345–1354.\n     521–530.                                                                        [48] Xiao, Z.-Y., Li, Y.-F., Yao, B., Deng, R., Ding, Z.-H., Wu, T., Yang, G., Li, C.-R., Dong,\n[40] Majumder, M., Kumar Chakraborty, A., Mallik, B., 2010. Photoluminescence                    Z.-Y., Liu, L., Zhang, L.-G. and Zhao, H.-F., 2013. Bandgap engineering of\n      studies on nanostructured cadmium sulfide thin films prepared by chemical bath            Cu2CdxZn1−xSnS4 alloy for photovoltaic applications: a complementary\n      deposition method and annealed at different temperatures. J. Lumin. 130 (8),               experimental and first-principles study, J. Appl. Phys. 114, 183506.\n     1497–1503.                                                                      [49] Minemoto, T., Matsui, T., Takakura, H., Hamakawa, Y., Negami, T., Hashimoto, Y.,\n[41] Roduner, E., 2006. Size matters: why nanomaterials are different. Chem. Soc. Rev.          Uenoyama, T., Kitagawa, M., 2001. Theoretical analysis of the effect of conduction\n     35 (7), 583–592.                                                               band offset of window/CIS layers on performance of CIS solar cells using device\n[42] Cortes, A., 2004. Grain size dependence of the bandgap in chemical bath deposited             simulation. Sol. Energy Mat. Sol. C. 67 (1-4), 83–88.\n     CdS thin films. Sol. Energ. Mat. Sol. C. 82 (1–2), 21–34.                             [50] Heath, J.T., Cohen, J.D., Shafarman, W.N., 2004. Bulk and metastable defects in\n[43] Slonopas, A., Ryan, H., Foley, B., Sun, Z., Sun, K., Globus, T., Norris, P., 2016.              CuIn1−xGaxSe2 thin films using drive-level capacitance profiling. J. Appl. Phys. 95\n     Growth mechanisms and their effects on the opto-electrical properties of CdS thin              (3), 1000–1010.\n      films prepared by chemical bath deposition. Mat. Sci. Semicon. Proc. 52, 24–31.       [51] Sharma, B.L., Purohit, R.K., 1974. Semiconductor heterojunctions. Pergamon\n[44] Duan, B., Lou, L., Meng, F., Zhou, J., Wang, J., Shi, J., Wu, H., Luo, Y., Li, D.,                 Press, Oxford.\n     Meng, Q., 2021. Two-Step Annealing CZTSSe/CdS Heterojunction to Improve\n\n\n\n\n\n                                                                        10",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "250b796fb32c3f979d647ab3b55ead77",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            501.05,
+            55.45,
+            557.74,
+            126.99
+          ]
+        }
+      ],
+      "file": "garbage/page1_250b796fb32c3f979d647ab3b55ead77.jpeg",
+      "is_garbage": true
+    },
+    {
+      "id": "679f771a6dffcf906aca92bb2ff2130b",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            36.79,
+            61.97,
+            96.38,
+            127.16
+          ]
+        }
+      ],
+      "file": "garbage/page1_679f771a6dffcf906aca92bb2ff2130b.jpeg",
+      "is_garbage": true
+    },
+    {
+      "id": "bfa175d573e0ddd1e16e734356d2c308",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            501.16,
+            148.86,
+            529.37,
+            177.08
+          ]
+        }
+      ],
+      "file": "garbage/page1_bfa175d573e0ddd1e16e734356d2c308.png",
+      "is_garbage": true
+    },
+    {
+      "id": "9fc60aaf071caebded9ee70f3b8f4fb3",
+      "page": 5,
+      "pages": [
+        5
+      ],
+      "placements": [
+        {
+          "page": 5,
+          "bbox": [
+            40.82,
+            550.49,
+            285.45,
+            687.97
+          ]
+        }
+      ],
+      "file": "extracted_images/page5_9fc60aaf071caebded9ee70f3b8f4fb3.png",
+      "is_garbage": false
+    }
+  ]
+}

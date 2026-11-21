@@ -1,0 +1,667 @@
+{
+  "publication_id": "P023",
+  "source_file": "P023.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "The Properties of the CH3NH3PbI3/TiO2 Composite Layer Prepared from PbO-TiO2 Mesoporous Layer under Air Ambience",
+    "author": "Qinmiao Chen; Wei Zhu; Yi Ni; Hongcun Yuan",
+    "subject": "In TiO2-based perovskite solar cells (PSC), the preparation of the CH3NH3PbI3/TiO2 composite layer is very important, since the morphology of the perovskite adsorbed onto the surface of the TiO2 nanoparticles has decisive significance for the absorption of the incident sunlight and separation of the generated carrier. The traditional two-step spin-coating method for the deposition of CH3NH3PbI3 into the porous mesoporous TiO2 layer usually suffers from filling block problems. In this study, the PbO-TiO2 mesoporous layer was prepared with various ratios of Pb:Ti in the raw materials. Morphological, optical, and element analysis of the prepared thin films indicated that Pb was gradually mixed into the TiO2 mesoporous layer with the increased Pb:Ti ratios. The element distribution characteristics of the optimal thin films showed that the distribution of Pb was uniform throughout the whole TiO2 thin film, which indicates the successful mixing of Pb into the TiO2 electrode layer. Combined with dip coating, the PbO-TiO2 mesoporous layer was prepared into a CH3NH3PbI3/TiO2 composite layer and subsequently to a solar cell device. The prepared solar cell shows a short-circuit photocurrent density of 16.4 mA/cm2, an open-circuit voltage of 900 mV, a fill factor of 61%, and a power conversion efficiency (PCE) of 9.00%. The PCE of the PSC is promoted by nearly 25% when compared with that prepared with the traditional method. The proposed preparation method that combines TiO2 nanoparticle electrode with a mixing and dip coating provides a new effective way to improve the deposition of perovskite into the mesoporous TiO2 layer, which is very helpful for the fabrication of high-efficiency and low-cost PSC.",
+    "keywords": "perovskite absorption layer; PbO-TiO2 mesoporous layer; CH3NH3PbI3/TiO2 composite layer; photoelectric properties",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "creationDate": "D:20230324092356+08'00'",
+    "modDate": "D:20230324022549+01'00'",
+    "DOI": "10.3390/coatings13040669",
+    "year": 2023,
+    "authors": [
+      "Qinmiao Chen",
+      "Wei Zhu",
+      "Yi Ni",
+      "Hongcun Yuan"
+    ]
+  },
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "    coatings\n\n\n\nArticle\nThe Properties of the CH3NH3PbI3/TiO2 Composite\nLayer Prepared from PbO-TiO2 Mesoporous Layer\nunder Air Ambience\n\nQinmiao Chen 1,*, Wei Zhu 1, Yi Ni 1 and Hongcun Yuan 2\n\n\n                                            1   School of Physics, East China University of Science and Technology, 130 Meilong Road,\n                                   Shanghai 200237, China\n                                            2   School of Electrical and Information Engineering, Changzhou Institute of Technology,\n                                    229 South Tongjiang Road, Changzhou 213002, China\n                                     *   Correspondence: jamechern@gmail.com\n\n\n                                Abstract: In TiO2-based perovskite solar cells (PSC), the preparation of the CH3NH3PbI3/TiO2\n                             composite layer is very important, since the morphology of the perovskite adsorbed onto the surface\n                                 of the TiO2 nanoparticles has decisive signiﬁcance for the absorption of the incident sunlight and\n                                separation of the generated carrier. The traditional two-step spin-coating method for the deposition\n                                 of CH3NH3PbI3 into the porous mesoporous TiO2 layer usually suffers from ﬁlling block problems.\n                               In this study, the PbO-TiO2 mesoporous layer was prepared with various ratios of Pb:Ti in the\n                         raw materials. Morphological, optical, and element analysis of the prepared thin ﬁlms indicated\n                                 that Pb was gradually mixed into the TiO2 mesoporous layer with the increased Pb:Ti ratios. The\n                             element distribution characteristics of the optimal thin ﬁlms showed that the distribution of Pb was\n                            uniform throughout the whole TiO2 thin ﬁlm, which indicates the successful mixing of Pb into the\n                            TiO2 electrode layer. Combined with dip coating, the PbO-TiO2 mesoporous layer was prepared\n                                 into a CH3NH3PbI3/TiO2 composite layer and subsequently to a solar cell device. The prepared\n                                 solar cell shows a short-circuit photocurrent density of 16.4 mA/cm2, an open-circuit voltage of\n                             900 mV, a ﬁll factor of 61%, and a power conversion efﬁciency (PCE) of 9.00%. The PCE of the PSC\n                                        is promoted by nearly 25% when compared with that prepared with the traditional method. The\nCitation: Chen, Q.; Zhu, W.; Ni, Y.;     proposed preparation method that combines TiO2 nanoparticle electrode with a mixing and dip\nYuan, H. The Properties of the         coating provides a new effective way to improve the deposition of perovskite into the mesoporous\nCH3NH3PbI3/TiO2 Composite Layer\n                             TiO2 layer, which is very helpful for the fabrication of high-efﬁciency and low-cost PSC.\nPrepared from PbO-TiO2\n\nMesoporous Layer under Air\n                           Keywords: perovskite absorption layer; PbO-TiO2 mesoporous layer; CH3NH3PbI3/TiO2 composite\nAmbience. Coatings 2023, 13, 669.\n                                    layer; photoelectric properties\nhttps://doi.org/10.3390/\n\ncoatings13040669\n\n\nAcademic Editor: Alessandro Latini\n\n                                   1. IntroductionReceived: 1 February 2023\nRevised: 16 March 2023               The perovskite solar cell [1], with material properties and a preparation process similar\nAccepted: 20 March 2023             to traditional dye-sensitized and compound thin ﬁlm solar cells (such as CuInxGa1-x(S,Se)2,\nPublished: 24 March 2023          Cu2ZnSn(S,Se)4) [2], has attracted much attention and made great progress in recent\n                              years. Perovskite materials have very important excellent properties, such as: (1) Strong\n                              optical absorption. The energy band gap value of perovskite is about 1.5 eV, which can\n                          absorb almost all visible light for photoelectric conversion [3]. (2) Good carrier transport\nCopyright: © 2023 by the authors.\n                                characteristic. Perovskite has unique bipolar carrier transport properties [1], which can\nLicensee MDPI, Basel,  Switzerland.\n                             transport electrons and holes generated by absorption of the incident sunlight at the same\nThis article is an open access article\n                              time, and the carrier diffusion length can reach 1 µm [4]. (3) Low preparation conditions anddistributed  under  the  terms  and\nconditions of the Creative Commons    cost. Perovskite and other functional thin ﬁlms included in the solar cells can be prepared\nAttribution (CC BY) license (https://   using a solution route at low temperatures and a low cost. The excellent properties of\ncreativecommons.org/licenses/by/    perovskite coupled with its compatibility with low-cost preparation technologies result in\n4.0/).                        extremely rapid developments of perovskite solar cells. In 2009, the efﬁciency of perovskite\n\n\n\n\n\nCoatings 2023, 13, 669. https://doi.org/10.3390/coatings13040669                                   https://www.mdpi.com/journal/coatings",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "6f52dcd65bcbc64691c972bfe28d289f",
+        "59c116537ecf25f8d7692dabbf2060fb",
+        "62efa0313b674db8d12560bbe65e7581",
+        "bdad99135e250503119f6f098d743bd0",
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Coatings 2023, 13, 669                                                                                                           2 of 11\n\n\n\n                              solar cells was only 3.8% [5], but at present its efﬁciency has reached 25.7% [6,7]. It can\n                         be said that perovskite solar cells are one of the most outstanding solar cells with a high\n                            efﬁciency and low costs.\n                            The perovskite absorption layer is usually deposited into the TiO2 porous mesoporous\n                             layer to fabricate solar cells with good properties. Under sunlight, the carriers generated\n                              in the solar cell are determined by the perovskite absorption layer and are subsequently\n                           separated at the interface of the perovskite and TiO2 thin ﬁlms, so the morphology of the\n                           deposited perovskite absorption layer is signiﬁcant for the properties of the prepared solar\n                                 cells [8–13]. At present, the perovskite thin ﬁlm is mostly prepared by a two-step spin-\n                            coating method [14,15]. The perovskite is expected to be deposited into the pores of the\n                                entire electrode transport layer during the fabrication process [13,16,17]. However, it usually\n                                suffers from ﬁlling block problems. The bottom side of the electrode transport layer usually\n                           cannot be ﬁlled by the perovskite and therefore leaves gaps. This could result in a reduction\n                              in the absorption of incident sunlight and, moreover, an increase in carrier recombinations\n                                at the gaps [9]. Han H. group also reported the perovskite ﬁlling problem in perovskite solar\n                                 cells [18]. The researchers changed the traditional perovskite raw material CH3NH3I to\n                       HOOC(CH2)4NH3I, and ﬁlled the perovskite material with a one-step spin-coating method.\n                        The results showed that the perovskite prepared by HOOC(CH2)4NH3I has a better ﬁlling\n                              into the TiO2 electrode than that prepared traditionally by CH3NH3PbI3. In addition, the\n                            perovskite ﬁlling rate of the prepared solar cell is also much higher. Therefore, perovskite\n                              ﬁlling of the porous TiO2 electrode could be extremely important for the fabrication of\n                            high-efﬁciency perovskite solar cells. Additionally, in order to prepare high-efﬁciency\n                              solar cells, some researchers designed the electrode transport layer as a nanorod array\n                              to increase the ﬁlling amount of perovskite [8,9,19]. However, it is difﬁcult to prepare\n                            the nanorod array electrode with good morphology and stability. The upper side of the\n                           prepared nanorod array electrode is often staggered, which hinders the ﬁlling of perovskite\n                              into the bottom side.\n                                   Different from the nanorod array electrode, the mesoporous electrode is composed of\n                             nanoparticles, which are distributed uniformly and are closely arranged in the electrode.\n                       The formed pore space between the nanoparticles is therefore controllable and stable,\n                       which is conducive to the deposition and morphological control of the perovskite. TiO2\n                             nanoparticle electrodes are classically used as an electron transport in dye-sensitized solar\n                                   cells, and its preparation method is mature and simple. At present, TiO2 nanoparticle\n                             electrodes have also been widely employed as the electron transport layer for perovskite\n                              solar cells [3,5,10–13]. TiO2 nanoparticle electrodes play the same role in dye-sensitized\n                              solar cells and in perovskite solar cells. They serve as both the skeleton for the absorption\n                             layer deposition and the transport path of the generated carrier. However, when the\n                          popular spin-coating method is used, the ﬁlling of absorption materials in perovskite solar\n                                  cells is not as good as that in dye-sensitized solar cells. In the dye-sensitized solar cell, the\n                              ﬁlling process of the dye does not include chemical reactions. As the dye is used in the\n                           formation of a solution, it can be fully adsorbed onto the whole TiO2 nanoparticle electrode\n                          with a good uniformity. However, in the perovskite solar cell (such as CH3NH3PbI3), the\n                            deposition of perovskite into the TiO2 nanoparticle electrodes often includes the chemical\n                             reaction of PbI2 and CH3NH3I. In the deposition process, PbI2 is inﬁltrated ﬁrst, then the\n                     CH3NH3I is inﬁltrated. Subsequently, CH3NH3I reacts with PbI2 to generate the perovskite\n                       CH3NH3PbI3. However, the solubility of PbI2 is not so good, so it is not easy to inﬁltrate\n                             the bottom of the TiO2 nanoparticle electrode using the spin-coating method. Furthermore,\n                     CH3NH3I will react fast with PbI2 to form solid perovskite CH3NH3PbI3 at the upper side\n                             of the electrode when CH3NH3I is deposited onto the PbI2-included TiO2 nanoparticle\n                             electrode by spin-coating [12]. As a result, the formation of solid perovskite in the upper\n                             side of the electrode hinders the further ﬁlling of perovskite into the bottom side. This is\n                           not good for the fabrication of high-efﬁciency and low-cost solar cells [20].\n                                 In this study, based on the formation mechanism of a perovskite absorption layer, a\n                                  facile and efﬁcient fabrication route combining TiO2 nanoparticle electrodes with a mixing",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Coatings 2023, 13, 669                                                                                                           3 of 11\n\n\n\n                       and dip coating was proposed, to improve the deposition of perovskite into the TiO2\n                             nanoparticle electrode. The morphological, optical, and crystal structure and photoelectric\n                           conversion properties of the prepared thin ﬁlms were studied using scanning electron\n                         microscopy equipped with an X-ray energy dispersive spectrometer, a UV-vis-NIR spec-\n                            trophotometer, a power X-ray diffraction, and an I-V test system, respectively.\n\n                                   2. Experiment\n                                   2.1. Preparation of Precursor Solution\n\n                           The materials used in this study were purchased from commercial sources without\n                             further puriﬁcation. The TiO2 solution was prepared by diluting commercial TiO2 slurry\n                              in ethanol. Under stirring at 70 ◦C, 0.461 g PbI2 (99.99%) was dissolved in 1 mL N,N-\n                         dimethylformamide (DMF) to prepare PbI2 solution. A CH3NH3I solution of 10 mg/mL\n                       was prepared by dissolving CH3NH3I in isopropyl alcohol (IPA). To prepare the hole trans-\n                            port  layer  (HTL),  72.3 mg  2,2′,7,7′-tetrakis(N,N-di-p-methoxypheny-amine)-9,9′-\n                            spirobiﬂuorene (spiro-OMeTAD), 28.8 µL ter-butylpyridine (TBP), 17.5 µL of pre-prepared\n                             solution from 52 mg lithium bis(triﬂuoromethanesulfonyl)imide (Li-TFSI) in 100 µL ace-\n                                   tonitrile, and 1 mL chlorobenzene were mixed. The main materials used in this study are\n                              also listed in Table 1 below.\n\n                             Table 1. The list of main materials used in this study.\n\n                                                                                2,2′,7,7′-\n                                                                                                    Lithium\n                           N,N-                    Tetrakis(N,N-Di-P-\n                                                                            Isopropyl         Ter-       bis(triﬂuorome\n    Name        PbI2     Dimethyl   CH3NH3I     Methoxypheny-                                                       Acetonitrile    Chlorobenzene                                                                          Alcohol     butylpyridine  thanesulfonyl)i                         formamide                    Amine)-9,9′-\n                                                                                            mide\n                                                      Spirobiﬂuorene\n\n     Purity       99.99%      99.9%       99.5%           99.8%           99.9%        96%          98%                     -             99.5%\n\n   Amount/\n                   0.461 g       1 mL        500 mg            72.3 mg           50 mL         28.8 µL          52 mg          100 µL           1 mL\n  Concentration\n\n\n                                   2.2. Preparation of Pb-TiO2 Electrode, CH3NH3PbI3/TiO2 Composite Layer, and Perovskite\n                               Solar Cell\n\n                       When compared to the traditional methods, the main difference in the proposed\n                       method lies in the preparation of the perovskite absorption layer. Figure 1 shows the prepa-\n                              ration diagram of the perovskite solar cell using the proposed method. The ﬂuorine-doped\n                                tin oxide (FTO) glass was ﬁrst etched by machining and was then cleaned by a standard\n                              process. The TiO2 was deposited by spin-coating in accordance with previously published\n                                  articles [21,22]. First, a compact TiO2 (c-TiO2) layer was spin-coated at 5000 rpm for 30 s and\n                      was then annealed at 500 ◦C for 30 min. A mesoporous TiO2 (m-TiO2) layer with various\n                    PbO powder (99.99%) mixings (Pb:Ti was set at mole ratio of 1:10, 1:8, 1:6, 1:4, 1:2, and 1:1)\n                      was then deposited onto the c-TiO2/FTO glass by spin-coating at 3000 rpm for 30 s. After\n                                  that, the prepared sample was annealed at 500 ◦C for 30 min again. The annealing process is\n                           a key step in the preparation of a TiO2 electrode, which directly affects the crystallinity, mor-\n                            phology, adsorption, adhesion, and element mixing of the prepared electrode, and further\n                                 affects the adsorption of the perovskite absorption layer, the lifetime of electrons in the TiO2\n                            nanoparticle electrode, the interface carrier separation/recombination, and the effect of\n                            elemental mixing. Then, the prepared and annealed PbO-TiO2 nanoparticle electrode was\n                        immersed in a hydriodic acid (HI) solution (55% in water) to convert PbO into PbI2. After\n                           drying at 125 ◦C, the PbI2/m-TiO2/c-TiO2/FTO glass sample was immersed in a CH3NH3I\n                             solution with isopropyl alcohol for 20 s to prepare CH3NH3PbI3/m-TiO2/c-TiO2/FTO\n                                glass. The prepared sample was rinsed with an IPA solution and was then annealed at\n                           70 ◦C for 5 min on a hot plate for the subsequent deposition of HTL and Au, and ﬁnally the\n                              solar cell device.",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. The list of main materials used in this study.",
+          "bbox": [
+            35.72,
+            351.78,
+            558.99,
+            430.45
+          ],
+          "rows": [
+            [
+              "Name",
+              "PbI2",
+              "N,N-\nDimethyl\nformamide",
+              "CH3NH3I",
+              "2,2′,7,7′-\nTetrakis(N,N-Di-P-\nMethoxypheny-\nAmine)-9,9′-\nSpirobiﬂuorene",
+              "Isopropyl\nAlcohol",
+              "Ter-\nbutylpyridine",
+              "Lithium\nbis(triﬂuorome\nthanesulfonyl)i\nmide",
+              "Acetonitrile",
+              "Chlorobenzene"
+            ],
+            [
+              "Purity",
+              "99.99%",
+              "99.9%",
+              "99.5%",
+              "99.8%",
+              "99.9%",
+              "96%",
+              "98%",
+              "-",
+              "99.5%"
+            ],
+            [
+              "Amount/\nConcentration",
+              "0.461 g",
+              "1 mL",
+              "500 mg",
+              "72.3 mg",
+              "50 mL",
+              "28.8 µL",
+              "52 mg",
+              "100 µL",
+              "1 mL"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. The list of main materials used in this study.",
+          "bbox": [
+            166.1,
+            333.05,
+            375.12,
+            342.1
+          ]
+        }
+      ],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Coatings 2023, 13, 669                                                                                                           4 of 11\n\n\n\n\n\n                              Figure 1. The preparation diagram for the PbO-TiO2 mesoporous layer, CH3NH3PbI3/TiO2 compos-\n                                        ite layer, and solar cell.\n\n                              For a traditional two-step spin-coating method, the PbI2 layer was deposited onto\n                            the m-TiO2 layer by spin-coating at 2000 rpm for 5 s and 5000 rpm for 20 s. Then, the\n                         sample underwent the annealing process at 70 ◦C for 10 min. After cooling down to room\n                           temperature, the CH3NH3I solution was spin-coated onto the sample at 3000 rpm for 5 s\n                       and 5000 rpm for 20 s to form CH3NH3PbI3/m-TiO2/c-TiO2/FTO glass. The prepared\n                         sample was also rinsed with an IPA solution and was then annealed at 70 ◦C for 5 min on a\n                           hot plate.\n                                After that, for both samples prepared by the proposed and traditional methods,\n                            the HTL was spin-coated onto the annealed CH3NH3PbI3/m-TiO2/c-TiO2/FTO glass\n                                at 5000 rpm for 30 s. All these steps were conducted in ambient air. Finally, Au back contact\n                               (0.33 cm × 0.33 cm) was thermally evaporated onto the top of the HTL/CH3NH3PbI3/m-\n                        TiO2/c-TiO2/FTO glass to ﬁnish the fabrication of the perovskite solar cell.\n\n                                   2.3. Characterization\n\n                              Scanning electron microscopy (SEM, S-3400N, JEOL, Tokyo, Japan) equipped with an\n                           X-ray energy dispersive spectrometer (EDS, JEOL, Tokyo, Japan) was employed to analyze\n                            the surface morphology and structure of the prepared samples. Power X-ray diffraction\n                        (XRD, 18KW/D/MAX 2550 VB, RIGAKU, Tokyo, Japan; Cu Kα radiation) was used to\n                          study the crystalline property of the samples. The ultraviolet-visible (UV-vis) absorbance\n                            spectra of the prepared samples were measured with a UV-vis-NIR spectrophotometer\n                       (Lambda 950, Varian, Perkinelmer, MA, USA). The photocurrent density-voltage (J-V)\n                            property of the fabricated solar cell devices was obtained with a keithley model 2400 digital\n                            source meter and a solar simulator (Oriel Sol3A, Newport, State of California, USA), which\n                      was calibrated to AM 1.5, 100 mW·cm−2 by a standard silicon photodiode before the\n                            J-V test.\n\n                                   3. Results and Discussion\n                                   3.1. The Effect of Pb:Ti on the Properties of Prepared PbO-TiO2 Composite Thin Films\n                           The top view and optical properties of the thin ﬁlms prepared from a PbO-TiO2 mix-\n                                ture, as mentioned in Section 2.2, were studied. Figure 2a shows the top view of TiO2\n                             thin ﬁlms prepared with different ratios of Pb:Ti. The color of the PdO-TiO2 nanoparticle\n                              electrode slowly changed to yellow as the Pb content increased, which indicates the gradual\n                          mixing of Pb into the TiO2 nanoparticle electrode. However, when the mixing of Pb reaches\n                               1:1 of Pb:Ti, the prepared nanoparticle electrode seems loose and is easily peeled off from\n                             the substrate, as can be seen from the sample in the lower right corner of the 1:1 picture in\n                           Figure 2a. Therefore, the mole ratio of 1:1 for Pb:Ti was not suitable for the fabrication of\n                               solar cells and was not chosen for the subsequent experiments. Figure 2b shows the repre-",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. The preparation diagram for the PbO-TiO2 mesoporous layer, CH3NH3PbI3/TiO2 compos-\nite layer, and solar cell.",
+          "figure_bbox": [
+            164.58,
+            92.86,
+            496.15,
+            277.84
+          ],
+          "bbox": [
+            166.39,
+            285.47,
+            560.76,
+            307.34
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. The preparation diagram for the PbO-TiO2 mesoporous layer, CH3NH3PbI3/TiO2 compos-\nite layer, and solar cell.",
+          "bbox": [
+            164.58,
+            92.86,
+            496.15,
+            277.84
+          ],
+          "file": "extracted_images/page4_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Coatings 2023, 13, 669                                                                                                           5 of 11\n\n\n\n                             sentative TiO2/PbI2 thin ﬁlm prepared by dipping the PbO-TiO2 nanoparticle electrode\n                          with Pb:Ti of 1:2 into the HI solution. The thin ﬁlm changed to golden yellow, with the PbO\n                           transforming to PbI2. Figure 2c shows the top-view picture of the CH3NH3PbI3/TiO2 thin\n                      ﬁlm by dipping the PbI2/TiO2 thin ﬁlm into a CH3NH3I solution. As can be seen from the\n                           ﬁgure, the color of the sample has obviously changed to black, indicating the successful\n                           formation of CH3NH3PbI3 compounds.\n\n\n\n\n\n                              Figure 2. The top-view pictures of (a) the TiO2 thin ﬁlm prepared from different ratios of Pb:Ti;\n                                   (b) the PbI2/TiO2 thin ﬁlm prepared by dipping the PbO-TiO2 nanoparticle electrode into HI solution;\n                                        (c) the perovskite/TiO2 thin ﬁlm prepared by dipping the PbI2/TiO2 thin ﬁlm into CH3NH3I solution.\n\n                                Figure 3 shows the optical absorption characteristics of the CH3NH3PbI3/TiO2 com-\n                              posite thin ﬁlms prepared from the PbO-TiO2 with Pb:Ti ratios of 1:10, 1:8, 1:6, 1:4, and 1:2\n                               in the raw materials (sample with Pb:Ti ratio of 1:1 was not measured since it is not suitable\n                               to fabricate solar cells as mentioned above; sample prepared by the proposed method with\n                        no Pb mixed with TiO2 (sample 0), and another sample prepared by the traditional two-step\n                            spin-coating method were also included). As can be seen from the ﬁgure, the absorption\n                             of the samples was enhanced by Pb mixing, indicating that the CH3NH3PbI3 compound\n                      was successfully formatted in the composite thin ﬁlm. Comparing the UV-vis absorption\n                              of the prepared CH3NH3PbI3/TiO2 composite thin ﬁlms with different ratios of Pb:Ti, the\n                           absorption of the samples generally becomes stronger with an increasing ratio of Pb:Ti,\n                       and it reached the top in the visible spectrum range when Pb:Ti was 1:2. The EDS analysis\n                       conﬁrmed that the content of Pb in the CH3NH3PbI3/TiO2 thin ﬁlms increases with the\n                             increasing ratio of Pb:Ti in the raw material, as shown in Table 2. The Pb:Ti reached 0.388\n                              in the prepared CH3NH3PbI3/TiO2 composite thin ﬁlms when the ratio of Pb:Ti was set\n                              to 1:2 in the raw materials, as shown in Tables 2 and 3. As can be seen from the ﬁgure,\n                            the absorbance of the CH3NH3PbI3/TiO2 composite thin ﬁlms prepared by the proposed\n                       method with Pb:Ti of 1:2 is stronger at the visible spectrum range when compared with\n                              that prepared by the traditional method. This could be due to the increase in perovskite\n                          being ﬁlled into the TiO2 electrode using the proposed method than that prepared by the\n                                traditional method. Therefore, Pb:Ti with a ratio of 1:2 was chosen for the following study.\n\n\n\n\n\n                              Figure 3. UV-vis absorbance spectrum of the CH3NH3PbI3/TiO2 composite thin ﬁlms prepared from\n                           PbO-TiO2 thin ﬁlm with different ratios of Pb:Ti.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. The top-view pictures of (a) the TiO2 thin ﬁlm prepared from different ratios of Pb:Ti;\n(b) the PbI2/TiO2 thin ﬁlm prepared by dipping the PbO-TiO2 nanoparticle electrode into HI solution;\n(c) the perovskite/TiO2 thin ﬁlm prepared by dipping the PbI2/TiO2 thin ﬁlm into CH3NH3I solution.",
+          "figure_bbox": [
+            164.39,
+            181.52,
+            495.0,
+            255.72
+          ],
+          "bbox": [
+            166.1,
+            264.28,
+            560.4,
+            300.7
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. UV-vis absorbance spectrum of the CH3NH3PbI3/TiO2 composite thin ﬁlms prepared from\nPbO-TiO2 thin ﬁlm with different ratios of Pb:Ti.",
+          "figure_bbox": [
+            165.32,
+            568.38,
+            391.99,
+            740.67
+          ],
+          "bbox": [
+            166.39,
+            750.32,
+            559.28,
+            773.94
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. The top-view pictures of (a) the TiO2 thin ﬁlm prepared from different ratios of Pb:Ti;\n(b) the PbI2/TiO2 thin ﬁlm prepared by dipping the PbO-TiO2 nanoparticle electrode into HI solution;\n(c) the perovskite/TiO2 thin ﬁlm prepared by dipping the PbI2/TiO2 thin ﬁlm into CH3NH3I solution.",
+          "bbox": [
+            164.39,
+            181.52,
+            495.0,
+            255.72
+          ],
+          "file": "extracted_images/page5_figure-2_1.png"
+        },
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. UV-vis absorbance spectrum of the CH3NH3PbI3/TiO2 composite thin ﬁlms prepared from\nPbO-TiO2 thin ﬁlm with different ratios of Pb:Ti.",
+          "bbox": [
+            165.32,
+            568.38,
+            391.99,
+            740.67
+          ],
+          "file": "extracted_images/page5_figure-3_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Coatings 2023, 13, 669                                                                                                           6 of 11\n\n\n\n                             Table 2. EDS analysis of the CH3NH3PbI3/TiO2 composite thin ﬁlms prepared from PbO-TiO2 thin\n                         ﬁlm with different ratios of Pb:Ti.\n\n                                                  Pb:Ti                          EDS Result\n\n                                                        1:10                                            0.037\n                                                        1:08                                                 0.1\n                                                        1:06                                            0.097\n                                                        1:04                                            0.125\n                                                        1:02                                            0.388\n\n\n                             Table 3. The weight (%) and atomic (%) for each element in the sample with Pb:Ti of 1:2.\n\n                                     Element                Wt%                   At%\n\n                              CK                            02.27                           07.01\n                            OK                            23.93                           55.57\n                              NaK                            01.78                           02.88\n                            MgK                           00.45                           00.69\n                                         SiK                            05.09                           06.73\n                              PbM                            41.17                           07.38\n                                CaK                            00.77                           00.72\n                                        TiK                            24.53                           19.02\n\n\n                            The elemental distributions of Pb and Ti in the CH3NH3PbI3/TiO2 composite thin ﬁlm\n                          prepared from Pb:Ti of 1:2 are given in Figure 4. Figure 4a shows the measured ﬁeld of the\n                           sample. According to Figure 4b–d, the distribution of Pb and Ti is very uniform throughout\n                            the whole thin ﬁlm, which demonstrates that perovskite was uniformly ﬁlled into the\n                          TiO2 nanoparticle electrode. Perovskite solar cells prepared by the traditional two-step\n                            spin-coating method often suffer from the inadequate ﬁlling of perovskite at the bottom\n                             side of the electrode, which not only reduces the absorption of the incoming sunlight but\n                             also increases the recombination of carriers at the gaps [9,18,20]. Therefore, the uniform\n                            adsorption of perovskite onto the surface of TiO2 nanoparticles through the whole electrode\n                                     is quite important, and would improve the performance of the solar cells. In addition, the\n                       atom ratio of Pb and I in the prepared CH3NH3PbI3/TiO2 composite thin ﬁlm was also\n                           estimated by the EDS to be 1:2.58, which is between 1:3 of CH3NH3PbI3 and 1:2 of PbI2.\n\n\n\n\n\n                              Figure 4. EDS images of Pb and Ti in the CH3NH3PbI3/TiO2 composite thin ﬁlm prepared from\n                                Pb:Ti of 1:2. (a) characterization region; (b) Pb; (c) Ti; (d) Pb and Ti.\n\n                                   3.2. Optimization of Dip Coating for the Preparation of Perovskite Absorption Layer\n\n                           The prepared CH3NH3PbI3/TiO2 composite thin ﬁlm was studied using XRD, and\n                            the result is shown in Figure 5. The 1ci-MAPbI3/TiO2 sample is obtained by dipping the\n                          PbI2/TiO2 thin ﬁlm into a CH3NH3I (for the convenience of picture display, it is expressed\n                             as MAI, the same goes for below) solution once, the 2ci-MAPbI3/TiO2 sample is obtained by\n                          dipping the PbI2/TiO2 thin ﬁlm into the MAI solution twice, while 10 days MAPbI3/TiO2\n                        sample stands the 2ci-MAPbI3/TiO2 sample after placing it for 10 days to observe the\n                         change in the perovskite crystal phase. As can be seen from the XRD pattern, TiO2 has a\n                       main peak at 25.3◦, which belongs to the 101 crystal phase (PCPDF #21-1272). For PbO,\n                            the peaks at 22.1◦, 32.4◦, 39.6◦, 46.2◦, and 57.3◦correspond to the 110, 200, 121, 030, and\n                          230 crystal phases (PCPDF #38-1477), respectively. As for PbI2, the peaks at 12.6◦, 25.7◦,",
+      "tables": [
+        {
+          "label": "Table 2",
+          "caption": "Table 2. EDS analysis of the CH3NH3PbI3/TiO2 composite thin ﬁlms prepared from PbO-TiO2 thin\nﬁlm with different ratios of Pb:Ti.",
+          "bbox": [
+            166.39,
+            126.88,
+            559.28,
+            202.73
+          ],
+          "rows": [
+            [
+              "Pb:Ti",
+              "EDS Result"
+            ],
+            [
+              "1:10",
+              "0.037"
+            ],
+            [
+              "1:08",
+              "0.1"
+            ],
+            [
+              "1:06",
+              "0.097"
+            ],
+            [
+              "1:04",
+              "0.125"
+            ],
+            [
+              "1:02",
+              "0.388"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        },
+        {
+          "label": "Table 3",
+          "caption": "Table 3. The weight (%) and atomic (%) for each element in the sample with Pb:Ti of 1:2.",
+          "bbox": [
+            166.39,
+            236.98,
+            559.28,
+            345.71
+          ],
+          "rows": [
+            [
+              "Element",
+              "Wt%",
+              "At%"
+            ],
+            [
+              "CK",
+              "02.27",
+              "07.01"
+            ],
+            [
+              "OK",
+              "23.93",
+              "55.57"
+            ],
+            [
+              "NaK",
+              "01.78",
+              "02.88"
+            ],
+            [
+              "MgK",
+              "00.45",
+              "00.69"
+            ],
+            [
+              "SiK",
+              "05.09",
+              "06.73"
+            ],
+            [
+              "PbM",
+              "41.17",
+              "07.38"
+            ],
+            [
+              "CaK",
+              "00.77",
+              "00.72"
+            ],
+            [
+              "TiK",
+              "24.53",
+              "19.02"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 2",
+          "text": "Table 2. EDS analysis of the CH3NH3PbI3/TiO2 composite thin ﬁlms prepared from PbO-TiO2 thin\nﬁlm with different ratios of Pb:Ti.",
+          "bbox": [
+            166.1,
+            97.32,
+            559.28,
+            119.19
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 3",
+          "text": "Table 3. The weight (%) and atomic (%) for each element in the sample with Pb:Ti of 1:2.",
+          "bbox": [
+            166.1,
+            220.24,
+            514.9,
+            229.29
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. EDS images of Pb and Ti in the CH3NH3PbI3/TiO2 composite thin ﬁlm prepared from\nPb:Ti of 1:2. (a) characterization region; (b) Pb; (c) Ti; (d) Pb and Ti.",
+          "figure_bbox": [
+            166.28,
+            518.96,
+            482.76,
+            606.35
+          ],
+          "bbox": [
+            166.39,
+            612.78,
+            559.28,
+            634.66
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. EDS images of Pb and Ti in the CH3NH3PbI3/TiO2 composite thin ﬁlm prepared from\nPb:Ti of 1:2. (a) characterization region; (b) Pb; (c) Ti; (d) Pb and Ti.",
+          "bbox": [
+            166.28,
+            518.96,
+            482.76,
+            606.35
+          ],
+          "file": "extracted_images/page6_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Coatings 2023, 13, 669                                                                                                           7 of 11\n\n\n                               34.0◦, 39.5◦, 45.2◦, 52.3◦, 68.4◦, and 73.2◦correspond to the 001, 002, 102, 110, 101, 004,\n                              212, and 301 crystal phases (PCPDF #07-0235), respectively. The peaks at 14.2◦, 28.5◦, and\n                           31.9◦correspond to the 110, 220, and 310 crystal phases of MAPbI3, respectively, which\n                          demonstrate the successful formation of tetrahedral perovskite [12,23–25]. However, the\n                          prepared perovskite thin ﬁlm still contains a PbI2 phase at 12.6◦, indicating that PbI2 may\n                                 exist in the prepared composite thin ﬁlm (consistent with the EDS discussion above). There\n                                    is also a PbO phase at 22.6◦and 39.6◦, which may come from the oxidization of PbI2 into\n                            the open-air ambience. In the prepared composite thin ﬁlm, there also exists a crystal\n                         phase that is difﬁcult to identify. Compared with the one-dipping process, the sample\n                          prepared by dipping twice shows better crystallinity, which indicates that more perovskite\n                           could be obtained from the sample. The full width at half maxima (FWHM) of the MAPbI3\n                          phases 110, 220, and 310 are about 0.07◦, 0.19◦, and 0.89◦, respectively, as shown in Table 4.\n                       The FWHM of the MAPbI3 crystal phases 110 and 220 are small, while the FWHM of\n                                crystal phase 310 is a bit big, which indicates that the crystallinity of MAPbI3 can be further\n                        improved in the future. As can be seen from the ﬁgure, the prepared perovskite is also\n                               stable after 10 days, although the diffraction peak intensity is slightly weakened.\n\n\n\n\n\n                              Figure 5. XRD diffraction patterns of the prepared CH3NH3PbI3/TiO2 composite thin ﬁlm.\n\n                             Table 4. The FWHM of MAPbI3 phases 110, 220, and 310.\n\n                                                Crystal Phase                        FWHM/◦\n\n                                                  110                                              0.07\n                                                  220                                              0.19\n                                                  310                                              0.89\n\n\n                            The SEM morphology of the CH3NH3PbI3/TiO2 composite thin ﬁlm prepared by the\n                         proposed method with dipping twice was compared with that prepared by the traditional\n                           two-step spin-coating method, as shown in Figure 6. As can be seen from the ﬁlling of\n                            pores in the TiO2 nanoparticle electrode, the sample prepared with the proposed method is\n                       more compact than that prepared by the traditional method. It is shown that the proposed\n                       method is helpful for the deposition of perovskite into the TiO2 nanoparticle electrode\n                          throughout the whole electrode, which would increase the absorption of incident light and\n                          reduce carrier recombination [12,26,27]. In addition, as can be observed from the sample,\n                            the interface between the composite thin ﬁlm and the substrate prepared by the proposed\n                       method is also more closely connected than that prepared by the traditional two-step\n                            spin-coating method. This is helpful for the smooth extraction of electrons outside of the\n                       CH3NH3PbI3/TiO2 composite layer, and therefore further reduces carrier recombination.",
+      "tables": [
+        {
+          "label": "Table 4",
+          "caption": "Table 4. The FWHM of MAPbI3 phases 110, 220, and 310.",
+          "bbox": [
+            166.39,
+            540.86,
+            559.28,
+            594.8
+          ],
+          "rows": [
+            [
+              "Crystal Phase",
+              "FWHM/◦"
+            ],
+            [
+              "110",
+              "0.07"
+            ],
+            [
+              "220",
+              "0.19"
+            ],
+            [
+              "310",
+              "0.89"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. XRD diffraction patterns of the prepared CH3NH3PbI3/TiO2 composite thin ﬁlm.",
+          "figure_bbox": [
+            164.87,
+            303.78,
+            411.94,
+            494.26
+          ],
+          "bbox": [
+            166.39,
+            502.33,
+            527.19,
+            513.13
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 4",
+          "text": "Table 4. The FWHM of MAPbI3 phases 110, 220, and 310.",
+          "bbox": [
+            166.1,
+            524.12,
+            393.06,
+            534.92
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. XRD diffraction patterns of the prepared CH3NH3PbI3/TiO2 composite thin ﬁlm.",
+          "bbox": [
+            164.87,
+            303.78,
+            411.94,
+            494.26
+          ],
+          "file": "extracted_images/page7_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Coatings 2023, 13, 669                                                                                                           8 of 11\n\n\n\n\n\n                                                    (a)                                             (b)\n\n                              Figure 6. SEM morphology of the CH3NH3PbI3/TiO2 composite thin ﬁlm (a) prepared by the\n                            proposed method; (b) by the traditional two-step spin-coating method.\n\n                           The above sample was fabricated into solar cells by sequential deposition of the\n                   HTL and Au electrode. The J-V results of the CH3NH3PbI3/TiO2 composite thin ﬁlm\n                          prepared by the proposed method and the traditional two-step spin-coating method were\n                          compared, as shown in Figure 7. The black curve in the ﬁgure is the photoelectric conversion\n                               characteristic of the solar cell prepared by the proposed method and the red one in the\n                         ﬁgure is the solar cell prepared by the traditional two-step spin-coating method. The slight\n                                 irregularities in the J-V curves may come from the uneven interfaces between the prepared\n                              solar cell thin ﬁlms. The power conversion efﬁciency (PCE) of the solar cell prepared by\n                             the proposed method is 9% with a short-circuit photocurrent density (JSC) of 16.4 mA/cm2,\n                         an open-circuit voltage (VOC) of 0.90 V, and a ﬁll factor (FF) of 61%. Meanwhile, the PCE of\n                            the solar cell prepared by the traditional two-step spin-coating method is 7.2% with a JSC\n                              of 14.1 mA/cm2, a VOC of 0.88 V, and an FF of 58%. The PCE of the solar cell prepared by\n                            the proposed method is about 25% higher than that prepared by the traditional two-step\n                            spin-coating method. The improved conversion efﬁciency is mainly due to the increase\n                                   inJsc from 14.1 mA/cm2 to 16.4 mA/cm2, which may be caused by more perovskite being\n                             ﬁlled into the TiO2 nanoparticle by the proposed method, increasing the absorption of the\n                             incident light, and therefore generating more carriers. The increased ﬁlling of perovskite\n                               into the bottom of the TiO2 nanoparticle electrode can also improve the Voc of the solar cell,\n                              since it avoids the recombination of electrons and holes at the gaps that usually appear in\n                             the bottom side of the CH3NH3PbIs3/TiO2 composite thin ﬁlm fabricated by the traditional\n                           two-step spin-coating method [18]. In this study, the thickness of the CH3NH3PbI3/TiO2\n                          composite thin ﬁlm prepared by the proposed method is similar to that prepared by the\n                              traditional two-step spin-coating method, which is around 2.2 µm. The thickness of the\n                       CH3NH3PbI3/TiO2 composite thin ﬁlm is bigger than that in a high-efﬁciency perovskite\n                              solar cell, whose thickness is around 850 nm (which also can be increased to 1150 nm for\n                           easy fabrication [28]). The present PCE of the prepared solar cell is not so high, which may\n                          be due to the excessively thick CH3NH3PbI3/TiO2 composite thin ﬁlm that results in more\n                               carrier recombinations [28,29]. Next, the fabrication process for the PSC will be further\n                          optimized to promote the performance of the solar cell.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. SEM morphology of the CH3NH3PbI3/TiO2 composite thin ﬁlm (a) prepared by the\nproposed method; (b) by the traditional two-step spin-coating method.",
+          "figure_bbox": [
+            165.17,
+            92.86,
+            520.77,
+            260.63
+          ],
+          "bbox": [
+            166.12,
+            268.79,
+            559.28,
+            290.66
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. SEM morphology of the CH3NH3PbI3/TiO2 composite thin ﬁlm (a) prepared by the\nproposed method; (b) by the traditional two-step spin-coating method.",
+          "bbox": [
+            165.17,
+            92.86,
+            520.77,
+            260.63
+          ],
+          "file": "extracted_images/page8_figure-6_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Coatings 2023, 13, 669                                                                                                           9 of 11\n\n\n\n\n\n                              Figure 7. J-V curve of the CH3NH3PbI3/TiO2 composite thin ﬁlm prepared with the proposed\n                          method and the traditional two-step spin-coating method.\n\n                                   4. Conclusions\n\n                                 In this study, a facile fabrication method to improve the perovskite deposition into\n                            the TiO2 nanoparticle electrode was proposed, and it has proven to be effective. It has\n                         been shown that Pb can be successfully mixed into the TiO2 nanoparticle electrode and its\n                           content increases with the Pb:T ratio that is increased in the raw materials. The effect of\n                              Pb:Ti on the properties of the prepared PbO-TiO2 thin ﬁlm was optimized. The atom ratio of\n                       Pb and I was estimated to be 1:2.58 in the perovskite absorption layer prepared from Pb:Ti\n                              of 1:2. The prepared perovskite/TiO2 composite thin ﬁlm has a uniform Pb/Ti elemental\n                               distribution, and its optical absorption is also excellent. The obtained perovskite/TiO2\n                          composite thin ﬁlm shows the 110, 220, and 310 crystal phases at 14.2◦, 28.5◦, and 31.9◦,\n                          demonstrating the formation of tetrahedral perovskite. Moreover, the sample prepared\n                          with dipping twice shows more compact morphology and better crystallinity (especially at\n                               crystal phases 110 and 310). The morphology and crystallinity of the prepared perovskite\n                        improve the short-circuit photocurrent density and open-circuit voltage of the fabricated\n                               solar cell when compared to that prepared by the traditional two-step spin-coating method.\n                        The PCE of the solar cell prepared by the proposed method is 9% (JSC of 16.4 mA/cm2, VOC\n                              of 0.90 V, and FF of 61%), about 25% higher than that prepared by the traditional two-step\n                            spin-coating method. This could be due to more perovskite that is ﬁlled into the TiO2\n                             nanoparticle in the proposed method, which not only increases the absorption of incident\n                                light and therefore can generate more carriers, but also reduces the carrier recombination\n                              in the prepared perovskite/TiO2 composite thin ﬁlm. The proposed method also has an\n                          important value for the fabrication of other relative photoelectric functional thin ﬁlms\n                            or devices.\n\n\n                           Author Contributions: Conceptualization, Q.C. and H.Y.; methodology, W.Z. and Y.N.; formal\n                                   analysis, Y.N. and Q.C.; investigation, Q.C., Y.N. and H.Y.; writing—original draft preparation, Q.C.;\n                            writing—review and editing, Y.N. and H.Y.; project administration, Q.C.; funding acquisition, Q.C.\n                                All authors have read and agreed to the published version of the manuscript.\n\n                            Funding: This research was funded by the National Natural Science Foundation of China, grant\n                          number 11604097 and the East China University of Science and Technology, grant number YK0142119.\n\n                                 Institutional Review Board Statement: Not applicable.\n\n                           Informed Consent Statement: Not applicable.\n\n                           Data Availability Statement: Not applicable.\n\n                             Conﬂicts of Interest: The authors declare no conﬂict of interest.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Figure 7. J-V curve of the CH3NH3PbI3/TiO2 composite thin ﬁlm prepared with the proposed\nmethod and the traditional two-step spin-coating method.",
+          "figure_bbox": [
+            164.4,
+            93.99,
+            396.22,
+            272.59
+          ],
+          "bbox": [
+            166.39,
+            281.02,
+            559.27,
+            302.89
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 7",
+          "caption": "Figure 7. J-V curve of the CH3NH3PbI3/TiO2 composite thin ﬁlm prepared with the proposed\nmethod and the traditional two-step spin-coating method.",
+          "bbox": [
+            164.4,
+            93.99,
+            396.22,
+            272.59
+          ],
+          "file": "extracted_images/page9_figure-7_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Coatings 2023, 13, 669                                                                                                          10 of 11\n\n\n\nReferences\n\n1.    Lee, M.M.; Teuscher, J.; Miyasaka, T.; Murakami, T.N.; Snaith, H.J. Efﬁcient hybrid solar cells based on meso-superstructured\n     organometal halide perovskites. Science 2012, 338, 643–647. [CrossRef]\n2.    Lee, T.D.; Ebong, A.U. A review of thin ﬁlm solar cell technologies and challenges. Renew. Sustain. Energy Rev. 2017, 70, 1286–1297.\n     [CrossRef]\n3.   Rhee, J.H.; Chung, C.C.; Diau, E.W.G. A perspective of mesoscopic solar cells based on metal chalcogenide quantum dots and\n     organometal-halide perovskites. NPG Asia Mater. 2013, 5, e68. [CrossRef]\n4.    Stranks, S.D.; Eperon, G.E.; Grancini, G.; Menelaou, C.; Alcocer, M.J.P.; Leijtens, T.; Herz, L.M.; Petrozza, A.; Snaith, H.J. Electron-\n     hole diffusion lengths exceeding 1 micrometer in an organometal trihalide perovskite absorber. Science 2013, 342, 341–344.\n     [CrossRef] [PubMed]\n5.   Kojima, A.; Teshima, K.; Shirai, Y.; Miyasaka, T. Organometal halide perovskites as visible-light sensitizers for photovoltaic cells.\n        J. Am. Chem. Soc. 2009, 131, 6050–6051. [CrossRef] [PubMed]\n6.   Green, M.A.; Dunlop, E.D.; Siefer, G.; Yoshita, M.; Kopidakis, N.; Bothe, K.; Hao, X.J. Solar cell efﬁciency tables (Version 61). Prog.\n      Photovolt. Res. Appl. 2023, 31, 3–16. [CrossRef]\n7.    Jeong, M.; Choi, I.W.; Go, E.M.; Cho, Y.J.; Kim, M.J.; Lee, B.K.; Jeong, S.H.; Jo, Y.H.; Choi, H.W.; Lee, J.Y.; et al. Stable perovskite\n      solar cells with efﬁciency exceeding 24.8% and 0.3-V voltage loss. Science 2020, 369, 1615–1620. [CrossRef] [PubMed]\n8.   Kumar, M.H.; Yantara, N.; Dharani, S.; Graetzel, M.; Mhaisalkar, S.; Boix, P.P.; Mathews, N. Flexible, low-temperature, solution\n     processed ZnO-based perovskite solid state solar cells. Chem. Commun. 2013, 49, 11089–11091. [CrossRef] [PubMed]\n9.   Kim, H.S.; Lee, J.W.; Yantara, N.; Boix, P.P.; Kulkarni, S.A.; Mhaisalkar, S.; Grätzel, M.; Park, N.-G. High efﬁciency solid-state\n     sensitized solar cell-based on submicrometer rutile TiO2 nanorod and CH3NH3PbI3 perovskite sensitizer. Nano Lett. 2013, 13,\n     2412–2417. [CrossRef]\n10.   Bi, D.; Moon, S.J.; Häggman, L.; Boschloo, G.; Yang, L.; Johansson, E.M.J.; Nazeeruddin, M.K.; Grätzel, M.; Hagfeldt, A.\n     Using a two-step deposition technique to prepare perovskite (CH3NH3PbI3) for thin ﬁlm solar cells based on ZrO2 and TiO2\n     mesostructures. RSC Adv. 2013, 3, 18762–18766. [CrossRef]\n11.  Zhao, Y.; Zhu, K. Charge transport and recombination in perovskite (CH3NH3)PbI3 sensitized TiO2 solar cells. J. Phys. Chem. Lett.\n     2013, 4, 2880–2884. [CrossRef]\n12.  Burschka, J.; Pellet, N.; Moon, S.J.; Humphry-Baker, R.; Gao, P.; Nazeeruddin, M.K.; Grätzel, M. Sequential deposition as a route\n      to high-performance perovskite-sensitized solar cells. Nature 2013, 499, 316–319. [CrossRef] [PubMed]\n13.   Shi, J.; Luo, Y.; Wei, H.; Luo, J.; Dong, J.; Lv, S.; Xiao, J.; Xu, Y.; Zhu, L.; Xu, X. Modiﬁed Two-Step Deposition Method for\n     High-Efﬁciency TiO2/CH3NH3PbI3 Heterojunction Solar Cells. ACS Appl. Mater. Interfaces 2014, 6, 9711–9718. [CrossRef]\n    [PubMed]\n14.  Wu, J.; Xu, X.; Zhao, Y.; Shi, J.J.; Xu, Y.; Luo, Y.H.; Li, D.M.; Wu, H.J.; Meng, Q.B. DMF as an Additive in a Two-Step Spin-Coating\n    Method for 20% Conversion Efﬁciency in Perovskite Solar Cells. ACS Appl. Mater. Interfaces 2017, 9, 26937–26947. [CrossRef]\n15.  Han, Y.; Xie, H.; Lim, E.L.; Bi, D. Review of Two-Step Method for Lead Halide Perovskite Solar Cells. Solar RRL 2022, 6, 2101007.\n     [CrossRef]\n16.  Eperon, G.E.; Burlakov, V.M.; Docampo, P.; Goriely, A.; Snaith, H.J. Morphological Control for High Performance, Solution-\n     Processed Planar Heterojunction Perovskite Solar Cells. Adv. Funct. Mater. 2014, 24, 151–157. [CrossRef]\n17.  Chen, Q.; Zhou, H.; Hong, Z.; Luo, S.; Duan, H.S.; Wang, H.H.; Liu, Y.; Li, G.; Yang, Y. Planar heterojunction perovskite solar cells\n     via vapor-assisted solution process. J. Am. Chem. Soc. 2013, 136, 622–625. [CrossRef]\n18.  Mei, A.; Li, X.; Liu, L.; Ku, Z.; Liu, T.; Rong, Y.; Xu, M.; Hu, M.; Chen, J.; Yang, Y.; et al. A hole-conductor–free, fully printable\n     mesoscopic perovskite solar cell with high stability. Science 2014, 345, 295–298. [CrossRef] [PubMed]\n19.   Jiang, Q. Rutile TiO2 Nanowires Perovskite Solar Cells. Chem. Commun. 2014, 50, 14720–14723. [CrossRef] [PubMed]\n20.   Leijtens, T.; Lauber, B.; Eperon, G.E.; Stranks, S.D.; Snaith, H.J. The Importance of Perovskite Pore Filling in Organometal Mixed\n     Halide Sensitized TiO2-Based Solar Cells. J. Phys. Chem. Lett. 2014, 5, 1096–1102. [CrossRef] [PubMed]\n21.  Dastan, D.; Gosavi, S.W.; Chaure, N.B. Studies on Electrical Properties of Hybrid Polymeric Gate Dielectrics for Field Effect\n      Transistors. Macromol. Symp. 2015, 347, 81–86. [CrossRef]\n22.  Dastan, D.; Londhe, P.U.; Chaure, N.B. Characterization of TiO2 nanoparticles prepared using different surfactants by sol–gel\n     method. J. Mater. Sci. Mater. Electron. 2014, 25, 3473–3479. [CrossRef]\n23.   Liu, M.; Johnston, M.B.; Snaith, H.J. Efﬁcient planar heterojunction perovskite solar cells by vapour deposition. Nature 2013, 501,\n     395–398. [CrossRef] [PubMed]\n24.  Chen, Y.; Li, B.; Huang, W.; Gao, D.; Liang, Z. Efﬁcient and reproducible CH3NH3PbI3-x(SCN)x perovskite based planar solar\n       cells. Chem. Commun. 2015, 51, 11997–11999. [CrossRef] [PubMed]\n25.  Ke, W.; Xiao, C.; Wang, C.; Saparov, B.; Duan, H.S.; Zhao, D.; Xiao, Z.; Schulz, P.; Harvey, S.P.; Liao, W.; et al. Employing Lead\n     Thiocyanate Additive to Reduce the Hysteresis and Boost the Fill Factor of Planar Perovskite Solar Cells. Adv. Mater. 2016, 28,\n     5214–5221. [CrossRef] [PubMed]\n26.  Nanu, M.; Schoonman, J.; Goossens, A. Nanocomposite three-dimensional solar cells obtained by chemical spray deposition.\n    Nano Lett. 2005, 5, 1716–1719. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 11,
+      "text": "Coatings 2023, 13, 669                                                                                                          11 of 11\n\n\n\n\n27.   Cui, X.; Chen, Y.; Zhang, M.; Harn, Y.W.; Qi, J.B.; Gao, L.K.; Lin, Z.W.; Huang, J.S.; Yang, Y.K.; Lin, Z.Q. Tailoring carrier dynamics\n     in perovskite solar cells via precise dimension and architecture control and interfacial positioning of plasmonic nanoparticles.\n     Energy Environ. Sci. 2020, 13, 1743–1752. [CrossRef]\n28.  Chen, J.; Zuo, L.; Zhang, Y.; Lian, X.; Fu, W.; Yan, J.; Li, J.; Wu, G.; Li, C.Z.; Chen, H. High-Performance Thickness Insensitive\n     Perovskite Solar Cells with Enhanced Moisture Stability. Adv. Energy Mater. 2018, 8, 1800438. [CrossRef]\n29.  Zhang, B.; Zhang, M.J.; Pang, S.P.; Huang, C.S.; Zhou, Z.M.; Wang, D.; Wang, N.; Cui, G.L. Carrier Transport in CH3NH3PbI3\n     Films with Different Thickness for Perovskite Solar Cells. Adv. Mater. Interfaces 2016, 3, 1600327. [CrossRef]\n\n\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "6f52dcd65bcbc64691c972bfe28d289f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            516.92,
+            56.15,
+            558.47,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_6f52dcd65bcbc64691c972bfe28d289f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "59c116537ecf25f8d7692dabbf2060fb",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            517.1,
+            56.34,
+            538.31,
+            76.49
+          ]
+        }
+      ],
+      "file": "garbage/page1_59c116537ecf25f8d7692dabbf2060fb.png",
+      "is_garbage": true
+    },
+    {
+      "id": "62efa0313b674db8d12560bbe65e7581",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            537.1,
+            63.4,
+            558.32,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_62efa0313b674db8d12560bbe65e7581.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bdad99135e250503119f6f098d743bd0",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            521.38,
+            65.4,
+            553.92,
+            74.6
+          ]
+        }
+      ],
+      "file": "garbage/page1_bdad99135e250503119f6f098d743bd0.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            35.72,
+            656.88,
+            92.41,
+            676.72
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

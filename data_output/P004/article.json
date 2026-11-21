@@ -1,0 +1,338 @@
+{
+  "publication_id": "P004",
+  "source_file": "P004.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Solar Fabric Based on Amorphous Silicon Thin Film Solar Cells on Flexible Textiles",
+    "author": "Jonathan Plentz; Uwe Brückner; Gabriele Schmidl; Annett Gawlik; Klaus Richter; Gudrun Andrä",
+    "subject": "Three-dimensional flexible solar fabrics based on hydrogenated amorphous silicon (a-Si:H) thin film solar cells were prepared and characterized. A glass fiber fabric with a polytetrafluoroethylene (PTFE) coating proved to be a suitable textile substrate. Interwoven metal wires enable an integrated electrical interconnection. An array of solar cells consisting of an a-Si:H layer stack with a highly p-type/intrinsic/highly n-type doping profile was deposited onto it. Silver was used as the back contact with indium tin oxide (ITO) as the front contact. The best solar cells show an efficiency of 3.9% with an open-circuit voltage of 876 mV and a short-circuit current density of 11.4 mA/cm2. The high series resistance limits the fill factor to 39%. The potential of the textile solar cells is shown by the achieved pseudo fill factor of 79% when neglecting the series resistance, resulting in a pseudo efficiency of 7.6%. With four textile solar cells connected in a series, an open-circuit voltage of about 3 V is achieved.",
+    "keywords": "smart textiles; flexible solar fabric; solar energy; thin film solar cells; amorphous silicon",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.25",
+    "creationDate": "D:20250317095714+08'00'",
+    "modDate": "D:20250317032619+01'00'",
+    "DOI": "10.3390/en18061448",
+    "year": 2025,
+    "authors": [
+      "Jonathan Plentz",
+      "Uwe Brückner",
+      "Gabriele Schmidl",
+      "Annett Gawlik",
+      "Klaus Richter",
+      "Gudrun Andrä"
+    ]
+  },
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Article\nSolar Fabric Based on Amorphous Silicon Thin Film Solar Cells\non Flexible Textiles\n\nJonathan Plentz 1,*    , Uwe Brückner 1, Gabriele Schmidl 1    , Annett Gawlik 1    , Klaus Richter 2 and Gudrun Andrä 1\n\n\n                                            1   Leibniz Institute of Photonic Technology (Leibniz IPHT), Albert-Einstein-Strasse 9, 07745 Jena, Germany;\n                                      uwe.brueckner@leibniz-ipht.de (U.B.); gabriele.schmidl@leibniz-ipht.de (G.S.);\n                                        annett.gawlik@leibniz-ipht.de (A.G.)\n                                            2   ITP GmbH—Gesellschaft für Intelligente Textile Produkte, Hans-Knöll-Strasse 6, 07745 Jena, Germany;\n                                        richter@richter-partner-weimar.de\n                                     *   Correspondence: jonathan.plentz@leibniz-ipht.de\n\n                            Abstract: Three-dimensional flexible solar fabrics based on hydrogenated amorphous\n                                silicon (a-Si:H) thin film solar cells were prepared and characterized. A glass fiber fabric\n                         with a polytetrafluoroethylene (PTFE) coating proved to be a suitable textile substrate.\n                         Interwoven metal wires enable an integrated electrical interconnection. An array of solar\n                                   cells consisting of an a-Si:H layer stack with a highly p-type/intrinsic/highly n-type doping\n                               profile was deposited onto it. Silver was used as the back contact with indium tin oxide\n                           (ITO) as the front contact. The best solar cells show an efficiency of 3.9% with an open-\n                                 circuit voltage of 876 mV and a short-circuit current density of 11.4 mA/cm2. The high\n                                series resistance limits the fill factor to 39%. The potential of the textile solar cells is shown\n                        by the achieved pseudo fill factor of 79% when neglecting the series resistance, resulting in a\n                         pseudo efficiency of 7.6%. With four textile solar cells connected in a series, an open-circuit\n                            voltage of about 3 V is achieved.\n\n\n                         Keywords: smart textiles; flexible solar fabric; solar energy; thin film solar cells; amorphous\n                                silicon\n\n\n\nAcademic Editors: Paweł We¸gierek,    1. Introduction\nJacek Kusznier and Maciej Zajkowski     A large field of application for photovoltaics (PVs), which is currently hardly served,\nReceived: 22 January 2025              is the self-sufficient energy supply of electronic components and small electrical devices\nRevised: 7 March 2025              in the consumer sector [1–3]. For this field of application, corresponding photovoltaic\nAccepted: 10 March 2025\n                          systems should be very light, highly stable, and 3D flexible, that means bendable in all\nPublished: 15 March 2025\n                               directions. The ability to integrate it into clothing would also be advantageous. In order\nCitation:  Plentz, J.; Brückner, U.;\n                              to keep manufacturing costs low and not to require a separate production line for each\nSchmidl, G.; Gawlik, A.; Richter, K.;\nAndrä, G. Solar Fabric Based on      power range, the solar modules should also be able to be manufactured in a large-area and\nAmorphous Silicon Thin Film Solar     subsequently to be cut into the required shape and size. Solar fabrics based on photovoltaic\nCells on Flexible Textiles. Energies      active thin film systems on the surface of textiles can meet these requirements in an ideal\n2025, 18, 1448. https://doi.org/      way. The applications of these extend from the energy supply of electronic sensor systems\n10.3390/en18061448                in clothing, e.g., for monitoring body functions in the medical, wellness, or sports sectors,\nCopyright: © 2025 by the authors.      to the supply of electronic devices such as smartphones in clothing, or in outdoor use [4]. In\nLicensee MDPI, Basel, Switzerland.     addition, the field of applications for large-area solar fabrics can be expanded to integration\nThis article is an open access article     into buildings (Bi-PV), as truck tarpaulins, or for agricultural areas (Agri-PV) [5]. Solar\ndistributed under the terms and\n                                 cells on textiles could also act as optical sensors for applications in personal protective\nconditions of the Creative Commons\nAttribution (CC BY) license         equipment (PPE) and clothing [6].\n(https://creativecommons.org/          However, no products with solar cells directly fabricated on fabrics are currently\nlicenses/by/4.0/).                available on the market. Instead, flexible solar cells on foils are offered. However, these\n\n\n\nEnergies 2025, 18, 1448                                                                                  https://doi.org/10.3390/en18061448",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Energies 2025, 18, 1448                                                                                                          2 of 10\n\n\n\n                        have limited flexibility and drapability as required for use in clothing. Their application\n                             areas here are lightweight solar modules for roof and wall integration of buildings [5,7,8].\n                           For such applications, the rolling up and down of the modules is an advantage, apart from\n                             the low weight. Another consumer niche is solar backpacks with plug-in mini modules [9].\n                                Currently worldwide research is being performed on various types of thin film solar\n                                 cells on textiles. On the one hand, the solar cell layers are applied to single textile fibers\n                       and used individually or processed into fabrics [4,10–13]. On the other hand, the solar\n                                   cell layer systems are directly deposited on the surfaces of textiles [4,10,14,15]. In the case\n                             of solar cells on single fibers, only extremely low outputs are achieved. The problem of\n                              realizing flat and large-area fabrics from them is the mechanical stress on the PV layers\n                          during the weaving process, which often leads to local damage. An overview of the results\n                        on the different textile solar cells are given in [4,14,15]. Particularly advantageous for solar\n                               fabrics are solar cells based on hydrogenated amorphous silicon (a-Si:H) [16–18]. These\n                         have long-term stability without the need for complex encapsulation, unlike organic solar\n                                 cells (OPV) [4,19–23] or dye-sensitized solar cells (DSSCs) [24–30]. Amorphous silicon\n                          can be deposited at significantly lower temperatures compared to copper indium gallium\n                            diselenide (CIGS) solar cell systems. These require a textile coating that is stable at high\n                           temperatures, resulting in a large loss of flexibility and thus textile properties [31]. In\n                             addition, a-Si:H solar cells are harmless to health for use in clothing, unlike perovskite\n                        (CH3NH3PbI3) solar cells [4,14,32,33], which are not suitable for use in immediate human\n                          environments due to the presence of toxic lead.\n                            The focus of this work is the research, development, fabrication, and characterization\n                              of 3D flexible solar fabrics based on a-Si:H solar cells. The aim is to significantly increase\n                            the efficiency that has already been published for this type of solar cell [18] in order to\n                            enable economic production in the future. Up to now, photovoltaic efficiencies of 1.4% and\n                        pseudo efficiencies of 2.1% have been reported [18]. Here, we show the way to 3.9% and\n                            7.6%, respectively. A broad review of the efficiencies achieved by various technologies on\n                                  textiles is available in the literature [4].\n                           The challenge is to find a suitable textile substrate that has the temperature and\n                      vacuum stability required for the coating process and is adapted to the thermal expansion\n                            properties of the solar cell materials. Furthermore, the materials and the layer structure\n                              of the solar cells as well as the manufacturing processes have to be adapted to the surface\n                         topography of the textile substrate. A design was developed for the arrangement and\n                                 electrical interconnection of the solar cells on the fabric. This will allow modules with the\n                            desired electrical output and geometry to be produced in future production by cutting\n                       them out of a large-area solar fabric.\n\n                             2. Material and Methods\n\n                           The solar fabrics are realized by the deposition of the following layers on top of a\n                             polytetrafluoroethylene (PTFE)-coated fabric with interwoven metal wires. On the bottom,\n                           a silver (Ag) electrode is used, then hydrogenated amorphous silicon (a-Si:H) with a highly\n                           p-type (p+), intrinsic (i), and n-type (n+) doping profile is deposited and indium tin oxide\n                            (ITO) as a transparent conductive oxide (TCO) is used as the top electrode. The scheme of\n                            the resulting amorphous silicon thin film solar cells on textiles is shown in Figure 1.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Energies 2025, 18, 1448                                                                                                          3 of 10\n\n\n\n\n\n                              Figure 1. Scheme of solar fabric based on amorphous silicon thin film solar cells on textiles.\n\n                                   2.1. Textile Substrate\n\n                           The textile substrate used for the solar cell layer system is a glass fiber fabric, as\n                        shown, for example, in the photograph of Figure 2a. The glass fiber fabric is coated by\n                             polytetrafluoroethylene (PTFE) with thicknesses available between 70 µm and 250 µm. A\n                         photograph is given in Figure 2b and an SEM image of the surface is shown in Figure 2c.\n                      From the SEM investigation, it is seen that the PTFE coating results in a closed surface\n                          without holes, voids, or steep edges, which is required for short-circuit-free solar cells.\n                       The pre-treatment experiments showed that the fabric remains stable in the vacuum at\n                          1 mbar for at least 30 min at a temperature of 230 ◦C as needed for the layer deposition. In\n                              addition, the thermal expansion of the glass fiber fabric with PTFE coating matches better\n                               to the silicon layer with 4 × 10−6 K−1 and the silver layer with 19 × 10−6 K−1, compared to\n                          polymer-based textiles and fabrics so that the solar cell layer system can be applied without\n                              cracking. Another advantage of the PTFE-coated glass fiber fabrics is the durability across\n                            various environmental conditions.\n\n\n\n\n\n                         (a)                                (b)                                        (c)\n\n                             Figure 2. A photograph of a bare glass fiber fabric area with 5 cm by 5 cm (a), and a photograph\n                                  (b) and an SEM image (c) of a glass fiber fabric with PTFE coating.\n\n                                   2.2. Deposition of Thin Film Solar Cell\n\n                            The fabrication for the solar fabric as shown in Figure 1 starts with a 250–300 nm thin\n                                silver layer deposited by electron beam evaporation (EBE) at 200 ◦C heater temperature.\n                       The deposition of the photovoltaic active a-Si:H layer system is carried out by plasma-\n                         enhanced chemical vapor deposition (PECVD). The heater temperature was varied between\n                          180 ◦C and 225 ◦C. The first a-Si:H layer is highly p-doped with thicknesses varied from\n                          10 nm to 30 nm. This is followed by a 300 nm to 500 nm thin intrinsic a-Si:H layer. The\n                             layer system is completed by a 10 nm to 30 nm thin highly n-doped a-Si:H. The p+ or n+\n                         doping was performed with 3% diborane or phosphine in silane, respectively. The resulting\n                         dopant concentration is about 1019 cm−3 in both cases. Finally, an indium tin oxide (ITO)\n                             layer of 90 nm or 200 nm as a transparent top electrode was deposited by DC magnetron",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. Scheme of solar fabric based on amorphous silicon thin film solar cells on textiles.",
+          "figure_bbox": [
+            165.53,
+            70.76,
+            359.13,
+            215.25
+          ],
+          "bbox": [
+            166.39,
+            221.68,
+            527.26,
+            230.73
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. A photograph of a bare glass fiber fabric area with 5 cm by 5 cm (a), and a photograph\n(b) and an SEM image (c) of a glass fiber fabric with PTFE coating.",
+          "figure_bbox": [
+            76.01,
+            447.44,
+            519.63,
+            579.03
+          ],
+          "bbox": [
+            166.1,
+            589.1,
+            559.28,
+            611.04
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. Scheme of solar fabric based on amorphous silicon thin film solar cells on textiles.",
+          "bbox": [
+            165.53,
+            70.76,
+            359.13,
+            215.25
+          ],
+          "file": "extracted_images/page3_figure-1_1.png"
+        },
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. A photograph of a bare glass fiber fabric area with 5 cm by 5 cm (a), and a photograph\n(b) and an SEM image (c) of a glass fiber fabric with PTFE coating.",
+          "bbox": [
+            76.01,
+            447.44,
+            519.63,
+            579.03
+          ],
+          "file": "extracted_images/page3_figure-2_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Energies 2025, 18, 1448                                                                                                          4 of 10\n\n\n                            sputtering in rotating mode using 5 × 10−3 mbar argon pressure and 70 W sputtering\n                         power. The thicknesses of all layers were evaluated by co-deposition on a flat substrate\n                        and measured using a stylus profilometer. In this way, a homogeneous crack-free solar cell\n                             layer system can be applied to the flexible PTFE-coated glass fiber fabric (see Figure S1 in\n                            the Supplementary Materials).\n\n                                   2.3. Solar Fabric Design\n\n                           The long-term goal of our work is a solar fabric that makes it possible to produce\n                        modules with desired electrical performance and geometry by cutting them out of a large-\n                             area solar fabric. The design concept and the first steps to realize this solar fabric is shown\n                              in Figure 3. As shown in the scheme, the fabric should have metal wires woven into\n                             periodic intervals of 2 mm and 15 mm. The solar cells of 1 cm by 1 cm are arranged between\n                            the metal filaments, with contact of the bottom and top electrode to one wire each. The\n                              solar cells, which are arranged in a row longitudinally between two contact wires, are\n                          consequently connected in parallel. So, the generated electrical currents are added. The\n                              solar cells, arranged in a row perpendicular to the wires, are connected in a series. This\n                             leads to the addition of the generated voltages. By cutting parallel and perpendicular to the\n                             contact wires, solar modules with a desired J–V characteristics and size can be processed.\n                           For this, only the protruding wires at the edge need to be connected as desired. The textile\n                           industry offers corresponding fabrics with interwoven conductive filaments (see Figure\n                            S2a,b in the Supplementary Materials).\n\n\n\n\n\n                              Figure 3. Design of solar fabric with integrated electrical interconnection.\n\n                                   2.4. Characterization\n\n                            The current–voltage (J–V) measurements of the solar cells were carried out with a solar\n                            simulator (PET SS-80A, Photo Emission Tech Inc., Moorpark, CA, USA) under irradiation\n                              of 1000 W/m2 with the air mass 1.5 global (AM 1.5g) spectra. The pseudo J–V curves and\n                          parameters were determined from suns-Voc measurements (Sinton Suns-Voc-150, Sinton\n                            Instruments, Boulder, CO, USA) to negate the influence of the series resistance. This is\n                          a common method to quickly determine the quality of the solar cell layer even without\n                           or before high quality electrical contracting. A spectrometer (Perkin-Elmer Lambda 900,\n                          PerkinElmer Inc., Waltham, MA, USA) with an integrated scattered light sphere was used\n                              for optical characterization of the solar cell layer system. The surface of the PTFE-coated\n                               glass fiber fabric was analyzed by scanning electron microscopy (SEM) with high resolution\n                       (FE-SEM JSM-6700F; JEOL Ltd., Tokyo, Japan).\n\n                             3. Results and Discussion\n\n                              Following the concept for interconnection presented in Section 2.3, solar cell arrays\n                             consisting of eight 1 by 1 cm2 solar cells and nine smaller test solar cells were deposited",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. Design of solar fabric with integrated electrical interconnection.",
+          "figure_bbox": [
+            166.38,
+            371.18,
+            368.86,
+            517.5
+          ],
+          "bbox": [
+            166.39,
+            526.0,
+            456.07,
+            535.05
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. Design of solar fabric with integrated electrical interconnection.",
+          "bbox": [
+            166.38,
+            371.18,
+            368.86,
+            517.5
+          ],
+          "file": "extracted_images/page4_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Energies 2025, 18, 1448                                                                                                          5 of 10\n\n\n                       on 5 by 5 cm2 and 70 µm thick PTFE-coated glass fiber fabric, as shown in Figure 4a. In\n                          accordance with the layer system shown in Figure 1, at first, a 250 nm thin silver layer\n                      was deposited on a (nearly) full area apart from the sample holder. Then, the a-Si:H layer\n                          system with the doping profile (10 nm of p+/300 nm of i/10 nm of n+) was deposited and\n                            structured by a 4 by 4 cm2 shadow masks. The substrate temperature within the PECVD\n                      was 180 ◦C. Finally, the 90 nm thin ITO layer was deposited and structured by shadow\n                      mask to realize the solar cell areas.\n\n\n                                                                              15\n                                                                               Voc = 849 mV\n                                                                              10                            2                                                                                           Jsc = 3.29 mA/cm                                                                                                                                                                                          [mA/cm²]   5  FF = 47.2 %\n                                                                                                                Eff = 1.32 %\n                                                                               0\n                                                                                                                                                                   density   -5\n\n                                                                                         -10\n                                                                                                                                                                   Current -15\n                                                                                                      -1.0    -0.5    0.0     0.5     1.0     1.5\n                                                                                  Voltage [V]\n                                                      (a)                                           (b)\n\n                             Figure 4. Solar cell array on glass fiber fabric with PTFE coating (a). J–V curve and photovoltaic\n                             parameters of solar cell with layer structure of Figure 1 and a-Si:H deposition at 180 ◦C (b).\n\n                            The solar cells with this specified layer system were optoelectronically analyzed. The\n                            current–voltage measurements with the applied contact pins under the solar simulator\n                             resulted in the J–V curve shown in Figure 4b. An open-circuit voltage of nearly 849 mV\n                          demonstrates shunt-free contact layers, even on flexible and non-planar textile substrates.\n                        The short-circuit current density is very low with only 3.29 mA/cm2 and must be optimized\n                            as given below. These solar cells had a maximum efficiency of 1.32% with a fill factor of\n                            47.2%.\n                                Various optimization steps were carried out to improve the initial efficiency. To reduce\n                             the contact resistance between Ag and a-Si:H, the solar cell layer system was supplemented\n                          with an aluminum-doped zinc oxide (Al:ZnO) layer. The 200 nm thin Al:ZnO was deposited\n                       by atomic layer deposition (ALD) on top of the silver layer. Furthermore, the substrate\n                          temperature during the a-Si:H deposition was increased from 180 ◦C to 225 ◦C, which\n                           reduces the defect density in the absorber. Additionally, the thickness of the intrinsic a-Si:H\n                             layer was increased from 300 nm to 500 nm to enhance the optical absorption. Also, the\n                            thickness of the n+ doped layer was increased from 10 nm to 20 nm, as this is expected\n                              to reduce the density of micro-holes in this layer. With regard to the thickness of the\n                      ITO layer, a compromise had to be found between the low optical absorption and high\n                                 electrical conductivity. A layer thickness of 200 nm was determined to be optimal and\n                       homogenous [34].\n                           The solar cell layer system optimized in this way was optically characterized in the\n                       UV-VIS-NIR spectral region, as shown in Figure 5a. The measured transmission (T, red)\n                       and reflection (R, blue) values are given in the same way as the calculated (T + R + A = 1)\n                           absorption values (A, black). For the maximum of the sunlight spectrum at about 550 nm\n                          wavelength, more than 90% is absorbed in the solar cell layer system.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. Solar cell array on glass fiber fabric with PTFE coating (a). J–V curve and photovoltaic\nparameters of solar cell with layer structure of Figure 1 and a-Si:H deposition at 180 ◦C (b).",
+          "figure_bbox": [
+            167.18,
+            180.16,
+            525.91,
+            339.71
+          ],
+          "bbox": [
+            166.12,
+            347.93,
+            559.28,
+            369.87
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. Solar cell array on glass fiber fabric with PTFE coating (a). J–V curve and photovoltaic\nparameters of solar cell with layer structure of Figure 1 and a-Si:H deposition at 180 ◦C (b).",
+          "bbox": [
+            167.18,
+            180.16,
+            525.91,
+            339.71
+          ],
+          "file": "extracted_images/page5_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Energies 2025, 18, 1448                                                                                                          6 of 10\n\n\n\n\n                                  100\n\n                                         [%]  80\n\n              A\n                                   60\n              &\n\n              R  40\n              &\n              T  20\n\n                                    0\n                                    200     400     600     800    1000\n                                          Wavelength [nm]\n\n                                                         (a)                                           (b)\n\n                             Figure 5. Spectral characteristic of absorption (black), reflection (blue), and transmission (red) in\n                          UV-VIS-NIR region (a) and J–V curves of two solar cells on fabrics before (dashed line) and after\n                                   (solid line) annealing at 200 ◦C for 60 min (b) of optimized solar fabric layer system.\n\n                            The mentioned improvements lead to solar cells with J–V characteristics shown in both\n                        dashed lines in Figure 5b. The open-circuit voltages are 860–863 mV and the short-circuit\n                             current densities are 4.9–6.0 mA/cm2. These solar cells had efficiencies of 1.9–2.3% with fill\n                               factors of 44.5–45.2%.\n                               Furthermore, an additional annealing step at 200 ◦C for 60 min resulted in a further\n                        improvement of the solar cell parameters especially for the short-circuit current density.\n                           Presumably, this results in a reduction in the layer stresses as well as in the defect healing\n                                at the interfaces due to hydrogen passivation. This effect on the J–V curve is demonstrated\n                              in Figure 5b for two different solar cells. The annealing step increases the short-circuit\n                            current density from 6.0 mA/cm2 to 11.4 mA/cm2 for the first solar cell (blue). In the\n                          second case (red), it is increased from 4.9 mA/cm2 to 9.5 mA/cm2. This suggests a reduced\n                           recombination of the generated electron hole pairs.\n                            With the help of the optimization of the layer system and the additional annealing\n                            step as described above, it was possible to realize a solar cell with an efficiency of 3.9%.\n                        The corresponding J–V curve under the solar simulator with AM1.5g is given in Figure 6a.\n                       The open-circuit voltage could be slightly improved to 876 mV. A significant increase is\n                          observed in the short-circuit current density to 11.4 mA/cm2. A challenge and limit is the\n                        low fill factor of only 39.0% caused by the high contact resistance.\n\n\n                                   15                                                15\n                                       Voc = 876 mV                                     Voc = 850 mV\n                                   10                            2                              10                            2\n                                            Jsc = 11.4 mA/cm                                       Jsc = 11.3 mA/cm                                                                                                [mA/cm²]   5  FF = 39.0 %                                                                                                 [mA/cm²]   5  pFF = 79.3 %\n                                                      Eff = 3.90 %                                                  pEff = 7.61 %\n                                    0                                                 0\n                                                                                    density   -5                                                                                                                       density   -5\n\n                                        -10                                                      -10\n                                                                                    Current -15                                                                                                                       Current -15\n                                               -1.0    -0.5    0.0     0.5     1.0     1.5                    -1.0    -0.5    0.0     0.5     1.0     1.5\n                                           Voltage [V]                                   Voltage [V]\n                                                          (a)                                                (b)\n\n                              Figure 6. J–V curve (a) and pseudo J–V curve (b) of optimized solar fabrics.\n\n                   A suns-Voc measurement was carried out in order to validate and demonstrate the\n                               potential of the solar fabrics. The determined pseudo J–V curve and parameters in Figure 6b\n                           negate the influence of the series resistance. In this case, the results are a high pseudo fill\n                              factor of 79.3%. With similar Voc and Jsc, a pseudo efficiency of 7.6% is achieved. These\n                           values show the potential of the textile solar cells with low-loss ohmic contacting.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. Spectral characteristic of absorption (black), reflection (blue), and transmission (red) in\nUV-VIS-NIR region (a) and J–V curves of two solar cells on fabrics before (dashed line) and after\n(solid line) annealing at 200 ◦C for 60 min (b) of optimized solar fabric layer system.",
+          "figure_bbox": [
+            165.63,
+            69.86,
+            552.64,
+            220.78
+          ],
+          "bbox": [
+            166.1,
+            228.49,
+            559.46,
+            263.25
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. J–V curve (a) and pseudo J–V curve (b) of optimized solar fabrics.",
+          "figure_bbox": [
+            166.52,
+            535.21,
+            557.31,
+            680.76
+          ],
+          "bbox": [
+            166.39,
+            690.07,
+            464.43,
+            699.12
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. Spectral characteristic of absorption (black), reflection (blue), and transmission (red) in\nUV-VIS-NIR region (a) and J–V curves of two solar cells on fabrics before (dashed line) and after\n(solid line) annealing at 200 ◦C for 60 min (b) of optimized solar fabric layer system.",
+          "bbox": [
+            165.63,
+            69.86,
+            552.64,
+            220.78
+          ],
+          "file": "extracted_images/page6_figure-5_1.png"
+        },
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. J–V curve (a) and pseudo J–V curve (b) of optimized solar fabrics.",
+          "bbox": [
+            166.52,
+            535.21,
+            557.31,
+            680.76
+          ],
+          "file": "extracted_images/page6_figure-6_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Energies 2025, 18, 1448                                                                                                          7 of 10\n\n\n\n                            The concept for electrical interconnection described in Section 2.3 and Figure 3 is based\n                        on interwoven metal wires that allow a series and/or parallel connection of individual solar\n                                     cells. This allows the desired current–voltage ratio to be achieved with the solar fabric. For\n                           a first rudimentary demonstration, four single solar cells were cut out of the solar fabric and\n                         manually contacted with thin metal wires (see Figure S3 in the Supplementary Materials).\n                            The four solar cells were first connected in a series. The results are shown in Figure 7a.\n                           Despite the non-ideal J–V curves due to imperfect contacts, the addition of the voltages is\n                          demonstrated. Each additional solar cell increases the voltage accordingly and 2.82 V are\n                                 finally achieved for all four solar cells. If the individual solar cells are connected in parallel,\n                             the currents add up, as demonstrated in Figure 7b. As the parameters of different solar cells\n                             are not highly homogeneous, the current increase is not linear. Further research is being\n                              carried out to improve the reproducibility of solar fabrics even on inhomogeneous textiles.\n\n\n                                   5                                                10\n                                   4                                                                       Parallel Connection\n                                   3                                                                     Solar Cell 1                                                                                     5\n                                   2                                                                                                                Solar                                                                                                                               Cell                                                                                                    1+2                                   1                                                                    [mA]                                                                                                                Solar                                                                                                                               Cell                                                                                                    1+2+3                                               [mA]\n                                   0                                                 0\n                                           -1                            Series Connection\n                                           -2                      SC 1                                                                                                                                                                                                                         Current   -5                                                                                  Current  -3                      SC 1+2\n                                           -4                      SC 1+2+3\n                                                          SC 1+2+3+4\n                                           -5                                                       -10\n                                             -1    0    1    2    3    4    5                      -1.0    -0.5    0.0     0.5     1.0     1.5\n                                          Voltage [V]                                    Voltage [V]\n                                                         (a)                                                (b)\n\n                             Figure 7. J–V curves of textile solar cells connected in series (a) and in parallel (b) according to\n                               Figure S3 in Supplementary Materials.\n\n                              For the supply of small electronic devices, such as smartphones, about 3.6 V are\n                             required, which can be achieved with five solar cells connected in a series, based on the\n                           presented results. For the required charging voltage of the integrated lithium-ion battery\n                             of 5 V, seven solar cells are needed. An estimation shows that only 20 of 1 cm2 solar\n                                  cells with an efficiency of 5% connected in a series and parallel would power the average\n                         consumption of a smartphone with 100 mW on a sunny day. So, solar fabrics enable energy\n                       autonomous systems small enough for the fashion industry and scaling up to building\n                              integration (Bi-PV) and agricultural photovoltaics (Agri-PV) seems possible.\n\n                             4. Conclusions\n\n                           The paper demonstrates the results for a 3D flexible solar fabric based on a-Si:H thin\n                             film solar cells with a great application potential, e.g., for powering consumer electronics\n                          such as smartphones. PTFE-coated glass fiber fabric proved to be a suitable textile substrate.\n                       The layer sequence, thicknesses, and deposition processes of the solar cell layer system\n                        were optimized and adapted to the fabric requirements, resulting in short-circuit-free solar\n                                    cells. An efficiency of 3.9% was achieved with an open-circuit voltage up to 876 mV and\n                          a short-circuit current up to 11.4 mA/cm2. One challenge is the still too low fill factor of\n                      39% due to contact resistance and insufficient conductivity of the upper ITO electrode. The\n                              potential of the solar cells was shown by suns-Voc measurements without the influence of\n                               series resistance. In this case, a pseudo fill factor of almost 80% and a pseudo efficiency\n                             of 7.6% were reached. With four textile solar cells connected in a series, an open-circuit\n                            voltage of about 3 V was achieved.\n                                  In the next step, the solar cell arrays have to be directly deposited and interconnected\n                        on a fabric with interwoven metal wires. For this purpose, the PTFE layer should be applied",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Figure 7. J–V curves of textile solar cells connected in series (a) and in parallel (b) according to\nFigure S3 in Supplementary Materials.",
+          "figure_bbox": [
+            165.19,
+            237.84,
+            559.86,
+            399.28
+          ],
+          "bbox": [
+            166.39,
+            407.73,
+            559.27,
+            429.67
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 7",
+          "caption": "Figure 7. J–V curves of textile solar cells connected in series (a) and in parallel (b) according to\nFigure S3 in Supplementary Materials.",
+          "bbox": [
+            165.19,
+            237.84,
+            559.86,
+            399.28
+          ],
+          "file": "extracted_images/page7_figure-7_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Energies 2025, 18, 1448                                                                                                          8 of 10\n\n\n\n                                locally to the fabric so that the contact wires remain free. In addition, deposition through a\n                      shadow mask could be replaced by full area deposition and subsequent laser structuring.\n                                  Initial experiments were successfully carried out in this regard. Furthermore, there are\n                             ideas to further increase the efficiency. With a texturing of the PTFE layer and the resulting\n                                light trapping at the silver back electrode, it should be possible to increase the absorption\n                               in the solar cell for the relevant wavelengths below 700 nm, which is currently only 50% in\n                      some cases. Moreover, due to the limited conductivity of the ITO front electrode, the fill\n                               factor of the solar cells can be increased by a silver grid applied by inkjet printing on ITO\n                           or a combination of silver nanowires and TCO, as shown by the initial experiments and\n                               results [35].\n                            With these improvements, efficiencies in the range of 5% to 8% should be reachable.\n                             So, solar fabrics enable energy autonomous systems, e.g., in textiles and garments, and a\n                              scaling up for Bi-PV and Agri-PV seems possible. A requirement for this is the stability of\n                             the solar fabric under mechanical stress such as frequent bending, for which extensive tests\n                             are still necessary.\n\n\n                          Supplementary Materials: The following supporting information can be downloaded at: https:\n                             //www.mdpi.com/article/10.3390/en18061448/s1. Figure S1: Photograph of a flexible PTFE-coated\n                                 glass fiber fabric with homogeneous crack-free solar cell layer system based on amorphous silicon;\n                               Figure S2: Photograph (a) and microscope image (b) of industrially produced fabrics with interwoven\n                              conductive filaments; Figure S3: Manual electrical interconnection of four solar cells cut out from a\n                                  solar fabric as shown in Figure 4a of the article.\n\n                          Author Contributions: K.R. provided the textiles. U.B., G.S. and A.G. conducted the experiments\n                          and analyzed the data. All authors discussed the results. J.P. and G.A. supervised the experimental\n                                    steps. G.A., J.P. and K.R. acquired the financial support and coordinated the research project. J.P. and\n                             G.A. wrote the manuscript. All authors reviewed the manuscript. All authors have read and agreed\n                                 to the published version of the manuscript.\n\n                            Funding: The authors acknowledge the financial support from the Federal Ministry of Education\n                          and Research (BMBF) within the project TexGlasfadenSolar (03ZZ0622A).\n\n                           Data Availability Statement: The original contributions presented in the study are included in the\n                              article/Supplementary Material, further inquiries can be directed to the corresponding author.\n\n                           Acknowledgments: The authors thank Eckhard Bräuninger (Spengler & Fürst GmbH & Co. KG) for\n                               the fabrics with interwoven metal wires, Andrea Dellith (Leibniz IPHT) for the SEM images, and\n                              Barbara Geisenhainer (Leibniz IPHT) for the spectral measurements.\n\n                                Conflicts of Interest: The authors J.P. and G.A. filled out the patent DE102013113816A1 to protect\n                               the electrical interconnection of solar cells on a fabric with interwoven metal wires. The author K.R.\n                        was employed by the company ITP GmbH. The remaining authors declare that the research was\n                            conducted in the absence of any commercial or financial relationships that could be construed as a\n                                 potential conflict of interest.\n\nReferences\n\n1.   Ke, H.; Gao, M.; Li, S.; Qi, Q.; Zhao, W.; Li, X.; Li, S.; Kuvondikov, V.; Lv, P.; Wei, Q.; et al. Advances and future prospects of\n     wearable textile-and fiber-based solar cells. Sol. RRL 2023, 7, 2300109. [CrossRef]\n2.   Zhang, L.; Wang, Y.; Meng, X.; Zhang, J.; Wu, P.; Wang, M.; Cao, F.; Chen, C.; Wang, Z.; Yang, F.; et al. The issues on the\n     commercialization of perovskite solar cells. Mater. Futures 2024, 3, 022101. [CrossRef]\n3.    Ali, I.; Islam, M.R.; Yin, J.; Eichhorn, S.J.; Chen, J.; Karim, N.; Afroj, S. Advances in smart photovoltaic textiles. ACS Nano 2024, 18,\n     3871–3915. [CrossRef] [PubMed]\n4.    Satharasinghe, A.; Hughes, T.; Dias, T. A review of solar energy harvesting electronic textiles. Sensors 2020, 20, 5938. [CrossRef]\n    [PubMed]\n5.    Available online: https://www.heliatek.com/en/products/heliasol/ (accessed on 5 March 2025).",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure S2",
+          "text": "Figure S2: Photograph (a) and microscope image (b) of industrially produced fabrics with interwoven\nconductive filaments; Figure S3: Manual electrical interconnection of four solar cells cut out from a\nsolar fabric as shown in Figure 4a of the article.",
+          "bbox": [
+            166.39,
+            335.79,
+            559.27,
+            371.39
+          ]
+        }
+      ],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Energies 2025, 18, 1448                                                                                                          9 of 10\n\n\n\n6.   Gawlik, A.; Brückner, U.; Schmidl, G.; Wagner, V.; Paa, W.; Plentz, J. Amorphous silicon thin–film solar cells on fabrics as\n      large–scale detectors for textile personal protective equipment in active laser safety. Materials 2023, 16, 4841. [CrossRef]\n7.    Available  online:   http://www.uni-solar.com/wp-content/uploads/2010/06/Trifold-Brochure-DE.pdf  (accessed on 5\n    March 2025).\n8.    Available online: https://german.alibaba.com/product-detail/70W-115W-270w-360W-460W-1000W-60634545182.html (accessed\n    on 5 March 2025).\n9.    Available online: https://www.sunnybag.com/collections/outdoor (accessed on 5 March 2025).\n10.  Bandara, T.M.W.J.; Hansadi, J.M.C.; Bella, F. A review of textile dye–sensitized solar cells for wearable electronics. Ionics 2022, 28,\n     2563–2583. [CrossRef]\n11.  Huang, C.-S.; Kang, X.Y.; Rossi, R.M.; Kovalenko, M.V.; Peng, H.S.; Boesel, L.F. Energy harvesting textiles: Using wearable\n     luminescent solar concentrators to improve the efficiency of fiber solar cells. J. Mater. Chem. A 2021, 9, 25974–25981. [CrossRef]\n12.  Satharasinghe, A.; Hughes, T.; Dias, T. Wearable and washable photovoltaic fabrics. Proc. Eur. Photovolt. Sol. Energy Conf. 2019,\n      36, 42–45.\n13.  Peng, M.; Dong, B.; Zou, D. Three dimensional photovoltaic fibers of wearable energy harvesting and conversion. J. Energy Chem.\n     2018, 27, 611–621. [CrossRef]\n14.  Ehrmann, A.; Blaskowich, T. Recent coating materials for textile–based solar cells. AIMS Mater. Sci. 2019, 6, 234–251. [CrossRef]\n15.  Motlagh, M.S.; Rismanchi, A.; Chirani, M.R.; Hasanzadeh, M. Performance modelling of textile solar cell developed by carbon\n     fabric/polypyrrole flexible counter electrode. Int. J. Sustain. Energy 2022, 41, 1106–1126. [CrossRef]\n16.  Wilson, J.I.B.; Mather, R.R. Photovoltaic solar textiles. Proceedings 2019, 32, 4. [CrossRef]\n17.    Ji, X.Y.; Cheng, H.Y.; Grede, A.J.; Molina, A.; Talreja, D.; Mohney, S.E.; Giebink, N.C.; Badding, J.V.; Gopalan, V. Conformal coating\n     of amorphous silicon and germanium by high pressure chemical vapor deposition for photovoltaic fabrics. APL Mater. 2018, 6,\n     046105. [CrossRef]\n18.   Plentz, J.; Andrä, G.; Pliewischkies, T.; Brückner, U.; Eisenhawer, B.; Falk, F. Amorphous silicon thin-film solar cells on glass fiber\n      textiles. Mater. Sci. Eng. B 2016, 204, 34–37. [CrossRef]\n19.  Huang, W.; Jiang, Z.; Fukuda, K.; Jiao, X.; McNeill, C.R.; Yokota, T.; Someya, T. Efficient and mechanically robust ultraflexible\n     organic solar cells based on mixed acceptors. Joule 2020, 4, 128–141. [CrossRef]\n20.   Jinno, H.; Fukuda, K.; Xu, X.; Park, S.; Suzuki, Y.; Koizumi, M.; Yokota, T.; Osaka, I.; Takimiya, K.; Someya, T. Stretchable and\n     waterproof elastomer-coated organic photovoltaics for washable electronic textile applications. Nat. Energy 2017, 2, 780–785.\n     [CrossRef]\n21.  Cho, S.H.; Lee, J.G.; Lee, M.J.; Kim, H.J.; Lee, M.; Choi, K.C. Plasmonically Engineered Textile Polymer Solar Cells for High-\n     Performance, Wearable Photovoltaics. ACS Appl. Mater. Interfaces 2019, 11, 20864–20872. [CrossRef]\n22.  Jeong, E.G.; Jeon, Y.M.; Cho, S.H.; Choi, K.C. Textile-based washable polymer solar cells for optoelectronic modules: Toward\n     self-powered smart clothing. Energy Environ. Sci. 2019, 12, 1878–1889. [CrossRef]\n23.   Li, Y.; Arumugam, S.; Krishnan, C.; Charlton, M.D.B.; Beeby, S.P. Encapsulated Textile Organic Solar Cells Fabricated by Spray\n     Coating. ChemistrySelect 2019, 4, 407–412. [CrossRef]\n24.  Yadav, V.; Chaudhary, S.; Negi, C.M.S.; Gupta, S.K. Textile dyes as photo–sensitizer in the dye sensitized solar cells. Opt. Mater.\n     2020, 109, 110306. [CrossRef]\n25.  Müller, S.; Wieschollek, D.; Junger, I.J.; Schwenzfeier, E.; Ehrmann, A. Back electrodes of dye-sensitized solar cells on textile\n      fabrics. Optic 2019, 198, 163243. [CrossRef]\n26.  Yun, M.J.; Sim, Y.H.; Cha, S.I.; Seo, S.H.; Lee, D.Y. Three-Dimensional Textile Platform for Electrochemical Devices and its\n     Application to Dye-Sensitized Solar Cells. Sci. Rep. 2019, 9, 2322. [CrossRef] [PubMed]\n27.   Liu, J.Q.; Li, Y.; Yong, S.; Arumugam, S.; Beeby, S. Flexible Printed Monolithic-Structured Solid-State Dye Sensitized Solar Cells on\n    Woven Glass Fibre Textile for Wearable Energy Harvesting Applications. Sci. Rep. 2019, 9, 1362. [CrossRef] [PubMed]\n28.   Liu, J.; Li, Y.; Li, M.; Arumugarn, S.; Beeby, S.P. Processing of printed dye sensitized solar cells on woven textiles. IEEE J. Photovolt.\n     2019, 9, 1020–1024. [CrossRef]\n29.   Liu, J.; Li, Y.; Arumugam, S.; Tudor, J.; Beeby, S. Screen printed dye–sensitized solar cells (DSSCs) on woven polyester cotton\n      fabric for wearable energy harvesting applications. Mater. Today Proc. 2018, 5, 13753–13758. [CrossRef]\n30.  Song, L.; Wang, T.; Jing, W.; Xie, X.; Du, P.; Xiong, J. High flexibility and electrocatalytic activity MoS2/TiC/carbon nanofibrous\n     film for flexible dye–sensitized solar cell based photovoltaic textile. Mater. Res. Bull. 2019, 118, 110522. [CrossRef]\n31.   Knittel, D.; Köntges, M.; Heinemeyer, F.; Schollmeyer, E. Coatings on textiles for Cu(In, Ga)Se2 photovoltaic cell formation on\n      textile carriers: Preparation of Cu(In, Ga)Se2 solar cells on glass-fiber textiles. J. Appl. Polym. Sci. 2009, 115, 2763–2766. [CrossRef]\n32.  Xu, L.M.; Fu, X.M.; Liu, F.; Shi, X.A.; Zhou, X.F.; Liao, M.; Chen, C.R.; Xu, F.; Wang, B.J.; Zhang, B.; et al. A perovskite solar cell\n      textile that works at–40 to 160 degrees C. J. Mater. Chem. A 2020, 8, 5476–5483. [CrossRef]\n33.  Jung, J.W.; Bae, J.H.; Ko, J.H.; Lee, W. Fully solution-processed indium tin oxide-free textile-based flexible solar cells made of an\n     organic–inorganic perovskite absorber: Toward a wearable power source. J. Power Sources 2018, 402, 327–332. [CrossRef]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Energies 2025, 18, 1448                                                                                                         10 of 10\n\n\n\n34.   Jäckel, A.; Hupfer, M.L.; Castro, E.; Mittleman, D.M.; Schmidl, G.; Gawlik, A.; Plentz, J.; Koch, M. Terahertz conductivity mapping\n      of thin films on smart textiles. Sci. Rep. 2024, 14, 22029.\n35.  Hupfer, M.L.; Gawlik, A.; Dellith, J.; Plentz, J. Aluminum-doped zinc oxide improved by silver nanowires for flexible, semitrans-\n     parent and conductive electrodes on textile with high temperature stability. Materials 2023, 16, 3961. [CrossRef] [PubMed]\n\n\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": []
+}

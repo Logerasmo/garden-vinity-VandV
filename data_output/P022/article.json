@@ -1,0 +1,830 @@
+{
+  "publication_id": "P022",
+  "source_file": "P022.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "Codesigning Alloy Compositions of CdSeyTe1−y Absorbers and MgxZn1−xO Contacts to Increase Solar Cell Efficiency",
+    "author": "Imran S. Khan; Tursun Ablekim; Deborah L. McGott; Brian Good; Craig L. Perkins; Wyatt K. Metzger; Andriy Zakutayev",
+    "subject": "Solar RRL 2022.6:2200394",
+    "keywords": "cadmium telluride, combinatorial, interfaces, magnesium zinc oxide, thin film solar cells",
+    "creator": "Arbortext Advanced Print Publisher 9.1.405/W Unicode",
+    "producer": "Acrobat Distiller 10.1.16 (Windows); modified using iTextSharp 5.5.13 ©2000-2018 iText Group NV (AGPL-version)",
+    "creationDate": "D:20220820031938-04'00'",
+    "modDate": "D:20261119024136-08'00'",
+    "DOI": "10.1002/solr.202200394",
+    "year": 2022,
+    "authors": [
+      "Imran S. Khan",
+      "Tursun Ablekim",
+      "Deborah L. McGott",
+      "Brian Good",
+      "Craig L. Perkins",
+      "Wyatt K. Metzger",
+      "Andriy Zakutayev"
+    ]
+  },
+  "page_count": 6,
+  "pages": [
+    {
+      "page": 1,
+      "text": "RESEARCH ARTICLE\n\n                                                                                                                            www.solar-rrl.com\n\nCodesigning Alloy Compositions of CdSeyTe1 y Absorbers\nand MgxZn1 xO Contacts to Increase Solar Cell Efﬁciency\n\nImran S. Khan, Tursun Ablekim, Deborah L. McGott, Brian Good, Craig L. Perkins,\nWyatt K. Metzger, and Andriy Zakutayev*\n\n\n\n                                                                                                           is still room for further improvement. One\nThin-ﬁlm solar cells such as CdTe are a major commercial photovoltaic           way this can be achieved  is by alloying\ntechnology, with more than 25 GW installed worldwide and levelized costs of      CdTe with CdSe  to lower the absorber\n                                                                              bandgap.  The  bandgap  of  CdSeyTe1  yelectricity competitive with fossil fuels. Further progress may result from\n                                                                                              dilute alloys decreases with increasing Se\nintegrating CdSeyTe1 y absorbers with MgxZn1 xO contacts, but the device                                                                                    content due to the bandgap bowing effect,[3]\nefﬁciency is difﬁcult to maximize due to coupled dependence on chemical                                                                          which improves carrier collection resulting\ncomposition of both alloys. Herein, a high-throughput approach is demonstrated      in increased short-circuit current (JSC).[4]\nto codesign chemical compositions in alloyed MgxZn1 xO/CdSeyTe1 y thin-ﬁlm      Despite the CdSeyTe1  y reduced absorber\nsolar cells, using combinatorial libraries of PV devices with orthogonal compo-     bandgap, the VOC  is sustained because\n                                                                          Se  addition improves  carrier  lifetime.[5]sition gradients in CdSeyTe1 y absorbers and MgxZn1 xO contacts. It is found\n                                                                     The CdSeyTe1  y alloys are often synthe-\nthat the solar cell performance is a strong and coupled function of both elemental\n                                                                                      sized by subjecting a bilayer CdSe/CdTe\ncompositions, with efﬁciency up to 17.7% (VOC ¼ 836 mV, ﬁll factor ¼ 69%,          to CdCl2 treatment, whereupon the  ele-\nJSC ¼ 30.6 mA cm  2) at atomic compositions of Mg/(Mg þ Zn)  18% and         ments interdiffuse.\naverage Se/(Se þ Te)  4%. These performance trends among >100 devices are       The integration of MgxZn1 xO as a front\nexplained by >100 ns lifetime of photoexcited charge carriers at the MgxZn1 xO/      contact has  signiﬁcantly  increased  efﬁ-\n                                                                                      ciency  in  different PV  technologies[6]CdSeyTe1 y interface where strong Se accumulation is also observed. This study\n                                                                                    including CdTe.[7] MgxZn1 xO has a tun-\nreports the optimal compositions of the commercially relevant MgxZn1 xO/\n                                                                                        able bandgap and conduction band posi-\nCdSeyTe1 y solar cells and demonstrates a general approach to codesigning         tion as a function of Mg content,[8] both\nperformance of alloyed thin-ﬁlm solar cells and other optoelectronic devices.        higher than ZnO  (Eg ¼ 3.24 eV). There\n                                                                                       are varying reports on the MgxZn1 xO\n                                                                        band gap (4.0–4.2 eV)  at maximum Mg\n                                                                               composition (x ¼ 0.36–0.46) at which phase\n1. Introduction                                                segregation occurs, as it depends on the deposition technique,\n                                                                  deposition rate, and substrate temperature.[8,9] MgxZn1 xO has\nCdTe-based  solar  cells  have become  one  of  the  leading    also been studied using different combinatorial methods, such\nphotovoltaic (PV) technologies, with more than 25 GW world-    as pulsed laser deposition,[10] chemical vapor deposition,[11] and\nwide  installation, 37%  of the USA  utility-scale deployment    sputtering,[12] where we demonstrated MgxZn1 xO conduction\nin  2019, and  laboratory  cell  efﬁciency  reaching  22.1%.[1]   band tuning and integrated  it with wide-bandgap CuGa3Se5\nHowever, the Shockley–Queisser  limit of 33%[2] for  single-    absorber  to  increase VOC  close  to   1 V. The MgxZn1 xO/\njunction CdTe (bandgap, Eg ¼ 1.5 eV) devices suggests that there   CdSeyTe1  y device interface was also recently studied, demonstrat-\n                                                                ing improvements in JSC and efﬁciency due to widened bandgap\n                                                       and better carrier collection at low wavelengths.[13]I. S. Khan, T. Ablekim,[+] D. L. McGott, B. Good, C. L. Perkins,\nW. K. Metzger,[+] A. Zakutayev                                       Finding  the optimum  composition  in MgxZn1 xO and\nNational Renewable Energy Laboratory                            CdSeyTe1  y is complicated as Mg in MgxZn1 xO and Se in\nGolden, CO 80401, USA                                       CdSeyTe1  y both change the conduction band alignment and\nE-mail: andriy.zakutayev@nrel.gov\n                                                                      interface defect density, which can have signiﬁcant impacts on\n   The ORCID identiﬁcation number(s) for the author(s) of this article    interface   recombination,   barrier   heights,  and   VOC.[14]\n   can be found under https://doi.org/10.1002/solr.202200394.         Modeling studies[7,15] may provide some insight into understand-\n[+]Present address: First Solar, Perrysburg, OH 43551, USA              ing experimental  results, however often have limitations in\n                                                                   predicting  the  future  device  performance.  This  coupled\n© 2022 The Authors. Solar RRL published by Wiley-VCH GmbH. This is an\nopen access article under the terms of the Creative Commons Attribution-    absorber/contact codesign problem can be addressed using\nNonCommercial   License,  which  permits   use,   distribution  and   high-throughput experimental (combinatorial) methods,[16] by\nreproduction in any medium, provided the original work  is properly    creating PV  device  libraries  with  orthogonal  composition\ncited and is not used for commercial purposes.\n                                                                  gradients in the CdSeyTe1  y and MgxZn1 xO layers. In the past,\nDOI: 10.1002/solr.202200394                                    combinatorial methods have been used to study compositionally\n\n\nSol. RRL 2022, 6, 2200394                  2200394 (1 of 6)            © 2022 The Authors. Solar RRL published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "cde2017ee1dd0136c9ae78f4cb37ddd3",
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2022,\n                                                                                                                                                9,\n\ngraded CdTe,[17] CIGS,[18] Cu2ZnSnCh4,[19] CuSbCh2[20] absorb-    gradients in CdSeyTe1  y absorbers and MgxZn1 xO contactsers  or MgxZn1  xO,[12] Zn–Ni–Co–O,[21] CuxZn1  xS,[22] and   using the combinatorial approach. For MgxZn1 xO material                                               Downloaded\nCdS[23] contacts in thin-ﬁlm solar cells. However, the reports    characterization and growth optimization, thin-ﬁlm samples                   from\non codesign of absorbers and contacts are limited to early-stage   with compositional gradients were deposited by combinatorial\ndevelopment of all-oxide solar cells[24] or organic PV.[25] Applying    radio frequency magnetron sputtering from ZnO and Mg tar-\nsuch codesign approaches to commercially relevant inorganic    gets[12]  on  50  50 mm  Eagle XG  glass  substrates.  For\nchalcogenide solar cells is missing from literature.              CdSeyTe1  y device fabrication, CdSe and CdTe were deposited\n  Here,  we  codesign  MgxZn1–xO/CdSeyTe1  y  solar   cell   by sequential thermal evaporation without breaking vacuum,\nperformance by ﬁnding the optimum alloy compositions in   on commercially available 3   3” TEC12D glass with bilayer\nMgxZn1 xO  contact and  CdSeyTe1  y  absorber  layers. The   SnO2 and 120 nm  of MgxZn1 xO  described  earlier,  with\nbandgap  tunability range  for MgxZn1 xO without forming   CdSeyTe1  y gradient orthogonal to the MgxZn1 xO gradient.\nsecondary phases and Se accumulation  at the CdSeyTe1  y/   The resulting samples were subject to CdCl2 and CuCl2 treat-\nMgxZn1 xO interface are shown. The device performance data   ments, followed by thermal evaporation of Au backcontacts.\nfacilitated  identifying  the  optimal  composition  range  for   This resulted in combinatorial libraries with 128 MgxZn1 xO/MgxZn1 xO  and  CdSeyTe1  y  at Mg/(Mg þ Zn)  18%  and   CdSeyTe1  y devices of unique MgxZn1 xO and CdSeyTe1  y com-                                                                                                                                                                                                                                                                                  https://onlinelibrary.wiley.com/doi/10.1002/solr.202200394,\naverage  Se/(Se þ Te) 4%  respectively,  which  resulted  in    position combinations.                                                                                                                                Wiley\nsolar   cell  device  with  VOC ¼ 836 mV,   ﬁll  factor ¼ 69%,     To characterize the resulting MgxZn1 xO/CdSeyTe1  y device\nJSC ¼ 30.6 mA cm  2 and efﬁciency up to 17.7%. The device    libraries, spatially resolved characterization methods were used.                            Online\nperformance  trends  are  explained based on  the changing   For the MgxZn1 xO material characterization, each 50  50 mm                                 Library\ncontact/absorber bandgaps and increased charge carrier  life-   sample library was characterized at 4  11 grid of points with         on\ntimes at MgxZn1 xO/CdSeyTe1  y measured by time-resolved    spatially resolved measurements of composition using X-Ray\nphotoluminescence (TRPL).                                   ﬂuorescence (XRF), structure using X-Ray diffraction (XRD),                                                       and  bandgap  using  optical  absorption  spectroscopy.  The                                                             [19/11/2026].\n                                                  MgxZn1 xO/CdSeyTe1  y device libraries were characterized by              See\n                                                                                                                                                                                                                        the\n2. Methods                                                   current  voltage, external quantum efﬁciency, time-resolved pho-\n                                                              toluminescence, and cross-section scanning electron microscopy                       Terms\nTo codesign MgxZn1 xO /CdSeyTe1  y thin-ﬁlm solar cells, we   (SEM). Experimental combinatorial data were processed using              and\nfabricated PV device libraries that had orthogonal composition   our COMBIgor software package[26] and are available through                                               Conditions\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                               Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               governed\n                                                                                                                                                by\n                                                                                                                                                                                                                        the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               applicableFigure 1. a,b) Device material stack schematics. c) Elemental depth proﬁle from AES in the material stack. d) SEM cross-section image for the\nMgxZn1 xO/CdTe1 ySey device.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Creative\nSol. RRL 2022, 6, 2200394                  2200394 (2 of 6)            © 2022 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. a,b) Device material stack schematics. c) Elemental depth proﬁle from AES in the material stack. d) SEM cross-section image for the\nMgxZn1−xO/CdTe1−ySey device.",
+          "figure_bbox": [
+            93.75,
+            404.6,
+            498.23,
+            692.52
+          ],
+          "bbox": [
+            48.02,
+            699.09,
+            544.0,
+            718.89
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. a,b) Device material stack schematics. c) Elemental depth proﬁle from AES in the material stack. d) SEM cross-section image for the\nMgxZn1−xO/CdTe1−ySey device.",
+          "bbox": [
+            93.75,
+            404.6,
+            498.23,
+            692.52
+          ],
+          "file": "extracted_images/page2_figure-1_1.png"
+        }
+      ],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2022,\n                                                                                                                                               9,\n\nhigh-throughput  experimental  materials  database  (HTEM    (Figure S2, Supporting Information). The bandgap determinedDB).[27] More details about experimental methods are provided   from optical absorption measurements increases from 3.35 to                                          Downloaded\nin Supplemental Information.                                      4.0 eV as the Mg composition  varies from 2.0%  to 28.5%                 from\n                                                                 (Figure S3, Supporting Information). Total Se composition in\n                                                          CdSeyTe1  y, Se/(Se þ Te), determined by XRF, ranges from\n3. Results and Discussion                                                      2.0% to 10.7% (Figure S4, Supporting Information), which is\n                                                               a lower limit for interfacial Se concentration. By examining\nFigure 1 shows  the  material  stack  schematic and  cross-\n                                                                 the  long-wavelength QE  cutoff  (Figure  S5,  Supporting\nsectional SEM. The anneal step to form CdSeyTe1  y from bilayer\n                                                                 Information), the optical bandgap for CdSeyTe1  y at the interfaceCdSe/CdTe makes a   5 μm-thick visually uniform absorber\n                                                           can be estimated to range from 1.46 to 1.39 eV. Using literaturelayer. However, the auger electron spectroscopy (AES) elemental\n                                                                               values,[30] this results in an estimated y ¼ 5–33% compositiondepth proﬁle indicates that Se stays within the ﬁrst micrometer of\n                                                                      variation at the CdSeyTe1  y interface. AES depth proﬁles onthe absorber. Chlorine was not monitored by AES depth proﬁle.\n                                                                          select samples are in agreement with the interface Se composi-Literatures report that Cl replaces Te and segregates within a few\n                                                                     tion estimated from the QE cutoff, supporting the Se accumula-unit cells of the grain boundaries.[28] In addition, less than a                                                                     tion at the interface due to the solar cell layer stacking sequence                                                                                                                                                                                                                                                          https://onlinelibrary.wiley.com/doi/10.1002/solr.202200394,nanometer-thick Cl layers in the form of CdCl2 accumulate at\nthe front interface, at grain boundaries, and at the back con-                                                        where CdSe diffuses into CdTe during CdCl2 annealing.                                      Wiley\ntact.[29] The  140 nm-thick MgxZn1 xO contact layer is clearly      Figure 2 maps the current density–voltage (J–V) data for 113                                                               out of the 128 devices as a function of Mg composition in                         Onlineidentiﬁable in SEM although the AES proﬁle indicated some level\nof interdiffusion. Mg composition in MgxZn1 xO measured by   MgxZn1 xO and  total Se composition in CdSeyTe1  y, while                              Library\nXRF varies from Mg/(Mg þ Zn) ¼ 2.0% to 28.5% in the 2”   2”    the remaining 15 shunted devices not shown in the plots. The        on\nglass substrate test libraries (Figure S1, Supporting Information).    highest VOC is obtained with 3–8% Se/(Se þ Te) and 9–25%\nXRD data reveal ZnO (0002) peaks only for this composition   Mg/(Mg þ Zn), while the VOC is lower for low Mg and Se content                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [19/11/2026].span, with no MgO-related peaks to indicate phase segregation    (Figure 2a). VOC maximum region is more apparent in Figure S6,\n                                                                                                                                                                                                                      See\n                                                                                                                                                                                                                      the\n                                                                                                                                                                                                                                                                                                                                                                     Terms\n                                                                                                                                                                                                                      and\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Conditions\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                               on\n                                                                                                                                                                                                                                                                                                                                                                     Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                             Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Library\n                                                                                                                                                                                                                      for\n                                                                                                                                                                                                                                                                                                                                                                     rules\n                                                                                                                                               of\n                                                                                                                                                                                                                                                                                              use;\n                                                                                                                                               OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            articles\n                                                                                                                                                                                                                      are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            governed\n                                                                                                                                               by\n                                                                                                                                                                                                                      the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           applicable\nFigure 2. Solar cell device data contour maps: a) VOC, b) JSC, c) ﬁll factor, and d) efﬁciency for different compositions of MgxZn1 xO and CdSeyTe1  y. The\nblack dots are actual device points, while the color map is interpolated.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Creative\nSol. RRL 2022, 6, 2200394                  2200394 (3 of 6)            © 2022 The Authors. Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. Solar cell device data contour maps: a) VOC, b) JSC, c) ﬁll factor, and d) efﬁciency for different compositions of MgxZn1−xO and CdSeyTe1−y. The\nblack dots are actual device points, while the color map is interpolated.",
+          "figure_bbox": [
+            96.82,
+            340.77,
+            501.18,
+            692.58
+          ],
+          "bbox": [
+            51.02,
+            699.09,
+            547.02,
+            717.58
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. Solar cell device data contour maps: a) VOC, b) JSC, c) ﬁll factor, and d) efﬁciency for different compositions of MgxZn1−xO and CdSeyTe1−y. The\nblack dots are actual device points, while the color map is interpolated.",
+          "bbox": [
+            96.82,
+            340.77,
+            501.18,
+            692.58
+          ],
+          "file": "extracted_images/page3_figure-2_1.png"
+        }
+      ],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2022,\n                                                                                                                                                9,\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Downloaded\n                                                                                                                                                                                                                                                                                                from\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 https://onlinelibrary.wiley.com/doi/10.1002/solr.202200394,\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                               Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Library\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      [19/11/2026].\n                                                                                                                                                                                                                        See\n                                                                                                                                                                                                                        the\n                                                                                                                                                                                                                                                                                                                                                                       Terms\nFigure 3. a,b) Current–voltage data and c,d) external quantum efﬁciency for representative MgxZn1 xO/CdSeyTe1  y solar cells with different MgxZn1 xO              and\nand CdSeyTe1  y compositions.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Conditions\nSupporting Information, where the color scale range has been   observed JSC was 30.6 mA cm  2, which also corresponded to rel-\nlimited. Figure 3 shows J–V data for representative devices with    atively high efﬁciency of 17.7% despite a modest FF of 69%. This\ndifferent MgxZn1 xO and CdSeyTe1  y compositions. For 4% Mg   occurred  at compositions of Mg/(Mg þ Zn)  18% and  total\nin MgxZn1 xO, VOC increases monotonically with increasing Se,   Se/(Se þ Te)  4%,  with  interface  Se/(Se þ Te)  23%  from\ndespite decreasing bandgap in CdSeyTe1  y. This suggests that   AES data. Optimizing device fabrication parameters such as\nthe increasing VOC is due to better material properties such as   Cl heat treatment and Cu backcontact at the best absorber–\ninterfacial alignment and/or reduced recombination.              contact combination space could lead to further improvement\n  The JSC values are more signiﬁcantly impacted by both com-    of efﬁciency above 18%.\npositions, with peak at  16% Mg and total Se/(Se þ Te) of 4–6%      Carrier  concentration estimated from  capacitance–voltage\n(Figure 2b). For a ﬁxed total Se composition of 7.3%, the JSC   measurements (Figure S7, Supporting Information) indicate a                                                                                                                           3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         (https://onlinelibrary.wiley.com/terms-and-conditions)improves with increasing Mg in MgxZn1 xO, due to increased   decrease in electron density in 1015 cm   range by  2x with         on\ncarrier collection at short (blue) wavelengths (Figure 3c) as the    increasing Se content, consistent with the tendency of II–VI\n                                                                                                                                                                                                                                                                                                                                                                       Wileybandgap of MgxZn1 xO increases. For ﬁxed Mg composition   semiconductors with Se or S anions toward n-type doping.\nof 4.0%, JSC improves with increasing Se in CdSeyTe1  y due   For total Se content ﬁxed at   7.0%, increasing Mg increases                            Online\n                                                                     depletion                                                                        width                                                                                                  slightly                                                                                                                                    (                                                                                      20%),                                                                                        though                                                                                                                                                                    it is                                                                                                                        difﬁcult                                                                                                                                    toto  bandgap           lowering and                       hence                             improves                                               carrier                                                      collection                                                                       at    the                                                                                                                         con-                                 Library                                                                        clusively                                                                                    state                                                                                      that this                                                                                     trend                                                                                                                    is                                                                                       caused                                                                                            by actual                                                                                                 change                                                                                                                        in                                                                                                                                      carrierlonger       (red) wavelengths                        (Figure                                   3d).                             The ﬁll                                               factor of                                                   the devices\n                                                                                                                                                                                                                        for\nis most impacted by MgxZn1 xO composition. Greater Mg    density ( 40%) rather than variations in the CV measurements.\n                                                                                                                                                                                                                                                                                                                                                                       rules\nresults in reduced ﬁll factor, which may be associated with higher   The vertical rise of the carrier concentration near the back of the         of\nMgxZn1 xO ﬁlm resistivity at high Mg compositions.[31]          device is indicative of the full depletion through the entire thick-                   use;\n   Together, VOC, JSC, and FF are impacted differently by the   ness of the absorber to the back contact. Indeed, the thickness at         OA\nMgxZn1 xO  and  CdSeyTe1  y  compositions   (Figure   2).   which the carrier density increases (3.5–4.5 μm) is similar to the                                     articles\nAlthough higher compositions are beneﬁcial for JSC, the efﬁ-   nominal absorber thickness (  5 μm).                                                      are\nciency is reduced by lower VOC and FF. The result is a compli-    An increase in carrier lifetime is observed with increasing Se\ncated efﬁciency map, with peaks occurring at multiple locations,    in CdSeyTe1  y (Figure  4), which  is  also reported in other                                     governed\nas shown in Figure 2d and highlighted in Figure S6, Supporting    studies.[32] The interesting observation is the increase in carrier         by\nInformation. Table S1, Supporting Information lists solar cell    lifetime with increasing Mg in MgxZn1 xO, which to our knowl-              the\nparameters for some of the better performing devices. The   edge has not been reported. This can be seen for Se at 7%, where                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               applicablehighest  observed  VOC  was  842 mV,  at  compositions  of    the measured lifetime increases steadily and signiﬁcantly with\nMg/(Mg þ Zn) 9% and total Se/(Se þ Te)  3.8%. The highest    increasing Mg content (Figure 4b). Earlier studies have indicated                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Creative\nSol. RRL 2022, 6, 2200394                  2200394 (4 of 6)            © 2022 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. a,b) Current–voltage data and c,d) external quantum efﬁciency for representative MgxZn1−xO/CdSeyTe1−y solar cells with different MgxZn1−xO\nand CdSeyTe1−y compositions.",
+          "figure_bbox": [
+            92.96,
+            69.49,
+            498.97,
+            350.55
+          ],
+          "bbox": [
+            48.02,
+            357.12,
+            544.04,
+            376.91
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. a,b) Current–voltage data and c,d) external quantum efﬁciency for representative MgxZn1−xO/CdSeyTe1−y solar cells with different MgxZn1−xO\nand CdSeyTe1−y compositions.",
+          "bbox": [
+            92.96,
+            69.49,
+            498.97,
+            350.55
+          ],
+          "file": "extracted_images/page4_figure-3_1.png"
+        }
+      ],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2022,\n                                                                                                                                               9,\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Downloaded\n                                                                                                                                                                                                                                                                                              from\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         https://onlinelibrary.wiley.com/doi/10.1002/solr.202200394,\n                                                                                                                                                                                                                                                                                                                                                                     Wiley\nFigure 4. a) One-photon TRPL decay curves for selected samples and b) carrier lifetime data for selected MgxZn1 xO/CdSeyTe1  y devices shown by the\ncolor corresponding to the legend on the right.                                                                                                                                                                                                                                                                                                            Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Library\nthat the band offset at the MgxZn1 xO and CdSeyTe1  y interface    properties indicated by increased  carrier  lifetime.  All these        on\ncan alter the electron and hole populations at the interface and    results indicate that bandgap engineering can not only inﬂuence\nconsequently the recombination kinetics.[13,33] It is also possible    the light absorption but also lead to long lifetimes and blocking                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [19/11/2026].\nthat the interface has fewer defects with increasing Mg content.    barriers for the photogenerated carriers. Future work can build             See\nFor example, recent studies have indicated that SnO2 acts as a   on this by maintaining properties such as long lifetime while             the\ncatalyst for oxide formation such as tellurates that can enhance   attempting to ﬁx corresponding shortfalls with enhanced emitter                     Terms\npassivation.[34,35]  It is possible that Mg similarly alters oxide   doping, manipulating band alignment, and other  interfacial             and\nformation, interfacial chemistry, and passivation.                 engineering.\n  The increasing lifetime (Figure 4) does correspond to greater                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Conditions\nVOC as expected (Figure 2), yet the overall device performance\nfalters as Mg atomic content approaches 30% with increased\n                                                 Supporting Information\ndevice series resistance and the appearance of barrier effects.\nBarrier effects and resistance can be the result of overly thick    Supporting Information is available from the Wiley Online Library or from\noxide layers and/or poor band offsets. Importantly, these data    the author.\nindicate for the ﬁrst time the degree to which modifying the\nbuffer composition in and of itself can be a strong proactive\napproach to manipulate recombination. At the same time, it indi-  Acknowledgements\ncates that this must be done within other constraints such as\n                                                                         This work was authored by the National Renewable Energy Laboratoryavoiding overly large barriers that can impede overall perfor-\n                                                                    (NREL), operated by Alliance for Sustainable Energy LLC, for the USA.\nmance. Future studies can use combinatorial methods to explore                                                                Department of Energy (DOE) under contract no. DE-AC36-08GO28308.                                                                                                                                                                                                                                     (https://onlinelibrary.wiley.com/terms-and-conditions)\nmechanisms and further enhance efﬁciency by optimizing addi-    Funding was provided by Basic Energy Sciences, as a part of Fuels from        on\ntional parameters such as Cl heat treatment[36] and back-contact    Sunlight Hub “Liquid Sunlight Alliance” (absorber and contact co-design);                                                                                                                                                                                                                                                                                                                                                                     Wiley\nCu doping for the best absorber–contact combination space.       Solar Energy Technologies Ofﬁce under agreement 34353 (absorber\n                                                                          growth); Hydrogen and Fuel Cell Technologies Ofﬁce (HFTO), as a part                         Online\n                                                                               of HydroGEN Energy Materials Network (EMN) consortium (contact\n                                                                             deposition); and USA. Ofﬁce  of Naval Research under agreement                              Library4. Conclusions\n                                                                    IAG-16-02002 (TRPL  characterization). The  views  expressed  in  the             for\n                                                                                          article do not necessarily represent the views of the DOE or the USA.                     rulesIn summary, CdTe absorber-based solar cell devices were fabri-                                                                 Government.                                                              of\ncated with orthogonal combinatorial gradients in MgxZn1 xO                                                                                                                                                           use;\nand CdSeyTe1  y compositions. The performance of more than                                                                              OA\n100  solar  cells  fabricated  with  different MgxZn1 xO and                                                                                                                                                                                                                                                                                                                       articles\nCdSeyTe1  y  compositions  was  compiled,  demonstrating   Conﬂict of Interest                                                                          are\nsystematic changes in VOC, ﬁll factor, and JSC, leading to a   The authors declare no conﬂict of interest.\ncomplex efﬁciency contour map. JSC improves with increasing                                                                                                                                                                                                                                                                                                                       governed\nMg in MgxZn1 xO due to increased transparency, with increas-                                                                              by\ning Se in CdSeyTe1  y due to bandgap lowering, according to the                                                                                                                    the\nquantum efﬁciency (QE) measurement results. For the 4% Mg in   Data Availability Statement                                                                                                                                                                                                  applicableMgxZn1 xO, VOC increases with increasing Se in CdSeyTe1  y   The data that support the ﬁndings of this study are available from the\ndespite  decreasing  bandgap,  likely due  to  better  material    corresponding author upon reasonable request.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Creative\nSol. RRL 2022, 6, 2200394                  2200394 (5 of 6)            © 2022 The Authors. Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. a) One-photon TRPL decay curves for selected samples and b) carrier lifetime data for selected MgxZn1−xO/CdSeyTe1−y devices shown by the\ncolor corresponding to the legend on the right.",
+          "figure_bbox": [
+            70.91,
+            69.49,
+            527.03,
+            240.68
+          ],
+          "bbox": [
+            51.02,
+            247.7,
+            547.01,
+            265.74
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. a) One-photon TRPL decay curves for selected samples and b) carrier lifetime data for selected MgxZn1−xO/CdSeyTe1−y devices shown by the\ncolor corresponding to the legend on the right.",
+          "bbox": [
+            70.91,
+            69.49,
+            527.03,
+            240.68
+          ],
+          "file": "extracted_images/page5_figure-4_1.png"
+        }
+      ],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2022,\n                                                                                                                                                9,\n\nKeywords                                                                      [18] H. Liang, W. Liu, S. Lee,  J. van Duren, T. Franklin, M. Patten,                                                                                       S. Nijhawan, in Conf. Record  of the IEEE Photovoltaic  Specialists                                               Downloaded\ncadmium telluride, combinatorial, interfaces, magnesium zinc oxide, thin          Conf., IEEE 2012, pp. 3102–3107, https://doi.org/10.1109/PVSC.                   from\nﬁlm solar cells                                                                          2012.6318237.\n                                                                                      [19] A. D. Collord, H. Xin, H. W. Hillhouse, IEEE J. Photovoltaics 2015, 5, 288.                                               Received: May 25, 2022\n                                                                                     [20] A. W. Welch, L. L. Baranowski, H. Peng, H. Hempel, R. Eichberger,                                       Published online: July 20, 2022\n                                                                                       T. Unold, S. Lany, C. Wolden, A. Zakutayev, Adv. Energy Mater. 2017,\n                                                                                           7, 1601935.\n                                                                                      [21] A. Zakutayev, J. D. Perkins, P. A. Parilla, N. E. Widjonarko, A. K. Sigdel,\n  [1] D. Feldman, R. Margolis, Q1/Q2 2020 Solar Industry Update,\n                                                                                                                             J. J. Berry, D. S. Ginley, MRS Commun. 2011, 1, 23.\n     National Renewable Energy Laboratory, Golden, CO 2020. https://\n                                                                                     [22] R. Woods-Robinson,  Y. Han,   J.  S. Mangum,  C.  L. Melamed,\n     doi.org/10.2172/1665843.\n                                                                                 B. P. Gorman, A. Mehta, K. A. Persson, A. Zakutayev, Matter 2019,  [2] W. Shockley, H. J. Queisser, J. Appl. Phys. 1961, 32, 510.\n                                                                                             1, 862.  [3] S.-H. Wei, S. B. Zhang, A. Zunger, J. Appl. Phys. 2000, 87, 1304.\n                                                                                     [23] K. Mokurala, L. L. Baranowski, F. W. De Souza Lucas, S.  Siol,  [4] A. H. Munshi, J. Kephart, A. Abbas, J. Raguse, J.-N. Beaudry, K. Barth,\n                                                            M. F. A. M. Van Hest, S. Mallick, P. Bhargava, A. Zakutayev, ACS       J. Sites, J. Walls, W. Sampath, IEEE J. Photovoltaics 2018, 8, 310.                                                                 Comb. Sci. 2016, 18, 583.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                https://onlinelibrary.wiley.com/doi/10.1002/solr.202200394,  [5] T. A. M. Fiducia, B. G. Mendis, K. Li, C. R. M. Grovenor, A. H. Munshi,\n                                                                                     [24] K. Majhi, L. Bertoluzzi, K.  J. Rietwyk, A. Ginsburg, D. A. Keller,     K. Barth, W. S. Sampath, L. D. Wright, A. Abbas,  J. W. Bowers,                                                                                     P. Lopez-Varo, A. Y. Anderson,  J. Bisquert, A. Zaban, Adv. Mater.                       Wiley       J. M. Walls, Nat. Energy 2019, 4, 504.\n                                                                                               Interfaces, 2016, 3, 1500405.  [6]  J. Chantana, T. Kato, H. Sugimoto, T. Minemoto, ACS Appl. Mater.                                                                                                                                                                                                                                           Online\n                                                                                     [25] X.  Rodríguez-Martínez,  A.  Sánchez-Díaz, G.  Liu, M.  A.  Ni˜no,     Interfaces 2018, 10, 11361.                                                                                                                             J. Cabanillas-Gonzalez, M. Campoy-Quiles, Org. Electron. 2018, 59,                                 Library  [7] T. Ablekim, E. Colegrove, W. K. Metzger, ACS Appl. Energy Mater.\n                                                                             288.                                                                  on    2018, 1, 5135.\n                                                                                     [26] K.  R.  Talley,  S.  R.  Bauers,  C.  L.  Melamed, M.  C.  Papac,  [8] T. Minemoto, T. Negami, S. Nishiwaki, H. Takakura, Y. Hamakawa,\n                                                                                   K. N. Heinselman,  I. Khan, D. M. Roberts, V. Jacobson, A. Mis,     Thin Solid Films 2000, 372, 173.                                                                        G. L. Brennecka, J. D. Perkins, A. Zakutayev, ACS Comb. Sci. 2019,                                                            [19/11/2026].  [9] A. Ohtomo, M. Kawasaki, T. Koida, K. Masubuchi, H. Koinuma,\n                                                                                                                                                                                                                        See                                                                                  21, 537.\n     Y. Sakurai, Y. Yoshida, T. Yasuda, Y. Segawa, Appl. Phys.  Lett.                                                                                                                      the\n    1998, 72, 2466.                                                              [27] A. Zakutayev, N. Wunder, M. Schwarting,  J. D. Perkins, R. White,\n                                                                                                                                                                                                                                                                                                                                                                       Terms[10] L. A. Bendersky, I. Takeuchi, K.-S. Chang, W. Yang, S. Hullavarad,         K. Munch, W. Tumas, C. Phillips, Sci. Data 2018, 5, 1.\n     R. D. Vispute, J. Appl. Phys. 2005, 98, 083526.                            [28] C.  Li, Y. Wu,  J. Poplawsky, T.  J. Pennycook, N. Paudel, W. Yin,              and\n[11] S. Lautenschlaeger, J. Sann, P. J. Klar, M. Piechotka, B. K. Meyer, Phys.          S.    J.  Haigh,  M.  P.  Oxley,  A.  R.  Lupini,  M.  Al-Jassim,     Status Solidi B 2009, 246, 383.                                                 S. J. Pennycook, Y. Yan, Phys. Rev. Lett. 2014, 112, 156103.                                                                                   Conditions\n[12]  I.  S.  Khan,  C.  P.  Muzzillo,  C.  L.  Perkins,  A.  G. Norman,     [29] C. L. Perkins, C. Beall, M. O. Reese, T. M. Barnes, ACS Appl. Mater.\n       J. L. Young, N. Gaillard, A. Zakutayev,  J. Phys.: Energy 2021, 3,          Interfaces 2017, 9, 20561.\n     arXiv, 24001.                                                                 [30]  J. Yang, S.-H. Wei, Chin. Phys. B 2019, 28, 086106.\n[13] T. Ablekim, C. Perkins, X. Zheng, C. Reich, D. Swanson, E. Colegrove,     [31] P.  P.  Rajbhandari,  A.  Bikowski,   J.  D.  Perkins,  T.  P.  Dhakal,\n       J. N. Duenow, D. Albin, S. Nanayakkara, M. O. Reese, T. Shimpi,         A. Zakutayev, Sol. Energy Mater. Sol. Cells, 2017, 159, 219.\n    W. Sampath, W. K. Metzger, IEEE J. Photovoltaics 2019, 9, 888.         [32] X. Zheng, D. Kuciauskas,  J. Moseley, E. Colegrove, D. S. Albin,\n[14] M.  J. Watts, T.A. M. Fiducia, B. Sanyal, R. Smith,  J. M. Walls,       H.  Moutinho,   J.  N.  Duenow,  T.  Ablekim,  S.  P.  Harvey,\n     P. Goddard, J. Phys. Condens. Matter 2020, 32, 125702.                     A. Ferguson, W. K. Metzger, APL Mater. 2019, 7, 071112.\n[15] T. Song, A. Kanevce, J. R. Sites, J. Appl. Phys. 2016, 119, 233104.       [33] X. Zheng, E. Colegrove, J. N. Duenow, J. Moseley, W. K. Metzger,\n[16] M.  L. Green, C.  L. Choi,  J.  R. Hattrick-Simpers, A. M.  Joshi,              J. Appl. Phys. 2020, 128, 053102.\n       I. Takeuchi, S. C. Barron, E. Campo, T. Chiang, S. Empedocles,     [34] C. L. Perkins, D. L. Mcgott, M. O. Reese, W. K. Metzger, ACS Appl.       J. M. Gregoire, A. G. Kusne,  J. Martin, A. Mehta, K. Persson,         Mater. Interfaces 2019, 11, 13003.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         (https://onlinelibrary.wiley.com/terms-and-conditions)\n     Z. Trautt,  J. Van Duren, A. Zakutayev, Appl. Phys. Rev. 2017, 4,     [35] C. L. Perkins, T. Ablekim, T. M. Barnes, D. Kuciauskas, K. G. Lynn,         on\n    011105.                                                    W. Nemeth, M. O. Reese, S. K. Swain, W. K. Metzger, IEEE  J.                       Wiley\n                                                                                      Photovoltaics                                                                                        2018,                                                                                                                 8, 1858.[17]  J.           J.        Hanak,                    E.                    Bykov,                        H.                               Elgamel,                                     D.                                          Grecu,                                                                                   J. Putt,                                                    N. Reiter,\n                                                                                     P. Hatton, M.                                                                                                                                                   J. Watts,                                                                                                        A. Abbas, J. M. Walls, R. Smith, P. Goddard,                            Online                                  Conf. Rec.                                        IEEE                                                     Photovolt.                                                             Spec.    D.       Shvydka,                  R.                    C.                       Powell,                                  in                                                                        Conf.,     [36]\n    IEEE 2000, pp. 495–498, https://doi.org/10.1109/PVSC.2000.915880.        Nat. Commun. 2021, 12, 1.                                                                                                                                                                Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               governed\n                                                                                                                                                by\n                                                                                                                                                                                                                        the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               applicable\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Creative\nSol. RRL 2022, 6, 2200394                  2200394 (6 of 6)            © 2022 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       License",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "cde2017ee1dd0136c9ae78f4cb37ddd3",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            519.39,
+            0.0,
+            595.39,
+            15.0
+          ]
+        }
+      ],
+      "file": "garbage/page1_cde2017ee1dd0136c9ae78f4cb37ddd3.png",
+      "is_garbage": true
+    },
+    {
+      "id": "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            525.72,
+            16.32,
+            539.26,
+            22.92
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            522.72,
+            16.32,
+            536.25,
+            22.92
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            525.72,
+            16.32,
+            539.26,
+            22.92
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            522.72,
+            16.32,
+            536.25,
+            22.92
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            525.72,
+            16.32,
+            539.26,
+            22.92
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            522.72,
+            16.32,
+            536.25,
+            22.92
+          ]
+        }
+      ],
+      "file": "garbage/page1_58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc.png",
+      "is_garbage": true
+    },
+    {
+      "id": "dd88a05bfe07d80fffdb135f32584b20",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            500.78,
+            19.46,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            497.78,
+            19.46,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            500.78,
+            19.46,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            497.78,
+            19.46,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            500.78,
+            19.46,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            497.78,
+            19.46,
+            536.89,
+            33.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_dd88a05bfe07d80fffdb135f32584b20.jpeg",
+      "is_garbage": true
+    },
+    {
+      "id": "a961a25bd8f5b6d92251445321a3c29c",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            526.02,
+            19.46,
+            538.25,
+            21.88
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            523.01,
+            19.46,
+            535.25,
+            21.88
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            526.02,
+            19.46,
+            538.25,
+            21.88
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            523.01,
+            19.46,
+            535.25,
+            21.88
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            526.02,
+            19.46,
+            538.25,
+            21.88
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            523.01,
+            19.46,
+            535.25,
+            21.88
+          ]
+        }
+      ],
+      "file": "garbage/page1_a961a25bd8f5b6d92251445321a3c29c.png",
+      "is_garbage": true
+    },
+    {
+      "id": "9e8155efba331e3221d9224a63db330d",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            502.54,
+            30.79,
+            523.84,
+            39.22
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            499.54,
+            30.79,
+            520.83,
+            39.22
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            502.54,
+            30.79,
+            523.84,
+            39.22
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            499.54,
+            30.79,
+            520.83,
+            39.22
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            502.54,
+            30.79,
+            523.84,
+            39.22
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            499.54,
+            30.79,
+            520.83,
+            39.22
+          ]
+        }
+      ],
+      "file": "garbage/page1_9e8155efba331e3221d9224a63db330d.png",
+      "is_garbage": true
+    },
+    {
+      "id": "48e784daaf7cefe3ac3d474e49d3f11c",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            501.96,
+            30.79,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            498.96,
+            30.79,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            501.96,
+            30.79,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            498.96,
+            30.79,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            501.96,
+            30.79,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            498.96,
+            30.79,
+            536.89,
+            33.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_48e784daaf7cefe3ac3d474e49d3f11c.png",
+      "is_garbage": true
+    },
+    {
+      "id": "cf8e7b41e4887669488734cc164df1dd",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            503.67,
+            30.79,
+            505.6,
+            33.24
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            500.66,
+            30.79,
+            502.59,
+            33.24
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            503.67,
+            30.79,
+            505.6,
+            33.24
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            500.66,
+            30.79,
+            502.59,
+            33.24
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            503.67,
+            30.79,
+            505.6,
+            33.24
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            500.66,
+            30.79,
+            502.59,
+            33.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_cf8e7b41e4887669488734cc164df1dd.png",
+      "is_garbage": true
+    },
+    {
+      "id": "424ccd7e441a9ea7f6ab09db0931383f",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            520.78,
+            30.79,
+            522.71,
+            33.24
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            517.77,
+            30.79,
+            519.71,
+            33.24
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            520.78,
+            30.79,
+            522.71,
+            33.24
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            517.77,
+            30.79,
+            519.71,
+            33.24
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            520.78,
+            30.79,
+            522.71,
+            33.24
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            517.77,
+            30.79,
+            519.71,
+            33.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_424ccd7e441a9ea7f6ab09db0931383f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "117873320dae92b9740101d3daa20e0a",
+      "page": 2,
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        }
+      ],
+      "file": "garbage/page2_117873320dae92b9740101d3daa20e0a.png",
+      "is_garbage": true
+    }
+  ]
+}

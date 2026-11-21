@@ -1,0 +1,487 @@
+{
+  "publication_id": "P019",
+  "source_file": "P019.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Effects of Growth Temperature on the Morphological, Structural, and Electrical Properties of CIGS Thin Film for Use in Solar Cell Applications",
+    "author": "Hoang Lam Nguyen; Hyosang Lee; Shoyebmohamad F. Shaikh; Hassnain Abbas Khan; Mohaseen S. Tamboli; Jae Hak Jung; Nguyen Tam Nguyen Truong",
+    "subject": "Cu-In-Ga-Se nanoparticles (NPs) were synthesized using a colloidal route process. The effects of growth temperature (GT) on the properties of CuInGaSe2 (CIGS) thin films made from these nanoparticles were investigated using TEM, PL, XRD, and SEM techniques. The Cu-In-Ga-Se NPs were synthesized at growth temperatures ranging from 90 C to 105 C and then annealed at 550 C for 7 min under a Se ambient. The resulting CIGS thin film, formed from Cu-In-Ga-Se NPs synthesized at a GT of 90 C (referred to as GT90-CIGS), showed a tetragonal structure, large grain size, and high sunlight absorption. It had a band gap energy (Eg) of approximately 0.94 eV. Non-vacuum GT90-CIGS-based solar cells were investigated and fabricated using varying thicknesses of a CdS buffer layer. The maximum power conversion efficiency achieved was approximately 8.3% with an optimized device structure of Al/ITO/ZnO/CdS/CIGS/Mo.",
+    "keywords": "copper indium gallium selenide (CIGS); absorption layer; colloidal route; none-vacuum process",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "creationDate": "D:20230601114235+08'00'",
+    "modDate": "D:20230601100616+02'00'",
+    "DOI": "10.3390/en16114467",
+    "year": 2023,
+    "authors": [
+      "Hoang Lam Nguyen",
+      "Hyosang Lee",
+      "Shoyebmohamad F. Shaikh",
+      "Hassnain Abbas Khan",
+      "Mohaseen S. Tamboli",
+      "Jae Hak Jung",
+      "Nguyen Tam Nguyen Truong"
+    ]
+  },
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "    energies\n\n\n\nCommunication\nEffects of Growth Temperature on the Morphological,\nStructural, and Electrical Properties of CIGS Thin Film for Use\nin Solar Cell Applications\n\nHoang Lam Nguyen 1, Hyosang Lee 2, Shoyebmohamad F. Shaikh 3    , Hassnain Abbas Khan 4,\nMohaseen S. Tamboli 5    , Jae Hak Jung 2 and Nguyen Tam Nguyen Truong 2,*\n\n\n                                            1   Tra Vinh University, Tra Vinh 940000, Vietnam; nhlam@tvu.edu.vn\n                                            2   School of Chemical Engineering, Yeungnam University, 280 Daehak-ro, Gyeongsan 38541, Republic of Korea;\n                                      jhjung@ynu.ac.kr (J.H.J.)\n                                            3  Department of Chemistry, College of Science, King Saud University, P.O. Box 2455,\n                                  Riyadh 11451, Saudi Arabia; sshaikh1@ksu.edu.sa\n                                            4   Clean Energy Research Centre, Korea Institute of Science and Technology, P.O. Box 131,\n                                     Seoul 02792, Republic of Korea; husnainabbass@yahoo.com\n                                            5  Korea Institute of Energy Technology (KENTECH), 21 KENTECH-gil, Naju 58330, Republic of Korea;\n                                   tamboli.mohseen@gmail.com\n                                     *   Correspondence: tamnguyentn@ynu.ac.kr\n\n\n                                Abstract: Cu-In-Ga-Se nanoparticles (NPs) were synthesized using a colloidal route process. The\n                                    effects of growth temperature (GT) on the properties of CuInGaSe2 (CIGS) thin ﬁlms made from\n                                these nanoparticles were investigated using TEM, PL, XRD, and SEM techniques. The Cu-In-Ga-Se\n                       NPs were synthesized at growth temperatures ranging from 90 ◦C to 105 ◦C and then annealed\n                                   at 550 ◦C for 7 min under a Se ambient. The resulting CIGS thin ﬁlm, formed from Cu-In-Ga-Se\n                       NPs synthesized at a GT of 90 ◦C (referred to as GT90-CIGS), showed a tetragonal structure, large\n                               grain size, and high sunlight absorption. It had a band gap energy (Eg) of approximately 0.94 eV.\nCitation: Nguyen, H.L.; Lee, H.;      Non-vacuum GT90-CIGS-based solar cells were investigated and fabricated using varying thicknesses\nShaikh, S.F.; Khan, H.A.; Tamboli,\n                                 of a CdS buffer layer. The maximum power conversion efﬁciency achieved was approximately 8.3%\nM.S.; Jung, J.H.; Truong, N.T.N.\n                             with an optimized device structure of Al/ITO/ZnO/CdS/CIGS/Mo.\nEffects of Growth Temperature on the\n\nMorphological, Structural, and\n                           Keywords: copper indium gallium selenide (CIGS); absorption layer; colloidal route; none-vacuum\nElectrical Properties of CIGS Thin\n                               processFilm for Use in Solar Cell\n\nApplications. Energies 2023, 16, 4467.\n\nhttps://doi.org/10.3390/en16114467\n\nAcademic Editors: Amal Bouich,        1. Introduction\nFernando Janeiro and Lhoussain\nEl Bahir                         Chalcogenide nanoparticles (NPs) have recently gained signiﬁcant attention across\n                            various ﬁelds [1–3]. CuInGaSe2 (CIGS) nanocrystalline ﬁlms used as hole transport materi-\nReceived: 5 April 2023               als in perovskite solar cells, Ga was added to the CIGS compound to control the band gap\nRevised: 22 May 2023             energy of CIGS NPs and engineer the band alignment in the device’s structure. As a result,\nAccepted: 29 May 2023             the ﬁlling factor increased and the recombination rate of the device reduced, leading to an\nPublished: 1 June 2023           improvement in the device’s efﬁciency [4]. In particular, CuInGaSe2 compounds are used\n                             as the absorption layer in thin-ﬁlm solar cells due to their suitable band gap (~1.4 eV) and\n                              large absorption coefﬁcient (~104 cm−1) [5–7]. The deposition of CIGS layers is commonly\nCopyright: © 2023 by the authors.   achieved through vacuum methods such as co-evaporation [8–10] and sputtering [11].\nLicensee MDPI, Basel,  Switzerland.  These methods offer several beneﬁts, including high efﬁciency of solar cells, excellent\nThis article is an open access article   reproducibility, and precise control over composition. However, vacuum-based deposition\ndistributed  under  the  terms  and   methods often encounter challenges such as low deposition rates, elevated production costs,\nconditions of the Creative Commons   and limited availability of the precursor materials. In particular, the choice of precursor\nAttribution (CC BY) license (https://   materials plays a crucial role in shaping the processes involved in thin ﬁlm formation.\ncreativecommons.org/licenses/by/    However, non-vacuum methods that employ Cu-In-Ga-Se containing inks, either in a pure\n4.0/).                         liquid form or in a suspension of NPs mixed with solvent, offer certain advantages such\n\n\n\n\n\nEnergies 2023, 16, 4467. https://doi.org/10.3390/en16114467                                       https://www.mdpi.com/journal/energies",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "6f52dcd65bcbc64691c972bfe28d289f",
+        "59c116537ecf25f8d7692dabbf2060fb",
+        "62efa0313b674db8d12560bbe65e7581",
+        "bdad99135e250503119f6f098d743bd0",
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Energies 2023, 16, 4467                                                                                                           2 of 9\n\n\n\n                            as a simple processing sequence, higher growth rates, and lower production cost [12–15].\n                         However, non-vacuum methods are often associated with challenges such as relatively low\n                                   cell efﬁciency and limited scalability. Thus, further advancements are needed in areas such\n                            as precursor ink preparation, large-area thin ﬁlm coating capability, and microstructure\n                               control. The preparation of precursor ink stands as a crucial step in the fabrication of non-\n                        vacuum-based CIGS thin ﬁlm solar cells. This is because it determines the level of control\n                       and complexity in the subsequent process sequence and microstructure manipulation.\n                           The Cu-In-Ga-Se containing NPs, utilized as inks for thin ﬁlm deposition, can be\n                           synthesized by various methods, including colloidal route and solvothermal route pro-\n                                cesses. The colloidal route is typically conducted under low-temperature and low-pressure\n                              conditions, whereas the solvothermal route operates at high-temperature and high-pressure\n                            conditions [6,16]. The CIGS compound was synthesized using a facile one-pot heating\n                         method, which showed a high reaction yield of approximately 90%. This method allowed\n                              for control over the morphology, composition, nanoparticle size, and band gap energy\n                             of the CIGS NPs. The CIGS ﬁlm was then coated as an absorber layer using a drop coat-\n                           ing method. The efﬁciency of the device was tested, and it achieved the highest power\n                           conversion efﬁciency of 0.59% [17].\n                                 In this study, the Cu-In-Ga-Se NPs were synthesized using a colloidal route process,\n                       and the thin ﬁlms were subsequently formed using a spray-coating method. These ﬁlms\n                        were annealed under a Se environment at the temperature of 550 ◦C. The effects of growth\n                          temperature on the optical, structural, and electrical properties of the non-vacuum-CIGS\n                        ﬁlms were thoroughly investigated and characterized using standard characterization tech-\n                             niques. Furthermore, non-vacuum-CIGS-based solar cells were fabricated and measured\n                           using a solar simulator technique.\n\n                                   2. Materials and Methods\n                                   2.1. Materials\n\n                           CuCl (Aldrich (St. Louis, MO, USA) 99%), InCl3 (Aldrich 98%), GaCl3 (Aldrich 99.99%),\n                       and Se (Aldrich 99.9%) were used as precursor materials and ethyl alcohol (Duksan Extra\n                         Pure Grade, C2H5OH), n-propyl alcohol (Duksan Extra Pure Grade, n-C3H7OH), and\n                          ethylenediamine (Daejung (Busan, Republic of Korea) 97%, C2H4(NH2)2), and iso-butyl\n                            alcohol (Duksan extra pure grade, C4H9OH) were used as solvents. All materials were\n                          purchased and used without any puriﬁcation.\n\n                                   2.2. Preparation of Cu-In-Ga-Se Nanoparticles (NPs)\n\n                            The Cu-In-Ga-Se NPs were synthesized using a liquid-phase reaction at temperatures\n                           ranging from 90 to 105 ◦C. Precursor materials, including CuCl, InCl3, GaCl3, and Se were\n                         employed, while solvents such as ethyl alcohol (C2H5OH), n-propyl alcohol (n-C3H7OH),\n                       and ethylenediamine (C2H4(NH2)2) were utilized. CuCl was dissolved in ethyl alcohol,\n                           while InCl3 and GaCl3 were dissolved in n-propyl alcohol. These solutions were vigorously\n                        mixed with dispersed Se in ethylenediamine. The Cu:In:Ga:Se mole ratio was maintained\n                               at a constant ratio of 1.5: 1.05: 0.45: 2, and the reaction pressure was kept at 1 bar with a\n                           continuous ﬂow of Ar. The synthesis of CIGS NPs was conducted at various temperatures\n                               for a duration of 20 h. Speciﬁcally, the growth temperatures for the formation of CIGS NPs\n                        were set at 90, 95, 100, and 105 ◦C, respectively. The resulting precipitates were washed\n                         with methanol three times to remove impurities, after which the Cu-In-Ga-Se NPs were\n                           then dried to obtain pure Cu-In-Ga-Se NPs.\n\n                                   2.3. Preparation of Cu-In-Ga-Se (CIGS) Thin Film\n\n                           The as-synthesized nanoparticles were dispersed in iso-butyl alcohol (C4H9OH) to\n                              create a precursor ink for thin ﬁlm deposition. Using the air spray coating method, CIGS\n                        ﬁlms were deposited onto a glass substrate coated with Mo. The deposited CIGS ﬁlms were\n                           subsequently annealed at the temperature of 550 ◦C for 7 min in a selenium environment\n                           using the rapid-thermal annealing technique.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Energies 2023, 16, 4467                                                                                                           3 of 9\n\n\n\n                                   2.4. Characterization\n\n                            The chemical compositions of the CIGS NPs were analyzed using inductively coupled\n                         plasma atomic emission spectrometry (ICP-AES, ICPS-8100, Shimadzu, Korea). Structural\n                       and morphological properties of CIGS ﬁlms were conﬁrmed using X-ray diffraction (XRD,\n                           PANalytical MPD, Almelo, The Netherlands), scanning electron microscopy (SEM, EOL\n                       JSM—7400F, Yokogushi, Tokyo, Japan), and transmission electron microscopy (TEM, FEI\n                            Tecnai G2 F20 S-TWIN, Hillsborough, OR, USA). The optoelectronic properties were exam-\n                          ined using photoluminescence spectroscopic methods, employing an Ar-ion laser with a\n                         wavelength of 514 nm.\n\n                                   3. Results—Discussion\n\n                                Figure 1 shows the XRD patterns of Cu-In-Ga-Se NPs synthesized at different growth\n                           temperatures. The results reveal that the major Cu-Se binary phases of the synthesized\n                            nanoparticle at the growth temperature of (a) 90 ◦C and (b) 95 ◦C were CuSe and CuSe2,\n                               respectively. According to the Joint Committee of Powder Diffraction Standard (JCPDS)\n                            card number, the peak of CuSe2 with JCPDS number 01-082-0446 and the peak of InSe with\n                      JCPDS number 00-034-1431 were conﬁrmed.\n\n\n\n\n\n                              Figure 1. The X-ray diffraction (XRD) patterns were obtained for Cu-In-Ga-Se nanoparticles (NPs)\n                               synthesized at different temperatures: (a) 90 ◦C, (b) 95 ◦C, (c) 100 ◦C, and (d) 105 ◦C.\n\n                             However, the main binary phase at the growth temperature of (c) 100 ◦C and (d) 105 ◦C\n                       was Cu2Se with JCPDS number 03-065-6556. The melting points of CuSe2, CuSe, and Cu2Se\n                        were 347 ◦C, and 550 ◦C, and 1113 ◦C, respectively. The Cu2Se phase is unsuitable for\n                          forming the CIGS phase upon annealing. The peaks of InSe, In2Se3 (JCPDS number 00-045-\n                               1042), Ga2Se3 (JCPDS number 00-044-0931), and Se (JCPDS number 00-042-1425) were also\n                            displayed in the XRD spectra with different growth temperatures of 90, 95, 100, and 105 ◦C.\n                        The XRD results showed that the growth temperature can signiﬁcantly affect the formation\n                              of binary phases of the nanoparticles.\n                           The CIGS ﬁlms, which were formed by rapid-thermal annealing of Cu-In-Ga-Se\n                            precursor ink air-spray coated on substrates, exhibited preferred orientations of (112), (220),\n                       and (312), corresponding to the tetragonal phase with a chalcopyrite crystal structure [1,3].",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. The X-ray diffraction (XRD) patterns were obtained for Cu-In-Ga-Se nanoparticles (NPs)\nsynthesized at different temperatures: (a) 90 ◦C, (b) 95 ◦C, (c) 100 ◦C, and (d) 105 ◦C.",
+          "figure_bbox": [
+            166.57,
+            321.75,
+            552.28,
+            596.83
+          ],
+          "bbox": [
+            166.39,
+            604.56,
+            560.17,
+            626.43
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. The X-ray diffraction (XRD) patterns were obtained for Cu-In-Ga-Se nanoparticles (NPs)\nsynthesized at different temperatures: (a) 90 ◦C, (b) 95 ◦C, (c) 100 ◦C, and (d) 105 ◦C.",
+          "bbox": [
+            166.57,
+            321.75,
+            552.28,
+            596.83
+          ],
+          "file": "extracted_images/page3_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Energies 2023, 16, 4467                                                                                                           4 of 9\n\n\n\n                           Figure 2 depicts the XRD patterns of the CIGS ﬁlms obtained using ink containing Cu-In-\n                         Ga-Se NPs synthesized at different growth temperatures. The XRD patterns exhibit a shift\n                               in the peaks, indicating a higher incorporation of Ga at lower temperatures. Conversely, at\n                           higher temperatures, a higher prevalence of pure CIS phases was observed.\n\n\n\n\n\n                              Figure 2. The X-ray diffraction (XRD) patterns of the CIGS ﬁlms using Cu-In-Ga-Se nanoparticles\n                             (NPs) synthesized at different temperatures.\n\n                            The effects of growth temperature on the morphological properties of CIGS ﬁlms were\n                              investigated by measuring them using SEM techniques. Figure 3 shows the SEM images of\n                      CIGS ﬁlms fabricated from Cu-In-Ga-Se nanoparticles at different growth temperatures.\n                       The results indicate that the grain size of CIGS nanoparticles decreased as the growth\n                          temperature increased towards 105 ◦C. Correlating these ﬁndings with the XRD results,\n                                          it was observed that the XRD peak for the (220) direction showed the smallest value at a\n                   GT of 90 ◦C, and the full width at half-maximum of the XRD peak for the (112) direction\n                      was the largest value at the GT of 90 ◦C. The larger grain size observed in the CIGS ﬁlm\n                           synthesized at a growth temperature of 90 ◦C can be attributed to an enhancement in the\n                               crystallization process.\n                                 In order to study the effects of growth temperature on the texture and preferred\n                             orientation of the CIGS ﬁlms, the texture coefﬁcients TC(hkl) [15,18,19] was investigated,\n                        where\n                                                                     I(hkl)/Io(hkl)\n                                                 TC(hkl) =          × 100%                           (1)\n                                       ∑ Ii(hkl)/Io(hkl)\n                                                                       n\n\n                       and n is the number of reﬂections, I(hkl) is the intensity of hkl reﬂection and Io(hkl) is\n                            the intensity of the hkl reﬂection for a completely random sample. Figure 4 exhibits the\n                             texture coefﬁcient as a function of the growth temperature of Cu-In-Ga-Se nanoparticles.\n                       The results showed a strong preferred orientation in the (112) direction for all samples.\n                    When the growth temperature is increased from 90 to 105 ◦C, a slight loss of this preferred\n                             orientation is observed, which is indicated by a decrease in TC (112) values. However,",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. The X-ray diffraction (XRD) patterns of the CIGS ﬁlms using Cu-In-Ga-Se nanoparticles\n(NPs) synthesized at different temperatures.",
+          "figure_bbox": [
+            169.26,
+            160.78,
+            555.89,
+            466.21
+          ],
+          "bbox": [
+            166.1,
+            474.78,
+            559.27,
+            496.65
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. The X-ray diffraction (XRD) patterns of the CIGS ﬁlms using Cu-In-Ga-Se nanoparticles\n(NPs) synthesized at different temperatures.",
+          "bbox": [
+            169.26,
+            160.78,
+            555.89,
+            466.21
+          ],
+          "file": "extracted_images/page4_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Energies 2023, 16, 4467                                                                                                           5 of 9\n\n\n\n                            the TC (220) and TC (312) increased and decreased, respectively, indicating a slight shift\n                              in orientation from (112) to the (220) direction. The CIGS ﬁlm deposited using GT90\n                             nanoparticles exhibited an anomalous, smallest, and broadest (112) peak for any samples\n                              in this set. Meanwhile, the (220) peak is hardly visible, indicating a very small grain size\n                              structure with a stronger orientation in the (220) direction. These results demonstrate why\n                             the electrical and lattice structure of the GT90-CIGS ﬁlm differs from the other GT95, GT100,\n                       and GT105-CIGS ﬁlms used.\n\n\n\n\n\n                              Figure 3. SEM images of the CIGS ﬁlms using Cu-In-Ga-Se nanoparticles (NPs) synthesized at\n                                   different temperatures.\n\n\n\n\n\n                              Figure 4. Texture coefﬁcient of the CIGS ﬁlms deposited using Cu-In-Ga-Se nanoparticles (NPs)\n                               synthesized at different growth temperatures.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. SEM images of the CIGS ﬁlms using Cu-In-Ga-Se nanoparticles (NPs) synthesized at\ndifferent temperatures.",
+          "figure_bbox": [
+            164.39,
+            195.89,
+            542.31,
+            469.14
+          ],
+          "bbox": [
+            166.39,
+            478.61,
+            559.27,
+            500.49
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. Texture coefﬁcient of the CIGS ﬁlms deposited using Cu-In-Ga-Se nanoparticles (NPs)\nsynthesized at different growth temperatures.",
+          "figure_bbox": [
+            165.85,
+            512.75,
+            457.7,
+            739.54
+          ],
+          "bbox": [
+            166.39,
+            747.7,
+            560.17,
+            769.57
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. SEM images of the CIGS ﬁlms using Cu-In-Ga-Se nanoparticles (NPs) synthesized at\ndifferent temperatures.",
+          "bbox": [
+            164.39,
+            195.89,
+            542.31,
+            469.14
+          ],
+          "file": "extracted_images/page5_figure-3_1.png"
+        },
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. Texture coefﬁcient of the CIGS ﬁlms deposited using Cu-In-Ga-Se nanoparticles (NPs)\nsynthesized at different growth temperatures.",
+          "bbox": [
+            165.85,
+            512.75,
+            457.7,
+            739.54
+          ],
+          "file": "extracted_images/page5_figure-4_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Energies 2023, 16, 4467                                                                                                           6 of 9\n\n\n\n                           The effects of the growth temperature of Cu-In-Ga-Se nanoparticles on the optical\n                          property of formed CIGS ﬁlm were studied by measuring the photoluminescence, as\n                      shown in Figure 5. Figure 5a shows the band gap energy of CIGS ﬁlm as the function\n                             of the GT of nanoparticles. The band gap energy was increased when the GT increased,\n                        which might be explained by the reduction of the nanoparticle’s grain size. The grain size\n                          decreased when the growth temperature increased, leading to the increase of band gap\n                          energy of CIGS ﬁlm. Figure 5b indicates that the photoluminescence spectra were shifted\n                         from a low-bandgap energy region (approximate of 0.94 eV) to a high-band energy region\n                           (approximately 1.04 eV due to the reduction of grain size of CIGS ﬁlms).\n\n\n\n\n\n                              Figure 5. (a) Bandgap energy diagram and (b) photoluminescence spectra of the CIGS ﬁlms deposited\n                              using Cu-In-Ga-Se nanoparticles (NPs) synthesized at different growth temperatures.\n\n                           The non-vacuum GT90-CIGS ﬁlm was chosen as the absorber layer for thin solar\n                                    cells. Figure 6a depicts the TEM image and size distribution diagram of the Cu-In-Ga-Se\n                            nanoparticles synthesized at a growth temperature of 90 ◦C. The nanoparticles exhibited\n                          a monodisperse distribution with a spherical shape, and the average nanoparticle size of\n                            nanoparticles was approximately 4.7 nm, with a standard deviation (σ) of 0.763 nm. In\n                           Figure 6b, the high-resolution images of the GT90-CIGS ﬁlm after annealing at 550 ◦C are\n                            presented. The images reveal that the lattice constant of GT90-CIGS ﬁlms was approxi-\n                          mately 5.748 Å. The heat treatment resulted in an improvement in the crystallinity of the\n                              nanoparticles.\n                           The effects of CdS buffer thickness on non-vacuum (NV) CIGS solar cells were in-\n                             vestigated by fabricating a device with a structure of Al/ITO/ZnO/CdS/CIGS/Mo. The\n                       GT90-CIGS layer was deposited onto a Mo layer on a soda-lime glass substrate using\n                          a spray coating method, with a growth temperature of 90 ◦C. The resulting ﬁlms were\n                           annealed at 550 ◦C for 7 min under a selenium environment to facilitate the formation of the\n                       CIGS phase. A CdS layer with various thicknesses ranging from 20 nm to 50 nm was formed\n                       on the CIGS/Mo ﬁlm by immersing it into a solution of CdSO4, thiourea (CH4N2S), and\n                  NH4OH for different deposition times at 50 ◦C. The ZnO (thickness, 50 nm) and ITO (thick-\n                              ness, 150 nm) ﬁlms were then deposited by rf magnetron sputtering. Finally, a patterned\n                       aluminum layer for solar cell measurement was deposited using a thermal evaporator.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. (a) Bandgap energy diagram and (b) photoluminescence spectra of the CIGS ﬁlms deposited\nusing Cu-In-Ga-Se nanoparticles (NPs) synthesized at different growth temperatures.",
+          "figure_bbox": [
+            167.3,
+            221.59,
+            397.57,
+            499.84
+          ],
+          "bbox": [
+            166.39,
+            509.16,
+            559.27,
+            531.04
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. (a) Bandgap energy diagram and (b) photoluminescence spectra of the CIGS ﬁlms deposited\nusing Cu-In-Ga-Se nanoparticles (NPs) synthesized at different growth temperatures.",
+          "bbox": [
+            167.3,
+            221.59,
+            397.57,
+            499.84
+          ],
+          "file": "extracted_images/page6_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Energies 2023, 16, 4467                                                                                                           7 of 9\n\n\n\n\n\n                              Figure 6. Transmission electron microscopy (TEM) image and size distribution of Cu-In-Ga-Se (CIGS)\n                                nanoparticles synthesized at a temperature of 90 ◦C (a) displays the size distribution and TEM image\n                                 of the CIGS nanoparticles (b) shows the TEM image of the CIGS ﬁlm.\n\n                          Non-vacuum CIGS thin-ﬁlm solar cells were fabricated with varying the CdS buffer’s\n                             thickness (T) and were characterized using a Keithley 2400 source meter under simulated\n               AM 1.5G radiation (100 mW/cm2). Figure 7 depicts the J-V curves of the devices as a\n                             function of CdS buffer layer thickness of 20, 30, 40, and 50 nm. The T40-CdS device shows\n                         an efﬁciency of approximately 8.3% (Jsc = 15.3 mA/cm2). The T20-CdS, T30-CdS, and T50-\n                     CdS devices exhibited efﬁciencies of 6.4% (Jsc = 14.0 mA/cm2), 7.5% (Jsc = 14.9 mA/cm2),\n                       and 5.5% (Jsc = 13.1 mA/cm2), respectively.\n\n\n\n\n\n                              Figure 7. (a) The J-V curves of the cell with different of the CdS buffer layer’s thickness. Device param-\n                                   eters such as Voc, Jsc, FF, and efﬁciency from J-V characteristics under illumination at 100 mW/cm2\n                          and (b) the cell’s structure of Al/ITO/ZnO/CdS/CIGS/Mo.\n\n                           The T40-CdS device exhibited the highest efﬁciency compared to the T20-CdS, T30-\n                         CdS, and T50-CdS devices due to its highest current density of 15.3 mA/cm2 and open-\n                                 circuit voltage of 0.77 V. The increase in short current density and open-circuit voltage can\n                          be attributed to two reasons. Firstly, the absorption loss of light by the CdS layer increases\n                            as the thickness of the CdS layer increases from 20 nm to 40 nm. Secondly, the reﬂectance\n                                loss decreases as the thickness of the CdS layer increases from 20 nm to 40 nm [20]. Table 1\n                       shows that both Jsc and Voc values increased with increasing CdS layer thickness until\n                          40 nm, indicating that the CdS/G90-CIGS junction formation was optimized when the CdS\n                             buffer layer thickness was 40 nm.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. Transmission electron microscopy (TEM) image and size distribution of Cu-In-Ga-Se (CIGS)\nnanoparticles synthesized at a temperature of 90 ◦C (a) displays the size distribution and TEM image\nof the CIGS nanoparticles (b) shows the TEM image of the CIGS ﬁlm.",
+          "figure_bbox": [
+            168.34,
+            95.75,
+            552.39,
+            270.28
+          ],
+          "bbox": [
+            166.39,
+            280.44,
+            560.17,
+            315.13
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Figure 7. (a) The J-V curves of the cell with different of the CdS buffer layer’s thickness. Device param-\neters such as Voc, Jsc, FF, and efﬁciency from J-V characteristics under illumination at 100 mW/cm²",
+          "figure_bbox": [
+            164.5,
+            424.05,
+            549.42,
+            584.3
+          ],
+          "bbox": [
+            166.39,
+            590.74,
+            560.77,
+            613.39
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. Transmission electron microscopy (TEM) image and size distribution of Cu-In-Ga-Se (CIGS)\nnanoparticles synthesized at a temperature of 90 ◦C (a) displays the size distribution and TEM image\nof the CIGS nanoparticles (b) shows the TEM image of the CIGS ﬁlm.",
+          "bbox": [
+            168.34,
+            95.75,
+            552.39,
+            270.28
+          ],
+          "file": "extracted_images/page7_figure-6_1.png"
+        },
+        {
+          "label": "Figure 7",
+          "caption": "Figure 7. (a) The J-V curves of the cell with different of the CdS buffer layer’s thickness. Device param-\neters such as Voc, Jsc, FF, and efﬁciency from J-V characteristics under illumination at 100 mW/cm²",
+          "bbox": [
+            164.5,
+            424.05,
+            549.42,
+            584.3
+          ],
+          "file": "extracted_images/page7_figure-7_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Energies 2023, 16, 4467                                                                                                           8 of 9\n\n\n\n\n                             Table 1. Device parameters such as PCE (power conversion efﬁciency), Voc (open-circuit voltage),\n                                    Jsc (short-circuit current density), and FF (ﬁll factor) from J-V characteristics under illumination at\n                             100 mW/cm2.\n\n                             Device Structure With                     Jsc           Voc           FF             Eff\n                                                         (mA/cm2)         (V)           (%)           (%)\n\n                         CdS ﬁlm (T = 20 nm)                  14.0            0.67            66.0              6.4\n                         CdS ﬁlm (T = 30 nm)                  14.9            0.75            67.0              7.5\n                         CdS ﬁlm (T = 40 nm)                  15.3            0.77            70.0              8.3\n                         CdS ﬁlm (T = 50 nm)                  13.1            0.63            65.0              5.5\n\n\n                            To further improve device performance, the device fabrication process can be opti-\n                          mized, such as by applying a thermal annealing process and controlling the thickness of\n                            the CIGS absorber layer and ITO ﬁlms. Further investigations will be presented in our\n                             future report.\n\n                                   4. Conclusions\n\n                           The CIGS absorption layers were formed using a non-vacuum method based on Cu-\n                           In-Ga-Se nanoparticles (NPs). The effects of the growth temperature during synthesis on\n                            the formation of the Cu-In-Ga-Se NPs and the properties of the resulting CIGS ﬁlm were\n                              investigated. The properties of the CIGS ﬁlms can be controlled by adjusting the synthesis\n                        growth temperature of the Cu-In-Ga-Se NPs. The grain size of CIGS thin ﬁlms decreased\n                         with an increase in the growth temperature of the Cu-In-Ga-Se NPs. There was a shift in\n                            the XRD peaks and photoluminescence spectra due to the reduction in grain size. The\n                          optimized device with a structure of Al/ITO (150 nm)/ZnO (50 nm)/CdS (40 nm)/GT90-\n                      CIGS (2 µm)/Mo was fabricated and achieved a maximum power conversion efﬁciency\n                              of 8.3%.\n\n\n                           Author Contributions: Writing—original draft preparation, conceptualization, data interpretation,\n                           writing—review and editing, H.L.N., H.L. and N.T.N.T.; data curation validation, resources, S.F.S.,\n                                M.S.T. and H.A.K.; visualization, formal analysis, supervision, J.H.J.; project administration, funding\n                                  acquisition, J.H.J. All authors have read and agreed to the published version of the manuscript.\n\n                            Funding: This work was supported by KIST School Partnership Project 2023 for ﬁnancial support.\n\n                                 Institutional Review Board Statement: Not applicable.\n\n                           Informed Consent Statement: Not applicable.\n\n                           Data Availability Statement: Not applicable.\n\n                          Acknowledgments: The authors extend their sincere appreciation to the Researchers Supporting\n                                   Project number (RSP2023R370), King Saud University, Riyadh, Saudi Arabia for the ﬁnancial support.\n\n                             Conﬂicts of Interest: The authors declare that they have no known competing ﬁnancial interest or\n                               Personal relationships that could appear to inﬂuence the work reported in this paper.\n\nReferences\n\n1.   Miskin, C.K.; Deshmukh, S.D.; Vasiraju, V.; Bock, K.; Mital, G.; Camacho, A.D.; Vaddiraju, S.; Agrawal, R. Lead Chalcogenide\n     Nanoparticles and Their Size-Controlled Self-Assemblies for Thermoelectric and Photovoltaic Applications. ACS Appl. Nano\n     Mater. 2019, 2, 1242–1252. [CrossRef]\n2.   Nieves, L.M.; Mossburg, K.; Hsu, J.C.; Maidment, A.D.A.; Cormode, D.P. Silver chalcogenide nanoparticles: A review of their\n     biomedical applications. Nanoscale 2021, 13, 19306–19323. [CrossRef] [PubMed]\n3.   Guo, Q.; Ford, G.M.; Hillhouse, H.W.; Agrawal, R. sulﬁde nanocrystal inks for dense Cu(In1−xGax)(S1−ySey)2 absorber ﬁlms\n    and their photovoltaic performance. Nano Lett. 2009, 9, 3060–3065. [CrossRef] [PubMed]\n4.   Khorasani, A.; Marandi, M.; Khosroshahi, R.; Byranvand, M.M.; Dehshani, M.; Zad, A.I.; Tajabadi, F.; Taghavinia, N. Optimiza-\n     tion of CuIn1−XGaXS2 Nanoparticles and Their Application in the Hole-Transporting Layer of Highly Efﬁcient and Stable\n     MixedHalide Perovskite Solar Cells. ACS Appl. Mater. Interfaces 2019, 11, 30838–30845. [CrossRef] [PubMed]\n5.   Luque, A.; Hegedus, S. Handbook of Photovoltaic Science and Engineering; John Wiley & Sons: Hoboken, NJ, USA, 2022.",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. Device parameters such as PCE (power conversion efﬁciency), Voc (open-circuit voltage),\nJsc (short-circuit current density), and FF (ﬁll factor) from J-V characteristics under illumination at\n100 mW/cm².",
+          "bbox": [
+            166.39,
+            139.7,
+            559.28,
+            215.56
+          ],
+          "rows": [
+            [
+              "Device Structure With",
+              "Jsc\n(mA/cm²)",
+              "Voc\n(V)",
+              "FF\n(%)",
+              "Eff\n(%)"
+            ],
+            [
+              "CdS ﬁlm (T = 20 nm)",
+              "14.0",
+              "0.67",
+              "66.0",
+              "6.4"
+            ],
+            [
+              "CdS ﬁlm (T = 30 nm)",
+              "14.9",
+              "0.75",
+              "67.0",
+              "7.5"
+            ],
+            [
+              "CdS ﬁlm (T = 40 nm)",
+              "15.3",
+              "0.77",
+              "70.0",
+              "8.3"
+            ],
+            [
+              "CdS ﬁlm (T = 50 nm)",
+              "13.1",
+              "0.63",
+              "65.0",
+              "5.5"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. Device parameters such as PCE (power conversion efﬁciency), Voc (open-circuit voltage),\nJsc (short-circuit current density), and FF (ﬁll factor) from J-V characteristics under illumination at\n100 mW/cm².",
+          "bbox": [
+            165.95,
+            97.32,
+            560.4,
+            132.01
+          ]
+        }
+      ],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Energies 2023, 16, 4467                                                                                                           9 of 9\n\n\n\n\n6.   Kim, D.; Kim, H.T.; Park, C. Characteristics of CuInSe2 Nanoparticles Synthesized by Se-Redox MethodMol. Cryst. Liq. Cryst.\n     2012, 565, 32–36. [CrossRef]\n7.   Kim, H.T.; Kim, D.; Park, C. Temperature Effects on Cu2ZnSnS4 (CZTS) Films Deposited by Spraying Method. Mol. Cryst. Liq.\n      Cryst. 2012, 564, 155–161. [CrossRef]\n8.    Repins, I.; Contreras, M.A.; Egaas, B.; DeHart, C.; Scharf, J.; Perkins, C.L.; To, B.; Nouﬁﬁ, R. 19·9%–efﬁcient ZnO/CdS/CuInGaSe2\n      solar cell with 81·2% ﬁll factor. Prog. Photovolt. Res. Appl. 2008, 16, 235–239. [CrossRef]\n9.   Lammer, M.; Klemm, U.; Powalla, M. Sodium co-evaporation for low temperature Cu(In,Ga)Se2 deposition. Thin Solid Film. 2001,\n      387, 33–36. [CrossRef]\n10.  Jung, S.; Ahn, S.; Yun, J.H.; Gwak, J.; Kim, D.; Yoon, K. Effects of Ga contents on properties of CIGS thin ﬁlms and solar cells\n     fabricated by co-evaporation technique. Curr. Appl. Phys. 2010, 10, 990–996. [CrossRef]\n11.  Assmann, L.; Bernède, J.C.; Drici, A.; Amory, C.; Halgand, E.; Morsli, M. Study of the Mo thin ﬁlms and Mo/CIGS interface\n      properties. Appl. Surf. Sci. 2005, 246, 159–166. [CrossRef]\n12.  Hibberd, C.J.; Chassaing, E.; Liu, W.; Mitzi, D.B.; Lincot, D.; Tiwari, A.N. Non-vacuum methods for formation of Cu(In, Ga)(Se,\n     S)2 thin ﬁlm photovoltaic absorbers. Prog. Photovolt. Res. Appl. 2010, 18, 434–452. [CrossRef]\n13.   Kaelin, M.; Rudmann, D.; Tiwari, A.N. Low cost processing of CIGS thin ﬁlm solar cells. Solar Energy 2004, 77, 749–756. [CrossRef]\n14.   Kaelin, M.; Rudmann, D.; Kurdesau, F.; Zogg, H.; Meyer, T.; Tiwari, A.N. Low-cost CIGS solar cells by paste coating and\n      selenization. Thin Solid Film. 2005, 480, 486–490. [CrossRef]\n15.   Harris, G.B.X. Quantitative measurement of preferred orientation in rolled uranium bars. Phil. Mag. 1952, 43, 113–123. [CrossRef]\n16.   Barret, C.S.; Massalski, T.B. Structure of Metals; Pergamon Press: Oxford, UK, 1980.\n17.  Latha, M.; Aruna-Devi, R.; Velumani, S.; Murali, B.; Salazar, J.S.; de Mour-Flores, F. Solution based synthesis of Cu(In,Ga)Se2\n     microcrystals and thin ﬁlms. RSC Adv. 2019, 9, 35197–35208. [CrossRef] [PubMed]\n18.   Jetter, L.K.; McHargue, C.J.; Williams, R.O. Method of Representing Preferred Orientation Data.  J. Appl. Phys. 1956, 27, 368.\n     [CrossRef]\n19.  Kim, C.; Rhee, I.; Hwang, D.K.; Kim, D.H. Optimum substrate temperature in one-stage co-evaporation of Cu(In,Ga)Se2 thin\n    ﬁlms for high efﬁciency solar cells. J. Korean Phys. Soc. 2011, 59, 3432–3435. [CrossRef]\n20.  Cho, K.S.; Jang, J.; Park, J.H.; Lee, D.K.; Song, S.; Kim, K.; Eo, Y.J.; Yun, J.H.; Gwak, J.; Chung, C.H. Optimal CdS Buffer Thickness\n      to Form High-Quality CdS/Cu(In,Ga)Se2 Junctions in Solar Cells without Plasma Damage and Shunt Paths. ACS Omega 2020, 5,\n     23983–23988. [CrossRef] [PubMed]\n\n\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "6f52dcd65bcbc64691c972bfe28d289f",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            516.92,
+            56.15,
+            558.47,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_6f52dcd65bcbc64691c972bfe28d289f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "59c116537ecf25f8d7692dabbf2060fb",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            517.1,
+            56.34,
+            538.31,
+            76.49
+          ]
+        }
+      ],
+      "file": "garbage/page1_59c116537ecf25f8d7692dabbf2060fb.png",
+      "is_garbage": true
+    },
+    {
+      "id": "62efa0313b674db8d12560bbe65e7581",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            537.1,
+            63.4,
+            558.32,
+            83.53
+          ]
+        }
+      ],
+      "file": "garbage/page1_62efa0313b674db8d12560bbe65e7581.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bdad99135e250503119f6f098d743bd0",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            521.38,
+            65.4,
+            553.92,
+            74.6
+          ]
+        }
+      ],
+      "file": "garbage/page1_bdad99135e250503119f6f098d743bd0.png",
+      "is_garbage": true
+    },
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            35.72,
+            656.88,
+            92.41,
+            676.72
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

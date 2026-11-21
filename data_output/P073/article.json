@@ -1,0 +1,544 @@
+{
+  "publication_id": "P073",
+  "source_file": "P073.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Synergistic Defect Management for Boosting the Efficiency of Cu(In,Ga)Se2 Solar Cells",
+    "author": "Wanlei Dai; Zhaoyi Jiang; Yali Sun; Juhua Wang; Zeran Gao; Haoyu Xu; Xinzhan Wang; Chao Gao; Qiang Ma; Yinglong Wang; Wei Yu",
+    "subject": "In this study, a feasible strategy is proposed for directly depositing high-quality Cu(In,Ga)Se2 (CIGS) films using Na-doped targets in a selenium-free atmosphere to boost the power conversion efficiency (PCE) of CIGS solar cells. Introducing a small amount of sodium dopant effectively promoted the textured growth of CIGS crystals in the prepared films, resulting in larger grain sizes and a smoother interface. The higher MoSe2 content at the CIGS/Mo interface increased the carrier lifetime in the films. In addition, sodium doping increased the proportion of Se atoms on the film surface and reduced the concentration of defects caused by the direct sputtering of the films in the selenium-free atmosphere. Therefore, the separation and transportation of photo-generated carriers in the devices were effectively enhanced. Using the optimized parameters, a record-high PCE of 17.26% was achieved for the 7.5% Na-doped devices, which represents an improvement of nearly 63%.",
+    "keywords": "Cu(In,Ga)Se2; sodium-doped targets; magnetron sputtering; solar cells",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.25",
+    "creationDate": "D:20240126134041+01'00'",
+    "modDate": "D:20240126135745+01'00'",
+    "DOI": "10.3390/coatings14020164",
+    "year": 2024,
+    "authors": [
+      "Wanlei Dai",
+      "Zhaoyi Jiang",
+      "Yali Sun",
+      "Juhua Wang",
+      "Zeran Gao",
+      "Haoyu Xu",
+      "Xinzhan Wang",
+      "Chao Gao",
+      "Qiang Ma",
+      "Yinglong Wang",
+      "Wei Yu"
+    ]
+  },
+  "page_count": 14,
+  "pages": [
+    {
+      "page": 1,
+      "text": "    coatings\n\n\n\nArticle\nSynergistic Defect Management for Boosting the Efficiency of\nCu(In,Ga)Se2 Solar Cells\n\nWanlei Dai 1,†, Zhaoyi Jiang 2,*,†, Yali Sun 1,†, Juhua Wang 1, Zeran Gao 1, Haoyu Xu 1, Xinzhan Wang 1, Chao Gao 1,\nQiang Ma 3,*, Yinglong Wang 1,* and Wei Yu 1,*\n\n\n                                            1   College of Physics Science and Technology, Hebei University, Baoding 071002, China;\n                                    daiwanlei@sina.com (W.D.)\n                                            2   School of Applied Science, Taiyuan University of Science and Technology, Taiyuan 610213, China\n                                            3   School of Advanced Interdisciplinary Studies, Ningxia University, Zhongwei 755000, China\n                                     *   Correspondence: jiangzhaoyi1991@buaa.edu.cn (Z.J.); maq@nxu.edu.cn (Q.M.); hdwangyl@hbu.edu.cn (Y.W.);\n                                  yuwei@hbu.edu.cn (W.Y.)\n                                            †   These authors contributed equally to this work.\n\n\n                                 Abstract: In this study, a feasible strategy is proposed for directly depositing high-quality Cu(In,Ga)Se2\n                             (CIGS) films using Na-doped targets in a selenium-free atmosphere to boost the power conversion\n                                  efficiency (PCE) of CIGS solar cells. Introducing a small amount of sodium dopant effectively pro-\n                         moted the textured growth of CIGS crystals in the prepared films, resulting in larger grain sizes\n                          and a smoother interface. The higher MoSe2 content at the CIGS/Mo interface increased the carrier\n                                  lifetime in the films. In addition, sodium doping increased the proportion of Se atoms on the film\n                                surface and reduced the concentration of defects caused by the direct sputtering of the films in the\n                                selenium-free atmosphere. Therefore, the separation and transportation of photo-generated carriers\n                                 in the devices were effectively enhanced. Using the optimized parameters, a record-high PCE of\n                             17.26% was achieved for the 7.5% Na-doped devices, which represents an improvement of nearly 63%.\n\n\n                           Keywords: Cu(In,Ga)Se2; sodium-doped targets; magnetron sputtering; solar cells\n\n\n\nCitation: Dai, W.; Jiang, Z.; Sun, Y.;\nWang, J.; Gao, Z.; Xu, H.; Wang, X.;      1. Introduction\nGao, C.; Ma, Q.; Wang, Y.; et al.\nSynergistic Defect Management for        Over the past years, photovoltaic devices containing Cu(In,Ga)Se2 (CIGS) absorption\nBoosting the Efficiency of            layers have achieved excellent power conversion efficiencies (PCEs) of more than 20% [1].\nCu(In,Ga)Se2 Solar Cells. Coatings     Using cesium fluoride (CsF) for the post-deposition treatment (PDT) of deposited CIGS\n2024, 14, 164. https://doi.org/        films, Solar Frontier K.K. recently reported a record-high power conversion efficiency\n10.3390/coatings14020164          (PCE) of 23.35%. The introduction of alkali fluorides (including NaF, KF, RbF, and CsF)\n                              into the CIGS absorption layer via PDT has significantly improved the PCE of CIGS solar\nAcademic Editor: Alessandro Latini\n                                    cells, which can also be achieved through alkali metal treatments [2–4]. One proposed\nReceived: 30 December 2023        mechanism is that the incorporation of alkalis results in a Cu depletion region formed at\nRevised: 22 January 2024           the near-surface of CIGS layers, facilitating Cd diffusion in the Cu-depleted surface and\nAccepted: 23 January 2024           the formation of CdCu donors and thus contributing to a better p–n junction quality [5,6].\nPublished: 26 January 2024       An alternative explanation is that a reduction of the thickness of the CdS buffer layer\n                        stemming from the strong in-diffusion of Cd atoms and the creation of CdCu donor defects\n                             are responsible for a boost in device performance [7,8].\n                           The introduction of alkali metals through PDT has considerably increased cell effi-\nCopyright: © 2024 by the authors.\n                               ciency, leading to a series of CIGS solar cells with high PCEs within a relatively short\nLicensee MDPI, Basel, Switzerland.\n                          time [8]. However, despite the extensive studies conducted in this field, the basic mech-\nThis article is an open access article\n                         anisms of alkali metal doping and its effect on the properties of CIGS solar cells are not\ndistributed under  the  terms and\n                                fully understood. Various mechanisms have been proposed to improve the performance of\nconditions of the Creative Commons\n                      CIGS solar cells after alkali metal incorporation. In particular, the introduction of alkalisAttribution (CC BY) license (https://\ncreativecommons.org/licenses/by/    leads to the formation of a copper-exhausted region near the CIGS layer surface [9]. This\n4.0/).                             facilitates the diffusion of Cd atoms on the copper-exhausted surface and promotes the\n\n\n\n\n\nCoatings 2024, 14, 164. https://doi.org/10.3390/coatings14020164                                   https://www.mdpi.com/journal/coatings",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "bcbeadfacc94f43f5ef2865bafd78108"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "Coatings 2024, 14, 164                                                                                                           2 of 14\n\n\n\n                           formation of CdCu donors, thus improving the p–n junction quality. Furthermore, the fast\n                              diffusion of Cd atoms reduces the CdS buffer layer thickness, and the generation of CdCu\n                        donor defects is responsible for improving the device performance [10,11]. The surface\n                        bandgap widening caused by the upward shift of the conduction band and the downward\n                                  shift of the valence band can also help improve the PCE of CIGS solar cells [12]. In addition,\n                            the greater hole concentration and minority carrier lifetime in CIGS devices increase the\n                     PCE value [7]. Alkali elements might lead to better passivation by reducing the density of\n                         charged defects and increasing the formation of secondary AlkInSe2 phases at the grain\n                           boundaries [13]. Other researchers found that the formation of secondary compounds due\n                              to the presence of alkali metals on the CIGS surface effectively induces band changes at\n                            the interface [14,15]. Hedstrom et al. examined the influence of Na species from sodium–\n                           calcium glass substrates on the electrical properties of CIGS devices, and related studies on\n                                 alkali metal compounds have been performed [16]. It is widely recognized that alkali metal\n                        doping can passivate defects near the CIGS surface or grain boundaries. However, the\n                        mechanism of this phenomenon has not been elucidated, although multiple suggestions on\n                             the utilization of alkalis have been provided [17]. In addition, the different roles of various\n                              alkaline components in CIGS solar cells have been confirmed; however, this topic requires\n                          a systematic investigation [18].\n                             During the high-temperature direct sputtering process without an additional Se source,\n                     many Se-related vacancies and In/Cu displacement defects are formed in the absorption\n                             layer [19]. Since 2015, Lai et al., have utilized sodium element and sodium fluoride PDT\n                           technology in direct substrate sputtering to obtain a record-high efficiency of 11%. In 2017,\n                          a 10% efficiency was achieved for a 0.6 µm ultrathin CIGS absorption layer by optimizing\n                            the sputtering pressure of the metal molybdenum back layer using sodium fluoride PDT\n                          technology [20,21]. Currently, high-efficiency CIGS solar cells are fabricated using three-\n                             step co-evaporation and two-step sputtering methods. However, implementing a precise\n                           elemental control in three steps is difficult, the utilized equipment is expensive, and the\n                          use of toxic H2Se gas or Se steam increases both equipment cost and power consumption.\n                              Therefore, the commercial applications of both methods are limited. The direct sputtering of\n                           a four-element alloy target is characterized by a low equipment input, high utilization rate of\n                             the raw materials and film uniformity, and the absence of a toxic Se atmosphere. Therefore,\n                             the fabrication of CIGS thin-film solar cells via direct sputtering is suitable for both research\n                             studies and industrial applications. This approach is considered promising by many\n                            research institutions; however, it has produced the maximum cell efficiency of only 14%,\n                               significantly limiting the commercialization of solar cells [19]. Currently, the PCE of CIGS\n                               solar cells obtained through direct sputtering is much lower than that of the cells prepared\n                        by other processes because of the large number of defects generated during film fabrication.\n                            In addition to the small grain sizes, the grain orientations obtained after direct sputtering\n                             are unreasonable, resulting in a large barrier at the Mo/CIGS interface [22]. Previous\n                             studies showed that during the direct sputtering process, alkali metals can effectively help\n                             passivate lattice defects in CIGS films and thus improve their photoelectric characteristics.\n                            This process reduces the diode coefficient and reverse saturation current, thereby improving\n                             the electrical performance of the films. Moreover, the NaF PDT approach does not change\n                             the grain growth parameters and the back-contact interface of the film, as indicated by the\n                               results of high-resolution transmission electron microscopy observations [21].\n                                 Herein, a feasible strategy for in situ sodium doping is proposed to control the growth\n                         dynamics of CIGS films during their preparation and improve the film quality and photo-\n                               voltaic performance of CIGS solar cells. In this study, during the direct sputtering of CIGS\n                                films, we reduced the rate of interfacial carrier recombination of CIGS/Mo and improved\n                            the crystallization quality and preferred orientation in the films produced using sodium-\n                        doped targets, thus promoting carrier transport in CIGS photovoltaic devices. The obtained\n                               results revealed that both carrier recombination at the interface and film quality in CIGS\n                              solar devices were significantly improved after sodium introduction, which effectively\n                              alleviated the generation of defects in the CIGS thin films during direct sputtering. The",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "Coatings 2024, 14, 164                                                                                                           3 of 14\n\n\n\n                     PCE of the fabricated CIGS solar cells reached 17.26% at a sodium concentration of 7.5% in\n                            the utilized targets. Compared with reference samples (with a PCE of 10.58%), the PCE\n                             increase achieved using the proposed strategy was of nearly 63%.\n\n                                   2. Experimental\n                                   2.1. Materials\n\n                            The soda–lime substrates for CIGS solar cells were purchased from the Jin Jing Group,\n                          Qingdao, China. A Mo target for fabricating Mo back electrodes was acquired from Zhong\n                    Nuo Advanced Materials. The Na-doped CIGS targets for the direct sputtering process\n                         were procured from Pioneer Materials, Inc., Chengdu, China. Cadmium acetate and sodium\n                                 citrate powders were obtained from Aladdin Biotech, Shanghai, China. The i-ZnO and\n                       aluminum-doped zinc oxide (AZO) targets were purchased from Zhong Nuo Advanced\n                              Materials, Beijing, China. The aluminum and nickel targets for electrode preparation were\n                          purchased from Zhong Nuo Advanced Materials.\n\n                                   2.2. Solar Cell Fabrication\n\n                           The soda–lime glass substrates were washed with deionized water and ethyl alcohol\n                                for 30 min using an ultrasonic cleaning machine. After drying under a N2 gas flow, the glass\n                             substrates were treated with ozone generated by ultraviolet light for 5 min. A soda–lime\n                               glass substrate was placed in a vacuum chamber, and the pressure was reduced to less than\n                          1 × 10−4 Pa. Afterwards, the Mo electrodes (800 nm) and the CIGS films (1500 nm) were\n                            deposited via sputtering in a low-pressure atmosphere. The CIGS thin films were deposited\n                        by pulsed DC sputtering from the CIGS targets at a substrate temperature of 600 ◦C and an\n                      Ar pressure of 0.5 Pa. The sputtering power density was 2.88 W/cm2. Subsequently, the\n                           cooled samples were subjected to the traditional chemical bath deposition of a 50 nm CdS\n                             buffer layer (the CdS-related processes are reported in Supplementary Materials). Next,\n                            the i-ZnO (100 nm) and AZO films (400 nm) were deposited on the prepared samples via\n                        magnetron sputtering. Finally, the devices were completed after preparing the Al and\n                       Ni alloy electrodes (1000 nm) using masks. The fabricated solar cells with active areas\n                             of 0.25 cm2 were isolated through mechanical scribing, and 36 devices were included\n                              in a sample set. For all cells, a 100 nm antireflective MgF2 coating was deposited via\n                           evaporation [23].\n\n                                   2.3. Characterization Techniques\n\n                           The morphologies of the prepared CIGS films were determined using a Nova\n                    NanoSEM 450 scanning electron microscope (Thermo Fisher Scientific, Waltham, MA,\n                         USA). The X-ray diffraction (XRD) patterns of the CIGS films were recorded on a Bruker D8\n                        Advance X-ray diffractometer with Cu Ka radiation (Bruker Co., Billerica, MA, USA). X-ray\n                            photoelectron spectroscopy (XPS) was performed using a Kratos Nova spectrometer with a\n                         monochromatized Al anode X-ray source (hv = 1486.6 eV). In addition, quantum efficiency\n                         (QE) measurements were performed. The CIGS film composition was determined via\n                           X-ray fluorescence spectroscopy (XRF; SPECTRO, XEPOS, Kleve, Germany). The J−V and\n                            photovoltaic characteristics of the fabricated CIGS solar cells (active area = 0.25 cm2) were\n                         determined under the standard AM1.5G simulated sunlight (Class 3A, 94022A, Newport,\n                       CA, USA), and a silicon photodiode (Enlitech, Kaohsiung City, Taiwan) was used for cali-\n                             brating the simulated light intensity. The density of trap states (t-DOS) was characterized\n                        by thermal admittance spectroscopy (TAS) measurements (E4890A, KEYSIGHT, Santa Rosa,\n                       CA, USA). Secondary-ion mass spectrometry (SIMS) was performed by the TOF.SIMS 5-100\n                       (ION-TOF GmbH, Münster, Germany), and the incident ion beam consisted of O2+ with\n                        an energy of 2 keV (at an angle of 45 degrees and a SiO2 sputtering velocity of 1.69 nm/s).\n                            Capacitance–voltage (C–V) measurements were performed on an Agilent B1500A semicon-\n                           ductor analyzer in the dark at room temperature. The alternating current (AC) signal had\n                         an amplitude of 50 mV and an applied frequency of 100 kHz. The DC voltage was scanned\n                         from −2 V to 2 V [23].",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "Coatings 2024, 14, 164                                                                                                           4 of 14\n\n\n\n                                   3. Results and Discussion\n\n                                 Figure 1 describes an in situ growth mechanism for the high-quality CIGS films during\n                               direct sputtering without an additional Se source. First, an RT−CIGS layer is deposited\n                       on the NaF-coated Mo substrate via room-temperature sputtering. Next, the substrate\n                          temperature is rapidly increased to reach the deposition conditions (600 ◦C), which are\n                          conducive to crystallization in the absorption layers of the CIGS films [23]. At this stage, the\n                       RT–CIGS layer is preferentially oriented for the subsequent crystallization. The Na content\n                       on the RT–CIGS layer surface is related to its thickness. The Na distribution primarily\n                        depends on the grain orientation, and the grain surface contains more Na atoms [24].\n                          Thus, the grains can capture more Se species from the incident sputtering flux and grow\n                                faster owing to the adequate supply of Se. Subsequently, preferentially oriented grains are\n                           gradually formed during high-temperature annealing and recrystallization promoted by\n                         Na. Meanwhile, high-temperature annealing ultimately causes a decomposition process on\n                            the grain surface, in which excess Na plays an important role. A large number of Na2SeX\n                       compounds cover the surfaces and grain boundaries of the grown grains. At a lower vapor\n                              pressure, Na2SeX compounds can enhance the diffusion of Ga atoms and ensure a sufficient\n                          Se supply in the film to facilitate CIGS crystallization [25].\n\n\n\n\n\n                              Figure 1. Growth mechanism of the CIGS films during direct sputtering of Na-doped targets.\n\n                            To observe the grain growth evolution with the changing amount of sodium in the\n                          quaternary alloy targets, scanning electron microscopy (SEM) cross sections of the CIGS\n                            absorption layers prepared using different sodium-doped targets are shown in Figure 2a–d.\n                       At a Na content of 0%, the CIGS absorption layers exhibited apparent columnar growth\n                                characteristics upon direct sputtering, with columns on the top and small broken crystals at\n                             the bottom. With the incorporation of NaF into the target material, the growth mechanism of\n                             the absorption layer changed significantly. The surface morphology results were consistent\n                         with the cross section results, as shown in Figure S1. First, the grain size considerably\n                              increased, the grain texture grew, the number of small grains at the bottom was significantly\n                            reduced, and the surface of the absorption layer became smoother. With a gradual increase\n                               in the sodium content to 7.5%, the grain size increased, and the film surface flattened. As the\n                        sodium content further increased to 15%, the grain size also increased; however, some holes\n                         appeared in the film center, which might ultimately decrease the device efficiency [26].\n                           The absorption layers with different sodium contents were also examined via XRD\n                        under the same conditions to determine the influence of sodium doping on the film mi-\n                              crostructure (Figure 3a). No secondary phases were detected in the CIGS films with different\n                       sodium contents. All CIGS films exhibited a chalcopyrite structure with diffraction peak",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. Growth mechanism of the CIGS films during direct sputtering of Na-doped targets.",
+          "figure_bbox": [
+            166.79,
+            310.33,
+            531.15,
+            530.2
+          ],
+          "bbox": [
+            166.39,
+            539.03,
+            534.75,
+            548.08
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. Growth mechanism of the CIGS films during direct sputtering of Na-doped targets.",
+          "bbox": [
+            166.79,
+            310.33,
+            531.15,
+            530.2
+          ],
+          "file": "extracted_images/page4_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "Coatings 2024, 14, 164                                                                                                           5 of 14\n\n\n\n                             positions corresponding to the (112), (211), (220)/(204), and (312)/(116) planes. At the\n                           bottom, the I(220) peak intensity was greater than that of I(112). Figure 3a displays the XRD\n                                  fitting data obtained for the CIGS absorption layers with different sodium-doped targets.\n                         These results clearly show that the I(220)/I(112) ratio increased with increasing target\n                        sodium content from 0% to 15%, which is consistent with the SEM results (the I(220)/I(112)\n                               ratio values are shown in Figure S3). We also found that the addition of the RT–CIGS\n                             layer significantly improved the back contact between CIGS and Mo mainly because the\n                      molybdenum diselenide layer formed by RT–CIGS naturally eliminated the barrier for this\n                             contact [27,28]. Raman spectra were recorded by separating the CIGS absorption layer and\n                             the Mo back electrode with different sodium contents to investigate the effect of the target\n                          composition on the formation of molybdenum diselenide (Figure 3b). They showed that\n                             the vibrational peak of MoSe2 at 238 cm−1 was detected for the back surfaces of all samples,\n                          while its intensity increased with an increase in the sodium content [29,30].\n\n\n\n\n\n                             Figure 2. SEM cross sections of the CIGS absorption layers prepared at different sodium contents:\n                                     (a) 0%, (b) 3.5%, (c) 7.5%, and (d) 15%.\n\n                           The normalized PL spectra of the CIGS layers fabricated using targets with different\n                       sodium contents are shown in Figure 3c. The peak intensities obtained with and without\n                       sodium doping differed significantly, and the bandgap PL peak underwent a red shift,\n                       which was likely due to the change in the target composition. We tried to set the GGI\n                       (Ga/In+Ga content ratio) of the different target powders to 0.28 so that the bandgap of\n                            the films would be as consistent as possible, but the actual GGI values obtained were still\n                                slightly different. The XRF test results (Table 1) obtained with and without sodium doping\n                               target were also different. The bandgap PL peak obtained for the sodium-containing target\n                      was located at 1.15 eV. Furthermore, the bandgap PL peaks of the CIGS absorption layers\n                         with different sodium contents were nearly identical. According to a previous study, the\n                      PL peak near 1.1 eV is observed because sodium doping reduces the OSe value (EV + 0.12\n                              to EV + 0.14 eV) in the absorption layer, and the level position in the bandgap is less than\n                               0.16 eV [19]. The peak intensities of the PL spectral lines presented in Figure 3c,d indicated\n                              that the film prepared using the sodium-free target exhibited weak PL due to a large\n                      number of internal defects. Meanwhile, the PL intensity of the absorption layer prepared\n                          using the 3.5% sodium-doped target was 30 times higher, indicating that the number of",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. SEM cross sections of the CIGS absorption layers prepared at different sodium contents:\n(a) 0%, (b) 3.5%, (c) 7.5%, and (d) 15%.",
+          "figure_bbox": [
+            164.39,
+            258.62,
+            525.0,
+            534.33
+          ],
+          "bbox": [
+            166.1,
+            540.7,
+            560.4,
+            562.63
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. SEM cross sections of the CIGS absorption layers prepared at different sodium contents:\n(a) 0%, (b) 3.5%, (c) 7.5%, and (d) 15%.",
+          "bbox": [
+            164.39,
+            258.62,
+            525.0,
+            534.33
+          ],
+          "file": "extracted_images/page5_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "Coatings 2024, 14, 164                                                                                                           6 of 14\n\n\n\n                               internal defects in the absorption layer was significantly reduced. The PL intensities of the\n                           absorption layers prepared at different sodium contents did not change significantly, and\n                             the film obtained with a sodium content of 7.5% showed the strongest PL intensity (the PL\n                                intensities are shown in Figure 3d).\n\n\n\n\n\n                             Figure 3. (a) XRD patterns of the absorption layers prepared using the CIGS targets with different\n                          sodium contents. (b) Raman spectra of the molybdenum surfaces prepared using the CIGS targets\n                            with different sodium contents. (c) Normalized photoluminescence (PL) spectra of the CIGS films\n                             prepared using targets with different sodium contents. (d) PL intensity of the CIGS films prepared\n                              using targets with different sodium contents.\n\n\n\n                              Table 1. XPS compositions of the CIGS films prepared using the sodium-free and 7.5% sodium-doped\n                                  targets at different temperatures.\n\n\n      Target       Film Temp.    Cu (%)      In (%)    Ga (%)      Se (%)      CGI      GGI       Se/M\n\n                   RT           22.2          18.4          7.8          51.6          0.85          0.30           1.07\n      Na-free                     600 ◦C         23.9          19.2          7.6          49.3          0.89          0.28           0.97\n\n                   RT           22.0          19.1          7.3          51.6          0.83          0.28           1.07\n Na-doped (7.5%)                     600 ◦C         23.6          18.9          6.4          51.1          0.94          0.25           1.05\n\n\n                                 Therefore, Na addition significantly increased the carrier lifetime in the absorption\n                                 layer, and the carrier composite in the CIGS absorption layer was weakened. The electrical\n                             properties of the different samples were further investigated via cyclic voltammetry. After\n                          adopting the sodium-doped target material, the doping concentration in the absorption\n                             layer increased significantly from 6.28 × 1015 to 3.54 × 1016 cm−3, while the width of the\n                           depleted layer decreased from 254 to 142 nm (the carrier concentration (Ncv) profiles are\n                      shown in Figure S3). Thus, the Na doping of the target material increased the doping\n                             concentration inside the absorption layer and passivated the VSe and InCu vacancy defects,\n                        which became rich in Se [30,31].\n                            The Auger electron spectroscopy (AES) profiles of the CIGS absorption layers prepared\n                          using different sodium-doped targets are shown in Figure 4a–d. We also attempted to\n                           determine the corresponding gradient distributions of Na atoms using the same technique;",
+      "tables": [
+        {
+          "label": "Table 1",
+          "caption": "Table 1. XPS compositions of the CIGS films prepared using the sodium-free and 7.5% sodium-doped\ntargets at different temperatures.",
+          "bbox": [
+            35.72,
+            534.64,
+            558.99,
+            604.34
+          ],
+          "rows": [
+            [
+              "Target",
+              "Film Temp.",
+              "Cu (%)",
+              "In (%)",
+              "Ga (%)",
+              "Se (%)",
+              "CGI",
+              "GGI",
+              "Se/M"
+            ],
+            [
+              "Na-free",
+              "RT\n600 ◦C",
+              "22.2\n23.9",
+              "18.4\n19.2",
+              "7.8\n7.6",
+              "51.6\n49.3",
+              "0.85\n0.89",
+              "0.30\n0.28",
+              "1.07\n0.97"
+            ],
+            [
+              "Na-doped (7.5%)",
+              "RT\n600 ◦C",
+              "22.0\n23.6",
+              "19.1\n18.9",
+              "7.3\n6.4",
+              "51.6\n51.1",
+              "0.83\n0.94",
+              "0.28\n0.25",
+              "1.07\n1.05"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. (a) XRD patterns of the absorption layers prepared using the CIGS targets with different\nsodium contents. (b) Raman spectra of the molybdenum surfaces prepared using the CIGS targets\nwith different sodium contents. (c) Normalized photoluminescence (PL) spectra of the CIGS films\nprepared using targets with different sodium contents. (d) PL intensity of the CIGS films prepared\nusing targets with different sodium contents.",
+          "figure_bbox": [
+            164.39,
+            142.29,
+            511.15,
+            413.61
+          ],
+          "bbox": [
+            166.02,
+            419.99,
+            559.27,
+            480.39
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 1",
+          "text": "Table 1. XPS compositions of the CIGS films prepared using the sodium-free and 7.5% sodium-doped\ntargets at different temperatures.",
+          "bbox": [
+            166.1,
+            503.15,
+            559.27,
+            524.96
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. (a) XRD patterns of the absorption layers prepared using the CIGS targets with different\nsodium contents. (b) Raman spectra of the molybdenum surfaces prepared using the CIGS targets\nwith different sodium contents. (c) Normalized photoluminescence (PL) spectra of the CIGS films\nprepared using targets with different sodium contents. (d) PL intensity of the CIGS films prepared\nusing targets with different sodium contents.",
+          "bbox": [
+            164.39,
+            142.29,
+            511.15,
+            413.61
+          ],
+          "file": "extracted_images/page6_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "Coatings 2024, 14, 164                                                                                                           7 of 14\n\n\n\n                          however, the obtained Na contents were below the detection limit [24]. Figure 4a–d show\n                               that the metal elements in different absorption layers were uniformly distributed along the\n                         depth direction. The sodium-free target resulted in a low Se content; however, the surface\n                          prepared using the Na-doped target was rich in selenium, which was consistent with the\n                    XRF data. This phenomenon could be caused by CIGS decomposition. The CIGS films\n                        were grown at 600 ◦C, while CIGS decomposes at temperatures above 500 ◦C. Thus, the\n                              film surface was in a state of growth–decomposition equilibrium during in situ sputtering.\n                       The distribution of Ga atoms in the depth direction was uniform, which was significantly\n                               different from that obtained after the co-evaporation process. Thus, the addition of Na\n                              in three steps considerably affected the gradient distribution of Ga atoms because in the\n                                direct sputtering method, the target composition changed very little during sputtering. As\n                          a result, the elements were evenly distributed in the depth direction.\n\n                                  (a)                                         (b)\n                                      (%) 100              Cu                      Cu       100\n                                                            In                                  In                                        Ga                      Ga        80    Atomic                            80                                            Se                        Se\n                                     Mo                    Mo\n                            60                                                        60\n                            40                                                        40                                                                                                                                                                   concentration\n                            20                                                        20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        concentration\n                                                                           Atomic  0                                                         0   (%)\n                              0            40           80 0            40           80\n                                        Sputtering Time (s)             Sputtering Time (s)\n                                  (c)                                         (d)\n                                      (%) 100              Cu                       Cu       100\n                                                             In                                   In\n                                        Ga                       Ga                                                                                       80    Atomic                             80                                            Se                         Se\n                                     Mo                    Mo\n                             60                                                         60\n\n                             40                                                         40                                                                                                                                                                    concentration\n                             20                                                         20                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          concentration\n                                                                            Atomic  0                                                          0  (%)\n                              0            40           80 0            40           80\n                                        Sputtering Time (s)              Sputtering Time (s)\n\n                                  (e)\n                                       0%\n                                                 3.5%\n                                                 7.5%\n                                            105       15%\n                                                                                                              (a.u.)\n                                                                                                                                                                    Intensity\n\n\n\n                                            103\n                                          0              400             800\n                                                        Sputtering Time (s)\n\n                              Figure 4. AES spectra of the absorption layers prepared using different CIGS targets. (a) 0%, (b) 3.5%,\n                                        (c) 7.5%, and (d) 15%, (e) Depth distributions of the Na atoms in the absorption layers prepared using\n                                   different CIGS targets.",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. AES spectra of the absorption layers prepared using different CIGS targets. (a) 0%, (b) 3.5%,\n(c) 7.5%, and (d) 15%, (e) Depth distributions of the Na atoms in the absorption layers prepared using\ndifferent CIGS targets.",
+          "figure_bbox": [
+            225.15,
+            530.79,
+            467.9,
+            722.66
+          ],
+          "bbox": [
+            166.1,
+            731.37,
+            560.4,
+            766.0
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. AES spectra of the absorption layers prepared using different CIGS targets. (a) 0%, (b) 3.5%,\n(c) 7.5%, and (d) 15%, (e) Depth distributions of the Na atoms in the absorption layers prepared using\ndifferent CIGS targets.",
+          "bbox": [
+            225.15,
+            530.79,
+            467.9,
+            722.66
+          ],
+          "file": "extracted_images/page7_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "Coatings 2024, 14, 164                                                                                                           8 of 14\n\n\n\n                             To obtain the distributions of the Na atoms in in the studied samples, their secondary-\n                            ion mass spectrometry (SIMS) depth profiles were recorded. Figure 4e shows the distribu-\n                              tions of the Na atoms in the depth direction determined for different samples via SIMS.\n                        The Na content in the film prepared using the Na-doped target was much higher than that\n                               in the absorption layer fabricated using the undoped Na target, by approximately an order\n                             of magnitude. This indicated that a sufficient amount of Na was available for CIGS film\n                          formation when the Na-doped targets were used. The larger Na quantities from the in\n                                situ sputtered Na-doped targets compared with those of the Na atoms diffused from the\n                             substrate should have played a dominant role in this process. However, as the Na content\n                              in the target material increased, the overall Na content in the film obtained by SIMS also\n                                significantly increased. At the interface between Mo and CIGS, a small hump was observed\n                                for the sodium-doped target, which was probably due to the addition of the RT–CIGS layer\n                              to all samples. Owing to the small grain size of this layer, more grain boundaries were\n                            present for Na accumulation, and the small hump was not observed [32].\n                       We also recorded the admittance spectra of all samples, determined the carrier transport\n                        mechanism in the absorption layers and interfaces of the CIGS devices, and studied the effect\n                              of the Na content on the internal defect state of the absorption layer [20,33]. Figure 5a–d\n                      show the capacitance–frequency (C–F) spectra obtained at different temperatures from\n                          80 to 300 K in the frequency range of 20 Hz–2 MHz. The activation energies (EAs) of the\n                       CIGS components prepared from different targets were estimated from the inflection points\n                              in the admittance spectra recorded at different temperatures according to the Arrhenius\n                            formula, and their defect state densities were calculated.\n\n\n\n\n\n                              Figure 5. Admittance spectra of the CIGS devices prepared using the CIGS targets with Na contents\n                                 of (a) 0%, (b) 3.5%, (c) 7.5%, and (d) 15%.\n\n                           The capacitance of the sample prepared using the sodium-free target ranged from a\n                           high-temperature/high-frequency capacitance of 100 nF/cm2 to a geometric capacitance\n                             of 6 nF/cm2, indicating a single transmission process [34–36]. At the temperature of\n                          220 K, the sample capacitance originated from the low electrical conductivity and low\n                               carrier concentration within the absorption layer; meanwhile, at high temperatures, the\n                             capacitance was frozen, and N2 defects began to dominate the capacitance signal. An EA of",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. Admittance spectra of the CIGS devices prepared using the CIGS targets with Na contents\nof (a) 0%, (b) 3.5%, (c) 7.5%, and (d) 15%.",
+          "figure_bbox": [
+            164.39,
+            373.05,
+            515.02,
+            658.68
+          ],
+          "bbox": [
+            166.39,
+            665.14,
+            559.27,
+            686.99
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. Admittance spectra of the CIGS devices prepared using the CIGS targets with Na contents\nof (a) 0%, (b) 3.5%, (c) 7.5%, and (d) 15%.",
+          "bbox": [
+            164.39,
+            373.05,
+            515.02,
+            658.68
+          ],
+          "file": "extracted_images/page8_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "Coatings 2024, 14, 164                                                                                                           9 of 14\n\n\n\n                          335 meV was derived from the capacitance line depicted in Figure 5. At a sodium content\n                             of 3.5%, the inflection point was gradually shifted from the high to the low temperature\n                       and frequency, and only one defect level position of 191 meV was observed at different\n                            temperatures. The corresponding defect density, Nt, was 2 × 1017 cm−3 eV−1.\n                               For the samples prepared using the 7.5% Na-doped target, the obtained C–F character-\n                                   istics demonstrated the occurrence of two transport processes (Figure 6): the defect level\n                        N2 was observed from 300 to 220 K in the high temperature range, and the defect level N1\n                       was detected from 210 to 150 K. The Nt(E(ω)) corresponding to the two energy levels was\n                             calculated via the following equation:\n\n                                                    Nt(E(ω)) = −Vd · dC · ω                                  (1)\n                                                       qω dω kT\n\n\n\n\n\n                             Figure 6. Arrhenius diagram constructed for the CIGS devices fabricated using different sodium-\n                          doped targets, (a) 0%, (b) 3.5%, (c) 7.5%, and (d) 15%.\n\n                            The C–F curve obtained for the Na-doped samples prepared using the 15% Na-doped\n                               target contained an inflection point between the high and the low temperatures, and only\n                         one defect level position of 111 meV was obtained at different temperatures. The Nt value\n                             calculated from the C–F–T curve was 1.047 × 1016 cm−3 eV−1. The Na-doped samples\n                          prepared using the 7.5% Na-doped target exhibited a capacitance step, and the related\n                            capacitance change was not as large as those obtained for the other two samples during\n                            the high-temperature stage, while the capacitance value was relatively small. The ideal\n                             depletion zone without an impurity level corresponded to a simple parallel-plate capacitor,\n                       and the capacitance value did not significantly change with the frequency. The observed\n                          change in capacitance was caused by the presence of impurity energy levels in the depletion\n                            zone. Moreover, the gradually changing curve in Figure 7b shows that the impurity level\n                              distribution was relatively wide, whereas the steps of the low-temperature conduction\n                             section indicate that the impurity level distribution was concentrated. The calculated",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Figure 6. Arrhenius diagram constructed for the CIGS devices fabricated using different sodium-\ndoped targets, (a) 0%, (b) 3.5%, (c) 7.5%, and (d) 15%.",
+          "figure_bbox": [
+            164.39,
+            253.53,
+            531.27,
+            568.56
+          ],
+          "bbox": [
+            166.39,
+            574.93,
+            560.77,
+            596.87
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 6",
+          "caption": "Figure 6. Arrhenius diagram constructed for the CIGS devices fabricated using different sodium-\ndoped targets, (a) 0%, (b) 3.5%, (c) 7.5%, and (d) 15%.",
+          "bbox": [
+            164.39,
+            253.53,
+            531.27,
+            568.56
+          ],
+          "file": "extracted_images/page9_figure-6_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "Coatings 2024, 14, 164                                                                                                          10 of 14\n\n\n\n                          energy level distribution also supports this observation. Owing to the large number of\n                         vacancy defects in the sodium-free target, the defect concentration was relatively high,\n                               resulting in strong carrier recombination and low carrier densities in the CIGS films (which\n                        were frozen at low temperatures), while the short flow density of the prepared device was\n                                relatively low.\n\n\n\n\n\n                             Figure 7. Defect energy levels and defect state concentrations of the CIGS devices fabricated using\n                                  different sodium-doped targets, which were determined from their conduction spectra.  (a) 0%,\n                                  (b) 3.5%, (c) 7.5%, and (d) 15%.\n\n                               For the samples prepared using the 3.5% and 15% Na-doped targets, deep-level defects\n                           could not be observed at a detection frequency of 2 MHz; however, the shallow-level defect\n                              distribution was relatively narrow, and the defect density was 7.5% higher than that in the\n                                 target. Therefore, the final battery efficiency was slightly lower than that obtained at a Na\n                            concentration of 7.5%. In general, when interpreting the conduction spectra of CIGS solar\n                                    cells, shallow-level defects have a lower EA value expressed by N1, and deep-level defects\n                         have a higher EA expressed by N2. The N2 of 200 meV was observed for the Na-containing\n                              films with a defect density of 5.20 × 1015 cm−3, whereas EA = 416 meV was obtained at a\n                              defect density of 1.56 × 1016 cm−3.\n                              For the direct sputtering of CIGS films grown under selenium-deficient conditions,\n                        N1 defects most likely resulted from the InCu transposition defects caused by selenium\n                                deficiency. N2 deficiency was characterized by a high density of VSe and VSe −VCu defects\n                       due to the lack of Se. The passivation of superficial N1 defects (InCu dislocation defects)\n                          could increase Voc by 20 mV. However, the most dramatic improvements were observed\n                               for JSC and the fill factor (FF) owing to the passivation of the deep-level N2 defects located\n                               in the compound center. The in situ doping of the targets with Na atoms changed the deep-\n                                level defect state by introducing a sufficient amount of Na and controlling the Se supply in\n                            the target material. First, sufficient Na addition was achieved, as confirmed by the SIMS\n                               data, which effectively reduced the EA of the N2 defects. Second, the Se supply control was\n                              verified via SIMS and XRF and decreased the Se losses during one-step sputtering, thus\n                           reducing the VSe and VSe – VCu vacancy defect densities. Overall, the EA of the N2 defects",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Figure 7. Defect energy levels and defect state concentrations of the CIGS devices fabricated using\ndifferent sodium-doped targets, which were determined from their conduction spectra. (a) 0%,\n(b) 3.5%, (c) 7.5%, and (d) 15%.",
+          "figure_bbox": [
+            164.39,
+            153.78,
+            547.13,
+            461.85
+          ],
+          "bbox": [
+            166.1,
+            468.24,
+            560.39,
+            502.98
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 7",
+          "caption": "Figure 7. Defect energy levels and defect state concentrations of the CIGS devices fabricated using\ndifferent sodium-doped targets, which were determined from their conduction spectra. (a) 0%,\n(b) 3.5%, (c) 7.5%, and (d) 15%.",
+          "bbox": [
+            164.39,
+            153.78,
+            547.13,
+            461.85
+          ],
+          "file": "extracted_images/page10_figure-7_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 11,
+      "text": "Coatings 2024, 14, 164                                                                                                          11 of 14\n\n\n\n                       was reduced by 216 meV, and their density was decreased by 66%. This large change in the\n                     N2 defect state was responsible for the dramatic improvements of Jsc and FF after the in\n                                situ introduction of the Na dopant.\n                             Based on the soda glass/Mo/RT–CIGS/CIGS/CdS/i-ZnO/AZO structure, solar cells\n                         with different Na-doped CIGS films were prepared to further study the PCE improve-\n                          ment. The CIGS absorption layer fabricated at a Na concentration of 7.5% exhibited low\n                               defect-state level and defect concentration. The detailed J–V curves and corresponding\n                            photovoltaic parameters are presented in Figure 8 and Table 2, respectively. The SEM\n                               results revealed that the absorption layer had a flat surface, which further improved the\n                                efficiency of the CdS layer. Next, we reduced the CdS deposition time from 5 to 3.5 min and\n                                 finally achieved a certified device efficiency of 17.26% (0.25 cm2). But the presence of deep\n                              defects mentioned in the admittance results led to the loss of VOC, resulting in no obvious\n                          improvement. Then, the PCE of the prepared CIGS solar cells was measured by professional\n                                institutions, and the certification reports are presented in Figure S4. After the appropriate\n                    Na doping of the CIGS films, carrier transport was improved, and the increased Jsc value\n                       was consistent with the parameters of the CIGS solar cells. Therefore, with appropriate Na\n                             incorporation into CIGS films fabricated via the direct sputtering process, a significant PCE\n                        improvement was achieved owing to the enhanced carrier transportation in the devices.\n\n\n\n\n\n                              Figure 8. Typical J–V curves of the CIGS devices prepared with different levels of Na doping.\n\n\n                              Table 2. Photovoltaic characteristics of the CIGS devices fabricated under different Na doping conditions.\n\n                          Na-Doped Samples     VOC (V)       JSC (mA·cm−2)      FF (%)       PCE (%)\n\n                             0%                 555.9              31.78              59.87             10.58\n                                    3.5%                568.4              33.64              75.48             14.43\n                                    7.5%                583.9              36.14              76.72             16.19\n                               15%                 584.1              35.27              71.69             14.77\n\n\n                                   4. Conclusions\n\n                            The grains of the CIGS film prepared without a sodium-doped target grew in columns,\n                         whereas the grains of the CIGS film fabricated with a suitable sodium-doped target grew\n                              chemically. The grain sizes of the Na-doped film were significantly larger than those of the\n                       undoped films, and the surface of the former films was flat. The XRD results indicates that\n                            the CIGS film prepared using the sodium-doped target gradually grew while showing an\n                              increase in the (220) peak intensity. The Raman testing of the Mo surface demonstrated that\n                            the MoSe2 intensity at the CIGS/Mo interface increased with increasing sodium content.\n                        The obtained photoluminescence data revealed that the incorporation of sodium weakened\n                            the absorption layer, and the PL intensity was significantly enhanced. The results of the\n                    AES and SIMS depth analyses of the CIGS films fabricated using different sodium-doped",
+      "tables": [
+        {
+          "label": "Table 2",
+          "caption": "Table 2. Photovoltaic characteristics of the CIGS devices fabricated under different Na doping conditions.",
+          "bbox": [
+            166.39,
+            550.87,
+            559.28,
+            615.77
+          ],
+          "rows": [
+            [
+              "Na-Doped Samples",
+              "VOC (V)",
+              "JSC (mA·cm⁻²)",
+              "FF (%)",
+              "PCE (%)"
+            ],
+            [
+              "0%",
+              "555.9",
+              "31.78",
+              "59.87",
+              "10.58"
+            ],
+            [
+              "3.5%",
+              "568.4",
+              "33.64",
+              "75.48",
+              "14.43"
+            ],
+            [
+              "7.5%",
+              "583.9",
+              "36.14",
+              "76.72",
+              "16.19"
+            ],
+            [
+              "15%",
+              "584.1",
+              "35.27",
+              "71.69",
+              "14.77"
+            ]
+          ],
+          "method": "horizontal_rules_and_text",
+          "notes": []
+        }
+      ],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 8",
+          "text": "Figure 8. Typical J–V curves of the CIGS devices prepared with different levels of Na doping.",
+          "figure_bbox": [
+            164.39,
+            318.04,
+            388.52,
+            501.92
+          ],
+          "bbox": [
+            166.39,
+            508.36,
+            534.88,
+            517.41
+          ]
+        },
+        {
+          "kind": "table",
+          "label": "Table 2",
+          "text": "Table 2. Photovoltaic characteristics of the CIGS devices fabricated under different Na doping conditions.",
+          "bbox": [
+            166.1,
+            534.2,
+            559.34,
+            543.16
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 8",
+          "caption": "Figure 8. Typical J–V curves of the CIGS devices prepared with different levels of Na doping.",
+          "bbox": [
+            164.39,
+            318.04,
+            388.52,
+            501.92
+          ],
+          "file": "extracted_images/page11_figure-8_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 12,
+      "text": "Coatings 2024, 14, 164                                                                                                          12 of 14\n\n\n\n                              targets showed that sodium doping could significantly increase the concentration of Na\n                         atoms inside the absorption layer, thus affecting its doping concentration. The AES results\n                         demonstrated that the target sodium-doped material also increased the proportion of Se\n                        atoms on the film surface and reduced the number of VSe surface vacancy defects caused\n                        by the selenium-free atmosphere.\n                           The J–V characteristics of the CIGS devices prepared using different sodium-doped\n                              targets indicated that the highest device efficiency was achieved at a Na content of 7.5%.\n                   Na incorporation significantly increased the open-circuit voltage, short-circuit current,\n                       and FF of the fabricated devices. The conduction test data confirmed the presence of\n                    many internal defects in the sodium-free target, while its carrier concentration was low,\n                            the sample capacitance was close to the geometric capacitance at 220 K, and the EA of\n                            the deep-level defects was 335 meV. Meanwhile, at a Na content of 3.5%, the EA of the\n                            deep-level defects was significantly reduced to 204 meV. The sodium-doped target with a\n                            concentration of 7.5% resulted in an EA of the shallow-level defects of only 69 meV, which\n                      was significantly lower than those of the other samples, and the defect state concentration\n                              in the produced film was also lower than those in the other three samples. The findings\n                             of this study demonstrate that an appropriate sodium content can significantly reduce\n                            the shallow-level defects and the defect concentration in CIGS films prepared via direct\n                             sputtering to enhance the performance of CIGS solar cells.\n\n\n                          Supplementary Materials: The following supporting information can be downloaded at https:\n                            //www.mdpi.com/article/10.3390/coatings14020164/s1, Figure S1: SEM surface topography of\n                               the CIGS absorption layers prepared at different sodium contents: (a) 0%, (b) 3.5%, (c) 7.5%, and\n                                  (d) 15%; CdS preparation process; Figure S2: XRD patterns; the I(220)/I(112) ratio increases with the\n                                increasing target sodium content; Figure S3: Net carrier concentration (N_cv) profiles of the CIGS\n                                 solar cells with 0% and 7.5% Na content; Figure S4: Certification report of the prepared CIGS solar\n                                      cells in this paper. Table S1: Information on the chemicals used in the preparation of CdS by CBD.\n\n                           Author Contributions: Conceptualization, W.D., Z.J., Y.S., Z.G., H.X. and W.Y.; Methodology, W.D.,\n                                       Y.S., J.W., Z.G., H.X., X.W., C.G., Q.M., Y.W. and W.Y.; Software, Z.J., J.W. and W.Y.; Formal analysis,\n                              W.D., C.G. and W.Y.; Investigation, X.W., Q.M. and Y.W.; Resources, Y.W.; Data curation, W.D., Y.S.,\n                                     J.W., Z.G. and W.Y.; Writing—original draft, W.D., Z.J. and C.G.; Writing—review & editing, W.D. and\n                                W.Y.; Funding acquisition, W.D., Y.S. and Q.M. All authors have read and agreed to the published\n                               version of the manuscript.\n\n                            Funding: This research was funded by the National Key R&D Program of China, grant number\n                               2018YFBI150050302, the Natural Science Foundation of Hebei Province, grant number F2018201058, the\n                               National Natural Science Foundation of China, grant number 62204074, the Natural Science Founda-\n                                  tion of Hebei Province, grant number F2022201061, the High-Level Talent Research Startup Project of\n                            Hebei University, grant number 521100221085, the Postgraduate’s Innovation Fund Project of Hebei\n                               Province, grant number CXZZBS2019031, and the Ningxia Important Research and Development\n                                  Project (Talent Introduction Project), grant number 2018BEB04027.\n\n                                 Institutional Review Board Statement: Not applicable.\n\n                           Informed Consent Statement: Not applicable.\n\n                           Data Availability Statement: Data are contained within the article and Supplementary Materials.\n\n                          Acknowledgments: We gratefully acknowledge Hebei University for providing access to their\n                              experimental equipment to fabricate samples and perform their measurements. The authors would\n                                    like to acknowledge the scientific and technical assistance for target fabrication of Ning Zhang and\n                             Xinping Yu, at Beijing Sifang Crenergy Optoelectronics Technology CO., LTD.\n\n                                Conflicts of Interest: The authors declare no conflict of interest.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 13,
+      "text": "Coatings 2024, 14, 164                                                                                                          13 of 14\n\n\n\nReferences\n\n1.   Green, M.A.; Dunlop, E.D.; Yoshita, M.; Kopidakis, N.; Bothe, K.; Siefer, G.; Hao, X. Solar cell efficiency tables (version 62). Prog.\n      Photovolt. 2023, 31, 651–663. [CrossRef]\n2.    Muzzillo, C.P. Review of grain interior, grain boundary, and interface effects of K in CIGS solar cells: Mechanisms for performance\n     enhancement. Sol. Energy Mater. Sol. Cells 2017, 172, 18–24. [CrossRef]\n3.   Reinhard, P.; Chirila, A.; Blosch, P.; Pianezzi, F.; Nishiwaki, S.; Buecheler, S.; Tiwari, A.N. Review of progress toward 20% efficiency\n      flexible CIGS solar cells and manufacturing issues of solar modules. IEEE J. Photovolt. 2013, 3, 572–580. [CrossRef]\n4.   Sun, Y.; Lin, S.; Li, W.; Cheng, S.; Zhang, Y.; Liu, Y.; Liu, W. Review on alkali element doping in Cu(In,Ga)Se2 thin films and solar\n       cells. Engineering 2017, 3, 452–459. [CrossRef]\n5.   Rudmann, D.; Bilger, G.; Kaelin, M.; Haug, F.J.; Zogg, H.; Tiwari, A.N. Effects of NaF coevaporation on structural properties of\n     Cu(In,Ga)Se2 thin films. Thin Solid Films 2003, 431–432, 37–40. [CrossRef]\n6.   Cho, Y.; Jeong, I.; Gang, M.G.; Kim, J.H.; Song, S.; Eo, Y.-J.; Ahn, S.K.; Shin, D.H.; Cho, J.-S.; Yun, J.H.; et al. Alkali incorporation\n      into Cu(In,Ga)Se2 determined by crystal orientation of Mo back contact: Implications for highly efficient photovoltaic devices.\n      Sol. Energy Mater. Sol. Cells 2018, 188, 46–50. [CrossRef]\n7.   Werner, F.; Wolter, M.H.; Siebentritt, S.; Sozzi, G.; Di Napoli, S.; Menozzi, R.; Jackson, P.; Witte, W.; Carron, R.; Avancini, E.; et al.\n     Alkali treatments of Cu(In,Ga)Se2 thin-film absorbers and their impact on transport barriers. Prog. Photovolt. Res. Appl. 2018, 26,\n     911–923. [CrossRef]\n8.   Wang, Y.; Lv, S.; Li, Z. Review on incorporation of alkali elements and their effects in Cu(In,Ga)Se2 solar cells. J. Mater. Sci. Technol.\n     2022, 96, 179–189. [CrossRef]\n9.   Kim, S.; Nishinaga, J.; Kamikawa, Y.; Ishizuka, S.; Nagai, T.; Koida, T.; Tampo, H.; Shibata, H.; Matsubara, K.; Niki, S. Reduced\n     recombination in a surface-sulfurized Cu(InGa)Se2 thin-film solar cell. Jpn. J. Appl. Phys. 2018, 57, 55701. [CrossRef]\n10.   Gallet, T.; Grabowski, D.; Kirchartz, T.; Redinger, A. Fermi-level pinning in methylammonium lead iodide perovskites. Nanoscale\n     2019, 11, 16828–16836. [CrossRef]\n11.   Li, B.-Y.; Zhang, Y.; Wang, H.; Wang, B.; Wu, L.; Sun, Y. Preferred orientation of Cu(In,Ga)Se2thin film deposited on stainless steel\n      substrate. Prog. Photovolt. 2012, 21, 838–848. [CrossRef]\n12.  Qu, J.Y.; Guo, Z.F.; Pan, K.; Zhang, W.W.; Wang, X.J. Cu(In,Ga)Se2 absorbers prepared by electrodeposition for low-cost thin-film\n      solar cells. Rare Metals 2017, 36, 729–736. [CrossRef]\n13.  Nicoara, N.; Manaligod, R.; Jackson, P.; Hariskos, D.; Witte, W.; Sozzi, G.; Menozzi, R.; Sadewasser, S. Direct evidence for grain\n     boundary passivation in Cu(In,Ga)Se2 solar cells through alkali-fluoride post-deposition treatments. Nat. Commun. 2019, 10, 3980.\n     [CrossRef]\n14.  Hergert, F.; Hock, R.; Weber, A.; Purwins, M.; Palm, J.; Probst, V. In situ investigation of the formation of Cu(In,Ga)Se2 from\n     selenised metallic precursors by X-ray diffraction—The impact of gallium, sodium and selenium excess. J. Phys. Chem. Solids\n     2005, 66, 1903–1907. [CrossRef]\n15.  Zhu, X.; Zhen, Z.; Wang, Y.; Lei, Z.; Li, A.; Huang, F. Determining factor of MoSe2 formation in Cu(In,Ga)Se2 solar cells. Sol.\n     Energy Mater. Sol. Cells 2012, 101, 57–61. [CrossRef]\n16.  Hedstrom, J.; Ohlsen, H.; Bodegard, M.; Kylner, A.; Schock, H.W. ZnO/CdS/Cu(In,GA)Se2 thin film solar cells with improved\n     performance. In Proceedings of the Conference Record of the Twenty Third IEEE Photovoltaic Specialists Conference, Louisville,\n     KY, USA, 10–14 May 1993.\n17.   Ishizuka, S.; Yamada, A.; Matsubara, K.; Fons, P.; Sakurai, K.; Niki, S. Alkali incorporation control in Cu(In,Ga)Se2 thin films\n     using silicate thin layers and applications in enhancing flexible solar cell efficiency. Appl. Phys. Lett. 2008, 93, 124105. [CrossRef]\n18.  Kim, K.; Jeong, I.; Cho, Y.; Shin, D.; Song, S.; Ahn, S.K.; Eo, Y.-J.; Cho, A.; Jung, C.; Jo, W.; et al. Mechanisms of extrinsic alkali\n     incorporation in CIGS solar cells on flexible polyimide elucidated by nanoscale and quantitative analyses. Nano Energy 2020,\n      67, 104201. [CrossRef]\n19.  Hsu, C.-H.; Ho, W.-H.; Wei, S.-Y.; Lai, C.-H. Over 14% Efficiency of Directly Sputtered Cu(In,Ga)Se2 Absorbers without\n     Postselenization by Post-Treatment of Alkali Metals. Adv. Energy Mater. 2017, 7, 1602571. [CrossRef]\n20.  Hsu, C.-H.; Su, Y.-S.; Wei, S.-Y.; Chen, C.-H.; Ho, W.-H.; Chang, C.; Wu, Y.-H.; Lin, C.-J.; Lai, C.-H. Na-induced efficiency boost for\n      Se-deficient Cu(In,Ga)Se2 solar cells. Prog. Photovolt. 2015, 23, 1621–1629. [CrossRef]\n21.   Lin, T.-Y.; Chen, C.-H.; Wang, L.-W.; Huang, W.-C.; Jheng, Y.-W.; Lai, C.-H. Engineering Na-transport to achieve high efficiency in\n      ultrathin Cu(In,Ga)Se2 solar cells with controlled preferred orientation. Nano Energy 2017, 41, 697–705. [CrossRef]\n22.  Zhang, L.; Zhuang, D.; Zhao, M.; Gong, Q.; Guo, L.; Ouyang, L.; Sun, R.; Wei, Y.; Zhan, S. The effects of annealing temperature on\n    CIGS solar cells by sputtering from quaternary target with Se-free post annealing. Appl. Surf. Sci. 2017, 413, 175–180. [CrossRef]\n23.   Dai, W.; Gao, Z.; Li, J.; Qin, S.; Wang, R.; Xu, H.; Wang, X.; Gao, C.; Teng, X.; Zhang, Y.; et al. Above 15% efficient directly sputtered\n    CIGS solar cells enabled by a modified back-contact interface. ACS Appl. Mater. Interface 2021, 13, 49414–49422. [CrossRef]\n    [PubMed]\n24.  Ouyang, L.; Zhuang, D.; Zhao, M.; Zhang, N.; Li, X.; Guo, L.; Sun, R.; Cao, M. Cu(In,Ga)Se2 solar cell with 16.7% active-area\n      efficiency achieved by sputtering from a quaternary target. Phys. Status Solidi A 2015, 212, 1774–1778. [CrossRef]\n25.  Chugh, M.; Kühne, T.D.; Mirhosseini, H. Diffusion of alkali metals in polycrystalline CuInSe2 and their role in the passivation of\n     grain boundaries. ACS Appl. Mater. Interface 2019, 11, 14821–14829. [CrossRef] [PubMed]",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 14,
+      "text": "Coatings 2024, 14, 164                                                                                                          14 of 14\n\n\n\n26.  Ledinek, D.; Donzel-Gargand, O.; Sköld, M.; Keller, J.; Edoff, M. Effect of different Na supply methods on thin Cu(In,Ga)Se2 solar\n      cells with Al2O3 rear passivation layers. Sol. Energy Mater. Sol. Cells 2018, 187, 160–169. [CrossRef]\n27.  Antunez, P.D.; Bishop, D.M.; Lee, Y.S.; Gokmen, T.; Gunawan, O.; Gershon, T.S.; Todorov, T.K.; Singh, S.; Haight, R. Back Contact\n     Engineering for Increased Performance in Kesterite Solar Cells. Adv. Energy Mater. 2017, 7, 1602585. [CrossRef]\n28.  Ledinek, D.; Keller, J.; Hägglund, C.; Chen, W.-C.; Edoff, M. Effect of NaF pre-cursor on alumina and hafnia rear contact\n     passivation layers in ultra-thin Cu(In,Ga)Se2 solar cells. Thin Solid Films 2019, 683, 156–164. [CrossRef]\n29.   Liu, Y.-J.; Ou, C.-Y.; Lu, C.-H. Effects of Mo films prepared via different sputtering conditions on the formation of MoSe2 during\n      selenization. J. Alloys Compd. 2018, 747, 621–628. [CrossRef]\n30.  Kwon, M.-S.; Kang, J.-Y.; Kim, S.; Kim, J.; Jeon, C.-W. Application of slope-polishing technique for depth profile of selenized CIGS\n    by micro-Raman spectroscopy. Appl. Surf. Sci. 2016, 379, 186–190. [CrossRef]\n31.  Johnson, P.K.; Heath, J.T.; Cohen, J.D.; Ramanathan, K.; Sites, J.R. A comparative study of defect states in evaporated and selenized\n     CIGS(S) solar cells. Prog. Photovolt. 2005, 13, 579–586. [CrossRef]\n32.  Matsuura, J.; Shudo, K.; Khatri, I.; Sugiyama, M.; Nakada, T. Tunable Carrier Concentration of NaF-Treated CIGS Solar Cells\n     Using Heat-Light Soaking and Subsequent Heating. Phys. Status Solidi (RRL) Rapid Res. Lett. 2018, 12, 1800053. [CrossRef]\n33.  Stange, H.; Brunken, S.; Greiner, D.; Heinemann, M.D.; Barragan Yani, D.A.; Wägele, L.A.; Li, C.; Simsek Sanli, E.; Kahnt, M.;\n     Schmidt, S.S.; et al. Stacking fault reduction during annealing in Cu-poor CuInSe2 thin film solar cell absorbers analyzed by in\n      situ XRD and grain growth modeling. J. Appl. Phys. 2019, 125, 035303. [CrossRef]\n34.  Eisenbarth, T.; Caballero, R.; Kaufmann, C.A.; Eicke, A.; Unold, T. Influence of iron on defect concentrations and device\n     performance for Cu(In,Ga)Se2 solar cells on stainless steel substrates. Prog. Photovolt. 2012, 20, 568–574. [CrossRef]\n35.   Pianezzi, F.; Nishiwaki, S.; Kranz, L.; Sutter-Fella, C.M.; Reinhard, P.; Bissig, B.; Hagendorfer, H.; Buecheler, S.; Tiwari, A.N.\n     Influence of Ni and Cr impurities on the electronic properties of Cu(In,Ga)Se2 thin film solar cells. Prog. Photovolt. 2015,\n      23, 892–900. [CrossRef]\n36.   Li, J.; Deng, B.; Zhu, H.; Guo, F.; You, X.; Shen, K.; Wan, M.; Mai, Y. Rear interface modification for efficient Cu(In,Ga)Se2 solar\n      cells processed with metallic precursors and low-cost Se vapor. Sol. Energy Mater. Sol. Cells 2018, 186, 243–253. [CrossRef]\n\n\nDisclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual\nauthor(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to\npeople or property resulting from any ideas, methods, instructions or products referred to in the content.",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "bcbeadfacc94f43f5ef2865bafd78108",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            35.72,
+            656.88,
+            92.41,
+            676.72
+          ]
+        }
+      ],
+      "file": "garbage/page1_bcbeadfacc94f43f5ef2865bafd78108.png",
+      "is_garbage": true
+    }
+  ]
+}

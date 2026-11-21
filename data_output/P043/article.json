@@ -1,0 +1,1058 @@
+{
+  "publication_id": "P043",
+  "source_file": "P043.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.4",
+    "title": "In Situ Graded Passivation via Porphyrin Derivative with Enhanced Photovoltage and Fill Factor in Perovskite Solar Cells",
+    "author": "Kuo Su; Wentao Chen; Yuqiong Huang; Guang Yang; Keith Gregory Brooks; Bao Zhang; Yaqing Feng; Mohammad Khaja Nazeeruddin; Yi Zhang",
+    "subject": "Solar RRL 2022.6:2100964",
+    "keywords": "graded passivation, high efficiency, high stability, perovskite solar cells, porphyrin derivative",
+    "creator": "Arbortext Advanced Print Publisher 9.1.405/W Unicode",
+    "producer": "Acrobat Distiller 10.1.16 (Windows); modified using iTextSharp 5.5.13 ©2000-2018 iText Group NV (AGPL-version)",
+    "creationDate": "D:20220317044601-04'00'",
+    "modDate": "D:20261119023906-08'00'",
+    "DOI": "10.1002/solr.202100964",
+    "year": 2022,
+    "authors": [
+      "Kuo Su",
+      "Wentao Chen",
+      "Yuqiong Huang",
+      "Guang Yang",
+      "Keith Gregory Brooks",
+      "Bao Zhang",
+      "Yaqing Feng",
+      "Mohammad Khaja Nazeeruddin",
+      "Yi Zhang"
+    ]
+  },
+  "page_count": 8,
+  "pages": [
+    {
+      "page": 1,
+      "text": "RESEARCH ARTICLE\n\n                                                                                                                            www.solar-rrl.com\n\nIn Situ Graded Passivation via Porphyrin Derivative with\nEnhanced Photovoltage and Fill Factor in Perovskite Solar\nCells\n\nKuo Su, Wentao Chen, Yuqiong Huang, Guang Yang, Keith Gregory Brooks,\nBao Zhang,* Yaqing Feng, Mohammad Khaja Nazeeruddin,* and Yi Zhang*\n\n\n\n                                                                        and  low-cost  fabrication  processes, and\nWhile perovskite solar cells (PSCs) have recently experienced a rapid rise in power      the intrinsic advantages of perovskite mate-\nconversion efﬁciency (PCE), the prevailing PSCs still contain nondesirable defects       rials promise to make perovskite solar cells\n                                                                               (PSCs) one of the most competitive candi-in the interior and interface of the perovskite layer, which limits further\n                                                                                       dates for the future development of photo-\nenhancement in PCE and device stability. Herein, a new D–π–A-type zinc pyr-                                                                                                   voltaic market.[5–9] However, the formation\nidine porphyrin derivative (ZnPP) is synthesized and used as a passivation                                                                                           of defects on the surface and grain bound-\nmolecular via the antisolvent process for modifying the typical perovskite bulk       aries of the perovskite ﬁlms is inevitable\nthin ﬁlm, leading to a new type of PSC with a graded passivation of the perovskite    when conventional solution-processed pro-\nlayer. Impressively, it is found that ZnPP treatment signiﬁcantly improves the       cesses are used.[10,11] These defects provide\n                                                                                                    sites for nonradiative recombination andquality of perovskite ﬁlms and reduces charge transport losses through pas-\n                                                                                           play a role in the perovskite degradation\nsivating the uncoordinated Pb2þ cations, yielding devices with a high efﬁciency of\n                                                                           which compromises both  device  perfor-\n21.08% with ﬁll factor (FF) of 82.91% and demonstrating the promise of inte-                                                                    mance and stability.[12,13] Theoretical studies\ngration of perovskite bulk thin ﬁlms with tailor molecular via graded modiﬁcation.     have indicated that the defects mainly con-\n                                                                                               sisted of I vacancy defects (VI) and I vacan-\n                                                                                               cies replaced by Pb antisite defects (PbI)\n                                                                                 because of their low formation energy.[14,15]\n1. Introduction                                            In other words, most of the defects in or on the perovskite ﬁlms\n                                                                   are related to uncoordinated Pb2þ ions. And, in high-quality perov-\n                                                                           skite polycrystalline thin ﬁlms that have monolayered grains, inte-Although organic–inorganic perovskites are known from the\n                                                                            rior defects of perovskite are microscale compared with the surface19th century, unprecedented advances have been made in the\n                                                                                 defects.[15] In previous studies, it has been proven to be gradientpast decade with  the  certiﬁed power conversion efﬁciency\n                                                                     passivation and mainly concentrated on the surface of perovskite(PCE) now reaching 25.5%.[1–4] High photocurrents, simple\n                                                           by in situ depositing the passivation molecular in the antisol-\n                                                                                  vent.[16–18] Therefore, this method has natural advantages to fully\nK. Su, W. Chen, Y. Huang, G. Yang, B. Zhang, Y. Feng                 optimize the perovskite device under the smallest change in ﬁlm\nSchool of Chemical Engineering and Technology                      composition and the simplest operating procedures. Basically, by\nTianjin University\nTianjin 300350, China                                            using this in situ method, the passivation molecular is required to\nE-mail: baozhang@tju.edu.cn                                    be effective and the antisolvent soluble.\nK. G. Brooks, M. K. Nazeeruddin, Y. Zhang                         To date, numerous functional groups, such as pyridine,[19]\nInstitute of Chemical Sciences and Engineering                     amine groups,[20] sulfonate,[21] carbonyl groups,[13,22] which can\nÉcole Polytechnique Fédérale de Lausanne (EPFL Valais Wallis)            react with uncoordinated Pb2þ have been investigated to passivate\nSion CH-1951, Switzerland\n                                                                      defects and thus inhibit nonradiative recombination in perovskite\nE-mail: mdkhaja.nazeeruddin@epﬂ.ch; yi.zhang@epﬂ.ch\n                                                             ﬁlms. Porphyrins are heterocyclic macromolecular compounds\nY. Feng\n                                                               with highly conjugated structures; the π–π stacking between mol-Tianjin Co-Innovation Center of Chemical Science and Engineering\nTianjin University                                                    ecules is conducive to charge transfer; and the structure can be\nTianjin 300072, China                                                      easily modiﬁed by speciﬁc functional groups because there are\n   The ORCID identiﬁcation number(s) for the author(s) of this article    multiple reaction sites at the meso- and β-positions. Moreover,\n   can be found under https://doi.org/10.1002/solr.202100964.         due to the unique structures, porphyrins present outstanding ther-\n                                                       mal  stability and excellent photophysical and electrochemical\n© 2021 The Authors. Solar RRL published by Wiley-VCH GmbH. This is an\nopen access article under the terms of the Creative Commons Attribution-    properties, for example, excellent near-UV light harvest and charge\nNonCommercial   License,  which  permits   use,   distribution  and    transport abilities.[23,24] Therefore, porphyrins are considered as\nreproduction in any medium, provided the original work  is properly   promising candidate materials for use in PSCs.\ncited and is not used for commercial purposes.                                                                      Recently, porphyrin used as additives for PSCs has gained out-\nDOI: 10.1002/solr.202100964                                    standing achievement. Lin and co-workers had found porphyrin\n\n\nSol. RRL 2022, 6, 2100964                  2100964 (1 of 8)            © 2021 The Authors. Solar RRL published by Wiley-VCH GmbH",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "cde2017ee1dd0136c9ae78f4cb37ddd3",
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2022,\n                                                                                                                                                4,\n\nYD2-o-C8 was a valuable passivator for three cationic perovskite   designed and synthesized for use as a passivation molecularsolar cells and  it can efﬁciently suppress defects and adjust   which was incorporated in the ﬁlm during the antisolvent                                               Downloaded\nenergy-level alignment of perovskite ﬁlm, which helped the   treatment to improve the performance of PSCs. Pyridine is intro-                   from\nPSCs to get a high PCE with 20.5%.[22] Gao et al. also used a   duced into porphyrin molecular as a functional group to interact\nseries of D–π–A porphyrins with cyanoacrylic acid as acceptor   with uncoordinated Pb2þ. Triarylamine at 10,20-positions is used\nto passivate the perovskite surface and obtained a best efﬁciency    as a donor group to tailor the electron density distribution in the\nof 22.37%.[13] Cao and co-workers demonstrated that monoam-    pyridine group through porphyrin as a π bridge, and increase the\nmonium porphyrin assisted PSCs to achieve a high PCE by con-    pyridine’s coordination with exposed Pb2þ cations. The large ste-\ntrolling the crystallization, passivating defects, and/or promoting    ric hindrance of triarylamine will also decrease the aggregation of\nhole transport when embedded into the perovskite ﬁlm.[20,25–27]    the porphyrin molecular. After treatment with a small amount of\nCao’s group also found that porphyrin with thiol could coordi-   ZnPP, the perovskite ﬁlms showed higher crystallinity, more uni-\nnate with Pb defects and help PSCs to get a better efﬁciency   form morphology, and lower trap density compared to the pri-\nby treating the surface of perovskite ﬁlm.[28–30] Porphyrin with   mary ﬁlm. These improvements lead to a higher champion\nother functional groups also shown great potential in improving   PCE of 21.08% for the ZnPP-treated devices, in contrast toPSCs[24] or OPV/PSCs[31] efﬁciency. The above case shows that    the 20.18% of the best control device. Moreover, the stability                                                                                                                                                                                                                                                                                   https://onlinelibrary.wiley.com/doi/10.1002/solr.202100964,\nporphyrin molecules have great potential in passivation of PSCs.    of unencapsulated PSC devices with ZnPP treatment showed                       Wiley\n  Herein, a new D–π–A- type zinc pyridine porphyrin derivative   an improvement compared to the control cells. This work pro-                            Online\n5,15-dipyridinyl-10,20-bis(4-(N,N-bis(4-methoxyphenyl)amino)    vides new insights for the use of porphyrin derivatives to improve\nbenzenyl) porphyrin zinc (coded as ZnPP, Figure  1a) was    the performance of PSCs.                                                                                                                                                                       Library\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      [19/11/2026].\n                                                                                                                                                                                                                        See\n                                                                                                                                                                                                                        the\n                                                                                                                                                                                                                                                                                                                                                                       Terms\n                                                                                                                                                                                                                        and\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Conditions\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                               Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               governed\n                                                                                                                                                by\n                                                                                                                                                                                                                        the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               applicable\nFigure 1. a) Chemical structure and b) ESP of ZnPP; c–e) FTIR spectra of powder samples of ZnPP and mixture of ZnPP and PbI2; XPS spectra of f) Pb 4f\nand g) Zn 2p for the control and ZnPP-treated perovskite ﬁlms.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Creative\nSol. RRL 2022, 6, 2100964                  2100964 (2 of 8)            © 2021 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Figure 1. a) Chemical structure and b) ESP of ZnPP; c–e) FTIR spectra of powder samples of ZnPP and mixture of ZnPP and PbI2; XPS spectra of f) Pb 4f\nand g) Zn 2p for the control and ZnPP-treated perovskite ﬁlms.",
+          "figure_bbox": [
+            93.36,
+            298.02,
+            498.57,
+            692.52
+          ],
+          "bbox": [
+            48.02,
+            699.09,
+            543.98,
+            717.58
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Figure 1. a) Chemical structure and b) ESP of ZnPP; c–e) FTIR spectra of powder samples of ZnPP and mixture of ZnPP and PbI2; XPS spectra of f) Pb 4f\nand g) Zn 2p for the control and ZnPP-treated perovskite ﬁlms.",
+          "bbox": [
+            93.36,
+            298.02,
+            498.57,
+            692.52
+          ],
+          "file": "extracted_images/page2_figure-1_1.png"
+        }
+      ],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2022,\n                                                                                                                                               4,\n\n2. Results and Discussion                                    especially in the ﬁngerprint area, were believed to be caused                                                           by the interaction between ZnPP and PbI2. And as X-ray diffrac-                                          Downloaded\nA new D–π–A-type zinc porphyrin complex derivative ZnPP, with    tion  (XRD)  patterns  shown  in  Figure  S2,  Supporting                 from\ntriphenylamine as donor, pyridine as acceptor, and porphyrin as    Information, the peak at 2θ of 12.7  (the (001) plane of PbI2)\nπ bridge, was designed and synthesized for use as a passivation    of the mixtures  of ZnPP and PbI2 was strongly decreased\nmolecular in PSCs. ZnPP was obtained through MacDonald   compared to the pure PbI2. Obvious changes of the UV–vis\n2 þ 2 cyclization and the detailed synthetic procedures are pre-   and  ﬂuorescence  emission  spectra  for  the ZnPP  in N,N-\nsented in Scheme S1, Supporting Information. An electrostatic   dimethylformamide (DMF) solution were observed before and\npotential (ESP) map of ZnPP was calculated by using Gaussview    after the addition of PbI2 (Figure S3, Supporting Information).\nsoftware with self-consistent ﬁeld (SCF) density matrix and is   These above results indicated the interaction between ZnPP\npresented in Figure 1b. It is clearly shown that the negative   and PbI2. X-ray photoelectron spectroscopy (XPS) measurements\ncharges are mainly located on the N atom of the pyridine, which   were carried out to further investigate such interactions between\nis expected to coordinate with Pb2þ cations,[13,32] and the triphe-   ZnPP and the perovskite. For the pure perovskite ﬁlm without\nnylamine group is the electron-rich group conjugating with the   ZnPP treatment, there are two main Pb 4f peaks located  atelectron-withdrawing group through the large delocalized π sys-   138.48 and 143.39 eV, corresponding to the Pb 4f7/2 and Pb 4f5/2,                                                                                                                                                                                                                                                          https://onlinelibrary.wiley.com/doi/10.1002/solr.202100964,\ntem supplied by the porphyrin. The UV–vis spectra and ﬂuores-    respectively, and two small peaks at lower binding energy being                     Wiley\ncence emission spectra of ZnPP in chlorobenzene (CB) are    related to the metallic Pb0 which  is generally believed to be\nshown in Figure S1a, Supporting Information. ZnPP exhibited    strongly  tied to the defects (Figure  1f).[35] After embedding                         Online\na strong Soret absorption peak at 419 nm with two weak Q bands   ZnPP into the perovskite ﬁlms, the Pb 4f signals shifted to lower                              Library\nat 557 and 602 nm. When the ZnPP solution was irradiated with   binding energies (BEs) of 138.34 and 143.24 eV, respectively, and        on\na xenon lamp at 419 nm, the maximum ﬂuorescence emission    the  relative  content  ratio  of  Pb0  to  the  total Pb  content\npeak appeared at 629 nm. With longer storage time, the originally   (Pb0/(Pb0þPb2þ)) decreased from 6.5% in the control ﬁlm toclariﬁed chlorobenzene solution will begin to precipitate, and an   3.8%, indicating the passivating interaction between the ZnPP                                                       [19/11/2026].\nobvious  redshift  (about  38 nm)  in  the  UV–vis  spectra   and the undercoordinated Pb2þ ions in the perovskite ﬁlm.             See\n                                                                                                                                                                                                                      the\n(Figure S1b, Supporting Information) occurs, mainly due to   As shown in Figure 1g, the binding energy of Zn 2p3/2  at\nthe self-assembly of ZnPP,[33,34] suggesting that for a better pas-   1021.81 eV was observed in the ZnPP-treated perovskite ﬁlm,                     Terms\nsivation effect, fresh ZnPP solution is necessary.                 suggesting the presence of porphyrin in the perovskite ﬁlms.                 and\n  Powder samples of ZnPP and mixtures of ZnPP and PbI2     The amount of ZnPP plays a vital role in fabricating perov-were characterized using Fourier transform infrared (FTIR)    skite thin ﬁlms. To examine the inﬂuence of it on the surface                                          Conditions\nspectroscopy to study the interaction behavior of Pb2þ in perov-   morphology of perovskite ﬁlms, the scanning electron micro-\nskite with ZnPP (Figure 1c–e). It was found that the stretching   scope (SEM) analysis was carried out (Figure 2a–d). The grain\nvibration of C═N at 1567 cm  1 relative to pure ZnPP shifted    sizes of the perovskite ﬁlms were measured, and the statistics\ndownward to 1558 cm  1 in the mixture, indicating the coordinat-    are summarized  in Figure  2e. The compact ﬁlm without\ning interaction between the C═N and the Pb2þ in PbI2.[32] In   ZnPP was formed  with an  average  grain  size  of  about\naddition, changes in the position of the other absorption peak,   680 nm. After incorporation of ZnPP, the average perovskite                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                               on\n                                                                                                                                                                                                                                                                                                                                                                     Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                             Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Library\n                                                                                                                                                                                                                      for\n                                                                                                                                                                                                                                                                                                                                                                     rules\n                                                                                                                                               of\n                                                                                                                                                                                                                                                                                              use;\n                                                                                                                                               OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            articles\n                                                                                                                                                                                                                      are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            governed\n                                                                                                                                               by\n                                                                                                                                                                                                                      the\n\nFigure 2. Top-view SEM of perovskite ﬁlm a) without, with b) 0.02 mg mL  1, c) 0.05 mg mL  1, and d) 0.08 mg mL  1 of ZnPP in CB, e) statistics grain size                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           applicableof perovskite with different concentration of ZnPP treatment, f,g) indexed XRD patterns of perovskite ﬁlms with different concentration of ZnPP treat-\nment, and h) UV–vis absorption spectra of perovskite thin ﬁlms with (0.05 mg mL  1) and without ZnPP treatment.                                                                                                                                                         Creative\nSol. RRL 2022, 6, 2100964                  2100964 (3 of 8)            © 2021 The Authors. Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Figure 2. Top-view SEM of perovskite ﬁlm a) without, with b) 0.02 mg mL\u0002¹, c) 0.05 mg mL\u0002¹, and d) 0.08 mg mL\u0002¹ of ZnPP in CB, e) statistics grain size\nof perovskite with different concentration of ZnPP treatment, f,g) indexed XRD patterns of perovskite ﬁlms with different concentration of ZnPP treat-\nment, and h) UV–vis absorption spectra of perovskite thin ﬁlms with (0.05 mg mL\u0002¹) and without ZnPP treatment.",
+          "figure_bbox": [
+            54.35,
+            475.18,
+            543.64,
+            682.54
+          ],
+          "bbox": [
+            51.02,
+            686.0,
+            547.05,
+            717.58
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Figure 2. Top-view SEM of perovskite ﬁlm a) without, with b) 0.02 mg mL\u0002¹, c) 0.05 mg mL\u0002¹, and d) 0.08 mg mL\u0002¹ of ZnPP in CB, e) statistics grain size\nof perovskite with different concentration of ZnPP treatment, f,g) indexed XRD patterns of perovskite ﬁlms with different concentration of ZnPP treat-\nment, and h) UV–vis absorption spectra of perovskite thin ﬁlms with (0.05 mg mL\u0002¹) and without ZnPP treatment.",
+          "bbox": [
+            54.35,
+            475.18,
+            543.64,
+            682.54
+          ],
+          "file": "extracted_images/page3_figure-2_1.png"
+        }
+      ],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2022,\n                                                                                                                                                4,\n\ngrain sizes (799.8, 829.4, 754.6 nm for 0.02, 0.05, 0.08 mg mL  1,    perovskite ﬁlms, the absorption edge onset at about 800 nm andrespectively) become larger and get maximum at a concentration    the spectra show no shift. And the treated ﬁlm displayed a slight                                              Downloaded\nof 0.05 mg mL  1, suggesting the ZnPP treatment could effec-    absorption enhancement, which could be related to the improve-                   from\ntively improve the growth of perovskite grains. XRD patterns   ment of ﬁlm quality.[39] Based on the results of the SEM, XRD,\nwere also measured to investigate the inﬂuence of the ZnPP   and UV–vis absorption analysis, we note that neither the incor-\ntreatment on the structure of the perovskite. As presented in    poration of ZnPP change the cubic perovskite nor the ZnPP par-\nFigure 2f,g, the peaks at 14.11  , 24.45  , and 28.28 were indexed    ticipate in the lattice formation of the 3D perovskite. Brieﬂy, the\nto the (100), (111), and (200) lattice planes of the typical perov-   ZnPP dripped in perovskite layer just acted as heterogeneous\nskite, respectively.[36] Compared to the control ﬁlm, there are no    nucleation  sites  for the  crystallization  of 3D  perovskite  to\nadditional peaks, and no peak shifts for the ﬁlms treated by ZnPP   improve crystal formation and growth. Moreover, as time of\ntreatment, manifesting  that  the ZnPP molecular was  only    ﬂight secondary ion mass spectrometry (TOF-SIMS) shown in\nattached to the interface and surface of perovskite ﬁlm and   Figure S4, Supporting Information, the perovskite thin ﬁlm with\ndid  not change  the  crystal  structure  of  the  perovskite.[37]    rich ZnPP at the top surface and its concentration gradually\nHowever, the target samples exhibited stronger diffraction inten-   decreased at the bottom after spin coating.[16,17]sities and narrower full widths at half maximum (FWHM) at     The surface properties of with (0.05 mg mL  1) and without                                                                                                                                                                                                                                                                                  https://onlinelibrary.wiley.com/doi/10.1002/solr.202100964,\n2θ ¼ 14.11  , especially for the 0.05 mg mL  1 ZnPP-treated ﬁlm,   ZnPP-treated perovskite ﬁlms were further analyzed by atomic                       Wiley\nin which the FWHM decreased from 0.090  (control ﬁlm) to    force microscopy (AFM). As observed in Figure 3a,b, the incor-\n0.073  (Figure 2g). As is known, the higher intensities suggest    poration of ZnPP yields a smoother ﬁlm surface. The root mean                            Online\nbetter crystallinity and the narrower FWHM  is indicative of   square (RMS)                                                                       roughness of the perovskite ﬁlm treated with the                                 Library                                                                                          1larger average crystal sizes.[38] The XRD results further conﬁrm    0.05 mg mL   solution of ZnPP was decreased from 24.8 nm for         on\nthat the ZnPP treatment could contribute to higher quality perov-    the control perovskite ﬁlm to 23.8 nm, suggesting a smoother\nskite ﬁlms, but above an optimal concentration, negative effects    surface for the ZnPP-treated ﬁlm. Some recent studies havecan be observed, in agreement with the SEM results discussed   shown that the interfacial defects between the perovskite ﬁlm                                                            [19/11/2026].\nabove. UV–vis absorption spectra of perovskite thin ﬁlms without   and the HTM (i.e., Spiro-OMeTAD) layer have a stronger nega-              See\n                                                                                                                                                                                                                        the\nand with (0.05 mg mL  1) ZnPP are shown in Figure 2h. For both    tive inﬂuence on the PCE when compared to that of the grain\n                                                                                                                                                                                                                                                                                                                                                                       Terms\n                                                                                                                                                                                                                        and\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Conditions\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                               Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               governed\n                                                                                                                                                by\n                                                                                                                                                                                                                        the\n                                                                                               1                                                                                                                                                                                                                                                                                                                                                applicableFigure 3. The AFM images of perovskite thin ﬁlm a) without and b) with 0.5 mg mL  ZnPP treatment, c) normalized CWPL spectra excited at 470 nm,\nand d) TRPL decay of these ﬁlms on a glass substrate.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Creative\nSol. RRL 2022, 6, 2100964                  2100964 (4 of 8)            © 2021 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Figure 3. The AFM images of perovskite thin ﬁlm a) without and b) with 0.5 mg mL\u0002¹ ZnPP treatment, c) normalized CWPL spectra excited at 470 nm,\nand d) TRPL decay of these ﬁlms on a glass substrate.",
+          "figure_bbox": [
+            95.62,
+            364.18,
+            496.3,
+            692.52
+          ],
+          "bbox": [
+            48.02,
+            696.03,
+            544.06,
+            717.58
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Figure 3. The AFM images of perovskite thin ﬁlm a) without and b) with 0.5 mg mL\u0002¹ ZnPP treatment, c) normalized CWPL spectra excited at 470 nm,\nand d) TRPL decay of these ﬁlms on a glass substrate.",
+          "bbox": [
+            95.62,
+            364.18,
+            496.3,
+            692.52
+          ],
+          "file": "extracted_images/page4_figure-3_1.png"
+        }
+      ],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2022,\n                                                                                                                                               4,\n\nboundaries.[40,41] It is therefore conceivable that the smoother    also appeared an increase PL quenching than the control ﬁlms.surface of the perovskite ﬁlm leads to less interfacial defects   Time-resolved PL (TRPL) measurements  of the ﬁlms were                                          Downloaded\nat  the perovskite/HTM  interface,  thus an improved PCE.   performed, and the results ﬁtting with a biexponential decay                 from\nMoreover, as shown in the continuous-wave photoluminescence   formula:   f ðtÞ ¼ A1 expð  t=τ1Þ þ A2 expð  t=τ2Þ  are shown  in\n(CWPL) spectroscopy (Figure 3c), the PL peaks also show not   Figure 3d and Table S1, Supporting Information. The ZnPP-\nshift, which agrees with the observed UV–vis absorption edge.    treated perovskite ﬁlm exhibits photocarrier lifetimes that were\nFurthermore, the ZnPP-treated perovskite ﬁlm deposited on   more than three times those of the control ﬁlm, indicating a\nglass substrate gives an enhanced PL intensity compared with   reduced trap density and a slower photocarrier recombination\nthe control perovskite ﬁlm when the ﬁlms were excited  at    rate. The extended lifetime also suggests that the ZnPP incorpo-\n470 nm, indicating that ZnPP effectively suppressed the nonra-    ration improves the quality of the perovskite ﬁlm, where defect\ndiative recombination defects.[41] However, when we deposited    concentrations are minimized and thus the recombination of\nthe perovskite ﬁlms on FTO/SnO2 layer, the faster PL quenching    photocarriers is suppressed. However, the ZnPP-treated samples\nfor modiﬁed perovskite mostly be assigned to the faster charge    that with ETL or with HTM both showed the shorter average car-\ntransfer (Figure S5a, Supporting Information). PL for the perov-    rier lifetime constant (τave) than the control one, illustrating thatskite/Spiro-OMeTAD ﬁlms was also conducted as shown in    the charge transfer between the perovskite and charge transport                                                                                                                                                                                                                                                           https://onlinelibrary.wiley.com/doi/10.1002/solr.202100964,\nFigure S5b, Supporting Information; the ﬁlms with ZnPP treated    layers was improved (Figure S6, Supporting Information).                                  Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                             Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Library\n                                                                                                                                               on\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [19/11/2026].\n                                                                                                                                                                                                                      See\n                                                                                                                                                                                                                      the\n                                                                                                                                                                                                                                                                                                                                                                     Terms\n                                                                                                                                                                                                                      and\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Conditions\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                               on\n                                                                                                                                                                                                                                                                                                                                                                     Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                             Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Library\n                                                                                                                                                                                                                      for\n                                                                                                                                                                                                                                                                                                                                                                     rules\n                                                                                                                                               of\n                                                                                                                                                                                                                                                                                              use;\n                                                                                                                                               OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            articles\n                                                                                                                                                                                                                      are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            governed\n                                                                                                                                               by\n                                                                                                                                                                                                                      the\nFigure 4. a) The structure of device we used in this work, b) cross-sectional SEM of the full device with 0.05 mg mL  1 ZnPP treatment, c) current density–\nvoltage (J–V) curves and d) J–V curve hysteresis and (e) IPCE spectra (left) with the integrated JSC (right) based on the IPCE data of the optimized devices                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           applicablewith or without ZnPP-treated under reverse scan, f ) the photovoltaic statistic parameters of PSCs based on CF and CF NS2, which were measured in\nreverse scan under 1 sun illumination, g) long-term stability of the control and ZnPP-treated unencapsulated devices being stored in a nitrogen glove box.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Creative\nSol. RRL 2022, 6, 2100964                  2100964 (5 of 8)            © 2021 The Authors. Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Figure 4. a) The structure of device we used in this work, b) cross-sectional SEM of the full device with 0.05 mg mL\u0002¹ ZnPP treatment, c) current density–\nvoltage (J–V) curves and d) J–V curve hysteresis and (e) IPCE spectra (left) with the integrated JSC (right) based on the IPCE data of the optimized devices\nwith or without ZnPP-treated under reverse scan, f ) the photovoltaic statistic parameters of PSCs based on CF and CF NS2, which were measured in\nreverse scan under 1 sun illumination, g) long-term stability of the control and ZnPP-treated unencapsulated devices being stored in a nitrogen glove box.",
+          "figure_bbox": [
+            54.35,
+            260.37,
+            543.64,
+            672.51
+          ],
+          "bbox": [
+            51.02,
+            676.02,
+            547.07,
+            717.58
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Figure 4. a) The structure of device we used in this work, b) cross-sectional SEM of the full device with 0.05 mg mL\u0002¹ ZnPP treatment, c) current density–\nvoltage (J–V) curves and d) J–V curve hysteresis and (e) IPCE spectra (left) with the integrated JSC (right) based on the IPCE data of the optimized devices\nwith or without ZnPP-treated under reverse scan, f ) the photovoltaic statistic parameters of PSCs based on CF and CF NS2, which were measured in\nreverse scan under 1 sun illumination, g) long-term stability of the control and ZnPP-treated unencapsulated devices being stored in a nitrogen glove box.",
+          "bbox": [
+            54.35,
+            260.37,
+            543.64,
+            672.51
+          ],
+          "file": "extracted_images/page5_figure-4_1.png"
+        }
+      ],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2022,\n                                                                                                                                                4,\n\n  In this work, devices with n–i–p planar structure of glass/   PCE output of 19.34% and 20.06% was obtained separately forFTO/SnO2/Perovskite/Spiro-OMeTAD/Ag (Figure  4a), where    the control and ZnPP-treated cells in a period of 280 s.                                                                                       Downloaded\nthe ZnPP was introduced into the perovskite layer as a passiv-     As shown in the external quantum efﬁciency (EQE) spectra                   from\nation molecular during the antisolvent treatment, were fabricated    (Figure 4e), the devices modiﬁed with ZnPP show a slightly\nto study the effect of ZnPP on device performance. Figure 4b   higher EQE value, indicating a better charge extraction efﬁciency\nshows a representative cross-sectional SEM image of a ZnPP-    in the PSC, which is mainly associated to the reduction of non-\ntreated PSC. The perovskite crystals are observed to be continu-    radiative recombination and improvement of the interface con-\nous through the ﬁlm thickness, which will be beneﬁcial for high     tact. The integrated current densities of the devices with and\nperformance. On the contrary, stacked grains were observed for   without ZnPP  treatment were  calculated  to be  22.65 and\nthe perovskite layer without the ZnPP treatment (Figure S7,   22.41 mA cm  2, respectively, which closely matched the JSC val-\nSupporting Information). ZnPP concentrations of 0.01, 0.03,   ues from the J–V measurement. To gain more insight into the\n0.05, and 0.07 mg mL  1 in the antisolvent were used to deter-    effect of ZnPP on the optical properties of the device, statistical\nmine the optimal concentration, and the corresponding results    data of 32 devices with and without ZnPP treatment were evalu-\nare shown  in  Figure  S8, and  Table  S2,  S3,  Supporting    ated. As  illustrated in Figure 4f and Table S5, SupportingInformation. The PCE of the devices was signiﬁcantly enhanced    Information, the treated devices had a higher average PCE of                                                                                                                                                                                                                                                                                  https://onlinelibrary.wiley.com/doi/10.1002/solr.202100964,\nwith increasing ZnPP concentration up to an optimal concentra-   20.35  0.38%, VOC of 1.109   0.013, and FF of 82.46   0.74                       Wiley\ntion of 0.05 mg mL  1. The open-circuit voltage (VOC) and the ﬁll   compared with the control devices exhibiting an average PCE\nfactor (FF) showed the same increasing trend as the PCE. The JSC    of  19.45  0.47%,  VOC   of  1.064   0.020,  and  FF   of                            Online\nremained essentially unchanged by the addition of the ZnPP.   82.12   0.63. The above results show that ZnPP can signiﬁcantly                                 Library\nIt is clearly shown that the improvement of the PCE is mainly   improve the cells efﬁciency, especially in terms of open-circuit         on\ndue to the increase of VOC with an increase also in the FF.    voltage, indicating that ZnPP can effectively passivate defects\nThe concentration of 0.05 mg mL  1 for ZnPP in CB was found   and reduce nonradiative recombination. The narrower distribu-to be optimal to achieve the high-efﬁciency devices, in agreement    tion indicates that the treatment of ZnPP improves the reproduc-                                                            [19/11/2026].\nwith the SEM and XRD results presented above.                       ibility of high-performance perovskite.                                                     See\n  The champion devices’ J–V curves under reverse scan are    We then examined the long-term stabilities of those devices.              the\nshown in Figure 4c. The PSC with ZnPP treatment exhibited   The unencapsulated devices being stored in a nitrogen glove box                       Terms\na high efﬁciency of 21.08%, with a VOC of 1.126 V, a JSC of   while tested in the atmospheric  (  50 RH%) were assessed.              and\n22.57 mA·cm  2, and a FF of 82.91%. In contrast, the control   As shown in Figure 4g, the long-term device stability is testeddevice had a PCE of 20.18%, with a VOC of 1.097 V, a JSC of    every 24 h. While the control device shows a decrease of more                                               Conditions\n22.37 mA·cm  2, and a FF of 82.17%. Further, the hysteresis   than 10% in PCE after 1000 h, less than 2% PCE loss is observed\nindices  (Hindice)  of  the  devices  fabricated with  or without    for the ZnPP-treated PSC, demonstrating the enhanced device\nZnPP   treatment  were   assessed   using   the   Equation:    stability. And, in Figure S10, Supporting Information, the water\nHindice ¼ PCEreversePCEreversePCEforward  100%, and the results are shown    contact angle of pure perovskite ﬁlm enlarged from 57.3  to\nin Figure 4d and Table S4, Supporting Information. The smaller    59.2  of the ZnPP-treated ﬁlms. The enhancement of moisture\nhysteresis also provided a proof that the perovskite defects were    stability is mostly owing to the better crystallization and lower\nsuppressed by the ZnPP treatment.[42] The steady-state PCE of    defect of perovskite ﬁlm after ZnPP treatment. In addition,\ncontrol and ZnPP-treated cells at the maximum power point    the ZnPP-treated device presented a better thermal  stability\n(Pmax) were characterized under each maximum power bias volt-   than the control device at 85 C in a nitrogen environment\nage  (Vmax)  at  0.948 and  0.972 V,  respectively  (Figure  S9,    (Figure S11, Supporting Information).Supporting Information). The device with ZnPP modiﬁcation      In consideration of the excellent performance of the cells, we                                                                                                                                                                                                                                                           (https://onlinelibrary.wiley.com/terms-and-conditions)\nshowed a more stable PCE output, while the control device exhib-    further characterized the ﬁlms and corresponding devices to         on\nited a small decline at the beginning. And ﬁnally, a steady-state    acquire a  better understanding of the mechanisms  for the                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                               Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               governed\n                                                                                                                                                by\n                                                                                                                                                                                                                        the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               applicableFigure 5. a) EIS of with or without ZnPP-treated PSCs under an applied bias of 0.6 V in darkness, b) dark-state J–V curves of full with or without ZnPP-treated\ndevices, c) SCLC measurement based on electron-only devices of FTO/SnO2/perovskite (with or without ZnPP treatment)/PCBM/Ag under dark conditions.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Creative\nSol. RRL 2022, 6, 2100964                  2100964 (6 of 8)            © 2021 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       License",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Figure 5. a) EIS of with or without ZnPP-treated PSCs under an applied bias of 0.6 V in darkness, b) dark-state J–V curves of full with or without ZnPP-treated\ndevices, c) SCLC measurement based on electron-only devices of FTO/SnO2/perovskite (with or without ZnPP treatment)/PCBM/Ag under dark conditions.",
+          "figure_bbox": [
+            51.52,
+            551.83,
+            540.53,
+            692.52
+          ],
+          "bbox": [
+            48.02,
+            699.09,
+            544.02,
+            718.28
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Figure 5. a) EIS of with or without ZnPP-treated PSCs under an applied bias of 0.6 V in darkness, b) dark-state J–V curves of full with or without ZnPP-treated\ndevices, c) SCLC measurement based on electron-only devices of FTO/SnO2/perovskite (with or without ZnPP treatment)/PCBM/Ag under dark conditions.",
+          "bbox": [
+            51.52,
+            551.83,
+            540.53,
+            692.52
+          ],
+          "file": "extracted_images/page6_figure-5_1.png"
+        }
+      ],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                     2022,\n                                                                                                                                               4,\n\nimprovement of efﬁciency. Electrochemical impedance spectros-  Acknowledgementscopy (EIS) was used to study the charge transfer and recombina-                                                                                                                                                                                                                                                                                                                                                                                                    Downloaded\n                                                                         This work was supported by the National Key Research and Development                 fromtion of the devices at an applied voltage of 0.6 V in darkness. The\n                                                               Program of China (grant no. 2020YFB0408002). The authors would like to\nNyquist plots are shown in Figure 5a and ﬁtted with the equiva-                                                                        express their gratitude to Qiu Xiong for his help in EQE measurement and\nlent circuit diagram in the inset.[43] The charge recombination    Changjiu Sun for his help in TRPL measurement.\nresistance (Rrec) was determined to be 39 821 Ω·cm  2 for the     Open access funding provided by Ecole Polytechnique Federale de\nZnPP-treated device bigger than the results based on control    Lausanne.\ndevices  (25 301 Ω cm  2),  indicating  that  the  ZnPP-treated\ndevice suppressed the charge recombination and resulted an\nenhanced VOC in the corresponding device. The dark-state J–V   Conﬂict of Interest\ncurves of those devices are shown in Figure 5b, and a lower\n                                                               The authors declare no conﬂict of interest.\nleakage current of ZnPP-treated device was observed which will\ncreate less charge recombination and lead to a higher VOC in\nPSCs.[44,45]\n                                              Data Availability Statement  We further evaluated the trap density (ntrap) through a space                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  https://onlinelibrary.wiley.com/doi/10.1002/solr.202100964,\n                                                               The                                                                             data that support                                                                                                 the                                                                                              ﬁndingscharge       limited               current                   (SCLC) measurement                                        based                                         on electron-                                                                                                                     of this study are available in the                     Wiley                                                                    supplementary                                                                                            material                                                                                                       of this                                                                                                                                    article.only devices              of                                       (with                                            or without                                        ZnPP               FTO/SnO2/perovskite\ntreatment)/PCBM/Ag under  dark  conditions and  the  dark                                                                                                                                                                                                                                         Online\ncurrent–voltage                curves                        are                      shown                                   in Figure                                                  5c. According                                                                  to                                                                                                                                                                                                                                                                                Librarythe    slope, the curve                 can                     be divided                                    into                                       three regions                                                 along with\n                                             Keywords                                                              on\nthe bias increasing: the ohmic region, the trap-ﬁlled limited\n(TFL) region, and the trap-free SCLC region. The trap-ﬁlled limit    graded passivation, high efﬁciency, high stability, perovskite solar cells,voltage (VTFL) is the turning point between the ohmic region and    porphyrin derivative                                                                                                                                                                                                                                                                                                                                                                            [19/11/2026].\nthe TFL region, representing the state that the traps of the device                                                                                                                   Received: November 12, 2021             See\nare ﬁlled at a certain bias voltage. The ntrap can be obtained from                                                Revised: December 6, 2021             the\nVTFL by using the formula: ntrap ¼ 2εε0VTFL=eL2, where ε0 is the                                    Published online: December 28, 2021                     Terms\nvacuum  permittivity (8.854  10  12 F m  1), ε  is the  relative                                                                                                                    and\ndielectric constant of the perovskite, e is the elementary charge\n(1.6  10  19 C), and L is the thickness of the perovskite ﬁlm.[46]       [1] A. Kojima, K. Teshima, Y. Shirai, T. Miyasaka, J. Am. Chem. Soc. 2009,                                          Conditions\nThe VTFL of ZnPP-treated and control device was 0.139 and         131, 6050.\n0.210 V, and the corresponding  ntrap was determined to be       [2] NREL, Best Research-Cell Effciencies, https://www.nrel.gov/pv/cell-\n1.51   1015 and 2.29   1015 cm  3, respectively. These results         efﬁciency.html (accessed: December 2021).\n                                                                                                 [3]  J.  J. Yoo, G. Seo, M. R. Chua, T. G. Park, Y. Lu, F. Rotermund,suggested that passivation with ZnPP can signiﬁcantly reduce\n                                                                                      Y. K. Kim, C. S. Moon, N.  J. Jeon,  J. P. Correa-Baena, V. Bulovic,\nthe trap density in perovskite ﬁlm. The reduction of defects\n                                                                                       S. S. Shin, M. G. Bawendi, J. Seo, Nature 2021, 590, 587.\nand the improvement of the ﬁlm quality are the main reasons\n                                                                                                 [4]  J. Jeong, M. Kim,  J. Seo, H. Lu, P. Ahlawat, A. Mishra, Y. Yang,\nfor the enhanced performance of the ZnPP-treated PSCs.                                                            M. A. Hope, F. T. Eickemeyer, M. Kim, Y.  J. Yoon,  I. W. Choi,\n                                                                                 B.  P.  Darwich,  S.   J.  Choi,  Y.  Jo,   J.  H.  Lee,  B.  Walker,\n3. Conclusion                                                                  S. M.  Zakeeruddin,  L.  Emsley, U.  Rothlisberger,  A.  Hagfeldt,                                                                       D. S. Kim, M. Gratzel, J. Y. Kim, Nature 2021, 592, 381.                                                                                                 [5] H. Yang, Y. Feng, Z. Tu, K. Su, X. Fan, B. Liu, Z. Shi, Y. Zhang,                                                                                                                                                                                                                                     (https://onlinelibrary.wiley.com/terms-and-conditions)In summary, we synthesized a new D–π–A-type zinc pyridine\n                                                                               C. Zhao, B. Zhang, Nano Res. 2019, 12, 3129.                            on\nporphyrin derivative (ZnPP) and demonstrated the feasibility\n                                                                                                 [6] R. Xia, X. X. Gao, Y. Zhang, N. Drigo, V. I. E. Queloz, F. F. Tirani,                     Wileyfor ZnPP used as a passivation molecular in antisolvent process                                                                                 R.  Scopelliti, Z. Huang, X. Fang,  S. Kinge, Z.  Fei, C. Roldan-\nto enhance PSCs performance. When embedded ZnPP into       Carmona, M. K. Nazeeruddin, P.  J. Dyson, Adv. Mater. 2020, 32,                         Online\nperovskite            layer,                the                      quality of perovskite                               ﬁlm                                      was signiﬁcantly                                                                        2003801.\nimproved         such                as                    pinhole-free,                                  large and                                    uniform                                                      grains, and       [7] Y.                                                                         Zhang, M. Chen, Y. Zhou, W. Li, Y. Lee, H. Kanda, X.-X. Gao, R. Hu,                              Library\nsmooth morphology. The pyridine functional group in ZnPP         K. G. Brooks, R. Zia, S. Kinge, N. P. Padture, M. K. Nazeeruddin, Adv.             for\ncould passivate the undercoordinated Pb2þ cations, leading to         Energy Mater. 2020, 10, 2001300.                                                                                                   rulesof\na lower trap density and reduction of the defect-assisted recom-       [8] Q. D. Yang, J. Li, Y. Cheng, H. W. Li, Z. Guan, B. Yu, S. W. Tsang, J.                 use;\nbination in the perovskite ﬁlm. Based on these promotions, the         Mater. Chem. A 2017, 5, 9852.                                          OA\n                                                                          Zhang,                                                                                            Z. Zhou,                                                                                                                 F.   Ji,                                                                                                              Z.  Li,                                                                                                         G.                                                                                                                              Cui,  P.                                                                                                                 Gao,PSCs fabricated with ZnPP-treated achieved a higher champion       [9] Y.                                                                                                                                                    E.  Oveisi,                                  articles                                                                                                          Adv.                                                                                                              Mater.                                                            M.                                                                                       K. Nazeeruddin,                                                                                                             S. Pang,                                                                                                                  2018,                                                                                                                                  30,                                                                                                                       1707143.PCE of 21.08% compared to the 20.18% of control device. Our\n                                                                                      [10] B. Yang,  J. Suo, F. Di Giacomo, S. Olthof, D. Bogachuk, Y. Kim,             aretreatment strategy enriched the selection of passivator for high-\n                                                                                   X.  Sun,  L.  Wagner,  F.  Fu,  S. M.  Zakeeruddin,  A.  Hinsch,\nperformance PSCs.                                                            M. Grätzel, A. Di Carlo, A. Hagfeldt, ACS Energy Lett. 2021, 6, 3916.                                  governed\n                                                                                      [11] R. J. E. Westbrook, T. J. Macdonald, W. Xu, L. Lanzetta, J. M. Marin-        by                                                                                                                                                                                                                      the\nSupporting Information                                                Beloqui, T. M. Clarke, S. A. Haque,  J. Am. Chem. Soc. 2021, 143,\n                                                                          12230.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           applicable\nSupporting Information is available from the Wiley Online Library or from     [12] L. Gao, H. Su, Z. Xu, Y. Hu,  J. Zhang, S. Liu, Sol. RRL 2021, 5,\nthe author.                                                               2100416.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Creative\nSol. RRL 2022, 6, 2100964                  2100964 (7 of 8)            © 2021 The Authors. Solar RRL published by Wiley-VCH GmbH                              Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    License",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       2367198x,\nwww.advancedsciencenews.com                                                                                             www.solar-rrl.com                       2022,\n                                                                                                                                                4,\n\n[13] C. L. Mai, Q. Zhou, Q. Xiong, C. C. Chen, J. Xu, Z. Zhang, H. W. Lee,     [30] G. B. Xiao, L. Y. Wang, X. J. Mu, X. X. Zou, Y. Y. Wu, J. Cao, CCS Chem.     C. Y. Yeh, P. Gao, Adv. Funct. Mater. 2021, 31, 2007762.                  2021, 3, 25.                                                                                                                                                                                                                                                                                                          Downloaded\n[14] X. Gu, W. Xiang, Q. Tian, S. F. Liu, Angew. Chem., Int. Ed. 2021, 60,     [31] K. Gao, Z. Zhu, B. Xu, S. B. Jo, Y. Kan, X. Peng, A. K. Jen, Adv. Mater.                   from\n    23164.                                                                 2017, 29, 1703980.\n[15] R. Wang, J. Xue, K. L. Wang, Z. K. Wang, Y. Luo, D. Fenning, G. Xu,     [32] C. Yang, H. Wang, Y. Miao, C. Chen, M. Zhai, Q. Bao, X. Ding,\n     S. Nuryyeva, T. Huang, Y. Zhao, J. L. Yang, J. Zhu, M. Wang, S. Tan,         X. Yang, M. Cheng, ACS Energy Lett. 2021, 6, 2690.\n       I. Yavuz, K. N. Houk, Y. Yang, Science 2019, 366, 1509.                  [33] E. Deiters, V. Bulach, M. W. Hosseini, Chem. Commun. 2005,\n[16] Y. Zhang, H. Yang, M. Chen, N. P. Padture, O. Chen, Y. Zhou, Adv.        3906.\n     Energy Mater. 2019, 9, 1900243.                                            [34] C. M. Drain, J. M. Lehn, J. Chem. Soc. Chem. Commun. 1994, 2313.\n[17] F. Tan, H. Tan, M.  I. Saidaminov, M. Wei, M. Liu, A. Mei, P. Li,     [35] Z. Zhang, Y. Gao, Z. Li, L. Qiao, Q. Xiong, L. Deng, Z. Zhang, R. Long,\n     B. Zhang, C. S. Tan, X. Gong, Y. Zhao, A. R. Kirmani, Z. Huang,       Q. Zhou, Y. Du, Z. Lan, Y. Zhao, C. Li, K. Mullen, P. Gao, Adv. Mater.\n        J.  Z. Fan,  R. Quintero-Bermudez,  J. Kim,  Y. Zhao, O.  Voznyy,        2021, 33, 2008405.\n     Y. Gao, F. Zhang, L.  J. Richter, Z.-H. Lu, W. Zhang, E. H. Sargent,     [36] K. M. M. Salim, S. Masi, A. F. Gualdrón-Reyes, R. S. Sánchez,\n     Adv. Mater. 2019, 31, 1807435.                                                 E. M. Barea, M. Kreˆcmarová,  J. F. Sánchez-Royo,  I. Mora-Seró,\n[18] R. Hu, Y. Zhang, S. Paek, X. X. Gao, X. A. Li, M. K. Nazeeruddin, J.       ACS Energy Lett. 2021, 6, 3511.\n     Mater. Chem. A 2020, 8, 8058.                                             [37] Q. Zhou, Y. F. Gao, C. S. Cai, Z. Z. Zhang, J. B. Xu, Z. Y. Yuan, P. Gao,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 https://onlinelibrary.wiley.com/doi/10.1002/solr.202100964,\n[19] H. Zhang, Y. Wu, C. Shen, E. Li, C. Yan, W. Zhang, H. Tian, L. Han,        Angew. Chem., Int. Ed. 2021, 60, 8303.\n    W. H. Zhu, Adv. Energy Mater. 2019, 9, 1803573.                         [38] X. X. Gao, W. Luo, Y. Zhang, R. Hu, B. Zhang, A. Zuettel, Y. Feng,                       Wiley\n[20] C. Li, J. Yin, R. Chen, X. Lv, X. Feng, Y. Wu, J. Cao, J. Am. Chem. Soc.       M. K. Nazeeruddin, Adv. Mater. 2020, 32, 1905502.                                                                       Online\n    2019, 141, 6345.                                                             [39] H. Wang, F. Yang, N. Li, J. Song, J. Qu, S. Hayase, W. Y. Wong, Chem.\n[21] R. Chen, Y. Wang, S. Nie, H. Shen, Y. Hui, J. Peng, B. Wu, J. Yin, J. Li,         Eng. J. 2020, 392, 123677.                                                                                                                                                                   Library\n    N. Zheng, J. Am. Chem. Soc. 2021, 143, 10624.                           [40] L. Xu, R. M. Imenabadi, W. G. Vandenberghe,  J. W. P. Hsu, APL         on\n[22] Y. Zhou, H. Zhong, J. H. Han, M. Q. Tai, X. W. Yin, M. H. Zhang,         Mater. 2018, 6, 036104.\n     Z. Y. Wu, H. Lin, J. Mater. Chem. A 2019, 7, 26334.                      [41] M. Yang, Y. Zeng, Z. Li, D. H. Kim, C. S. Jiang, J. van de Lagemaat,[23] R. Giovannetti, Macro to Nano Spectroscopy, IntechOpen Limited,         K. Zhu, Phys. Chem. Chem. Phys. 2017, 19, 5043.                                                                                                                                                                        [19/11/2026].\n    London 2012, 6, 88.                                                         [42] H. P. Kim, M. Vasilopoulou, H. Ullah, S. Bibi, A. E. Ximim Gavim,              See\n[24] K. Su, P. Zhao, Y. Ren, Y. Zhang, G. Yang, Y. Huang, Y. Feng,         A. G. Macedo, W.  J. da  Silva,  F.  K.  Schneider,  A.  A.  Tahir,              the\n     B. Zhang, ACS Appl. Mater. Inter. 2021, 13, 14248.                   M. A. Mat Teridi, P. Gao, A. R. B. M. Yusoff, M. K. Nazeeruddin,                       Terms\n[25] X.  Li, C.  Li,  Y. Wu,  J. Cao,  Y. Tang,  Sci. China Chem. 2020,        Nanoscale 2020, 12, 7641.                                                                      and\n     63, 777.                                                                       [43] Q. Lou, Y. Han, C. Liu, K. Zheng, J. Zhang, X. Chen, Q. Du, C. Chen,\n[26] Z. Fang, L. Wang, X. Mu, B. Chen, Q. Xiong, W. D. Wang, J. Ding,         Z. Ge, Adv. Energy Mater. 2021, 11, 2101416.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Conditions\n     P. Gao, Y. Wu, J. Cao, J. Am. Chem. Soc. 2021, 143, 18989.             [44] T. Wu, Y. Wang, X. Li, Y. Wu, X. Meng, D. Cui, X. Yang, L. Han, Adv.\n[27] G. B. Xiao, Z. F. Yu, J. Cao, Y. Tang, CCS Chem. 2020, 2, 488.             Energy Mater. 2019, 9, 1803766.\n[28] C. Li, L. Wang, P. J. Yan, H. Liu, J. Cao, C. C. Chen, Y. Tang, Chem. Eng.     [45] Q. Xiong, L. Yang, Q. Zhou, T. Wu, C. L. Mai, Z. Wang, S. Wu, X. Li,\n       J. 2021, 409, 128167.                                                          P. Gao, ACS Appl. Mater. Inter. 2020, 12, 46306.\n[29] P. Yan, J. Cao, J. Pang, Z. Yang, X. Wang, X. Yao, Org. Electron. 2021,     [46] L. S. Liang, H. T. Luo, J. J. Hu, H. Li, P. Gao, Adv. Energy Mater. 2020,\n     93, 106158.                                                                  10, 2000197.\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          (https://onlinelibrary.wiley.com/terms-and-conditions)\n                                                                                                                                                on\n                                                                                                                                                                                                                                                                                                                                                                       Wiley\n                                                                                                                                                                                                                                                                                                                                                                                                                                               Online\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Library\n                                                                                                                                                                                                                        for\n                                                                                                                                                                                                                                                                                                                                                                       rules\n                                                                                                                                                of\n                                                                                                                                                                                                                                                                                                use;\n                                                                                                                                                OA\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               articles\n                                                                                                                                                                                                                        are\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               governed\n                                                                                                                                                by\n                                                                                                                                                                                                                        the\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               applicable\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               Creative\nSol. RRL 2022, 6, 2100964                  2100964 (8 of 8)            © 2021 The Authors. Solar RRL published by Wiley-VCH GmbH                                 Commons\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       License",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+        "117873320dae92b9740101d3daa20e0a",
+        "dd88a05bfe07d80fffdb135f32584b20",
+        "a961a25bd8f5b6d92251445321a3c29c",
+        "9e8155efba331e3221d9224a63db330d",
+        "48e784daaf7cefe3ac3d474e49d3f11c",
+        "cf8e7b41e4887669488734cc164df1dd",
+        "424ccd7e441a9ea7f6ab09db0931383f"
+      ],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "cde2017ee1dd0136c9ae78f4cb37ddd3",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            519.39,
+            0.0,
+            595.39,
+            15.0
+          ]
+        }
+      ],
+      "file": "garbage/page1_cde2017ee1dd0136c9ae78f4cb37ddd3.png",
+      "is_garbage": true
+    },
+    {
+      "id": "58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            525.72,
+            16.32,
+            539.26,
+            22.92
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            522.72,
+            16.32,
+            536.25,
+            22.92
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            525.72,
+            16.32,
+            539.26,
+            22.92
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            522.72,
+            16.32,
+            536.25,
+            22.92
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            525.72,
+            16.32,
+            539.26,
+            22.92
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            522.72,
+            16.32,
+            536.25,
+            22.92
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            525.72,
+            16.32,
+            539.26,
+            22.92
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            522.72,
+            16.32,
+            536.25,
+            22.92
+          ]
+        }
+      ],
+      "file": "garbage/page1_58f5134d3a32df5c0b651ef8fed03d93724294621cac190e82edee639e36bfcc.png",
+      "is_garbage": true
+    },
+    {
+      "id": "dd88a05bfe07d80fffdb135f32584b20",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            500.78,
+            19.46,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            497.78,
+            19.46,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            500.78,
+            19.46,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            497.78,
+            19.46,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            500.78,
+            19.46,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            497.78,
+            19.46,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            500.78,
+            19.46,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            497.78,
+            19.46,
+            536.89,
+            33.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_dd88a05bfe07d80fffdb135f32584b20.jpeg",
+      "is_garbage": true
+    },
+    {
+      "id": "a961a25bd8f5b6d92251445321a3c29c",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            526.02,
+            19.46,
+            538.25,
+            21.88
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            523.01,
+            19.46,
+            535.25,
+            21.88
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            526.02,
+            19.46,
+            538.25,
+            21.88
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            523.01,
+            19.46,
+            535.25,
+            21.88
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            526.02,
+            19.46,
+            538.25,
+            21.88
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            523.01,
+            19.46,
+            535.25,
+            21.88
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            526.02,
+            19.46,
+            538.25,
+            21.88
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            523.01,
+            19.46,
+            535.25,
+            21.88
+          ]
+        }
+      ],
+      "file": "garbage/page1_a961a25bd8f5b6d92251445321a3c29c.png",
+      "is_garbage": true
+    },
+    {
+      "id": "9e8155efba331e3221d9224a63db330d",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            502.54,
+            30.79,
+            523.84,
+            39.22
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            499.54,
+            30.79,
+            520.83,
+            39.22
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            502.54,
+            30.79,
+            523.84,
+            39.22
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            499.54,
+            30.79,
+            520.83,
+            39.22
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            502.54,
+            30.79,
+            523.84,
+            39.22
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            499.54,
+            30.79,
+            520.83,
+            39.22
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            502.54,
+            30.79,
+            523.84,
+            39.22
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            499.54,
+            30.79,
+            520.83,
+            39.22
+          ]
+        }
+      ],
+      "file": "garbage/page1_9e8155efba331e3221d9224a63db330d.png",
+      "is_garbage": true
+    },
+    {
+      "id": "48e784daaf7cefe3ac3d474e49d3f11c",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            501.96,
+            30.79,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            498.96,
+            30.79,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            501.96,
+            30.79,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            498.96,
+            30.79,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            501.96,
+            30.79,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            498.96,
+            30.79,
+            536.89,
+            33.24
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            501.96,
+            30.79,
+            539.89,
+            33.24
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            498.96,
+            30.79,
+            536.89,
+            33.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_48e784daaf7cefe3ac3d474e49d3f11c.png",
+      "is_garbage": true
+    },
+    {
+      "id": "cf8e7b41e4887669488734cc164df1dd",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            503.67,
+            30.79,
+            505.6,
+            33.24
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            500.66,
+            30.79,
+            502.59,
+            33.24
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            503.67,
+            30.79,
+            505.6,
+            33.24
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            500.66,
+            30.79,
+            502.59,
+            33.24
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            503.67,
+            30.79,
+            505.6,
+            33.24
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            500.66,
+            30.79,
+            502.59,
+            33.24
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            503.67,
+            30.79,
+            505.6,
+            33.24
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            500.66,
+            30.79,
+            502.59,
+            33.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_cf8e7b41e4887669488734cc164df1dd.png",
+      "is_garbage": true
+    },
+    {
+      "id": "424ccd7e441a9ea7f6ab09db0931383f",
+      "page": 1,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            520.78,
+            30.79,
+            522.71,
+            33.24
+          ]
+        },
+        {
+          "page": 2,
+          "bbox": [
+            517.77,
+            30.79,
+            519.71,
+            33.24
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            520.78,
+            30.79,
+            522.71,
+            33.24
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            517.77,
+            30.79,
+            519.71,
+            33.24
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            520.78,
+            30.79,
+            522.71,
+            33.24
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            517.77,
+            30.79,
+            519.71,
+            33.24
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            520.78,
+            30.79,
+            522.71,
+            33.24
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            517.77,
+            30.79,
+            519.71,
+            33.24
+          ]
+        }
+      ],
+      "file": "garbage/page1_424ccd7e441a9ea7f6ab09db0931383f.png",
+      "is_garbage": true
+    },
+    {
+      "id": "117873320dae92b9740101d3daa20e0a",
+      "page": 2,
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            51.02,
+            17.52,
+            148.08,
+            39.8
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            48.02,
+            17.52,
+            145.08,
+            39.8
+          ]
+        }
+      ],
+      "file": "garbage/page2_117873320dae92b9740101d3daa20e0a.png",
+      "is_garbage": true
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "publication_id": "P035",
+  "source_file": "P035.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "subject": "Energy Reports, 7 (2021) 1396-1403. doi:10.1016/j.egyr.2021.02.070",
+    "creator": "Elsevier",
+    "producer": "pdfTeX",
+    "creationDate": "D:20211212021524+05'30'",
+    "modDate": "D:20211212021524+05'30'",
+    "title": "Effect of novel double treatment on the properties of CdTe solar cells",
+    "DOI": "10.1016/j.egyr.2021.02.070",
+    "year": 2021,
+    "authors": [
+      "Sangsu Kim",
+      "Ju-Young Song",
+      "Deok Kim",
+      "Jinki Hong",
+      "Ick Joon Cho",
+      "Yong Hyub Kim",
+      "Jae-Uk Jeong",
+      "Mee Sun Yoon",
+      "Sung-Ja Ahn",
+      "Woong-Ki Chung",
+      "Taek-Keun Nam",
+      "Shinhaeng Cho"
+    ],
+    "author": "Sangsu Kim; Ju-Young Song; Deok Kim; Jinki Hong; Ick Joon Cho; Yong Hyub Kim; Jae-Uk Jeong; Mee Sun Yoon; Sung-Ja Ahn; Woong-Ki Chung; Taek-Keun Nam; Shinhaeng Cho"
+  },
+  "page_count": 8,
+  "pages": [
+    {
+      "page": 1,
+      "text": "                                                         Energy Reports 7 (2021) 1396–1403\n\n\n                                            Contents lists available at ScienceDirect\n\n                             Energy Reports\n\n\n                                            journal homepage: www.elsevier.com/locate/egyr\n\n\n\nEffect of novel double treatment on the properties of CdTe solar cells\n\nSangsu Kim a,1, Ju-Young Song b,1, Deok Kim a, Jinki Hong a, Ick Joon Cho b,\nYong Hyub Kim b, Jae-Uk Jeong b, Mee Sun Yoon b, Sung-Ja Ahn b, Woong-Ki Chung b,\n                                              b,∗Taek-Keun Nam b, Shinhaeng Cho\na Department of Display and Semiconductor Physics, Korea University, Sejong 30019, Republic of Korea\nb Department of Radiation Oncology, Chonnam National University Medical School, Gwangju, 61469, Republic of Korea\n\n\na r t i c l e    i n f o             a b s t r a c t\n\n\nArticle history:                                   In this study, the effect of Cl activation treatment on performance indicators of CdS/CdTe solar cells was\nReceived 24 August 2020                         investigated. We improved the performance of CdTe solar cells by applying a novel double treatment\nReceived in revised form 21 February 2021       method that combines the CdCl2 dipping treatment and Freon (difluoro chloromethane) treatment\nAccepted 25 February 2021                  methods that were previously studied. Conventional CdCl2 methanol dipping treatment (CdCl2 dipping\nAvailable online 8 March 2021\n                                              treatment), Freon gas treatment that includes chlorine (Freon treatment), and CdCl2 dipping treatment\nKeywords:                                + Freon treatment (double treatment) were performed, and the efficiencies, open circuit voltage (VOC),\nSolar cell                                and short circuit current (JSC) for all three processes were observed. Although the efficiencies of the\nCadmium telluride                            CdCl2 dipping treatment and Freon treatment were similar, there was a trade-off between the VOC and\nCadmium sulfide                                         JSC in both processes. The double treatment sample shows an efficiency of 14.3%, which was higher\nCl activation                                than that of a single-treated sample. To investigate the characteristic change of each part of the solar\nFreon treatment\n                                                           cell, an equivalent circuit model in which the device was divided into a main junction and a back\nTime of flight\n                                             contact was used. In addition to electrical measurements, secondary ion mass spectroscopy (SIMS)\n                                      and time of flight (TOF) analysis were performed. Through TOF measurement, drift mobility values for\n                                             three treatment samples were calculated to be 1.1 cm2/Vs, 1.8 cm2/Vs, and 1.9 cm2/Vs, respectively.\n                                      With TOF measurement, it was proved that the double treatment had a significant influence on the\n                                                 efficiency of the sample.\n                              © 2021 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND\n                                                                                            license (http://creativecommons.org/licenses/by-nc-nd/4.0/).\n\n\n\n1. Introduction                                                      activation process removes inherent structural defects (Moutinho\n                                                                        et al.) and improves the properties of the thin-film, it is essential\n  Cadmium telluride (CdTe) thin-film solar cell technology has     for achieving high-efficiency solar  cells. Therefore, various Cl\nbeen showing steady growth in the solar energy market world-     activation treatment methods have been proposed to improve\nwide. Recently, CdTe solar cell technology has achieved a de-    the efficiency of CdTe-based solar cells. Usually, Cl activation\nvice efficiency close to 22% (Green et  al., 2019). Today,  it  is    treatment is carried out using chlorine salts such as CdCl2, MgCl2,\nthe most promising thin-film technology with a high market    NH4Cl, and NaCl (Bayhan, 2004; Hiie, 2003; Niles et al., 1998;\nshare. Although 22% efficiency has been reported, the achiev-    Williams et  al., 2015; Potlog et  al., 2003; Potter et  al., 2000)\nable value for CdTe is 33%, according to the Shockley–Queisser    or using chlorine-containing gases such as Freon (Salavei et al.,\nlimit for single-junction solar cells (Shockley and Queisser, 1961;    2013) and HCl (Qu et al., 2000). Among them, the most com-\nPolman et al., 2016). Therefore, to reach that efficiency level, fur-   mon Cl activation process is to form a CdCl2 layer on CdTe thin\nther research on the interface, junction, and electrical contact of     films either by thermal evaporation or by dipping the films in a\nCdTe-based solar cells is necessary. Unlike other thin-film devices    methanol solution and annealing them between 350 and 450 ◦C.\nsuch as CuInGaSe2 (Repins et al., 2008) and Cu2ZnSnS4 (Ahmed    However, using a gas containing chlorine, such as Freon (difluoro\net al., 2012), CdTe achieves high conversion efficiency through    chloromethane), has the advantages of avoiding both carcino-\nthe Cl activation process. High-temperature post-treatment in    gens and the wet treatment in the Cl activation process, thereby\na chlorine-containing atmosphere is performed regularly to in-     increasing the reproducibility and scalability of solar cell produc-\ncrease the grain size and improve layer quality. Since the Cl     tion (Romeo et al., 2010). High-temperature heat treatment of the\n                                                                  as-deposited cells in a vacuum chamber in a chlorine-containing\n  ∗Corresponding author.                                        atmosphere produces recrystallization and grain boundary passi-\n     E-mail address:  cho.ilmm80@gmail.com (S. Cho).                         vation effects similar to the dipping treatment of CdCl2 (Romeo\n  1 These authors contributed equally to this work.                            et al., 2009). A previous study reported the fabrication of a solar\n\n\nhttps://doi.org/10.1016/j.egyr.2021.02.070\n2352-4847/© 2021 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-\nnc-nd/4.0/).",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "f09477a4aeaaaafb5da4a16d9312bab1",
+        "40df0c8d031883b29446dd08a0b8d2c0",
+        "81698c10d8693579889a5855c220d257"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "S. Kim, J.-Y. Song, D. Kim et al.                                                                                              Energy Reports 7 (2021) 1396–1403\n\ncell with approximately 15% efficiency after a CdTe cell deposited    400 mbar. Under such controlled pressure, the CdTe cells were\nby a closed-space sublimation (CSS) method at high temperature    annealed at 400–450 ◦C for <30 min. Typically, Freon dissociates\nwas subjected to a gas treatment (Rios-Flores et al., 2012). How-    approximately above 400 ◦C to produce chlorine, which subse-\never, the CdTe cells were deposited at a lower temperature by the    quently reacts with CdTe to form CdCl2. The process aids in the\nphysical vapor deposition (PVD) method than by the CSS method,     recrystallization and passivation of grain boundaries.\nresulting in smaller grain sizes in CdTe cells deposited via PVD.        In this study, the double treatment of the sample was carried\nTherefore, increasing the grain size in CdTe through annealing is    out by performing CdCl2 dipping treatment, followed by the Freon\nimportant. Moreover, for applications entailing novel materials    treatment. The Freon treatment was carried out at a temperature\nsuch as flexible substrates, further research to maintain a low    above 430 ◦C. In addition, a sample without chlorine activation\ndeposition temperature through PVD is required. The Freon treat-    was fabricated as a reference. Before the deposition of the back-\nment results in lower efficiency than that of the samples treated     contact, the CdTe surfaces were etched with an NP solution to\nwith CdCl2 using a methanol dipping process. This phenomenon,    remove the CdCl2 residue and form a heavily doped p + layer. Cu\nwhich is known for its low carrier concentration and less effective     (4 nm) and Au (100 nm) were deposited by magnetron sputtering\nA-center complex (Vcd-Cl), is demonstrated by the reduction of     to form the back-contact. Finally, the samples were annealed at\nopen-circuit voltage (VOC) (Romeo et  al., 2018). Salavei et  al.    190 ◦C for <20 min for activating the back-contact region.\nshowed that this problem could be solved partially by using the\nFreon treatment, followed by the CdCl2 dipping process (Bruno,      2.2. Equivalent circuit modeling\n2019). However,  if one treatment process is performed more\nexcessively than the other, the overall efficiency  is adversely       For analyzing the structural configuration of the device, we\naffected (Rimmaudo et al., 2017), which suggests that the treat-    constructed an equivalent circuit of the main junction region and\nment processes improve the overall efficiency through different    back-contact interface. The entire stack structure of the device\nmechanisms. In addition, the crystal growth direction is different      (i.e. Au/CdTe/CdS/TCO) (Fig. 1) consists of two diode regions.\nwhen heat treatment is performed in combination with the Freon    These are the diodes in the back-contact area of CdTe/Au and the\ntreatment and CdCl2 dipping treatment (Salavei et al., 2013).       p–n junction diode of CdTe/CdS. By analyzing the characteristics\n   In this study, experiments were conducted on double-treated     of both the diode regions, we can estimate the contribution of\nsamples, which underwent CdCl2 dipping treatment, followed by    each region to the performance variation of the device. There-\nthe Freon treatment. Double treatment can rarely be found in lit-     fore, we conducted experiments for quantitative analysis of the\nerature, and this is the first study to report the performance of so-    device performance improvement by analyzing each part of the\nlar cells fabricated using the above mentioned double-treatment    equivalent circuit. CdTe acts as a p-type semiconductor with a\nprocesses. In addition, here we have reported the results of the     large electron affinity and bandgap of approximately 4.5 and 1.5\ntime-of-flight (TOF) measurement method, which directly ob-     eV, respectively. The back-contact metal layer and the CdTe layer\nserves the mobility of a substance by measuring the transient    form a Schottky barrier, which is depicted as two back-to-back\ntime (tT) taken to collect the carriers generated by light. This    diodes in the equivalent circuit model.\nmethod has rarely been used for assessing the performance of a\nCdTe thin-film solar cell previously.                                        2.3. Characterization of the device performance\n   Here, an equivalent circuit model of a CdTe-based solar cell\nwas constructed, followed by an analysis of the performance      The performance  of the CdTe  cells was evaluated using\nimprovement of each part of the device to identify the parts that    current–voltage (J–V) characteristic analysis under AM 1.5 illumi-\ncontributed to the performance improvement during CdCl2 dip-    nation with a power density of 100 mW/cm2. The key parameters\nping treatment, Freon treatment, and the double treatment. It was     of the solar cell were average values of 5 sample datapoints for\nconfirmed that the performance improvement was maximized by    each treatment method. The error value was specified to be the\nthe double treatment because each of the two treatment methods    standard deviation. Table 1 lists the main parameters of the solar\ninfluenced separate factors. It was further demonstrated that the     cell along with error values in each parameter.\nmain junction part of the solar cell, not the back-contact part,\ncontributed most to the performance improvement. Therefore,      2.4. TOF measurement\nthe double treatment can be effectively applied to a CdTe-based\nsolar cell deposited at a low temperature.                        TOF is a technique that determines the charge carrier mo-\n                                                                                 bility in semiconductors. The TOF technique for drift mobility\n2. Experiments & measurements                             measurements (Chen et al., 2000) is a direct and reliable way to\n                                                                     reveal the transport properties of materials. The basic idea behind\n2.1. Sample fabrication                                            the TOF method is to measure the current signal generated by\n                                                               a moving photocarrier inside a material. Through this technique,\n   Here, the device with the superstrate structure was configured    the transient response voltage to the drift of the carrier produced\nby depositing Corning 7059 glass having a 100 nm thick indium    by a short light pulse excitation can be measured. A pulsed laser\ntin oxide (ITO) layer. On this layer, CdS films having a thickness      is used to illuminate one side of the sample and produce a thin\nof 100 to 150 nm were deposited by PVD using a high purity CdS    sheet of electrons and holes (Fig. 2) near the illuminated side of\npowder (99.995%, Sigma Aldrich) at a substrate temperature of    the sample.\n200 ◦C and deposition rate of 3 Å/s. Subsequently, a CdTe layer      The sample thickness is assumed to be D. After the photocar-\nhaving a thickness of 5–6 µm was sequentially deposited by PVD     riers are generated, they drift across the CdTe layer under the\nat a substrate temperature of 350 ◦C. Activation treatment of the     influence of an internal or external electric field E. In the presence\nCdTe cells was carried out in two ways: CdCl2 dipping treatment     of an electric field, a thin layer of charge carriers moves from the\nand Freon treatment. In the CdCl2 dipping treatment, the cells     front electrode to the back electrode. As the charge sheet reaches\nwere dipped in a supersaturated CdCl2 methanol solution and    the back electrode, a drop in photocurrent is observed, especially\nannealed in a furnace at 350–450 ◦C. In the Freon treatment,     in materials that exhibit non-dispersive charge transport (Kokil\na mixture of CHF2Cl and Ar gases was used. The pressure of     et al., 2012). The drop is represented by the ‘‘knee’’ at the transit\nCHF2Cl was 40 mbar, and the total pressure of Ar and CHF2Cl was    time tT, shown in Fig. 2. Here, tT is defined as the time required\n\n                                                                  1397",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "S. Kim, J.-Y. Song, D. Kim et al.                                                                                              Energy Reports 7 (2021) 1396–1403\n\n\n                   Table 1\n                    Photovoltaic parameters of the solar cell devices after each treatment method at AM 1.5 illumination. Each of the main\n                   parameters was averaged for five sample datapoints for each treatment method.\n\n                       Cl                    Voc                            Jsc                   FF                     Efficiency             Efficiency\n                    treatment            (V)                (mA/cm2)             (%)                    (%)                    difference\n                  methods                                                                                                          (%)\n                 None                0.34 ± 0.01          22.6 ± 0.3           65.0 ± 0.1            7.9 ± 0.2          100\n                   Methanol            0.78 ± 0.03          23.6 ± 0.5           65.7 ± 0.3           13.2 ± 0.4         167\n                     dipping\n                    Freon                0.70 ± 0.02          25.2 ± 0.7           65.4 ± 0.4           12.1 ± 0.5         153\n                   Double               0.79 ± 0.03          25.4 ± 0.5           65.5 ± 0.3           14.3 ± 0.5         181\n                    treatment\n\n\n\n\n\nFig. 1. (a) Schematic diagram of the sample structure. (b) Equivalent circuit model of the back-contact and absorber layer in a typical CdS/CdTe solar cell device.\nBarrier height appears at the back-contact interface implying that the device has a back-to-back diode structure.\n\n\n\n\n\n                                                        Fig. 2. Schematic diagram of the TOF measurement instrument.\n\n\nby the generated photocarriers to reach the opposite electrode of      2.5.  Jt modeling\nthe sample. The carriers generated between the two electrodes\n                                                              High contact barriers result in a current-limiting rollover\ndrifted across the main p–n junction under the influence of the\n                                                         (Demtsu and Sites, 2006). CdTe does not form a perfect ohmic\napplied electric field. The time taken by the charge carriers to    contact at the interface with the metal.  It forms two diode\ntravel across the device internally (tT) was determined by moni-     circuits, like the equivalent circuit model; thus, a rollover phe-\ntoring the measured photocurrent. Using the known electric field   nomenon occurs. Through the measurement of the rollover effect,\n                                                                                                it is possible to calculate the turning current Jt (Demtsu and Sites,(E) and the thickness (D) of the sample, the carrier mobility (µ)\n                                                                   2006), defined as the current density value whose slope changes\nis determined from the following equation:                                                                  abruptly with the bias voltage. As shown in Fig. 6, the turning\n                                                                   current is determined by the intersection made by two different    D\nµ =        .                                                       (1)     slopes, and as shown in inset of Fig. 6, the rollover effect on the\n     E∗tT                                                      J–V curve increases gradually as the temperature decreases. The\n                                                                        theoretical Jt is given by Koishiyev et al. (2008)A laser pulse of 325 nm was incident on perpendicular to the\nglass (Suzuki and Shiraki, 2009). It was assumed that the light        Jt = A ∗T 2e((−qΦb)/kT),                                           (2)\nwas completely absorbed by the CdTe layer, generating charge    where A* is the Richardson constant, and Φb is the barrier height.\ncarriers in the junction layer.                                 The barrier height of the contact is calculated by performing a\n\n                                                                  1398",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Fig. 1. (a) Schematic diagram of the sample structure. (b) Equivalent circuit model of the back-contact and absorber layer in a typical CdS/CdTe solar cell device.\nBarrier height appears at the back-contact interface implying that the device has a back-to-back diode structure.",
+          "figure_bbox": [
+            100.12,
+            151.99,
+            495.15,
+            344.06
+          ],
+          "bbox": [
+            37.62,
+            353.78,
+            557.66,
+            368.99
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Fig. 2. Schematic diagram of the TOF measurement instrument.",
+          "figure_bbox": [
+            127.73,
+            382.5,
+            467.54,
+            532.52
+          ],
+          "bbox": [
+            196.26,
+            542.24,
+            399.01,
+            548.89
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Fig. 1. (a) Schematic diagram of the sample structure. (b) Equivalent circuit model of the back-contact and absorber layer in a typical CdS/CdTe solar cell device.\nBarrier height appears at the back-contact interface implying that the device has a back-to-back diode structure.",
+          "bbox": [
+            100.12,
+            151.99,
+            495.15,
+            344.06
+          ],
+          "file": "extracted_images/page3_figure-1_1.png"
+        },
+        {
+          "label": "Figure 2",
+          "caption": "Fig. 2. Schematic diagram of the TOF measurement instrument.",
+          "bbox": [
+            127.73,
+            382.5,
+            467.54,
+            532.52
+          ],
+          "file": "extracted_images/page3_figure-2_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "S. Kim, J.-Y. Song, D. Kim et al.                                                                                              Energy Reports 7 (2021) 1396–1403\n\ncomparison with the experimental data according to the the-\noretical output. By measuring the back-contact barrier height\nthrough this measurement, it is possible to measure the degree\nto which each treatment process contributes towards improving\nthe back-contact properties.\n\n\n3. Results & discussion\n\n\n3.1. Electrical measurement\n\n   Table 1 lists the performance parameters VOC, JSC, FF (fill fac-\ntor), and efficiency values of the solar cells estimated from the J–V\ncurves of the reference, CdCl2 dipping treated, Freon treated, and\ndouble-treated samples. The J–V curves were measured under\nAM 1.5 illumination with a power density of 100 mW/cm2. As\nshown in Table 1, the samples without Cl treatment recorded the\nvalues of 0.34 V and 22.6 mA/cm2 for Voc and Jsc, respectively,\nwhich are important parameters of the solar cell. When the Cl\ntreatment was not performed, the efficiency was found to be      Fig. 3. EQE data of each sample treated with methanol dipping CdCl2 (blue line),\napproximately 7.9%, which was significantly lower than that of a     Freon gas (red line), and CdCl2 + Freon (cyan line).  (For interpretation of the\n                                                                                     references to color in this figure legend, the reader is referred to the web version\ndouble-treated sample. CdCl2 dipping and Freon treatment CdTe      of this article.)\nsamples show Voc values of 0.78 and 0.70 V, respectively. The\nvalue of VOC of the sample treated with CdCl2 dipping is larger\nthan that of the Freon treated sample. As VOC provides an estimate                                                            The relative concentrations of sulfur and tellurium were es-\nof the internal field because of the difference in the bandgap,\n                                                               timated in the CdCl2 dipping treatment sample and the Freon\nwhich is significantly influenced by the formation state of the p–n\n                                                               treatment sample. Fig. 4(a) shows that compared to those in the\njunction, we infer that a difference in the final junction formation\n                                                            samples with CdCl2 dipping treatment, the amounts of S and Testate appears in these two treatments. Meanwhile, the Voc of the\n                                                                   are relatively different in the Freon-treated samples owing to the\ndouble treatment sample is 0.79 V, showing a value similar to\n                                                           consumption of CdS. The result indicates that more sulfur con-\nthat of the CdCl2 dipping treatment sample. This results from the\n                                                           sumption occurs in the main junction during the Freon treatmentexcessive consumption of CdS by Freon treatment and will be\ndescribed along with the SIMS measurement results. Unlike the    compared to the CdCl2 dipping treatment. The consumption of\nVOC value, the JSC value obtained from the Freon treatment sample     sulfur results from the loss of CdS during the activation process,\nwas 25.2 mA/cm2, which was larger than the 23.6 mA/cm2 value    which leads to instability during the formation of the main p–n\nobtained from the CdCl2 dipping treatment sample. In CdTe-based     junction and a decrease in VOC. This is due to the difference in the\nsolar cells, CdTe does not form a pure ohmic contact with the    penetration capacity of the Cl radicals in the CdCl2 dipping treat-\nback-contact metal. The formation of the Schottky barrier rather    ment, which is a wet treatment process, and the Freon treatment,\nthan a pure ohmic contact increases RS and causes a decrease in    which is a gas treatment process. In addition, at the CdS/CdTe\nJSC. Therefore, to observe the effect of the Schottky barrier, mea-     interface, the sample treated with Freon shows a flatter curve for\nsurement of the Schottky barrier height was performed through    the sulfur concentration, compared to that of the CdCl2 dipping\nJt modeling. In addition, a reduced JSC may result from a decrease    treatment sample. In other words, a higher sulfur concentration\nin carrier concentration or a decrease in mobility because of a    was observed in the Freon treatment samples in the region of 0\npoor main p–n junction. For double treatment samples, a Jsc value     to 2 µm in thickness and 5 to 7 µm thickness in the electrode\nof 25.4 mA/cm2 was recorded, and a value similar to that of the     region; a lower sulfur concentration was observed in the region\nFreon treatment sample was recorded. This is expected to be                                                                        of 3 to 5 µm in thickness. This  is an index to estimate the\nthe result of compensating the effect of Jsc reduction through                                                                  extent of intermixing in the two treatment processes. Further,\nCdCl2 dipping the effect of Freon treatment. The results will be                                                                                                it is assumed that the mixing of sulfide and CdTe promotes the\nexplained in the TOF measurement section. Further, as listed in\n                                                                  reduction of interface carrier recombination, however, there is no\nTable 1, the  fill factor (FF) is approximately equal in samples\n                                                               experimental evidence of this phenomenon so far. Therefore, the\nsubjected to both the treatment methods. Due to the trade-off\n                                                                      difference between the consumption of sulfur in the two treat-\nbetween VOC and JSC in the CdCl2 dipping treatment and Freon\n                                                     ment processes and the intermixing process are important factors\ntreatment, the final efficiency of the two samples showed no\n                                                                     to consider. Furthermore, the double treated sample showed an\nsignificant difference. With CdCl2 dipping and Freon treatment\n                                                               approximately identical sulfur concentration curve to the samplesamples, the efficiency was lost due to the trade-off between Voc\n                                                                    treated with CdCl2 dipping. Meanwhile, it is evident from Fig. 4(b)and Jsc, but the double treatment sample recorded the highest\nefficiency of 14.3% due to the compensation effect of each param-     that the Cl peak of the Freon treated sample is larger than those\neter. Fig. 3, shows the EQE data to compare the results of the JSC     of the CdCl2 dipping and double treated samples, and clearly, this\nvalue. This EQE data can be used as support data for comparison    trend is contrary to the cases of the S and Te peaks. This indicates\nof JSC values.                                                         that for Cl activation through Freon treatment, the amount of Cl\n                                                                     acting inside the junction and CdTe is relatively larger than that in\n3.2. SIMS measurement                                            the case of the CdCl2 dipping treatment; thus, the internal impuri-\n                                                                               ties can be compensated more effectively. Further, JSC is relatively\n   To better understand the treatment process-dependent varia-    increased because the trapped charge carriers are reduced via the\ntion of VOC, SIMS measurement data recorded for different depths     effective removal of these impurities. The drift mobility calculated\nof the device are shown in Fig. 4.                                based on the TOF in the following subsection verifies this effect.\n\n                                                                  1399",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Fig. 3. EQE data of each sample treated with methanol dipping CdCl2 (blue line),\nFreon gas (red line), and CdCl2 + Freon (cyan line).\n(For interpretation of the\nreferences to color in this figure legend, the reader is referred to the web version\nof this article.)",
+          "figure_bbox": [
+            322.28,
+            53.32,
+            541.99,
+            237.32
+          ],
+          "bbox": [
+            306.6,
+            247.04,
+            557.66,
+            279.39
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Fig. 3. EQE data of each sample treated with methanol dipping CdCl2 (blue line),\nFreon gas (red line), and CdCl2 + Freon (cyan line).\n(For interpretation of the\nreferences to color in this figure legend, the reader is referred to the web version\nof this article.)",
+          "bbox": [
+            322.28,
+            53.32,
+            541.99,
+            237.32
+          ],
+          "file": "extracted_images/page4_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "S. Kim, J.-Y. Song, D. Kim et al.                                                                                              Energy Reports 7 (2021) 1396–1403\n\n\n\n\n\nFig. 4. SIMS depth profiles of the S, Te peaks (a) and Cl peak (b) in back-contact metal electrode (Au) to front contact electrode (TCO) for each sample treated with\nmethanol dipping CdCl2 (red dots), Freon gas (blue dots), and CdCl2 + Freon (cyan dots).  (For interpretation of the references to color in this figure legend, the\nreader is referred to the web version of this article.)\n\n\n3.3. TOF measurement                                                      Table 2\n                                                                                     Photovoltaic parameters of Voc, Jsc and drift mobility at room temperature.\n    Fig. 5(a) shows the oscilloscope trace measurement data of        Cl                       Voc                           Jsc                      Drift\n                                                                                treatment               (V)               (mA/cm2)            mobility\nthe CdCl2 dipping treatment sample. The transient time (tT) of      methods                                                       (cm2/Vs)\nthe non-dispersive model (Long, 2015) can be obtained from the\n                                                                           Methanol               0.78 ± 0.03         23.6 ± 0.6           1.1\npoint where the slope of the oscilloscope trace data changes (Kokil      dipping\net al., 2012). In Fig. 5(a), the transient time is approximately 4.0                                                                               Freon                  0.70 ± 0.02         25.2 ± 0.9           1.9\n× 10−6 s at 0.1 V and nearly 2.0 × 10−6 s at 1.0 V. The hole drift\n                                                                           Double                 0.79 ± 0.03         25.4 ± 0.8           1.8\nmobility is derived from the slope of the transient graph. Fig. 5(b)       treatment\nshows information about the samples treated with each method,\nand the dashed lines correspond to the linear fitting of the data.\n  From the linear fitting of the data, the hole drift mobilities\nin the above-mentioned treated samples were obtained. Charge    previous study (Bruno, 2019), Freon gas treatment resulted in a\ntransport in disordered semiconductors can also be dispersive    lower carrier concentration compared to the CdCl2 dipping. The\n                                                       TOF measurement results show that the value of JSC depends onin nature owing to the presence of charge trapping sites at dif-\n                                                                 the treatment process, indicating that the performance improve-ferent depths of the sample. However, we have not discussed\n                                                     ment is due to the main contact, and it is not a result of thedispersive charge transport here since our sample exhibits only\n                                                             performance improvement of the back-contact.non-dispersive charge transport. For normal charge transporta-\ntion, wherein the displacement current remains constant during\n                                                                                   3.4. Back-contact interface barrier height measurement (Jt model-the movement of the carrier, a drift model is used to represent\n                                                                          ing)\ndrift mobility expressed by Eq. (1). For the TOF measurements of\nour CdTe thin film, a pulsed nitrogen laser of wavelength 325 nm\n                                                                                     Fig. 6 is a graph obtained by the  Jt modeling method. Thewas used to illuminate one side of the sample for generating\n                                                                          solid line represents simulation data obtained using Eq. (2). Each\nphotocarriers on that side. The pulse width was set to be less\n                                                                        of the points represents the data measured according to the\nthan 10 ns to minimize the effect of the illumination duration.\n                                                                      actual temperature indicated on the simulation data (Kim et al.,\nThe physical thickness of all the CdTe samples tested was ap-\n                                                                   2018). The data are distributed near the simulation data of 0.39\nproximately 20 µm. The absorption coefficient α at a wavelength\n                                                       eV regardless of each sample processing method, indicating that\nof 325 nm is about 5 × 105 cm−1, which corresponds to an\n                                                                 the back-contact barrier height did not change depending on the\nabsorption depth of 0.02 µm. Therefore, it is assumed that the                                                                  processing method. As a result, the back-contact barrier heights\ngeneration of the photocarriers occurs at the CdTe surface in the                                                         measured after  all the treatments were consistent with each\nglass direction of the laser incidence. To measure the hole drift                                                                 other with no significant change, which implies that the processes\nmobility, a bias to the electrode on the glass surface is applied                                                                 did not affect the back-contact interface.\nto the generated photocarriers to aid their drift. Fig. 5(b) shows\nthe bias voltage dependence of the d2/tT of samples for each      3.5. Crystallography (XRD & SEM)\ntreatment method. The points represent each of the experimental\ndata and the dashed lines are fitted curves derived from the      The back-contacts and remaining layers of the solar cell were\npoints. The drift mobility of the sample can be derived through     built with identical parameters to handle different characteris-\nthe slope of the graph. The drift mobilities of approximately 1.1,     tics (Romeo et al., 2009). SEM micrographs in Fig. 7 show that the\n1.9, and 1.8 cm2/Vs were obtained for CdCl2 dipping treatment     grain sizes and packing ratios vary in samples after treatment by\nsamples, Freon treatment samples, and double treatment sam-     different processes. The packing ratio in the Freon-treated sample\nples, respectively. Moreover, Freon treatment samples also have      (Fig. 7(b)) is evidently higher than that in the sample obtained\na higher  JSC value than the CdCl2 dipping treatment samples     after the CdCl2 dipping treatment (Fig. 7(a)). In other words, in\n(Table 2).                                                      Freon treatment, instead of the consumption of S and Te, the\n   The variation of these parameters  is related to the pene-    concentration of Cl increased, thereby compensating the defects\ntration capacity of Cl in the wet treatment and gas treatment     inside CdTe. Subsequently, Jsc is assumed to increase because of\nprocesses. These two treatments, after Cl activation, affect the    the reduced number of carriers trapped by defects. X-ray diffrac-\nperformance of the solar cell in different ways. According to a     tion (XRD) patterns were recorded and analyzed to study the\n\n                                                                  1400",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Fig. 4. SIMS depth profiles of the S, Te peaks (a) and Cl peak (b) in back-contact metal electrode (Au) to front contact electrode (TCO) for each sample treated with\nmethanol dipping CdCl2 (red dots), Freon gas (blue dots), and CdCl2 + Freon (cyan dots).\n(For interpretation of the references to color in this figure legend, the\nreader is referred to the web version of this article.)",
+          "figure_bbox": [
+            115.53,
+            53.32,
+            479.74,
+            203.68
+          ],
+          "bbox": [
+            37.62,
+            213.4,
+            557.66,
+            237.18
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Fig. 4. SIMS depth profiles of the S, Te peaks (a) and Cl peak (b) in back-contact metal electrode (Au) to front contact electrode (TCO) for each sample treated with\nmethanol dipping CdCl2 (red dots), Freon gas (blue dots), and CdCl2 + Freon (cyan dots).\n(For interpretation of the references to color in this figure legend, the\nreader is referred to the web version of this article.)",
+          "bbox": [
+            115.53,
+            53.32,
+            479.74,
+            203.68
+          ],
+          "file": "extracted_images/page5_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "S. Kim, J.-Y. Song, D. Kim et al.                                                                                              Energy Reports 7 (2021) 1396–1403\n\n\n\n\n\nFig. 5. (a) Storage oscilloscope trace of the time-of-flight (TOF) signal of holes photogenerated and drifted in CdTe layer. The thickness of the CdTe layer was 20 µm,\nand the electric field used was in the range of 2 × 102–2 × 103 Vcm−2. (b) Bias voltage dependence of the d2/tT of samples for each treatment method. Drift\nmobilities of µd = 1.1 cm2/Vs (CdCl2), 1.9 cm2/Vs (Freon) and 1.8 cm2/Vs (CdCl2 + Freon) are obtained.\n\n\n                                                     was analyzed. Using an equivalent circuit model, the device was\n                                                                  divided into main junction and back-contact to identify changes\n                                                                        in efficiency and characteristics. Since there  is approximately\n                                                       no change in barrier height in the back-contact region due to\n                                                                 the treatment methods, the change in efficiency results from\n                                                                 the changes in the main p–n junction caused by the treatment\n                                                                     processes. The change in JSC for each treatment method shows\n                                                                 the dependence on drift mobility derived by the TOF method. The\n                                                                        single treatment represents a trade-off relationship depending on\n                                                                 the method. For Voc, a value of 0.78 V was achieved in CdCl2 dip-\n                                                               ping treatment and a value of 0.70 V for Freon treatment. For Jsc,\n                                                               a value of 23.6 mA/cm2 was achieved in CdCl2 dipping treatment\n                                                         and a value of 25.2 mA/cm2 in Freon treatment. Double treatment\n                                                             can be used as a method to overcome the disadvantages of a\n                                                                        single treatment. Through the double treatment, a Voc value of\n                                                                  0.79 V and a Jsc value of 25.4 mA/cm2 were achieved, and the\n                                                                               final efficiency of 14.3% was realized. This means that the double\n                                                               treatment in the Cl activation process improves the drift mobility\nFig. 6. Turning current, Jt, as a function of temperature. The solid lines represent     of CdTe as well as enhances the device efficiency. However, the\ntheoretical values obtained from Eq. (2) for various barrier heights. The different     final efficiency obtained in this study shows a lower value than\ncolored dots represent the experimental data for different samples after each     that of the CdTe based solar cell achieved in a previous study, and\ntreatment process (treatment processes are color-marked in the Figure). The\n                                                                                                it is considered that this is a limitation of cells deposited by theinset shows a schematic illustrating the method to determine a turning current\nat different temperature, which is a measure of the rollover effect.           PVD method at a low temperature. Therefore, it is necessary to\n                                                                      further explore whether the contents of this study can be applied\n                                                                        in CSS and high-efficiency processes.\n\ncrystallographic changes in CdTe. Fig. 7(d) shows that the peak in\nthe (111) direction is dominant in the as-dep sample. When CdCl2    CRediT authorship contribution statement\ntreatment is performed, the peak in the (111) direction is grad-\nually lost and randomized. Evidently, after the Freon treatment,      Sangsu Kim: Conceptualization, Data curation, Formal anal-\nthe (311) and (220) peaks are strengthened compared to those     ysis, Investigation, Methodology, Visualization, Writing - orig-\nafter the CdCl2 treatment, although randomization is similar to     inal draft, Writing - review & editing. Ju-Young Song: Con-\nthat of the CdCl2 treatment. In the case of the sample subjected     ceptualization, Data curation, Methodology, Software, Writing\nto the Freon treatment after the CdCl2 treatment, the intensities     - original draft, Writing - review & editing. Deok Kim: Data\nof the (311) and (220) peaks clearly increase compared to those of     curation. Jinki Hong: Formal analysis. Ick Joon Cho: Data cura-\nthe sample with single CdCl2 treatment. This indicates that even     tion. Yong Hyub Kim: Data curation. Jae-Uk Jeong: Investiga-\nafter the occurrence of a strong recrystallization via the CdCl2     tion. Mee Sun Yoon: Formal analysis. Sung-Ja Ahn: Investiga-\nactivation treatment, the CdTe layer can be further deformed     tion. Woong-Ki Chung: Methodology. Taek-Keun Nam: Valida-\nby the Freon treatment after the CdCl2 activation treatment to     tion. Shinhaeng Cho: Conceptualization, Project administration,\nchange the structural properties.                                    Supervision, Writing - original draft, Writing - review & editing.\n\n4. Conclusion                                                  Declaration of competing interest\n\n   The change in some of the sample characteristics (such as      The authors declare that they have no known competing finan-\nJSC and VOC) according to the activation of the CdTe layer in     cial interests or personal relationships that could have appeared\nCdCl2 dipping treatment, Freon treatment, and double treatment     to influence the work reported in this paper.\n\n                                                                  1401",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Fig. 5. (a) Storage oscilloscope trace of the time-of-flight (TOF) signal of holes photogenerated and drifted in CdTe layer. The thickness of the CdTe layer was 20 µm,\nand the electric field used was in the range of 2 × 10²–2 × 10³ Vcm⁻². (b) Bias voltage dependence of the d²/tT of samples for each treatment method. Drift\nmobilities of µd = 1.1 cm²/Vs (CdCl2), 1.9 cm²/Vs (Freon) and 1.8 cm²/Vs (CdCl2 + Freon) are obtained.",
+          "figure_bbox": [
+            115.57,
+            53.32,
+            479.71,
+            224.22
+          ],
+          "bbox": [
+            37.62,
+            233.16,
+            557.66,
+            258.85
+          ]
+        },
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Fig. 6. Turning current, Jt, as a function of temperature. The solid lines represent\ntheoretical values obtained from Eq. (2) for various barrier heights. The different\ncolored dots represent the experimental data for different samples after each\ntreatment process (treatment processes are color-marked in the Figure). The\ninset shows a schematic illustrating the method to determine a turning current\nat different temperature, which is a measure of the rollover effect.",
+          "figure_bbox": [
+            53.07,
+            270.52,
+            273.22,
+            453.66
+          ],
+          "bbox": [
+            37.62,
+            463.38,
+            288.67,
+            512.86
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Fig. 5. (a) Storage oscilloscope trace of the time-of-flight (TOF) signal of holes photogenerated and drifted in CdTe layer. The thickness of the CdTe layer was 20 µm,\nand the electric field used was in the range of 2 × 10²–2 × 10³ Vcm⁻². (b) Bias voltage dependence of the d²/tT of samples for each treatment method. Drift\nmobilities of µd = 1.1 cm²/Vs (CdCl2), 1.9 cm²/Vs (Freon) and 1.8 cm²/Vs (CdCl2 + Freon) are obtained.",
+          "bbox": [
+            115.57,
+            53.32,
+            479.71,
+            224.22
+          ],
+          "file": "extracted_images/page6_figure-5_1.png"
+        },
+        {
+          "label": "Figure 6",
+          "caption": "Fig. 6. Turning current, Jt, as a function of temperature. The solid lines represent\ntheoretical values obtained from Eq. (2) for various barrier heights. The different\ncolored dots represent the experimental data for different samples after each\ntreatment process (treatment processes are color-marked in the Figure). The\ninset shows a schematic illustrating the method to determine a turning current\nat different temperature, which is a measure of the rollover effect.",
+          "bbox": [
+            53.07,
+            270.52,
+            273.22,
+            453.66
+          ],
+          "file": "extracted_images/page6_figure-6_2.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "S. Kim, J.-Y. Song, D. Kim et al.                                                                                              Energy Reports 7 (2021) 1396–1403\n\n\n\n\n\nFig. 7. SEM images of (a) CdCl2, (b), Freon, and (c) (CdCl2 + Freon) treated samples. (d) shows XRD data of the As dep. sample (black), CdCl2 dipping treatment\nsample (red), Freon treatment sample and the double treatment sample(cyan).  (For interpretation of the references to color in this figure legend, the reader is\nreferred to the web version of this article.)\n\n\n\nAcknowledgment                                                                     Kokil, A., Yang, K., Kumar,  J., 2012. Techniques for characterization of charge\n                                                                                                 carrier mobility in organic semiconductors.  J. Polym. Sci. B Polym. Phys. 50\n   This work was supported by the National Research Foundation           (15), 1130–1144. http://dx.doi.org/10.1002/polb.23103.\n                                                                                   Long, Q., 2015. Drift Mobility Measurements and Electrical Characterization in\nof Korea (NRF) grant funded by the Korea government (MSIT)         Thin Film Cadmium Telluride Solar Cells, No. June.\n(NRF-2020R1C1C1007296).                                               Moutinho, H.R., et al., Studies of recrystallization of CdTe thin films after CdCl2\n                                                                                       treatment, in: Conf Rec IEEE Photovolt Spec Conf, 1997, pp. 431–434.\nReferences                                                                                Niles, D.W., Waters,  D., Rose,  D., 1998. Chemical reactivity of CdCl 2 wet-\n                                                                                    deposited on CdTe films studied by X-ray photoelectron spectroscopy. Appl.\n                                                                                                     Surf. Sci. 136 (3), 221–229. http://dx.doi.org/10.1016/S0169-4332(98)00340-\nAhmed,  S., Reuter, K.B., Gunawan, O., Guo,  L., Romankiw,  L.T., Deligianni, H.,           7.\n    2012. A high efficiency electrodeposited Cu 2ZnSnS 4 solar cell. Adv. Energy     Polman, A., Knight, M., Garnett, E.C., Ehrler, B., Sinke, W.C., 2016. Photovoltaic\n    Mater. 2 (2), 253–259. http://dx.doi.org/10.1002/aenm.201100526.                    materials: Present efficiencies and future challenges. Science 352 (6283),\nBayhan, H., 2004. Investigation of the effect of CdCl2 processing on vacuum        aad4424–aad4424. http://dx.doi.org/10.1126/science.aad4424.\n    deposited CdS/CdTe thin film solar cells by DLTS.  J. Phys. Chem. Solids 65      Potlog, T., Ghimpu, L., Gashin, P., Pudov, A., Nagle, T., Sites, J., 2003. Influence of\n    (11), 1817–1822. http://dx.doi.org/10.1016/j.jpcs.2004.06.005.                       annealing in different chlorides on the photovoltaic parameters of CdS/CdTe\nBruno,  L.,  2019.  Analysis  of  cdte  activation  treatment with  a  novel  ap-          solar cells. Sol. Energy Mater. Sol. Cells 80 (3), 327–334. http://dx.doi.org/10.\n    proach.  J. Chem. Inf. Model. 53 (9), 1689–1699. http://dx.doi.org/10.1017/         1016/j.solmat.2003.08.007.\n   CBO9781107415324.004.                                                              Potter, M.D.G., Halliday, D.P., Cousins, M., Durose, K., 2000. Study of the effects\nChen, B., et  al., 2000. Improved time-of-flight technique for measuring carrier          of varying cadmium chloride treatment on the luminescent properties of\n    mobility in thin films of organic electroluminescent materials. Jpn.  J. Appl.        CdTe/CdS thin film solar cells. Thin Solid Films 361, 248–252. http://dx.doi.\n    Phys. 39 (1, No. 3A), 1190–1192. http://dx.doi.org/10.1143/JJAP.39.1190.            org/10.1016/S0040-6090(99)00782-8.\nDemtsu, S.H., Sites, J.R., 2006. Effect of back-contact barrier on thin-film CdTe     Qu, Y., Meyers, P.V., Mccandless, B.E., 2000. HCI VAPOR POST-DEPOSITION HEAT\n    solar cells. Thin Solid Films 510 (1–2), 320–324. http://dx.doi.org/10.1016/j.       TREATMENT OF CdTe / CdS FILMS Sanwle oreoarati on. pp. 1013–1016.\n    tsf.2006.01.004.                                                                  Repins,  I., et al., 2008. 19.9%-efficient ZnO/CdS/CuInGaSe2 solar cell with 81.2%\nGreen,  M.A.,  Dunlop,  E.D.,  Levi,  D.H.,  Hohl-Ebinger,   J.,  Yoshita,  M.,  Ho-               fill factor. Prog. Photovoltaics Res. Appl. 16 (3), 235–239. http://dx.doi.org/\n     Baillie,  A.W.Y.,  2019.  Solar  cell  efficiency  tables  (version  54).  Prog.         10.1002/pip.822.\n    Photovoltaics Res. Appl. 27 (7), 565–575. http://dx.doi.org/10.1002/pip.3171.     Rimmaudo,  I., et  al., 2017. Improved stability of CdTe solar cells by absorber\nHiie, J., 2003. CdTe:CdCl2:O2 annealing process. Thin Solid Films 90–93, 431–432.          surface etching. Sol. Energy Mater. Sol. Cells 162, 127–133. http://dx.doi.org/\n    http://dx.doi.org/10.1016/S0040-6090(03)00205-0.                                 10.1016/J.SOLMAT.2016.12.044.\nKim, S., et al., 2018. Comparative study of Cu2Te and Cu back contact in CdS/CdTe      Rios-Flores, A., Arés, O., Camacho, J.M., Rejon, V., Peña, J.L., 2012. Procedure to\n    solar cell. J. Korean Phys. Soc. 72 (7), 780–785. http://dx.doi.org/10.3938/jkps.         obtain higher than 14% efficient thin film CdS/CdTe solar cells activated with\n    72.780.                                                                   HCF2Cl gas. Sol. Energy 86 (2), 780–785. http://dx.doi.org/10.1016/j.solener.\nKoishiyev, G.T., Sites, J.R., Kulkarni, S.S., Dhere, N.G., 2008. Determination of back         2011.12.002.\n    contact barrier height in Cu(In,Ga)(Se,S)2 and CdTe solar cells. Conf Rec IEEE     Romeo, A., Artegiani, E., Menossi, D., 2018. Low substrate temperature CdTe solar\n    Photovolt Spec Conf 8–10. http://dx.doi.org/10.1109/PVSC.2008.4922886.               cells: A review. Sol. Energy http://dx.doi.org/10.1016/J.SOLENER.2018.02.038.\n\n                                                                  1402",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Fig. 7. SEM images of (a) CdCl2, (b), Freon, and (c) (CdCl2 + Freon) treated samples. (d) shows XRD data of the As dep. sample (black), CdCl2 dipping treatment\nsample (red), Freon treatment sample and the double treatment sample(cyan).\n(For interpretation of the references to color in this figure legend, the reader is\nreferred to the web version of this article.)",
+          "figure_bbox": [
+            115.64,
+            53.32,
+            479.64,
+            379.16
+          ],
+          "bbox": [
+            37.62,
+            388.88,
+            557.66,
+            412.67
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 7",
+          "caption": "Fig. 7. SEM images of (a) CdCl2, (b), Freon, and (c) (CdCl2 + Freon) treated samples. (d) shows XRD data of the As dep. sample (black), CdCl2 dipping treatment\nsample (red), Freon treatment sample and the double treatment sample(cyan).\n(For interpretation of the references to color in this figure legend, the reader is\nreferred to the web version of this article.)",
+          "bbox": [
+            115.64,
+            53.32,
+            479.64,
+            379.16
+          ],
+          "file": "extracted_images/page7_figure-7_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "S. Kim, J.-Y. Song, D. Kim et al.                                                                                              Energy Reports 7 (2021) 1396–1403\n\n\nRomeo, N., Bosio, A., Romeo, A., 2010. An innovative process suitable to produce      Suzuki, K., Shiraki, H., 2009. Evaluation of surface recombination velocity of cdte\n    high-efficiency CdTe/CdS thin-film modules. Sol. Energy Mater. Sol. Cells 94          radiation detectors by time-of-flight measurements. In: 2008 IEEE Nucl Sci\n     (1), 2–7. http://dx.doi.org/10.1016/J.SOLMAT.2009.06.001.                     Symp Conf Rec, No. Lll. pp. 213–216. http://dx.doi.org/10.1109/nssmic.2008.\nRomeo, A., et al., 2009. Study of CSS- and HVE-CdTe by different recrystallization        4775165.\n    processes. Thin Solid Films 517 (7), 2132–2135. http://dx.doi.org/10.1016/j.      Williams, B.L., Major, J.D., Bowen, L., Keuning, W., Creatore, M., Durose, K., 2015.\n    tsf.2008.10.129.                                                  A comparative study of the effects of nontoxic chloride treatments on cdte\nSalavei, A., Rimmaudo,  I., Piccinelli, F., Zabierowski, P., Romeo, A., 2013. Study          solar cell microstructure and stoichiometry. Adv. Energy Mater. 5 (21), 1–10.\n    of difluorochloromethane activation treatment on low substrate temperature         http://dx.doi.org/10.1002/aenm.201500554.\n    deposited cdte solar cells. Sol. Energy Mater. Sol. Cells 112, 190–195. http:\n    //dx.doi.org/10.1016/j.solmat.2013.01.019.\nShockley, W., Queisser,  H.J., 1961. Detailed balance limit of efficiency of p–n\n    junction solar cells. J. Appl. Phys. 32 (3), 510–519. http://dx.doi.org/10.1063/\n    1.1736034.\n\n\n\n\n\n                                                                  1403",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "f09477a4aeaaaafb5da4a16d9312bab1",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            498.45,
+            55.02,
+            555.57,
+            126.99
+          ]
+        }
+      ],
+      "file": "garbage/page1_f09477a4aeaaaafb5da4a16d9312bab1.jpeg",
+      "is_garbage": true
+    },
+    {
+      "id": "40df0c8d031883b29446dd08a0b8d2c0",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            37.62,
+            61.5,
+            97.38,
+            126.99
+          ]
+        }
+      ],
+      "file": "garbage/page1_40df0c8d031883b29446dd08a0b8d2c0.jpeg",
+      "is_garbage": true
+    },
+    {
+      "id": "81698c10d8693579889a5855c220d257",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            497.0,
+            164.0,
+            526.0,
+            193.0
+          ]
+        }
+      ],
+      "file": "garbage/page1_81698c10d8693579889a5855c220d257.png",
+      "is_garbage": true
+    }
+  ]
+}

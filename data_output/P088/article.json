@@ -1,0 +1,462 @@
+{
+  "publication_id": "P088",
+  "source_file": "P088.pdf",
+  "image_layout_version": 5,
+  "metadata": {
+    "format": "PDF 1.7",
+    "title": "Antimony sulfide selenide thin film solar cells with comparable characteristics prepared via a choice of chemical deposition or vacuum thermal evaporation",
+    "author": "Priyanka Bamola; Fabiola De Bray Sánchez; M.T.S. Nair; P.K. Nair",
+    "subject": "Materials Science in Semiconductor Processing, 193 (2025) 109499. doi:10.1016/j.mssp.2025.109499",
+    "keywords": "Antimony sulfide selenide,Solar cells,Chemical deposition,Thermal evaporation",
+    "creator": "Elsevier",
+    "producer": "Acrobat Distiller 8.1.0 (Windows)",
+    "creationDate": "D:20250416061811Z",
+    "modDate": "D:20250417010750Z",
+    "DOI": "10.1016/j.mssp.2025.109499",
+    "year": 2025,
+    "authors": [
+      "Priyanka Bamola",
+      "Fabiola De Bray Sánchez",
+      "M.T.S. Nair",
+      "P.K. Nair"
+    ]
+  },
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "                                               Materials Science in Semiconductor Processing 193 (2025) 109499\n\n                                                 Contents lists available at ScienceDirect\n                  Materials Science in Semiconductor Processing\n\n\n                                            journal homepage: www.elsevier.com/locate/mssp\n\n\nAntimony sulfide selenide thin film solar cells with comparable\ncharacteristics prepared via a choice of chemical deposition or vacuum\nthermal evaporation\nPriyanka Bamola , Fabiola De Bray S´anchez , M.T.S. Nair , P.K. Nair *\nInstituto de Energías Renovables, Universidad Nacional Aut´onoma de M´exico Temixco, Morelos, 62580, Mexico\n\n\nA R T I C L E  I N F O                  A B S T R A C T\n\nKeywords:                                   Antimony sulfide selenide solar cells, FTO/CdS/Sb2Sx1Se3-x1/Sb2Sx2Se3-x2/graphite-Ag, of above 5 % conversion\nAntimony sulfide selenide                              efficiency (η), open circuit voltage (VOC) 0.45 V and short circuit current density (JSC) 24 mA cm – 2, were ob­\nSolar cells                                         tained for Sb2SxSe3-x (160–350 nm) of variable bandgap (Eg) 1.25–1.5 eV prepared by chemical deposition (CD)Chemical deposition                                                 or thermal evaporation (TE). Commercial SnO2:F (FTO) was coated first with a CdS thin film. For CD - Sb2SxSe3-xThermal evaporation                                                   absorbers, selenosulfate and thioacetamide were at a molar ratio 0.1:3 for the first deposition, and 1:3 in the\n                                             second deposition (film thickness, 160 nm). In TE, Sb2Se3-Sb2S3 was in 1:3 ratio in the first crucible, and distinct\n                                                     in the second (film thickness, 300 nm). CD-Solar cells had η, 5.2 %, JSC 23.6 mA cm – 2 and VOC of 0.41 V and the\n                                                  TE-solar cells, 5.75 %, 24.5 mA cm – 2 and 0.45 V, respectively. Thus, Sb2SxSe3-x of variable Eg provides a higher\n                                          VOC and conserves JSC.\n\n\n1. Introduction                                                  The tendency of variation of Eg in Sb2(SxSe1-x)3 approximated to its\n                                                                         proportional variation with x is shown in Fig. 1. The variation in the\n   During the years 2009–2022, antimony sulfide selenide Sb2(SxSe1-x)3     solar cell parameters: VOC, JSC, fill factor (FF) and η pertaining to the\nsolar cells have established themselves as a research and development (R     device structure, SnO2:F (FTO)/CdS (100 nm)/Sb2(SxSe1-x)3 (450 nm)/\n& D) theme, with the solar to electric energy conversion efficiency (η) of     graphite-silver is also shown. The data pertain to solar cells prepared by\nthese solar cells steadily improving from less than 1 % in 2009 to above     thermal evaporation of powder mixes of Sb2S3-Sb2Se3, adapted from\n10.5 % by the year 2020 [1]. The versatility of these materials for solar     Ref. [5]. The data points for Eg, except for Sb2Se3 (x = 0) and Sb2S3 (x =\ncell technologies merits attention: (i) the optical bandgap (Eg) of these     1) taken from Ref. [2], are from experimental results reported there. In\nmaterials may be continuously varied from 1.1 eV (Sb2Se3) to 1.88 eV     these solar cells with no extrinsic doping in the absorber or window film\n(Sb2S3) [2], falling within the interval of successful thin film solar cell     (CdS), at low values of x close to 0.2, a high JSC of above 30 mA cm – 2 is\ntechnologies [3,4]; (ii) the materials may be prepared using different     obtained with η of 6.8 %, but its VOC is low, 0.42 V. With x of 0.7, a VOC of\nthin film methods offering comparable values for η [1]; (iii) the opera­     0.56 V is available in the solar cell, but its low JSC of 12 mA cm – 2 results\ntional stability of the solar cells are exceptionally good [5]; (iv) if a     in a low η of 2.5 %. The benefit of graded band gap absorber in these\ndevice structure obtained through R & D on these solar cells takes η     solar cells is apparent for these results. Solar cells of SnO2:F (FTO)/CdS\ntoward 20 %, material availability makes large scale commercial pro­    (100    nm)/Sb2(SxSe1-x)3    (Eg1)/Sb2(SxSe1-x)3    (Eg2)/Sb2(SxSe1-x)3\nduction of the modules feasible [1]. Improvement of η of these cells     (Eg3)/graphite-silver with Eg1>Eg2<Eg3 may help combine a high VOC\ntoward  such  a  level  requires  specific  attention  to improve  the     with a high JSC and take η of the cells to higher values. Success of this\nSb2(SxSe1-x)3 materials through “extrinsic doping” at the lattice sites,    approach with a “V-type  Eg  profile” along  the  thickness  of  the\ndefect passivation within the material and at the interfaces in the solar     Sb2(SxSe1-x)3 was reported in 2020 in solar cells produced by dual source\ncell structure [6–9]. The successful approach of “bandgap engineering”    vapor transport. These solar cells had η of 7.27 %, VOC of 0.46 V, and JSC\nto create a “V-profile of Eg” across the absorber film as in Cu-In-Ga-S-Se     of 29.6 mA cm−2 [10].\ncells [3], is readily applicable in Sb2(SxSe1-x)3 solar cells [10].                 Solar cells produced by sequential chemical deposition (CD) on FTO/\n\n\n * Corresponding author.\n    E-mail address: pkn@ier.unam.mx (P.K. Nair).\nhttps://doi.org/10.1016/j.mssp.2025.109499\nReceived 25 February 2025; Received in revised form 19 March 2025; Accepted 19 March 2025\nAvailable online 24 March 2025\n1369-8001/© 2025 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY-NC license ( http://creativecommons.org/licenses/by-\nnc/4.0/ ).",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [
+        "194c3625c8f5759271eabcf50f3d9420",
+        "679f771a6dffcf906aca92bb2ff2130b",
+        "e6361e7ebd18021f1897dbc9d003a9ea",
+        "9a2b25dd49d91c0aabe070b8c871ee06"
+      ],
+      "needs_ocr": false
+    },
+    {
+      "page": 2,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\nCdS substrates from solutions containing potassium antimony tartrate,     2.1.1. Chemical reagents and thin film deposition\nand varying quantities of thioacetamide (sulfide source) and sodium        Laboratory reagents of 98–99 % assay supplied by Sigma – Aldrich or\nselenosulfate (selenide source) had η of 4.3 % [11]. In the present work,    Fermont (Mexico) were used for preparing the solar cells described in\nthis value increased to 5.2 %. In solar cells produced by vacuum thermal     Fig. 2. The colloidal graphite paint and the silver paint were purchased\nevaporation (VTE) of Sb2S3-Sb2Se3 powder sources, η of 5.7 % is re­    from SPI (USA). Solutions of different substances were prepared in de-\nported. The availability of either or both these methods to build graded     ionized water at the concentrations (mol dm – 3 = M) mentioned for\nEg solar cells of Sb2(SxSe1-x)3 may help making innovations in these cells     the chemical deposition of the different thin films. Sodium selenosulfate,\npossible.                                                          Na2SeSO3, of 0.4 M in concentration with concurrent presence of 0.4 M\n                                                                              of Na2SO3 was prepared by refluxing Na2SO3 and elemental Se in 100\n2. Experimental                                     mL water, described below.\n\n2.1. Development of the solar cell device structure                              2.1.2. CdS thin film deposition\n                                                    A CdS thin film of 80–100 nm in thickness, appearing in reflected\n   In both CD and VTE methods, the basic device structure remained the      light as a golden-purple layer on the glass-side of the FTO was made by\nsame, as described in Fig. 2i. Clear sheet glass of 2.2 mm in thickness     chemical deposition at 80 ◦C during 55–70 min, as described in Fig. 2ii.\nwith a transparent electrically conductive coating (TEC 7, fluorine-   A methodology reported previously [12] was used: To a 100 mL glass\ndoped SnO2 or FTO) with a sheet resistance of 7 Ω was supplied in 30     beaker, the following aqueous solutions were sequentially added with\ncm × 30 cm size sheets from Greatcell Solar Materials (Australia). These      stirring: cadmium nitrate (20 mL, 0.1 M or mol dm – 3), sodium citrate\nwere cut to 7.5 cm × 2.5 cm in size, cleaned with cotton swabs dipped in    (12 mL, 1 M), ammonia aq. (1.6 mL, 16 M), thiourea (4 mL, 1 M), and\na neutral soap solution, rinsed and dried.                               42.4 mL of deionized water. At a temperature of 80 ◦C, a film of 80 nm\n\n\n\n\n\nFig. 1. Tendency of variation of the bandgap Eg with x in Sb2(SxSe1-x)3 absorber films and in the parameters of SnO2:F (FTO)/CdS (100 nm)/Sb2(SxSe1-x)3 (450 nm)/\ngraphite-silver solar cells prepared by vacuum thermal evaporation of Sb2S3-Sb2Se3 powder mix, with a fixed value of x and of Eg along the absorber thickness,\nadapted from Ref. [5]. In graded gap solar cells proposed for the present work, x of 0.7 is sought for a VOC toward 0.6 V, followed by one with x toward 0.2 for a JSC of\n30 mA cm – 2.\n\n                                                                        2",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 1",
+          "text": "Fig. 1. Tendency of variation of the bandgap Eg with x in Sb2(SxSe1-x)3 absorber films and in the parameters of SnO2:F (FTO)/CdS (100 nm)/Sb2(SxSe1-x)3 (450 nm)/\ngraphite-silver solar cells prepared by vacuum thermal evaporation of Sb2S3-Sb2Se3 powder mix, with a fixed value of x and of Eg along the absorber thickness,\nadapted from Ref. [5]. In graded gap solar cells proposed for the present work, x of 0.7 is sought for a VOC toward 0.6 V, followed by one with x toward 0.2 for a JSC of\n30 mA cm – ².",
+          "figure_bbox": [
+            124.99,
+            277.67,
+            470.23,
+            699.55
+          ],
+          "bbox": [
+            37.59,
+            704.11,
+            559.78,
+            744.52
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 1",
+          "caption": "Fig. 1. Tendency of variation of the bandgap Eg with x in Sb2(SxSe1-x)3 absorber films and in the parameters of SnO2:F (FTO)/CdS (100 nm)/Sb2(SxSe1-x)3 (450 nm)/\ngraphite-silver solar cells prepared by vacuum thermal evaporation of Sb2S3-Sb2Se3 powder mix, with a fixed value of x and of Eg along the absorber thickness,\nadapted from Ref. [5]. In graded gap solar cells proposed for the present work, x of 0.7 is sought for a VOC toward 0.6 V, followed by one with x toward 0.2 for a JSC of\n30 mA cm – ².",
+          "bbox": [
+            124.99,
+            277.67,
+            470.23,
+            699.55
+          ],
+          "file": "extracted_images/page2_figure-1_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 3,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\n\n\n\n\nFig. 2. (i) Solar cell structure of this study: SnO2:F(FTO)/CdS (80–100 nm)/graded bandgap Sb2SxSe3-x (250–350 nm)made by sequential chemical deposition or\nthermal evaporation/colloidal graphite electrode heated at 280–300 ◦C/colloidal silver paint in active cell area 0.25 cm2; (ii) chemical deposition of CdS thin films on\nsix FTO slides of 25 mm × 75 mm in area mounted near-vertically with tilt angle 80–85◦at the base (observed from the side) in the chemical bath and placed in a\nconstant temperature bath at 80 ◦C; (iii) sequential chemical deposition of Sb2SxSe3-x thin films at 80 ◦C during 60–90 min, with an increase in Se-concentration in the\nsecond bath; (iv) sequential thermal evaporation of Sb2S2-Sb2Se3 powder mix from crucibles C1 and C2 with increased Sb2Se3 powder content in C2; (v) left to right –\ncolloidal graphite paint applied on 5 mm × 5 mm are (0.25 cm2 in area) applied on the Sb2SxSe3-x film, and heated at 280–300 ◦C and cells demarked and painted\nwith colloidal silver paint with solar radiation entering from the glass-side.\n\nwas deposited in 55 min on the FTO substrates, which were used for     composition and hence of varying bandgap was produced: FTO/CdS\nchemically deposited (CD) solar cells. For VTE solar cells, the films were    (80–100 nm)/Sb2(Sx1Se1-x1)3 80–90 nm, Eg1/Sb2(Sx2Se1-x2)3 80–90 nm,\nof 100 nm in thickness, deposited in 75 min. The CdS films deposited this      Eg2. For chemically deposited absorbers, x1 > x2 and Eg1 > Eg2.\nway on FTO are nearly free from adhered precipitates and the film        In the vacuum thermal evaporation (VTE) methodology, the solar\nsurface produces specular reflection. These thin films are predominantly      cell structures, FTO/CdS (80–100 nm)/Sb2(Sx1Se1-x1)3 100–150 nm, Eg1/\nof hexagonal crystal structure with Eg of 2.6 eV. The films are of high     Sb2(Sx2Se1-x2)3 100–150 nm, Eg2 were produced by sequential evapo­\nphotoconductivity, with a value of 0.01–0.1 Ω cm (n-type) under white     ration of powder mixtures of Sb2S3 and Sb2Se3 from two molybdenum\nlight illumination of intensity 1000 W m – 2, or under air mass 1.5 global     crucibles heated to 850 ◦C, Fig. 2iv, with four FTO/CdS substrates\n(AM 1.5 G) solar radiation [12].                                   mounted on a rotating substrate holder placed 40 cm above the cruci­\n                                                                                    bles. Quartz – halogen lamps mounted behind the substrate holder plate\n2.1.3. Sb2(Sx1Se1-x1)3, Eg1/Sb2(Sx2Se1-x2)3, Eg2 thin films and cell           kept the substrate at nearly 425 ◦C during the deposition. The powder\nstructure development                                                     mixture, typically of 500 mg, was spread inside the crucibles with a\n   The chemical deposition of the CdS film on FTO was followed by     quantity of SbCl3 (60 mg) and a few drops of propylene glycol and dried\nchemical deposition at 80 ◦C of a thin film (80–90 nm) of Sb-S-Se,     [5]. In VTE, both x1 > x2 and Eg1 > Eg2 and x1 < x2 and Eg1 < Eg2 cases\nFig. 2iii, from solutions of potassium antimony tartrate, sodium sele­    were experimented, with the latter option showing the best result re­\nnosulfate, thioacetamide and thiosulfate, as reported earlier [11]. The     ported here, with η of 5.75 %.\nrelative composition of selenosulfate was increased in the second       The solar cell structure was completed by placing four colloidal\nSb-S-Se deposition, so that an absorber layer of varying chemical     graphite paint electrodes of area 5 mm × 5 mm each (area, 0.25 cm2), as\n\n                                                                        3",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 2",
+          "text": "Fig. 2. (i) Solar cell structure of this study: SnO2:F(FTO)/CdS (80–100 nm)/graded bandgap Sb2SxSe3-x (250–350 nm)made by sequential chemical deposition or\nthermal evaporation/colloidal graphite electrode heated at 280–300 ◦C/colloidal silver paint in active cell area 0.25 cm²; (ii) chemical deposition of CdS thin films on\nsix FTO slides of 25 mm × 75 mm in area mounted near-vertically with tilt angle 80–85◦at the base (observed from the side) in the chemical bath and placed in a\nconstant temperature bath at 80 ◦C; (iii) sequential chemical deposition of Sb2SxSe3-x thin films at 80 ◦C during 60–90 min, with an increase in Se-concentration in the\nsecond bath; (iv) sequential thermal evaporation of Sb2S2-Sb2Se3 powder mix from crucibles C1 and C2 with increased Sb2Se3 powder content in C2; (v) left to right –\ncolloidal graphite paint applied on 5 mm × 5 mm are (0.25 cm² in area) applied on the Sb2SxSe3-x film, and heated at 280–300 ◦C and cells demarked and painted\nwith colloidal silver paint with solar radiation entering from the glass-side.",
+          "figure_bbox": [
+            124.93,
+            53.45,
+            470.34,
+            467.96
+          ],
+          "bbox": [
+            37.59,
+            472.57,
+            559.77,
+            541.67
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 2",
+          "caption": "Fig. 2. (i) Solar cell structure of this study: SnO2:F(FTO)/CdS (80–100 nm)/graded bandgap Sb2SxSe3-x (250–350 nm)made by sequential chemical deposition or\nthermal evaporation/colloidal graphite electrode heated at 280–300 ◦C/colloidal silver paint in active cell area 0.25 cm²; (ii) chemical deposition of CdS thin films on\nsix FTO slides of 25 mm × 75 mm in area mounted near-vertically with tilt angle 80–85◦at the base (observed from the side) in the chemical bath and placed in a\nconstant temperature bath at 80 ◦C; (iii) sequential chemical deposition of Sb2SxSe3-x thin films at 80 ◦C during 60–90 min, with an increase in Se-concentration in the\nsecond bath; (iv) sequential thermal evaporation of Sb2S2-Sb2Se3 powder mix from crucibles C1 and C2 with increased Sb2Se3 powder content in C2; (v) left to right –\ncolloidal graphite paint applied on 5 mm × 5 mm are (0.25 cm² in area) applied on the Sb2SxSe3-x film, and heated at 280–300 ◦C and cells demarked and painted\nwith colloidal silver paint with solar radiation entering from the glass-side.",
+          "bbox": [
+            124.93,
+            53.45,
+            470.34,
+            467.96
+          ],
+          "file": "extracted_images/page3_figure-2_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 4,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\nshown in Fig. 2v, followed by heating at 280–300 ◦C for 30 min under    produced by sequential chemical deposition in two baths. The resulting\n20–30 torr nitrogen in a vacuum oven. The cells were isolated by etching     absorber films or cell structures were labelled as.\nin NaOH (1 M) to remove Sb-S-Se thin film and in HCl to etch-off the CdS\nthin film. Silver print electrodes were applied on the FTO and on the      B6G9 for FTO/CdS/B6G9; B9G9 for FTO/CdS/B9G9; C6H9 for FTO/\ngraphite electrodes, described in earlier work [5,11]. The heating of the      CdS/C6H9 and C9H9 for FTO/CdS/C9H9.\ncell structure improves the crystalline nature of the absorber films\nSb2(SxSe1-x)3, and create an interfacial layer of Sb2(Sx1Se1-x1)3:C with     2.2.2. Thin films by vacuum thermal evaporation (VTE)\nimproved p-type electrical conductivity [13]. This facilitates transport        For the deposition of antimony sulfide selenide thin films of variable\nof photo-generated charge carries across the cell [14] and reduces the    bandgap across the absorber thickness, two molybdenum crucibles were\nresistance of graphite electrodes by more than an order of magnitude to    used (Fig. 2iv). These contained Sb2S3 and Sb2Se3 powders in different\na sheet resistance of 12–18 Ω. The silver paint electrodes on the FTO     quantities, which were made into a paste with 50 mg of SbCl3 and a few\noutside the periphery of the electrode is the n-side contact and silver     drops of propylene glycol. The melting point of SbCl3 is 73 ◦C, which\npaint applied on the graphite electrode is the p-side contact. The last     helps to bind the powder, producing a Sb2S3-Sb2Se3 layer, which ad­\nimage in Fig. 2v is the appearance of the demarked solar cells of active     heres well to the molybdenum crucibles and serves as a thermal evap­\narea 0.25 cm2, which is the area of the graphite electrodes. The optical     oration source, described in a previous work [5]. The crucible 1 (C1)\ntransmittance (T) and specular reflectance (R) measured on a spectro­    with  contents  described below  is  heated  first  to a  temperature\nphotometer for the “glass side” incidence on the unmarked region helps    800–900 ◦C to produce a chosen FTO/CdS/Sb2(Sx1Se1-x1)3, which was\nestimate the light generated current density (JL) for the AM 1.5 G solar     followed by heating crucible 2 (C2) to produce the variable bandgap\nradiation from these solar cells. This is the upper limit of their short     absorber solar cell: FTO/CdS/Sb2(Sx1Se1-x1)3/Sb2(Sx2Se1-x2)3. For the\ncircuit current density (JSC). From the T and R data recorded for the     thin films and the solar cells, the following nomenclature was used:\n“film side” incidence, in the region above the solar cells in the middle        VT-1: C1 Sb2Se3, 300 mg + Sb2S3, 150 mg with Se/S + Se = 0.59; C2\nimage in  Fig. 2v, the optical bandgap of the dominant absorber     Sb2Se3, 225 mg + Sb2S3, 150 mg with Se/S + Se = 0.51;\ncomponent  in  the  variable  bandgap  absorber  Sb2(Sx1Se1-x1)3,        VT-2: C1 Sb2Se3, 120 mg + Sb2S3, 225 mg with Se/S + Se = 0.39; C2\nEg1/Sb2(Sx2Se1-x2)3, Eg2 is estimated. The x-ray diffraction (XRD) pat­     Sb2Se3, 180 mg + Sb2S3, 120 mg with Se/S + Se = 0.51; and.\nterns and any chemical compositional analysis on the absorber films are        VT-3: C1 Sb2Se3, 400 mg + Sb2S3, 200 mg with Se/S + Se = 0.59; C2\nalso obtained over this region on the “film side”.                          Sb2Se3, 300 mg + Sb2S3, 200 mg with Se/S + Se = 0.48.\n                                                             From the published work on antimony sulfide selenide solar cells of\n2.2. Prediction of chemical compositions in the thin films and           CD thin films [11,17] and of thin films made by VTE of Sb2Se3-Sb2S3 mix\nnomenclature of cell structures                                                 [5], one finds that the compositions mentioned here for CD and VTE\n                                                                  produce comparable chemical composition in the thin films and in the\n2.2.1. Thin films by chemical deposition                                           cell characteristics, illustrated in Fig. 3.\n   With the formula mass of anhydrous Na2SO3 of 126 g mol – 1, and         Fig. 3 helps toward pre-assigning a chemical composition for a thin\nthat of Se of 79 g mol – 1, a solution of 0.4 M of Na2SeSO3 (SS) in 0.4 M     film made by CD or by VTE. For example, an absorber layer in the VT2\nNa2SO3 was made by refluxing for 3 h, 10.1 g of Na2SO3 and 3.16 g of     solar cell may be placed at Sb2(S0.4Se0.6)3, 1.41 eV/Sb2(S0.35Se0.65)3,\nelemental Se in 100 mL of deionized water. This results in a clear     1.35 eV. In previous work it was found that grazing incidence x-ray\ntransparent solution, which would remain stable upon storage for two     diffraction (GIXRD) is an effective method to determine the chemical\nmonths without segregation of elemental Se from Na2SeSO3. The for­     composition of absorber layers used in solar cells [5], which is applied in\nmation of elemental Se0 from (Se2−) in contact with atmospheric oxygen     the present case as well (Section 3.1 Results).\n(O2 + Se2 – → O22 – + Se0) is inhibited in the presence of SO32 –, which\notherwise would float over the stock solution as well as over the     2.3. Thin film and solar cell characterization\nchemical deposition bath and eventually settles down to the bottom.\nThis alters the concentration of the stock solution or of the chemical       The thickness of the films were determined using the step-method in\ncomposition of the deposited films of Sb2(SxSe1-x)3. This methodology of    Ambios XP 200 thickness measurement system calibrated using an as-\nproviding an excess SO32−in the chemical deposition of metal selenide     supplied step thickness standard. The GIXRD patterns for the absorber\nsemiconductors is a usual practice for PbSe [15] and CdSe [16] thin     layers were recorded on a Rigaku ULTIMA IV diffractometer using Cu-Kα\nfilms by using N, N dimethylselenourea as a selenide source. Thin films     radiation, wavelength, 1.5406  Å. The determination  of chemical\nof Sb-S-Se were deposited on FTO/CdS by sequential addition of the     composition as a function of sampling depths, 80–500 nm, into the\nsolutions of: potassium antimony tartrate (KSbT), 8.5 mL of 0.1 M;     absorber film by GIXRD was discussed for Sb2(Sx1Se1-x1)3/Sb2(Sx2Se1-\ntriethanolamine (TEA), 3.5 mL of 1 M; ammonia (aq.), 1.5 mL of 15–16      x2)3 layers in Ref. [5]. The sampling depth at a grazing incidence angle\nM; silicotungstic acid (STA), 10 mL of 10−5 M; and deionized water,      (δ) of 0.5◦is approximately 80 nm in these thin films and at 1.5◦, it is\n48.25 mL. Solutions of sulfide and selenide ion sources (S2 – and Se2 –)     nearly 240 nm.\nwere added to this mixture by stirring: thioacetamide (TA), 3 mL of 1 M       The optical transmittance, T, (air as standard) and specular reflec­\nsolution; sodium selenosulfate (SS – Na2SeSO3) of 0.15 mL up to 2.5 ml     tance R, (front-silvered standard mirror accessory) were measured on a\nof 0.4 M solution [11] and sodium thiosulfate (TS – Na2S2O3), 5 mL of    Shimadzu UV 3600 spectrophotometer for the film – side incidence on\n0.2 M solution. The molar fraction, [Se2 –/(S2 – + Se 2 –)] of the selenide     the “free-area” of the cell structures (Fig. 2v, middle image) to determine\nsource (SS) to the sulfide + selenide source (TA + TS + SS) in the     the optical absorption (α, cm – 1) of the material of the layer. At com­\ndeposition bath varies according to the added quantity of SS:              parable thickness, the optical absorption is dominated by the absorber\n                                                                    with the least bandgap in the Sb2(Sx1Se1-x1)3, Eg1/Sb2(Sx2Se1-x2)3, Eg2\n   SS: 0.15 mL, molar fraction, 0.06/(3 + 1+0.06) = 0.015 (labelled as     stack. The CdS window film of Eg, 2.6 eV or FTO do not significantly\n   bath B, thin film B6 or B9 depending on the deposition lasting for 60     influence the determination of α for the ‘absorber’ in the solar cell in the\n   min or 90 min at 80 ◦C);                                                    visible – near infrared spectral region. Its numerical value is obtained for\n   SS: 0.25 mL, molar fraction, 0.024 (bath C and thin films C6 or C9);     the spectral region of its optical absorption using the relation [18],\n   SS: 2 mL, molar faction, 0.167 (Bath G, film G9); and                  equation (1),\n   SS: 2.5 mL, molar fraction, 0.2 (Bath H, thin film H9).\n\n   The absorber stacks of Sb2(Sx1Se1-x1)3, Eg1/Sb2(Sx2Se1-x2)3, Eg2 were\n\n                                                                        4",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 5,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\n\n\n\n\nFig. 3. (a) Bottom plot, selenide (Se2−) to sulfide + selenide (Se2−+ S2−) ratio in the deposition bath and the value 1 – x values in the deposited films of Sb2(SxSe1-x)3\nof 100–200 nm in thickness used for solar cells made by chemical deposition [11,17] and the corresponding solar cell parameters, VOC, JSC, and η. (b) Bottom plot,\nselenium (Se) to selenium + sulphur (Se + S) ratio in the evaporation source and in the deposited films of Sb2(SxSe1-x)3 of thickness 450 nm and the corresponding\nsolar cell parameters [5]. The dashed line for 1 – x = 0.6 represents a thin film of composition, Sb2S1.2Se1.8, the deposition of which requires a ratio of the sources,\n0.06 in CD and 0.4 in VTE, because the relatively lower solubility product of antimony selenide promotes its higher rate of condensation over a growing film at much\nlower ionic concentration, compared with that for the sulfide component.\n\n           √\n        [                         ]                               solar cells B6G9 and C6H9 produced by chemical deposition. The rele­         −(1 −R)2                           +̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅   (1 −R)4 + (2TR)2α = −1 ln                                                          (1)     vant powder diffraction  files are also given here: for Sb2S3 (PDF     d               2TR2                                                                 42–1393, a = 11.239, b = 11.313, c = 3.841 Å and the unit cell volume,\n                                                                                 VS, 488.38 Å3, bottom plot) and for Sb2Se3 (PDF 15–061, a = 11.633, b   The T and R spectra recorded for the “glass-side” incidence (Fig. 2v,                                                                        11.780, c = 3.985 Å and the unit cell volume, VSe, 546.09 Å3, top plot).right image) give the optical absorption (Aλ = 1 – Tλ – Rλ) in the absorber   =                                                                 Both these materials are of orthorhombic crystalline structure. The lat­layer. The summation of the product, Aλ (JLλ) in the spectral range λ, 0 →                                                                                    tice constants a, b, and c of the absorber material of the solar cells areλg, where λg is the wavelength corresponding to the onset of the optical                                                                   determined from the d(hkl) values for the diffraction peaks for the crys­absorption in the absorber, gives the light generated current density (JL)                                                                                    talline planes, (200), (120) and (321) given by the XRD software. Theproduced in the absorber layer [19]. The quantity, JLλ = 0.1 q Nphλ; is in                                                              volume of the orthorhombic unit cell is considered to vary linearly withunits of mA cm – 2 nm – 1, with q = 1.602 × 10 – 19 C and Nphλ is the                                                                        the chemical composition of the material: Vcell = x (488.38 Å3) + (1 – x)spectral distribution of photon flux density obtained from AM 1.5 G              –                 – 2  – 1     –                                 (546.09 Å3). The GIXRD plots recorded at δ = 0.5◦represents a sampling(1000 W m  2) [20], in cm    s  nm   1. The quantity obtained by the                                                                   depth of nearly 80 nm into either films, B6G9 or C6H9. These show thatsummation sets the upper limit of the JSC for the solar cell. The collection                                                                        the diffraction peaks for (hkl) planes of the samples are situated betweenloss of the photo-generated charge carriers across the solar cell and at                                                                        those of PDF’s. In the pattern recorded at δ = 1.5◦, with a sampling depththe electrodes would cause deficits.                                                                              of 240 nm, the diffraction peaks for SnO2 dominate, illustrating that the   The J – V characteristics and external quantum efficiency (EQE) at                                                                           thickness of the absorber film is markedly less than 240 nm. In stepzero bias of the solar cells were measured using a Sciencetech Inc.                                                                           thickness measurement, this was found to be nearly 160 nm.(London, Ontario, Canada) PV test system. This uses standardized solar                                                                The value of x for the absorber material in B6G9 is 0.18, giving itsradiation of air mass 1.5 global (AM 1.5G, 1000 W m – 2) for the J – V                                                                    chemical composition as, Sb2S0.54Se2.46. For C6H9, x = 0.11 and themeasurements calibrated with a standard silicon solar cell and mono­                                                                     composition is, Sb2S0.33Se2.67. The results are in agreement with thechromatic radiation calibrated with a standard silicon photodiode for                                                                           increase in the Se content in the chemical deposition for C6H9 absorberthe EQE measurement. In all cases, The JSC and VOC values of solar cells                                                              compared with that used for the B6G9 absorber. It was difficult towere confirmed in repeated measurements under the sun, which during                                                                               establish a compositional variation along the thickness of the absorberDecember–February near mid-day at our site was at an intensity of                                – 2                                              film by this measurement.approximately 1000 W m    (Fluke hand-held radiometer and Fluke                                                                                      Fig. 5 shows the GIXRD patterns for the absorber films produced bymultimeter).                                                               VTE. In the patterns recorded at δ = 1.5◦for the absorber films in VT-1,\n                                                               VT-2 and VT-3, the diffraction peaks corresponding to the SnO2 is very3. Results and discussion                                                                 weak. Thus, the thickness of the absorber film is greater than the sam­\n                                                                           pling depth (240 nm). In the step thickness measurement, the absorber3.1.  Crystalline structure and composition of the absorber materials                                                                            layer thickness was found to be nearly 300 nm. The values of x estimated\n                                                                                for these films from these patterns were 0.27, 0.5 and 0.29. Thus, the    Fig. 4 shows the GIXRD patterns recorded at δ = 0.5 and 1.5◦for the\n\n                                                                        5",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 3",
+          "text": "Fig. 3. (a) Bottom plot, selenide (Se²⁻) to sulfide + selenide (Se²⁻+ S²⁻) ratio in the deposition bath and the value 1 – x values in the deposited films of Sb2(SxSe1-x)3\nof 100–200 nm in thickness used for solar cells made by chemical deposition [11,17] and the corresponding solar cell parameters, VOC, JSC, and η. (b) Bottom plot,\nselenium (Se) to selenium + sulphur (Se + S) ratio in the evaporation source and in the deposited films of Sb2(SxSe1-x)3 of thickness 450 nm and the corresponding\nsolar cell parameters [5]. The dashed line for 1 – x = 0.6 represents a thin film of composition, Sb2S1.2Se1.8, the deposition of which requires a ratio of the sources,\n0.06 in CD and 0.4 in VTE, because the relatively lower solubility product of antimony selenide promotes its higher rate of condensation over a growing film at much\nlower ionic concentration, compared with that for the sulfide component.",
+          "figure_bbox": [
+            124.93,
+            53.45,
+            470.34,
+            327.25
+          ],
+          "bbox": [
+            37.59,
+            331.26,
+            559.8,
+            391.44
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 3",
+          "caption": "Fig. 3. (a) Bottom plot, selenide (Se²⁻) to sulfide + selenide (Se²⁻+ S²⁻) ratio in the deposition bath and the value 1 – x values in the deposited films of Sb2(SxSe1-x)3\nof 100–200 nm in thickness used for solar cells made by chemical deposition [11,17] and the corresponding solar cell parameters, VOC, JSC, and η. (b) Bottom plot,\nselenium (Se) to selenium + sulphur (Se + S) ratio in the evaporation source and in the deposited films of Sb2(SxSe1-x)3 of thickness 450 nm and the corresponding\nsolar cell parameters [5]. The dashed line for 1 – x = 0.6 represents a thin film of composition, Sb2S1.2Se1.8, the deposition of which requires a ratio of the sources,\n0.06 in CD and 0.4 in VTE, because the relatively lower solubility product of antimony selenide promotes its higher rate of condensation over a growing film at much\nlower ionic concentration, compared with that for the sulfide component.",
+          "bbox": [
+            124.93,
+            53.45,
+            470.34,
+            327.25
+          ],
+          "file": "extracted_images/page5_figure-3_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 6,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\n\n\n\n\nFig. 4. Standard powder diffraction files for Sb2S3 (bottom) and Sb2Se3 (top) with the Miller indices of some crystalline planes producing the diffraction peaks and\nthe GIXRD patterns recorded after the heating for the chemically deposited solar cells.\n\ncomposition of the absorber layers in these solar cells are estimated as:     19.5 nm; and VT-3, 23 nm. There is no marked difference between the\nVT-1, Sb2S0.8Se2.2; VT-2, Sb2S1.5Se1.5; VT-3, Sb2S0.9Se2.1.                   values of D in the film deposited at 80 ◦C in the case of chemically\n   Because of compositional variation along the thickness of the films,     deposited (CD) solar cell structures and those deposited at a substrate\nthe (hkl) peaks are broadened. Hence, the application of Scherrer’s     temperature of 425–440 ◦C in the solar cells produced by VTE. The value\nformula [21] available with the XRD software for the estimation of the     of D for all these films may be is stated as approximately 20 nm. In\naverage crystalline diameter (D) in the absorber film may lead to its    summary, the composition of the films expected from the Se 2 –/(S2 – +\nunderestimation. The full width at half maximum of diffraction peaks    Se 2 –) ratio in the deposition bath for B6G9 and C6H9, and the S/(S +\nfrom the (120) and (321) planes of the materials were considered for the     Se) ratio in the evaporation source for the solar cells in the FTO/Cd­\nevaluation of D. For the top 80 nm region of the absorber layer, GIXRD     S/absorber1/absorber2 stack and those experimentally determined as\npattern recorded at δ = 0.5◦was used; and for the material up to a depth    an average from the GIXRD data in Figs. 4 and 5 are.\nof 240 nm, the pattern recorded at δ = 1.5◦was used. There was no clear\ndifference between the values obtained in these two cases. The average       B6G9: Sb2S2.65Se0.35/Sb2S0.6Se2.4; GIXRD: Sb2S0.54Se2.46 (Eg, 1.24\nvalue for D were: B6G9, 18.5 nm; C6H9, 20.5 nm; VT-1, 22 nm; VT-2,        eV, λg 1000 nm)\n\n\n                                                                        6",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 4",
+          "text": "Fig. 4. Standard powder diffraction files for Sb2S3 (bottom) and Sb2Se3 (top) with the Miller indices of some crystalline planes producing the diffraction peaks and\nthe GIXRD patterns recorded after the heating for the chemically deposited solar cells.",
+          "figure_bbox": [
+            124.93,
+            53.45,
+            470.34,
+            563.6
+          ],
+          "bbox": [
+            37.59,
+            568.16,
+            559.76,
+            589.47
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 4",
+          "caption": "Fig. 4. Standard powder diffraction files for Sb2S3 (bottom) and Sb2Se3 (top) with the Miller indices of some crystalline planes producing the diffraction peaks and\nthe GIXRD patterns recorded after the heating for the chemically deposited solar cells.",
+          "bbox": [
+            124.93,
+            53.45,
+            470.34,
+            563.6
+          ],
+          "file": "extracted_images/page6_figure-4_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 7,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\n\n\n\n\nFig. 5. GIXRD peaks for the absorber films of solar cells produced by vacuum thermal evaporation along with the standard powder diffraction files for Sb2S3 and\nSb2Se3. The GIXRD patterns were recorded after the heating; at 1.5◦the pattern represents materials at a sampling depth of 240 nm.\n\n   C6H9: Sb2S2.35Se0.65/Sb2S0.5Se2.5; GIXRD: Sb2S0.33Se2.67 (Eg, 1.19     3.2. Optical absorption and light generated current density in the solar\n   eV, 1040 nm)                                                                          cells\n   VT-1: Sb2S0.75Se2.25/Sb2S1.15Se1.85; GIXRD: Sb2S0.8Se2.2 (Eg, 1.30 eV,\n   950 nm)                                                       Antimony sulfide selenide thin films made by the chemical deposi­\n   VT-2: Sb2S1.3Se1.7/Sb2S1.15Se1.85; GIXRD: Sb2S1.5Se1.5 (Eg, 1.49 eV,     tion method reported here lack adherence to glass substrates. Thus, the\n   830 nm)                                                                  optical characteristics presented in Fig. 6 were recorded for the CD and\n   VT-3: Sb2S0.75Se2.25/Sb2S1.2Se1.8; GIXRD: Sb2S0.9Se2.1 (Eg, 1.33 eV,    VTE solar cell stacks.\n   930 nm).                                                      The T + R plot in Fig. 6a helps to identify a threshold wavelength λg\n                                                                 (890 nm) at which the optical absorption in the C6H9 absorber layer\n   The values for the Eg and wavelength for the onset of optical ab­      sets-in; for the VT-3 stack, it is at λg = 998 nm (Fig. 6b). The estimates for\nsorption, λg, are estimated by assuming its proportional variation with     JL obtained from the summation of JLλ (1 – T – R) for λ, 0 → λg in Fig. 6c\nthe chemical composition illustrated in Fig. 1. Analysis of the optical    and d are: 16 and 21 mA cm – 2 for the B6G9 and C6H9 solar cells, es­\nproperties of the solar cells would give more reliable values for these     timates from the absorber stacks VT-1, VT-2 and VT-3 for their solar cells\nparameters of the absorbers.                                                   are: 25, 24 and 26 mA cm – 2. These values are approximations for the\n\n                                                                        7",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 5",
+          "text": "Fig. 5. GIXRD peaks for the absorber films of solar cells produced by vacuum thermal evaporation along with the standard powder diffraction files for Sb2S3 and\nSb2Se3. The GIXRD patterns were recorded after the heating; at 1.5◦the pattern represents materials at a sampling depth of 240 nm.",
+          "figure_bbox": [
+            124.93,
+            53.45,
+            470.34,
+            558.95
+          ],
+          "bbox": [
+            37.59,
+            563.57,
+            559.76,
+            585.12
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 5",
+          "caption": "Fig. 5. GIXRD peaks for the absorber films of solar cells produced by vacuum thermal evaporation along with the standard powder diffraction files for Sb2S3 and\nSb2Se3. The GIXRD patterns were recorded after the heating; at 1.5◦the pattern represents materials at a sampling depth of 240 nm.",
+          "bbox": [
+            124.93,
+            53.45,
+            470.34,
+            558.95
+          ],
+          "file": "extracted_images/page7_figure-5_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 8,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\n\n\n\n\nFig. 6. (a) Optical transmittance (T) and “Film side” and “Glass side” specular reflectance for the solar cell stack Glass/FTO/CdS/C6H9. (b) T, R, and T + R plots for\nthe Glass/FTO/CdS/VT-3 stack. (c) and (d) – Spectral distribution of light generated current density JLλ for AM 1.5 G solar radiation (1000 W m – 2) and the function\nJLλ (1 – T – R) for the B6G9 and C6H9 and VT-1, 2, 3 absorbers. (e) and (f) – Plots for the analysis of bandgap of the dominant absorber component in the stack.\n\nJSC in the solar cells. Fig. 6e and f shows analyses of Eg (direct gap,    VTE cells, these are of 300 nm. In spite of such differences, the cell\nforbidden transition) of 1.25 eV–1.5 eV for the different absorber stacks     parameters are similar, as summarized in the inset tables. A conversion\nobtained from α evaluated using equation (1) for photon energies hν. In     efficiency of 4.6–5.7 % is available in the CD and VTE cells. The EQE\nthese cases, a value for the bandgap for each absorber stack is obtained     plots in Fig. 7c for the CD-cell and for the VTE cell in Fig. 7d show that\nby linear regression analysis of the plots in the photon energy interval     the maximum EQE is up to 0.84 for the C6H9 cell and 0.76 for the VT-3\n1.5–2.0 eV. These values deviate from those predicted from the chemical      cell. However, the EQE falls below 0.5 at wavelengths longer than 800\ncomposition obtained from GIXRD results, which assumed a linear   nm in both these cases. Correction of this deficiency requires the\nvariation of Eg with chemical composition in the interval 1.1 eV (Sb2Se3)    improvement of a p+-layer, which is assumed to form at the Sb-S-Se/C-\nto 1.88 eV (Sb2S3). For example, for VT-1, 2 and 3, the values from     electrode interface [5,13,14].\nGIXRD are: 1.30, 1.49 and 1.33 eV and from Fig. 6f, these are: 1.27, 1.35        Since the EQE represents optical absorption in the absorber material\nand 1.25 eV. The deviation is more pronounced for the chemically     of the solar cell and hence to α for a particular photon energy (hν (eV) =\ndeposited absorber stacks.                                          1240/λ (nm)), the plot of (EQE × hν)2/3 versus hν in the inset for the\n                                                                     near infrared toward the visible region of the spectrum would show a\n                                                                     behavior similar to that in Fig. 6e and f. A linear regression fit for these3.3. Solar cell characteristics                                                                               plots for the photon energy range 1.5–2.0 eV shows values for Eg (direct-\n                                                                       forbidden transitions) for the CD cells B6G9 and C6H9 of 1.48 and 1.42   The J – V characteristics of the solar cells measured under standard                                                                       eV, close to 1.5 and 1.41 eV, Fig. 6e, obtained from the optical T and Rtest conditions are given in Fig. 7a and b. The corresponding EQE plots                                                                             data. For VT-2 and VT-3 cells, the corresponding values of Eg of 1.45 eVmeasured under short circuit condition for the cells are given in Fig. 7c                                                              and 1.39 eV for VT-2 and VT-3 absorbers deviate more from 1.35 to 1.25and d. In each case, the characteristics given are for the best solar cells                                                          eV obtained from the optical data (Fig. 6f).among a set of four cells, shown in the experimental section Fig. 2v.                                                      – 2                               In the case of variable bandgap absorbers reported here, some dif­   The maximum power density in mW cm    obtained for the solar                                                                           ferences exist among Eg obtained from the compositional (GIXRD), op­cells is numerically the maximum conversion efficiency (%) as well.                                                                                        tical (T, R) and EQE methods. The data in Fig. 6 (e) and (f) consideredWhile the absorber films in CD solar cells are of 160 nm in thickness, in\n\n                                                                        8",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 6",
+          "text": "Fig. 6. (a) Optical transmittance (T) and “Film side” and “Glass side” specular reflectance for the solar cell stack Glass/FTO/CdS/C6H9. (b) T, R, and T + R plots for\nthe Glass/FTO/CdS/VT-3 stack. (c) and (d) – Spectral distribution of light generated current density JLλ for AM 1.5 G solar radiation (1000 W m – ²) and the function\nJLλ (1 – T – R) for the B6G9 and C6H9 and VT-1, 2, 3 absorbers. (e) and (f) – Plots for the analysis of bandgap of the dominant absorber component in the stack.",
+          "figure_bbox": [
+            124.93,
+            53.45,
+            470.34,
+            450.1
+          ],
+          "bbox": [
+            37.59,
+            454.72,
+            559.78,
+            485.79
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 6",
+          "caption": "Fig. 6. (a) Optical transmittance (T) and “Film side” and “Glass side” specular reflectance for the solar cell stack Glass/FTO/CdS/C6H9. (b) T, R, and T + R plots for\nthe Glass/FTO/CdS/VT-3 stack. (c) and (d) – Spectral distribution of light generated current density JLλ for AM 1.5 G solar radiation (1000 W m – ²) and the function\nJLλ (1 – T – R) for the B6G9 and C6H9 and VT-1, 2, 3 absorbers. (e) and (f) – Plots for the analysis of bandgap of the dominant absorber component in the stack.",
+          "bbox": [
+            124.93,
+            53.45,
+            470.34,
+            450.1
+          ],
+          "file": "extracted_images/page8_figure-6_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 9,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\n\n\n\n\nFig. 7. (a) and (b) Current density (J) versus bias voltage under standard AM1.5 G simulated solar illumination (1000 W m – 2, 25 ◦C) for the antimony sulfide\nselenide solar cells prepared by chemical deposition using thioacetamide – thiourea – selenosulfate solutions or by vacuum thermal evaporation (VTE) from Sb2S3-\nSb2Se3 powder mixtures. Corresponding EQE plots are in (c) and (d); the products of EQE and the spectral distribution of light generated current density are in (e) and\n(f) with the inset tables showing the values for JSC obtained from the areas under the curves.\n\nonly the optical losses. The plots in Fig. 7 (e) and (f) are of the product,    under  white  illumination  used  for  J  – V measurement,  carrier\nEQE x JLλ (mA cm – 2 nm – 1) in which the optical as well as the collection     de-trapping, which occurs under actual operation may contribute to­\nlosses of photo-generated  carriers due to electronic processes are    ward a small increase in the current density. In this case, the JSC vales\nconsidered. The area under the plots represent the JSC of the solar cells:     obtained from J – V measurement, which were confirmed from mea­\n17.6 and 19.7 mA cm – 2 for the B6G9 and C6H9 and 16.5 and 17.9 mA    surement made under solar radiation, were 20–30 % higher. The\ncm – 2 for VT-2 and VT-3 solar cells. The area under the JLλ plot is nearly    importance of the EQE curve is that it facilitates a diagnostics of the cell\n67 mA cm – 2 from the summation of the values up to λ = 2500 nm under     structure, and hence to seek improvements: The rapid drop in EQE at λ <\nAM 1.5 G (1000 W m – 2) solar radiation, which corresponds to a    500 nm (2.48 eV) in all the cells suggests that the optical absorption and\nsemiconductor such as crystalline PbS [19,20]. In general, the JSC values     carrier generation in the CdS window layer for radiation at such wave­\nobtained for a solar cell this way, under monochromatic illumination, is     lengths are not followed by carrier collection. This highlights the need to\nlower than the JSC values listed in Fig. 7 (a) and (b). This occurs because,     decrease its thickness, possibly through a ZnS/CdS window layer. The\n\n                                                                        9",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 7",
+          "text": "Fig. 7. (a) and (b) Current density (J) versus bias voltage under standard AM1.5 G simulated solar illumination (1000 W m – ², 25 ◦C) for the antimony sulfide\nselenide solar cells prepared by chemical deposition using thioacetamide – thiourea – selenosulfate solutions or by vacuum thermal evaporation (VTE) from Sb2S3-\nSb2Se3 powder mixtures. Corresponding EQE plots are in (c) and (d); the products of EQE and the spectral distribution of light generated current density are in (e) and\n(f) with the inset tables showing the values for JSC obtained from the areas under the curves.",
+          "figure_bbox": [
+            75.39,
+            53.45,
+            519.83,
+            570.35
+          ],
+          "bbox": [
+            37.59,
+            574.31,
+            559.78,
+            615.62
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 7",
+          "caption": "Fig. 7. (a) and (b) Current density (J) versus bias voltage under standard AM1.5 G simulated solar illumination (1000 W m – ², 25 ◦C) for the antimony sulfide\nselenide solar cells prepared by chemical deposition using thioacetamide – thiourea – selenosulfate solutions or by vacuum thermal evaporation (VTE) from Sb2S3-\nSb2Se3 powder mixtures. Corresponding EQE plots are in (c) and (d); the products of EQE and the spectral distribution of light generated current density are in (e) and\n(f) with the inset tables showing the values for JSC obtained from the areas under the curves.",
+          "bbox": [
+            75.39,
+            53.45,
+            519.83,
+            570.35
+          ],
+          "file": "extracted_images/page9_figure-7_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 10,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\ndrop in EQE at λ > 600 nm, suggests that an improved “back surface field     standard deviation in the values of the solar cell parameters from Fig. 7\n(BSF)” layer is essential at the Sb-S-Se/C interface.                           (a) and (b) and Fig. 8 (a) and (b) are given in Fig. 8(c) and (d). The\n                                                                 sample labels with “s” as in B6G9s and VT-1s represent the values\n                                                                     recorded after the stability (s) test described above. There are no dis­\n3.4.  Reliability, stability and prospects of the CD and VTE solar cells          tinctions in the stability in CD-cells compared with VTE-cells. Both\n                                                                    methodologies produce solar cells with reliable characteristics, with\n   In Fig. 8 (a) and (b) are given the J – V characteristics of the solar     conversion efficiencies at or above 5 % in the best cell before and after\ncells, presented in Fig. 7 (a) and (b), measured 3 months after their     the stability test, placed second among the values.\npreparation, and after placing these under the sun for 4 h with an in­\ntensity of solar radiation at an average of 1000 W m – 2 at our site during       C6H9: VOC, 0.412 and 0.415 V; JSC, 23.6 and 23.0 mA cm – 2; FF, 0.54\nMarch of the year 2025. During this exposure, with the FTO side facing       and 0.52; η, 5.25 and 5.0 %\nthe sun, the temperature of the solar cells rose to 52 ◦C, with the ambient       VT3: VOC, 0.451 and 0.455 V; JSC, 24.5 and 24.0 mA cm – 2; FF, 0.52\ntemperature at 25–28 ◦C. These solar cells did not have encapsulation,       and 0.48; η, 5.75 and 5.2 %.\nunlike that applied on prototype modules prepared by chemical depo­\nsition [11] or by VTE [22]. The J – V characteristics were measured after       The VTE route is well suited through future work to replace CdTe in\nthe cells cooled down to room temperature (25 ◦C). The average and\n\n\n\n\n\nFig. 8. (a) and (b) J – V characteristics of the solar cells recorded three months after their preparation and with exposure under solar radiation, 4 h at an intensity\n1000 W m – 2 with cell temperature at 52 ◦C during this period. In the analysis of the solar cell parameters in (c) and (d), a comparison is possible with the data in\nFig. 7 (a) and (c), which were recorded three months earlier without such exposure under the sun (stability tested cells – s).\n\n                                                                        10",
+      "tables": [],
+      "captions": [
+        {
+          "kind": "figure",
+          "label": "Figure 8",
+          "text": "Fig. 8. (a) and (b) J – V characteristics of the solar cells recorded three months after their preparation and with exposure under solar radiation, 4 h at an intensity\n1000 W m – ² with cell temperature at 52 ◦C during this period. In the analysis of the solar cell parameters in (c) and (d), a comparison is possible with the data in\nFig. 7 (a) and (c), which were recorded three months earlier without such exposure under the sun (stability tested cells – s).",
+          "figure_bbox": [
+            75.39,
+            232.65,
+            519.83,
+            709.07
+          ],
+          "bbox": [
+            37.59,
+            713.69,
+            559.76,
+            744.52
+          ]
+        }
+      ],
+      "figures": [
+        {
+          "label": "Figure 8",
+          "caption": "Fig. 8. (a) and (b) J – V characteristics of the solar cells recorded three months after their preparation and with exposure under solar radiation, 4 h at an intensity\n1000 W m – ² with cell temperature at 52 ◦C during this period. In the analysis of the solar cell parameters in (c) and (d), a comparison is possible with the data in\nFig. 7 (a) and (c), which were recorded three months earlier without such exposure under the sun (stability tested cells – s).",
+          "bbox": [
+            75.39,
+            232.65,
+            519.83,
+            709.07
+          ],
+          "file": "extracted_images/page10_figure-8_1.png"
+        }
+      ],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 11,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\nthe “First solar-type” production and assembly line of CdTe PV modules,     controlled ambient, but not essentially the fixed condition set for heat­\noffering advantages with respect to material availability and “energy-     ing the cell stack at 280 ◦C for 30 min in nitrogen ambient at 20–30 torr\npayback” period [8]. While that stage  is being awaited, chemical     reported here, may alter the cell performance. For example, a 2020\ndeposition route permits many research groups to get involved to solve     study found that oxygen exposure of the back surface improved the\nmany of the materials and interfacial problems of the cell structure,    performance of antimony sulfide selenide solar cells [29]. The avail­\nidentified in it [8,9]. Modest experimental facility may be adequate to      ability of solar cells of η, 5–6 % prepared by CD and VTE methods re­\nproduce the CD-solar cells and hence make improvements in the win­     ported here may help adapt innovative approaches to improve these.\ndow/material/interfacial components and in the cell parameters over    The basic merit of antimony sulfide selenide solar cells is their opera­\nthose reported here. For example, a 2025 study on Sb2S3 solar cells re­     tional stability [30], which has encouraged building prototype modules\nported the use of a modified nanostructured SnO2 layer treated in an    toward their commercialization [17,31].\nammonium fluoride solution on which CdS thin film was deposited. This\nwas followed by the deposition of the Sb2S3 absorber film, which was     5. Conclusions\nalso modified with chemical additives moderating the reaction. Conse­\nquently, its η increased to 8.26 % [23]. The introduction of LiF was        In solar cells of antimony sulfide selenide absorber stacks of distinct\nfound to improve the n-type character of the CdS thin films, and inhibit    bandgaps made by either chemical deposition (absorber thickness, 160\nthe inherent defects in the antimony sulfide selenide thin films produced    nm) or by vacuum thermal evaporation (300 nm), solar radiation to\nby   hydrothermal   chemical    deposition.   Consequently,    in      electricity conversion efficiencies of above 5 % may be achieved.\nFTO/CdS/Sb-S-Se solar cells, η rose to 10.76 % [24]. Similarly, the use of    Improvement of the cell characteristics may require further work in\na   “hole-selective   interfacial   layer”   in   the   cell   structure,     achieving increased doping concentration in the absorber, the use back\nFTO/CdS/Sb-S-Se/interfacial layer/contact, was found to take η to 9.13     surface  field  layers  to improve the  collection  efficacy  for photo-\n%, where the layer was related to a benzo[1,2-b:4,5-b’]dithiophene     generated carriers produced toward the back surface, and improved\n(BDT) analog [25].                                           window layers to improve charge carrier collection.\n   The CD-cell route is well-suited for producing prototype PV modules\nof 3–4 % conversion efficiency [11,17] in school laboratories, perhaps    CRediT authorship contribution statement\nby making use of better experimental facility available at a neighboring\nuniversity laboratory for processing and characterization. Such pro­       Priyanka Bamola: Writing – review & editing, Writing – original\ntotypes can help discuss in the  class room  their functionality in      draft, Validation, Methodology, Investigation, Formal analysis, Data\nlighting-up white light emitting diodes or those of different colors,     curation, Conceptualization. Fabiola De Bray S´anchez: Writing – re­\nhelping to appreciate Periodic Table of the Elements, from which the    view & editing, Validation, Methodology, Investigation, Formal anal­\nmaterials in the cell structure are constituted, and the interplay between      ysis. M.T.S. Nair: Writing – review & editing, Supervision, Resources,\n“matter and energy at the quantum level” underlying the operation of     Project administration, Methodology, Investigation, Funding acquisi­\nPV and LED devices [26].                                                       tion, Conceptualization. P.K. Nair: Writing – review & editing, Writing –\n                                                                               original draft, Validation, Supervision, Resources, Project administra­\n4. Perspectives on the variable bandgap antimony sulfide              tion, Methodology, Investigation, Funding acquisition, Formal analysis,\nselenide solar cells                                                      Conceptualization.\n\n   The approach made here to improve the open circuit voltage (VOC) of    Declaration of competing interest\nthe solar cell by placing an absorber layer with a larger Eg near the\nwindow layer (CdS) and with a smaller Eg behind it to increase the JSC       The authors declare that they have no known competing financial\nwas derived from experimental data (Fig. 1) [5]. However, the need to     interests or personal relationships that could have appeared to influence\nincrease the minority carrier concentration (electron, np) in the absorber     the work reported in this paper.\nlayer also requires attention. For ideal homo-junction n+/p solar cells\n[19,20], at any operating temperature, VOC = constant ln (JL/Jo), where    Acknowledgments\nJL is the light generated current density (25–45 mA cm – 2) in the\nabsorber layer (p-type) and the reverse saturation current density, Jo =     We are grateful to Enue Barrios Salgado for the overall experimental\nconstant (ni2/pp). Here, ni is the intrinsic carrier concentration in the     support for this work. Yareli Colín García helped with solar cell fabri­\nabsorber film, and pp is the majority carrier concentration (holes) in it.     cation and its characterization and Patricia Altuzar recorded the GIXRD\nThus, VOC is proportional to ln(pp/ni2). While the use of an absorber of a     data. Jos´e Campos and Gildardo Casarrubias Segura assisted in the PV\nlarger Eg is one way of increasing VOC through a reduction in ni2 this     characterization. Priyanka received DGAPA postdoctoral award for\nwould reduce JL, and hence JSC and η of the solar cell [5]. Thus, an in­    2023-25 from DGAPA-UNAM. Financial support for the work came from\ncrease in pp obtained through doping and/or guarding against the loss of   DGAPA-UNAM Project PAPIIT IN115823 and CONAHCYT Project LNC\nS and  Se  in  Sb2(SxSe1-x)3  during  the  thin  film  deposition and     2023-33.\npost-deposition processing is a necessity.\n   While doping methodology in the crystalline Si and III-V solar cells is    Data availability\nwell established, that is not so in commercial thin film CdTe solar cell\ntechnology  [4].  Substitutional doping  of  Te-sites (Group-VI) with       Data will be made available on request.\nGroup-V elements has been found to increase the VOC of CdTe solar cells\n[27]. Because antimony sulfide selenide thin film solar cells seen here    References\nessentially follow the scheme of commercial CdTe solar cells, they may\nbenefit from the “lessons” learned from the CdTe solar cell technology       [1]  J. Dong, Y. Liu, Z. Wang, Y. Zhang, Boosting VOC of antimony chalcogenide solar\n[8]. So far, such doping technology has not been successfully integrated              cells: a review on interfaces and defects, Nano Sel 2 (2021) 1818–1848, https://                                                                                         doi.org/10.1002/nano.202000288.\ninto Sb-S-Se solar cells [9]. With significantly distinct solubility products       [2] O. Madelung, Semiconductors: Data Handbook, Springer-Verlag, Berlin, 2004,\nfor substitutional dopant atoms in Sb-S-Se, doping may be difficult to            pp. 621–622, https://doi.org/10.1007/978-3-642-18865-7.\nachieve in the absorber films prepared by chemical deposition [28].       [3] M. Powalla, S. Paetel, E. Ahlswede, R. Wuerz, C.D. Wessendorf, T.M. Friedlmeier,                                                                                                 Thin-film solar cells exceeding 22% solar cell efficiency: an overview on CdTe-, Cu\nDoping may be easier to achieve in VT-cells through the addition of              (In, Ga)Se2-, and perovskite-based materials, Appl. Phys. Rev. 5 (2018) 041602,\nmetal salts into the evaporation source mix [7]. Thermal processing in           https://doi.org/10.1063/1.5061809.\n\n                                                                        11",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    },
+    {
+      "page": 12,
+      "text": "P. Bamola et al.                                                                                                           Materials Science in Semiconductor Processing 193 (2025) 109499\n\n [4] G.M. Wilson, M. Al-Jassim, W.K. Metzger, S.W. Glunz, P. Verlinden, G. Xiong, L.       [17] P. Bamola, Y.C. García, J.D. Gonzaga S´anchez, E. Barrios Salgado, M.T.S. Nair, P.\n    M. Mansfield, B.J. Stanbery, K. Zhu, Y. Yan, The 2020 photovoltaic technologies             K. Nair, Solar cells and prototype modules of variable bandgap antimony sulfide\n     roadmap, J. Phys. D Appl. Phys. 53 (2020) 493001, https://doi.org/10.1088/1361-             selenide thin films made by chemical deposition, Sol. Energy 288 (2025) 113295,\n     6463/ab9c6a.                                                                             https://doi.org/10.1016/j.solener.2025.113295.\n [5]  F. De Bray-S´anchez, M.T.S. Nair, P.K. Nair, Systematic variation of material            [18]  J.I. Pankove, Optical Processes in Semiconductors, Dover, New York, 1975.\n      characteristics with chemical composition in antimony sulfide selenide thin films       [19]  J. Nelson, The Physics of Solar Cells, first ed., Imperial College Press, London,\n     and its relevance to solar cell performance, Phys. Status Solidi 218 (2021)                  2003.\n     2000822–2000839, https://doi.org/10.1002/pssa.202000822.                        [20] P. Würfel, Physics of Solar Cells: from Principles to New Concepts, Wiley-VCH,\n [6] T.D.C. Hobson, L.J. Phillips, O.S. Hutter, H. Shiel, J.E.N. Swallow, C.N. Savory, P.             Verlag, 2005.\n      K. Nayak, S. Mariotti, B. Das, L. Bowen, L.A.H. Jones, T.J. Featherstone, M.            [21] U. Holzwarth, N. Gibson, The scherrer equation versus the debye–scherrer\n       J. Smiles, M.A. Farnworth, G. Zoppi, P.K. Thakur, T.-L. Lee, H.J. Snaith,                     equation, Nat. Nanotechnol. 6 (2011) 534, https://doi.org/10.1038/\n      C. Leighton, D.O. Scanlon, V.R. Dhanak, K. Durose, T.D. Veal, J.D. Major, Isotype           nnano.2011.145.\n      heterojunction solar cells using n-type Sb2Se3 thin films, Chem. Mater. 32 (2020)       [22] P.K. Nair, F. De Bray-S´anchez, G. V´azquez-García, M.T.S. Nair, Antimony sulfide\n     2621–2630, https://doi.org/10.1021/acs.chemmater.0c00223.                                selenide prototype photovoltaic modules surpassing 4% conversion efficiency\n [7] A.L. Espinosa Santana, P.K. Nair, Antimony sulfide selenide thin film solar cells             under the sun – a technological outlook, Sol. Energy 188 (2019) 1169–1177,\n     prepared from thermal evaporation sources produced via chemical reactions,                 https://doi.org/10.1016/j.solener.2019.06.079.\n     Mater. Sci. Semicond. Process. 160 (2023) 107450, https://doi.org/10.1016/j.         [23] G. Shen, A. Ke, S. Chen, T. Ma, S. Ali, M. Li, H.Y. Hsu, C. Chen, P. Yang, H. Song,\n     mssp.2023.107450.                                                                                        J. Tang, Strong chelating additive and modified electron transport layer for 8.26%-\n [8] C.H. Don, T.P. Shalvey, J.D. Major, What can Sb2Se3 solar cells learn from CdTe?              efficient Sb2S3 solar cells, Adv. Energy Mater. 15 (2025) 2406051, https://doi.org/\n    PRX Energy 2 (2023) https://doi.org/10.1103/PRXEnergy.2.041001.                     10.1002/aenm.202406051.\n [9] A. Bosio, G. Foti, S. Pasini, D. Spoltore, A Review on the fundamental properties of      [24] C. Liu, A. Gong, C. Zuo, T. Liu, X. Liang, D. Ren, K. Shen, J. Zheng, Q. Xue, Z. Li, R.\n     Sb2Se3-based thin film solar cells, Energies 16 (2023) 6862, https://doi.org/                      E.I. Schropp, B. Zou, Y. Mai, Heterojunction lithiation engineering and diffusion-\n     10.3390/en16196862.                                                                induced defect passivation for highly efficient Sb2(S,Se)3 solar cells, Energy\n[10] K. Li, Y. Lu, X. Ke, S. Li, S. Lu, C. Wang, S. Wang, C. Chen, J. Tang, Over 7%                Environ. Sci. 17 (2024) 8402–8412, https://doi.org/10.1039/D4EE03135K.\n      efficiency of Sb2(S,Se)3 solar cells via V-shaped bandgap engineering, Sol. RRL 4       [25] W. Chen, M. Wu, X. Chen, Z. Zhang, F. Guo, H. Zhang, Y. Wang, G. Ni, L. Qin,\n     (2020) 2000220–2000226, https://doi.org/10.1002/solr.202000220.                         C. Shi, Superior intermolecular noncovalent interactions empowered dopant-free\n[11] P.K. Nair, J.D. Gonzaga-S´anchez, L. Guerrero Martínez, P.Y. García Ayala, A.K.              hole transport materials for efficient and stable Sb2(S,Se)3 solar cells, Adv. Funct.\n     Martínez A. Pe˜naloza, Beauregard Le´on, Y. Colín García, J. Campos ´Alvarez, M.T.            Mater. 34 (2024) 2313403, https://doi.org/10.1002/adfm.202313403.\n      S. Nair, Chemically deposited antimony sulfide selenide thin film photovoltaic         [26] United Nations, 2025 – the international year of quantum science and technology.\n     prototype modules, ECS J. Solid State Sci. Technol. 8 (6) (2019) Q89–Q95, https://            https://quantum2025.org/. (Accessed 15 March 2025).\n     doi.org/10.1149/2.0101906jss.                                                    [27] J.N. Duenow, W.K. Metzger, Back-surface recombination, electron reflectors, and\n[12] M.T.S. Nair, P.K. Nair, R.A. Zingaro, E.A. Meyers, Conversion of chemically                  paths to 28% efficiency for thin-film photovoltaics: a CdTe case study, J. Appl.\n     deposited photosensitive CdS thin films to n-type by air annealing and ion                   Phys. 125 (2019) 053101, https://doi.org/10.1063/1.5063799.\n     exchange reaction, J. Appl. Phys. 75 (1994) 1557–1564, https://doi.org/10.1063/      [28] G. Hodes, Chemical Solution Deposition of Semiconductor Films, Marcel Dekker\n     1.356391.                                                                     and CRC Press, 2002, https://doi.org/10.1201/9780203909096.\n[13] E. C´ardenas, A. Arato, E. Perez-Tijerina, T.K. Das Roy, G.A. Castillo, B. Krishnan,       [29] N. Fleck, O.S. Hutter, L.J. Phillips, H. Shiel, T.D.C. Hobson, V.R. Dhanak, T.D. Veal,\n     Carbon-doped Sb2S3 thin films: structural, optical and electrical properties, Sol.                F. J¨ackel, K. Durose, J.D. Major, How oxygen exposure improves the back contact\n     Energy Mater. Sol. Cells 93 (2009) 33–36, https://doi.org/10.1016/j.                    and performance of antimony selenide solar cells, ACS Appl. Mater. Interfaces 12\n     solmat.2008.02.026.                                                                  (2020) 52595–52602, https://doi.org/10.1021/acsami.0c14256.\n[14]  F. Wu, Y. Zhao, L. Yao, H. Li, Z. Huang, L. Lin, Y. Ma, S. Chen, J. Li, G. Chen,         [30] B. Ríos-Ramirez, P.K. Nair, On the stability of operation of antimony sulfide\n     Manipulating back contact enables over 8%-efficient carbon-based Sb2(S, Se)3 solar             selenide thin film solar cells under solar radiation, Phys. Status Solidi Appl. Mater.\n       cells, Chem. Eng. J. 440 (2022) 135872, https://doi.org/10.1016/j.                              Sci. 215 (2018) 1–8, https://doi.org/10.1002/pssa.201800479.\n     cej.2022.135872.                                                                 [31]  J. Wang, K. Li, J. Tang, C. Chen, A perspective of antimony chalcogenide\n[15] R.A. Zingaro, D.O. Skolvin, Chemical deposition of thin films of lead selenide,                photovoltaics toward commercialization, Sol. RRL 7 (2023) 2300436–2300447,\n       J. Electrochem. Soc. 111 (1964) 42, https://doi.org/10.1149/1.2426060.                    https://doi.org/10.1002/solr.202300436.\n[16] M.T.S. Nair, P.K. Nair, R.A. Zingaro, E.A. Meyers, Enhancement of photosensitivity\n      in chemically deposited CdSe thin films by air annealing, J. Appl. Phys. 74 (3)\n     (1993) 1879–1884, https://doi.org/10.1063/1.354796.\n\n\n\n\n\n                                                                        12",
+      "tables": [],
+      "captions": [],
+      "figures": [],
+      "image_ids": [],
+      "needs_ocr": false
+    }
+  ],
+  "images": [
+    {
+      "id": "194c3625c8f5759271eabcf50f3d9420",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            501.05,
+            55.45,
+            557.69,
+            126.99
+          ]
+        }
+      ],
+      "file": "garbage/page1_194c3625c8f5759271eabcf50f3d9420.jpeg",
+      "is_garbage": true
+    },
+    {
+      "id": "679f771a6dffcf906aca92bb2ff2130b",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            36.79,
+            61.97,
+            96.38,
+            127.16
+          ]
+        }
+      ],
+      "file": "garbage/page1_679f771a6dffcf906aca92bb2ff2130b.jpeg",
+      "is_garbage": true
+    },
+    {
+      "id": "e6361e7ebd18021f1897dbc9d003a9ea",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            501.04,
+            148.74,
+            529.04,
+            176.74
+          ]
+        }
+      ],
+      "file": "garbage/page1_e6361e7ebd18021f1897dbc9d003a9ea.png",
+      "is_garbage": true
+    },
+    {
+      "id": "9a2b25dd49d91c0aabe070b8c871ee06",
+      "page": 1,
+      "pages": [
+        1
+      ],
+      "placements": [
+        {
+          "page": 1,
+          "bbox": [
+            362.1,
+            228.25,
+            370.15,
+            236.3
+          ]
+        }
+      ],
+      "file": "garbage/page1_9a2b25dd49d91c0aabe070b8c871ee06.jpeg",
+      "is_garbage": true
+    }
+  ]
+}
